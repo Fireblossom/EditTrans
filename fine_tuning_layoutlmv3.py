@@ -415,7 +415,7 @@ class LightningRunner:
             fw.close()
             
         best_model = model.load_from_checkpoint(trainer.checkpoint_callback.best_model_path)
-        best_model.model.save_pretrained('filter_pth_40000')
+        best_model.model.save_pretrained('filter_pth')
 
 
 def main(args):
@@ -433,10 +433,10 @@ if __name__ == '__main__':
     parser = CodeDocDataModule.add_argparse_args(parser)
 
     # Data Hyperparameters
-    parser.add_argument('--data_dir', default='rainbow_bank', type=str)
+    parser.add_argument('--data_dir', default='data/rainbow_bank', type=str)
     parser.add_argument('--train_dataset_name', default='train.jsonl', type=str)
     parser.add_argument('--valid_dataset_name', default='test.jsonl', type=str)
-    parser.add_argument('--test_dataset_name', default='toy.jsonl', type=str)
+    parser.add_argument('--test_dataset_name', default='example.jsonl', type=str)
     parser.add_argument('--box_level', default='segment', type=str, help='word or segment')
     parser.add_argument('--enable_position_1d', type=lambda x: bool(strtobool(x)), nargs='?', const=True, help='是否使用v3的global 1d编码',
                         default=False)
@@ -473,7 +473,7 @@ if __name__ == '__main__':
     parser.add_argument('--strategy', default=None, type=str)
     parser.add_argument('--max_epochs', default=10, type=int)
     parser.add_argument('--max_steps', default=40000, type=int)
-    parser.add_argument('--batch_size', default=64, type=int)
+    parser.add_argument('--batch_size', default=16, type=int)
     parser.add_argument('--val_test_batch_size', default=-1, type=int)
     parser.add_argument('--preprocess_workers', default=32, type=int)
     parser.add_argument('--learning_rate', default=2e-5, type=float)
@@ -481,7 +481,7 @@ if __name__ == '__main__':
     parser.add_argument('--warmup_ratio', default=0.01, type=float)
     parser.add_argument('--patience', default=50, type=int)
 
-    parser.add_argument('--save_model_dir', default='/nfs/home/duan/tpp/lightning_logs_40000', type=str)
+    parser.add_argument('--save_model_dir', default='lightning_logs', type=str)
     parser.add_argument('--ckpt_path', default=None, type=str)
     parser.add_argument('--log_every_n_steps', default=1, type=int)
     parser.add_argument('--val_check_interval', default=0.25, type=float)  # int时多少个steps跑验证集,float 按照比例算
