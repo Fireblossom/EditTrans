@@ -1,0 +1,48 @@
+### 4 language pairs A single encoder-decoder model is trained on 4 language pairs. We run experiments with 3 types of language pair combinations: 
+
+
+* ** Model 1** : 2 unique language pairs in forward and reverse direction: kn \(\leftrightarrow\)ml,te \(\leftrightarrow\)ta. Results documented in Table 3 
+* ** Model 2** : 4 unique language pairs: kn \(\rightarrow\)ml, ml \(\rightarrow\)te, te \(\rightarrow\)ta, ta \(\rightarrow\)kn. Results documented in Table 4 
+* ** Model 3** : 4 unique language pairs with VOLT: kn \(\rightarrow\)ml, ml \(\rightarrow\)te, te \(\rightarrow\)ta, ta \(\rightarrow\)kn. Results documented in Table 5 
+
+Both techniques expose the model to 1/3 of the total translation directions during training but the first technique is built to test model performance in very low resource conditions; when there are only 2 sources of parallel corpora available. In comparison, the second model is exposed to 1/3 of the total translation directions with each source-target language combination being unique. We ensure that in every model, both the encoder and decoder see each language atleast once during training. We observe that BLEU score for zero-shot translation lags by 5.03 on average compared to the performance of trained language pairs when we train on both directions of 2 language pairs only. In comparison, the zero-shot translation BLEU score lags by 5.98 BLEU on average for the model trained on 4 unique language pairs. The BLEU score for trained translation directions is always in the 6-8 BLEU range. The 4 language pair model trained with VOLT outperforms both the 32000 vocabulary models in zero-shot translation performance with zero shot scores lagging by 3.53 on average from the trained directions. 
+
+### 6 language pairs 2 additional language pairs are added to the 4 unique language pairs of model 2 and a transformer model is trained on all 6 language pairs. The model now sees 1/2 of all possible translation directions during training. Table 6 shows the results obtained from the 6 language pair model. We observe that zero-shot translation performance increases drastically. Zero-shot directions now lag by 1.76 BLEU to the trained translation directions. 
+
+Table 3: BLEU score for 4 language pair model 1. The rows are the source language and the columns are the target language. Cells in bold represent the translation directions used in training 
+
+\begin{tabular}{c|c c c c}
+\hline
+ & kn & ml & te & ta \\
+\hline
+kn & - & **7.7** & 1.0 & 0.8 \\
+ml & **8.9** & - & 5.7 & 0.6 \\
+te & 0.5 & 3.2 & - & **7.4** \\
+ta & 5.8 & 4.9 & **7.4** & - \\ \hline
+\end{tabular}
+
+
+Table 4: BLEU score for 4 language pair model 2. The rows are the source language and the columns are the target language. Cells in bold represent the translation directions used in training 
+
+\begin{tabular}{c|c c c c}
+\hline
+ & kn & ml & te & ta \\
+\hline
+kn & - & **7.4** & 0.4 & 0.5 \\
+ml & 1.0 & - & **7.0** & 0.4 \\
+te & 0.8 & 4.7 & - & **7.1** \\
+ta & **8.9** & 4.5 & 0.6 & - \\ \hline
+\end{tabular}
+
+
+Table 5: BLEU score for 4 language pair model 3. The rows are the source language and the columns are the target language. Cells in bold represent the translation directions used in training 
+
+\begin{tabular}{c|c c c c}
+\hline
+ & kn & ml & te & ta \\
+\hline
+kn & - & **6.5** & 4.5 & 0.8 \\
+ml & 6.8 & - & **6.4** & 5.5 \\
+te & 0.7 & 2.4 & - & **6.6** \\
+ta & **8.1** & 1.7 & 4.5 & - \\ \hline
+\end{tabular}

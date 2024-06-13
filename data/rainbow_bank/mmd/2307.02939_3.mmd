@@ -1,0 +1,42 @@
+ones where there are only a few particles, we opt to first bin the data points by _ X_ max . In each bin we calculate the mean value of the spectral parameter and the corresponding standard deviation. If a bin contains less than two data points, which can occur because not all showers might contain particles in that slice, we do not consider it for the parabolic fit. All the other bins are then fed to a least-squares fitting routine. We end up with a spectral function describing the spectral parameter value as function of the shower _ X_ max  in a given slice, for a particular antenna, 
+
+\[a(r_{\text{ant}},X_{\text{slice}},\;X_{\text{max}})=p_{0}^{a}+p_ {1}^{a}\cdot\;X_{\text{max}}+p_{2}^{a}\cdot\;X_{\text{max}}^{2}\] \[b(r_{\text{ant}},X_{\text{slice}},\;X_{\text{max}})=p_{0}^{b}+p_ {1}^{b}\cdot\;X_{\text{max}}+p_{2}^{b}\cdot\;X_{\text{max}}^{2}\] \[c(r_{\text{ant}},X_{\text{slice}},\;X_{\text{max}})=p_{0}^{c}+p_ {1}^{c}\cdot\;X_{\text{max}}+p_{2}^{c}\cdot\;X_{\text{max}}^{2}\;.\]  
+
+In Figure 3 we present a schematic overview of how we extract the spectral functions. These need to be determined only once for the air shower geometry under consideration. Generalising them to arbitrary geometries will be the subject of future work. 
+
+### Construction of the template 
+
+The final ingredient of template synthesis, is the _ template_  itself. With this object and the spectral functions, we have all the necessary information to synthesise the emission from an air shower with arbitrary longitudinal profile. 
+
+In order to construct our template, we use a single microscopic simulation called the _ origin_  shower. The origin 
+
+the spectral coefficients. We can fit this dependency of the coefficients in order to obtain the _ spectral functions_ 
+
+is a microscopic simulation, sliced using the same procedure as the simulation set that was used to extract the spectral functions. From the origin shower we calculate the amplitude frequency spectrum \(A_{\text{origin}}\)\(A_{\text{origin}}\)the amplitude frequency spectrum Aorigin and phase frequency spectrum ϕorigin in each antenna and every slice,
+ \(\phi_{\text{origin}}\)in each antenna and every slice,
+ \(\phi_{\text{origin}}\) in each antenna and every slice, as shown in Figure 4. Using the spectral functions with the _ X_ max  of the origin shower, we can normalise these to obtain the spectra of the template, 
+
+\[A_{\text{template}}(r_{\text{ant}},f,X_{\text{slice}}) =A_{\text{origin}}(r_{\text{ant}},f,X_{\text{slice}})\] \[\qquad\cdot\left[\tilde{A}(r_{\text{ant}},f,X_{\text{slice}}\;X_{ \text{max}}^{\text{origin}})\right]^{-1}\] \[\phi_{\text{template}}(r_{ant},f,X_{\text{slice}}) =\phi_{\text{origin}}(r_{\text{ant}},f,X_{\text{slice}})\;.\]  
+
+\[a(r_{\text{ant}},X_{\text{slice}},\;X_{\text{max}})\;,\] \[b(r_{\text{ant}},X_{\text{slice}},\;X_{\text{max}})\;,\] \[c(r_{\text{ant}},X_{\text{slice}},\;X_{\text{max}})\;,\]  
+
+in every slice. This procedure is applied to each antenna 
+
+
+
+In this equation the parameterised amplitude frequency spectrum  \(\tilde{A}(f)\)\(\tilde{A}(f)\)also depends on
+ _ X_ max \(\tilde{A}(f)\)spectrum A(f) also depends on Xmax through the spectral coefficients, which are calculated using the fitted
+ \(f\)is restricted to the range used to fit the spectral
+ \(f\) is restricted to the range used to fit the spectral functions. 
+
+independently, indicated by the explicit dependency on the antenna distance. Therefore in the current version of template synthesis \(r_{\text{ant}}\), as well as \(X_{\text{slice}}\), can only take values on a fixed grid. We note here that while we write the functions as both a function of \(X_{\text{slice}}\) and _ X_ max , a more accurate description should probably take some combination of the two that could serve as a proxy for shower age in the slice. We come back to this in Section VI. 
+
+The template thus contains a normalised version of the 
+
+We fit the spectral parameters as a function of _ X_ max 
+
+origin shower. It acquires its phase frequency spectrum as is, but the origin amplitude frequency spectrum is corrected for the longitudinal evolution (particle number in 
+
+using a parabola. In order to better deal with the large scatter for some slices, especially the very early and late 
+
+FIG. 3. Schematic overview of how we extract the spectral functions from our simulation set. In every antenna, we decompose the emission from every slice in the geomagnetic (GEO) and charge-excess (CE) components. These are then fitted using Equations (4) and (5) respectively. Finally, we fit a parabola to each spectral parameter as a function of _ X_ max . The result of this are the spectral functions. 

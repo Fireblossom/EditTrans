@@ -1,0 +1,39 @@
+# Improving Generalization in Visual Reinforcement Learning via Conflict-aware Gradient Agreement Augmentation 
+
+Siao Liu Zhaoyu Chen Yang Liu Yuzheng Wang Dingkang Yang Zhile Zhao Ziqing Zhou Xie Yi Wei Li Wenqiang Zhang Zhongxue Gan Academy for Engineering & Technology, Fudan University _{_ saliu20, zhaoyuchen20, yang liu20, yzwang20, dkyang20, fd liwei, wqzhang, ganzhongxue _}_ @fudan.edu.cn 
+
+_{_ zhilezhao21, ziqingzhou21, yixie22 _}_ @m.fudan.edu.cn 
+
+##### Abstract
+_Learning a policy with great generalization to unseen_ 
+
+of a pretrained RL agent to perform well in unseen environments. Due to the dynamic nature of the real world, even minor perturbations in the environment can result in significant semantic shifts in the visual observations, which makes visual RL generalization challenging. 
+
+##### Abstract
+_environments remains challenging but critical in visual reinforcement learning._ _Despite the success of augmentation combination in the supervised learning generalization,_ 
+
+To improve generalization performance, data augmentation [29] is a widely adopted technique in reinforcement 
+
+##### Abstract
+_naively applying it to visual RL algorithms may damage_ _the training efficiency, suffering from serve performance_ _degradation._ _In this paper, we first conduct qualitative_ 
+
+learning. Numerous studies [22, 13] utilize data augmentation methods to generate synthetic data and diversify the training environments, yielding considerable performance improvements. However, recent methods [14, 3, 44] mostly select a single augmentation technique to improve the generalization capability, resulting in a poor performance in the environments with observations varying far from the augmented images. For instance, ColorJitter [23] is the preferred choice for addressing color variations, but agents trained with such augmentation still hard to cope with intricate texture patterns. In other words, the generalization ability heavily relies on the selection of specific data augmentation technique, which is so-called generalization bias. 
+
+Compared to single data augmentation, Augmentation 
+
+##### Abstract
+_analysis and illuminate the main causes: (i) high-variance_ _gradient magnitudes and (ii) gradient conflicts existed in_ _various augmentation methods. To alleviate these issues,_ _we propose a general policy gradient optimization framework, named Conflict-aware Gradient Agreement Augmentation (CG2A), and better integrate augmentation combination into visual RL algorithms to address the generalization_ _bias. In particular, CG2A develops a Gradient Agreement_ _Solver to adaptively balance the varying gradient magnitudes, and introduces a Soft Gradient Surgery strategy to alleviate the gradient conflicts. Extensive experiments demonstrate that CG2A significantly improves the generalization_ _performance and sample efficiency of visual RL algorithms._ 
+
+## 1. Introduction 
+
+With the development of deep learning in various 
+
+Combination (AC) [16] integrates multiple data augmentation methods to enhance the diversity of augmentations and alleviate the generalization bias, which is a more promising pre-processing solution. Unfortunately, there is a dilemma in incorporating AC into visual RL. Although data augmentation combination can effectively improve generalization capability in the supervised visual tasks, RL algorithms are quite sensitive to excessive variations, resulting in performance degradation and training sample inefficiency. Therefore, it is necessary to rethink why visual RL algorithms cannot benefit from AC as much as supervised learning. 
+
+From the perspective of gradient optimization, we conduct numerous qualitative analysis to illustrate the causes 
+
+tasks [28, 26, 25, 27, 7, 6, 38, 40, 39, 24], visual Reinforcement Learning (RL) has achieved impressive success in various fields such as robotic control [11], autonomous driving [17], and game-playing [35]. Previous works usually formulate it as a Partially Observable Markov Decision Process (POMDP) [33], and the agent receives highdimensional image observations as inputs. As depicted 
+
+of performance degradation and training collapse that occur when employing augmentation combinations during train- 
+
+in [15, 14], visual RL generalization refers to the ability 

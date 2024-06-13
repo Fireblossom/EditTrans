@@ -1,0 +1,34 @@
+# Mitigating Task Interference in Multi-Task Learning via Explicit Task Routing with Non-Learnable Primitives 
+
+Chuntao Ding ¹Zhichao Lu ²Shangguang Wang ³Ran Cheng ⁴Vishnu N. Boddeti ⁵¹ Beijing Jiaotong University ² Sun Yat-sen University ³ Beijing University of Posts and Telecommunications ⁴ Southern University of Science and Technology ⁵ Michigan State University chuntaoding@163.com _{_ luzhichaocn, ranchengcn _}_ @gmail.com sgwang@bupt.edu.cn vishnu@msu.edu 
+
+##### Abstract
+_Multi-task learning (MTL) seeks to learn a single model_ 
+
+##### Abstract
+_to accomplish multiple tasks by leveraging shared information among the tasks. Existing MTL models, however,_ _have been known to suffer from negative interference among_ _tasks. Efforts to mitigate task interference have focused on_ _either loss/gradient balancing or implicit parameter partitioning with partial overlaps among the tasks._ _In this_ _paper, we propose ETR-NLP to mitigate task interference_ _through a synergistic combination of non-learnable primitives (NLPs) and explicit task routing ()._ _Our key idea_ 
+
+For instance, consider the learning progression of an 
+
+##### Abstract
+_is to employ non-learnable primitives to extract a diverse_ _set of task-agnostic features and recombine them into a_ _shared branch common to all tasks and explicit task-specific_ _branches reserved for each task. The non-learnable primitives and the explicit decoupling of learnable parameters into shared and task-specific ones afford the flexibility_ _needed for minimizing task interference. We evaluate the_ _efficacy of ETR-NLP networks for both image-level classification and pixel-level dense prediction MTL problems._ _Experimental results indicate that ETR-NLP significantly_ _outperforms state-of-the-art baselines with fewer learnable_ _parameters and similar FLOPs across all datasets. Code is_ _available at this_ _ URL_ _._ 
+
+MTN with a standard learnable convolutional layer in Figure  1a  (blue curve). Observe that the model learns rapidly, we posit, by exploiting all the shared information between the tasks, i.e., gradients pointing in similar directions. However, the performance starts degrading on further training since the model needs to exploit dissimilar information between the tasks for further improvement, i.e., gradients point in different directions. The latter can be verified by observing the similarity (centered kernel alignment [ 19 ]), or the lack thereof, between the gradients for each pair of tasks in Figure  1b . 
+
+## 1. Introduction 
+
+Multi-task learning (MTL) is commonly employed to 
+
+Several approaches were proposed for mitigating task interference in MTNs, including loss/gradient balancing [ 17 , 
+
+improve learning efficiency and performance of multiple tasks by using supervised signals from other related tasks [ 6 ,  33 ,  49 ]. These models have led to impressive results across numerous tasks. However, there is well-documented evidence [ 18 , 28 , 41 , 53 ] that these models are suffering from _task interference_  [ 53 ], thereby limiting multi-task networks (MTNs) from realizing their full potential. 
+
+* _Work done as a visiting scholar at Michigan State University._ † _Corresponding author_ 
+
+21 , 22 , 34 , 52 ], parameter partitioning [ 2 , 28 , 30 , 37 ] and architectural design [ 8 , 18 , 29 ]. Despite the diversity of these approaches, they share two common characteristics, (i) all parameters are learned, either for a pre-trained task or for the multiple tasks at hand, (ii) the learned parameters are either fully shared across all tasks or are shared across a partial set of tasks through implicit partitioning, i.e., with no direct control over which parameters are shared across which tasks. Both of these features limit the flexibility of existing 
+
+(a)  ResNet18 
+
+(b)  Layer 1, 4, and 8 of ResNet18 (from left to right) 
+
+Figure 1. (a) Learning progression of multi-task networks (MTNs) on CelebA for eight tasks. Hard-sharing models with fully learnable parameters ( gray ) learn rapidly and then suffer from performance degradation due to conflicting gradients from task interference. Networks with non-learnable primitives (NLPs;  blue ) do not suffer from task interference by design, while explicit task routing (ETR; green), and ETR with NLPs ( red ) do not eliminate but suffer less from task interference. (b) Gradient correlations measured via CKA [ 19 ] across all pairs of tasks for different layers of a standard MTN at the end of training. Observe the acute lack of correlation between tasks (low off-diagonal magnitude). 

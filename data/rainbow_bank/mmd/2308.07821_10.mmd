@@ -1,0 +1,108 @@
+all \(p_{i}\)’s are integers and \(B=\frac{4ac^{*}}{\varepsilon}\). We can compute
+ \(\min(h_{{{\mathcal{I}}}^{0}_{1}}(x),B)\)exactly using standard
+ time.
+ 
+
+.
+ 
+
+dynamic programming in \(O(|{{\mathcal{I}}}^{0}_{1}|\cdot B)=\widetilde{O}(\frac{1}{\varepsilon^{2}})\)
+
+function
+ 
+
+
+
+The complexity of the resulting function is \(O(|{{\mathcal{I}}}^{0}_{1}|)=\widetilde{O}(\frac{1}{\varepsilon})\)
+
+with a
+ In \(\widetilde{O}(n+\frac{1}{\varepsilon^{2}})\)of
+ \(\widetilde{O}(n+\frac{1}{\varepsilon^{2}})\)time, we can compute a function
+ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)that approximates
+ \(\min(f_{{{\mathcal{I}}}^{0}_{3}},\frac{4c^{*}}{\varepsilon^{3/2}})\)as \(a\leqslant\frac{1}{\varepsilon^{1/2}}\).
+ factor of
+ \(1+\widetilde{O}(\varepsilon)\)and
+ via Lemma 7. The additive error caused by
+ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)is at most \(\widetilde{O}(\varepsilon\cdot\frac{4c^{*}}{\varepsilon^{3/2}})\leqslant \widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\varepsilon\cdot\frac{4c^{*}}{\varepsilon^{3/2}})\leqslant \widetilde{O}(\frac{1}{a\varepsilon})\) , and the complexity of \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)
+
+two
+ 
+
+\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)is \(\widetilde{O}(\frac{1}{\varepsilon})\)\(\widetilde{O}(\frac{1}{\varepsilon})\)
+
+_ and_ _, respectively. We can approximate_ \(\min(f_{{{\mathcal{I}}}^{0}_{3}},\frac{4c^{*}}{\varepsilon^{3/2}})\)Lemma
+ _ Let_ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\)_and_ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)_be two functions that approximate_ \(\operatornamewithlimits{max}\limits(f_{{{\mathcal{I}}}^{0}_{1}},p({{\mathcal{I }}}^{0}_{1})-\frac{4c^{*}}{\varepsilon^{3/2}})\)_ time._ _ with additive error_ \(\widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\frac{1}{a\varepsilon})\)_ and complexity_ \(\widetilde{O}(\frac{1}{\varepsilon})\)\(\widetilde{O}(\frac{1}{\varepsilon})\)_ and complexity_ 
+
+\(\widetilde{O}(\frac{1}{\varepsilon})\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\)
+
+\(\widetilde{O}(\frac{1}{\varepsilon})\)_ in_ \(\widetilde{O}(\frac{a^{2}}{\varepsilon})\)
+
+a
+ 
+
+\(\widetilde{O}(\frac{a^{2}}{\varepsilon})\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0 }_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0 }_{3}}\)_with additive error_ \(\widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\frac{1}{a\varepsilon})\)
+
+_Proof._  Let \(u=\operatornamewithlimits{max}\limits(0,p({{\mathcal{I}}}^{0}_{1})-\frac{4c^{* }}{\varepsilon^{3/2}})\). Since
+ . Note that
+ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\).
+ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\)have a range contained in
+ \([u,p({{\mathcal{I}}}^{0}_{1})]\), so
+ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}-u+1\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}-u+1\)have a range contained in
+ \([1,\frac{4c^{*}}{\varepsilon^{3/2}}+1]\)\[\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0 }_{3}}=\left((\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}-u+1)\oplus\widetilde{f}_ {{{\mathcal{I}}}^{0}_{3}}\right)+u-1.\]  ,
+ \[\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0 }_{3}}=\left((\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}-u+1)\oplus\widetilde{f}_ {{{\mathcal{I}}}^{0}_{3}}\right)+u-1.\]  suffices
+ , therefore,
+ To approximate \((\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}-u+1)\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0 }_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0 }_{3}}\), it suffices to approximate
+ \((\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}-u+1)\oplus\widetilde{f}_{{{\mathcal{I }}}^{0}_{3}}\)_ _ with an additive error . We can approximate the two
+ . Both
+ \((\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}-u+1)\)and
+ allowed
+ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)have ranges contained in \(\{0\}\cup[1,\frac{4c^{*}}{\varepsilon^{3/2}}+1]\)of \(\widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\frac{1}{a\varepsilon})\)time. The complexity of the resulting function
+ the approximation factor we are allowed to incur is
+ \(1+\widetilde{O}(\frac{\varepsilon^{1/2}}{a})\)  .
+ functions via Lemma 4 using \(\widetilde{O}(\frac{1}{\varepsilon}+\frac{a^{2}}{\varepsilon})=\widetilde{O}( \frac{a^{2}}{\varepsilon})\)\(\widetilde{O}(\frac{1}{\varepsilon}+\frac{a^{2}}{\varepsilon})=\widetilde{O}( \frac{a^{2}}{\varepsilon})\)
+
+_ with_ 
+
+is \(\widetilde{O}(\frac{a}{\varepsilon^{1/2}})\leqslant\widetilde{O}(\frac{1}{ \varepsilon})\)\(\widetilde{O}(\frac{a}{\varepsilon^{1/2}})\leqslant\widetilde{O}(\frac{1}{ \varepsilon})\)
+
+**Lemma 14.** _ Let_ \(g\)_ be a function that approximates_ \(\operatornamewithlimits{max}\limits(f_{{{\mathcal{I}}}^{0}_{1}},p({{\mathcal{I }}}^{0}_{1})-\frac{4c^{*}}{\varepsilon^{3/2}})\oplus\min(f_{{{\mathcal{I}}}^{0 }_{3}},\frac{4c^{*}}{\varepsilon^{3/2}})\)_. We can approximate_ \(g\oplus f_{{{\mathcal{I}}}^{0}_{2}}\)_with additive error_ _ time._ _ and complexity_ \(\widetilde{O}(\frac{1}{\varepsilon})\)\(\widetilde{O}(\frac{1}{\varepsilon})\)_additive error_ \(\widetilde{O}(\frac{1}{a\varepsilon})\)complexity
+ \(\widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\frac{1}{a\varepsilon})\)_ and complexity_ 
+
+\(\widetilde{O}(\frac{1}{\varepsilon})\)
+
+\(\widetilde{O}(\frac{1}{\varepsilon})\)_ in_ \(\widetilde{O}(\frac{1}{\varepsilon^{2}})\)\(\widetilde{O}(\frac{1}{\varepsilon^{2}})\)
+
+distinct profits. By dividing
+ \({{\mathcal{I}}}^{0}_{2}\)into groups by profits, and merging the functions for the groups via Lemma 5(ii), we can compute a function _Proof._  The items in \({{\mathcal{I}}}^{0}_{2}\)have at most \(O(\delta)=\widetilde{O}(\frac{1}{\varepsilon^{1/2}})\)in time
+ \(O(|{{\mathcal{I}}}_{2}|+\frac{1}{\varepsilon^{2}})\leqslant O(n+\frac{1}{ \varepsilon^{2}})\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{2}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{2}}\)that approximates \(f_{{{\mathcal{I}}}^{0}_{2}}\)with factor
+ \(1+O(\varepsilon)\)and complexity
+ \(\widetilde{O}(\frac{1}{\varepsilon})\)\(\widetilde{O}(\frac{1}{\varepsilon})\)time.
+ time. The additive error of
+ \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{2}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{2}}\)is at most \(O(\varepsilon)\cdot f_{{{\mathcal{I}}}^{0}_{2}}(t)\leqslant O(\frac{1}{a \varepsilon})\). Merging
+ \(g\) and \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{2}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{2}}\)via Lemma 4(i) takes 
+
+
+
+\(\widetilde{O}(\frac{1}{\varepsilon^{2}})\)\(\widetilde{O}(\frac{1}{\varepsilon^{2}})\)
+
+_ within the domain_ \([b_{1},b_{0}]\)_._ Lemma
+ _ In_ \(\widetilde{O}(n+\frac{1}{\varepsilon^{2}})\)\(\widetilde{O}(n+\frac{1}{\varepsilon^{2}})\)_ time, we can compute a function with complexity_ \(\widetilde{O}(\frac{1}{\varepsilon})\)\(\widetilde{O}(\frac{1}{\varepsilon})\)
+
+
+
+_ that approx_ _imates_ \(f_{{\mathcal{I}}}\)_ with additive error_ \(\widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\frac{1}{a\varepsilon})\)
+
+time.
+ _Proof._  Computing \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{1}}\)that approximates
+ \(\operatornamewithlimits{max}\limits(f_{{{\mathcal{I}}}^{0}_{1}},p({{\mathcal{I }}}^{0}_{1})-\frac{4c^{*}}{\varepsilon^{3/2}})\)via Lemma
+ takes
+ \(\widetilde{O}(\frac{1}{\varepsilon^{2}})\)\(\widetilde{O}(\frac{1}{\varepsilon^{2}})\)time. Finally,
+ time. Computing \(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)that approximates
+ \(\min(f_{{{\mathcal{I}}}^{0}_{3}},\frac{4c^{*}}{\varepsilon^{3/2}})\)via Lemma
+ takes
+ \(\widetilde{O}(n+\frac{1}{\varepsilon^{2}})\)\(\widetilde{O}(n+\frac{1}{\varepsilon^{2}})\)time. The total additive error is bounded
+ Computing a function \(g\) that approximates \(\widetilde{O}(\frac{a(r_{0}-\ell_{0})}{\varepsilon})\)\(\widetilde{f}_{{{\mathcal{I}}}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)\(\widetilde{f}_{{{\mathcal{I}}}_{1}}\oplus\widetilde{f}_{{{\mathcal{I}}}^{0}_{3}}\)takes
+ \(\widetilde{O}(\frac{a^{2}}{\varepsilon})\)additive
+ \(\widetilde{O}(\frac{a^{2}}{\varepsilon})\), and the total running time is
+ approximating \(g\oplus f_{{{\mathcal{I}}}^{0}_{2}}\)takes
+ \(\widetilde{O}(\frac{a(r_{0}-\ell_{0})}{\varepsilon})\)\(\widetilde{O}(\frac{a(r_{0}-\ell_{0})}{\varepsilon})\)by \(\widetilde{O}(\frac{1}{a\varepsilon})\)\(\widetilde{O}(\frac{1}{a\varepsilon})\)\[\widetilde{O}(n+\frac{1}{\varepsilon^{2}}+\frac{a^{2}}{\varepsilon})\leqslant \widetilde{O}(n+\frac{1}{\varepsilon^{2}}).\]  \[\widetilde{O}(n+\frac{1}{\varepsilon^{2}}+\frac{a^{2}}{\varepsilon})\leqslant \widetilde{O}(n+\frac{1}{\varepsilon^{2}}).\]  

@@ -1,0 +1,26 @@
+We use Fenichel’s reduction to regularize the singular perturbation in existence and eigenvalue problem in Section 2. In Section 4, we study the resulting regularized traveling wave problem using functional-analytic methods, using methods developed in [2, 4, 3] to find pulled and pushed front profiles as well as the transition curve. Section 5 establishes marginal spectral stability of these fronts thus justifying the pushed and pulled terminology. In Section 6, we briefly compare the expansions obtained in Theorem 1.2 to those obtained using numerical continuation. The appendix contains the construction and properties of traveling fronts at \(\delta=0\).
+ 
+
+# Regularization via geometric singular perturbation theory 
+
+## Reduction of existence problem We express (1.5) as a dynamical system in the variable \(x\) by choosing coordinates \(U,W=U^{\prime},H=\frac{V-U}{\delta^{2}},Z=\delta H^{\prime}\), obtaining 
+
+\[U^{\prime} =W\] \[W^{\prime} =-\frac{1}{d_{1}}\Gamma(U,W,H,Z)\] \[\delta H^{\prime} =Z\] \[\delta Z^{\prime} =H+\frac{1}{d_{1}}\Gamma(U,W,H,Z),\  
+
+where 
+
+\[\Gamma(U,W,H,Z)=cW+W^{2}+\delta WZ+UH+U(1-U).\  
+
+When \(\delta=0\)the system (2.1) reduces to two algebraic equations coupled to two differential
+ equations. One identifies the following reduced slow manifold comprised of solutions of the algebraic of equations in the singular limit \(\delta=0\),
+ 
+
+\[\mathcal{M}_{0}=\left\{\left(U,W,H,Z\right)\ |\ Z=0,\ H=-\frac{cW +W^{2}+U-U^{2}}{d_{1}+U}\right\}.\  
+
+The linearization of (2.1) at any such fixed point has two zero eigenvalues and two hyperbolic for \(U\geq 0\). The eigenspaces of the non-zero eigenvalues are traverse to
+ \(\mathcal{M}_{0}\)and therefore the reduced manifold is normally hyperbolic. Fenichel’s Persistence Theorem [5] eigenvalues \(\pm\sqrt{1+\frac{U}{d_{1}}}\)implies that \(\mathcal{M}_{0}\) persists as an invariant manifold \(\mathcal{M}_{\delta}\) with the following properties. 
+
+Proposition
+ _ Fix_ \(0<\underline{d}<\overline{d}\)_,_ \(M>1\)_, and an integer_ \(k\geq 2\)_. There exists a_ \(\overline{\delta}>0\)_ such that all trajectories of_ _ with_ \(|\delta|<\overline{\delta}\)_,_ \(\underline{d}<d_{1}<\overline{d}\)_ satisfying_ \(-\frac{d_{1}}{2}<U<M\)_ and_ \(|W|\leq M\)_ lie in a slow manifold_ \(\mathcal{M}_{\delta}\)_, which is normally hyperbolic and invariant_ _under the flow of_  (2.1) _, and may be written as a graph_ \(\mathcal{M}_{\delta}=\{(U,W,H,Z):H=\psi_{H}(U,W;\delta),Z=\psi_{Z}(U,W;\delta)\}\)_, where_ 
+
+\[H =\psi_{H}(U,W;\delta)=\psi_{H}^{0}(U,W)+\delta\psi_{H}^{1}(U,W)+ \delta^{2}\psi_{H}^{2}(U,W)+\mathrm{O}(\delta^{4}),\] \[Z =\psi_{Z}(U,W;\delta)=\delta\psi_{Z}^{1}(U,W)+\mathrm{O}(\delta^{ 2}),\  

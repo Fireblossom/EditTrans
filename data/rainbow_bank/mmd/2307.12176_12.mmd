@@ -1,0 +1,27 @@
+For the fourth property we need to find a value for \(\beta\) such that \(|Opt(G)-|I_{F}||\leq\beta|Opt(T_{G},T^{\prime}_{G})-|F||\)covered
+ by 6
+ We
+ know
+ . Let \(\ell=|I_{F}|\) be the number of \(A_{v}\) in \(F^{\prime\prime}\)that are covered by 6 components. We know that \(|F|\geq|F^{\prime}|\geq|F^{\prime\prime}|=12n-\ell\). Observe: 
+
+\[|Opt(T_{G},T^{\prime}_{G})-|F|| =|F|-Opt(T_{G},T^{\prime}_{G})\] \[\geq|F^{\prime\prime}|-Opt(T_{G},T^{\prime}_{G})\] \[=12n-\ell-Opt(T_{G},T^{\prime}_{G})\] \[=12n-\ell-(12n-k)\] \[=k-\ell\] \[=|Opt(G)-|I_{F}||\]  
+
+So we pick \(\beta=1\)and we are done.
+ 
+
+## A tight 7k kernel 
+
+Recall the definitions of common subtrees and common chains from the preliminaries. It is well-known that the following two polynomial-time reduction rules do not alter the size of the uMAF [2]: 
+
+**Subtree reduction.**  If \(T\) and \(T^{\prime}\)have a maximal common pendant subtree \(S\) with at least two leaves, then reduce \(T\) and \(T^{\prime}\)to \(T_{r}\) and \(T^{\prime}_{r}\), respectively, by replacing \(S\) with a single leaf with a new label. 
+
+Chain
+  If \(T\) and \(T^{\prime}\)have a maximal common \(n\)-chain \(C=(\ell_{1},\ell_{2},\ldots,\ell_{n})\)with
+ \(n\geq 4\), then reduce
+ \(T\) and \(T^{\prime}\)to \(T_{r}=T|X\setminus\{\ell_{4},\ell_{5},\ldots,\ell_{n}\}\) and \(T_{r}^{\prime}=T^{\prime}|X\setminus\{\ell_{4},\ell_{5},\ldots,\ell_{n}\}\), respectively. 
+
+When applied to exhaustion on two unrooted binary trees, at which point we say the trees are _ fully reduced_ , these rules yield an instance with (ignoring additive terms) at most \(15k\) taxa [10], where \(k\) is the size of the uMAF 3 , and the analysis is tight. 
+
+Note that applying the subtree or chain reduction to a caterpillar produces a new caterpillar. In this section we will show that, when applied to exhaustion on two caterpillars, a much smaller kernel is obtained than on general unrooted binary trees. 
+
+**Theorem 4.** _ There is a 7k kernel for uMAF on caterpillars using only the common chain_ _and subtree reductions, and this is tight up to a constant additive term._ 3 The kernel bound given in [10] is in terms of TBR distance, rather than uMAF, but as noted earlier these quantities only differ by 1, so only additive terms are affected. 

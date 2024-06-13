@@ -1,0 +1,62 @@
+which is precisely ( 1.3 ) for \(p=1\)due to (
+ 3.12 ); the non-normalized case follows in a standard way. 
+
+Since the Sobolev inequality ( 1.3 ) for \(p=1\)is equivalent to the isoperimetric inequality
+ 
+
+\[n(\omega_{n}{\sf AVR}_{g})^{\frac{1}{n}}{\rm Vol}_{g}(\Omega)^{\frac{n-1}{n}} \leq\mathcal{P}_{g}(\partial\Omega)\  
+
+for every bounded open domain
+ \(\Omega\subset M\)ly
+  with smooth boundary ( \(\mathcal{P}_{g}\)out
+  being the perimeter), and ( 3.15 ) is sharp, see Balogh and Krist´ aly [ 2 ] and Brendle [ 4 ], it turns out that ( 1.3 ) is also sharp. \(\square\)
+
+## 4.  Proof of the sharp \(L^{p}\)-logarithmic Sobolev inequality (Theorem  1.2 ) 
+
+4.1. 
+
+###  The case \(p>1\)
+
+**.**  Let \(p>1\)and fix
+ \(f\in C_{0}^{\infty}(M)\)arbitrarily; we may assume that
+ \(f\) is nonnegative and \[\int_{M}f^{p}{\rm d}v_{g}=1.\]  As before, let
+ \(\Omega=\{x\in M:f(x)>0\}\)
+
+every
+ 
+
+
+
+\(k\in\mathbb{N}\)
+
+; since \(f\in C_{0}^{\infty}(M)\), then
+ \(\overline{\Omega}\)is compact.
+ 
+
+Let \(x_{0}\in\Omega.\)given
+  For every \(\lambda>0\)and
+ \(k\in\mathbb{N}\), we introduce the truncated Gaussian bubble \(G_{\lambda,k}:M\to\mathbb{R}\) given by \[G_{\lambda,k}(x)=P_{k}(d_{g}(x_{0},x))e^{-\lambda d_{g}^{p^{\prime}}(x_{0},x)},\]  where \(P_{k}\) is defined in ( 3.2 ). We observe that the support of \(G_{\lambda,k}\) is the ball \(\overline{B_{x_{0}}(k+1)}\). Let
+ \[\mathcal{J}_{\lambda,k}=\int_{M}G_{\lambda,k}(y){\rm d}v_{g}(y);\]  clearly,
+ \(0<\mathcal{J}_{\lambda,k}<\infty\)for every \(\lambda>0\)and
+ \(k\in\mathbb{N}\)
+
+
+
+. 
+
+Let
+ \({\rm d}\mu(x)=f^{p}(x){\rm d}v_{g}(x)\)and
+ \({\rm d}\nu(y)=\frac{G_{\lambda,k}(y)}{\mathcal{J}_{\lambda,k}}{\rm d}v_{g}(y)\)be two probability measures on
+ \((M,g)\)with
+ compact supports; by the theory of OMT one can find a unique map \(T:\overline{\Omega}\to\overline{B_{x_{0}}(k+1)}\subset M\)pushing \(\mu\) forward to \(\nu\) having the form \(T(x)=\exp_{x}(-\nabla_{g}u(x))\)for a.e.
+ \(x\in\overline{\Omega},\) for some \(c=d_{g}^{2}/2\)concave function \(u:\overline{\Omega}\to\mathbb{R}\). The associated Monge-Amp` ere equation is 
+
+\[f^{p}(x)=\frac{G_{\lambda,k}(T(x))}{\mathcal{J}_{\lambda,k}}{\rm det}DT(x)\ { \rm for\ a.e.}\ x\in\Omega.\  
+
+Accordingly, by ( 4.1 ), a change of variables, Jensen’s inequality and Propositions  2.1  and  2.2 , we 
+
+
+
+have 
+
+\[\int_{M}f^{p}\log f^{p}{\rm d}v_{g} = \int_{\Omega}f^{p}(x)\log\left(\frac{G_{\lambda,k}(T(x))}{ \mathcal{J}_{\lambda,k}}{\rm det}DT(x)\right){\rm d}v_{g}(x)\] \[= \int_{\Omega}f^{p}(x)\log\left({G_{\lambda,k}(T(x))}\right){\rm d }v_{g}(x)+n\int_{\Omega}f^{p}(x)\log\left(\frac{{\rm det}^{\frac{1}{n}}DT(x)}{ \mathcal{J}^{\frac{1}{n}}_{\lambda,k}}\right){\rm d}v_{g}(x)\] \[\leq \int_{\Omega}\frac{G_{\lambda,k}(T(x))}{\mathcal{J}_{\lambda,k}} \log\left({G_{\lambda,k}(T(x))}\right){\rm det}DT(x){\rm d}v_{g}(x)\] \[+n\log\left(\int_{\Omega}f^{p}(x)\frac{{\rm det}^{\frac{1}{n}}DT( x)}{\mathcal{J}^{\frac{1}{n}}_{\lambda,k}}{\rm d}v_{g}(x)\right)\] \[\leq \frac{1}{{\mathcal{J}_{\lambda,k}}}\int_{M}{G_{\lambda,k}(y)}\log \left({G_{\lambda,k}(y)}\right){\rm d}v_{g}(y)\] \[+n\log\left(\int_{\Omega}\frac{f^{p}(x)}{\mathcal{J}^{\frac{1}{n} }_{\lambda,k}}\left(1-\frac{\Delta_{g}u(x)}{n}\right){\rm d}v_{g}(x)\right)\] \[\leq \frac{1}{{\mathcal{J}_{\lambda,k}}}\int_{M}{G_{\lambda,k}}\log \left({G_{\lambda,k}}\right){\rm d}v_{g}+n\log\left(\int_{\Omega}\frac{f^{p}(x )}{\mathcal{J}^{\frac{1}{n}}_{\lambda,k}}\left(1-\frac{\Delta_{g,\mathcal{D}^{ \prime}}u(x)}{n}\right){\rm d}v_{g}(x)\right).\]  

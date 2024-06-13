@@ -1,0 +1,18 @@
+# WHEN DOES THE CHAOS IN THE CURIE-WEISS MODEL STOP TO PROPAGATE? 
+
+Let us now informally discuss the case when \(\alpha>0\). For simplicity, we consider (13). The limit on
+ the right-hand side is non-zero, which suggests that there is a residual dependence between the \(k(N)\) spins under the Gibbs measure. The reason for the non-zero limit is the fact that the distribution of \(\mathcal{P}_{k(N)}\) and the corresponding binomial distribution satisfy central limit theorems with different variances, the variance of \(\mathcal{P}_{k(N)}\) being strictly larger, which comes from the fact that the spins are positively correlated under the Gibbs measure. The distance between these normal distributions appears on the right-hand side of (13). In Theorem 3.5, we shall determine a _ mixed_  binomial distribution which approximates the distribution of \(\mathcal{P}_{k(N)}\) under \(\mu_{N}\). In some sense, this describes the residual dependence between the spins under the Gibbs measure. 
+
+_Remark_  1.2 _._  The exchangeability of the measure \(\mu_{N}\) has been used to investigate the Curie-Weiss model for example, in [17, Section 5.2] and [2]. In particular, an explicit representation of \(\mu_{N}\) as a mixture of Bernoulli measures (valid for each fixed \(N\)) can be found in [17, Theorem 5.6]. A general propagation of chaos principle stating that the distribution of \(k\) entries in a finite exchangeable vector of length \(n\) can be approximated by a mixture of i.i.d. distributions can found in [7]. 
+
+The paper is organized as follows. Our proof relies on local limit theorems for the magnetization \(m_{N}\) and also for the total number of positive spins \(\mathcal{P}_{N}\) under \(\mu_{N}\). In some regimes those are known. We collect the corresponding results in Section 2 below. The proofs of these local limit theorems, which we have not been able to locate in the literature, are given in Section 4. The proof of Theorem 1.1 is given in Section 3, including the statement of residual dependence. Two auxiliary technical results related to calculations of the total variation distance are presented in Section 5. 
+
+## 2. L OCAL LIMIT THEOREM FOR THE MAGNETIZATION 
+
+Denote by \(\mathcal{N}({\tt m},{\tt v}^{2})\) a Gaussian distribution with mean \({\tt m}\) and variance \({\tt v}^{2}\), so \[\mathcal{N}({\tt m},{\tt v}^{2})(A)=\int_{A}\varphi(t;{\tt m},{\tt v}^{2}){\rm d }t,\quad A\in\mathcal{B}(\mathbb{R}).\]  Put \(\delta_{N}:=(1-(-1)^{N})/2\). This correction term appears below in the local limit theorems for
+ \(m_{N}\), since \(Nm_{N}\) always has the same parity as \(N\). 
+
+**Proposition 2.1.** Assume that
+ \(h\neq 0\)_ or_ \(0<\beta<1\)_. Then_ \[\mu_{N}\left(\sqrt{N}(m_{N}-{\tt m}(\beta,h))\in\cdot\right)~{}\Longrightarrow ~{}\mathcal{N}\left(0,{\tt v}^{2}_{\beta,h}\right),\quad N\longrightarrow\infty,\]  _and the following local limit theorem holds true:_ 
+
+\[\lim_{N\longrightarrow\infty}\sqrt{N}\sup_{\ell\in\mathbb{Z}}\left|\mu_{N} \left(\frac{Nm_{N}+\delta_{N}}{2}=\ell\right)-\varphi\left(\ell;\frac{N{\tt m} (\beta,h)}{2},\frac{N{\tt v}^{2}_{\beta,h}}{4}\right)\right|=0.\] (16)  

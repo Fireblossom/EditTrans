@@ -1,0 +1,38 @@
+Many of the earlier mathematical works on r csp s focused on determining their satisfiability thresholds and verifying the sharpness of  sat - unsat  transitions. For models that are known not to exhibit  rsb , such goals were established. These models include random 2- sat  [ CR92 , BBC + 01 ], random 1- in - \(k\)- sat  [ ACIM01 ], \(k\)- xor-sat  [ DM02 ,  DGM + 10 ,  PS16 ], and random linear equations [ ACOGM20 ]. On the other hand, for the models which are predicted to belong to 1 rsb  class, intensive studies have been conducted to estimate their satisfiability threshold, as shown in [ KKKS98 , AP04 , COP16 ] (random \(k\)- sat ), [ AM06 , COZ12 , COP12 ] (random \(k\)- nae-sat ), and [ AN05 , CO13 , COV13 , COEH16 ] (random graph coloring). 
+
+More recently, the satisfiability thresholds for r csp s that exhibits  rsb  have been rigorously determined for several models, namely the random regular \(k\)- nae-sat  [ DSS16b ], maximum independent set on \(d\)-regular graphs [ DSS16a ], random regular \(k\)- sat  [ COP16 ] and random \(k\)- sat  [ DSS22 ] for large \(k\) and \(d\). Although determining the location of \(q\)-colorability threshold for the sparse Erdos Renyi graph is left open, the \(q\)determining the location of q-colorability threshold for the sparse Erdos Renyi graph is left open, the condensation threshold αcond for random graph coloring, where the free energy becomes non-analytic, was settled
+ \(\alpha_{\sf cond}\)for random graph coloring, where the free energy becomes non-analytic, was settled
+ \(\alpha_{\sf cond}\) for random graph coloring, where the _ free energy_  becomes non-analytic, was settled in [ BCOH + 16 ]. They carried out a technically challenging analysis based on a clever “planting” technique, where the results were further generalized to other models in [ COKPZ18 ]. Similarly, [ BCO16 ] identified the condensation threshold for random regular \(k\)- sat , where each variable appears \(d/2\)-times positive and
+ \(d/2\)-times negative. Further, in the condensation regime
+ \(\alpha\in(\alpha_{\sf cond},\alpha_{\sf sat})\), many quantities of interest was
+ established for random regular \(k\)- nae-sat  with large enough \(k\), matching the statistical physics prediction. Namely, the number of solutions at exponential scale (free energy) [ SSZ22 ], the concentration of the _ overlap_  [ NSS20 ,  NSS21 ], and the local weak limit [ SS23 ] were established. Establishing the same quantities for other models in the condensation regime is left open. 
+
+The closest result to ours in the literature is by Ayre, Coja-Oghlan, and Greenhill [ ACOG22 ], where they lower bound the chromatic number (or equivalently, upper bound the colorability threshold) of the random regular graph of any degree, which is conjectured to be tight. [ ACOG22 ] also considers the sparse Erdos Renyi graph, which is more complicated since the conjectured chromatic number is defined in terms of a distributional (rather than real-valued) optimization due to the randomness of the local neighborhoods. In this work, we do not consider Erdos Renyi type problems, but we additionally address the question of the uniqueness of the  bp  fixed point for any \(k\geq 3\)an
+ (unique solution to the equation (
+ 1.1 )). As in [ ACOG22 ], \(k\)gi
+y
+(
+-nae-sat model. It would be interesting to address the uniqueness of the bp fixed point
+ \(k\)- nae-sat  model. It would be interesting to address the uniqueness of the  bp  fixed point for random \(k\)- nae-sat  and random \(k\)-sat for small \(k\geq 3\). We refer to [
+ ST03 , MRSY19 , YP22 , GP23 ] which addresses the uniqueness of  bp  fixed point for various models. 
+
+### Proof methods We aim to rigorously establish the upper bound the satisfiability threshold predicted by the so-called ‘1 rsb  cavity method’ from statistical physics [ DRZ08 ]. To do so, instead of using moment methods, we use a technique called ‘interpolation method’ from the theory of spin glasses developed by [ FL03 , Gue03 , PT04 ]. The interpolation method has been successful in upperbounding the satisfiability threshold for random \(k\)sat  [ DSS15 ] for large \(k\), the free energy for random regular \(k\)- nae-sat  [ SSZ16 ], and the colorability threshold for random graphs [ ACOG22 ]. 
+
+We first introduce the notations and mathematical framework that we use throughout the paper. For both the \(d\)-regular \(k\)-uniform hypergraphs and the \(k\)- nae-sat  formula, we can represent them as (labelled) \((d,k)\)-regular bipartite graph. Let
+ \(V=\{v_{1},\ldots,v_{n}\}\)formed
+  be the set of variables or nodes and \(F=\{a_{1},\ldots,a_{m}\}\)or
+ be the set of clauses or hyperedges. An edge is formed if the variable or node \(v_{i}\) is included in the clause or hyperedge \(a_{j}\). For an edge \(e\), we denote \(v(e)\)(resp.
+ \(a(e)\)) by the variable (resp. clause) adjacent to it.
+ 
+
+Denote \(G=(V,F,E)\)by the resulting bipartite graph. We denote the neighborhood of
+ \(v\in V\) (resp. \(a\in F\)) by \(\delta v:=\{a\in F:(av)\in E\}\)formula,
+  (resp. \(\delta a:=\{v\in V:(av)\in E\}\)extra
+ ). Throughout, we denote \(\alpha\equiv\frac{m}{n}=\frac{d}{k}\). For the  nae-sat  formula, there is an extra label for each edge \(e\in E\), namely the _ literal_ \(\texttt{L}_{e}\in\{0,1\}\), which specifies how the variable \(v(e)\)participates in the clause
+ \(a(e)\). Then, the labelled graph
+ \(\mathcal{G}=(V,F,E,\underline{\texttt{L}})\equiv(V,F,E,(\texttt{L}_{e})_{e\in E})\)represents a
+  nae-sat  instance. 
+
+Definition
+  Given a  nae-sat  instance \(\mathcal{G}=(V,F,E,\underline{\texttt{L}})\),
+ \(\underline{x}\in\{0,1\}^{V}\)is a ( nae-sat ) ** solution**  if \[\prod_{a\in F}\varphi((x_{v(e)}\oplus\texttt{L}_{e})_{e\in\delta a})=1\,,\]  

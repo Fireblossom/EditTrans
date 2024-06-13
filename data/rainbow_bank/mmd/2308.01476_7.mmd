@@ -1,0 +1,54 @@
+individual escape fractions, we select a subsample of galaxies not used for the fitting in order to avoid problems due to over-fitting. As a measure for this accuracy we use the average relative deviation 
+
+\[r=\frac{1}{N_{\mathrm{test}}}\sum_{i=1}^{N_{\mathrm{test}}}\frac{\lvert f_{ \mathrm{esc,pred},i}-f_{\mathrm{{esc},i}}\rvert}{f_{\mathrm{esc},i}},\] (15)  
+
+with \(f_{\mathrm{esc,pred},i}\)and \(f_{\mathrm{esc},i}\)being the predicted and modelled escape fraction of the \(i\)-th galaxy respectively, and \(N_{\mathrm{test}}\) the number of test galaxies. We only used galaxies with \(f_{\mathrm{esc}}>0.01\), as this measure
+ is not useful for \(f_{\mathrm{esc}}\) approaching 0. We find a value of \(r\approx 1.2\)2,
+ ,
+ i.e. the average estimation error is of the order of a factor of 2, and as such the accuracy of predicting the escape fraction of a single halo is limited. However, for large scale studies where the statistical distribution of the escape fraction is more important, this model performs significantly better. Indeed, the average escape fraction obtained with the fitting formula is
+ \(\bar{f}_{\mathrm{esc,pred},i}=0.121\pm 0.086\), with
+ the modelled escape fraction being
+ \(\bar{f}_{\mathrm{esc},i}=0.117\pm 0.1334\).
+ 
+
+In fig.  9  we show how well the fitting formula is able to reproduce the behaviour of the escape fraction in relation to the stellar mass and redshift that we examined in fig.  2 . We see that the evolution of the escape fraction with redshift is successfully reproduced. However, the large gradients in \(\langle f_{\mathrm{esc}}\rangle\)that are seen in fig.  8  are smoothed out. The reason for this likely lies in the optimization process used to find the fitting formula, as the mean squared error was used for optimization, and thus large gradients in the fitting function were disfavored because they led to large errors for the outer mass ranges. 
+
+Fig.  10  shows that the fitting formula is able to successfully predict the bimodality in the escape fraction, as seen in fig.  4 . However the boundary between the two modes is less pronounced. This is likely caused by the smoothing effect of the optimization process of the fitting function discussed above. 
+
+Finally, by comparing fig.  11  to fig.  3 , we see that the fitting formula is able to reproduce all important trends, namely, the decrease in peak escape fraction with redshift and the approximate locations and values of the peaks. We also reproduce both the minima and maxima in the dependence of \(f_{\mathrm{esc}}\) on \(M_{\mathrm{gas}}\). 
+
+As mentioned earlier, it is important to emphasize that our modeling aims to capture the overall trends of LyC escape with galactic properties. Considering the inherent limitations in resolution and simplifications involved in estimating the LyC flux, it is crucial to scale the absolute value predicted by the fitting formula using a free parameter, which should be determined based on the specific ionizing photon budget required for reionization. We intend to investigate the large scale implication of these results and to determine scaling parameters in subsequent work. 
+
+## 5 DISCUSSION AND CONCLUSIONS 
+
+are likely to be inaccurate. Indeed, the unconstrained estimate
+ \(\tilde{f}_{\mathrm{esc}}\)
+
+To gain a better understanding of the correlation of LyC escape with galactic properties, we have applied the physically motivated model for the LyC escape fraction developed in F23 to \(\approx\)Nelson et al. 2019
+ 600,000 galaxies extracted from the TNG50 simulation ( Nelson et al. 2019 ;  Pillepich et al. 2019 ) in the range
+ \(5.2<z<20\).
+ 
+
+predicts high escape fraction values in the high stellar mass range and hence does not match our findings in fig.  4 . We therefore artificially set the \(f_{\mathrm{esc}}\) value to 0 for galaxies with \(x_{\star}>8.5\), obtaining:
+ 
+
+Given the large uncertainties in the subgrid modeling of LyC escape, attempting a quantitative comparison of our results to those of 
+
+\[f_{\mathrm{esc}}=\begin{cases}0\hskip 28.45274pt&\text{$\tilde{f}_{\mathrm{esc }}<0$ or $M_{\star,\mathrm{log}}<8.5$}\\ 1&\text{ $\tilde{f}_{\mathrm{esc}}>1$}\\ \tilde{f}_{\mathrm{esc}}&\text{otherwise}.\end{cases}\] (14)  
+
+previous studies would be impractical. Therefore, we focus our discussion on qualitative results. Numerous previous numerical studies, such as the First Billion Year project ( Paardekooper et al. 2015 ), CODA-II ( Lewis et al. 2020 ), FIRE-II ( Ma et al. 2020 ), THESAN ( Yeh et al. 2022 ), SPHINX ( Rosdahl et al. 2022 ) and TNG50 
+
+In order to determine the accuracy of the model in predicting 
+
+
+
+**Figure 6.**  Galaxies with disk scale heights \(H>10^{21.3}\mathrm{cm}\)selected for their
+ high and low SFR, i.e.
+ \(\log(\mathrm{SFR}/\mathrm{M}_{\odot}\mathrm{yr}^{-1})=0.14,0.20\)and
+ \(0.40\)(top) and
+ \(\log(\mathrm{SFR}/\mathrm{M}_{\odot}\mathrm{yr}^{-1})=-4.34,-4.05\)bottom,
+ figure
+ and
+ \(-4.08\)to
+ (bottom figure). From top to
+ bottom, the panels in each figure refer to the cell escape fraction, \(f_{\rm esc,cell}\), optical depth of dust, \(\tau_{\mathrm{d}}\), and of gas, \(\tau_{\mathrm{HI}}\). 

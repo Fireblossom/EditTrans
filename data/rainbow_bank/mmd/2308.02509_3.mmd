@@ -1,0 +1,34 @@
+the other cliques, ensuring a fully connected graph. All nodes and edges are associated with information through embeddings, described below. 
+
+**GNN stage**  The second stage employs a generalized message-passing GNN following [5] to perform several prediction tasks on this graph simultaneously: 
+
+
+1.** keypoint association prediction:**  we model association between body \(k\)-NN graph.
+ \(k\)-NN graph. 
+2.** body keypoint level prediction:**  for body keypoints, we model the spine level prediction as multi-class node classification. 
+3.** keypoint legitimacy prediction:**  to filter out false-positive keypoints, we additionally compute an binary legitimacy prediction for each node. 
+
+To perform these task, our message-passing GNN maintains edge and node embeddings which are updated in each layer. A message-passing layer performs a node update and edge update operation. Denoting the feature vector of a node \(v\) by \(x_{v}\), and the feature vector of a directed edge \((u,v)\) by \(x_{uv}\), the node and edge features are updated as follows: 
+
+\[\underbrace{x_{u}^{\prime}=\bigoplus_{v\in\mathcal{N}_{u}\cup\{u\}}\psi_{ \mathrm{node}}(x_{u},x_{v},x_{uv})}_{\text{Node update}},\qquad\underbrace{x_{ uv}^{\prime}=\vphantom{\bigoplus_{v\in\mathcal{N}_{u}\cup\{u\}}}\psi_{\mathrm{ edge}}(x_{u},x_{v},x_{uv})}_{\text{Edge update}}\] (1)  
+
+operation
+ 
+
+
+
+our
+ 
+
+
+
+Here \(\bigoplus\)two
+ denotes a symmetric pooling operation (in our case max pooling) over the neighborhood \(\mathcal{N}_{u}\). \(\psi_{\text{node}}\) and \({}_{\text{edge}}\) are trainable parametric functions: in our case, two distinct two-layer MLPs with ReLU nonlinearities. After \(N\) such message-passing layers we obtain an embedding vector for each node and edge. Each node/edge embedding is passed through a linear layer (distinct for nodes and edges) to obtain a vector of node class logits or a single edge prediction logit, respectively. The last entry in the node prediction vector is interpreted as a node legitimacy prediction score: nodes predicted as illegitimate are discarded for the output. 
+
+The node input features \(x_{u}\in\mathbb{R}^{7}\)consist of the one-hot encoded keypoint \([0,1]\)for each of the four spine segments of belonging to that
+ \([0,1]\) for each of the four spine segments of belonging to that segment, computed by applying a sigmoid to the heatmap network’s output channels which represent the different spine segments). The edge input features \(x_{uv}\in\mathbb{R}^{4}\)between
+ consist of the normalized direction vector of the edge and the distance between the two endpoints. 
+
+The output of the GNN contains finer spine-level classification (i.e. C1-C7, T1-T13, L1-L6, S1-S2), keypoint-level legitimacy (legitimate vs. false-positive detection) and body-pedicle association via edge prediction, implicitly defining the orientation of each vertebra. Prediction scores of corresponding directed edges \((u,v)\) and \((v,u)\) are symmetrized by taking the mean. 
+
+In our experiments we consider variations to our architecture: weight sharing between consecutive GNN layers, multiple heads with a shared backbone (jointly trained) and dedicated networks (separately trained) for edge/node prediction. 

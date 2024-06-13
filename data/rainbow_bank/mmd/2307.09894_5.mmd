@@ -1,0 +1,56 @@
+# SCHUR-POSITIVITY OF SHORT CHORDS IN MATCHINGS 
+
+### 2.2.  Symmetric and Schur-positive sets As mentioned in Section 1, a set \(\mathcal{A}\) is symmetric with respect to a statistic function \(D:\mathcal{A}\to 2^{[N-1]}\)if
+ if its generating function \(\mathcal{Q}_{N,D}(\mathcal{A})\)is a symmetric function. Moreover, it is Schur-positive if
+ all Schur coefficients are nonnegative integers. 
+
+One of the fundamental constructions of Schur-positive sets, regarding sets of standard Young tableaux (SYT), is due to Gessel [11]. Let
+ \(\operatorname{SYT}(\lambda)\)denote the set of standard Young tableaux of
+ shape \(\lambda\). We draw tableaux in English notation, as in Figure 2. The _ descent set_  of \(T\in\operatorname{SYT}(\lambda)\)is
+ \[\operatorname{Des}(T):=\{i\in[N-1]\mid i+1\text{ appears in a lower row than $ i$ in $T$}\}.\]  For example, the descent set of the SYT in Figure 2 is \(\{2,4,7,8\}\). 
+
+\[\young(1247,36,58,9)\]  
+
+The entry in row \(i\) and column \(j\) of a tableau \(T\in\operatorname{SYT}(\lambda)\)entries
+ is denoted as
+ \(T_{i,j}\). In addition, we define
+ \(\operatorname{row}_{i}(T):=\{T_{i,j}\mid 1\leq j\leq\lambda_{i}\}\)in
+ Figure
+ ,
+  as the set of entries in the \(i\)-th row of \(T\). For example, if we , then
+ \(T_{3,2}=8\)and
+ \(\operatorname{row}_{3}(T)=\{5,8\}\). 
+
+**Theorem 2.4**  (Gessel [11]) **.** _ For every_ \(\lambda\vdash N\)_, the set_ \(\operatorname{SYT}(\lambda)\)_ is Schur-positive with respect to_ \(\operatorname{Des}\)_._ _Moreover,_ \(\mathcal{Q}(\operatorname{SYT}(\lambda))=s_{\lambda}\)_._ 
+
+In 2015, Adin and Roichman proved the following criterion. 
+
+**Theorem 2.5**  ([2, Prop. 9.1]) **.** _ A set_ \(\mathcal{A}\)_ is symmetric with respect to_ \(D:S\to 2^{[N-1]}\)_if and only if_ \[\sum_{a\in\mathcal{A}}\bm{t}^{D(a)}=\sum_{\lambda\vdash N}c_{\lambda}\sum_{T \in\operatorname{SYT}(\lambda)}\bm{t}^{\operatorname{Des}(T)}\]  _for some values_ \(c_{\lambda}\)_, where_ \(\bm{t}^{J}:=\prod_{j\in J}t_{j}\)
+
+  
+
+_ for_ \(J\subseteq[N-1]\)if
+ only
+ _. The coefficients_ \(c_{\lambda}\)_ are the Schur_ _coefficients of_ \(\mathcal{A}\)_. Moreover,_ \(\mathcal{A}\)_ is Schur-positive if and only if_ \(c_{\lambda}\in\mathbb{N}_{0}\)_ for all_ \(\lambda\vdash N\)_._ 
+
+This criterion implies that proving the Schur-positivity of a set is achievable by establishing a statistic-preserving bijection between the set and SYTs of shapes corresponding to a specific multiset. 
+
+In this paper, we will also apply a recently formulated criterion for symmetry [19]. 
+
+**Definition 2.6.**  Let \(\mathcal{A}\) be a finite set with a statistic \(D:\mathcal{A}\to 2^{[N-1]}\)of the
+ . The set of elements that _ respect_ a given composition \(\alpha\vDash N\), denoted \(\mathcal{A}_{D}(\alpha)\)to
+ , consists of the elements
+ \(a\in\mathcal{A}\)clear
+  such that \(D(a)\subseteq S_{\alpha}\), where \(S_{\alpha}\) is the set corresponding to the composition \(\alpha\). When \(D\) is clear from the context, we may write \(\mathcal{A}(\alpha)\)instead.
+ 
+
+Lemma
+ _ A set_ \(\mathcal{A}\)_ is symmetric if and only if_ \(|\mathcal{A}(\alpha)|=|\mathcal{A}(\beta)|\)_ for all_ \(\alpha\sim\beta\vDash N\)_._ 
+
+Note that only sets of permutations are considered in [19]. However, Lemma 2.7 applies to other sets as well. 
+
+Another useful result about symmetric sets and symmetric functions is due to Bloom and Sagan: 
+
+**Lemma 2.8**  (Bloom and Sagan [6, Lemma 2.2]) **.** _ For every set_ \(S\subseteq[N-1]\)_, the function_ \(F_{S}\)_ is_ _symmetric if and only if_ \(S=[N-1]\)_ or_ \(S=\emptyset\)_._ Figure
+  A SYT of shape \(\lambda=(4,2,2,1)\).
+ 

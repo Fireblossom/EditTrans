@@ -1,0 +1,23 @@
+for all \(t\in[0,\delta)\) almost surely. Furthermore, for \(p\geqslant 4\), using Ito’s formula for \(\|u\|_{1,2}^{p}\), we have 
+
+\[\|w^{\varepsilon}(t)\|_{1,2}^{p}-\|w_{0}\|_{1,2}^{p}=p\sum_{k} \lambda_{k}\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{p-2}(\partial_{x}(\Psi_{k }w^{\varepsilon}(s)),w^{\varepsilon}(s))_{1,2}\,d\beta^{k}(s)\ \[+ p\sum_{k}\gamma_{k}\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{p-2 }(\Psi_{k}f(w^{\varepsilon}(s)),w^{\varepsilon}(s))_{1,2}d\beta_{1}^{k}(s)\] \[+ \frac{p}{2}\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{p-2}(2 \langle\langle A^{\varepsilon}w^{\varepsilon}(s),w^{\varepsilon}(s)\rangle \rangle+\|B(w^{\varepsilon}(s))\|_{L_{2}}^{2})\,ds\] \[+ \frac{p(p-2)}{2}\sum_{k}\lambda_{k}^{2}\int_{0}^{t}\|w^{ \varepsilon}(s)\|_{1,2}^{p-4}(\partial_{x}(\Psi_{k}w^{\varepsilon}(s)),w^{ \varepsilon}(s))^{2}_{1,2}\,ds\] \[+ \frac{p(p-2)}{2}\sum_{k}\gamma_{k}^{2}\int_{0}^{t}\|w^{ \varepsilon}(s)\|_{1,2}^{p-4}(\Psi_{k}f(w^{\varepsilon}(s)),w^{\varepsilon}(s) )^{2}_{1,2}\,ds\]  
+
+
+
+where we used the definition of the norm \(\|B(u)\|_{L_{2}}\). Next, using Burkholder-Davis-Gundy inequality: 
+
+\[\mbox{\bf E}\sup_{t^{\prime}\in[0,t)}\left|\int_{0}^{t^{\prime}} \|w^{\varepsilon}(s)\|_{1,2}^{p-2}(\partial_{x}(\Psi_{k}w^{\varepsilon}(s)),w^ {\varepsilon})_{1,2}\,d\beta^{k}(s)\right|\ \[\leqslant 3\mbox{\bf E}\left(\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{2p- 4}\partial_{x}(\Psi_{k}w^{\varepsilon}(s),w^{\varepsilon}(s))_{1,2}^{2}\,ds \right)^{\frac{1}{2}}\] \[\leqslant C\mbox{\bf E}\left(\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{2p} \right)^{\frac{1}{2}}\leqslant C\mbox{\bf E}\sqrt{\sup_{s\in[0,t]}\|w^{ \varepsilon}(s)\|_{1,2}^{p}\,\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{p}\,ds}\] \[\leqslant \nu\mbox{\bf E}\sup_{s\in[0,t]}\|w^{\varepsilon}(s)\|_{1,2}^{p}+ \frac{C}{\nu}\mbox{\bf E}\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{p}\,ds,\]  
+
+
+
+where \(\nu>0\) can be chosen arbitrarily small, and \(C\) is independent of \(\nu\). Note that the expected values in (4.26) are finite due to (4.8). 
+
+In a similar way, we get 
+
+\[\mbox{\bf E}\sup_{\tau\in[0,t]}\left|\int_{0}^{\tau}\|w^{\varepsilon}(s)\|_{1, 2}^{p-2}(\Psi_{k}f(w^{\varepsilon}(s)),w^{\varepsilon}(s))_{1,2}d\beta_{1}^{k} (s)\right|\\ \leqslant 3\mbox{\bf E}\left(\int_{0}^{t}\|w^{\varepsilon}(s)\|_{1,2}^{2p-4}( \Psi_{k}f(w^{\varepsilon}(s)),w^{\varepsilon}(s))_{1,2}\,ds\right)^{\frac{1}{2 }}.\  
+
+But 
+
+\[(\Psi_{k}f(w^{\varepsilon}(s)),w^{\varepsilon}(s))_{1,2}=\int_{0}^{L}\Psi_{k}f (w^{\varepsilon}(s))w^{\varepsilon}(s)\,ds\\ +\int_{0}^{L}\partial_{x}(\Psi_{k}f(w^{\varepsilon}(s)))\partial_{x}w^{ \varepsilon}(s)\,ds:=I_{1}+I_{2}.\  
+
+The estimate for \(I_{1}\) follows from the conditions imposed on \(f\), namely \[|I_{1}|\leqslant C\|w^{\varepsilon}(s)\|_{2}^{2}.\]  

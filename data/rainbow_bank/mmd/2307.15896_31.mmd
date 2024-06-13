@@ -1,0 +1,34 @@
+time-scale of slow spike dynamics for the Proposition  5.1  characterizes the slow dynamics of an \(N\)-spike quasi-equilibrium solution on the long \({\mathcal{O}}\left(\epsilon^{-3}\right)\)GM and Gray-Scott models ([ 23 ], [ 8 ], [ 12 ]), where there are no chemotactic e ff ects. time-scale. We remark that this time-scale is longer than the \({\mathcal{O}}\left(\epsilon^{-2}\right)\)no
+ 
+
+In Appendix  H , we show that \(\beta_{j}\), as given in ( 5.17 ), can be calculated asymptotically by retaining only the contribution from the sub-inner solution. In particular, in Appendix  H  we provide the leading order estimate 
+
+\[\beta_{j}\sim\frac{2}{v_{\max j}}\,,\qquad\mbox{for}\,\,\,v_{\max j }\gg 1\,.\  
+
+Moreover, in Appendix  H  we show at the steady-state spike locations that \(\beta_{j}=\beta_{0}\)\(\forall j\)
+
+DAE
+ 
+
+, with \(\beta_{0}\) given in ( 4.28 ). 
+
+To illustrate our results, we now compare the dynamics computed from the DAE system ( 5.24 ) with corresponding numerical results computed from the full PDE system ( 1.2 ) using FLEXPDE7 [ 14 ]. In our comparison, we computed the integrals defining \(\beta_{j}\) numerically from ( 5.17 ). The results for a one- and two-spike dynamics are shown in Figure  8  for the parameter values in the figure caption. In Figure  8a , where we chose the initial condition \(x_{1}(0)=-0.1\), the asymptotic and numerical spike trajectories are favorably compared for a one-spike
+ quasi-equilibrium pattern. In Figure  8b \(x_{1}(0)=-0.6\)and
+ \(x_{2}(0)=0.6\).
+ \(x_{1}(0)=-0.6\)and
+ \(x_{2}(0)=0.6\).
+ 
+
+### Computation of Jacobian Matrix for Balancing Conditions 
+
+In this subsection, and as remarked in § 4 , we show that when \(d_{1}\in{\mathcal{T}}_{e}\)the
+  the matrix \({\mathcal{M}}\)spike
+  in ( 4.29 ) arises from the linearization of the DAE dynamics ( 5.24 ) in Proposition  5.1  about the steady-state spike locations. Our approach below is inspired by a related analysis for the GM model in [ 58 ]. 
+
+To this end, we use the Green’s function in ( 2.24 ) together with its decomposition in ( 5.20 ) to define 
+
+\[\partial_{x_{j}}G(x_{j};x_{k}):=\left\{\begin{array}[]{ll}\frac{ \partial R}{\partial x}(x;x_{j})|_{x=x_{j}}\,,&j=k\,,\\ \frac{\partial G}{\partial x}(x;x_{k})|_{x=x_{j}}\,,&j\not=k\,,\end{array} \right.\qquad\partial_{x_{j}}\partial_{x_{k}}G(x_{j};x_{k})=\left\{\begin{ array}[]{ll}\frac{\partial}{\partial x}|_{x=x_{j}}\frac{\partial}{\partial y}| _{y=x_{k}}R(x;y)\,,&j=k\,,\\ \partial_{x_{j}}\partial_{x_{k}}G(x_{j};x_{k})\,,&j\not=k\,.\end{array}\right.\  
+
+(a) one-spike slow dynamics 
+
+(b) two-spike slow dynamics 

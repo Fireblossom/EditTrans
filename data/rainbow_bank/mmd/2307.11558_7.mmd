@@ -1,0 +1,19 @@
+(image, scene knowledge, query) triples to perform accu rate reasoning. We propose two approaches to perform this new task: Knowledge-embedded Vision-Language Interac tion and Linguistic-enhanced Vision-Language Matching. Experimental results confirm the validity of the proposed approaches but also show that there is still substantial room for improvement, e.g., reasoning and interpretability. 
+
+level accuracy, we can obtain the message that LeViLM is not capable of performing complicated (multi-hop) reasoning over the scene knowledge and producing accurate predictions. Besides, the prediction process is black-box and can not be explainable, which can be further studied in the future. The answer is that (i) The current baselines can only achieve strong results on easy or medium tasks and are un able to perform well on the hard task; (ii) The interpretability of the baselines is poor. 
+
+## Acknowledgement 
+
+### 4.5. Case Study 
+
+This work was supported in part by the Chinese Key-Area Research and Development Program 
+
+To further investigate the effects of knowledge, we per form qualitative analysis on four cases in the SK-VG dataset. 
+
+of Guangdong Province (2020B0101350001), in part by the Guangdong Basic and Applied Basic Research Foundation (NO. 2020B1515020048), in part by the National Natural Science Foundation of China (NO. 61976250), in part by the Shenzhen Science and Technology Program (NO. JCYJ20220530141211024, NO. JCYJ20220818103001002), in part by the Fundamental Research Funds for the Central Universities under Grant 22lgqb25 and in part by the Guangdong Provincial Key Lab oratory of Big Data Computing, The Chinese University of Hong Kong, Shenzhen. This work was also sponsored by Tencent CCF Open Fund (NO. RBFR2022009). 
+
+Figure  5  shows the grounding results of four baselines on four referring expressions. It is observed that in the first case, all the baselines can ground the “ _cane_ ” in the image even without the knowledge since there is only one cane presented. In the second case, the finetuned LeViLM can detect the target object even without knowledge, while it can not detect the “ _Brandon’s servant_ ” without knowledge in the third case. In the last case, all the baselines can not ground the referred object correctly, and the last three baselines all treat the “ _Spider-Man_ ” as the “ _enemy_ ”. This shows that the baseline models can not perform accurate reasoning in some complicated cases, demonstrating the challenges. 
+
+## 5. Concluding Remarks The visual grounding field has emerged as a prominent attractive research direction, where the models are required to reason over vision and language to ground the target ob jects. Yet, the language part of the existing VG benchmarks is only simple description texts, which can not evaluate the reasoning capability of the models comprehensively. To take a step in this direction, we propose a new benchmark dataset called SK-VG, which requires models to reason over the 
+
+Figure 5. The illustration of samples from the proposed SK-VG dataset, where a scene story and its four referring expressions are shown with the grounding results from four baseline methods. 

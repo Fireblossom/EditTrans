@@ -1,0 +1,24 @@
+The initial conditions for the Taylor-Green vortex are 
+
+\begin{align*}     \rho(x,y,z) &= 1\\     u(x,y,z) &= \sin(x)\cos(y)\cos(z)\\     v(x,y,z) &= -\cos(x)\sin(y)\cos(z)\\     w(x,y,z) &= 0\\     p(x,y,z) &= 10 + \frac{(\cos(2x) + \cos(2y))(\cos(2x)+2)-2}{16} \end{align*}
+
+with a pressure value corresponding to a Mach number $M \approx 0.26$. The triperiodic domain has side length $2\pi$ in all directions and is discretized using $32\times32\times32$ nodes. The chosen CFL value is sufficiently small that linear invariants are exactly conserved to machine precision for all schemes. The time evolution of the entropy integral for this test is shown in Fig. 2 and it is in agreement with the previous results. In this test, since the pressure is not constant, $A\rho$- $H e$ is no longer equivalent to $A\rho$- $A p$; in this case we have better performances from $A\rho$- $H e$ and $G\rho$- $G e$ when compared to $A\rho$- $A p$ and $A\rho$- $A e$ and this result is found for both fourth-order and six-order accurate fluxes. An improvement can be obtained using an additional term in the expansions and KEEP $^{(1)}$and AEP $^{(1)}$are the schemes which more closely achieve a constant value for the entropy integral. Information about the reliability of the scheme can be obtained thorough the study of the evolution of thermodynamic fluctuations in time. We checked that for all the schemes tested, the density and temperature fluctuations do not have an unbound growth (not shown). This is the desired behaviour, since for inviscid isotropic homogeneous turbulence they are reported to level off to a constant value [18, 2]. 
+
+## Conclusions 
+
+We proposed a new class of asymptotically entropy-preserving fluxes for the discretization of the convective terms in the compressible Euler equations with interesting properties. It provides a consistent asymptotic approximation of an existing entropy-preserving scheme based on the logarithmic mean, and it consists of economical algebraic fluxes based on the harmonic mean. Moreover, at all orders of approximation, the numerical fluxes have the pressure-equilibrium preservation property. The theoretical predictions are confirmed on two test cases, verifying that the new schemes are able to numerically maintain pressure equilibrium and demonstrating good entropy-conservation property. It was also shown that the error on entropy can be reduced by using additional terms in the expansion of the AEC fluxes. 
+
+These results suggest that AEC fluxes could be good candidate for the discretization of compressible flow equations in high performance solvers. Due to the their algebraic form, they are less computationally expensive than the fluxes based on the logarithmic mean, while retaining many important properties. In fact, they guarantee the KEP and PEP properties, combined with arbitrarily small error on entropy preservation. 
+
+## High-order extension  then an approximation of the derivative $\partial f$ is The second-order accurate two-point fluxes presented in this article can be extended to higher-order formulations by using the approach proposed by Ranocha [ 7 ] in the context of Discontinuous Galerkin discretization of the Euler equations. The main result of interest for us is that contained in Theorem 3.1 of [ 7 ], which can be reformulated in FD terms as follows. We consider a numerical flux $\mathcal{F}(\vec{w_i},\vec{w_{i+k}})$$i$ for a generic quantity $\rho\varphi$, which depends on the values of the variables vector $\vec{w}$ in the nodal points $i$ and $i+k$. In our context $\mathcal{F}$ can be any of the numerical fluxes specified in Eqs. – , (10)  or –  and $\vec{w}$ is the set of variables $\left(\rho,u,e\right)$. We will assume that the numerical flux is smooth, symmetrical (i.e. $\mathcal{F}(\vec{w_i},\vec{w_{i+k}}) = \mathcal{F}(\vec{w_{i+k},\vec{w_i}})$) and consistent with the continuous flux $f$ so that $\mathcal{F}(\vec{w_i},\vec{w_{i}}) = f(\vec{w_i})$. Under these hypotheses, by following the steps of the proof to Theorem 3.1 in [ 7 ], we can show that given a numerical derivative formula of the type $\partial\varphi_i\simeq\sum_{k}a_{k}\varphi_{i+k}$the
+ 
+
+
+
+given by 
+
+\begin{equation}\label{eq:high_order_ranocha}     \sum_{k} 2 a_{k} \mathcal{F}(\vec{w_i},\vec{w_{i+k}}) \end{equation}
+
+and it has the same order of accuracy as the original derivative formula with weights $a_{k}$. If one considers central derivative formulas, for which $a_{k} = -a_{-k}$, by using the symmetry of the flux $\mathcal{F}$, Eq. (16) can be rewritten as 
+
+\begin{equation}\label{eq:AppEq2}         \sum_{k=1}^{L} 2 a_{k}     \left(     \mathcal{F}(\vec{w_i},\vec{w_{i+k}})- \mathcal{F}(\vec{w_{i-k}},\vec{w_i})      \right). \end{equation}\begin{equation}\label{eq:AppEq2}         \sum_{k=1}^{L} 2 a_{k}     \left(     \mathcal{F}(\vec{w_i},\vec{w_{i+k}})- \mathcal{F}(\vec{w_{i-k}},\vec{w_i})      \right). \end{equation}

@@ -1,0 +1,59 @@
+expanding box like model valid for both radially and temporally varying spherical flows. The generalisation of the expanding box model to radially varying flows was done in Tenerani & Velli  ( 2017 ). The generalisation to background flows which are also time dependant, motivated by the stellar formation problem, results in a model close to the accelerated expanding box (although our treatment of pressure will be closer to the distorted shearing box models of  Ogilvie & Latter  ( 2013 );  Ogilvie & Barker  ( 2014 )). We shall focus, in this paper, on the hydrodynamic case as it posses a number of important features that are worth understanding before generalising to MHD. 
+
+In Section  2  we present the derivation of our local model. Sections  2.4  and  2.5  derives symmetries and conservation laws of the local model. Section  3  presents some nonlinear solutions to the local model - and discuss how these relate to the global problem. In Section  4  we derive the linear theory of our local model. We discuss possible extension of our model in Section  5 . We present our conclusions in Section  6  and additional mathematical details (including alternative formulations which maybe more convenient for implementation in hydrocodes) are presented in the appendices. 
+
+## DERIVATION 
+
+### Global geometry 
+
+\[Du^{\theta}+\frac{2}{R}u^{R}u^{\theta} =-R^{-2}\left(\partial_{\theta}\Phi+\frac{1}{\rho}\partial_{ \theta}p\right),\] (6) \[Du^{\phi}+\frac{2}{R}u^{R}u^{\phi} =-R^{-2}\left(\partial_{\phi}\Phi+\frac{1}{\rho}\partial_{\phi}p \right),\] (7) \[Du^{R}-Ru^{\phi}u^{\phi}-Ru^{\theta}u^{\theta} =-\left(\partial_{R}\Phi+\frac{1}{\rho}\partial_{R}p\right),\] (8) \[D\rho =-\rho R^{-2}\partial_{i}(R^{2}u^{i}),\] (9)  
+
+\(o\), located on the
+ \(o\), located on the equator of a sphere of radius \(R\). The line element of the usual spherical polar coordinate system is 
+
+
+
+\[\mathrm{d}s^{2}=\mathrm{d}R^{2}+R^{2}(\mathrm{d}\theta^{2}+\sin^{2}\theta\, \mathrm{d}\phi^{2}).\] (1)  
+
+where the Lagrangian derivative is 
+
+We are interested in describing the local dynamics near to \(p\)occurring on a horizontal lengthscale \(L_{\rm H}\ll R\)(See Figure 
+
+\[D=\partial_{t}+u^{i}\partial_{i}.\] (10)  
+
+Note, we have listed the \(R\)component of the momentum 
+
+1 , which show the relationship between the global and local geometries). Without loss of generality, we can locate our local model on the equator of the sphere ( \(\theta=\pi/2\)) meaning
+ we can approximate the line element by 
+
+equation last as it will become the \(z\)momentum equation in the local coordinate system. To close this system of equations we must supplement them with an equation of state determining \(p\), which we assume is barotropic, 
+
+\[\mathrm{d}s^{2}=\mathrm{d}R^{2}+R^{2}(\mathrm{d}\theta^{2}+\mathrm{d}\phi^{2}) +\mathcal{O}((L_{\rm H}/R)^{2}d\phi^{2}),\] (2)  
+
+which results in metric tensor components, 
+
+\[p=p(\rho).\] (11)  
+
+\[g_{RR}=1,\quad g_{\theta\theta}=g_{\phi\phi}=R^{2},\] (3)  
+
+and inverse metric tensor components 
+
+### Spherical Collapse/Expansion 
+
+\[g^{RR}=1,\quad g^{\theta\theta}=g^{\phi\phi}=R^{-2},\] (4)  
+
+with all other components zero. The Christoffel Symbols components, for this coordinate system, are 
+
+\[\begin{split}\Gamma_{\theta\theta}^{R}&=\Gamma_{\phi\phi}^{R}=-R, \\ \Gamma_{\theta R}^{\theta}=\Gamma_{R\theta}^{\theta}&=\Gamma_{\phi R}^{\phi}= \Gamma_{R\phi}^{\phi}=R^{-1},\end{split}\] (5)  
+
+\(\Phi=\Phi(t,R)\). Con-
+ \(\Phi=\Phi(t,R)\)\(\Phi=\Phi(t,R)\)tially time dependant) central potential Φ = Φ(𝑡, 𝑅). Consider a spherically symmetric fluid in this potential with
+ density \(\rho_{0}=\rho_{0}(R,t)\) and purely radial velocity field \(U^{i}=U(R,t)\hat{e}_{R}^{i}\). The density of the fluid then evolves according to the continuity equation, 
+
+
+
+with all others vanishing. The fluid equations in this coordinate system are 
+
+\[D_{0}\rho_{0}=-\rho_{0}R^{-2}\partial_{R}(R^{2}U),\] (12)  
+
+**Figure 1.**  Geometry of the domain. Globally (left) the domain is bounded by radial shells which can approach or recede from each other depending on the gradients in the background velocity. Points within the domain move in the radial direction due to the spherically symmetric background flow. The local model (right) is a rectangular domain where the horizontal coordinates are equivalent to the latitude/longitude on the sphere and the vertical direction moves between spherical shells comoving with the background flow. The aspect ratio of this local box changes as the distance between the spherical shells varies. 

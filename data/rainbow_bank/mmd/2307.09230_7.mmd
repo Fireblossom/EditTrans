@@ -1,0 +1,23 @@
+### 2.3 Metrics 
+
+Three metrics were widely used across the papers: accuracy, specificity, and sensitivity. The equations for these four metrics can be seen below. 
+
+\[\text{Accuracy}=\frac{\text{Correctly classified speech}}{\text{Total speech samples}}\] (1)  
+
+\[\text{Specificity}=\frac{\text{Correctly classified healthy speech}}{\text{ Total healthy speech}}\] (2)  
+
+\[\text{Sensitivity}=\frac{\text{Correctly classified pathological speech}}{ \text{Total pathological speech}}\] (3)  
+
+Another metric was often used in the papers using multi-class classification - unweighted average recall (UAR). This metric is calculated by averaging the recall value for each of the specific pathologies included in the dataset. Equation 4 shows how it is calculated, where N is the number of pathologies in the dataset and \(R_{i}\) is the recall of the ith pathology in the dataset. 
+
+\[\text{UAR}=\frac{\sum_{i=1}^{N}{R_{i}}}{N}\] (4)  
+
+### 2.4 Binary Classification Literature 
+
+**?**  (2020) investigate the classification of cancer patients from healthy controls using six machine learning algorithms. The dataset used includes recordings of the prolonged vowel /ah/ from 50 male laryngeal 
+
+**(a)**  Signal of a person saying a short phrase. 
+
+**(b)**  MFCC generated from the above speech signal. 
+
+**Figure 6.**  MFCCs generated from a short audio signal. 

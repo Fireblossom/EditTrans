@@ -1,0 +1,89 @@
+**COMO-ViT.** Given the input feature \(\mathbf{F}_{l-1}\in\mathbb{R}^{H\times W\times c}\)of COMO-ViT, we conduct two branches of operations. In the first branch, we uniformly split it into \(n\) non-overlapping windows \(\mathcal{P}=[\mathbf{P}^{1},\mathbf{P}^{2},\cdots,\mathbf{P}^{n}]\in\mathbb{R} ^{n\times w\times w\times c}\), where \((w,w)\) is the window resolution. SNR [ 43 ] and STAR [ 52 ] downsample images, losing local structures and some important pixel-level information. Instead, the proposed 
+
+COMO-ViT completely models the dependencies among all \(\mathbf{P}^{i}\)is regarded as
+ \(\mathbf{P}^{i}\) is regarded as an individual, we thus reshape \(\mathbf{P}^{i}\)as follows: 
+
+\[\mathbf{P}^{i}\to[p^{i,1},p^{i,2},\cdots,p^{i,m}],\] (10)  
+
+where \(p^{i,j}\in\mathbb{R}^{1\times 1\times c}\), \(m=w^{2}\)\(p^{i,j}\in\mathbb{R}^{1\times 1\times c}\),
+ \(m=w^{2}\)where pi,j ∈R1×1×c, m = w2 is the number of pixels in Pi.
+With a linear projection, we then transform
+ \(\mathbf{P}^{i}\).
+With a linear projection, we then transform
+ \(\mathbf{P}^{i}\). With a linear projection, we then transform 
+
+the pixels into a sequence of pixel embeddings \(\mathbf{X}^{i}=[x^{i,1},x^{i,2},\cdots,x^{i,m}]\)\(c1\), where \(x^{i,j}\in\mathbb{R}^{c1}\)is the \(j\)-th pixel embedding, \(c1\) is the embedding dimension. For \(\mathbf{X}^{i}\), we utilize a local Transformer module to extract deep features as follows: 
+
+Global pixel dependencies are explored by calculating 
+
+\[{\mathbf{Y}^{{}^{\prime}}}^{i} =\mathbf{X}^{i}+\operatorname{MSA}(\operatorname{LN}(\mathbf{X}^{ i})),\] (11) \[\mathbf{Y}^{i} ={\mathbf{Y}^{{}^{\prime}}}^{i}+\operatorname{MLP}(\operatorname{ LN}({\mathbf{Y}^{{}^{\prime}}}^{i})),\]  
+
+window attention via a global attention module. Firstly, \(\mathcal{C}\)is transformed into a sequence of window embedding: 
+
+
+
+\[\mathbf{U}=[u^{1},u^{2},\cdots,u^{n}],\quad u^{i}=\operatorname{ FC}(\operatorname{Vec}(\mathbf{C}^{i})),\] (15)  
+
+where \(\mathbf{Y}^{i}\)\(\mathbf{Y}^{i}\)where Yi is the feature learned by the local Transformer module, MSA(·) is the Multi-head Self-Attention
+ \(\operatorname{MSA}(\cdot)\)is the Multi-head Self-Attention
+ \(\operatorname{MSA}(\cdot)\) is the Multi-head Self-Attention 
+
+where \(\operatorname{Vec}(\cdot)\) is vectorization operation. Then, we utilize 
+
+[ 35 ], \(\operatorname{LN}(\cdot)\) is layer normalization [ 1 ] for stable training and faster convergence, \(\operatorname{MLP}(\cdot)\) is multi-layer perceptron for feature transformation at channel dimension and nonlinearity. In such a process, we adopt 1D learnable location embedding to encode the spatial information of pixels. 
+
+\(\mathbf{F}_{l}\in\mathbb{R}^{H\times W\times c}\), where
+ \(\mathbf{F}_{l}\in\mathbb{R}^{H\times W\times c}\)COMO-ViT
+ , where \(l\in\{1,2,\cdots,L\}\), and \(L\) is the COMO-ViT number. When \(l=1\), \(\mathbf{F}_{l-1}\) is the fused feature \(\mathbf{F}_{f}\)in Eq.
+ .
+ 
+
+The result of the second stage is obtained by decoding 
+
+To complement the non-overlapping window attention, 
+
+\(\mathbf{F}_{L}\) with a convolutional layer ( \(\mathcal{D}(\cdot)\)): 
+
+\[\mathbf{R}_{s2}=\operatorname{Conv}(\mathbf{F}_{L}).\] (16)  
+
+in the second branch which is parallel with local attention, we use a CNN module to model local pixel dependencies in \(\mathbf{F}_{l-1}\) via an overlapped sliding kernel to recover image details, in which a SE block [ 11 ] is used to explore channel relationship to boost representative power: 
+
+We visually show \(\mathbf{R}_{s2}\) in Fig.  4 \(\mathbf{R}_{s2}\)We visually show Rs2 in Fig. 4, observing that the illumination is enhanced and image details are also recovered.
+ 
+
+\[\mathbf{F}^{{}^{\prime}}=\operatorname{Conv}(\operatorname{LN}( \mathbf{F}_{l-1})),\quad\mathbf{F}_{conv}=\mathbf{F}^{{}^{\prime}}\odot \operatorname{SE}(\mathbf{F}^{{}^{\prime}}).\] (12)  
+
+Especially, the noise is well removed by our COMO-ViT. 
+
+**LGCM.** LGCM takes \(\mathbf{R}_{s2}\) as input, and learns local deep 
+
+\(\mathbf{F}_{conv}\) is then split into \(n\) non-overlapping windows \(\mathcal{Q}=[\mathbf{Q}^{1},\mathbf{Q}^{2},\cdots,\mathbf{Q}^{n}]\in\mathbb{R} ^{n\times w\times w\times c}\)reshaped:
+ , and each \(\mathbf{Q}^{i}\)is reshaped: 
+
+\[\mathbf{Q}^{i}\to[q^{i,1},q^{i,2},\cdots,q^{i,m}].\] (13)  
+
+features to perceive illumination gap between \(\mathbf{R}_{s2}\) and ground truth and elaborately enhances illumination to reduce local color deviation: 
+
+We combine the features from both branches as: 
+
+\[\mathbf{\Gamma}_{l}=\varphi(\operatorname{Conv}_{3}(\mathbf{R}_{s 2})),\quad\mathbf{R}_{s3}=\mathbf{R}_{s2}^{\mathbf{\Gamma}_{l}}.\] (17)  
+
+\[\mathcal{C}=[\mathbf{C}^{1},\mathbf{C}^{2},\cdots,\mathbf{C}^{n}] ,\quad\mathbf{C}^{i}=\mathbf{Q}^{i}+\mathbf{Y}^{i}\] (14)  
+
+\begin{tabular}{c c c c c c c c c c c c}
+\hline \hline
+Epoches & Optimizer & \begin{tabular}{c} Batch \\ size \\ \end{tabular} & \begin{tabular}{c} Learning \\ rate \\ \end{tabular} & \begin{tabular}{c} LR \\ decay \\ \end{tabular} & \begin{tabular}{c} Weight \\ decay \\ \end{tabular} & \begin{tabular}{c} Drop \\ path \\ \end{tabular} & \begin{tabular}{c} Embedding \\ dim \\ \end{tabular} & Head & \(L\) & \begin{tabular}{c} Window \\ size \\ \end{tabular} & \begin{tabular}{c} Patch \\ size \\ \end{tabular} \\
+\hline
+300 & Adam[] & 8 & 4e-4 & cosine & 1e-7 & \(0.1\) & \(15\) & \(5\) & \(2\) & \(16\) & 512 \\ \hline \hline
+\end{tabular}
+\begin{tabular}{c c c c c c c c c c c c}
+\hline \hline
+Epoches & Optimizer & \begin{tabular}{c} Batch \\ size \\ \end{tabular} & \begin{tabular}{c} Learning \\ rate \\ \end{tabular} & \begin{tabular}{c} LR \\ decay \\ \end{tabular} & \begin{tabular}{c} Weight \\ decay \\ \end{tabular} & \begin{tabular}{c} Drop \\ path \\ \end{tabular} & \begin{tabular}{c} Embedding \\ dim \\ \end{tabular} & Head & \(L\) & \begin{tabular}{c} Window \\ size \\ \end{tabular} & \begin{tabular}{c} Patch \\ size \\ \end{tabular} \\
+\hline
+300 & Adam[] & 8 & 4e-4 & cosine & 1e-7 & \(0.1\) & \(15\) & \(5\) & \(2\) & \(16\) & 512 \\ \hline \hline
+\end{tabular}
+
+
+Table 1. Default training and network hyper-parameters used in our method, unless stated otherwise. 
+
+Figure 4. We observe that \(\mathbf{R}_{s3}\) keeps higher illumination than \(\mathbf{R}_{s2}\), illustrating the effectiveness of our LGCM. \(\mathbf{\Gamma}_{l}\) is corresponding pixel-wise local gamma map. 

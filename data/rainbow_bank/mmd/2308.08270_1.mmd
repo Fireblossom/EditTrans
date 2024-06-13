@@ -1,0 +1,46 @@
+For our experiments, ondemand mode with baseload cores 3 has an optimum energy usage when calculating same number of samples compared to other baseload and samples per second combinations. 
+
+## IV. C ONCLUSION AND  F UTURE  W ORK Recent research studies have focused on energy-efficient and 
+
+carbon-efficient FL scheduling and client selection. However, most of the research assumes simplistic energy consumption models for underlying FL clients. In this work, we showed that how energy per sample values under real-world scenarios such as different power modes and non-FL baseloads at CPU cores can vary and exhibit complex operational behavior patterns. 
+
+For future work, following open research questions and possibilities could be explored further, 
+
+_•_  How do current FL systems communicate FL clients’ 
+
+energy related information? How to collect energy per sample, throughput per second and uncertainty related information at runtime? 
+
+_•_  How can we predict the power-performance characteristics, what are the relevant metrics? With more data about real-world impact factors affecting energy footprint of edge devices, can we build predictive models for forecasting? _•_  How often do we need to measure before we can be certain? Can we report the uncertainty to be used in scheduling? FL trainings are usually executed multiple times due to data distribution drifts and hyperparameter search. This repetitive FL training execution could be leveraged to collect more data about power-performance behavior patterns of FL clients. _•_  What’s the impact of hardware accelerated edge devices 
+
+of threads/CPU cores. For the FL training we utilized Flower framework 3 . We simulate a computer vision IoT training task using dataset CIFAR-10 4 and the computer vision model SqueezeNet which is light-weight and deemed to be suitable for edge computer visions applications. We assign higher kernel priority to baseload process to ensure the FL training doesn’t affect the CPU time of baseload in co-running scenario. For the energy consumption measurement, we utilized WLAN power socket switch 5 . We report mean energy per sample and samples per second values for different powermodes and CPU core baseloads. 
+
+such as jetson nano on energy related metrics? What are the energy efficiency opportunities in FL and non-FL corunning scenarios? 
+
+\[EPS=\frac{P_{total}-P_{BL}}{N}\] (1)  
+* R EFERENCES 
+
+\[EPS :\text{Energy per Sample}\] \[P_{\text{total}} :\text{Total power consumption (FL and Baseload)}\] \[P_{\text{BL}} :\text{Power consumption due to Baseload}\] \[N :\text{Number of Samples}\]  
+* [1] H. B. McMahan, E. Moore, D. Ramage, S. Hampson, and B. A. y Arcas, “Communication-efficient learning of deep networks from decentralized data,” in  AISTATS , 2016. 
+
+
+* [2] X. Qiu, T. Parcollet, D. J. Beutel, T. Topal, A. Mathur, and N. D. Lane, “A first look into the carbon footprint of federated learning,”  CoRR , vol. abs/2010.06537, 2020. 
+
+
+
+Energy per sample values were calculated using Eq. 1. 
+* [3] X. Zhou, J. Zhao, H. Han, and C. Guet, “Joint optimization of energy consumption and completion time in federated learning,” in  ICDCS , IEEE, 2022. 
+
+Figure 1a illustrates the mean energy per sample and 95% 
+* [4] C. W. Zaw, S. R. Pandey, K. Kim, and C. S. Hong, “Energy-aware resource management for federated learning in multi-access edge computing systems,”  IEEE Access , vol. 9, pp. 34938–34950, 2021. 
+* [5] Y. G. Kim and C.-J. Wu, “Autofl: Enabling heterogeneity-aware energy efficient federated learning,” in  IEEE/ACM International Symposium on Microarchitecture (MICRO) , pp. 183–198, 2021. 
+* [6] P. Wiesner, R. Khalili, D. Grinwald, P. Agrawal, L. Thamsen, and O. Kao, “Fedzero: Leveraging renewable excess energy in federated learning,” arXiv preprint arXiv:2305.15092 , 2023. 
+
+confidence intervals for each powermode, based on 10 repeated measurements. We observe significant difference in energy per sample and samples per second values when there is no nonFL base load (0 baseload cores) compared to a scenario when non-FL baseload is executing and utilizing all CPU cores. We also observe that while samples per second (Figure 1b) doesn’t vary significantly when non-FL baseload is co-running with FL, energy per sample values fluctuate for baseloads 3 and 4. 
+* [7] B. G¨ uler and A. Yener, “A framework for sustainable federated learning,” in  International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt) , IEEE, 2021. 
+* [8] B. Rupprecht, D. Hujo, and B. Vogel-Heuser, “Performance evaluation of ai algorithms on heterogeneous edge devices for manufacturing,” in  International Conference on Automation Science and Engineering (CASE) , pp. 2132–2139, IEEE, 2022. 3 https://flower.dev 4 https://www.cs.toronto.edu/ kriz/cifar.html 5 https://www.delock.com/produkt/11826/merkmale.html 
+
+(a) Energy Per Sample 
+
+(b) Samples Per Second 
+
+Fig. 1: Power-Performance Characteristics for RPI 

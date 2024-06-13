@@ -1,0 +1,25 @@
+**Lemma 1.1.** _ [_ _0_ _] If_ \(G\)_ is a graph such that for_ \(u,v\in V(G)\)_,_ \(uv\notin E(G)\)_, then_ \(\rho(G)<\rho(G+uv)\)_._ 
+
+Let \(A\) be a real symmetric matrix whose rows and columns are indexed by \(V=\{1,2,\cdots,n\}\). Let \(\{V_{1},V_{2},\cdots,V_{k}\}\)\(\{V_{1},V_{2},\cdots,V_{k}\}\) be a partition of \(V\) such that the block partition of the matrix \(A\) according to \(\{V_{1},V_{2},\cdots,V_{k}\}\) can be expressed as 
+
+\[A=\begin{bmatrix}A_{11}&A_{12}&\dots&A_{1k}\\ A_{21}&A_{22}&\dots&A_{2k}\\ \vdots&\vdots&\ddots&\vdots\\ A_{k1}&A_{k2}&\dots&A_{kk}\end{bmatrix},\]  
+
+where \(A_{ij}\) denotes the block formed by intersection of the rows in \(V_{i}\) and the columns in \(V_{j}\). Let \(q_{ij}(A)\)denote the average row sum of
+ \(A_{ij}\). Then, the quotient matrix of \(A\) with respect to the partition \(\{V_{1},V_{2},\cdots,V_{k}\}\) is given by \[Q(A)=[q_{ij}(A)].\]  Moreover, if the row sum of each block \(A_{ij}\) is constant then we say that the partition is equitable and \(Q(A)\)is called an equitable quotient matrix of
+ \(A\). There is a nice relation between the spectrum of \(A\) and that of \(Q(A)\), which is stated now as a theorem.
+ 
+
+**Theorem 1.2.** _ [_ _0_ _] Let_ \(A\)_ be a real symmetric matrix such that it has an equitable quotient matrix_ \(Q(A)\)_, then,_ \(\sigma(Q(A))\subset\sigma(Q(A))\)_. Moreover, if_ \(A\)_ is nonnegative, then_ \(\rho(A)=\rho(Q(A))\)_, i.e., the_ _spectral radius of_ \(Q(A)\)_ is actually the spectral radius of_ \(A\)_._ 
+
+A vertex \(v\) of a connected graph \(G\) is a cut vertex of \(G\) if \(G-v\)no
+  is disconnected. A block of the graph \(G\) is a maximal connected subgraph of G that has no cut-vertex. Given two blocks \(F\) and \(H\) of graph \(G\) are said to be adjacent if they are connected via a cut-vertex. We denote \(F\circledcirc H\), to represent the induced subgraph on the vertex set of two adjacent blocks \(F\) and \(H\). 
+
+A complete graph is a graph where each vertex is adjacent to every other vertex. A complete graph on \(n\) vertices is denoted by \(K_{n}\). A connected graph is called a clique tree if each of its blocks is a clique. Let \(G\) be a clique tree with \(d_{1}\) blocks of \(K_{n_{1}}\), \(d_{2}\) blocks of \(K_{n_{2}}\), so on up to \(d_{b}\) blocks of \(K_{n_{b}}\), then we write \(G\) with blocks \(K_{n_{1}}^{(d_{1})}-K_{n_{2}}^{(d_{2})}-\cdots-K_{n_{b}}^{(d_{b})}\)the blocks
+ (for example see Figure  1 ). Here the above notation only gives information about the blocks of \(G\), but not about the structure of the graph. But for a special case, if \(G\) has a central cut vertex, then all the blocks are adjacent via the central cut vertex and we denote it by \[G=K_{n_{1}}^{(d_{1})}\circledcirc K_{n_{2}}^{(d_{2})}\circledcirc\cdots \circledcirc K_{n_{b}}^{(d_{b})}.\]  
+
+A block \(H\) of a clique tree \(G\) is a pendent block of \(G\) if \(H\) has exactly one cut-vertex of \(G\). Let \(v\) be a cut-vertex of \(G\). If \(G-v\) consists of two disjoint graphs \(W_{1}\) and \(W_{2}\) and let \(G_{i}(i=1,2)\)be the subgraph of \(G\) induced by \(\{v\}\cup V(W_{i})\)by
+ \(G=G_{1}\oplus_{v}G_{2}\), then
+ \(G\) is called the vertex-sum at \(v\) of the two graphs \(G_{1}\) and \(G_{2}\), and denoted by \(G=G_{1}\oplus_{v}G_{2}\). For a vertex \(v\) in a graph \(G\), the block index of \(v\) is the number of blocks which share the vertex \(v\) and is denoted by \(bi_{G}(v)\).
+ 
+
+The spectral radius of a graph has been extensively studied subject to various graph theoretic constraints. In spectral graph theory, the maximization and minimization of the spectral radius of a given class of a graph and the problem of determining the extremal graphs find a particular interest among researchers. One such result due to Brualdi and Solheid in [ 0 ] is an important motivation for our study. In this article, the authors obtained the graphs that maximize the 

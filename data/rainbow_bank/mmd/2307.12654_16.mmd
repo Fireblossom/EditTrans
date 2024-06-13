@@ -1,0 +1,54 @@
+Let $y \in W_4$. Then $y = [b_k,\,d_0,\,d_1,\,d_2]$for
+ $k = 0$or 1. The corresponding equation in
+ reads
+ 
+
+\begin{align*}         &t_0^{b_k, d_0,d_1,d_2} a_{[b_k, \, d_0]}a_{[d_1, \, d_2]}          + t_1^{b_k, d_0,d_1,d_2} a_{[b_k, \, d_1]}a_{[d_0, \, d_2]}          + t_2^{b_k, d_0,d_1,d_2} a_{[b_k, \, d_2]}a_{[d_0, \, d_1]} = 0\\         &t_0 = \begin{cases}             -1 \quad \text{if} \quad d_0<d_1<b_k<d_2\\             +1 \quad \text{otherwise}         \end{cases}\\         &t_1 = \begin{cases}             -1 \quad \text{if} \quad b_k<d_0<d_1<d_2 \quad \text{or} \quad d_0 < d_1<d_2<b_k\\             +1 \quad \text{otherwise}         \end{cases}\\         &t_2 = \begin{cases}             -1 \quad \text{if} \quad d_0<b_k<d_1<d_2\\             +1 \quad \text{otherwise}         \end{cases}     \end{align*}
+
+Each of $a_{[d_1, \, d_2]}, a_{[d_0, \, d_2]} \,\&\, a_{[d_0, \, d_1]}$are fixed by Equation
+ . Substituting in, (multiplying out
+ $a_{[b_0,\,b_1]}$[
+1,
+2]
+[
+0,
+2]
+[
+0,
+1
+), the equation now reads
+ 
+
+\begin{multline}         t_0^{b_k, d_0,d_1,d_2}a_{[b_k, \, d_0]} \bigl(         s_0^{b_0,b_1,d_1,d_2} a_{[b_0,\, d_1]}a_{[b_1,\, d_2]} +          s_1^{b_0,b_1,d_1,d_2} a_{[b_0,\, d_2]}a_{[b_1,\, d_1]}         \bigr)\\         +          t_1^{b_k, d_0,d_1,d_2}a_{[b_k, \, d_1]} \bigl(         s_0^{b_0,b_1,d_0,d_2} a_{[b_0,\, d_0]}a_{[b_1,\, d_2]} +          s_1^{b_0,b_1,d_0,d_2} a_{[b_0,\, d_2]}a_{[b_1,\, d_0]}         \bigr)\\         +         t_2^{b_k, d_0,d_1,d_2}a_{[b_k, \, d_0]} \bigl(         s_0^{b_0,b_1,d_0,d_1} a_{[b_0,\, d_0]}a_{[b_1,\, d_1]} +          s_1^{b_0,b_1,d_0,d_1} a_{[b_0,\, d_1]}a_{[b_1,\, d_0]}         \bigr) = 0 \label{eq:w4_equation}     \end{multline}
+
+25
+ 
+
+
+
+Labelling the terms of Equation ( 25 ) in order 1 to 6, we can pair them off as follows. If $k = 0$,
+ pair
+ $(1,3),\,(2,5)\, \& \, (4,6)$. If
+ $k=1$(
+)
+, instead pair
+ $(1,6),\,(2,4)\,\&\,(3,5)$. Then it can be shown that
+ each pair sums to 0. For example, for $k = 0$(
+)
+, we have:
+ 
+
+\begin{align*}         (1) + (3) \quad &\propto \quad           t_0^{b_0, d_0,d_1,d_2}s_0^{b_0,b_1,d_1,d_2}          + t_1^{b_0, d_0,d_1,d_2}s_0^{b_0,b_1,d_0,d_2} \\         (2) + (5) \quad &\propto \quad           t_0^{b_0, d_0,d_1,d_2}s_1^{b_0,b_1,d_1,d_2} +          t_2^{b_0, d_0,d_1,d_2}s_0^{b_0,b_1,d_0,d_1} \\         (4) + (6) \quad &\propto \quad           t_1^{b_0, d_0,d_1,d_2}s_1^{b_0,b_1,d_0,d_2}          + t_2^{b_0, d_0,d_1,d_2}s_1^{b_0,b_1,d_0,d_1}      \end{align*}
+
+For example, note that $t_0$ and $t_1$ have the same sign only if $d_0 < b_0 < d_1 < d_2$. If this is the case, then $s_0^{b_0,b_1,d_1,d_2}$and $s_0^{b_0,b_1,d_0,d_2}$have different signs, as can be seen from checking the 3 possible relative locations of $b_1$$(1) + (3) = 0$g
+g
+. Similarly for the other pairs. The remaining cases can
+ all be checked similarly. 
+
+A similar argument holds for $y = [d_0,\,d_1,\,d_2,\,d_3] \in W_6$. 
+
+For each $j \in \mathcal{A}_n$, define the regions $$ S_j = \biggl\{ \ket{\psi} = \sum_{j' \in \mathcal{A}_n}c_{j'} \ket{j'} \in G: | c_j| \geq | c_{j'}| \quad \forall \, j' \in \mathcal{A}_n \biggr\} $$Clearly, the union over $j$ gives all of $G$. In each region $S_j$, Gaussian states may be defined by the set of amplitudes with labels within distance 2 of $j$, given by the set $C = \{ c_k : d(j, k) \leq 2 \}$. For these amplitudes, we have 
+
+\begin{align*}     | c_j| &\in [2^{\frac{1-n}{2}}, \, 1] \\     | c_k| &\in [0, \, | c_j|] \quad \ \forall \, c_k \in C \setminus \{ c_j \} \end{align*}
+
+Let $\mathcal{N}_j = \{\ket{\psi_i} \} \subset S_j$ be a maximal set of pure states satisfying $$ \forall \, \ket{\psi_i}, \ket{\psi_{i'}} \in \mathcal{N}_j, \ \exists \ x \in \mathcal{A}_n \text{ s.t. } d(j, x) \leq 2  \quad | \braket{x}{\psi_i} - \braket{x}{\psi_{i'}}| \geq \eta $$Let $\mathcal{N} = \cup_j \mathcal{N}_j$. We wish to find a suitable $\eta$ so that $\mathcal{N}$ is an $\epsilon$-net. We require the 2 following lemmas: 

@@ -1,0 +1,9 @@
+the input data dimension. Figure 4a shows the memory size (in MB) of the 4 shallow classifiers considered in our experiments, based on the input size in terms of the percentage of PCA explained variance. As expected, the size of most of the classifiers increases according to the input dimension, except for Random Forest (RF), whose size remains nearly constant at around 1 MB (between 0.98 and 1.11). Logistic Regression (LR), the simplest classifier, is also the one with the lowest memory footprint in all the experiments, starting from less than 1 KB (i.e., 922 Bytes), up to 3.64 KB with 99% of PCA explained variance. On the other hand, AdaBoost (AB) results to be the most demanding model in terms of memory, with an overall size that ranges from just 5.74 MB with 60% of PCA, up to 185.05 MB with the full dimension of the input. Finally, SVM has an intermediate memory footprint among the other classifiers, ranging from 42.6 KB up to 1.88 MB. 
+
+On the other hand, when the deep audio models are fine-tuned, the size of the additional fully-connected layers should be considered to estimate the overall memory footprint. Figure 4b shows the average size of the fine-tuned models, highlighting both the size of the original pre-trained models, and the size of the additional layers for classification. We can note that, in general, 
+
+(b) Fine-tuned models 
+
+(a) Shallow classifiers 
+
+Figure 4: Memory footprint of (a) the considered shallow classifiers based on different input sizes (i.e., percentage of PCA explained variance), and (b) the fine-tuned deep learning models. Please, consider that in (a) the overall memory footprint is given by taking into account also the size of the deep embedding models to extract the input features from the raw audio sample. 

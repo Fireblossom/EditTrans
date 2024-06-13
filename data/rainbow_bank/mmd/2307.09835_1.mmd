@@ -1,0 +1,29 @@
+[5] and the references there for some of the algorithmic developments. A particular feature of numerical approximations of PDE solutions based on DNNs as approximation architectures that was observed in practice was the apparent insensitivity of the DNN approximation quality to the so-called “curse of dimensionality” (CoD for short). This is particularly relevant for approximating maps 
+
+\[\mathcal{G}:\mathcal{X}\to\mathcal{Y}\] (1)  
+
+between (in general, infinite-dimensional) separable Hilbert spaces 1 \(\mathcal{X}\)PDEs
+  and \(\mathcal{Y}\)within
+ . Operators \(\mathcal{G}\) as in (1) emerge for example as parameter-to-solution mappings for parametric PDEs within the field of Uncertainty Quantification (see, e.g., [48] and the references there), or in so-called digital twins of complex, physical systems governed by partial differential equations (PDEs) (see [32] and the references there). Owing to the infinite dimension of \(\mathcal{X}\) and \(\mathcal{Y}\) in (1), efficient numerical approximations of maps \(\mathcal{G}\) are to overcome the CoD. 
+
+Several (intrinsically different) mechanisms for overcoming the CoD in DNN emulations have been identified and mathematically justified recently. This includes the seminal work of A. _ Barron_  [3], _ MonteCarlo path simulation_  type arguments (e.g. [20, 29] and the references there), and the emulation of sparse (generalized) _ polynomial chaos expansions_  (e.g. [2, 17]) by DNNs (e.g. [56, 51, 57]). 
+
+Specifically, in [56, 51, 57], a parametric representation of inputs \(x\in\mathcal{X}\)whose
+  of \(\mathcal{G}\)depth
+  was used to prove DNN emulation rates for approximating \(\mathcal{G}\). The construction used DNNs whose depth scales polylogarithmic in the parameter dimension, and polynomially in the DNN expression accuracy (i.e., emulation fidelity). Key in the proofs of these results is the _ holomorphic_  dependence of \(\mathcal{G}(x)\)feedforward
+ on the input
+ \(x\). The related DNN emulation results were obtained with sparsely connected, deep feedforward NNs with ReLU or smooth (e.g. sigmoidal or
+ \(\tanh(\cdot)\)) activation. DNN emulation rate results that are free from the CoD for
+ _ low regularity_ _maps_ \(\mathcal{G}\) between function spaces were obtained e.g. using the so-called Feynman-Kac representation of solutions of Kolmogorov PDEs in (jump-)diffusion models. These results used ReLU DNNs of moderate depth [20, 29], but the error bounds hold in a mean-square sense or only with high probability. 
+
+While quantified, parametric holomorphy of solution families of parametric PDEs has been verified in many settings (particularly in elliptic and parabolic PDEs, e.g. [27, 66, 31, 12, 23]), there are broad classes of applications where relevant maps are H¨ older or Lipschitz, but not holomorphic. One purpose of the present paper is to obtain mean-square DNN expression rate bounds for _ Operator Network_  (ONet) emulations with architecture (2) below, of Lipschitz (and, more generally, H¨ older smooth) maps \(\mathcal{G}\) between separable Hilbert spaces. 
+
+### Previous work for operator networks A rather recent line of research uses so-called _ Operator Networks_ \(\mathcal{G}\), such as for example the coefficient-to-solution map in linear, elliptic divergence form
+ \(\mathcal{G}\)second
+ , such as for example the coefficient-to-solution map in linear, elliptic divergence form PDEs of second order. A variety of DNN architectures has been put forward recently with the aim of efficient operator emulation, with distinct architectures tailored to the emulation of particular operators. A number of acronyms labelling these DNN classes has been coined (“deepONets” [45], Fourier Neural Operators “FNOs” [35, 41], UNet architectures combined with FNOs “U-FNOs” [62], encoders based on transformers, etc.). We refer to [35, 38, 21, 49, 42, 6] and the references there. 
+
+In this paper, we discuss an architecture that belongs to the same general category as those proposed in, for instance, [25, 45, 24]. It reduces the task of approximating \(\mathcal{G}\)an
+  to that of emulating (components of) _countably-parametric maps_ \(G:\ell^{2}(\mathbb{N})\to\ell^{2}(\mathbb{N})\)\(\mathcal{G}\)with DNNs: using an appropriate
+ _ encoder_ \(\mathcal{E}_{\mathcal{X}}:\mathcal{X}\to\ell^{2}(\mathbb{N})\)and _ decoder_ \(\mathcal{D}_{\mathcal{Y}}:\ell^{2}(\mathbb{N})\to\mathcal{Y}\), the map \(\mathcal{G}\) in (1) allows the structural representation 
+
+\[\mathcal{G}=\mathcal{D}_{\mathcal{Y}}\circ G\circ\mathcal{E}_{\mathcal{X}}.\] (2)  1 More generally, separably-valued maps \(\mathcal{G}\) into an otherwise nonseparable target space \(\mathcal{Y}\) may be considered. In [35, Section 9, App. B] additional conditions on separable Banach spaces \(\mathcal{X}\) and \(\mathcal{Y}\) necessary to extend the present arguments to this more general setting are discussed. 

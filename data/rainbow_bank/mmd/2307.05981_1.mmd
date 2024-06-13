@@ -1,0 +1,37 @@
+We then define the damped mode: 
+
+(21.1) W~ε:=∇(P⁢(ϱ~ε))ϱ~ε+v~ε+∇(−Δ)−1(ϱ~ε−ϱ¯).  (21.1) W~ε:=∇(P⁢(ϱ~ε))ϱ~ε+v~ε+∇(−Δ)−1(ϱ~ε−ϱ¯).  
+
+As the first equation of (1.3) can be rewritten as ∂tϱ~ε−Δ(P(ϱ~ε))−div(ϱ~ε∇(−Δ)−1(ϱ~ε−ϱ¯))=div(ϱ~εW~ε),  we expect the limit density \(N\) to satisfy the following _ parabolic-elliptic Keller-Segel system_  : 
+
+(24.3) \[\left\{\begin{array}[]{l}\partial_{t}N-\Delta\left(P(N)\right)= \operatorname{div}\left(N\ \nabla V\right)\\ -\Delta V=N-\overline{\varrho}\end{array}\right.\]  
+
+supplemented with the initial data \(\underset{\varepsilon\to 0}{\lim}\,\tilde{\varrho}_{0}^{\varepsilon}\). 
+
+Our second aim is to justify the passage to the limit when \(\varepsilon\to 0\) of the Euler-Poisson system towards the parabolic-elliptic Keller-Segel system. 
+
+Recall that (1.5) is a model for describing the evolution of density \(N=N(t,x)\in\mathsf{R}_{+}\).
+  of a biological population under the influence of a chemical agent with concentration \(V=V(t,x)\in\mathsf{R}^{d}\). Chemotaxis are an important means of cell communication. How cells are arranged and organized is determined by communication by chemical signals. Studying such a biological process is important because it has repercussions in many branches of medicine such as cancer [0], [0], embryonic development [0] or vascular networks [0], [0]. The previous system is famous in biology and comes from E.F Keller and L.A Segel in [0]. This basic model was used to describe the collective movement of bacteria possibly leading to cell aggregation by chemotactic effect. We refer to the articles [0] and [0] for more details and information about the different Keller-Segel models studied since the 1970s. 
+
+Our aim here is to demonstrate that (1.5) may be obtained from the Euler-Poisson system with damping when the parameter \(\varepsilon\) tends to \(0.\) This question has been addressed in [0] on the torus case and Sobolev spaces in a situation where the potential satisfies a less singular equation : the author justifies the passage to the limit for regular periodic solutions. A lot of articles justify another limit: the passage from the parabolic-parabolic Keller-Segel system to the parabolic-elliptic Keller-Segel system (see e.g. the paper [0] by P-G. Lemarié-Rieusset for the case of Morrey spaces). 
+
+In the same spirit as this article, T. Crin-Barat, Q. He and L. Shou in [0] justified the high relaxation asymptotics for the (less singular) parabolic-parabolic Keller-Segel system (the potential satisfies the equation \(-\Delta V+bV=aN\) with \(a,b>0\)\(-\Delta V+bV=aN\)with
+ \(a,b>0\)−∆V + bV = aN with a, b > 0) : this other system comes from the system (HPC) (hyperbolic-parabolicchemotaxis) which is a damped isentropic compressible Euler system with a potential satisfying an elliptical
+ equation. In comparison with what is done here, T. Crin-Barat _ et al_  used a parabolic approach to justify their passage to the limit. Here, we have to handle the more singular case where the limit system is parabolicelliptic. 
+
+## 2.  Main results and sketch of the proof In this section, we will first present and motivate the functional spaces used. Secondly we will state the results and the sketch of the proofs about the well-posedness behavior of Euler-Poisson system and the justification of the passage to the limit to parabolic-elliptic Keller-Segel system. 2.1.  Functional spaces. Before describing the main results of this article, we introduce the different notations and definitions used throughout this document. We will designate by \(C>0\) an independent constant of \(\varepsilon\) and time, and \(f\lesssim g\)will mean \(f\leq Cg\). For any Banach space \(X\) and all functions \(f,g\in X\), we denote \(\|(f,g)\|_{X}\mathrel{\mathop{:}=}\|f\|_{X}+\|g\|_{X}\)\(t\mapsto\|f(t)\|_{X}\). We designate by \(L^{2}(\mathsf{R}_{+};X)\) the set of measurable functions f:[0,+∞[→X such that \(t\mapsto\|f(t)\|_{X}\) belongs to \(L^{2}(\mathsf{R}_{+})\) and write ∥⋅∥L2⁢(𝖱+;X):=∥⋅∥L2⁢(X)
+
+will
+ 
+
+
+
+)
+(
+)
+decomposition
+ 
+
+. 
+
+In this article we will use a decomposition in Fourier space, called the _ homogeneous Littlewood-Paley_ _decomposition_ . To this end, we introduce a regular non-negative function \(\varphi\) on \(\mathsf{R}^{d}\)with support in the 

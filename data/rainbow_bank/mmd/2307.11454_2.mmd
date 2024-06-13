@@ -1,0 +1,118 @@
+# Dissecting Code Vulnerabilities: Insights from C++ and Java Vulnerability Analysis with ReVeal Model 
+
+\(200\), batch size
+ \(128\), maximum number
+ \(10000\), number of gradient accumulation steps
+ \(8\),
+ \(50\)for C++ data and
+ \(20\)for Java data.
+ 
+
+## Experiments with C++ data 
+
+\(k\), and draw conclusions based on the observed dynamics. To make set \(P_{3}\) to be independent of \(k\), we fixed it to be the complement of \(P_{1}\). That is, \(P_{3}\) consisted of functions that remained unchanged in the commits where only one function was changed. Also, in order to balance different parts involved in training and testing, we restricted the size of \(P_{3}\): \[|P_{3}|=|P_{1}|+|P_{2}|\]  
+
+To answer the first research question, we used the original C++ method-level vulnerability dataset from [ 1 ]. After pars ing, we obtained the following statistics of the input graphs: 
+
+11788 train graphs (956 vulnerable), 1667 validation graphs (133 vulnerable), 3385 test graphs (286 vulnerable) 
+
+During the data cleaning phase, we ensured that in each 
+
+To test each dimension of RQ 1, we performed 10 trials 
+
+experiment, \(P_{3}\) did not contain functions that are contained in \(P_{1}\cup P_{2}\). Also, we removed any duplicate functions from each of the parts \(P_{1},P_{2}\), and \(P_{3}\), and removed methods contained in the training data from the test data. 
+
+of training the model. In each trial, the dataset was split into train, validation, and test parts anew. The results can be found in Table  1 . 
+
+Table  2  shows the distribution of the collected Java meth ods after stratification by \(k\)and cleaning the data: 
+
+### Excluding SMOTE and RL 
+
+The model without SMOTE and RL achieves the worst performance with respect to the F1 score and the best performance with respect the ROC AUC measure. 
+
+### AST edges 
+
+The model performs slightly better without including AST edges. This is likely due to including too much of fine-grained information or too many nodes. The model becomes more likely to overfit to irrelevant features in the input and fail to generalize. 
+
+### Pruning 
+
+The experiments also showed that the model performs better with pruning at operator nodes. Pruning makes a graph simpler and less entangled for the model to understand. 
+
+### Research question 2 
+
+### Downsampling 
+
+In this research question, we investigate training on different combinations of sets \(P_{1}\), \(P_{2}\), and \(P_{3}\), and testing on \(P_{1}\cup P_{2}\cup P_{3}\)be
+ found
+ or \(P_{1}\cup P_{3}\)Figures
+ , which is a stricter test. The results can be found in Figures  2  and  3 . 
+
+Figures  2  and  3  allow us to conclude that if the test set 
+
+Table  1  shows that the model performs worse with balancing the train set by downsampling non-vulnerable methods. We think that a rough balancing of the train part impacts the score negatively since it turns off SMOTE. 
+
+## Experiments with Java data 
+
+includes part \(P_{3}\), then the inclusion of part \(P_{3}\) into training is critical to achieving a high performance. Overall, parts \(P_{2}\)and \(P_{3}\) contribute the most to the prediction, as seen by the red and blue lines on Figures  2  and  3 . 
+
+Also, on Figure  3 \(P_{2}\cup P_{3}\)(red line) as
+ \(P_{2}\cup P_{3}\)increasing
+  (red line) as 
+
+To answer the rest of research questions, we trained and tested the model on different parts of the Java dataset  ( 1 ) : \(P_{1}\), \(P_{2}\), and \(P_{3}\). In particular, we varied \(k\)\(1\)to
+ \(14\). Then, we plotted the resulting ROC AUC scores against
+ 
+
+\(k\)increases. This might indicate the increasing amount of 
+
+\begin{tabular}{c|c c}
+Configuration & Median F1 & Median ROC AUC \\
+\hline
+Baseline & 27.29 & 0.696 \\
+Without SMOTE \& RL & 21.45 & 0.730 \\
+Without AST edges & 27.65 & 0.706 \\
+With pruning & 30.83 & 0.724 \\
+Majority downsampling & 26.61 & 0.678 \\
+\end{tabular}
+
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+ & \multicolumn{2}{c|}{P1} & \multicolumn{2}{c|}{P2} \\
+\hline
+k & train & test & train & test \\
+\hline
+1 & 410 (205) & 135 (68) & 0 (0) & 0 (0) \\
+2 & 399 (200) & 145 (73) & 343 (171) & 122 (61) \\
+3 & 416 (208) & 132 (66) & 696 (347) & 228 (113) \\
+4 & 414 (207) & 128 (65) & 960 (479) & 346 (172) \\
+5 & 415 (210) & 129 (64) & 1159 (575) & 433 (217) \\
+6 & 414 (208) & 131 (65) & 1393 (692) & 506 (254) \\
+7 & 421 (212) & 120 (60) & 1583 (789) & 596 (296) \\
+8 & 394 (197) & 151 (75) & 1870 (938) & 572 (284) \\
+9 & 410 (207) & 135 (67) & 2027 (1012) & 664 (330) \\
+10 & 411 (206) & 131 (66) & 2195 (1089) & 632 (314) \\
+11 & 399 (199) & 150 (75) & 2439 (1215) & 708 (353) \\
+12 & 400 (202) & 144 (72) & 2545 (1270) & 769 (383) \\
+13 & 397 (200) & 143 (72) & 2619 (1303) & 872 (434) \\
+14 & 409 (204) & 136 (68) & 2853 (1421) & 845 (419) \\ \hline
+\end{tabular}
+
+
+
+
+
+
+**Table 1.**  Results of experiments for research question 1 
+
+
+
+
+
+
+
+
+
+**Table 2.** Table 2. Statistics of collected Java methods after stratification by 𝑘and cleaning. Each cell has the format 𝑁1(𝑁2),
+ \(k\)and cleaning. Each cell has the format
+ \(N_{1}(N_{2})\)\(k\)and cleaning. Each cell has the format \(N_{1}(N_{2})\), where \(N_{1}\) is the total number of methods and \(N_{2}\) is the num ber of vulnerable ones. 

@@ -143,3 +143,9 @@ ckpt*/
 
 # Misc
 pdfs
+venv/
+outputs/
+.vscode/
+__pycache__
+lightning_logs/
+pths/

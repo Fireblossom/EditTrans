@@ -1,0 +1,65 @@
+### B. Compared Methods The experiment includes a comparison of different models: 
+
+_•_ ** I) MHA-LSTM [4]:**  This model only takes as inputs the past trajectories of the agents in the scene and outputs \(L\) trajectories with their associated probabilities (see the architecture in the red rectangle in Fig. 1). We use \(L=6\)attention heads. _•_ ** II) G-MHA-LSTM [17]:**  We add to the previous 
+
+don’t consider the position of the neighbors at time \(t_{obs}\). Instead, we consider their predicted position at time \(t_{obs}+t_{f}\) using a Constant velocity model. We assume that before predicting his goal, the target agent first predicts the future positions of his surroundings according to their headings and current velocitites, and then avoids the zones that are expected to be crowded. While training this model, we calculate the \(occup_{k}\) function using the grouth truth positions of the neighbors. 
+
+### D. Implementation details 
+
+model a radial grid representation from which we extract potential goals. We predict the goal and then the trajectories conditioned on the predicted goal. (see the architecture in the orange rectangle in Fig. 1). 
+
+We use \(K=15\) number of potential goals. Similar to [8], 
+
+_•_ ** III) DCM-MHA-LSTM :**  To predict the goal of the target agent, we combine the DCM and the neural network using the LMNL framework [15]. This model is described in Section III and the architecture is illustrated in the blue rectangle in Fig. 1. _•_ ** IV) ODCM-MHA-LSTM :**  This model only uses the DCM to predict the goal of the target agent. 
+
+**Goal set representations :**  We also compare different types of radial grids. For the methods II), III) and IV), we compare our results for two types of radial grid : a **dynamic**  grid (d) and a ** fixed**  one (f). Similar to [12], we build the dynamic grid by considering the target agent’s current velocity \(v_{T}^{t_{obs}}\). If \(v_{T}^{t_{obs}}=0\), we replace it with an arbitrary value equals to \(0.5\)\(m.s^{-1}\). The fixed grid is built using the value \(v=5.83m.s^{-1}\), which corresponds to the mean of the velocities in the INTERACTION training set. 
+
+our interaction space is 40 m ahead of the target vehicle, 10 m behind and 25 m on each side. We consider the neighbors situated in the interaction space at \(t_{obs}\). We also take into account the neighbors that are susceptible of being in this space from time \(t_{obs}\) to \(t_{f}\). To do so, we predict the trajectories of all of the neighbors in the scene using a Constant Velocity model and if they have a predicted position in the interaction space, we consider them in our model. We argue that this representation allows to consider neighbors that are not situated in the grid at \(t_{obs}\) but that can appear in the grid from time \(t=t_{obs}+1\) to \(t=t_{f}\). without having to create a bigger interaction space which can be more computationally expensive. We use \(L+K=6+15\)parallel attention operations. We use a batch size of 64 and Adam optimizer. The model is implemented using PyTorch [18]. 
+
+### C. Compared DCMs 
+
+## V. R ESULTS 
+
+We compare two types of DCMs for modelling the 
+
+### A. Evaluation metrics Our method for trajectory forecasting is evaluated with the following three error metrics: 
+
+behavior of vehicle motion. For our case, the functions modelling vehicle motion phenomenon which we consider for goal selection in this work are: 
+
+_•_ ** Minimum** **Average** **Displacement** **Error** **over** **k** 
+
+1) _ occupancy:_  directions containing neighbours in the vicinity are less desirable. 2) _ keep direction:_  vehicles tend to maintain the same 
+
+**(** \(minADE_{k}\)**)**  : The average of pointwise L2 distances between the predicted trajectory and ground truth over the k most likely predictions. 
+
+direction of motion. 
+
+_•_ ** Minimum** **Final** **Displacement** **Error** **over** **k** 
+
+3) _ collision_ _avoidance:_ when a neighbour vehicle’s trajectory is head-on towards a potential goal, this goal becomes less desirable due to the chance of a collision. 
+
+**(** \(minFDE_{k}\)**)**  : The final displacement error (FDE) is the L2 distance between the final points of the prediction and ground truth. We take the minimum FDE over the k most likely predictions and average over all agents. 
+
+_•_ ** 1) DCM 1 :**  For the first DCM configuration, we use a utility function defined as: 
+
+_•_ ** Collision II - Groundtruth collision (Col-II)**  [19]: 
+
+\[u_{k}(\textbf{X}) =\beta_{dir}dir_{k}+\beta_{occ}occ_{k}+\beta_{col}col_{k}\] (13)  
+
+Where the functions \(dir_{k}\), \(occ_{k}\), and \(col_{k}\) correspond 
+
+This metric calculates the percentage of collision between the primary vehicle’s prediction and the neighbors in the groundtruth future scene. 
+
+### B. Comparison of Methods 
+
+respectively to _ keep direction_ , _ occupancy_  and _ collision_ _avoidance_ . These functions are defined in [2] and [6]. _•_ ** 2) DCM 2 :**  For the second DCM, the utility function is defined as : 
+
+We compare the methods described in Section IV-B. 
+
+The results are reported in Table I. DCM 1 and DCM 2 
+
+\[u_{k}(\textbf{X}) =\beta_{dir}dir_{k}+\beta_{occup}occup_{k}\] (14)  
+
+Where the function \(dir_{k}\) is the same as in (IV-C). For \(occup_{k}\), we use the same mathematical formula as the occupancy function in (IV-C), however, we 
+
+refers to the first (resp the second) type of DCM described in IV-C. (f) and (d) correspond to respectively, the fixed and the dynamic radial grid representation for the extraction of potential goals. We can see that adding the DCM module decrease the percentage of collisions. We can see that the models using a fixed grid perform slightly better than when 

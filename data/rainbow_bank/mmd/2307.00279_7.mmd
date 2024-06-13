@@ -1,0 +1,35 @@
+feedback topic. Figure  4  presents an overview of the two different presentations of this taxonomy, and the mapping between them. 
+
+We motivate this taxonomy to finely categorize 
+
+instructions given in the prompt. Past research has shown the importance of stating the actions a model can take, such as outputting “I don’t know.” ( Zhou et al. ,  2023 ). Similarly, how strongly the prompt encourages a model to incorporate feedback can favor overoptimization. 
+
+**Introducing Errors** Finally, effective feedback 
+
+current approaches to textual feedback that implic itly formulate feedback solely for _ utility_  (i.e.,how useful is the feedback for guiding a model toward a suitable response). However, they do not cate gorize its content, leaving a conceptual gap about _what_  makes feedback useful. Our taxonomy strati fies the feedback space, allowing a deliberate and systematic study of feedback content. 
+
+### General Taxonomy We break down feedback content along ten dimen sions that influence how feedback is formulated: 
+
+may communicate information on where the learner is failing, requiring an understanding of the possible error modes for a given task, and which ones the learner is likely in. For example, guessing and committing systematic reasoning mistakes are reflections of differing understandings. Exploring the error space and identifying the mistakes made by a learner is an important extension to the base framework directly derived from pedagogical and psychology of education research. 
+
+
+1._ length_ , an indication of how much feedback feedback is given, possibly measured 
+
+### Feedback Integration 
+
+by counting its number of tokens, 
+2._ granularity_ , a measure of the level of detail with which the feedback addresses the original answer — it is not a measure of how much of the answer is being considered, but rather of the level of detail with which it is being considered, 8 
+3._ applicability of instructions_ , expressing both whether the feedback contains instructions, as well as how applicable those instructions are for the learner and their current understanding and approach to solving the task, 
+4._ answer coverage_ , which registers how much 
+
+The method used to transmit the feedback to the model influences how it is subsequently processed. Fernandes et al.  ( 2023 ) identify three common feed back integration mechanisms: feedback-based imi tation learning, joint-feedback modeling, and rein forcement learning. In addition to this, we also con sider feedback use in in-context learning ( Brown et al. ,  2020 ). The training objective will necessarily influence how the model is processing and incorpo rating feedback. Typically, the training relies upon either scalar feedback (a single number encoding how much the model should be rewarded for its out put) or a ranking (how well a given output did in relation to other candidate answers). However, this is simple information, and does not leverage the rich and complex information encoded in natural language feedback. Section  5  therefore comprehen sively explores the different types of information that can be encoded in feedback. 
+
+of the learner’s answer is considered to gen erate the given feedback. The feedback could be independent of the answer, or only relate to parts of the answer (e.g.,, focusing on a par ticular mistake), or the feedback might take the complete answer into consideration, 
+5._ criteria_ , denoting which criteria the answer is 
+
+## Feedback Content Taxonomy 
+
+being evaluated on: global evaluation, specific dimensions (e.g., fluency, engagement, etc.), or, alternatively, no dimensions (the answer is not being evaluated), 
+6._ information novelty_ , indicating the degree to which learner already had access to the information provided in the feedback, ranging from all information being previously known 8 For an open-answer example task, feedback might range from global learning meta-feedback, to global but task specific, to paragraph-level, to sentence-level, to word-level, to token-level feedback. 
+
+In Section  4 , we presented an overview of the com plex ecosystem of feedback, including an expansion specifically for LLMs (i.e., FELT) that con nects various background elements (e.g.,the learner, the task, the error types) to the actual feedback that must be given. In this section, we expand on our analysis of the _ content_  dimension of feedback in FELT. Specifically, we present a taxonomy of feed back content under two different forms: a set of 10 broad axes along which feedback can vary, and a more concrete set of nine emergent categories for 

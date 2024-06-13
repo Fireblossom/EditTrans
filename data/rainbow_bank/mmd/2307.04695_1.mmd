@@ -1,0 +1,34 @@
+easier function that only depends on the pairwise shortest path lengths between miners. Importantly, our MDP reward function captures the property that a miner’s mining gains depends on how small the shortest path lengths between the agent and other miners are relative to the shortest path lengths between other miners. Experimentally we show Cobalt outperforms or matches heuristics on diverse network settings. 
+
+## II. R ELATED  W ORK 
+
+P2P network design for optimizing mining rewards has 
+
+shown that the dependence of mining rewards on propagation latency is more intricate than this [35]. Specifically, an honest miner that is well connected with other miners inadvertently creates efficient, low latency paths for other miners by acting as a centrally located bridge between the miners. However, to maximize the marginal gains in reward due to the network, it is important for a miner to have paths to other miners that are, on average, of a lower delay _ relative_  to the delays of paths between other miners. For example, if miners are arranged as a star topology with links of unit delay and uniform compute power across nodes, the central node receives a higher reward compared to the leaf nodes by including more blocks on the blockchain. On the other hand, on a complete graph topology with unit delay links and uniform compute power as before, all nodes receive the same reward. A node identically connected to other nodes in the two cases (i.e., the central node in the star topology and any arbitrary node in the complete graph topology: both have direct links to all other nodes) receives different rewards, as rewards depend not only on the node’s own connections but also on how other nodes’ connections. Thus, there is an inherent tension for a miner in increasing her own connectivity to the rest of the network while simultaneously ensuring that the connectivity between other miners do not significantly increase. A systematic research of this tension, and efficient connection policies to maximize marginal mining reward gain due to the network, have not been done to our best knowledge. 
+
+remained a relatively under-explored topic in the community. The work that is closest to our is Perigee [34] which proposes an adaptive peer-selection algorithm for minimizing block propagation latency in the network. However, Perigee does not model the game-theoretic competition between miners. Subsequent works [11], [43] consider optimizing the network to maximize extractable value (MEV) from transactions. A number of prior works have exposed the impact of the network on mining [12], [26], [28], [37], [40], [47], [48]. While these works generally suggest that better network connectivity translates to higher mining rewards earned, the competitive effects of network connectivity and methods to optimize them have not been discussed. Other related works include KadCast [38] which proposes a Kadmila-based structured overlay for efficient block broadcast, and relay networks such as BloXroute [29] for transports blocks quickly across vast geographic distances. 
+
+In this work, we formalize the p2p topology construction 
+
+The idea of network coordinates for p2p networks has been prominently explored in the network systems literature since the turn of the millenium, including distributed approaches to learn them [19], [32], [36]. More recently, a number of theoretical works have studied using low-distortion embeddings in finite metrics (i.e., over finite graphs) for various applications, e.g., sparse spanner construction [10], [13], [16], [21]. 
+
+Game theory of blockchains, especially at the consensus layer, has received considerable attention. For example, 
+
+problem as a game between miners and present Cobalt, a decentralized policy for optimizing reward. We consider a simplified setting where only a single node chooses its connections, while the rest of the network’s topology is fixed. We assume that the global topology of the p2p network is unknown to miners. We thus model the problem of optimizing rewards by the connections-deciding miner node as a Markov decision process (MDP) with no state and an action set with a combinatorial number of actions. 
+
+We derive the optimal neighbor selection policy using 
+
+Lewenberg et al. [33] use game theory to study how mining rewards can be shared across members of a mining pool. On the other hand, prior works have considered various network games outside the context of blockchains [24], [39]. Our work is the first (to our best knowledge) to consider network games in blockchains. 
+
+## III. P ROBLEM  F ORMULATION Let us consider a complete directed graph \(\ALP G=(\ALP V,\ALP E)\)edges.
+ , where \(\ALP V\)node
+  is the set of nodes and \(\ALP E\) is the set of directed edges. Each node in the graph represents a mining server. The hash rate of the mining server \(v\) is denoted by \(H_{v}\). We use \(\VEC H\) to denote the hash rate vector \(\VEC H:=(H_{v})_{v\in\ALP V}\). A directed edge \((v_{1},v_{2})\in\mathcal{E}\)directed
+  represents a (TCP) link between the nodes \(v_{1},v_{2}\). 1 
+
+a combinatorial multi-armed bandit (MAB) approach [14]. In the MAB algorithm, the agent (miner) explores various candidate connection configurations, and gradually adapts its connections based on past experience to gain the most mining rewards. A key contribution of our work is a network coordinates based model for efficiently learning the MAB environment [19]. In this model, miners are assigned realvalued vectors from an Euclidean space, which capture the relative location of miners with respect to each other in the network. The coodinates are continuously updated based upon the reward feedback the agent receives from the environment. Thus, despite not having global knowledge of the network initially, we show that it is possible for an agent to learn about the network by just using the observed reward information. 
+
+To enable the deployment of MAB algorithm, we have 
+
+The directed edge represents that node \(v_{1}\) can send messages (e.g., transactions, blocks etc.) to \(v_{2}\) as and when required by the protocol. The time take for a message sent from \(v_{1}\) to reach \(v_{2}\) along the link \((v_{1},v_{2})\) is denoted by \(l(v_{1},v_{2})\geq 0\). 
+
+built a simulator. To simplify the reward computation in the simulator, rather than simulating the actual mining process at each step of the MDP, we consider a computationally 1 We assume if \((v_{1},v_{2})\in\mathcal{E}\) then \((v_{2},v_{1})\in\mathcal{E}\) for all \(v_{1},v_{2}\in\mathcal{V}\). 

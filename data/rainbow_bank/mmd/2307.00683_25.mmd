@@ -1,0 +1,39 @@
+**Definition 4.11.**  We say a spin system \(\mu\)on \(\mathbb{Z}^{d}\)satisfies the _ strong spatial mixing (SSM)_  condition if there exist constants \(\alpha,\gamma,L>0\)such that for every
+ \(d\)-dimensional rectangle \(\Lambda\subset\mathbb{Z}^{d}\)of side length between \(L\)and
+ \(2L\)and every subset \(B\subset\Lambda\), with any pair \((\tau,\tau^{\prime})\) of boundary configurations on \(\partial\Lambda\) that only differ at a vertex \(u\), we have \[\|\mu_{B}^{\tau}(\cdot)-\mu_{B}^{\tau^{\prime}}(\cdot)\|_{TV}\leq\gamma\cdot \exp(-\alpha\cdot dist(u,B)),\]  where \(dist(\cdot,\cdot)\) denotes graph distance. 
+
+
+
+monotone
+ 
+
+ on \(\mathbb{Z}^{2}\). The definition above differs from other variants of SSM in the literature (e.g., [ DSVW04 , BCSV19 , MOS94 ]) in that \(\Lambda\) has been restricted to “regular enough” rectangles. In particular, our variant of SSM is easier to satisfy than those in [ DSVW04 , MOS94 ] but more restricting than the one in [ BCSV19 ] (that only considers squares). Nevertheless, it follows from [ CP21 , MOS94 , Ale98 , BDC12 ] that for the ferromagnetic Ising model,
+ this form of SSM holds up to a critical threshold temperature \(\beta<\beta_{c}(2)=\ln(1+\sqrt{2})\)
+
+Corollary  1.9  from the introduction states that for \(b\)-marginally bounded monotone spin system on \(d\)-dimensional cubes \(V\subseteq\mathbb{Z}^{d}\)result
+ , SSM implies that the mixing time of any systematic scan \(P_{\phi}\)is \(O(\log n)\). As mentioned there, this result in turn implies that any systematic scan dynamics for the ferromagnetic Ising model is mixing in \(O(\log n)\) steps on boxes of \(\mathbb{Z}^{2}\)when \(\beta<\beta_{c}(2)\). Another interesting consequence of Corollary  1.9  is that we obtain \(O(\log n)\)which
+  mixing time for any systematic scan dynamics \(P_{\phi}\)for the hardcore model on \(\mathbb{Z}^{2}\)when \(\lambda<2.538\), which is the best known condition for ensuring SSM [
+ SSSY17 , RST + 13 ]. 
+
+Our proof of Corollary  1.9  relies on Lemma  4.12  that is restated below. Remarkably, Lemma  4.12  generalizes beyond monotone systems and may be of independent interests. 
+
+**Lemma 4.12.** _ For a spin system on a_ \(d\)_-dimensional cube_ \(V\subseteq\mathbb{Z}^{d}\)_, SSM implies_ \(\eta\)_-spectral independence,_ _where_ \(\eta=O(1)\)_._ 
+
+* 
+
+_Proof of Corollary_ _ 1.9_ _._  Assume a monotone spin system satisfies SSM condition. Then the spin system satisfies \(\eta\)-spectral independence, where \(\eta=O(1)\) by Lemma  4.12 . By noting that \(\Delta=2^{d}\)the corollary follows from Theorem  4.3 . 
+
+Lastly, we give a proof of Lemma  4.12 . For this, we recall the notion of a \(\kappa\)-contractive coupling which is known to imply spectral independence. We say a distribution \(\mu\)is \(\kappa\)_-contractive_  with respect to a Markov chain \(P\)if for all \(X_{0},Y_{0}\in\Omega\), there exists a coupling of step of \(P\)so that \[\mathbb{E}[d(X_{1},Y_{1})\mid X_{0},Y_{0}]\leq\kappa d(X_{0},Y_{0}),\]  where \(d(\cdot,\cdot)\)that
+  denotes the Hamming distance of two configurations. The following lemma from [ BCC + 22 ] shows that spectral independence follows from the existence of a contractive coupling with respect to a heat-bath block dynamics. 
+
+**Lemma 4.13**  ([ BCC + 22 ]) **.** _ If_ \(\mu\)_is_ \(\kappa\)_-contractive with respect to a block dynamics, then_ \(\mu\)_is_ \((\frac{2DM}{1-\kappa})\)1
+vertex
+ 𝜅
+being
+ _-spectrally_ _independent, where_ \(M\)_is the maximum block size and_ \(D\)_is the maximum probability of a vertex being selected_ _as part of a block in any step of the block dynamics._ 
+
+With this lemma on hand, we can now prove Lemma  4.12 . 
+
+_Proof of Lemma_ _ 4.12_ _._  Let \(L\)be a sufficiently large constant so that the SSM condition is satisfied; we will choose \(L\)later. Let \(V\)be a \(d\)-dimensional cube of \(\mathbb{Z}^{d}\). We define a heat-bath block dynamics \(P_{\mathcal{B}}\) with respect to a collection \(\mathcal{B}\) of \(d\)-dimensional rectangles in \(V\). Precisely, let \(S_{v}:=\{w\in\mathbb{Z}^{d}:d_{\infty}(w,v)<L\}\)heat-bath
+ , and let \(\mathcal{B}\) be the set of blocks \(\{S_{v}\cap V\}_{v\in V}\)3
+ . Given a configuration \(X_{t}\), the heat-bath block dynamics \(P_{\mathcal{B}}\) obtains a configuration \(X_{t+1}\) in 3 steps as follows: 

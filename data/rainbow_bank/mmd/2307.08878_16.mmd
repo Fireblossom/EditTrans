@@ -1,0 +1,60 @@
+\[\gamma_{2}(0) =\sum_{x\in\mathbb{Z}}\beta_{k_{j}}^{*q}(x)\theta(-x)\] \[=\sum_{|x|\leq(n-1)N_{k_{j}-1}}\beta_{k_{j}}^{*q}(x)\theta(-x)\] \[\leq\sum_{|x|\leq(n-1)N_{k_{j}-1}}\beta_{k_{j}}^{*q}(x)\] \[=\beta_{k_{j}}^{*q}\left(\left[-(n-1)N_{k_{j}-1},(n-1)N_{k_{j}-1} \right]\right)\] \[\leq\varepsilon_{n},\]  
+
+where we used the fact that \(\beta_{k_{j}}\) satisfies Equation ( 2 ), with \(k_{j}\geq p_{n}\). 
+
+We conclude that \(\nu^{*n}(0)=\gamma_{1}(0)+\gamma_{2}(0)\leq 2\varepsilon_{n},\) which finishes the proof. 
+
+If we weaken the hypothesis \(\mathbb{E}\left(|\mathrm{supp}(\sigma_{1})|\right)<\infty\)Indeed,
+ from Lemma  4.10  it is possible that the permutation coordinate never stabilizes. Indeed, with ideas similar to an example of [ Kai83 ], we obtain the following. 
+
+**Proposition 4.14.** _ The group_ \({\mathsf{Shuffler}}(\mathbb{Z})\)_ admits probability measures_ \(\mu\)\({\mathsf{Shuffler}}(\mathbb{Z})\)admits probability measures
+ \(\mu\)Proposition 4.14. The group Shuffler(Z) admits probability measures µ with an infinite first moment and a finite (1 −ε)-moment, for every 0 < ε < 1, that induce a
+ \((1-\varepsilon)\)-moment, for every
+ \(0<\varepsilon<1\), that induce
+ \((1-\varepsilon)\)for
+ _-moment, for every_ \(0<\varepsilon<1\)_, that induce a_ _transient random walk on_ \(\mathbb{Z}\)_ and for which the permutation coordinate of the_ \(\mu\)_-random_ _walk does not stabilize. Such measures can be chosen to satisfy_ \(\mathbb{E}(|\mathrm{supp}(\sigma_{1})|)=\infty\)_and_ \(\mathbb{E}(|\mathrm{supp}(\sigma_{1})|^{1-\varepsilon})<\infty\)_for every_ \(0<\varepsilon<1\)_._ 
+
+_Proof._  For each \(n\geq 1\), denote by
+ \(r_{n}:\mathbb{Z}\to\mathbb{Z}\) the permutation 
+
+rn(x)={x+1, if ⁢0≤x<n−1,0, if ⁢x=n−1, andx, otherwise.  
+
+We define the measure \(\mu\) on \({\mathsf{Shuffler}}(\mathbb{Z})\)as follows. Let
+ 
+
+\[\mu((\mathsf{id},1))=1/8,\ \mu((\mathsf{id},-1))=3/8,\]  
+
+and 
+
+\[\mu((r_{n},0))=\frac{1}{2n(n+1)},\ \text{ for }n\geq 1.\]  
+
+, so that
+ \(\mu\) is indeed a probability measure. Also note that Note that \(\sum_{n\geq 1}\frac{1}{n(n+1)}=1\)\(|\mathrm{supp}(r_{n})|=n\). From this, the fact that the harmonic series \(\sum_{n\geq 1}\frac{1}{n}\)diverges implies that is \(\mathbb{E}(|\mathrm{supp}(\sigma_{1})|)\)is infinite. Moreover, since
+ \(\|(r_{n},0)\|_{S_{\mathrm{std}}}\geq|\mathrm{supp}(r_{n})|\)every
+ , we also have that \(\mu\)has an infinite first moment. On the other hand, for every \(\varepsilon>0\)the series
+ \(\sum_{n\geq 1}\frac{n^{1-\varepsilon}}{n(n+1)}\)convergent and thus \(\mathbb{E}(|\mathrm{supp}(\sigma_{1})|^{1-\varepsilon})\)expressed
+ is finite. The element
+ \(r_{n}\) has word length at most \(3n\) (since it can be expressed as the product of at most \(n\)transpositions together with
+ \(2n\)movements in the \(\mathbb{Z}\) coordinate), and hence 
+
+\[\sum_{n\geq 1}\frac{\|(r_{n},0)\|_{S_{\mathrm{std}}}^{1-\varepsilon}}{n(n+1)} \leq 3^{1-\varepsilon}\sum_{n\geq 1}\frac{n^{1-\varepsilon}}{n(n+1)},\]  
+
+which is finite. Hence, \(\mu\)has a finite
+ \((1-\varepsilon)\)
+
+
+
+-moment.
+ 
+
+Let us show that the value \(F_{n}(0)\),
+ \(n\geq 1\)\(\mu\), almost surely changes infinitely often. By
+ definition of the group operation and the \(\mu\)-random walk, we can write \(F_{n}=F_{n-1}\circ(S_{n}\cdot\sigma_{n})\).
+ Hence, \(F_{n}(0)\neq F_{n-1}(0)\)if and only if
+ \(S_{n}\cdot\sigma_{n}(0)\neq 0\)action
+ , which can be rewritten as
+ \(\sigma_{n}(-S_{n})\neq-S_{n}\), by using the definition of the action of \(\mathbb{Z}\)on
+ \(\mathrm{FSym}(\mathbb{Z})\)(here we use an additive
+ notation for the group operation on \(\mathbb{Z}\)). 
+
+The induced random walk on \(\mathbb{Z}\) is drifted to the negative numbers, and hence almost surely \(S_{n}\xrightarrow[n\to\infty]{}-\infty\). Also, at time \(n\) the projection to \(\mathbb{Z}\) satisfies \(S_{n}\geq-n\), since the 

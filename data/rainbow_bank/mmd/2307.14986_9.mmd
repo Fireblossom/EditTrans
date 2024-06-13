@@ -1,0 +1,33 @@
+**Lemma 3.4.** _ Under the hypothesis of Theorem 3.1, for every_ \(p_{0}>2\)_ there exists a constant_ \(C_{1}\)_ such that for all_ \(p\geqslant p_{0}\)_ and_ \(\zeta\in C_{0}^{\infty}(\mathbb{R}^{n};\,\mathbb{R}_{\geqslant 0})\)
+
+\[\|\nabla(\zeta|\psi|^{p/2})\|_{2}\leqslant C_{1}\,p^{\alpha}\|(| \nabla\zeta|+\zeta)|\psi|^{p/2}\|_{2},\] (29)  
+
+_where_ \(\alpha=(\mu+1)/2\)_._ 
+
+_Proof._  The proof of this lemma is based on (22) and it follows the proof of (Theorem 5.1 in [0]). Note that (22) becomes useless for \(p=2\). Agmon works with the stronger inequality
+ (19), which doesn’t degenerate at \(p=2\). By fixing a number
+ \(p_{0}>2\)and looking at numbers
+ \(p\geqslant p_{0}\) we can reuse Agmon’s proof. From (22) and H¨ older’s inequality it follows that 
+
+\[(p-2)\int dx\,\zeta^{2}|\psi|^{p-2}|\nabla|\psi||^{2}\leqslant 2 \left(\int dx\,\zeta^{2}|\psi|^{p-2}|\nabla|\psi||^{2}\right)^{1/2} \left(\int dx\,|\nabla\zeta|^{2}|\psi|^{p}\right)^{1/2}\] \[+ \int dx\,\zeta^{2}q_{-}|\psi|^{p}\]  
+
+Using (26) this can be rewritten as 
+
+\[(p-2)\dfrac{4}{p^{2}}\underbrace{\int dx\,\zeta^{2}|\nabla|\psi|^ {p/2}|^{2}}_{=A^{2}}\leqslant 2\dfrac{2}{p}\underbrace{\left(\int dx\,\zeta^{2 }|\nabla|\psi|^{p/2}|^{2}\right)^{1/2}}_{=A} \underbrace{\left(\int dx\,|\nabla\zeta|^{2}(|\psi|^{p/2})^{2} \right)^{1/2}}_{=B}\] \[+ \underbrace{\int dx\,\zeta^{2}q_{-}(|\psi|^{p/2})^{2}}_{=C}.\]  
+
+Note that by Lemma 3.3 and assumption (13) all integrals are finite. The above inequality is equivalent to 
+
+\[A^{2}\leqslant\dfrac{p}{p-2}AB+\dfrac{p^{2}}{4(p-2)}C.\]  
+
+Next, we use that \(p/(p-2)\leqslant p_{0}/(p_{0}-2)\eqqcolon D_{0}\) for \(p\geqslant p_{0}\) and \(AB\leqslant\delta A^{2}+B^{2}/\delta\) for all \(\delta>0\):
+ 
+
+\[A^{2} \leqslant D_{0}\left(\delta A^{2}+\dfrac{B^{2}}{\delta}\right)+ \dfrac{p}{4}D_{0}C\] \[\iff(1-D_{0}\delta)A^{2} \leqslant D_{0}\dfrac{B^{2}}{\delta}+\dfrac{p}{4}D_{0}C.\]  
+
+We choose \(\delta=\dfrac{1}{2D_{0}}\), so that 
+
+\[\dfrac{1}{2}A^{2}\leqslant 2D_{0}^{2}B^{2}+\dfrac{p}{4}D_{0}C.\]  
+
+\(\sqrt{a+b}\leqslant\sqrt{a}+\sqrt{b}\)Using  it follows that 
+
+\[A\leqslant 2D_{0}B+\sqrt{\dfrac{D_{0}}{2}}\sqrt{p}\,\sqrt{C}\]  

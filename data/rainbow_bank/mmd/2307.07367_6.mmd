@@ -1,0 +1,22 @@
+decline in activity on Stack Overflow. 
+
+We report the estimated effect of our difference-in-differences model in Table  1  and visualize the weekly estimates of the relative change in the Stack Overflow activity in Figure  2 . Table  1  indicates that ChatGPT decreased posting activity on Stack Overflow by 15.6% ( \(1-e^{-0.17}\)). These results are robust to changes in the controls and starting point of the data time series. We also tested for heterogeneity in subsets of the data: considering only questions (rather than counting both questions and answers) and posts on weekdays. In both subsets our estimates did not deviate significantly from the main result: we estimate a 12% relative decrease in questions and 14% relative decrease in posts on weekdays. 
+
+Figure  2  shows that the impact of ChatGPT is increasing over time and is by the end of our study greater in magnitude than the average post-ChatGPT effect estimated in Table  1 . By the end of April 2023, the estimated effect stabilizes at around 25%. Interestingly, ChatGPT use, in general, peaked around this time. 3 
+
+\begin{tabular}{l c c c}
+\hline
+ & (1) & (2) & (3) \\
+ & Number of posts & Number of questions & Weekday posts \\
+\hline
+Stack Overflow \(\times\) Post-GPT & -0.170** & -0.112+ & -0.149* \\
+ & (0.0607) & (0.0619) & (0.0636) \\
+Observations & 1,150 & 1,150 & 1,150 \\
+R-squared & 0.995 & 0.994 & 0.993 \\
+R-squared within & 0.290 & 0.315 & 0.232 \\
+Outcome mean & 16363 & 7273 & 13191 \\
+Outcome std. dev. & 29088 & 12661 & 23685 \\ \hline
+\end{tabular}
+
+
+Table 1: Results of a difference-in-differences model, estimating the change in activity observed weekly on Stack Overflow following the release of ChatGPT, relative to activity on four other platforms less likely to have been impacted. All regressions comprise platform fixed effects, week fixed effects, and platform-specific linear time-trends. The standard-error of the estimate clustered on month is reported in parentheses. Significance codes: ***: \(p<0.001\), **: \(p<0.01\), *: \(p<0.05\), +: \(p<0.1\). 

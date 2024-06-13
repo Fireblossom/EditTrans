@@ -1,0 +1,41 @@
+where the initial \(\boldsymbol{u}_{AD}^{(0)}\)is set as \(\overline{\boldsymbol{u}}\). By running the iteration (16) \(N\) times, we obtain \(\boldsymbol{u}_{AD}\doteq\boldsymbol{u}_{AD}^{(N)}\)as the \(N^{\text{th}}\) order van Cittert operator applied to \(\overline{\boldsymbol{u}}\). However, to make this iteration practical, we need to recall that each application of the filter \(G\) requires the inversion of a differential operator. Therefore, denoting by we
+ 
+
+
+
+\(\widetilde{\boldsymbol{u}}^{(n+1)}\)the quantity \(\widetilde{\boldsymbol{u}}^{(n+1)}\doteq G\boldsymbol{u}_{AD}^{(n)}\)\(\widetilde{\boldsymbol{u}}^{(n+1)}\doteq G\boldsymbol{u}_{AD}^{(n)}\), and substituting in our filter from (12), we observe that \(\widetilde{\boldsymbol{u}}^{(n+1)}\)\(\widetilde{\boldsymbol{u}}^{(n+1)}\)is found by solving 
+
+\[(I-\delta^{2}\Delta)^{-1}\boldsymbol{u}_{AD}^{(n)}=\widetilde{ \boldsymbol{u}}^{(n+1)}\Longleftrightarrow(I-\delta^{2}\Delta)\widetilde{ \boldsymbol{u}}^{(n+1)}=\boldsymbol{u}_{AD}^{(n)}.\] (17)  
+
+order
+ 
+
+
+
+Equation (17) requires to solve a linear system at each iteration \(n=0,\ldots,N-1\). As discussed above, in order to employ the van Cittert AD in a ROM setting, by multiplying (17) by each test function in our ROM space and expanding our prospective solution as a linear combination of ROM basis functions, we obtain the linear system 
+
+Thus, the iterative process (16) amounts to setting \(\boldsymbol{c}_{AD}^{(0)}=\overline{\boldsymbol{c}}\), updating the 
+
+\[\left(\boldsymbol{M}+\delta^{2}\boldsymbol{S}\right)\widetilde{\boldsymbol{c}} ^{(n+1)}=\boldsymbol{M}\boldsymbol{c}_{AD}^{n}.\] (18)  
+
+process
+ 
+
+
+
+coefficients of the ROM AD velocity as 
+
+and finally defining \(\boldsymbol{c}_{AD}\doteq\boldsymbol{c}_{AD}^{(N)}\). 
+
+\[\boldsymbol{c}_{AD}^{(n+1)}=\boldsymbol{c}_{AD}^{(n)}+\{\overline {\boldsymbol{c}}-\widetilde{\boldsymbol{c}}^{(n+1)}\}\qquad n=0,\ldots,N-1,\]  
+
+### 3.3. The Tikhonov AD The Tikhonov method of approximate deconvolution is defined as 
+
+\[\boldsymbol{u}_{AD}=D_{\mu}^{T}\overline{\boldsymbol{u}}=(G^{*}G+\mu I)^{-1}G^ {*}\overline{\boldsymbol{u}},\] (19)  
+
+where \(G^{*}\)denotes the adjoint of the operator \(G\), and \(\mu\in\mathbb{R}^{+}\)\(G^{*}\)denotes the adjoint of the operator
+ \(G\), and
+ \(\mu\in\mathbb{R}^{+}\)where G∗denotes the adjoint of the operator G, and µ ∈R+ is a positive constant; we refer, e.g., to [39, section 3.3.1] for further details on the
+ Tikhonov AD. When plugging in the specific filter from (12) and proceeding formally, we can write 
+
+\[[G^{*}G+\mu I]\boldsymbol{u}_{AD} =G^{*}\overline{\boldsymbol{u}},\] \[[(I-\delta^{2}\Delta)^{-*}(I-\delta^{2}\Delta)^{-1}+\mu I] \boldsymbol{u}_{AD}\] =(I−δ2Δ)−∗𝒖¯], \[[(I-\delta^{2}\Delta)^{-1}+\mu(I-\delta^{2}\Delta)^{*}] \boldsymbol{u}_{AD} =\overline{\boldsymbol{u}},\] \[[I+\mu(I-\delta^{2}\Delta)(I-\delta^{2}\Delta)^{*}]\boldsymbol{u} _{AD} =(I-\delta^{2}\Delta)\overline{\boldsymbol{u}},\] \[[I+\mu(I-\delta^{2}\Delta^{*}-\delta^{2}\Delta+\delta^{2}\Delta \delta^{2}\Delta^{*})]\boldsymbol{u}_{AD} =(I-\delta^{2}\Delta)\overline{\boldsymbol{u}},\] \[\left[I+\mu(I-2\delta^{2}\Delta+\delta^{4}\Delta\Delta)\right] \boldsymbol{u}_{AD} =(I-\delta^{2}\Delta)\overline{\boldsymbol{u}}.\] (20)  

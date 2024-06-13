@@ -1,0 +1,42 @@
+for all \(\tau\in\mathcal{S}_{0}\)convex
+ , where E⋅denotes the expectation. In this context, the functions
+ \(\tau\in\mathcal{S}_{0}\)Let
+  are named _weakly convex_ . Moreover, [TV97, Lemma 6] gives a weaker version of Theorem 3: Let \(\tau\in\mathcal{S}_{0}\). For \(a,b\in[0,\infty)\)with
+ \(a\geq b\), it was shown that \(\tau(a+b)+\tau(a-b)\leq 2\tau(a)+2\tau(b)\).
+ 
+
+#### Statistics Theorem 1 can be applied to prove rates of convergence for certain kinds of means [Sch19]: We may want to calculate a mean value of some sample points in a metric spaces. One candidate for this is the _echet mean_  [Fr´ e48], also called _ barycenter_ . It is the (set of) minimizer(s) of the squared distance to the sample points. If \(Y\)is a random variable with values in a metric space
+ \((\mathcal{Q},d)\), the
+ Fr´
+echet mean is
+ \(\argmin_{q\in\mathcal{Q}}\mathbb{E}\expectarg{\overline{Y,q}^{2}}\), where we assume
+ \(\mathbb{E}\expectarg{\overline{Y,q}^{2}}<\infty\)for all \(q\in\mathcal{Q}\). Similarly, one can define the Fr´ Fr´
+echet median [FVJ09] as
+ \(\argmin_{q\in\mathcal{Q}}\mathbb{E}\expectarg{\overline{Y,q}}\), or a more general
+ \(\tau\)echet mean [Sch22] as
+ \(\argmin_{q\in\mathcal{Q}}\mathbb{E}\expectarg{\tau(\overline{Y,q})}\)for functions
+ \(\tau\colon[0,\infty)\to\mathbb{R}\)as
+ . Given a sequence of independent random variables \(Y_{1},Y_{2},\dots\) with the same distribution as \(Y\) , a standard task in statistics is to bound the distance between the sample statistics and its corresponding population version. In our case, assume the \(\tau\)echet mean is unique and define 
+
+m &:= _q∈QE_τ_(¯Y,q)  , ^m_n := _q∈Q 1n ∑_i=1^n _τ_(¯Y_i,q)  .
+
+We want to bound
+ \(\overline{\hat{m}_{n},m}\)\(\overline{\hat{m}_{n},m}\) depending on \(n\). One can employ quadruple inequalities such as (3) to obtain a suitable upper bound [Sch19, Theorem 1]. This approach is particularly useful, if we do not want to make the assumption that the diameter of the metric space
+ \(\sup_{q,p\in\mathcal{Q}}\overline{q,p}\) is finite. With Theorem 1, one can obtain such a bound for \(\tau\)echet means with \(\tau\in\mathcal{S}\) (under some conditions). We emphasize that this is only possible with (3) and not with (8). Noteworthy examples of \(\tau\in\mathcal{S}\)\(\tau_{\mathsf{pH},\delta}\)in this context, aside from \(\tau=\tau_{\alpha}\), are the Huber loss \(\tau_{\mathsf{H},\delta}\) [Hub64] and the Pseudo-Huber loss \(\tau_{\mathsf{pH},\delta}\)[Cha+94] for \(\delta\in(0,\infty)\),
+ 
+
+_τ__H,_δ_(x) &:= {12 x^2 for x ≤_δ_  , _δ_(x - 12 _δ_) for x ¿ _δ_  , _τ__pH,_δ_(x) := _δ_^2 ( 1 + x2_δ_2 - 1 )   ,
+
+as well as \(x\mapsto\ln(\cosh(x))\)[Gre90]. These functions are of great interest in robust statistics and
+ image processing as their respective minimizers combine properties of the classical mean ( \(\tau_{2}\)echet mean) and the median ( \(\tau_{1}\)echet mean). 
+
+### Outline In the remaining sections, we first discuss the set \(\mathcal{T}\) , i.e., the set of quadruple transformations, see section 2. We continue with a discussion of the set \(\mathcal{S}\), i.e., nondecresing, convex functions with concave derivative, in section 3. Thereafter, we prove our main result, i.e., \(\mathcal{S}\subseteq\mathcal{T}\)The
+  . The basic ideas of the proof and variations of the main result are presented in section 4. The technical details can be found in appendix B and C. The proof of Theorem 3 can be found in appendix A. In section 5 we discuss implications of the main results and open questions. 
+
+## Quadruple Transformations We explore some properties of quadruple functions \(\tau\in\mathcal{T}\) and their quadruple constant \(L_{\tau}^{*}\). 
+
+### Properties 
+
+(i) For \(c\in\mathbb{R}\), let \(\tau_{c}:=(x\mapsto c)\). Then
+ \(\tau_{c}\in\mathcal{T}\) with \(L_{\tau}^{*}=0\).
+ 

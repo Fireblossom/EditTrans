@@ -1,0 +1,129 @@
+_community filtered by Tutorial tag on social media web_ _site?_ ), and acts via planning, summarizing by HTML-T5, and then programming by Flan-U-PaLM. See  Appendix C for the example workflow. We finetune HTML-T5 with traces that are collected using scripted agents by procedu rally generating instructions from human curated templates. This results in 260 episodes on real estate website and 230 episodes on social media website (about 20/10 steps per episode respectively). 
+
+We prepare 20 different natural language instructions, and measure the success rate and score for the evaluation. The score represents the percentage of required attributes covered during the episode [ 81 ]; for instance (1) _ apartments_  for (2) _ corporate housing_  with (3) _ studio bedroom_  and (4) _ 1+ bathroom_ located in (5) _ oroville, ca_ . When the agents could search the housing satisfying (1), (2), (5) and not (3), (4), the score would be 60 ( \(=100\times 3/5\)). When the agents could achieve 100 score, that episode would mark as success. 
+
+**Results**  For comparison, we prepare three baselines, con sisting of partial plug-in language models and a single LLM prompting different examplers per role: WebAgent replacing closed-loop planning from HTML-T5 with few shot open-loop planning from Flan-U-PaLM ( **Plan** :  % ), replacing HTML summarization from HTML-T5 with regular-expression-based retrieval ( **Sum** :  % ), and both of them ( **Plan** :  % , ** Sum** :  % ).  Table 2  shows that WebAgent with HTML-T5 for planning and summarization ( **Plan** : " , ** Sum** :  " ) achieves best 65% success and 87.6 score on  real-estate  and 70% success and 85.8 score on social-media , significantly outperforming single LLM ( **Plan** :  % , ** Sum** :  % ), that with open-loop planning ( **Plan** : % ), and that with regular-expression retrieval ( **Sum** :  % ) (most of those roughly achieve only 10 - 20% success). This result suggests that closed-loop planning grounded on HTML observations via finetuning of domain language models is much more suitable for open-ended web navigation than open-loop planning with few-shot LLMs, which is remarkable in  real-estate  (even ** Sum** :  % achieves 50% success), where the longer planning horizon is needed to fulfill instructions. We guess enhancing the planning ability to decompose the given instructions adaptively and robustly can help further improve WebAgent. 
+
+\begin{tabular}{l r r r}
+\hline \hline
+**Models** & **Data** & **Success** & **Diff.** \\
+\hline
+CC-Net [] & 2.4M & 32.0\% & – \\
+WebN-T5-XL [] & 12K & 48.4\% & – \\
+\hline
+LongT5-Base & \multirow{3}{*}{12K} & 53.8\% & 0.0 \\
+LongT5-Large & & 56.3\% & 0.0 \\
+LongT5-XL & & 60.4\% & 0.0 \\
+\hline
+Flan-LongT5-Base & \multirow{3}{*}{12K} & 54.1\% & +0.3 \\
+Flan-LongT5-Large & & 56.1\% & -0.2 \\
+Flan-LongT5-XL & & 61.1\% & +0.7 \\
+\hline
+HTML-T5-Base (ours) & \multirow{3}{*}{12K} & 57.0\% & +3.2 \\
+HTML-T5-Large (ours) & & 60.8\% & +4.5 \\
+HTML-T5-XL (ours) & & **63.3**\% & +2.9 \\
+\hline
+Flan-T5-XL [] & \multirow{2}{*}{347K} & 75.5\% & – \\
+Flan-T5-XXL [] & & 79.0\% & – \\
+\hline
+HTML-T5-XL (ours) & 347K & **79.4**\% & – \\ \hline \hline
+\end{tabular}
+\begin{tabular}{l r r r}
+\hline \hline
+**Models** & **Data** & **Success** & **Diff.** \\
+\hline
+CC-Net [] & 2.4M & 32.0\% & – \\
+WebN-T5-XL [] & 12K & 48.4\% & – \\
+\hline
+LongT5-Base & \multirow{3}{*}{12K} & 53.8\% & 0.0 \\
+LongT5-Large & & 56.3\% & 0.0 \\
+LongT5-XL & & 60.4\% & 0.0 \\
+\hline
+Flan-LongT5-Base & \multirow{3}{*}{12K} & 54.1\% & +0.3 \\
+Flan-LongT5-Large & & 56.1\% & -0.2 \\
+Flan-LongT5-XL & & 61.1\% & +0.7 \\
+\hline
+HTML-T5-Base (ours) & \multirow{3}{*}{12K} & 57.0\% & +3.2 \\
+HTML-T5-Large (ours) & & 60.8\% & +4.5 \\
+HTML-T5-XL (ours) & & **63.3**\% & +2.9 \\
+\hline
+Flan-T5-XL [] & \multirow{2}{*}{347K} & 75.5\% & – \\
+Flan-T5-XXL [] & & 79.0\% & – \\
+\hline
+HTML-T5-XL (ours) & 347K & **79.4**\% & – \\ \hline \hline
+\end{tabular}
+\begin{tabular}{l r r r}
+\hline \hline
+**Models** & **Data** & **Success** & **Diff.** \\
+\hline
+CC-Net [] & 2.4M & 32.0\% & – \\
+WebN-T5-XL [] & 12K & 48.4\% & – \\
+\hline
+LongT5-Base & \multirow{3}{*}{12K} & 53.8\% & 0.0 \\
+LongT5-Large & & 56.3\% & 0.0 \\
+LongT5-XL & & 60.4\% & 0.0 \\
+\hline
+Flan-LongT5-Base & \multirow{3}{*}{12K} & 54.1\% & +0.3 \\
+Flan-LongT5-Large & & 56.1\% & -0.2 \\
+Flan-LongT5-XL & & 61.1\% & +0.7 \\
+\hline
+HTML-T5-Base (ours) & \multirow{3}{*}{12K} & 57.0\% & +3.2 \\
+HTML-T5-Large (ours) & & 60.8\% & +4.5 \\
+HTML-T5-XL (ours) & & **63.3**\% & +2.9 \\
+\hline
+Flan-T5-XL [] & \multirow{2}{*}{347K} & 75.5\% & – \\
+Flan-T5-XXL [] & & 79.0\% & – \\
+\hline
+HTML-T5-XL (ours) & 347K & **79.4**\% & – \\ \hline \hline
+\end{tabular}
+\begin{tabular}{l r r r}
+\hline \hline
+**Models** & **Data** & **Success** & **Diff.** \\
+\hline
+CC-Net [] & 2.4M & 32.0\% & – \\
+WebN-T5-XL [] & 12K & 48.4\% & – \\
+\hline
+LongT5-Base & \multirow{3}{*}{12K} & 53.8\% & 0.0 \\
+LongT5-Large & & 56.3\% & 0.0 \\
+LongT5-XL & & 60.4\% & 0.0 \\
+\hline
+Flan-LongT5-Base & \multirow{3}{*}{12K} & 54.1\% & +0.3 \\
+Flan-LongT5-Large & & 56.1\% & -0.2 \\
+Flan-LongT5-XL & & 61.1\% & +0.7 \\
+\hline
+HTML-T5-Base (ours) & \multirow{3}{*}{12K} & 57.0\% & +3.2 \\
+HTML-T5-Large (ours) & & 60.8\% & +4.5 \\
+HTML-T5-XL (ours) & & **63.3**\% & +2.9 \\
+\hline
+Flan-T5-XL [] & \multirow{2}{*}{347K} & 75.5\% & – \\
+Flan-T5-XXL [] & & 79.0\% & – \\
+\hline
+HTML-T5-XL (ours) & 347K & **79.4**\% & – \\ \hline \hline
+\end{tabular}
+\begin{tabular}{l r r r}
+\hline \hline
+**Models** & **Data** & **Success** & **Diff.** \\
+\hline
+CC-Net [] & 2.4M & 32.0\% & – \\
+WebN-T5-XL [] & 12K & 48.4\% & – \\
+\hline
+LongT5-Base & \multirow{3}{*}{12K} & 53.8\% & 0.0 \\
+LongT5-Large & & 56.3\% & 0.0 \\
+LongT5-XL & & 60.4\% & 0.0 \\
+\hline
+Flan-LongT5-Base & \multirow{3}{*}{12K} & 54.1\% & +0.3 \\
+Flan-LongT5-Large & & 56.1\% & -0.2 \\
+Flan-LongT5-XL & & 61.1\% & +0.7 \\
+\hline
+HTML-T5-Base (ours) & \multirow{3}{*}{12K} & 57.0\% & +3.2 \\
+HTML-T5-Large (ours) & & 60.8\% & +4.5 \\
+HTML-T5-XL (ours) & & **63.3**\% & +2.9 \\
+\hline
+Flan-T5-XL [] & \multirow{2}{*}{347K} & 75.5\% & – \\
+Flan-T5-XXL [] & & 79.0\% & – \\
+\hline
+HTML-T5-XL (ours) & 347K & **79.4**\% & – \\ \hline \hline
+\end{tabular}
+
+
+Table 4: Average success rate of MiniWoB++ with 56 tasks. We use 12K demonstrations [ 42 ], and compare HTML-T5 among supervised-finetuned baselines [ 24 ,  28 ]. HTML-T5-XL remarkably outperforms WebN-T5 XL, the prior best method, by 14.9%, and HTML-denoising improves the success rate better than instruction tuning. We also finetune HTML-T5 with 347K expert traces [ 19 ], which performs better than Flan-T5-XXL (11B parameters) even with 3B parameters. See  Appendix H  for the detailed results. 

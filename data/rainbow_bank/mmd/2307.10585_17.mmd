@@ -1,0 +1,31 @@
+The above assumptions are fundamental to our approximate calculation, and a further mild technical assumption allows us to avoid tedious consideration of uninteresting cases: 
+
+
+*  The time scales of relaxation of flagellar force and orientation are comparable: 
+
+\[\gamma_{F}/\gamma_{\Theta}\sim\operatorname{ord}(1).\] (25)  
+
+Indeed, we find this condition satisfied by the parameters we inferred from experimental observations in Table 1. 
+
+Under the assumptions described above, we obtain the following approximation for the translational diffusivity: 
+
+\[\lim\limits_{t\rightarrow\infty}\frac{\langle\mathbf{X}^{(\mathrm {c})}(t)\odot\mathbf{X}^{(\mathrm{c})}(t)\rangle}{2t} =D_{\mathrm{t}}^{\ast}\mathit{\mathsf{I}},\] \[D_{\mathrm{t}}^{\ast}\] ≡Dt+V∗22⁢Dr∗Dr∗+2Ωr∗2+Dt~ (26)  
+
+where V∗2is the mean-square velocity coarse-grained over the flagellar time scale (19), and 
+
+Dt~≡a⁢Ωr∗2γt2γr(Ωr∗+2Dr∗)2[2⁢σF2γF∑j,j′=1NFj(0)inΘj′(0)cos(Θj(0)−Θj′(0)+2⁢πN(j−j′+Sj−Sj′l)) +σΘ2γΘ∑j,j′=1NFj(0)Fj′(0)(Fj′(0)cos(Θj′(0))−Fj(0)cos(Θj(0)))in(Θj(0)−Θj′(0)+2⁢πN(j−j′+Sj−Sj′l))]  Dt~≡a⁢Ωr∗2γt2γr(Ωr∗+2Dr∗)2[2⁢σF2γF∑j,j′=1NFj(0)inΘj′(0)cos(Θj(0)−Θj′(0)+2⁢πN(j−j′+Sj−Sj′l)) +σΘ2γΘ∑j,j′=1NFj(0)Fj′(0)(Fj′(0)cos(Θj′(0))−Fj(0)cos(Θj(0)))in(Θj(0)−Θj′(0)+2⁢πN(j−j′+Sj−Sj′l))]  
+
+Here
+ \(\Omega^{\ast}_{\mathrm{r}}\)is the effective rotational drift coefficient and \(D_{\mathrm{r}}^{\ast}\)is the effective rotational diffusion coefficient given in (8) and (10) respectively. As shown in Subsection 4.2, the error in our calculation is essentially fourth order in the small parameters \(\sigma_{\Theta}\) and \(\sigma_{F}\) . 
+
+The first two terms of the expression in Eq.  (26)  are exactly the translational diffusion for a colony with thermal diffusivity \(D_{\mathrm{t}}\), moving at a constant speed \(V^{\ast}\)along an orientation with constant rotational drift
+ \(\Omega^{\ast}_{\mathrm{r}}\)and constant rotational diffusion \(D_{\mathrm{r}}^{\ast}\). As we shall shortly explain, the complicated terms in \(\tilde{D_{\mathrm{t}}}\)\(\tilde{D_{\mathrm{t}}}\) are included for completeness and consistency with the results presented for general geometries in Subsection 5.2, but should typically be considerably smaller than the simpler terms presented in Eq.  (26)  for disclike geometries. 
+
+Due to the nonpolynomial dependence of the translational diffusion on the effective rotational statistics, a rigorous computation of the demographic mean is complicated. We therefore content ourselves with an estimate for the demographic mean by averaging separately the numerator and denominator, neglecting demographic correlations between the colony speed and rotational characteristics, and dropping the small contribution from  \(\tilde{D_{\mathrm{t}}}\)\(\tilde{D_{\mathrm{t}}}\): 
+
+𝔼[Dt∗]≈𝔼[V∗]2𝔼⁢[Dr∗]2⁢(Var⁢[Dr∗]+(𝔼⁢[Dr∗])2+Var⁢[Ωr∗])+Dt. (27)  
+
+All component demographic averages have been reported above, other than 𝔼[V∗]2which is clearly
+ representable as a linear combination of \(\mathbb{E}[\langle|\mathbf{V}^{(\mathrm{c})}|^{2}\rangle]\)and
+ \(\mathbb{E}[(F_{j}^{(0)})^{2}]\). We do not report a demographic
+ standard deviation because it is cumbersome, and in any case is simply a compounding of the demographic fluctuations from the mean-square speed (21) and the the rate of velocity decorrelation induced by the effective rotational drift (9) and rotational diffusion (13) of the colony. 

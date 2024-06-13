@@ -1,0 +1,63 @@
+the temperature feature to evaluate its impact on the clustering algorithm’s efficiency in identifying locations of interest. _3.3.1_ Obtaining Historical Temperature Data
+ .
+  However, such tem perature analysis is only feasible when temperature data is avail able. Certain studies concerning elephant movement (Tsalyuk et al. [ 23 ]; Wall et al. [ 24 ]) lack a temperature feature. Therefore, we explored methods to approximate temperature data from other data sources. Using the meteostat python package and API, we identified weather stations proximate to the study site. The historical data was queried and appended to the study data, enabling calculation of Temperature-influenced centroids that would have been impossible to calculate otherwise. 
+
+The procedure entailed three key steps: (1) Identifying a nearby weather station, (2) Matching timestamps with the queried data, and (3) Evaluating the capability of the appended historical temperature data in calculating temperature-influenced centroids. 
+
+For the first step, the median latitude and longitude of the given 
+
+elephant’s movement data was computed, which was then used to query a nearby station. The second step involved normalizing and interpolating the time series data from the station, provided by meteostat, to ensure a higher temporal granularity that matches the given data. In the third step, the correlation between the historical station data and Kruger temperature data was evaluated using the coefficient of determination, R-squared. 
+
+balance between data retention and accuracy should be maintained while deciding the value of \(\delta\). 
+
+Our results indicate a moderate correlation between the study 
+
+The integration of weather station temperature data with animal 
+
+data and the station data. This correlation, combined with the per formance of the Temperature-influenced centroids with the weather data, gives us confidence to extend this technique to datasets that lack temperature data. Based on our experiment with elephant AM306 (See Figure 1) from the Kruger dataset, we found that the Temperature-influenced feature space aided in revealing more nu anced locations of interest within the larger clusters identified by the Without Temperature influence feature space. _3.3.2_ Fuzzy Timestamp Matching
+ .
+  Fuzzy timestamp matching is an 
+
+movement datasets presented a significant challenge due to the relatively low percentage of matching timestamps. For instance, in the case of AM189 from Etosha, a mere 19.662% of timestamps corresponded. This limited overlap signifies a considerable loss of data, which undermines the analysis. To address this issue, we utilized "fuzzy" timestamp matching. This method extends the cri teria of a match beyond exact timestamp equality, incorporating a pre-defined threshold for the discrepancy between two timestamps that still qualifies them as a match. The mathematical formulation 
+
+of this concept is as follows: Given two timestamps t1 and t2, and 
+
+advanced data processing technique that matches timestamps not based on exact equality but within a certain tolerance level. This tolerance level, or fuzzy threshold, is usually calculated by taking half of the median of the difference of timestamps in the dataset. The mathematical representation of the fuzzy timestamp matching process could be described as follows: Given two timestamps, \(t1\)and
+ \(t2\), and a tolerance level
+ \(\delta\), the times tamps \(t1\)and
+ \(t2\)are said to match if:
+ 
+
+(2) \[|t1-t2|\leqslant\delta\]  
+
+where \(|t1-t2|\)\(t1\) denotes the absolute difference between the times tamps \(t1\)and
+ \(t2\). In this case,
+ \(\delta\)is calculated as: 
+
+(3) \[\delta=0.5*median(|t[i+1]-t[i]|),\forall i\;1\;to\;N-1\]  
+
+where N is the total number of timestamps, and t[i] represents 
+
+a tolerance level (or fuzzy threshold) \(\delta\), the timestamps t1 and t2 are said to match if the absolute difference between them, denoted as |t1 - t2|, does not exceed \(\delta\). The fuzzy threshold \(\delta\)is calculated as half the median of the differences between all sequential pairs of timestamps in the dataset. 
+
+By employing fuzzy timestamp matching, the percentage of 
+
+the ith timestamp in the ordered sequence. This fuzzy matching approach increases the likelihood of matches and can help to mit igate data loss when aligning data from different sources or with different temporal resolutions. However, it is important to note that this technique may also introduce some uncertainty into the analysis due to the mismatched timestamps. Hence, an appropriate 
+
+matched data can be substantially increased. For example, in the case of AG191 from Etosha, conventional timestamp matching re sulted in a match percentage of 41.85%. With the application of fuzzy matching, this percentage rose to 74.50%. Notably, these ad 
+
+ditional matches, achieved through fuzzy matching, are proximal 
+
+**Figure 1: Comparing feature spaces with and without tem** **perature on elephant AM306 from the Kruger dataset. Black** **Xs represent centroids calculated with temperature included** **in the feature space. Large colored dots represent centroids** **of clusters calculated solely on location data. Parameters:** **Without temp-influenced epsilon=0.1, minPts=35. Temp** **influenced epsilon=0.2, minPts=50** 
+
+\begin{tabular}{l r}
+\hline \hline
+**Metric** & **Value** \\
+\hline
+R-squared (zero-centered) & 0.6871044690549571 \\
+Offset (study – station) & 9.840106696689293 \\
+\% of timestamps found & 61.6\% \\ \hline \hline
+\end{tabular}
+
+
+**Table 1: Statistics for Figure 2** 

@@ -1,0 +1,41 @@
+# Branches Mutual Promotion for End-to-End Weakly Supervised Semantic Segmentation 
+
+Lei Zhu, Hangzhou He, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Yanye Lu* 
+
+**A: Multi-Stage WSSS** **B: E2E-WSSS with Unidirectional Supervision** Classification Stage 1 Classification Branch Network 
+
+##### Abstract
+**Abstract** **— End-to-end weakly supervised semantic segmentation aims at optimizing a segmentation model in a singlestage training process based on only image annotations. Existing** 
+
+##### Abstract
+**methods adopt an online-trained classification branch to provide** **pseudo annotations for supervising the segmentation branch.** **However, this strategy makes the classification branch dominate** **the whole concurrent training process, hindering these two** **branches from assisting each other. In our work, we treat** **these two branches equally by viewing them as diverse ways** **to generate the segmentation map, and add interactions on both** **their supervision and operation to achieve mutual promotion. For** **this purpose, a bidirectional supervision mechanism is elaborated** **to force the consistency between the outputs of these two** **branches. Thus, the segmentation branch can also give feedback** **to the classification branch to enhance the quality of localization** **seeds. Moreover, our method also designs interaction operations** **between these two branches to exchange their knowledge to assist** **each other. Experiments indicate our work outperforms existing** **end-to-end weakly supervised segmentation methods.** 
+
+##### Abstract
+**Index Terms** **— Weakly Supervised Learning, Image Segmentation, Object Localization** 
+
+## I. I NTRODUCTION 
+
+EMANTIC segmentation is a primary vision task, aiming 
+
+Sto annotate pixels in an image as target objects or backgrounds. However, training a segmentation model in a fullysupervised manner requires annotating all pixels in training
+ 
+
+or determining reliable regions on the pseudo annotations [9], [10]. 
+
+In our work, we argue that current E2E-WSSS methods 
+
+images, costing extensive human resources. To solve this problem, weakly supervised semantic segmentation (WSSS) appears and attracts extensive attention, which adopts only image-level annotation for the training process. However, as shown in Fig. 1  A , WSSS methods usually require multiple training stages, _ e.g._ , tuning a classification network with image annotations to produce localization seeds [1]–[3], deriving pseudo annotations after refining the seeds [4]–[6], and finally training the segmentation network with the pseudo annotations [7], [8]. 
+
+Recently, some end-to-end weakly supervised semantic 
+
+may fall into a trap, following the multi-stage WSSS to unidirectionally supervise the segmentation branch based on the prediction of the classification branch, without considering the feedback of the segmentation branch. In this way, the classification branch will dominate the whole training process, even if it may perform worse than the segmentation branch, as visualized in Fig. 2. Thus, the classification branch will converge to a similar optimum as the offline trained classification network but cannot stably provide pseudo annotations for the segmentation branch, which causes the large performance gap between current E2E-WSSS and multi-stage WSSS methods. 
+
+Actually, in the E2E-WSSS setting, these two branches 
+
+segmentation (E2E-WSSS) methods arose to simplify the heavy multi-stage training process into a single stage [9]– [12]. As shown in Fig. 1  B , these methods train a twobranch network in only a single stage, where the classification branch supervised by image-level annotation can online provide pseudo annotations for the segmentation branch. Compared with multi-stage WSSS, the concurrently-trained classification branch cannot stably provide seed to derive accurate pseudo annotations for supervising the segmentation branch. So, existing E2E-WSSS methods focus on improving the classification branch to provide better supervision by refining the localization seed with online spatial propagation [11]–[13] 
+
+are basically at equal status because they are concurrently optimized during training. From another perspective, the segmentation branch can also assist the concurrently-trained classification branch in generating better localization seeds, which is a crucial trait of E2E-WSSS and yet to be explored by existing methods. Based on this perspective, our work treats these two branches equally by viewing them as diverse ways to achieve the same goal, generating the segmentation map of input images. Thus, as shown in Fig. 1  C , interactions are 
+
+Comparison of WSSS strategies:  A . Multi-stage WSSS contains 
+
+multiple training stages.  B . Existing E2E-WSSS unidirectionally supervises the segmentation branch with pseudo annotations online provided by the classification branch.  C . Our proposed E2E-WSSS strategy interacts both the supervision and operation between these two branches to achieve mutual promotion. 

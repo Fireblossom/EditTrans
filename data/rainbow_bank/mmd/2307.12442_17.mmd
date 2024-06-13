@@ -1,0 +1,32 @@
+The aim of this section is to assess the influence of individual branches on the performance of our proposed method. We evaluate the influence of each branch architecture, including low-level, mid-level, and high-level discriminators. All the ablation studies are carried out utilizing the MIT67 dataset, which is summarized in Table 2. The table shows the performance metrics for different cases. The comparison is as follows: 
+
+
+1.** Cases 1-3** : In these cases, only one of the sub-models is utilized for prediction. Case 1, which solely uses low-level features, demonstrates the highest performance, followed by Case 3, which only incorporates the high-level sub-model. On the other hand, Case 2, which considers mid-level features, achieves the lowest performance among all cases. 
+2.** Cases 4-6** : In these cases, EnTri incorporates a combination of two levels of sub-models. The highest performance is achieved by Case 5, which utilizes both low-level and high-level sub-models. Following closely is Case 4, which takes into account both low-level and mid-level sub-models. On the other hand, case 6, which uses mid-level and high-level features, demonstrates the weakest performance among the cases. This suggests that low-level and high-level sub-models have a higher impact compared to the mid-level sub-model. 
+3.** Case 7** : All three levels of sub-models (low, mid, and high) are incorporated in this case, resulting in the highest performance and demonstrating their complementary roles for the recognition task. 
+
+Moreover, these textual explanations present the degree of agreement between the predictions made using the three features through ensemble learning and the final prediction of our framework. 
+
+### 5.4. Explanation results and analysis 
+
+To visualize the quality and intelligibility of the explanations produced by the proposed VTEG, we provided illustrative examples of the visual and textual explanations on different MIT67 scenes in Figure 9. It can be seen from the examples that the visual explanations attempt to highlight the most influential attributes of the scene in the prediction process of the recognition model, with the cumulative heatmap highlighting the regions that contributed to the prediction based on low-level feature and the masked segmentation map highlighting the important objects that contributed based on mid-level feature. These visual explanations are complemented by the textual explanation, which not only highlights crucial attributes such as object categories, frequencies, locations, and textural cues but also offers scores that represent the contribution of these objects towards the prediction. This textual explanation increases the certainty and confidence of users in their interpretation of the reasoning behind the prediction. Moreover, the ability to align the textual information with the visual contents allows for a clearer comprehension of the process and facilitates the diagnosis of the system at the modular level. By analyzing the scene and the confidence score of each sub-model, users can gain a deeper understanding of which type of information in the scene has the greatest impact on recognition performance. Such insights can help users identify areas for modification and adjustment and provide guidance in answering questions such as: 
+
+Table 2: Ablation studies on the MIT67 dataset demonstrating the effect of different sub-models evaluated in terms of Top@1, Top@2, and Top@5 accuracy. 
+
+\begin{tabular}{c|c|c|c|c|c|c}
+4 **Case** & **Low-level** & **Mid-level** & **High-level** & **Top@1 (\%)** & **Top@2 (\%)** & **Top@5 (\%)** \\
+4 1 & \(\checkmark\) & \(\times\) & \(\times\) & 84.47 & 90.75 & 94.18 \\
+\hline
+2 & \(\times\) & \(\checkmark\) & \(\times\) & 66.49 & 76.57 & 85.45 \\
+\hline
+3 & \(\times\) & \(\times\) & \(\checkmark\) & 77.31 & 86.04 & 92.61 \\
+\hline
+4 & \(\checkmark\) & \(\checkmark\) & \(\times\) & 85.52 & 92.24 & 95.52 \\
+\hline
+5 & \(\checkmark\) & \(\times\) & \(\checkmark\) & 86.19 & 92.84 & 95.97 \\
+\hline
+6 & \(\times\) & \(\checkmark\) & \(\checkmark\) & 79.62 & 87.76 & 93.06 \\
+\hline
+**7** & \(\checkmark\) & \(\checkmark\) & \(\checkmark\) & **87.69** & **93.58** & **97.54** \\
+4 & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \\
+\end{tabular}

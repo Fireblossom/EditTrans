@@ -1,0 +1,17 @@
+# Adaptive Low Rank Adaptation of Segment Anything to Salient Object Detection 
+
+Ruikai Cui, Siyuan He, and Shi Qiu 
+
+Australian National University {ruikai.cui, siyuan.he, shi.qiu}@anu.edu.au 
+
+##### Abstract
+Foundation models, such as OpenAI’s GPT-3 and GPT-4, Meta’s LLaMA, and Google’s PaLM2, have revolutionized the field of artificial intelligence. A notable paradigm shift has been the advent of the Segment Anything Model (SAM), which has exhibited a remarkable capability to segment real-world objects, trained on 1 billion masks and 11 million images. Although SAM excels in general object segmentation, it lacks the intrinsic ability to detect salient objects, resulting in suboptimal performance in this domain. To address this challenge, we present the Segment Salient Object Model (SSOM), an innovative approach that adaptively fine-tunes SAM for salient object detection by harnessing the low-rank structure inherent in deep learning. Comprehensive qualitative and quantitative evaluations across five challenging RGB benchmark datasets demonstrate the superior performance of our approach, surpassing state-of-the-art methods. 
+
+##### Keywords:
+**Keywords:**  salient object detection · large-scale pre-trained models · parameter-efficient fine-tuning. 
+
+## Introduction Foundation models [ 3 , 14 , 23 ] have received significant interests in recent years, owing to their exceptional performance across a multitude of diverse tasks These models typically consume billions of parameters, trained on expansive web-scaled datasets for fundamental tasks such as next token prediction [ 6 ] or masked region completion [ 7 ]. A particularly compelling instance of these models is the Segment-Anything Model (SAM) [ 14 ], which has been trained on an unprecedentedly vast dataset comprising 11 million images and 1 billion masks. 
+
+Despite the Segment-Anything Model’s (SAM) noteworthy proficiency in generating masks to segment real-world objects, it is deficient in the detection of salient objects. This shortcoming leads to suboptimal performance in isolating a single salient object from a given RGB image, a crucial aspect of computer vision that emphasizes the identification of the most visually striking or attention-demanding object within an image. 
+
+Traditional approaches for harnessing the capabilities of foundation models for downstream tasks generally include fine-tuning the entire model [ 11 ] or integrating additional adapter layers [ 9 ]. However, most foundation models possess 

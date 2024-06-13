@@ -1,0 +1,60 @@
+steps can also require considerable amounts of time and compute resources, ranging from 5-12 days [73, 78, 81]. 
+
+The majority of task-specific publications provided access 
+
+ten publications were applied to more than one language: six publications considered two programming languages, one publication considered three languages, and three publications considered four languages. This results in an average of 1.33 programming languages considered per publication. 
+
+In addition to programming languages considered, we collect training details, such as hardware used and training time 
+
+to the full trained models, some of which one needs to request access to [51, 76]. Moreover, there are approaches shared as online tools [44, 49, 86] or IDE extensions [47, 48, 83, 85]. There are also 12 out of 52 publications that did not share the full model, but trained embedding files, which are used by the model. These are marked in Table II with the † symbol. 
+
+## V. T ASK -A GNOSTIC  C ODE  M ODELS 
+
+This section presents task-agnostic code models which share means of representing source code as embeddings, for a variety of downstream tasks. These models are able to transform code snippets to embeddings, which can be fine-tuned to SE tasks. For example, Lu et al. [108] provided fine-tuning details for the CodeXGLUE benchmark, with information for task-specific training and inference time for each task. 3 The fine-tuning time ranges from 2 GPU hours (defect detection) to 60 hours (text-to-code generation, documentation translation). 
+
+In total, we collected 27 task-agnostic models, as shown in 
+
+for each publication. However, those are not always provided. There are 22 out of 52 publications without hardware details (42%) and 26 out of 52 without training time (50%), 33% shared neither information (17 out of 52 publications). The training time of 26 publications with such details ranges from two hours or less [41, 55, 78, 79, 85] to hundreds of hours [47, 53]. While it is common to perform training on GPUs, there are four publications that did not use any GPU for their training procedure, published from 2015–2019 [41, 53, 77, 86]. Commonly, publications used a single GPU for training [39, 40, 43, 44, 49, 55, 63, 68, 75, 78–80, 87, 88], sometimes in combination with CPUs. The highest amount of GPUs have been used by Svyatkovskiy et al. [47]. They utilized 5 Lambda V100 boxes, with 16 V100 GPUs each, resulting in 80 GPUs. 
+
+While we focus on the training procedure and the energy 
+
+Table III. For each publication, we list the model name and the programming languages it was trained on. If available, we list details on hardware configuration and training times. Among the 27 publications, 52% did not provide training time details (14 out of 27) and 26% did not provide their hardware configurations (7 out of 27). For publications without hardware details, training time is not reported as well. 
+
+Among the publications that shared training time details, the shortest duration is found for code2vec [101], which was 
+
+associated with creating and sharing an ML model, we note the application of such models can vary highly for different SE tasks. Usually, the reported tested times are lower than the required training time (e.g., more than 100 times quicker than training [40, 75, 76]), but in particular, program repair experiments can require long testing times. For example, Chen et al. [55] applied Sequencer for 130 hours to find patches for 75 bugs. White et al. [56] applied their program repair tool DeepRepair for 2,616 days. Data extraction and preparation 
+
+T RAINING DETAILS FOR TASK - AGNOSTIC LANGUAGE MODELS . F OR EACH MODEL ,  WE LIST HARDWARE DETAILS ,  TRAINING TIME IN \(hours\) AND ESTIMATED ENERGY CONSUMPTION IN \(kWh\),  IF THE INFORMATION IS AVAILABLE . 
+
+\begin{tabular}{c l c c r r}
+\hline \hline
+Approach & Year & Language & Hardware & Time in hours & kWh \\
+\hline
+BLOOM [] & 2022 & Java, PHP, C++, Python, JavaScript, C\#, Ruby, Lua, TypeScript, GO, C, Scala, Rust & server: 384 NVIDIA A100 GPUs, 80 GB & 1,082,990 & 433,196 \\
+Prophetnet-x [] & 2021 & Go, Java, JS, Php, Python, Ruby & NVIDIA Tesla V100 GPUs & 30,000 & 15,330 \\
+CodeBERT [] & 2020 & Python, Java, JavaScript, PHP, Ruby, Go & server: 16 NVIDIA Tesla V100 GPUs, 32 GB & 1,320 & 10,610 \\
+Dobf [] & 2021 & Java, Python & 32 NVIDIA V100 GPUs & 192 & 3,080 \\
+Codet5 [] & 2021 & Ruby, JavaScript, Go, Python, Java, Php, C, C\# & server/cluster: 16 NVIDIA A100 GPUs, 40 GB & 288 & 1,930 \\
+PLBART [] & 2021 & Java, Python & 8 NVIDIA RTX 2080 Ti GPUs & 276 & 925 \\
+Mastropaolo et al. [] & 2021 & Java & Google Cloud, Colab: 8 TPUs, 35.5 GB memory & 343 & 766 \\
+Graphcodebert [] & 2021 & Ruby, JS, Go, Python, Java, PHP & server: 32 NVIDIA Tesla V100 GPUs, 32 GB & 83 & 667 \\
+CodeTrans [] & 2021 & Python, Java, JavaScript, PHP, Ruby, Go, C\#, SQL, LISP & 1 TPU v3-8 & 2,088 & 582 \\
+GREAT [] & 2022 & Python & 1 Tesla P100 GPU & 120 & 51 \\
+Javabert [] & 2021 & Java & 3 NVIDIA Titan X GPUs, 12 GB & 24 & 30 \\
+code2vec [] & 2019 & Java & 1 NVIDIA Tesla K80 GPU & 36 & 18 \\
+OpenVocabCodeNLM [] & 2020 & Java, Python, C & GPUs & 336 & - \\
+GraphCode2Vec [] & 2022 & Java & server: 40 CPUs@2.20GHz, 256GB; 1 NVIDIA Tesla V100 GPU & - & - \\
+Spt-code [] & 2022 & Java, Python, JavaScript, PHP, GO, Ruby & 4 NIVDIA A100s9 GPUs & - & - \\
+StructCoder [] & 2022 & Java, Python, PHP, JavaScript & 4 RTX 8000 GPUs, 48GB & - & - \\
+Codex [] & 2021 & Python & Azure & - & - \\
+Cotext [] & 2021 & Python, Java, JavaScript, PHP, Ruby, Go & 1 TPU v2-8 & - & - \\
+CuBERT [] & 2020 & Python & TPUs & - & - \\
+TSSA [] & 2020 & Java & 1 NVIDIA P100 GPU, 16 GB; 1 K80 GPU, 16GB memory & - & - \\
+CodeGPT [] & 2021 & Python, Java & - & - & - \\
+ContraCode [] & 2021 & JavaScript & - & - & - \\
+CodeTransformer [] & 2021 & Python, JavaScript, Ruby, GO & - & - & - \\
+DAMP [] & 2020 & Java, C\# & - & - & - \\
+Obfuscated Code2Vec [] & 2020 & Java & - & - & - \\
+code2seq [] & 2019 & Java, C\# & - & - & - \\
+Efstathiou and Spinellis [] & 2019 & Java, Python, C++, C\#, C, PHP & - & - & - \\ \hline \hline
+\end{tabular}

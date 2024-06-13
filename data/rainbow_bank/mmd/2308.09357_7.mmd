@@ -1,0 +1,40 @@
+with unified pipeline design and multi-scale attention mechanism presents the best localization performance on all three subsets. 
+
+In [ 16 ], they use the Scale set to analyze the model’s robustness against scale transformation. To further verify the effectiveness of the multi-scale attention mechanism. We also use Scale set to evaluate our models and the result as shown in Tab 5. In the Scale set, the spliced region is only processed with scale transformation of different degrees for ablation in [ 16 ]. It contains 9000 testing pairs and is equally divided into Difficult, Normal, Easy subsets. In the Difficult subset and Normal subset, there are more samples with larger scale degrees. On the contrary, in the Easy subset, the size of the spliced region between the two images tends to be more consistent. We can see that with the help of multi-scale attention mechanism, MSTAF achieves much better localization performance than TAF on the Normal and difficult subset. It demonstrates that MSTAF has an advantage in dealing with various scale transformation samples. After introducing the multi-scale attention mechanism, MSTAF is more robust against scale transformation. The visual comparison can refer to Fig. 6 and Fig. 7. 
+
+## CONCLUSION In this work, we propose a Multi-scale Target-Aware Framework to simplify the pipeline of existing methods. It adopts self-attention for feature extraction and cross-attention for correlation match ing simultaneously. This unified design enables feature extraction and correlation matching to mutually promote each other, thereby enhancing the matching performance of the model. We further design a multi-scale attention mechanism to model the matching between image patches of different scales, which further improves the robustness against scale transformation. Experiment results demonstrate that our model is robust against scaling and outper forms state-of-the-art methods. 
+
+We design a unified pipeline implemented by Target-Aware Attention Framework (TAF), which is different from the separate pipeline used by existing methods. In order to evaluate the effec tiveness of the unified pipeline, we built a separate pipeline model for comparison. The TAF-separate model adopts the same architecture as TAF. It implements self-attention for both two heads of all Target-Aware Attention modules in the front, while the last Target-Aware Attention module only implements cross-attention for both two heads. We use the Synthetic dataset to conduct ablation study, the results are shown in Table 4. By comparing the TAF-separate model and the TAF model, we can see that the TAF with unified pipeline performs better than the separate pipeline. After introducing the multi-scale projection mechanism to achieve multi-scale attention, the MSTAF-separate and MSTAF models both showed improvements in localization performance. The MSTAF 
+
+This work was supported in part by the Natural Science Foundation of China under Grant 62001304; in part by the Guangdong Basic and Applied Basic Research Foundation under Grant 2022A1515010645; in part by the Foundation for Science and Technology Innovation of Shenzhen under Grant RCBS20210609103708014 and the Key 
+
+**Table 4: Ablation study on the Synthetic set** 
+
+\begin{tabular}{c|c c c|c c c|c c c}
+\hline
+\multirow{2}{*}{Model} & \multicolumn{3}{|c|}{Difficult} & \multicolumn{3}{|c|}{Normal} & \multicolumn{3}{|c}{Easy} \\
+\cline{2-10}
+ & IoU & MCC & NMM & IoU & MCC & NMM & IoU & MCC & NMM \\
+\hline
+TAF-separate & 0.6239 & 0.7167 & 0.2963 & 0.8738 & 0.9143 & 0.7744 & 0.9490 & 0.9604 & 0.9164 \\
+MSTAF-separate & 0.7712 & 0.8432 & 0.5670 & 0.9210 & 0.9486 & 0.8583 & 0.9693 & 0.9764 & 0.9488 \\
+\hline
+TAF & 0.8001 & 0.8586 & 0.6312 & 0.9379 & 0.9605 & 0.8937 & 0.9753 & 0.9811 & 0.9617 \\
+MSTAF & **0.8394** & **0.8918** & **0.7064** & **0.9510** & **0.9700** & **0.9151** & **0.9788** & **0.9838** & **0.9646** \\ \hline
+\end{tabular}
+
+
+**Table 5: Ablation study on the Scale set** 
+
+\begin{tabular}{c|c c c|c c c|c c c}
+\hline
+\multirow{2}{*}{Model} & \multicolumn{3}{|c|}{Difficult} & \multicolumn{3}{|c|}{Normal} & \multicolumn{3}{|c}{Easy} \\
+\cline{2-10}
+ & IoU & MCC & NMM & IoU & MCC & NMM & IoU & MCC & NMM \\
+\hline
+TAF & 0.7009 & 0.7644 & 0.4400 & 0.8789 & 0.9160 & 0.7807 & 0.9704 & 0.9769 & 0.9550 \\
+MSTAF & **0.7427** & **0.8022** & **0.5206** & **0.9105** & **0.9410** & **0.8406** & **0.9752** & **0.9808** & **0.9602** \\ \hline
+\end{tabular}
+
+
+**Figure 8: Visualization of attention maps. The blue point** **represents the token we selected to present attention maps.** **Stage i_j represents attention maps from the j Target-Aware** **Attention modules in stage i.** 

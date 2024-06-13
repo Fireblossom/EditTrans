@@ -1,0 +1,36 @@
+with a step size of 0.01. The final weights are used in our OWAF technique. Table 3 illustrates the effects of various fusion strategies. For fare comparison, we use both MRI and DTI data in all cases. The experimental results in the table 3 clearly reveal that the proposed OWAF outperforms other fusion strategies. 
+
+Ac, Pr, Re, M, F, A, AE, EL, - Indicates Accuracy, Precision, Recall, Male, Female, Average, Auto Encoder, Ensemble Learning & _ data_  not available respectively. All the values are in %. 
+
+### Comparisons with State-of-the-art Approaches We compare our method with ten state-of-the-art approaches. There are no results available for a direct 3-class PD classification. So, we compare our results with those papers that have addressed the PD classification on the PPMI database using single or multiple modalities and with three or fewer two-class classifications. The results of comparisons are shown in Table 4. Out of the ten methods we have considered, five are based on machine learning (ML) and the rest five are based on deep learning (DL). Further, in four out of five DL based approaches, only a single modality, namely, MRI is used for classification. Also note that eight of these ten techniques have only addressed a single two-class classification problem between PD and HC and did not consider the challenging SWEDD class at all. The remaining two approaches did consider SWEDD as a third class but have divided the three-class classification problem into multiple binary classes [2,10]. However, Li at al. [10] did not report the classification results for PD vs. SWEDD in their paper. In order to have fair comparisons, we have also included three binary classifications as obtained from our method in this table. Our direct three-class classification accuracy turns out to be superior than two-class classification accuracy of at least eight out of 10 methods. It is also higher than two out of three binary classification accuracy of [2]. Note that in [2], the authors used a somewhat different experimental protocol by considering two publicly available databases of ADNI and PPMI. In our work, we explicitly consider data with both MRI and DTI for the same individual 
+
+Table 4: Comparisons of the proposed method with State-of-the-art Approaches 
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{Approach} & \multirow{2}{*}{ML/DL} & \multirow{2}{*}{MODALITY} & \multicolumn{3}{c|}{PD vs HC} & PD vs. SWEDD & HC vs. SWEDD & PD vs. HC vs SWEDD \\
+\cline{4-9}
+ & & & Ac & Pr & Re & Ac & Ac & Ac \\
+\hline
+Adeli 2016 [] & ML & MRI & 81.9 & - & - & - & - & - \\
+\hline
+Cigdem 2018 [] & ML & MRI & 93.7 & - & 95 & - & - & - \\
+\hline
+Prashanth 2018 [] & ML & SPECT & 95 & - & 96.7 & - & - & - \\
+\hline
+Singh 2018 [] & ML & MRI & 95.37 & - & - & 96.04 & 93.03 & - \\
+\hline
+Gabriel 2021 [] & ML & MRI & \begin{tabular}{c} 99.01(M) \\ 87.10(F) \\ 93.05 (A) \\ \end{tabular} & \begin{tabular}{c} 100(M) \\ 97.2(F) \\ - \\ \end{tabular} & \begin{tabular}{c} 99.3(M) \\ 100(F) \\ - \\ \end{tabular} & - & - & - \\
+\hline
+Li 2019 [] & DL (AE) & MRI + DTI & 85.24 & 95.8 & 68.1 & - & 89.67 & - \\
+\hline
+Tremblay 2020 [] & DL & MRI & 88.3 & 88.2 & 88.4 & - & - & - \\
+\hline
+Chakraborty 2020 [] & DL & MRI & 95.3 & 92.7 & 91.4 & - & - & - \\
+\hline
+Sivaranjini 2020 [] & DL & MRI & 88.9 & - & 89.3 & - & - & - \\
+\hline
+Rajanbabu 2022 [] & DL (EL) & MRI & 97.5 & 97.9 & 97.1 & - & - & - \\
+\hline
+Proposed method & DL & MRI + DTI & 97.8 & 97.2 & 97.6 & 94.5 & 95.7 & \begin{tabular}{c} 95.53 \\ Pr: 93.64 \\ Re: 91.99 \\ \end{tabular} \\ \hline
+\end{tabular}

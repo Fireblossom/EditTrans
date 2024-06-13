@@ -1,0 +1,25 @@
+
+
+_length_ _._ **Proposition 2.** _ Given integers_ _ and_ _ where_ _, the shortest negative cycle of_ _ is of_ 
+
+_Proof._ We first present two natural choices for a negative cycle, one of length
+ \(2k\)and another of length
+ \(2l\). The first is a negative cycle on the first two layers. Take a positive edge and connect its two ends with one of the two paths using only the negative edges that connect the two layers. This would result in a negative cycle of length
+ \(2k\). The second negative cycle we consider is by taking a positive edge and connecting each of its ends to the vertex \(u\) by a shortest path (all edges negative). One of these paths will be of length \(l\)and the other would be of length \(l-1\). Together with the first chosen edge itself then, they form a negative
+ cycle of length
+ \(2l\). 
+
+It remains to show that the shortest of these two types of cycles gives us the negative girth. To that end, we will first show that a shortest negative cycle can only use one positive edge of \(\widehat{BQ}(\ell,2k-1)\)e aim
+come
+ \(\widehat{BQ}(\ell,2k-1)\)present
+ . Towards
+ a contradiction, let \(C\) be a negative cycle with more than two positive edges. We aim to present a negative cycle \(C^{\prime}\)whose length is at most \(|C|-2\). We take two positive edges of
+ \(C\) that come consecutively on the cyclic order. Assume \(xy\) and \(x^{\prime}y^{\prime}\)are these two edges and that \(x^{\prime}\)is followed by \(y\) in the cyclic order of \(C\)(that is to say, there is no positive edge in the \(x^{\prime}-y\)but
+  path in \(C\)). We remove the two positive edges \(xy\)and \(x^{\prime}y^{\prime}\)and the \(x^{\prime}y\) path connecting them in \(C\), but then we add a \(xy^{\prime}\)copy of this path (which also has no positive edge). The result is a closed walk whose sign is the same as that of \(C\), and whose length is \(|C|-2\)a
+ . But then this closed walk must contain a negative cycle, whose length then is also at most
+ \(|C|-2\),
+ a contradiction. 
+
+Figure 3: Construction of \(\widehat{BQ}(\ell,2k-1)\)\(\widehat{BQ}(\ell,2k-1)\).
+ \(\widehat{BQ}(2,3)\)\(\widehat{BQ}(2,3)\), presented two different ways.
+ \(\min\{2l,2k\}\)\(l\)\(k\)\(l,k\geq 2\)\(\widehat{BQ}(\ell,2k-1)\)\(\widehat{BQ}(\ell,2k-1)\)

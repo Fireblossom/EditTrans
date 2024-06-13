@@ -1,0 +1,25 @@
+Notice that at the optimal dual solution \(\lambda^{\mathrm{opt}}\)and \(\{\mu_{k}^{\mathrm{opt}}\}\), it must follow that \(\lambda^{\mathrm{opt}}>0\) and \(\boldsymbol{A}(\lambda^{\mathrm{opt}},\{\mu_{k}^{\mathrm{opt}}\})\) is of full rank (i.e., \(\mathrm{rank}(\boldsymbol{A}(\lambda^{\mathrm{opt}},\{\mu_{k}^{\mathrm{opt}}\} ))=N_{t}\)), since otherwise, the maximum transmit power constraint in (22b) cannot be satisfied. Then, Proposition 1 follows directly from Lemma 3. This completes the proof. 
+
+## P ROOF OF  L EMMA  3 
+
+First, we have \(\mathrm{tr}(\boldsymbol{A}(\lambda,\{\mu_{k}\})\boldsymbol{S}_{x})=\mathrm{tr} (\boldsymbol{\Lambda}\boldsymbol{U}^{H}\boldsymbol{S}_{x}\boldsymbol{U})\). Let \(\tilde{\boldsymbol{S}_{x}}=\boldsymbol{U}^{H}\boldsymbol{S}_{x}\boldsymbol{U}\)\(\tilde{\boldsymbol{S}_{x}}=\boldsymbol{U}^{H}\boldsymbol{S}_{x}\boldsymbol{U}\). It is easy to figure out that \(\mathrm{tr}(\boldsymbol{S}_{x}^{-1})=\mathrm{tr}(\tilde{\boldsymbol{S}_{x}}^{- 1})\). Recall that \(\boldsymbol{S}_{x}\) is positive semi-definite. We denote \((\tau_{1},\dots,\tau_{N_{t}})\) as introduce the following lemma to find the minimum of \(\mathrm{tr}(\tilde{\boldsymbol{S}_{x}}^{-1})\) w.r.t. \((\tau_{1},\dots,\tau_{N_{t}})\), for which the diagonal entries of \(\tilde{\boldsymbol{S}_{x}}\)\(\tilde{\boldsymbol{S}_{x}}\) to be determined. Note that \(\mathrm{tr}(\boldsymbol{A}(\lambda,\{\mu_{k}\})\boldsymbol{S}_{x})=\sum_{i=1}^ {N}\alpha_{i}\tau_{i}\). Here, we the proof can be found in [43, Appendix A] and thus is omitted. 
+
+Hence, \(\tilde{\boldsymbol{S}_{x}}\)\(\tilde{\boldsymbol{S}_{x}}\) must be diagonal and we obtain 
+
+\[\mathrm{tr}(\boldsymbol{A}(\lambda,\{\mu_{k}\})\boldsymbol{S}_{x} )+\mathrm{tr}(\boldsymbol{S}_{x}^{-1}) = \mathrm{tr}(\boldsymbol{\Lambda}\tilde{\boldsymbol{S}_{x}})+ \mathrm{tr}(\tilde{\boldsymbol{S}_{x}}^{-1})=\sum_{i=1}^{N}\alpha_{i}\tau_{i}+ \sum_{i=1}^{N_{t}}\frac{1}{\tau_{i}}.\] (57)  
+
+
+
+In this case, when \(N<N_{t},\) for \(i>N\), \(\tau_{i}\) must approach infinity to achieve the minimum value 0, i.e., for \(i>N\), \(\tau_{i}\rightarrow+\infty\). As for \(i\leq N\), by checking the first order differentiation, we have \(\tau_{i}=\alpha_{i}^{-1/2}\). Then, we obtain \(\boldsymbol{S}_{x}^{*}\)as 
+
+\[\boldsymbol{S}_{x}^{*}=\boldsymbol{U}{\boldsymbol{\Sigma}}\boldsymbol{U}^{H},\] (58)  
+
+where \({\boldsymbol{\Sigma}}=\mathrm{diag}(\tau_{1},\dots,\tau_{N_{t}})\) with \(\tau_{i}\rightarrow+\infty\), for \(i>N\), and \(\tau_{i}=\alpha_{i}^{-1/2},\) for \(i\leq N\). 
+
+When \(\boldsymbol{A}(\lambda,\{\mu_{k}\})\) is full-rank, we have 
+
+\[\mathrm{tr}(\boldsymbol{A}(\lambda,\{\mu_{k}\})\boldsymbol{S}_{x} )+\mathrm{tr}(\boldsymbol{S}_{x}^{-1}) = \mathrm{tr}(\boldsymbol{\Lambda}\tilde{\boldsymbol{S}_{x}})+ \mathrm{tr}(\tilde{\boldsymbol{S}_{x}}^{-1})=\sum_{i=1}^{N_{t}}\alpha_{i}\tau_ {i}+\sum_{i=1}^{N_{t}}\frac{1}{\tau_{i}}.\] (59)  
+
+
+
+For any \(i\leq N_{t}\), we need to set \(\tau_{i}=\alpha_{i}^{-1/2}\)to achieve the minimum value. Then, the \(\boldsymbol{S}_{x}^{*}\)is given by \(\boldsymbol{S}_{x}^{*}=\boldsymbol{U}^{H}{\boldsymbol{\Sigma}}\boldsymbol{U},\) where \(\tilde{\boldsymbol{\Lambda}}=\mathrm{diag}(\tau_{1},\dots,\tau_{N_{t}})\)\(\tilde{\boldsymbol{\Lambda}}=\mathrm{diag}(\tau_{1},\dots,\tau_{N_{t}})\) with \(\tau_{i}=\alpha_{i}^{-1/2},\) for \(i\leq N_{t}\). 

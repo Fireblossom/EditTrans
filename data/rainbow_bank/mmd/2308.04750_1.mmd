@@ -1,0 +1,74 @@
+which we call the limit equations of ( 1.2 ). Here unknown functions are the tangential velocity field \(v\) and the pressure \(q\). Also, \(f\) is a given external force. We write \(P\), \(\nabla_{\Gamma}\),
+ \(\mathrm{div}_{\Gamma}\), \(D_{\Gamma}(v)\), and
+ \(\overline{\nabla}_{v}v\) for the orthogonal \(\Gamma\), the tangential gradient, the surface divergence, the surface strain
+ rate tensor, and the covariant derivative of \(v\) along itself, respectively. Also, \(\gamma^{0}\)and \(\gamma^{1}\)are nonnegative constants which stands for the friction coefficients. For details of notations, see Section  2 . Note that, when \(g\equiv 1\)on
+ \(\Gamma\)and
+ \(\gamma^{0}=\gamma^{1}=0\), the limit equations (
+ 1.4 ) reduce to the surface Navier–Stokes equations with Boussinesq–Scriven surface stress tensor (see [ 4 ,  52 ,  2 ]) 
+
+(57.1) {−2⁢ν⁢P⁢divΓ⁢[DΓ⁢(v)]+∇¯v⁢v+∇Γq=fonΓ,divΓ⁢v=0onΓ.  
+
+Moreover, the equations ( 1.5 ) are equivalent to the Navier–Stokes equations on an abstract Riemannian manifold (see [ 14 ,  56 ,  10 ]) 
+
+(58.1) {−ν⁢{ΔB⁢v+Ric⁢(v)}+∇¯v⁢v+∇Γq=fonΓ,divΓ⁢v=0onΓ,  
+
+where
+ \(\Delta_{B}\)\(\Gamma\)and
+ \(\mathrm{Ric}\)is the Ricci curvature of
+ \(\Gamma\)(see e.g. [
+ 34 , Lemma C.11] for the equivalence of the above equations). 
+
+In the nonstationary setting, we rigorously derived the limit equations ( 1.4 ) from the bulk equations ( 1.2 ) by the thin-film limit in our previous work [ 34 ]. There we proved under suitable assumptions that, for an \(L^{2}\)-strong solution \(u^{\varepsilon}\)to the nonstationary Navier–Stokes equations in
+ \(\Omega_{\varepsilon}\), its average 
+
+\[Mu^{\varepsilon}(y)=\frac{1}{\varepsilon g(y)}\int_{\varepsilon g _{0}(y)}^{\varepsilon g_{1}(y)}u^{\varepsilon}(y+rn(y))\,dr,\quad y\in\Gamma\]  
+
+converges weakly to a tangential vector field \(v\)\(\Gamma\)in an appropriate function space as
+ \(\varepsilon\to 0\), and
+ \(\Gamma\)by characterizing
+ \(v\) as a unique \(L^{2}\)-weak solution to the limit equations. We also obtained some estimates for the difference of \(u^{\varepsilon}\)and \(v\) which show that \(v\)approximates \(u^{\varepsilon}\)in the \(L^{2}\)sense when \(\varepsilon\) is small. 
+
+As in the nonstationary case [ 34 ], we can derive ( 1.4 ) from ( 1.2 ) by means of convergence of a solution and characterization of the limit, but the procedure is the same so we omit it here. In this paper, we focus on difference estimates for the solutions \(u^{\varepsilon}\)to ( 1.2 ) and \(v\) to ( 1.4 ). Let us fix some notations and formally state our main results (see Section  2  for details). Let \(\mathbb{P}_{\varepsilon}\) be the orthogonal projection from \(L^{2}(\Omega_{\varepsilon})^{3}\)onto a function space \(\mathcal{H}_{\varepsilon}\)on
+  given in ( 2.14 ), which is the standard \(L^{2}\)solenoidal space on
+ \(\Omega_{\varepsilon}\) or its subspace. For a vector field \(u\)on
+ \(\Omega_{\varepsilon}\), let \(M_{\tau}u\) be the tangential component of the average \(Mu\)\(\Gamma\). Let
+ 
+
+\[H^{1}(\Gamma,T\Gamma)=\{v\in H^{1}(\Gamma)^{3}\mid\text{$v\cdot n =0$ on $\Gamma$}\}\]  
+
+and \(H^{-1}(\Gamma,T\Gamma)\)be the dual space of
+ \(H^{1}(\Gamma,T\Gamma)\). Formally speaking, our main results are as follows (see
+ Theorems  2.5  and  2.6  for the precise statements). 
+
+Theorem
+ _ Let_ \(f^{\varepsilon}\in L^{2}(\Omega_{\varepsilon})^{3}\)_ _ _,_ \(f\in H^{-1}(\Gamma,T\Gamma)\)_, and_ \(u^{\varepsilon}\)_and_ \(v\)_ be weak solutions to_ _ and_ _,_ _respectively. Under suitable assumptions, suppose that there exist_ \(c_{1},c_{2}>0\)_ and_ \(\alpha\in(0,1]\)_ independent of_ \(\varepsilon\)_ such that_ 
+
+(101.1) \[\|\mathbb{P}_{\varepsilon}f^{\varepsilon}\|_{L^{2}(\Omega_{ \varepsilon})}^{2}\leqslant c_{1}\varepsilon^{-1+\alpha},\quad\|M_{\tau} \mathbb{P}_{\varepsilon}f^{\varepsilon}\|_{H^{-1}(\Gamma,T\Gamma)}^{2} \leqslant c_{2}\]  
+
+_for all_ \(\varepsilon>0\)_ sufficiently small. Then there exist_ \(c,\rho>0\)_ independent of_ \(\varepsilon\)_ such that_ 
+
+(105.1) \[\|M_{\tau}u^{\varepsilon}-v\|_{H^{1}(\Gamma)}\leqslant c\Bigl{(} \delta(\varepsilon)+\|M_{\tau}\mathbb{P}_{\varepsilon}f^{\varepsilon}-f\|_{H^{ -1}(\Gamma,T\Gamma)}\Bigr{)}\]  
+
+_for all_ \(\varepsilon>0\)_ sufficiently small provided that_ \(\|v\|_{H^{1}(\Gamma)}\leqslant\rho\)_, where_ 
+
+\[\delta(\varepsilon)=\varepsilon^{\alpha/4}+\sum_{i=0,1}\left| \frac{\gamma_{\varepsilon}^{i}}{\varepsilon}-\gamma^{i}\right|.\]  
+
+_Moreover, we have the following difference estimate in_ \(\Omega_{\varepsilon}\)_:_ 
+
+
+
+(110.1) \[\varepsilon^{-1/2}\|u^{\varepsilon}-\bar{v}\|_{L^{2}(\Omega_{ \varepsilon})}\leqslant c\Bigl{(}\delta(\varepsilon)+\|M_{\tau}\mathbb{P}_{ \varepsilon}f^{\varepsilon}-f\|_{H^{-1}(\Gamma,T\Gamma)}\Bigr{)}.\]  
+
+normal
+ 
+
+
+
+_Here_ \(\bar{v}\)\(\bar{v}\)_ is the constant extension of_ \(v\)_ in the normal direction of_ \(\Gamma\)_._ 
+
+Note that the left-hand side of ( 1.9 ) is divided by \(\varepsilon^{1/2}\)since the \(L^{2}(\Omega_{\varepsilon})\)-norm involves the square root
+ of the thickness of
+ \(\Omega_{\varepsilon}\). By ( 1.9 ), we can say that the solution \(v\) to the limit equations ( 1.4 ) approximates the solution \(u^{\varepsilon}\)to the bulk equations ( 1.2 ) when \(\varepsilon\) is small. We also have an approximation result for \(\nabla u^{\varepsilon}\)Theorem
+ in
+ \(\Omega_{\varepsilon}\)\(\Gamma\). For details, see Theorem
+ 2.6 . We further note that the difference estimate ( 1.8 ) also holds if we replace the tangential component \(M_{\tau}u^{\varepsilon}\)by the average \(Mu^{\varepsilon}\)itself (see Remark  6.8 ). 
