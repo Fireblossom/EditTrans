@@ -3,10 +3,14 @@ from pathlib import Path
 import json
 import tqdm
 
-json_path = Path('rainbow_bank/jsonl') # /nfs/home/duan/texcompile/
+data_path = Path('/raid/duan/cd58hofa/rainbow_bank_edit/')
+jsonl_path = data_path/'jsonl' # /nfs/home/duan/texcompile/
+json_path = data_path/'json'
+json_path.mkdir(exist_ok=True)
+
 dataset = []
 jsonls = []
-for jsonl in json_path.glob('*.jsonl'):
+for jsonl in jsonl_path.glob('*.jsonl'):
     jsonls.append(jsonl)
 
 for jsonl in tqdm.tqdm(jsonls):
@@ -14,12 +18,14 @@ for jsonl in tqdm.tqdm(jsonls):
         for line in file:
             d = json.loads(line)
             if d['label_segment_order']:
-                dataset.append(json.dumps(d))
+                uid = d['uid']
+                with open(json_path/(uid+'.json'), 'w') as sample:
+                    json.dump(d, sample)
+                dataset.append(str(json_path/(uid+'.json')))
 
 X_train, X_test = train_test_split(dataset, test_size=0.1, random_state=2024)
-
-with open('rainbow_bank/train.jsonl', 'w') as file:
+with open(data_path/'train.txt', 'w') as file:
     file.write('\n'.join(X_train))
-with open('rainbow_bank/test.jsonl', 'w') as file:
+with open(data_path/'test.txt', 'w') as file:
     file.write('\n'.join(X_test))
 print(len(X_train), len(X_test))

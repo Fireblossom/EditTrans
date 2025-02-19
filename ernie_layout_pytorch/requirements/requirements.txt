@@ -1,0 +1,6 @@
+editdistance
+sentencepiece
+textdistance
+torch>=2.0.0
+torchvision>=0.15.1
+transformers==4.28.1

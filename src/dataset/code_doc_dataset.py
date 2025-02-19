@@ -10,7 +10,7 @@ from transformers import BatchEncoding, AutoTokenizer
 from torch.utils.data import Dataset, DataLoader
 import os.path as osp
 import logging
-from src.utils.dist_utils import get_total_world_size, get_world_rank
+from nougat.utils.dist_utils import get_total_world_size, get_world_rank
 from transformers.data.data_collator import _torch_collate_batch, tolist
 from src.modules.utils import *
 

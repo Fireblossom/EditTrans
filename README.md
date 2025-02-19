@@ -12,9 +12,8 @@ root
 │   └── data_spliter.py        >>  split dataset
 ├── filter_pth                 >>  fine-tuned LayoutLMv3 weight
 ├── nougat                     >>  implementation of metrics and Nougat model
-├── src                        >>  implementation of dataloader and LayoutLMv3 model
 ├── edit_trains.py             >>  implementation of EditTrans
-├── fine_tuning_layoutlmv3.py  >>  fine-tuning code
+├── training_ernie.py          >>  fine-tuning code
 ├── requirements.txt
 ├── inference.py               >>  you may try EditTrans here
 ├── test.py                    >>  get scores for the baseline and EditTrans

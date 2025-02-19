@@ -14,6 +14,7 @@ from transformers import NougatProcessor, VisionEncoderDecoderModel
 import numpy as np
 import torch
 from tqdm import tqdm
+import time
 
 from edit_trans import EditTrans
 from nougat.metrics import compute_metrics, split_text
@@ -44,6 +45,24 @@ def test(args):
 
     metrics = defaultdict(list)
     metrics_nougat = defaultdict(list)
+
+    metrics_text = defaultdict(list)
+    metrics_nougat_text = defaultdict(list)
+
+    metrics_math = defaultdict(list)
+    metrics_nougat_math = defaultdict(list)
+
+    metrics_table = defaultdict(list)
+    metrics_nougat_table = defaultdict(list)
+
+    times = {
+        'filter': [],
+        'edit': [],
+        'nougat': [],
+        'build': [],
+        'generation': []
+
+    }
 
     tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path='microsoft/layoutlmv3-base')
     data_processor = FilterPointerProcessor(
@@ -95,62 +114,134 @@ def test(args):
         # ground_truth = pretrained_model.tokenizer.batch_decode(
         #     decoder_input_ids, skip_special_tokens=True
         # )
+        
         nougat_inputs = pretrained_model.processor([Image.open(img_path/img) for img in sample['uid']],
                                                     return_tensors="pt")
 
-        outputs, steps = pretrained_model.inference(
+        outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = pretrained_model.inference(
             filter_inputs=sample,
             nougat_inputs=nougat_inputs,
         )
+        
+
         outputs_text = pretrained_model.processor.batch_decode(
             outputs, skip_special_tokens=True
         )
         outputs_text = pretrained_model.processor.post_process_generation(outputs_text, fix_markdown=True)
         text, math, table = split_text(outputs_text)
+
         ground_truth_text = [ground_truth[i][:len(text)] for i, text in enumerate(outputs_text)] # keep lengths same for too long generation
         ground_truth_text = pretrained_model.processor.post_process_generation(ground_truth_text, fix_markdown=True)
         text_gt, math_gt, table_gt = split_text(ground_truth_text)
         
+        start_nougat = time.time()
         outputs_nougat = model.generate(
             nougat_inputs['pixel_values'],
             min_length=1,
             max_new_tokens=512,
             bad_words_ids=[[processor.tokenizer.unk_token_id]],
         )
+        end_nougat = time.time()
+        nougat_time = end_nougat - start_nougat
+        step_nougat = outputs_nougat.size(0) * outputs_nougat.size(1)
+        print('baseline:', nougat_time, step_nougat)
+        times['nougat'].append(nougat_time)
+
+        print('editTrans:',filter_time, build_time, sum(edit_time), sum(generation_time), sum(generation_steps))
+        times['filter'].append(filter_time)
+        times['build'].append(build_time)
+        times['edit'].append(sum(edit_time))
+        times['generation'].append(sum(generation_time))
+
         outputs_text_nougat = pretrained_model.processor.batch_decode(
             outputs_nougat, skip_special_tokens=True
         )
         outputs_text_nougat = pretrained_model.processor.post_process_generation(outputs_text_nougat, fix_markdown=True)
         text_nougat, math_nougat, table_nougat = split_text(outputs_text_nougat)
 
-
         with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(text, text_gt))
+            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text, ground_truth_text))
             for m in _metrics:
                 for key, value in m.items():
                     metrics[key].append(value)
             print({key: sum(values) / len(values) for key, values in metrics.items()})
-
+        
         with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(text_nougat, text_gt))
+            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text_nougat, ground_truth_text))
             for m in _metrics:
                 for key, value in m.items():
                     metrics_nougat[key].append(value)
             print({key: sum(values) / len(values) for key, values in metrics_nougat.items()})
 
+        with Pool(args.batch_size) as p:
+            _metrics = p.starmap(compute_metrics, iterable=zip(text, text_gt))
+            for m in _metrics:
+                for key, value in m.items():
+                    metrics_text[key].append(value)
+            #print({key: sum(values) / len(values) for key, values in metrics.items()})
+
+        with Pool(args.batch_size) as p:
+            _metrics = p.starmap(compute_metrics, iterable=zip(text_nougat, text_gt))
+            for m in _metrics:
+                for key, value in m.items():
+                    metrics_nougat_text[key].append(value)
+            #print({key: sum(values) / len(values) for key, values in metrics_nougat.items()})
+        
+        with Pool(args.batch_size) as p:
+            _metrics = p.starmap(compute_metrics, iterable=zip(math, math_gt))
+            for m in _metrics:
+                for key, value in m.items():
+                    metrics_math[key].append(value)
+        
+        with Pool(args.batch_size) as p:
+            _metrics = p.starmap(compute_metrics, iterable=zip(math_nougat, math_gt))
+            for m in _metrics:
+                for key, value in m.items():
+                    metrics_nougat_math[key].append(value)
+        
+        with Pool(args.batch_size) as p:
+            _metrics = p.starmap(compute_metrics, iterable=zip(table, table_gt))
+            for m in _metrics:
+                for key, value in m.items():
+                    metrics_table[key].append(value)
+
+        with Pool(args.batch_size) as p:
+            _metrics = p.starmap(compute_metrics, iterable=zip(table_nougat, table_gt))
+            for m in _metrics:
+                for key, value in m.items():
+                    metrics_nougat_table[key].append(value)
+
         steps_edit.append(torch.sum(steps).item())
         steps_nougat.append(outputs_nougat.size(0) * outputs_nougat.size(1))
         print(sum(steps_edit)/(idx+1), sum(steps_nougat)/(idx+1))
+
     with open('score_edit.json', 'w') as file:
-        json.dump(metrics, file)
+        json.dump(metrics, file, indent=2)
     with open('score_nougat.json', 'w') as file:
-        json.dump(metrics_nougat, file)
-    with open('steps.json.json', 'w') as file:
+        json.dump(metrics_nougat, file, indent=2)
+
+    with open('score_edit_text.json', 'w') as file:
+        json.dump(metrics_text, file, indent=2)
+    with open('score_nougat_text.json', 'w') as file:
+        json.dump(metrics_nougat_text, file, indent=2)
+
+    with open('score_edit_math.json', 'w') as file:
+        json.dump(metrics_math, file, indent=2)
+    with open('score_nougat_math.json', 'w') as file:
+        json.dump(metrics_nougat_math, file, indent=2)
+
+    with open('score_edit_table.json', 'w') as file:
+        json.dump(metrics_table, file, indent=2)
+    with open('score_nougat_table.json', 'w') as file:
+        json.dump(metrics_nougat_table, file, indent=2)
+
+    with open('steps.json', 'w') as file:
         json.dump({
             'edit': steps_edit,
             'nougat': steps_nougat
-        }, file)
-
+        }, file, indent=2)
+    with open('times.json', 'w') as file:
+        json.dump(times, file, indent=2)
     scores = {}
     for metric, vals in metrics.items():
         scores[f"{metric}_accuracies"] = vals

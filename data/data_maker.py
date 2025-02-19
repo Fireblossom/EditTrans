@@ -281,7 +281,7 @@ class DatasetMaker:
                 span_output['filter_label'] = 'D'
                 no_anno = True
 
-            if isinstance(label, str):                    
+            if isinstance(label, str):
                 if label != self.last_label_mmd:
                     self.last_2_label_mmd = self.last_label_mmd
                     self.last_label_mmd = label
@@ -482,7 +482,6 @@ def process_file(file, output):
 
 
 if __name__ == "__main__":
-    import tqdm
     from pebble import ProcessPool
     from multiprocessing import set_start_method
     from concurrent.futures import TimeoutError, as_completed
@@ -491,8 +490,8 @@ if __name__ == "__main__":
 
     TIMEOUT_SECONDS = 300
     
-    input_path = Path('/nfs/home/duan/texcompile/outputs')
-    output_path= Path('rainbow_bank') # Path('/nfs/home/duan/texcompile/rainbow_bank')
+    input_path = Path('/raid/duan/cd58hofa/outputs/')
+    output_path= Path('/raid/duan/cd58hofa/rainbow_bank_edit')
     output_path.mkdir(exist_ok=True)
     
     logging.basicConfig(filename='error.log', encoding='utf-8', level=logging.ERROR)
