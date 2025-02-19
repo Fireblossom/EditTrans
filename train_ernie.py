@@ -86,7 +86,6 @@ class ErnieLayoutFilterModelModule(pl.LightningModule):
 
     def training_step(self, batch, batch_idx):
         batch['batch_idx'] = batch_idx
-        torch.save(batch, 'debug.pt')
         outputs = self(**batch)
         loss = outputs.loss
         steps = batch_idx
@@ -106,6 +105,9 @@ class ErnieLayoutFilterModelModule(pl.LightningModule):
         val_loss, logits = outputs.loss, outputs.logits
         predictions = torch.argmax(logits, dim=-1)
         self.valid_metric(predictions, batch["labels"].detach())
+        predictions_seg, labels_seg, count_token_seg = compute_box_predictions(predictions, batch.token_in_bboxes, self.config.num_labels, batch["labels"])
+        labels_seg[count_token_seg < 4] = -100
+        self.valid_metric_segment(predictions_seg.detach(), labels_seg.detach())
         return val_loss
     
     def on_validation_epoch_end(self):
