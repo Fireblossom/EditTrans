@@ -16,7 +16,7 @@ import torch
 from tqdm import tqdm
 import time
 
-from edit_trans import EditTrans
+from edit_trans_nougat import EditTransNougat
 from nougat.metrics import compute_metrics, split_text
 from nougat.utils.device import move_to_device
 from datasets import ClassLabel
@@ -38,7 +38,7 @@ def test(args):
     filter_config.id2label = labels._int2str
     filter_config.enable_position_1d = False
 
-    pretrained_model = EditTrans(filter_config)
+    pretrained_model = EditTransNougat(filter_config)
     pretrained_model = move_to_device(pretrained_model)
 
     pretrained_model.eval()
@@ -61,7 +61,6 @@ def test(args):
         'nougat': [],
         'build': [],
         'generation': []
-
     }
 
     tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path='microsoft/layoutlmv3-base')

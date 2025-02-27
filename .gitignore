@@ -152,3 +152,4 @@ pths/
 paddle/
 lightning_logs*
 filter_pths/
+*.safetensors

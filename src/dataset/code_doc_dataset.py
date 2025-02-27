@@ -5,7 +5,8 @@ import jieba
 import pandas as pd
 from datasets import ClassLabel
 
-from torch.utils.data.dataset import T_co, IterableDataset
+from torch.utils.data.dataset import IterableDataset
+from torch.utils.data.distributed import _T_co as T_co
 from transformers import BatchEncoding, AutoTokenizer
 from torch.utils.data import Dataset, DataLoader
 import os.path as osp

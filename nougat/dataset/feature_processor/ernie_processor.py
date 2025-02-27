@@ -11,12 +11,14 @@ class ErnieProcessor:
                  data_dir,
                  ernie_processor: ErnieLayoutProcessor,
                  max_length: int,
-                 edit_label=False
+                 edit_label=False,
+                 test=False
                  ):
         self.data_dir =data_dir
         self.ernie_processor = ernie_processor
         self.max_length = max_length
         self.edit_label=edit_label
+        self.test = test
 
     def points_process(self, box, width, height, norm_width=1000, norm_height=1000):
         '''
@@ -82,6 +84,9 @@ class ErnieProcessor:
         if not debug:
             for k in encoding.keys():
                 encoding[k] = encoding[k][0]
+
+        if self.test:
+            encoding['texts'] = texts
         # encoding['texts'] = texts
         encoding['uid'] = d['uid']
         return encoding

@@ -5,7 +5,7 @@
 
 from datasets import ClassLabel
 from src.model.layoutlm_v3.configuration_layoutlmv3 import LayoutLMv3Config
-from edit_trans import EditTrans
+from edit_trans_nougat import EditTransNougat
 from nougat.utils.device import move_to_device
 from transformers import AutoTokenizer, NougatProcessor, LayoutLMv3ImageProcessor
 from utils import DataProcessor
@@ -22,7 +22,7 @@ def inference(filename):
     filter_config.id2label = labels._int2str
     filter_config.enable_position_1d = False
 
-    pretrained_model = EditTrans(filter_config)
+    pretrained_model = EditTransNougat(filter_config)
     pretrained_model = move_to_device(pretrained_model)
 
     pretrained_model.eval()

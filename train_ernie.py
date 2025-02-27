@@ -283,7 +283,7 @@ class LightningRunner:
             callbacks=model.configure_callbacks()
         )
         if self.args.do_train:
-            trainer.fit(model, data_module)
+            trainer.fit(model, data_module, ckpt_path=self.args.ckpt_path)
             model.model.save_pretrained(self.args.save_model_dir)
 
         if self.args.do_test:

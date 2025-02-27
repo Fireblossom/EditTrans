@@ -10,13 +10,13 @@ import logging
 from multiprocessing import Pool
 from collections import defaultdict
 from pathlib import Path
-from transformers import NougatProcessor, VisionEncoderDecoderModel
+from transformers import NougatProcessor, VisionEncoderDecoderModel, LayoutLMv3ImageProcessor
 import numpy as np
 import torch
 from tqdm import tqdm
 import time
 
-from edit_trans import EditTrans
+from edit_trans_nougat import EditTransNougat
 from nougat.metrics import compute_metrics, split_text
 from nougat.utils.device import move_to_device
 from datasets import ClassLabel
@@ -26,19 +26,56 @@ from src.dataset.feature_processor.filter_pointer_processor import FilterPointer
 from src.dataset.code_doc_dataset import CodeDocReadingOrderDataset
 from PIL import Image
 import os
+from ernie_layout_pytorch.networks import exErnieLayoutForTokenClassification, ErnieLayoutTokenizerFast, ErnieLayoutProcessor
+from nougat.dataset.feature_processor.ernie_processor import ErnieProcessor
+from nougat.dataset.code_doc_dataset import RainbowBankDataset
+from ernie_layout_pytorch.networks import ErnieLayoutConfig, set_config_for_extrapolation
+
+
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 
 def test(args):
-    labels = ClassLabel(names=['[DUMMY]', 'K', 'D', 'I'])
-    filter_config = LayoutLMv3Config.from_pretrained('microsoft/layoutlmv3-base', output_hidden_states=True)
-    filter_config.pretrained_model_path = 'microsoft/layoutlmv3-base'
-    filter_config.adapter_pth_name = 'filter_pth'
-    filter_config.num_labels = labels.num_classes
-    filter_config.label2id = labels._str2int
-    filter_config.id2label = labels._int2str
-    filter_config.enable_position_1d = False
+    tokenizer_config = torch.load('tokenizer_config.pt')
+    tokenizer_config["mask_token"] = "<mask>"
+    tokenizer_config["unk_token"] = "<unk>"
+    tokenizer_config["pad_token"] = "<pad>"
+    tokenizer_config["cls_token"] = "<s>"
+    tokenizer_config["sep_token"] = "</s>"
+    tokenizer_config["tokenizer_file"] = "tokenizer.json"
+    tokenizer = ErnieLayoutTokenizerFast(**tokenizer_config)
+    tokenizer.padding_side = 'right'
+    tokenizer.only_label_first_subword = False
 
-    pretrained_model = EditTrans(filter_config)
+    image_processor = LayoutLMv3ImageProcessor(apply_ocr=False)
+    ernie_processor = ErnieLayoutProcessor(image_processor=image_processor, tokenizer=tokenizer)
+    data_processor = ErnieProcessor(data_dir=args.data_dir, ernie_processor=ernie_processor, max_length=1024, edit_label=True, test=True)
+    test_dataset = RainbowBankDataset(
+        data_dir=args.data_dir,
+        data_processor=data_processor,
+        dataset_name=args.test_dataset_name
+    )
+    data_loader = torch.utils.data.DataLoader(
+        dataset=test_dataset,
+        batch_size=args.batch_size,
+        collate_fn=None,
+        pin_memory=True,
+        persistent_workers=True,
+        shuffle=False,
+        num_workers=6
+    )
+
+    ner_labels = ClassLabel(names=['DELETE', 'INSERT_LEFT', 'KEEP', "[DUMMY]"])
+    filter_config = ErnieLayoutConfig.from_pretrained('Norm/ERNIE-Layout-Pytorch', output_hidden_states=True)
+    filter_config.num_classes = ner_labels.num_classes
+    filter_config.use_flash_attn = True
+    filter_config.label2id = ner_labels._str2int
+    filter_config.id2label = ner_labels._int2str
+    filter_config.adapter_pth_name = 'lightning_logs_ernie_edit'
+    filter_config.pretrained_model_path = 'Norm/ERNIE-Layout-Pytorch'
+    set_config_for_extrapolation(filter_config)
+
+    pretrained_model = EditTransNougat(filter_config)
     pretrained_model = move_to_device(pretrained_model)
 
     pretrained_model.eval()
@@ -64,37 +101,10 @@ def test(args):
 
     }
 
-    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path='microsoft/layoutlmv3-base')
-    data_processor = FilterPointerProcessor(
-        tokenizer=tokenizer,
-        image_processor=pretrained_model.filter_image_processor,
-        box_level='segment',
-        max_text_length=512,
-        norm_bbox_height=1000,
-        norm_bbox_width=1000,
-        use_image=True,
-        data_dir=args.data_dir,
-    )
-
     processor = NougatProcessor.from_pretrained("facebook/nougat-base")
     model = VisionEncoderDecoderModel.from_pretrained("facebook/nougat-base")
     model = move_to_device(model)
 
-    dataset = CodeDocReadingOrderDataset(
-        data_dir=args.data_dir,
-        data_processor=data_processor,
-        dataset_name='example.jsonl'
-    )
-
-    data_loader = torch.utils.data.DataLoader(
-        dataset=dataset,
-        batch_size=args.batch_size,
-        collate_fn=None,
-        pin_memory=True,
-        persistent_workers=True,
-        shuffle=False,
-        num_workers=6
-    )
     tgt_path = Path(args.data_dir)/'mmd'
     img_path = Path(args.data_dir)/'images'
     steps_edit = []
@@ -118,13 +128,23 @@ def test(args):
         
         nougat_inputs = pretrained_model.processor([Image.open(img_path/img) for img in sample['uid']],
                                                     return_tensors="pt")
+        start_nougat = time.time()
+        outputs_nougat = model.generate(
+            nougat_inputs['pixel_values'].to(model.device, dtype=torch.bfloat16),
+            min_length=1,
+            max_new_tokens=1024,
+            bad_words_ids=[[processor.tokenizer.unk_token_id]],
+        )
+        end_nougat = time.time()
+        nougat_time = end_nougat - start_nougat
+        step_nougat = outputs_nougat.size(0) * outputs_nougat.size(1)
+        print('baseline:', nougat_time, step_nougat)
+        times['nougat'].append(nougat_time)
 
-        outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = pretrained_model.inference(
+        outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = pretrained_model.generate(
             filter_inputs=sample,
             nougat_inputs=nougat_inputs,
         )
-        
-
         outputs_text = pretrained_model.processor.batch_decode(
             outputs, skip_special_tokens=True
         )
@@ -134,19 +154,6 @@ def test(args):
         ground_truth_text = [ground_truth[i][:len(text)] for i, text in enumerate(outputs_text)] # keep lengths same for too long generation
         ground_truth_text = pretrained_model.processor.post_process_generation(ground_truth_text, fix_markdown=True)
         text_gt, math_gt, table_gt = split_text(ground_truth_text)
-        
-        start_nougat = time.time()
-        outputs_nougat = model.generate(
-            nougat_inputs['pixel_values'].to(model.device, dtype=torch.bfloat16),
-            min_length=1,
-            max_new_tokens=512,
-            bad_words_ids=[[processor.tokenizer.unk_token_id]],
-        )
-        end_nougat = time.time()
-        nougat_time = end_nougat - start_nougat
-        step_nougat = outputs_nougat.size(0) * outputs_nougat.size(1)
-        print('baseline:', nougat_time, step_nougat)
-        times['nougat'].append(nougat_time)
 
         print('editTrans:',filter_time, build_time, sum(edit_time), sum(generation_time), sum(generation_steps))
         times['filter'].append(filter_time)
@@ -160,6 +167,9 @@ def test(args):
         outputs_text_nougat = pretrained_model.processor.post_process_generation(outputs_text_nougat, fix_markdown=True)
         text_nougat, math_nougat, table_nougat = split_text(outputs_text_nougat)
 
+        """print(outputs_text)
+        print(outputs_text_nougat)
+        exit()"""
         with Pool(args.batch_size) as p:
             _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text, ground_truth_text))
             for m in _metrics:
@@ -257,8 +267,8 @@ def test(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--checkpoint", "-c", type=Path, default=None)
-    parser.add_argument("--data_dir", type=str, default='data/rainbow_bank')
+    parser.add_argument("--data_dir", type=str, default='/raid/duan/cd58hofa/rainbow_bank/')
+    parser.add_argument("--test_dataset_name", type=str, default='toy.txt')
     parser.add_argument("--batch_size", "-b", type=int, default=1)
     args, left_argv = parser.parse_known_args()
 
