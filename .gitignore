@@ -153,3 +153,5 @@ paddle/
 lightning_logs*
 filter_pths/
 *.safetensors
+kosmos-2.5-4bit/
+kosmos_4bit*
