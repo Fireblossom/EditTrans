@@ -7,7 +7,9 @@ from dataclasses import dataclass
 from typing import Optional
 from pathlib import Path
 FLAGS = fitz.TEXTFLAGS_DICT | fitz.TEXT_DEHYPHENATE & ~fitz.TEXT_PRESERVE_IMAGES
-
+from helpers.multi_column import column_boxes
+from helpers.get_text_lines import get_raw_lines
+from helpers.pymupdf_rag import is_in_rects, intersects_rects
 
 @dataclass
 class RainbowLatexToken:
@@ -74,6 +76,20 @@ def tokens_center_in_bbox(tokens: list[RainbowLatexToken], bbox):
     return in_tokens
 
 
+def block_center_in_rect(blocks, rect):
+    x0, y0, x1, y1 = rect
+    in_blocks = []
+    for block in blocks:
+        x0_, y0_, x1_, y1_ = block['bbox']
+        center_x = (x0_ + x1_)/2
+        center_y = (y0_ + y1_)/2
+        in_x = x0 < center_x < x1
+        in_y = y0 < center_y < y1
+        if in_x and in_y:
+            in_blocks.append(block)
+    return in_blocks
+
+
 def most_common(lst):
     return max(set(lst), key=lst.count)
 
@@ -110,7 +126,7 @@ class DatasetMaker:
         with fitz.open(filename) as pdf:
             self.caption_block_ids = set()
             jsonl_dataset = []
-            for page_no, page_pdf in enumerate(pdf.pages()):
+            for page_no, pdf_page_obj in enumerate(pdf.pages()):
                 if page_no == 0:
                     self.first_page = True
                 else:
@@ -126,52 +142,70 @@ class DatasetMaker:
                 self.last_2_label_dataset = None
                 self.last_label_mmd = None
                 self.last_2_label_mmd = None
-                self.page_pdf = page_pdf
+                self.pdf_page_obj = pdf_page_obj
                 self.reading_orders = {}
                 self.add_end_reading_orders = {}
-                self.add_end_mmd = ''
+                self.delete_reading_orders = {}
+                self.add_end_mmd = [] # '' resort after extraction
+                dataset = []
+                mmd = [] # ''
                 
-                page_pix = page_pdf.get_pixmap(dpi=150)
+                page_pix = pdf_page_obj.get_pixmap(dpi=150)
                 img_output_path = output_path/'images'
                 img_output_path.mkdir(exist_ok=True)
                 img_name = filename.stem+'_{}.png'.format(page_no)
-                
 
-                text_dict = page_pdf.get_text('dict', flags=FLAGS, sort=True)
+                text_dict = pdf_page_obj.get_text('dict', flags=FLAGS, sort=True)
+                text_rects = column_boxes(pdf_page_obj) #sometimes doesn't work, so resort with reading order from rainbowlatex
                 height, width = text_dict['height'], text_dict['width']
                 rainbow_tokens = get_page_tokens(annotation, page_no=page_no)
                 labels_in_page = set([t.label for t in rainbow_tokens])
                 if len(labels_in_page) <3 and 'Reference' in labels_in_page: # Reference only page
                     break
-                dataset = []
-                mmd = ''
-                for block in text_dict['blocks']:
-                    self.start_new_pdf_block_dataset = True
-                    self.start_new_pdf_block_mmd = True
-                    block_bbox = block['bbox']
-                    in_block_bbox_tokens = tokens_center_in_bbox(rainbow_tokens, block_bbox)
-                    if 'Caption' in [t.label for t in in_block_bbox_tokens]:
-                        self.caption_block_ids = self.caption_block_ids.union(set([t.block_id for t in in_block_bbox_tokens]))
-                    if 'lines' in block:
-                        for line in block['lines']:
-                            for span in line['spans']:
-                                span_bbox = span['bbox']
-                                in_bbox_tokens = tokens_center_in_bbox(rainbow_tokens, span_bbox)
-                                if in_bbox_tokens:
-                                    dataset += self.get_dataset(in_bbox_tokens, span)
-                                    mmd += self.get_mmd(in_bbox_tokens, span)
+
+                for rect in text_rects:
+                    in_rect_blocks = block_center_in_rect(text_dict['blocks'], rect) # sort by reading order in multi-column case
+                    for block in in_rect_blocks:
+                        self.start_new_pdf_block_dataset = True
+                        self.start_new_pdf_block_mmd = True
+                        block_bbox = block['bbox']
+                        in_block_bbox_tokens = tokens_center_in_bbox(rainbow_tokens, block_bbox)
+                        if 'Caption' in [t.label for t in in_block_bbox_tokens]:
+                            self.caption_block_ids = self.caption_block_ids.union(set([t.block_id for t in in_block_bbox_tokens]))
+                        if 'lines' in block:
+                            for line in block['lines']:
+                                for span in line['spans']:
+                                    span_bbox = span['bbox']
+                                    in_bbox_tokens = tokens_center_in_bbox(rainbow_tokens, span_bbox)
+                                    if in_bbox_tokens:
+                                        dataset += self.get_dataset(in_bbox_tokens, span)
+                                        mmd += self.get_mmd(in_bbox_tokens, span)
+
                 sorted_keys = sorted(self.reading_orders.items(), key=itemgetter(1))
-                label_segment_order = [key for key, value in sorted_keys]
+                label_segment_order = [key for key, _ in sorted_keys]
 
                 sorted_keys = sorted(self.add_end_reading_orders.items(), key=itemgetter(1))
-                label_segment_order += [key for key, value in sorted_keys]
-                mmd += self.add_end_mmd
+                label_segment_order += [key for key, _ in sorted_keys]
+
+                merged_reading_orders = {**self.reading_orders, **self.add_end_reading_orders, **self.delete_reading_orders}
+                for k,v in merged_reading_orders.items():
+                    if v == -1 and k-1 in merged_reading_orders:
+                        merged_reading_orders[k] = merged_reading_orders[k-1] 
+                        # fix -1 reading order, assume the same as previous
+                        # TODO: should be the clostest one to the top?
+                sorted_keys = sorted(merged_reading_orders.items(), key=itemgetter(1))
+                sorted_dataset = [dataset[key] for key, _ in sorted_keys]
+
+                sorted_mmd = [mmd[key] for key, _ in sorted_keys]
+                sorted_mmd += self.add_end_mmd
+
+                mmd = ''.join(sorted_mmd)
                 if mmd.startswith('\n\n'):
                     mmd = mmd[2:]
                 # print(label_segment_order)
                 json_d = {
                     'img': {'height': height, 'width': width, 'path': 'images/'+img_name},
-                    'document': dataset,
+                    'document': sorted_dataset,
                     'uid': img_name,
                     "label_segment_order": label_segment_order
                 }
@@ -303,6 +337,8 @@ class DatasetMaker:
                     self.reading_orders[span_output['id']] = in_bbox_tokens[round(len(in_bbox_tokens)/2)].reading_order
                 else:
                     self.add_end_reading_orders[span_output['id']] = in_bbox_tokens[round(len(in_bbox_tokens)/2)].reading_order
+            else:
+                self.delete_reading_orders[span_output['id']] = in_bbox_tokens[round(len(in_bbox_tokens)/2)].reading_order
             # print(span_output['filter_label'], label)
             return [span_output]
         
@@ -325,7 +361,7 @@ class DatasetMaker:
 
         return{
             'bbox': [x0, y0, x1, y1],
-            'text': self.page_pdf.get_text("text",clip= fitz.Rect([x0, y0, x1, y1]), flags=FLAGS, sort=True)
+            'text': self.pdf_page_obj.get_text("text",clip= fitz.Rect([x0, y0, x1, y1]), flags=FLAGS, sort=True)
         }
 
     def get_mmd(self, in_bbox_tokens:list[RainbowLatexToken], span:dict) -> str:
@@ -361,7 +397,7 @@ class DatasetMaker:
 
             label = labels_set.pop()
             if label in ['Paragraph', 'Author']:
-                if new_block: 
+                if new_block and not mmd.endswith('\n\n'): 
                     mmd += '\n\n'
                 if 'bold' in flags:
                     mmd += '**' + span['text'] + '** '
@@ -383,7 +419,7 @@ class DatasetMaker:
                 else:
                     mmd += span['text'] + ' '
             elif label in ['List']:
-                if new_block:
+                if new_block and not mmd.endswith('\n\n'):
                     mmd += '\n\n'
                 if 'bold' in flags:
                     mmd += '**' + span['text'] + '** '
@@ -410,38 +446,38 @@ class DatasetMaker:
                     mmd += span['text'] + ' '
 
             elif label in ['Section', 'Title']:
-                if new_block:
+                if new_block and not mmd.endswith('\n\n'):
                     mmd += '\n\n'+'#'*self.node_depth[section_id]+' '
 
                 mmd += span['text'] + ' '
 
             elif label in ['Equation']:
-                if new_block:
+                if new_block and not mmd.endswith('\n\n'):
                     mmd += '\n\n'
                 for t in in_bbox_tokens:
                     if isinstance(t.tex, str):
                         eq_mmd = t.tex.replace('\n', ' ')
                         eq_mmd = re.sub(r"\]\s\(\d+\.\d+\)", "", eq_mmd)
                         if t.block_id in self.caption_block_ids:
-                            self.add_end_mmd += eq_mmd
+                            self.add_end_mmd.append(eq_mmd)
                         else:
                             mmd += eq_mmd
             elif label in ['Table']:
-                if new_block:
-                    self.add_end_mmd += '\n\n'
+                if new_block and self.add_end_mmd and not self.add_end_mmd[-1].endswith('\n\n'):
+                    self.add_end_mmd.append('\n\n')
                 for t in in_bbox_tokens:
                     if isinstance(t.tex, str):
-                        self.add_end_mmd += t.tex
+                        self.add_end_mmd.append(t.tex)
             elif label in ['Caption']:
                 # add to end
-                if new_block: 
-                    self.add_end_mmd += '\n\n'
+                if new_block and self.add_end_mmd and not self.add_end_mmd[-1].endswith('\n\n'): 
+                    self.add_end_mmd.append('\n\n')
                 if 'bold' in flags:
-                    self.add_end_mmd += '**' + span['text'] + '** '
+                    self.add_end_mmd.append('**' + span['text'] + '** ')
                 elif 'italic' in flags:
-                    self.add_end_mmd += '_' + span['text'] + '_ '
+                    self.add_end_mmd.append('_' + span['text'] + '_ ')
                 else:
-                    self.add_end_mmd += span['text'] + ' '
+                    self.add_end_mmd.append(span['text'] + ' ')
             else: # no annotation span
                 no_anno = True
 
@@ -450,7 +486,7 @@ class DatasetMaker:
                     self.last_2_label_mmd = self.last_label_mmd
                     self.last_label_mmd = label
             if self.first_page and no_anno and 'Title' == self.last_2_label_mmd and 'Author' == self.last_label_mmd: # addresses
-                if new_block: 
+                if new_block and not mmd.endswith('\n\n'): 
                     mmd += '\n\n'
                 if not 'Abstract' in span['text']:
                     if 'superscript' in flags:
@@ -462,14 +498,14 @@ class DatasetMaker:
                     else:
                         mmd += span['text'] + ' '
 
-            return mmd
+            return [mmd]
         
         else:
             x = in_bbox_tokens
             indexes = [index for index, _ in enumerate(x) if x[index].label != x[index-1].label]
             indexes.append(len(x))
             splited = [x[indexes[i]:indexes[i+1]] for i, _ in enumerate(indexes) if i != len(indexes)-1]
-            ret = ''
+            ret = []
             for s in splited:
                 filtered_span = self.filter_span(s)
                 ret += self.get_mmd(s, filtered_span)
@@ -482,6 +518,8 @@ def process_file(file, output):
 
 
 if __name__ == "__main__":
+    process_file(Path('/raid/oldhome/elektra/home/duan/EditTrans/outputs/2308.08384.pdf'), Path('/raid/oldhome/elektra/home/duan/EditTrans/rainbow_bank_pymupdf'))
+    exit()
     from pebble import ProcessPool
     from multiprocessing import set_start_method
     from concurrent.futures import TimeoutError, as_completed
@@ -490,8 +528,8 @@ if __name__ == "__main__":
 
     TIMEOUT_SECONDS = 300
     
-    input_path = Path('/raid/duan/cd58hofa/outputs/')
-    output_path= Path('/raid/duan/cd58hofa/rainbow_bank_edit')
+    input_path = Path('outputs/')
+    output_path= Path('rainbow_bank_pymupdf')
     output_path.mkdir(exist_ok=True)
     
     logging.basicConfig(filename='error.log', encoding='utf-8', level=logging.ERROR)
@@ -502,6 +540,11 @@ if __name__ == "__main__":
     for file in input_path.glob('*.pdf'):
         #file = Path('outputs/1412.8507.pdf')
         args.append([file, output_path])
+
+    debug = False
+    if debug:
+        for arg in args:
+            process_file(*arg)
 
     with ProcessPool(max_workers=96) as pool:
         try:
