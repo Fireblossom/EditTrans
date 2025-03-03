@@ -1,0 +1,51 @@
+ize, one obtains 
+
+\[\begin{split}\langle n_{\mathbf{m}r,s+1}\rangle-\langle n_{ \mathbf{m}r,s}\rangle&=(1-\langle n_{\mathbf{m}r,s}\rangle)\sum_{\mathbf{m}r^{ \prime}\neq\mathbf{m}r}\langle n_{\mathbf{m}r^{\prime},s}\rangle f_{\mathit{ \oldGamma}}({\mathit{\oldDelta}}u^{s}_{\mathbf{m}r^{\prime}\to\mathbf{m}r})\\ &-\langle n_{\mathbf{m}r,s}\rangle\sum_{\mathbf{m}r^{\prime}\neq\mathbf{m}r}(1 -\langle n_{\mathbf{m}r^{\prime},s}\rangle)f_{\mathit{\oldGamma}}({\mathit{ \oldDelta}}u^{s}_{\mathbf{m}r\to\mathbf{m}r^{\prime}}),\end{split}\] (14)  
+
+
+
+where \({\mathit{\oldDelta}}u^{s}_{\mathbf{m}r\to\mathbf{m}r^{\prime}}\equiv u(\langle \tilde{n}_{\mathbf{m}r^{\prime},s}\rangle)-u(\langle\tilde{n}_{\mathbf{m}r,s}\rangle)\). For convenience, we take the continuous time and continuous space limit, following the common procedure to obtain a mean-field description of exclusion processes on lattices (see e.g. [44]). The average occupation number \(\langle n\rangle\)\(\langle n\rangle\)is now described by the density \(\rho\), while the spatially smoothed average occupation number \(\langle\tilde{n}\rangle\)is described by the field \(\varphi\equiv G_{\sigma}*\rho\)\(\langle\tilde{n}\rangle\). The master equation for the occupation probability then takes the form of a noiseless hydrodynamic equation, in our case: 
+
+\[\partial_{t}\rho(x,t)= [1-\rho(x,t)]\int\mathrm{d}y\,\rho(y,t)w_{\mathit{\oldGamma}}([ \varphi],y,x,t)\] (15) \[-\rho(x,t)\int\mathrm{d}y\,[1-\rho(y,t)]w_{\mathit{\oldGamma}}([ \varphi],x,y,t),\]  
+
+with the transition rate from \(y\) to \(x\) explicitly given by 
+
+\[w_{\mathit{\oldGamma}}([\varphi],y,x,t)=\omega f_{\mathit{ \oldGamma}}\left[u(\varphi(x,t))-u(\varphi(y,t))\right],\] (16)  
+
+where \(\omega\) is homogeneous to an inverse time scale. Eq. (15) is valid in any dimension, but, for simplicity, we will work out the mean-field computations in dimension 1 in space. This can be justified _ a posteriori_  when we compare the mean-field (MF) to the Monte Carlo (MC) simulations. Let us also mention that the dimension does not play a role in determining the phase densities in the steady state of coarse-grained field theories (Allen-Cahn [45], Cahn-Hilliard [46], etc.). 
+
+Integrating Eq. (15) over space, one immediately sees that the total density 
+
+\(\int\rho\) is conserved. One can also check that in the very specific case where \(u(\varphi)\) is linear in \(\varphi\), one can build a free-energy functional that is a Lyapunov function of the non-local MF dynamics, ensuring a convergence towards local minima and preventing limit cycles and oscillatory dynamics. This is a natural consequence of the fact that detailed balance is satisfied at microscopic level. In App. C, we construct this free energy and show that the dynamics is relaxational. 
+
+### Linear stability analysis 
+
+In the general case, we would like to understand how the homogeneous state becomes unstable. To do so, we consider a small perturbation around the homogeneous state: \(\rho(x,t)=\rho_{0}+\rho_{1}(x,t)\), with \(\rho_{1}\) the perturbation. By linearity of the convolution, one has \(\varphi(x,t)=\rho_{0}+\varphi_{1}(x,t)\), with \(\varphi_{1}\equiv G_{\sigma}*\rho_{1}\). A Taylor expansion of Eq. (15) combined with mass conservation (i.e , where \(D\) is the full domain), finally yields: 
+
+\[\begin{split}\partial_{t}\rho(x,t)=&\ 2\Omega\rho_{0}(1-\rho_{0}) f^{\prime}_{\mathit{\oldGamma}}(0)u^{\prime}(\rho_{0})\varphi_{1}(x,t)\\ &-\Omega f_{\mathit{\oldGamma}}(0)\rho_{1}(x,t),\end{split}\] (17)  
+
+with \(\Omega\)the full domain size. Defining the Fourier transform for any field \(h\) as \(\hat{h}(k)=\int\mathrm{d}x\,e^{-ikx}h(x)\)\(\hat{h}(k)=\int\mathrm{d}x\,e^{-ikx}h(x)\), one obtains 
+
+\[\partial_{t}\hat{\rho}_{1}(k,t)=\Lambda(k)\hat{\rho}_{1}(k,t),\] (18) \[\Lambda(k)=\Omega f_{\mathit{\oldGamma}}(0)\left(2\rho_{0}(1-\rho _{0})\frac{f^{\prime}_{\mathit{\oldGamma}}(0)}{f_{\mathit{\oldGamma}}(0)}u^{ \prime}(\rho_{0})\hat{G}_{\sigma}(k)-1\right).\] (19)  
+
+
+
+
+
+This last equation shows that the homogeneous state is unstable if there exists a mode \(k^{\star}\)such that 
+
+\[2\rho_{0}(1-\rho_{0})\frac{f^{\prime}_{\mathit{\oldGamma}}(0)}{f _{\mathit{\oldGamma}}(0)}u^{\prime}(\rho_{0})\hat{G}_{\sigma}(k^{\star})>1.\] (20)  
+
+The manifold for which the inequality becomes an equality defines the spinodal in the phase diagram \((\rho_{0},{\mathit{\oldGamma}})\). In particular, for any monotonically decreasing kernel \(G_{\sigma}(|x|)\in L_{2}(\mathbb{R})\), one has \(\hat{G}_{\sigma}(0)>|\hat{G}_{\sigma}(k)|\)\(\hat{G}_{\sigma}(0)>|\hat{G}_{\sigma}(k)|\), such that for large system size, the stability of the homogeneous state is given by the stability of modes \(k\to 0\), and the spinodal is thus defined by the equation 
+
+\[2\rho_{0}(1-\rho_{0})\frac{f^{\prime}_{\mathit{\oldGamma}}(0)}{f _{\mathit{\oldGamma}}(0)}u^{\prime}(\rho_{0})=1.\] (21)  
+
+Note that this criterion is generic as it only depends on the decision rule through \(f_{\mathit{\oldGamma}}(0)\) and \(f^{\prime}_{\mathit{\oldGamma}}(0)\). The simulations also reveal the existence of a bistable region in the vicinity of this spinodal. This is the binodal region, which can be fully characterized in the case of an equilibrium system [12]. Here however, there is a priori no free energy one can rely on to describe the nucleation scenario and to obtain the densities of the phase-separated state. 
+
+### Confronting to microscopic simulations 
+
+The MF prediction is expected to be accurate for systems with high connectivity, which here corresponds to large \(\sigma\). In the following, we shall take the limit \(L\to\infty\), \(\sigma\to\infty\)with \(\sigma/L\to 0\)to obtain mean-field predictions that are independent of both \(\sigma\) and \(L\), and perform numerical simulations as close as possible to this scaling regime. 
+
+The first analytical prediction of the MF description is the spinodal, that determines the onset of instability of the homogeneous state, see Eq. (21). The spinodal is the dashed line in the \((\rho,T)\) phase diagram in Fig. 5(a). To check the prediction, we start in the MC simulations from a uniformly distributed configuration of agents for three different values of temperature, \(T=0.04\), \(0.08\), \(0.11\), and we detect the frontier across which the homogeneous profile either coarsens, or needs a nucleation event to converge to the separated state. This frontier is marked with the diamonds, which agrees with the MF prediction. 
+
+Second, the MF dynamical Eq. (15) can be solved numerically with an Euler explicit scheme. From the numerical solution, one obtains the densities of the bulk of each phase when a phase separation occurs: these densities define the binodal, the continuous line in Fig. 5(a). These MF phase densities are 

@@ -1,0 +1,35 @@
+# COMPLEX ANALYSIS OF INTELLIGENT SYSTEMS 
+
+(60) \[If(z_{1},z_{2})=\frac{z_{1}}{2\pi i}\oint_{\Gamma_{1}}\frac{f( \xi_{1},z_{2})}{\xi_{1}-z_{1}}d\xi_{1}+\frac{z_{2}}{2\pi i}\oint_{\Gamma_{2}} \frac{f(z_{1},\xi_{2})}{\xi_{2}-z_{2}}d\xi_{2},\]  
+
+## 4. Models of Computation 
+
+The computational model consists of a computing machine \(M\) connected to an environment \(E\). At each time \(t\), we have input channel(s) \(S(t)\)(for stimulus) and output channel(s) \(R(t)\)(for response) [ **0** ]. To describe how the computing machine \(M\) works, we need to specify the outputs as a function of the inputs. Since the transmission of signals requires some time, the output must be at a time later than the time of the input channel. We assume the machine response \(R(r+1)\)because of \(S(t)\)to depend on the state of the machine \(Q(t)\)
+
+(61) \[R(t+1)=F(Q(t),S(t))\]  
+
+and the state of the machine \(M\) depend on the stimulus \(S(t)\)and the state of the machine at previous time, 
+
+(62) \[Q(t+1)=G(Q(t),S(t)).\]  
+
+### Memristive systems 
+
+.  The memristive systems are dynamical systems defined by [ **0** ] 
+
+(63) \[\dot{x}=f(x,u,t),\] (64) \[y=g(x,u,t)u,\]  (63) \[\dot{x}=f(x,u,t),\] (64) \[y=g(x,u,t)u,\]  
+
+(63) \[\dot{x}=f(x,u,t),\] (64) \[y=g(x,u,t)u,\]  
+
+where \(u\) and \(y\) are the input and output of the system, and \(x\) denotes the state of the system. The connection between 63, 64 and 61, 62 is achieved by assigning \(R(t+1)=y(t+1)\), \(Q(t+1)=x(t+1)\), and \(u=S(t)\). Therefore, for each value of \(t\), we can realize the memristive system as a computational model. 
+
+### 4.2. Chain of harmonic oscillators. 
+
+The harmonic oscillator satisfy a second-order differential equation of the form [ **0** ] 
+
+(65) \[\ddot{x}+\omega^{2}x=0\]  (65) \[\ddot{x}+\omega^{2}x=0\]  
+
+The general solution is 
+
+(66) \[x(t)=A\sin(\omega t)+B\cos(\omega t),\]  
+
+where \(A\) and \(B\) are constants. A single harmonic oscillator does not define a computational model by itself, some interactions with the environment are needed to define a computational model. Consider a chain of \(N\) identical harmonic oscillators as the machine \(M\), the interaction of a single harmonic oscillator with other oscillators would affect the whole system. In other words, it provides some stimulus \(S\) to the whole system, regardless of whether this stimulus is large or negligible. The response \(R\) could be described as the changing of some measurable quantities in this chain due to the interaction with this single harmonic oscillator, such as the frequency modes, etc. The new displacement \(x_{n}\) of the \(n\)th oscillator defines the new state of the system \(Q\). It is sufficient to take just one oscillator within the chain and study its change in 

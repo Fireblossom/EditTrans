@@ -1,0 +1,23 @@
+In our analysis, we consider the following order of events: 
+
+
+1. Firms engage in a data-sharing mechanism\(M=(M_{B},r)\). 
+2. Firm\(A\) announces uniform price \(p_{A}\). 4 4 Note that firm \(B\) knows all consumers’ locations, and so personalizes prices to each. It therefore need not post a uniform 
+3. A consumer arrives, and all firms who know the consumer’s locationprice. \(\theta\) simultaneously offer that consumer a personalized price, \(p_{A}(\theta)\) and \(p_{B}(\theta)\). 
+4. The consumer chooses a firm from which to buy, and payoffs are realized.
+
+Note that firms share data, and firm \(A\) announces its uniform prices, before consumers arrive. After a consumer arrives to the market, the firms who know the consumer’s specific location simultaneously offer personalized prices. If firm \(A\) offers a consumer a personalized price, this offer subsumes the firm’s original uniform price. Thus, the uniform price \(p_{A}\) will apply only to those consumers who will not subsequently be offered a personalized price by firm \(A\). 
+
+Importantly, when firms set personalized prices, they know the uniform price set by firm \(A\) in the previous stage. This is the standard timing considered in the literature (see, e.g., [33, 10, 9, 26, 8]). 5 5 An alternative model that we do not analyze is one in which firms set uniform and personalized prices simultaneously, for each consumer. [26] show that, in this case, a (pure) equilibrium may fail to exist. 
+
+For any fixed mechanism \(M\), we will consider the pure subgame perfect equilibria of the game that starts with data-sharing mechanism \(M\). Such equilibria always exists, and consist of a uniform price for firm \(A\) followed by personalized prices for both firms. Once the uniform price is fixed, the equilibrium personalized prices for each consumer \(\theta\) are uniquely fixed. We will be interested in designing mechanisms \(M\) that lead to equilibria with high firm-profits and high consumer-welfare. 
+
+One important desideratum of data-sharing mechanisms (with corresponding equilibria) is that they be _ individually rational (IR)_ : That the expected utility of each firm with data sharing be at least as high as without data sharing. A data-sharing mechanism should be IR if we expect firms to participate. 
+
+Our main focus will be on mechanisms that are not only IR, but also _ Pareto-improving_ : when sharing takes place, (i) the expected utility of each firm and _ every_  consumer be at least as high as without data sharing, and that (ii) either firm \(A\)’s profits, firm \(B\)’s profits, or total consumer welfare be strictly higher. 
+
+We note that many of our results make no assumptions about the distribution of consumers. In such a general setting there may be multiple equilibria, even with no data-sharing, each with different uniform prices. Hence, we will often describe mechanisms as being IR or Pareto-improving _ relative to_  a particular no-sharing equilibrium. 
+
+## No Data-Sharing 
+
+We begin by analyzing equilibria under no data-sharing. To this end, define \(\mu(p_{A})=\frac{1}{2}-\frac{p_{A}}{2t}\). If firm \(A\)charges uniform price \(p_{A}\), then the consumer located at \(\mu(p_{A})\) is indifferent between purchasing from firm \(A\) at that price and purchasing from firm \(B\) at price 0. All consumers located to the left of \(\mu(p_{A})\)will thus strictly prefer purchasing from firm \(A\) at price \(p_{A}\) than from firm \(B\) at any nonnegative price. In contrast, for every consumer located to the right of \(\mu(p_{A})\) there exists a nonnegative price of firm \(B\)such that that consumer will prefer to purchase from \(B\) than from \(A\). This is formalized in the following proposition: 

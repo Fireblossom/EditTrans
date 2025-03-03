@@ -1,0 +1,25 @@
+proximate entities share similarities, specifically the K-nearest neighbors. This approach enables the algorithm to efficiently navigate the space and identify the most comparable items. The algorithm’s methodology is based on the square root of the N technique, which involves searching the entire volume of points in the training dataset. Given a specific point \(x_{0}\) that needs to be classified into one of the K groups, a possible approach is to determine the \(k\) observed data points closest to \(x_{0}\). According to [ 35 ], the sample with the most observed data points among the k-nearest neighbors is assigned \(x_{0}\) in the classification form. Up to this juncture, the degree of similarity is contingent upon a specific distance metric, thereby rendering the efficacy of classifiers significantly reliant on the integrated distance metric [ 36 ]. The methodology involves two distinct procedures, whereby the initial step entails the creation of an adjacency matrix and, subsequently, the estimation of edge weights is performed [ 37 ]. 
+
+#### 3.2.5. Forecasting Performance Measures 
+
+We report on a number of robustness tests. In addition to the mean absolute percentage error (MAPE), despite its widespread application in forecasting literature, we present forecasting results for the following loss functions: the mean absolute error (MAE) and the root mean square error (RMSE). The results for each accuracy measure are reported in Table  3 . 
+
+\[\mathrm{MAE}=\frac{1}{h}\sum_{j=1}^{h}\left|y_{t+j}-\hat{y}_{t+j}\right|,\] (5)  
+
+\[\mathrm{RMSE}=\sqrt{\frac{1}{h}\sum_{j=1}^{h}\left(y_{t+j}-\hat{y}_{t+j}\right )^{2}},\] (6)  
+
+\[\mathrm{MAPE}=\frac{1}{h}\sum_{j=1}^{h}\frac{y_{t+j}-\hat{y}_{t+j}}{y_{t+j}},\] (7)  
+
+where \(\hat{y}_{t+j}\)\(\hat{y}_{t+j}\) refers to the model’s forecast at time \(t\). \(y_{t+j}\) is the associated actual values, \(h\) is the forecasting horizon, and \(j\) is the number of historical observations. 
+
+However, despite its widespread application in forecasting literature, the mean absolute percentage error (MAPE) has attracted criticism as it exhibits significant shortcomings in generating undefined or infinite outcomes for actual zero or near-zero values [ 38 ]. Therefore, to assess the reviewed forecasting techniques and verify that the conclusions drawn from the study are indicative, we employed AvgRelMAE, considering the ARIMA model as a benchmark: 
+
+\[\operatorname{AvgRelMAE}=\exp\left(\frac{1}{N}\sum_{i=1}^{N}\ln\left(\frac{MAE _{\text{Model },i}}{MAE_{\text{ARIMA},i}}\right)\right)\] (8)  
+
+where \(N\) represents the total number of series used for the evaluation of forecasting methods. 
+
+## 4. Discussion 
+
+Table  3  reports the accuracy metrics for three different time series forecasting models, namely, ARIMA, ETS-ANN, and _ k_ NN, for different SSMI financial market assets, i.e., BTCUSD, GDAXI, FTSE, N100, FCHI, and SSMI, from 2018 to 2021. The accuracy of the models is evaluated based on the following metrics: mean absolute error (MAE), root mean square error (RMSE), and the mean absolute percentage error (MAPE). 
+
+The findings indicate that the ranking of the models’ performance remains consistent across each examined subperiod. Based on all accuracy metrics, it can be observed that the hybrid ETS-ANN model is the prevailing model for studying the specific dataset of financial market assets. According to the MAPE metric, the ETS-ANN model had the lowest value for almost all indices and subperiods except for the entire period results. The _k_ NN model displayed some lower results during the pro-COVID-19 period of 2018 and 

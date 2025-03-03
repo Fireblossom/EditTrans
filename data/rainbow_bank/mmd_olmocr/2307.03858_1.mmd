@@ -1,0 +1,19 @@
+we formulate a _ trajectory-based_  framework, where the observations \(A(t)=\tr(Ae^{t\mathcal{L}}\rho(0))\)are fit by simulating the QME (1). An important consequence is that the dependence of accuracy on the measurement time-lapse \(\Delta t\) is replaced by the dependence on the time step \(\delta t\) of the simulation. This offers the flexibility to achieve an accuracy not limited by experimental setups. For example, when the measurement time \(\Delta t\) is large, the numerical simulations fill the gap by generating the solution of the QME (1) in between. Another advantage is that, unlike the equation-based approaches [12, 13], our optimization problem does not require the expectations associated with the right hand side of Eq. (1). 
+
+To enable such a simulation-assisted approach, we propose a simulation algorithm, denoted here by \(\mathcal{M}_{\delta t}(t)\), that has global error \(\delta t^{2}\), in that \(e^{\mathcal{L}t}-\mathcal{M}_{\delta t}(t)=\mathcal{O}\left(\delta t^{2}\right).\) We choose a semi-implicit algorithm, which is stable even when the coherent term in the QME (1) has large coefficients. This makes it more robust in practice than the second-order method in Breuer and Petruccione [14]. Furthermore, we also show that the method has a completely positive property and it can be easily written in a Kraus form. This makes it possible to implement such a simulation method on a quantum computer as well. This is done by unraveling the Lindblad dynamics to a stochastic Schr¨odinger equation [14], followed by a stochastic expansion [17]. 
+
+Another practical aspect of our approach is efficient optimization. With the Kraus representation of our numerical approximation, the calculation of the gradient is streamlined. This allows us to apply the Levenberg- Marquardt algorithm, which has very rapid convergence [18, 19]. With mild assumptions on the fitting error, we will show how the approximation error from the numerical simulation and the statistical error from the measurements affect the performance of the parameter identification. 
+
+The rest of the paper is organized as follows: We present a general learning framework in the form of a nonlinear least squares problem in Section II A, and explain the difference and connections to existing works in Section II B. Section II C and Section II D present the specific simulation method and how it is integrated with the optimization procedure. In Section II E and Section III, we present some error analysis and results from some numerical experiments. 
+
+## THE LEARNING FRAMEWORK FOR PARAMETER IDENTIFICATION OF LINDBLADIANS 
+
+### A Least Squares Formulation of the Learning Problem 
+
+In practice, the unknown parameter can appear in both the Hamiltonian and the dissipative terms in the QME (1). To indicate the role of the parameters, we first rewrite Eq. (1) as follows, 
+
+\[\frac{d}{dt}\rho =\mathcal{L}_{H}(\bm{\theta}_{H})\rho+\mathcal{L}_{D}(\bm{\theta} _{D})\rho,\] (2) \[\mathcal{L}_{H}(\bm{\theta}_{H})\rho=-i[H,\rho], \quad\mathcal{L}_{D}(\bm{\theta}_{D})\rho=\sum_{j=1}^{N_{V}}\left (V_{j}\rho V_{j}^{{\dagger}}-\frac{1}{2}V_{j}^{{\dagger}}V_{j}\rho-\frac{1}{2} \rho V_{j}^{{\dagger}}V_{j}\right).\]  
+
+We can combine the parameters by writing \(\bm{\theta}:=(\bm{\theta}_{H},\bm{\theta}_{D})\); \(\mathcal{L}(\bm{\theta}):=\mathcal{L}_{H}(\bm{\theta}_{H})+\mathcal{L}_{D}(\bm {\theta}_{D})\)will be called the _ Lindbladian_ . We refer to the two sets of parameters as Hamiltonian and dissipative parameters, respectively. When \(\mathcal{L}_{D}=0\), the problem is reduced to a Hamiltonian learning problem. 
+
+We assume that the measurement data is a time series \(y_{k,n},n=1,2,\cdots,N_{T},\) which correspond 

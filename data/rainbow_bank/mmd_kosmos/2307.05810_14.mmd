@@ -1,0 +1,37 @@
+## Lifting irreducible characters to higher dimensional Clifford groups 
+
+We will now explain how irreducible characters of the \(n\)-qubit Clifford group can be used to explicitly construct characters of the \((n+1)\)-qubit Clifford group. First, we need to understand the representation theory of the affine symplectic group \(Sp(2n,2)\ltimes\mathbb{Z}_{2}^{2n}\). It is clear that if \(U\) acts on \(\mathbb{Z}^{2n}_{2}\)by \(\Gamma\in Sp(2n,2)\)then \({}^{(\mathbf{x},\Gamma)}\sigma\sim{}^{U}\sigma\) for any \(\sigma\in\widehat{\mathbb{Z}^{2n}_{2}}\)and \((\mathbf{x},\Gamma)\in Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\). Let \(\sigma_{1}\) be the irreducible representation of \(\mathbb{Z}^{2n}_{2}\)defined in section 5, then it follows that \(I_{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}(\sigma_{1})/\mathbb{Z}^{2n}_{2}\cong IN _{n}/\mathbb{Z}^{2n}_{2}\)Let \(\sigma_{1}^{\prime\prime}\)be the extension of \(\sigma_{1}\) to \(I_{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}(\sigma_{1})\)via \(\sigma_{1}^{\prime\prime}(x,\Gamma)=\sigma_{1}(x)\). Applying theorem we immediately obtain the following. 
+
+**Lemma 5.1.** _ The irreducible representations of the affine symplectic group are_ 
+
+\[\widehat{Sp(2n,2)\ltimes\mathbb{Z}_{2}^{2n}}=\left\{\emph{Ind}^{Sp(2n,2) \ltimes\mathbb{Z}_{2}^{2n}}_{(IN_{n}/\mathbb{Z}^{2n}_{2})\ltimes\mathbb{Z}_{2} ^{2n}}(\sigma_{1}^{\prime\prime}\otimes\widetilde{\psi}):\psi\in\widehat{IN_{n }/\mathbb{Z}^{2n}_{2}}\right\}\cup\left\{\widetilde{\psi}:\psi\in\widehat{Sp(2 n,2)}\right\},\]  
+
+_where_ \(\widetilde{\psi}\)\(\widetilde{\psi}\)_ in the left set is the inflation to_ \((IN_{n}/\mathbb{Z}^{2n}_{2})\ltimes\mathbb{Z}_{2}^{2n}\)_and in the right set is inflation to_ \(Sp(2n,2)\ltimes\mathbb{Z}_{2}^{2n}\)_._ 
+
+We can now prove the following lemma which was first proven by Bernd Fischer using the technique of Fischer-Clifford matrices in [Fis88]. 
+
+\(Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\)_and_ \(\mathcal{C}_{n}\)_ have identical character tables._ 
+
+_Proof._  This is trivially true if \(n=1\), as in that case, the groups are isomorphic. For \(n>1\)we first notice that 
+
+\[(Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2})/\mathbb{Z}^{2n}_{2}\cong Sp(2n,2)\cong \mathcal{C}_{n}/\widetilde{\mathcal{P}_{n}}.\]  
+
+The irreducible characters that come from \(Sp(2n,2)\)are nothing but inflations of the irreducible characters of \(Sp(2n,2)\). Thus if \(\chi\) is an irreducible character of \(Sp(2n,2)\)and \(\widetilde{\chi}\)\(\widetilde{\chi}\) and \(\widetilde{\chi}^{\prime}\)\(\widetilde{\chi}^{\prime}\)are its inflations to \(\mathcal{C}_{n}\) and \(Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\)respectively, we have 
+
+\[\widetilde{\chi}(U)=\chi(\Gamma)=\widetilde{\chi}^{\prime}(\mathbf{x},\Gamma)\  \[\widetilde{\chi}(U)=\chi(\Gamma)=\widetilde{\chi}^{\prime}(\mathbf{x},\Gamma)\  
+
+for all \(\mathbf{x}\in\mathbb{Z}^{2n}_{2}\)and \(U\in\mathcal{C}_{n}\) such that \(UW_{\mathbf{x}}U^{\dagger}=(-1)^{f(\mathbf{x})}W_{\Gamma\mathbf{x}}\). Fix a normalized section \(t:Sp(2n,2)\rightarrow\mathcal{C}_{n}\) of the extension 
+
+\[1\rightarrow\mathbb{Z}_{2}^{2n}\rightarrow\mathcal{C}_{n}\to Sp(2n,2)\to 1\]  
+
+such that \(\sigma_{1}(t(\Gamma))=1\). Define mapping \(\phi:Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\rightarrow\mathcal{C}_{n}\) by \(\phi(\mathbf{x},\Gamma)=W_{\mathbf{x}}t(\Gamma)\). It is clear that this mapping is one-to-one and onto, and \(\sigma_{1}^{\prime\prime}(s)=\sigma_{1}^{\prime}(\phi(s))\)for all \(s\in Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\). Using we see that \(\widetilde{\chi}(\phi(s))=\widetilde{\chi}^{\prime}(s)\)\(\widetilde{\chi}(\phi(s))=\widetilde{\chi}^{\prime}(s)\)for all \(s\in Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\). Let \(\psi\) be an irreducible representation of \(IN_{n}/\mathbb{Z}^{2n}_{2}\), and \(\widetilde{\psi}\)\(\widetilde{\psi}\) and \(\widetilde{\psi}^{\prime}\)\(\widetilde{\psi}^{\prime}\) be its inflations to \(I_{\mathcal{C}_{n}}(\sigma_{1})\)and \(I_{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}(\sigma_{1})\)respectively. From the formula for induced characters, we have 
+
+\[\text{Ind}^{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}_{I_{Sp(2n,2)\ltimes\mathbb{Z}^ {2n}_{2}}(\sigma_{1})}(\widetilde{\psi}^{\prime}\otimes\sigma_{1}^{\prime \prime})(s)=\frac{1}{|I_{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}(\sigma_{1})|}\sum _{{\begin{subarray}{c}r\in Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\\ r^{-1}sr\in I_{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}(\sigma_{1})\end{subarray}}} \widetilde{\psi}^{\prime}\otimes\sigma_{1}^{\prime\prime}(r^{-1}sr),\]  
+
+and 
+
+\[\text{Ind}^{\mathcal{C}_{n}}_{I_{\mathcal{C}_{n}}(\sigma_{1})}(\widetilde{\psi }\otimes\sigma_{1}^{\prime})(s)=\frac{1}{|I_{\mathcal{C}_{n}}(\sigma_{1})|} \sum_{\begin{subarray}{c}r\in\mathcal{C}_{n}\\ r^{-1}sr\in I_{\mathcal{C}_{n}}(\sigma_{1})\end{subarray}}\widetilde{\psi} \otimes\sigma_{1}^{\prime}(r^{-1}sr).\]  
+
+Since the action by conjugation of \(\phi(\mathbf{x},\Gamma)\)depends only on \(\Gamma\), we see that \(\phi(r)^{-1}\phi(s)\phi(r)\in I_{\mathcal{C}_{n}(\sigma_{1})}\) if and only if \(r^{-1}sr\in I_{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}(\sigma_{1})\)for any \(r,s\in Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}\), and furthermore \(\widetilde{\psi}(\phi(r)^{-1}\phi(s)\phi(r))=\widetilde{\psi}^{\prime}(r^{-1}sr)\)\(\widetilde{\psi}(\phi(r)^{-1}\phi(s)\phi(r))=\widetilde{\psi}^{\prime}(r^{-1}sr)\). Finally, we obtain 
+
+\[\text{Ind}^{\mathcal{C}_{n}}_{I_{\mathcal{C}_{n}}(\sigma_{1})}(\widetilde{\psi }\otimes\sigma_{1}^{\prime})(\phi(s))=\text{Ind}^{Sp(2n,2)\ltimes\mathbb{Z}^{2 n}_{2}}_{I_{Sp(2n,2)\ltimes\mathbb{Z}^{2n}_{2}}(\sigma_{1})}(\widetilde{\psi}^ {\prime}\otimes\sigma_{1}^{\prime\prime})(s)\]  

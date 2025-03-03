@@ -1,0 +1,18 @@
+We want to show that 
+
+\[\left(1-p_{1}^{h+1}\right)^{k}\leq\sum_{\{\textbf{a}_{h}\}}p_{a_{1}}p_{a_{2}} \cdots p_{a_{k}}.\] (115)  
+
+To show this, we note that, for a given jump sequence \(\textbf{a}_{h}\), its probability in Eq. (115) takes the form 
+
+\[p_{a_{1}}p_{a_{2}}\cdots p_{a_{k}}=p_{1}^{m_{0}}p_{0}p_{1}^{m_{2}}p_{0}\cdots p _{1}^{m_{z}},\] (116)  
+
+where \(z+\sum_{i=0}^{z}m_{i}=k\)and each integer satisfies \(0\leq m_{i}\leq h\). Each jump sequence \(\textbf{a}_{h}\) is uniquely labelled by \(\textbf{m}(\textbf{a}_{h})=(m_{0},m_{1},\cdots,m_{z})\). We can establish the desired lower bound by noting that, when \(p_{0}\neq 0\), 
+
+\[(1-p_{1}^{h+1})^{k} =\left[\sum_{i=0}^{h}p_{1}^{i}p_{0}\right]^{k}=\sum_{i_{1}=0}^{h} \sum_{i_{2}=0}^{h}\cdots\sum_{i_{k}=0}^{h}p_{1}^{i_{1}}p_{0}p_{1}^{i_{2}}p_{0} \cdots p_{1}^{i_{k}}p_{0}\] \[=\sum_{z=0}^{k}\sum_{\mathbf{m}}\underbrace{p_{1}^{m_{0}}p_{0}p_{ 1}^{m_{1}}p_{0}\cdots p_{1}^{m_{z}}}_{\textrm{first $k$ factors}}\times\left[ \sum_{i^{\prime}=0}^{h-m_{z}}p_{1}^{i^{\prime}}p_{0}\right]\times\left[\sum_{i =0}^{h}p_{1}^{i}p_{0}\right]^{k-z-1}\] \[\leq\sum_{z=0}^{k}\sum_{\mathbf{m}}p_{1}^{m_{1}}p_{0}p_{1}^{m_{2} }p_{0}\cdots p_{1}^{m_{z}}\] \[=\sum_{\{\textbf{a}_{h}\}}p_{a_{1}}p_{a_{2}}\cdots p_{a_{k}}.\] (117)  In the second line, the sum is over \(\mathbf{m}=(m_{0},m_{1},\cdots,m_{z})\), where \(0\leq m_{i}\leq h\) and \(z+\sum_{i=0}^{z}m_{i}=k\). In going from the first line to the second line, we re-write the sum in the first line using the following steps: we fix the first \(k\) factors in each term and sum over the rest of the possible factors. Then we take the sum over all possible first \(k\) factors (i.e. 
+
+\(\sum_{z=0}^{k}\sum_{\mathbf{m}}\)). The inequality in the third line follows from \(\left[\sum_{i^{\prime}=0}^{h-m_{z}}p_{1}^{i^{\prime}}p_{0}\right]\left[\sum_{i =0}^{h}p_{1}^{i}p_{0}\right]^{k-z-1}\leq 1\), which trivially holds for \(z\leq k-1\). When \(z=k\) and \(p_{0}\neq 0\), we have \(m_{i}=0\)for all \(i\) due to the constraint \(z+\sum_{i=0}^{z}m_{i}=k\). Therefore, the two factors cancel, and the inequality becomes an equality. When \(p_{0}=0\), we can directly verify that Eq. (117) also holds. This concludes the proof of the lemma. 
+
+If we substitute Eq. (113) into Eq. (106), we get 
+
+\[\epsilon(t) =\sum_{k}p_{e}(k)\frac{[t(\kappa+N\Delta)]^{k}}{k!}e^{-t(\kappa+N \Delta)}\] \[\leq\sum_{k}\left(1-\left[(1-\xi)\left(1-\left(\frac{N\Delta}{ \kappa+N\Delta}\right)^{h+1}\right)\right]^{k}\right)\frac{[t(\kappa+N\Delta)] ^{k}}{k!}e^{-t(\kappa+N\Delta)}\] \[=1-\exp\left(-(1-\xi)(\kappa+N\Delta)\left(\frac{N\Delta}{\kappa+ N\Delta}\right)^{h+1}t-\xi(\kappa+N\Delta)t\right)\] \[=1-\exp\left(-N\Delta(1-\xi)\left(\frac{N\Delta}{\kappa+N\Delta} \right)^{h}t-\xi(\kappa+N\Delta)t\right),\] (118)  
+

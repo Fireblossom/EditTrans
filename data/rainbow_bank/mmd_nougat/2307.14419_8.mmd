@@ -1,0 +1,37 @@
+# Optimization of Image Acquisition for Earth Observation Satellites 
+
+which manages to obtain results (albeit not necessarily outstanding ones) up until instance  412 , with 300 requests. 
+
+Furthermore,  2000Q  cannot handle instances larger than  503  (143 requests), where the limit of  Advantage2  is at instance  404  (100 requests). The evolution of the solvers seems to be clear, and we can expect that when the final version of the  Advantage2  QPU is launched, we will be able to solve even larger problems with greater precision. Finally, an important note is that in instances  404 ,  42  and 408  there are some solutions above the optimum value, which means that some constraints were broken in the solving process. This was likely due to insufficiently large penalty values, which highlights the importance of choosing them correctly. 
+
+## Conclusions and Further Work 
+
+In this paper we have experimentally assessed the performance of D-Wave’s three pure quantum annealers and one hybrid solver for the SIASP using two distinct formulation approaches. We have resorted to a realistic benchmark dataset and **Table 2.**  Results for the considered instances by encoding and solver. Each instance was run 5 times and the values reported are the mean \(\pm\) standard deviation of the objective function value. Marked in bold are the best-performing results for each problem instance ignoring the hybrid solver. Results marked with * are those for which an embedding was not found in at least one of the runs while the ones with no numerical values are the ones for which no embedding was found in any of the 5 attempts. Instances  404 ,  42 and  408  with the  4cam  formulation and  Advantage  QPU had some unfeasible solutions, which were removed when computing the results shown in this Table. 
+
+\begin{tabular}{l c c c c c c c c}
+\hline \hline
+ & \multicolumn{4}{c}{4cam} & \multicolumn{4}{c}{3cam} \\
+\cline{2-9}
+ID & 2000Q & Advantage & Advantage2 & HybridBQM & 2000Q & Advantage & Advantage2 & HybridBQM \\
+\hline
+8 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 \\
+15 & 0.99 \(\pm\) 0.02 & 0.90 \(\pm\) 0.13 & 0.95 \(\pm\) 0.05 & 1.0 \(\pm\) 0.0 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 \\
+20 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 \\
+25 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 \\
+30 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & **1.0 \(\pm\) 0.0** & 1.0 \(\pm\) 0.0 \\
+35 & 0.68 \(\pm\) 0.07 & 0.62 \(\pm\) 0.12 & 0.69 \(\pm\) 0.10 & 1.0 \(\pm\) 0.0 & **0.96 \(\pm\) 0.01** & 0.90 \(\pm\) 0.02 & 0.93 \(\pm\) 0.04 & 1.0 \(\pm\) 0.0 \\
+40 & 0.88 \(\pm\) 0.05 & 0.88 \(\pm\) 0.00 & 0.88 \(\pm\) 0.04 & 1.0 \(\pm\) 0.0 & 0.95 \(\pm\) 0.03 & 0.91 \(\pm\) 0.03 & **0.96 \(\pm\) 0.02** & 1.0 \(\pm\) 0.0 \\
+54 & 0.49 \(\pm\) 0.03* & 0.59 \(\pm\) 0.04 & – & 1.0 \(\pm\) 0.0 & 0.78 \(\pm\) 0.04 & 0.73 \(\pm\) 0.01 & **0.82 \(\pm\) 0.05** & 1.0 \(\pm\) 0.0 \\
+29 & – & 0.78 \(\pm\) 0.10 & – & 1.0 \(\pm\) 0.0 & **0.95 \(\pm\) 0.04** & 0.93 \(\pm\) 0.03 & 0.90 \(\pm\) 0.03 & 1.0 \(\pm\) 0.0 \\
+404 & – & 0.70 \(\pm\) 0.08 & – & 1.0 \(\pm\) 0.0 & 0.73 \(\pm\) 0.04 & 0.74 \(\pm\) 0.03 & **0.82 \(\pm\) 0.03** & 1.0 \(\pm\) 0.0 \\
+503 & – & **0.76 \(\pm\) 0.18** & – & 1.0 \(\pm\) 0.0 & 0.59 \(\pm\) 0.05* & 0.73 \(\pm\) 0.05 & – & 1.0 \(\pm\) 0.0 \\
+42 & – & **0.80 \(\pm\) 0.11** & – & 0.98 \(\pm\) 0.01 & – & 0.59 \(\pm\) 0.02 & – & 1.0 \(\pm\) 0.0 \\
+408 & – & – & – & 0.93 \(\pm\) 0.13 & – & **0.66 \(\pm\) 0.29** & – & 1.0 \(\pm\) 0.0 \\
+28 & – & – & – & 0.78 \(\pm\) 0.08 & – & **0.59 \(\pm\) 0.02*** & – & 1.0 \(\pm\) 0.0 \\
+505 & – & – & – & 0.63 \(\pm\) 0.10 & – & **0.43 \(\pm\) 0.08** & – & 1.0 \(\pm\) 0.0 \\
+412 & – & – & – & 0.82 \(\pm\) 0.05 & – & **0.34 \(\pm\) 0.13*** & – & 1.0 \(\pm\) 0.0 \\
+5 & – & – & – & 0.91 \(\pm\) 0.02 & – & – & – & 0.99 \(\pm\) 0.00 \\
+507 & – & – & – & 0.43 \(\pm\) 0.14 & – & – & – & 1.0 \(\pm\) 0.0 \\
+509 & – & – & – & 0.54 \(\pm\) 0.15 & – & – & – & 1.0 \(\pm\) 0.0 \\
+414 & – & – & – & 0.34 \(\pm\) 0.07 & – & – & – & 1.0 \(\pm\) 0.0 \\ \hline \hline
+\end{tabular}

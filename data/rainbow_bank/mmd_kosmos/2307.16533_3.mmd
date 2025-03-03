@@ -1,0 +1,25 @@
+However, the time required for the circuit in Fig. 2 is determined by the two-qubit gate times, which are determined by the relative qubit interaction frequency and strength and the measurement time, where longer measurement times may be higher fidelity. 
+
+Higher-fidelity physical operations reduce the required code distance, reducing the physical area of a logical qubit and hence the cross-section presented to potential incoming cosmic rays and shortening the hole move time. However, this reduction in code distance naturally reduces the physical distance between holes, and this tradeoff is investigated below. 
+
+### B. Software strategies 
+
+Once the hardware requirements are met, the next step is software. As mentioned earlier, the idea is to move the logical qubit far enough to prevent the CRE from destroying it. In this paper, as in our previous work [18], we only consider errors caused by cosmic rays. We assume that the code distance has been set to suppress logical state errors due to ordinary decoherence thoroughly enough that we can ignore them. 
+
+We must be able to detect a cosmic ray strike as quickly as possible. While the details of such a determination remain to be determined, we can describe the general outline. As noted earlier, CREs preferentially result in \(\ket{1}\rightarrow\ket{0}\)decay. If all of the qubits in a Z stabilizer decohere simultaneously, the syndrome qubit will still be measured as 0, indicating no error. However, the X stabilizer will result in 50/50 measurements of 0 and 1. This sudden asymmetry in syndrome values is a marker of CREs, especially if seen growing in a ring. In Fig. 5 and other places, we will designate the time at which a CRE is unequivocally detected either \(\Delta\)or Delta. 
+
+Complementing the hardware strategies above, software (including the flexible elements of error correction) can contribute to solving the problem in ways we study in several sections. The simplest solution is to use a code distance that results in physical hole separation exceeding the dissipation radius \(r_{\textrm{max}}\). However, the hole must also have a radius \(>r_{\textrm{max}}\), or the phonon front can consume a single hole. Such a large physical radius is likely impractical, so we investigate a more dynamic approach in the next section. 
+
+## IV. F LIGHT : D ETECTION AND  E SCAPE 
+
+Our proposed strategy is to _ flee the area_ : move logical qubits far enough from the strike’s epicenter to preserve our logical information. This is more easily accomplished using the 2-D surface code than other codes. In addition, as the state remains vulnerable during the move or while we maneuver other holes to allow us to move a particular hole, we must examine how well we can protect the logical qubit state in these cases. 
+
+Implementing this strategy will involve several phases. With time measured in units of the surface code cycle time \(t_{c}\), assume detection of a hit in time \(t=\Delta\)and an immediate and accurate response after that time. With phonon propagation velocity \(v_{p}\), the phonon front has advanced to a ring of radius \(r_{\Delta}=\Delta v_{p}\) before software mitigation begins. The steps above are illustrated in Figs. 4 and 5. 
+
+First, consider the unconstrained movement of a single hole. The complete sequence of events is as follows: 
+
+\(t=0\): The cosmic ray event occurs. \(t=\Delta\): The strike is detected via a combination of hardware and software. \(t=\Delta+1\): The move of the hole(s) begins. \(t=\Delta+1+d\): The move completes. \(t=\frac{r_{\textrm{max}}}{v_{p}}\): The logical data (hole) waits out the storm as the phonons dissipate. With appropriate management of resources, continuing the planned computation during the storm should be possible. 
+
+Fig. 5. The hole can flee any distance along an available rectilinear path in a fixed amount of time. Max size at \(t=r_{\textrm{max}}/v_{p}\), move begins at \(t=\Delta+1\), detection at \(t=\Delta\), event at \(t=0\). 
+
+Fig. 6. An example of multi-qubit mapping using 2-D array surface codes. In this mapping, the detection time determines the qubits’ movement order. Wherever the CRE is detected, it enables easy qubit moves and limits time steps for moving our logical qubits. 

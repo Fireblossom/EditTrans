@@ -20,3 +20,5 @@ torchmetrics==0.11.4
 tqdm==4.66.4
 transformers==4.41.2
 ujson==5.10.0
+pypandoc_binary
+pypandoc

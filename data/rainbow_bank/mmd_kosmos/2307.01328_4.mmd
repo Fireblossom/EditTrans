@@ -1,0 +1,19 @@
+Our rate explicitly accomodates for function classes of increasing complexity. If the sequence of functions has finite (albeit possibly increasing) VC dimension, then Theorem 2.6.7 of  van der Vaart and Wellner  ( 1996 ) shows that the \(v_{n}\) and \(C_{n}\) may be taken such that \(C_{n}^{1/v_{n}}\)is bounded. In this case, the complexity of the function class only affects the rate through the \(\sqrt{v_{n}}\) term, where \(v_{n}\) scales linearly with the VC dimension. 
+
+Finally, we consider the problem of kernel density estimation. In this case, the function class is the same for every \(n\in\mathbb{N}\). If the bandwidths are taken such that \(a_{n}\asymp b_{n}\), then our rate simplifies to: 
+
+−log⁡(an)⁢log(n)∨−log(an).  
+
+In contrast, Remark 2 in  Einmahl and Mason  ( 2005 ) shows that, in the iid setting, one can achieve the rate: 
+
+loglog(n)∨−log(an),  which coincides with our rate except for logarithmic factors. Note that, if we consider, as it is usually done in practice, polynomial bandwidths, i.e \(a_{n}=Cn^{-\alpha}\)for \(\alpha>0\), then our rate simplifies to \(\log(n)\), whereas ** ?** 
+
+’s collapses to \(\sqrt{\log(n)}\). 
+
+## 4.  Concluding remarks 
+
+In this paper, we introduced a maximal inequality for the uniform estimation error of a local empirical process under strongly mixing data, where uniformity holds simultaneously over the function class, bandwidth and evaluation point. Our nonasymptotic bounds accomodate function classes with increasing complexity, which is a useful feature for “high-dimensional” statistical analyses. As an application, we computed our bounds to function classes that exhibit polynomial decay in their uniform entropy. When specialized to the kernel density estimation problem, these results show that our bound leads to the same optimal rates derived by  Einmahl and Mason  ( 2005 ) in the iid setting. 
+
+More generally, we view our results as a first step in the development of rigorous uniform inference tools in local estimation problems under weak dependence and data-driven bandwidths. Specifically, one may combine our results with couplings in the weakly dependent setting (e.g. ** ?** 
+
+, 2022 ) to devise test statistics that control size uniformly over the evaluation point \(x\). An example is the construction of uniform-in\(x\) confidence bands for local polynomial quantile regression estimators with time series data. We intend to study such procedures in future research. 

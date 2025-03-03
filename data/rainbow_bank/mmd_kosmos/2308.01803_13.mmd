@@ -1,0 +1,35 @@
+Now specialise to linear utility \(\ell(x)=\ell x\) and \(h(x)=hx\), for some given (positive) constants \(\ell\)and \(h\). In this case we can derive a closed-form solution to the HJB equation in (4.10), and then derive the optimal strategy \(\nu_{*}(t)\)(in terms of \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)). Let 
+
+\[\Psi(t):=\frac{1}{N(t)}\left(he^{-\beta T}N(T)+\ell\int_{t}^{T}e^{-\beta s}N(s )ds\right).\  
+
+The following corollary classifies all possible optimal strategies (of the miner). 
+
+Corollary _ Let_ \(\ell(x)=\ell x\)_ and_ \(h(x)=hx\)_ with_ \(\ell,h>0\)_, and_ \(N(t)\)_ satisfy Assumption_ _4.1 (i). Assume that_ \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)_ satisfies the Lipschitz condition in_  (4.9) _, and that_ \(\overline{\nu}\)_ satisfies:_ 
+
+\[\overline{\nu}\int_{0}^{T}\frac{dt}{N(t)}\leqslant\frac{x}{N}\wedge\frac{N-x}{ N}.\  
+
+_Then, the following results hold:_ 
+
+_(i) Suppose_ \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)_ stays constant, i.e., for all_ \(t\in[0,T]\)_,_ \(\widetilde{P}(t)=\widetilde{P}(0)=P(0)\)\(\widetilde{P}(t)=\widetilde{P}(0)=P(0)\)_._ 
+
+_(a) If_ \(P(0)\geqslant\Psi(0)\)_, then_ \(\nu_{*}(t)=-\overline{\nu}\)_ for all_ \(0\leqslant t\leqslant T\)_._ _(b) If_ \(P(0)\leqslant\Psi(T)\)_, then_ \(\nu_{*}(t)=\overline{\nu}\)_._ _(c) If_ \(\Psi(T)<P(0)<\Psi(0)\)_, then_ \(\nu_{*}(t)=\overline{\nu}\)_ for_ \(t\leqslant t_{0}\)_, and_ \(-\overline{\nu}\)_ for_ \(t>t_{0}\)_, where_ \(t_{0}\)_is the unique point in_ \([0,T]\)_ such that_ \(P(0)=\Psi(t_{0})\)_ with_ \(\Psi(t)\)_ defined in_ _._ 
+
+_(ii) Suppose that_ 
+
+\(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)_ is increasing in_ \(t\in[0,T]\)_._ 
+
+_(a) If_ 
+
+\(P(0)\geqslant\Psi(0)\)_, then_ \(\nu_{*}(t)=-\overline{\nu}\)_ for all_ \(0\leqslant t\leqslant T\)_._ _(b) If_ \(\widetilde{P}_{\beta}(T)\leqslant\Psi(T)\)\(\widetilde{P}_{\beta}(T)\leqslant\Psi(T)\)_, then_ \(\nu_{*}(t)=\overline{\nu}\)_._ _(c) If_ \(P(0)<\Psi(0)\)_ and_ \(\widetilde{P}_{\beta}(T)>\Psi(T)\)\(\widetilde{P}_{\beta}(T)>\Psi(T)\)_, then_ \(\nu_{*}(t)=\overline{\nu}\)_ for_ \(t\leqslant t_{0}\)_, and_ \(-\overline{\nu}\)_ for_ \(t>t_{0}\)_,_ _where_ \(t_{0}\)_ is the unique point of intersection of_ \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)_ and_ \(\Psi(t)\)_ on_ \([0,T]\)_._ 
+
+_(iii) Suppose that_ 
+
+\(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)_ is decreasing in_ \(t\in[0,T]\)_._ 
+
+_(a) If_ 
+
+\(P(0)\geqslant\Psi(0)\)_, then the miner first sells, and may then buy, etc, always at full_ _capacity, according to the crossings of_ \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)_ and_ \(\Psi(t)\)_ in_ \([0,T]\)_._ _(b) If_ \(P(0)<\Psi(0)\)_, then the miner first buys, and may then sell, etc, always at full_ _capacity, according to the crossings of_ \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)_ and_ \(\Psi(t)\)_ in_ \([0,T]\)_._ 
+
+Several remarks are in order. First note that the condition in (4.12) is to guarantee the constraint (C2’) not activated prior to \(T\); that is, to exclude the possibility of monopoly/dictatorship that will trigger a forced early exit. Second, the monotone properties of \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\), which classify the three parts (i)-(iii) in the corollary naturally connect to martingale pricing: \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)being a constant in (i) makes the process \(e^{-\beta t}P(t)\)a martingale; whereas \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)increasing or decreasing, respectively in (ii) and (iii), makes \(e^{-\beta t}P(t)\)a sub-martingale or a super-martingale. On the other hand, the function \(\Psi(t)\)represents the rate of return of the miner’s utility (from holding of coins, \(x\)); and interestingly, in the linear utility case, this return rate is independent of \(x\) while decreasing in \(t\). Thus, the trading strategy is completely determined by comparing this return rate \(\Psi(t)\)with the miner’s risk-adjusted coin price \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\):  if Ψ(t)⩾(resp.<)P~β(t), then the miner will buy (resp. sell) coins. 
+
+Specifically, following (i) and (ii) of Corollary 4.3, for a constant or an increasing \(\widetilde{P}_{\beta}(t)\)\(\widetilde{P}_{\beta}(t)\)(corresponding to a risk-neutral or risk-seeking miner), there are only three possible optimal 

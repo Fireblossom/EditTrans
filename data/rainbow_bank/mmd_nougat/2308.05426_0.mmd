@@ -1,0 +1,16 @@
+# Adaptive Low Rank Adaptation of Segment Anything to Salient Object Detection 
+
+Ruikai Cui, Siyuan He, and Shi Qiu 
+
+{ruikai.cui, siyuan.he, shi.qiu}@anu.edu.au 
+
+##### Keywords:
+**Keywords:**  salient object detection · large-scale pre-trained models · 
+
+## Introduction 
+
+Foundation models [ 3 , 14 , 23 ] have received significant interests in recent years, owing to their exceptional performance across a multitude of diverse tasks These models typically consume billions of parameters, trained on expansive web-scaled datasets for fundamental tasks such as next token prediction [ 6 ] or masked region completion [ 7 ]. A particularly compelling instance of these models is the Segment-Anything Model (SAM) [ 14 ], which has been trained on an unprecedentedly vast dataset comprising 11 million images and 1 billion masks. 
+
+Despite the Segment-Anything Model’s (SAM) noteworthy proficiency in generating masks to segment real-world objects, it is deficient in the detection of salient objects. This shortcoming leads to suboptimal performance in isolating a single salient object from a given RGB image, a crucial aspect of computer vision that emphasizes the identification of the most visually striking or attention-demanding object within an image. 
+
+Traditional approaches for harnessing the capabilities of foundation models for downstream tasks generally include fine-tuning the entire model [ 11 ] or integrating additional adapter layers [ 9 ]. However, most foundation models possess 

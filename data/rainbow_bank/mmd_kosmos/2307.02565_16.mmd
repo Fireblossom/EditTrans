@@ -1,0 +1,31 @@
+It is well known that every process matrix is equivalent to a channel from the output systems of the parties to their input systems. Process functions correspond to deterministic classical examples of such channels. Therefore, what remains to be shown is that the channel from \(a’_{k}\)to \(b_{k}\) obtained when we compose the original process matrix \(W\) with the local circuit fragments involving the instruments (1) and (3), is deterministic, _ i.e._ , for every \(\vec{a^{\prime}}\)\(\vec{a^{\prime}}\)that the parties may send out to the environment through their (classical) output systems, they receive a specific \(\vec{b}\)\(1\). We have already seen that when the parties output a specific \(\vec{a}^{\prime}=\vec{a}\) (which is what the instrument (2) in our protocol does), we obtain a specific \(\vec{x}\) with probability 1. But we still have to argue that the outcome \(b_{k}\) of the L¨uders instrument (1) would be deterministic given \(\vec{a}\). This was true by construction in our procedure for replacing the original instrument of party \(S_{k}\), but it assumed fixed operations of the other parties. Although we proved that if we replace the operations of all parties the total correlation will not change, we have not shown explicitly that the supports of the states \(\rho_{\vec{a}_{\backslash k}}\) received by a given party \(S_{k}\) could not go out of the respective \(\mathcal{H}^{b_{k}}\)when we replace the operations of other parties. It is _ a priori_  conceivable that the outcome \(b_{k}\) of the L¨uders instrument (1) could become random upon such a replacement as long as all outcomes \(b_{k}\) that may occur with nonzero probability for a fixed \(\vec{a}\) produce the same \(x_{k}\) when inserted in the classical instrument (2) together with \(a_{k}\). But by construction the instrument (2) produces the outcome \(x_{k}=f’_{k}(a_{k},b_{k})\)when applied on inputs \(a_{k}\) and \(b_{k}\), and by definition the function \(f^{\prime}_{k}\)is such that for \(b_{k}\neq b^{\prime}_{k}\)there would be at least one value of \(a_{k}\) such that \(f’_{k}(a_{k},b_{k})\neq f’_{k}(a_{k},b^{\prime}_{k})\). Since the received value of \(b_{k}\) that would be plugged in instrument (2) is independent of \(a_{k}\) (since in the process matrix framework no party can signal to their own input), it is impossible for party \(S_{k}\) to receive two (or more) different values of \(b_{k}\) that would produce the same \(x_{k}\) for every choice of \(a_{k}\). Thus, the channel from \(\vec{a}^{\prime}\)to \(\vec{b}\)\(\vec{b}\)that describes the newly defined locally diagonal process must be deterministic. It is given by 
+
+\[p(\vec{b}|\vec{a}^{\prime})=\prod_{k}\delta_{b_{k},g_{k}(\vec{a} ^{\prime})}.\] (64)  
+
+This completes the proof of Theorem 4. 
+
+#### Strict inclusions 
+
+The sets of correlations we have defined admit the following inclusion relations: 
+
+\[\mathcal{DC}\subsetneq\mathcal{PC}\subsetneq\mathcal{QP} \subsetneq\mathcal{qC}.\] (65)  
+
+The strict inclusion \(\mathcal{PC}\subsetneq\mathcal{QP}\) follows from the bipartite case since quantum process correlations can violate bipartite causal inequalities [3, 18] but deterministically/probabilistically consistent correlations cannot do so in the bipartite case. Specifically, in the bipartite case, we have 
+
+\[\mathcal{DC}^{(2)}=\mathcal{PC}^{(2)}\subsetneq\mathcal{QP}^{(2)} \subsetneq\mathcal{qC}^{(2)},\] (66)  
+
+where we use the superscript to denote that these inclusion relations are specific to the bipartite case. The strict inclusion \(\mathcal{QP}^{(2)}\subsetneq\mathcal{qC}^{(2)}\)already follows from Appendix A of Ref. [16]: namely, that the binary input/output bipartite ‘Guess Your Neighbour’s Input’ (GYNI) game cannot be won perfectly by any correlation realizable via finite-dimensional process matrices. Here we adopt a different strategy to prove the strict inclusion \(\mathcal{QP}\subsetneq\mathcal{qC}\): namely, as a corollary to Theorem 4. Hence, we generalize the aforementioned unachievability of the correlation winning the GYNI game perfectly (which follows from Ref. [16]) to all deterministic noncausal correlations in the bipartite case and, indeed, all deterministic noncausal correlations unachievable by process functions in the general case. 29 29  Later (Corollary 4), we will provide examples of provably unachievable deterministic noncausal correlations in the case of tri
+
+**Corollary 1.** partite process functions: in principle, any such example can be _ The set of quantum process correlations is_ used in proving Corollary 1. _strictly contained within the set of quasi-consistent cor-_ _relations, i.e.,_ \(\mathcal{QP}\subsetneq\mathcal{qC}\)_._ 
+
+_Proof._  Since the correlations achievable with bipartite process matrices are always causal [3], it follows that bipartite process functions cannot achieve deterministic noncausal correlations, _ e.g._ , the correlation winning a bipartite GYNI game [18] perfectly, which is deterministic and noncausal. Hence, by Theorem 4, it is also impossible to achieve such deterministic noncausal correlations with a bipartite process matrix. 
+
+Indeed, _ any_  example of a deterministic noncausal correlation that cannot be achieved by a process function allows, via Theorem 4, to demonstrate the strict inclusion \(\mathcal{QP}\subsetneq\mathcal{qC}\). Examples of such correlations in the tripartite case are shown further on in Corollary 4. 
+
+We defer a formal proof of the strict inclusion \(\mathcal{DC}\subsetneq\mathcal{PC}\) until later (see Theorem 5). 
+
+#### Sufficient condition for antinomicity of vertices in any correlational scenario 
+
+We can also prove the following corollary of Theorem 4 that provides a sufficient condition for antinomicity of vertices of the correlation polytope. 
+
+**Corollary 2.** _ Any vertex associated with a signalling_ _graph that fails to satisfy the siblings-on-cycles property_ _is antinomic._ 

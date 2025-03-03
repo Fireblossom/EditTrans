@@ -1,0 +1,28 @@
+
+4. If\(f\) is bijective and there is a single Kraus operator in the channel, then the channel is a unitary transformation that consists of a permutation of basis states. 
+5. Eigenvalues of the matrix representation of thechannel \({\cal L}_{\cal E}\) are either roots of unity or zero. For the outline of a proof see appendix C. The asymptotic subspace for these channels is spanned by the right eigenvectors of \({\cal L}_{\cal E}\) with non-zero eigenvalues as these all have modulus 1. 
+6. If a collection of disjoint sets\(\{S_{j}\}\) has sets that contain more than 1 element, then a different channel can be constructed by dividing one or more sets into collections of smaller sets. The resulting channel has more right-eigenvectors or/and generalized right-eigenvectors (of \({\cal L}_{\cal E}\)) with zero eigenvalues than to its parent. (See the appendix C for how these eigenvalues and eigenvectors arise.) We give some examples. The \(D_{2a}\) channel has 5 non-zero eigenvalues. When split to become the \(D_{3}\) channel, there are two additional eigenvectors with eigenvalues of zero. The \(D_{2b}\) channel has 5 zero eigenvalues and 2 generalized eigenvectors associated with 0 eigenvalues. When split to become the \(D_{3}\) channel, the generalized eigenvectors in the \(D_{2b}\) channel become regular eigenvectors. 
+7. Each\(k\)-periodic orbit of the function \(f\), satisfying \(f^{k}(x)=x\), generates a \(k\)-periodic orbit of the channel. The orbit has initial condition \(\rho=\ket{x}\bra{x}\)and satisfies \({\cal E}^{k}(\rho)=\rho\). The states in the cycle \(\ket{f^{j}(x)}\bra{f^{j}(x)}\) for \(j\in\{0,1,...,k-1\}\) are density operators with trace of 1. The states in the cycle are orthogonal with respect to the Hilbert-Schmidt inner product. 
+8. A\(k\)-periodic orbit in \(f\) generates a fixed point of the channel that is 
+
+\[\rho_{*,k}=\frac{1}{k}\sum_{j=0}^{k-1}\ket{f^{j}(x)}\bra{f^{j}(x)}.\] (37)  
+
+This fixed point is a valid density matrix as its trace is 1 and it is a mixture of pure states. 
+9. A\(k\)-periodic orbit of the function \(f\), satisfying \(f^{k}(x)=x\), generates an invariant subspace (with respect to \({\cal E}_{S_{D},f}\)) in the space of density matrices. The invariant subspace is the set of density matrices \(S_{x}=\{\rho:\rho=\sum_{j=0}^{k-1}a_{j}\ket{f^{j}(x)}\bra{f^{j}(x)}\}\) with the set \(\{a_{j}\}\) probabilities; \(\sum_{j=0}^{k-1}a_{j}=1\). The subspace satisfies \({\cal E}_{S_{D},f}(\rho)\in S_{x}\), for any \(\rho\in S_{x}\), The set \(S_{x}\) contains the fixed point \(\rho_{*,k}\) defined in equa.  All \(\rho\in S_{x},\rho\neq\rho_{*,k}\) generate \(k\)-periodic orbits that remain within \(S_{x}\). 
+
+
+10. Each\(x\), satisfying \(f^{k}(x)=x\), generates \(k\) right eigenvectors (of \({\cal L}_{\cal E}\)) in the form 
+
+\[\rho_{m}=\frac{1}{k}\sum_{j=0}^{k}\omega^{mj}\ket{f^{j}(x)}\!\bra{f^{j}(x)},\] (38)  
+
+satisfying \({\cal E}(\rho_{m})=\omega^{-m}\rho_{m}\), with \(m\in\{0,1,...,k-1\}\) and \(\omega=e^{2\pi i/k}\). These eigenvectors have eigenvalues that are complex roots of unity. The eigenvalue of eigenvector \(\rho_{m}\) is equal to \(\omega^{-m}\). 
+
+
+11. Orbits of the channel either decay to zero, to a fixedpoint, or enter a cycle. We refer to these as endstates. This follows from the possible eigenvalues. The maximum number of iterations for the channel to achieve an end state, from any initial condition, is equal to the maximum link length \(k_{c}\) of the function \(f\) (with \(k_{c}\) defined in equation 7). For how this arises, see appendix C. 
+12. How many zero eigenvalues of\({\cal L}_{\cal E}\) are present? Let \(n_{f}=|f({\mathbb{Z}}_{N})|\) be the number of elements in the range of the function. In the matrix basis, the range of the channel is at most \(n_{f}^{2}\). This implies that there are at least \(N^{2}-n_{f}^{2}\)eigenvectors or generalized eigenvectors associated with zero eigenvalues. 
+13. If all members of a\(k\)-cycle of \(f\) are members of a subset \(S_{j}\), i. e., \(f^{m}(x)\in S_{j}\) for m=0,1,….,k−1, then the channel gives a unitary transformation of the vector subspace in \(\cal H\) generated via \(\{\ket{f^{m}(x)}\}\)with m=0,1,….,k−1. The unitary transformation is equivalent to a cyclic permutation of the basis states of this vector subspace. 
+14. For two integers in a disjoint set,\(x,y\in S_{j}\), with \(S_{j}\in S_{D}\), a single operation of the channel preserves a superposition in the subspace spanned by \(\ket{x},\ket{y}\). In other words if we take \(\ket{v}=a\ket{x}+b\ket{y}\), ( \(a,b\)complex numbers) the channel gives \({\cal E}(\ket{v}\bra{v})=\ket{w}\bra{w}\) with \(\ket{w}=a\ket{f(x)}+b\ket{f(y)}\). This is behavior is described in more detail in section III C 3 and is a necessary component of error correction channels. 
+
+## SUMMARY AND DISCUSSION 
+
+We construct a quantum channel using a function on a discrete set and the ability to reset or initialize a quantum register. The channel makes it possible to iterate a non-invertible oracle function. With oracle function a truncated version of the logistic map, we construct a quantum channel that exhibits much of the phenomenology of the logistic map, including attracting periodic orbits. The quantum channel is dephasing, so its iteration is essentially a classical operation. We used the logistic map because its computation only requires addition and 

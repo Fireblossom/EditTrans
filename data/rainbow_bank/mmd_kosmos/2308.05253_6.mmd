@@ -1,0 +1,48 @@
+theory is asymptotically free, like non-Abelian gauge theories. 
+
+As mentioned above one can try to qubitize this theory by substituting the target space (the unit sphere \(S^{2}\)) by a finite set of points equally spaced over the sphere (i.e., the vertices of Platonic solids). This approach fails, as the resulting theory does not have a continuum limit [ 9 ,  10 ,  52 ], although large finite correlation lengths can be found. This approach is the analogue of the approach taken in Refs. [ 53 ,  54 ] for \(SU(3)\)gauge theories and leads to similar results. A second approach would be to restrict the local Hilbert space at every site to functions that can be expanded in terms of spherical harmonics up to some value \(\ell\leq\ell_{\mathrm{max}}\): \(\psi(\boldsymbol{\mathbf{n}})=\sum_{\ell=0}^{\ell_{\mathrm{max}}}\psi_{\ell m} Y_{\ell m}(\boldsymbol{\mathbf{n}})\).  It was shown in Ref. [ 55 ] that the \(\sigma\)-model is recovered in the limit \(\ell_{\mathrm{max}}\rightarrow\infty\), followed by the \(g^{2}\to 0\)limit. In order to successfully approximate the theory, as one approaches the continuum limit more closely (i.e., takes smaller values of \(g^{2}\)), larger \(\ell_{\mathrm{max}}\) truncations must be taken. However, it was shown in Ref. [ 32 ] that at fixed \(\ell_{\mathrm{max}}\) the theory does not have a continuum limit. 
+
+The final \(\sigma\)-model regularization that we consider is the fuzzy qubitization, whose gauge theory generalization we have outlined in previous sections. This model was proposed in Refs. [ 39 ,  56 ] and further studied in Refs. [ 31 ,  32 ,  40 ,  57 ]. It exhibits a high degree of universality which suggests that the continuum \(\sigma\)-model can be recovered in an appropriate limit, even at finite regularization. 
+
+Here, we substitute the local Hilbert space of the \(\sigma\)-model with a Hilbert space of dimension \((2j+1)^{2}\), where \(j\) indexes irreps of \(SU(2)\): \(j=0,\frac{1}{2},1,...\). The                                             2
+elements of every local Hilbert space are \((2j+1)\times(2j+1)\)matrices. The (one-site) wave functions can be expanded as 
+
+\[\Psi=\psi_{0}\openone+\psi_{k}T_{k}+O(T^{2}),\] (37)  
+
+where \(T_{k}\) are the generators of the \(j\) irrep of \(SU(2)\). In contrast with the expansion in Eq. ( 33 ), this series terminates. \(O(3)\)rotations act as: 
+
+\[\Psi\mapsto\mathcal{R}^{\dagger}\Psi\mathcal{R}=e^{\mathrm{i}\boldsymbol{ \mathbf{\theta}}\cdot\mathcal{T}}\Psi,\] (38)  
+
+where \(\mathcal{T}_{k}=[T_{k},\bullet]\). Since the \(T_{k}\)satisfy \([T_{i},T_{j}]=\mathrm{i}\epsilon_{ijk}T_{k}\), so do \(\mathcal{T}_{k}\). The analog to the position operators are 
+
+\[\mathfrak{n}_{k}=\frac{1}{\sqrt{j(j+1)}}T_{k},\] (39)  
+
+which act via left-multiplication. Because \(\mathfrak{n}^{2}=T^{2}/4j(j+1)=\openone\), all states in the Hilbert space satisfy Eq. ( 35 ). However, whereas \([\mathbbm{n}_{i},\mathbbm{n}_{j}]=0\), the \(\mathfrak{n}_{i}\) do not commute: 
+
+\[[\mathfrak{n}_{i},\mathfrak{n}_{j}]=\frac{1}{\sqrt{j(j+1)}}\mathrm{i}\epsilon_ {ijk}\mathfrak{n}_{k}.\] (40)  
+
+The Hamiltonian is 
+
+\[\mathcal{H} ={\eta g^{2}}\sum_{x}\mathcal{T}(x)^{2}\pm\frac{\eta}{g^{2}}\sum_ {x}\mathfrak{n}(x)\cdot\mathfrak{n}(x+1)\] (41)  
+
+where the neighbor operator is chosen to act on states from the left. The construction we have given is just the well-known construction of the fuzzy sphere [ 58 ,  59 ]. In the limit \(j\rightarrow\infty\), the fuzzy \(\sigma\)-model recovers the original lattice \(\sigma\)-model. 
+
+A more relevant consideration is whether, at _ fixed_ \(j\), the fuzzy model has a continuum limit that matches the continuum \(\sigma\)-model. We focus on \(j=1/2\)in the following discussion. To study this problem let us use the basis of matrices \(\mathrm{E}_{ab}=\mathrm{e}_{a}\otimes\mathrm{e}_{b}\), with 
+
+\[\mathrm{e}_{1}=\begin{pmatrix}1\\ 0\end{pmatrix},\qquad\mathrm{e}_{2}=\begin{pmatrix}0\\ 1\end{pmatrix},\] (42)  
+
+and expand the (one-site) wave function in this basis: \(\Psi=\psi_{ab}\mathrm{E}_{ab}\). The result of acting on a state with \(\mathfrak{n}_{k}\)is 
+
+\[\mathfrak{n}_{k}\Psi=\frac{2}{\sqrt{3}}(T_{k})_{aa^{\prime}}\psi_{a^{\prime}b} \mathrm{E}_{ab},\] (43)  
+
+while the \(\mathcal{T}_{k}\) operator involves multiplication from the left and from the right 
+
+\[\mathcal{T}_{k}\Psi=[T_{k},\Psi]=\big{(}(T_{k})_{aa^{\prime}}\psi_{a^{\prime}b }-\psi_{ab^{\prime}}(T_{k})_{b^{\prime}b}\big{)}\mathrm{E}_{ab}.\] (44)  
+
+Meanwhile, since the neighbor operator \(\mathcal{V}\propto\sum_{x}\mathfrak{n}(x)\cdot\mathfrak{n}(x+1)\)involves only left multiplication, its eigenstates factorize as 
+
+\[\Psi = \ket{n}\otimes\ket{\chi}\] (45) \[= (\psi_{n})_{a_{1}\cdots a_{\mathsf{N}}}\chi_{b_{1}\cdots b_{ \mathsf{N}}}\mathrm{E}_{a_{1}b_{1}}\otimes\cdots\otimes\mathrm{E}_{a_{\mathsf{ N}}b_{\mathsf{N}}}.\]  
+
+where \(\ket{n}\)is an energy eigenstate of the spin\(1/2\)Heisenberg chain, while \(\chi_{b_{1}\cdots b_{\mathsf{N}}}\)can be any \(2^{\mathsf{N}}\)dimensional state. (Notably, this feature is not guaranteed if the neighbor operator acts by a mixture of left- and right-multiplication.) 
+
+In other words, each site \(x\) sees an “ \(a\)” (“ \(b\)”) spin acted on via left- (right-)multiplication operations. Therefore, in this basis, the one-dimensional \(j=1/2\)fuzzy chain is seen to be equivalent to the Heisenberg comb of Ref. [ 56 ], which consists of two spins\(1/2\)at every site. Specifically, the neighbor operators in \(\mathcal{V}\)couple neighboring \(a\) spins, while the kinetic operator \(\mathcal{T}(x)\cdot\mathcal{T}(x)\)couples the \(a\) and \(b\) spins at each site, but no coupling is set between neighboring \(b\) spins; this picture yields a comb structure. Moreover, we shall see that this basis is convenient for demonstrating and characterizing the continuum limit of this fuzzy model, due to its ability to build on existing knowledge of the Heisenberg chain. 

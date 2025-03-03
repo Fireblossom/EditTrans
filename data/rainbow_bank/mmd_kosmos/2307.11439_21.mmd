@@ -1,0 +1,29 @@
+\(S_{1,N}\) and \(s_{1}\), or \(S_{2,N}\) and \(s_{2}\). By the moment method, it is sufficient to show that the limit of \(\Phi_{N}\big{(}(S_{N}S_{N}^{*})^{n}\big{)}\)is the \(n\)-th moment of the expected limiting distribution, for all \(n\geqslant 1\). Since \(\mathbf{m}\) is \(\mathfrak{S}_{k}\)-circular and \(s\) is a linear combination of \(\mathbf{m}\), \(s\) is also \(\mathfrak{S}_{k}\)-circular. Hence we have for all \(n\geqslant 1\)
+
+\[\mathcal{E}\big{(}(ss^{*})^{n}) = \sum_{\xi\in\mathrm{NC}_{2}(2n)}\mathcal{K}_{\xi}(\underbrace{s,s ^{*},\ldots,s,s^{*}}_{2n}).\]  
+
+Recall that by definition of \(\mathcal{K}_{\xi}\), if \(B\) denotes the first interval block of \(\xi\), 
+
+\[\mathcal{K}_{\xi}(s,s^{*},\ldots,s,s^{*})\] \[= \left\{\begin{array}[]{cc}\mathcal{K}_{\xi\setminus B}(\dots,s \mathcal{E}\big{(}s^{*}s\big{)},s^{*},\dots),&\quad\mathrm{if\ }B=\{2i,2i+1\}, \\ \mathcal{K}_{\xi\setminus B}(\dots,s^{*}\mathcal{E}\big{(}ss^{*}\big{)},s, \dots),&\quad\mathrm{if\ }B=\{2i-1,2i\},\end{array} \right.\]  
+
+where \(\xi\setminus B\) is the partition obtained from \(\xi\) by removing the block \(B\) and shifting indices above. If \(n=0\), the formula is valid with the convention \(\mathcal{K}_{\{\varnothing\}}=\mathrm{id}\). 
+
+We now consider the first case \(s=s_{1}\). By Lemma  2.24 , we get with the same disjunction of cases as above 
+
+\[\mathcal{K}_{\xi}(s,s^{*},\ldots,s,s^{*}) = \left\{\begin{array}[]{c}(k!)^{-1}\sum_{\eta^{\prime}\in\mathfrak {S}_{k}}\mathcal{K}_{\xi\setminus B}(\dots,su_{\eta^{\prime}},s^{*},\dots) \mathrm{\ or}\\ (k!)^{-1}\sum_{\eta^{\prime}\in\mathfrak{S}_{k}}\mathcal{K}_{\xi\setminus B}( \dots,s^{*}u_{\eta^{\prime}},s,\dots)\end{array} \right.\]  
+
+If \(n\geqslant 2\), then \(\mathcal{K}_{\xi\setminus B}\) can also be written as a covariance and so by Lemma 2.24  again, the quantity in the sum is independent of \(\eta^{\prime}\), so that 
+
+\[\mathcal{K}_{\xi}(\underbrace{s,s^{*},\ldots,s,s^{*}}_{2n})=K_{ \xi\setminus B}(\underbrace{s,s^{*},\ldots,s,s^{*}}_{2n-2}).\]  
+
+By induction we hence get 
+
+\[\mathcal{E}\big{(}(ss^{*})^{n}\big{)} = |\mathrm{NC}_{2}(2n)|\times(k!)^{-1}\sum_{\eta^{\prime}\in \mathfrak{S}_{k}}u_{\eta^{\prime}}.\]  
+
+Finally, since \(\phi(u_{\eta})=0\)when \(\eta\neq\mathrm{id}\)and \(\phi(u_{\mathrm{id}})=1\), we get 
+
+\[\phi\big{(}(ss^{*})^{n}\big{)} = |\mathrm{NC}_{2}(2n)|\times(k!)^{-1}.\]  
+
+We recognize the moments of a random variable which is zero with probability \((1-k!^{-1})\), and equal to a Marˇchenko-Pastur distribution otherwise. Hence we have proved that the \(n\)-th moment of the empirical singular-values distribution of \(S_{N}S_{N}^{*}\)converges to the \(n\)-th moment of such a random variables. Since these moments characterize the distribution, we have proved the first item of the proposition. 
+
+The second item is similar using the fact that \[(S_{N}^{\prime})^{n}=\sum_{\varepsilon_{1},\ldots,\varepsilon_{n} \in\{1,*\}} \ (S_{N}^{\prime})^{\varepsilon_{1}}\cdots(S_{N}^{\prime})^{\varepsilon_{n}}.\]  

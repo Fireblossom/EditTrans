@@ -1,0 +1,29 @@
+# Verification of Quantum Systems using Barrier Certificates 
+
+### Hadamard Operation Example The evolution of the Hadamard operation, \(H=\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\ 1&-1\end{pmatrix}\), is given by  \(\hat{H}_{H}=\begin{pmatrix}1&1\\ 1&-1\end{pmatrix}\)\(\hat{H}_{H}=\begin{pmatrix}1&1\\ 1&-1\end{pmatrix}\)and \(\ket{\varphi}\)is one qubit, \(z_{0}\ket{0}+z_{1}\ket{1}\). We have \(z(t)=\begin{pmatrix}z_{0}(t)\\ z_{1}(t)\end{pmatrix}\)and 
+
+\[\dot{z}=-{\mathrm{i}}\hat{H}_{H}z=-{\mathrm{i}}\begin{pmatrix}z_{0}+z_{1}\\ z_{0}-z_{1}\end{pmatrix}.\]  \[\dot{z}=-{\mathrm{i}}\hat{H}_{H}z=-{\mathrm{i}}\begin{pmatrix}z_{0}+z_{1}\\ z_{0}-z_{1}\end{pmatrix}.\]  
+
+The system evolves over the surface of the unit sphere, \(Z=\{(z_{0},z_{1})\in\mathbb{C}^{2}:\left\lvert z_{0}\right\rvert^{2}+\left \lvert z_{1}\right\rvert^{2}=1\}\). The initial set is defined as \(Z_{0}=\{(z_{0},z_{1})\in Z:\left\lvert z_{0}\right\rvert^{2}\geq 0.9\}\)and the unsafe set as \(Z_{u}=\{(z_{0},z_{1})\in Z:\left\lvert z_{0}\right\rvert^{2}\leq 0.1\}\). Note that the definitions of \(Z_{0}\) and \(Z_{u}\) are restricted by \(Z\), therefore \(\left\lvert z_{1}\right\rvert^{2}\leq 0.1\)and \(\left\lvert z_{1}\right\rvert^{2}\geq 0.9\)for \(Z_{0}\)and \(Z_{u}\) respectively. A barrier function computed by our Algorithm 1 is 
+
+\[B(z)=\frac{11}{5}-3z_{0}\overline{z_{0}}-z_{0}\overline{z_{1}}-\overline{z_{0} }z_{1}-z_{1}\overline{z_{1}}.\]  
+
+By rearranging and using properties of the complex conjugate, we find that 
+
+\[B(z)=2(\frac{1}{10}-\left\lvert z_{0}\right\rvert^{2}+\frac{1}{2}-\Re{z_{0} \overline{z_{1}}}).\]  
+
+The derivation is given in Appendix C. The first term of the barrier ( \(\frac{1}{10}-\left\lvert z_{0}\right\rvert^{2}\)) acts as a restriction on how close to \(\ket{0}\)as \(\ket{\varphi}\)evolves, whereas the second term ( \(\frac{1}{2}-\Re{z_{0}\overline{z_{1}}}\)) is a restriction on the phase of the quantum state. Next, we double check that \(B\) is indeed a barrier certificate. 
+
+**Proposition 2.** _ The system evolving according to Equation_  (5.1) _, initial set_ \(Z_{0}\)_and unsafe set_ \(Z_{u}\)_ is safe._ 
+
+The proposition is proved in Appendix D. A visualisation on a Bloch sphere representation of the example system and its associate barrier are given in Figure 2. 
+
+### Phase Operation Example The evolution of the phase operation \(S=\begin{pmatrix}1&0\\ 0&{\mathrm{i}}\end{pmatrix}\)is given by the Hamiltonian \(\hat{H}_{S}=\begin{pmatrix}1&0\\ 0&-1\end{pmatrix}\)\(\hat{H}_{S}=\begin{pmatrix}1&0\\ 0&-1\end{pmatrix}\)for a single qubit \(z_{0}\ket{0}+z_{1}\ket{1}\). Thus, the evolution of the system for \(z(t)=\begin{pmatrix}z_{0}(t)\\ z_{1}(t)\end{pmatrix}\)
+
+is 
+
+\[\dot{z}=-{\mathrm{i}}\begin{pmatrix}z_{0}\\ -z_{1}\end{pmatrix}.\] (15)  \[\dot{z}=-{\mathrm{i}}\begin{pmatrix}z_{0}\\ -z_{1}\end{pmatrix}.\] (15)  
+
+Again, \(Z\) represents the unit sphere as described previously. Two pairs of safe and unsafe regions are given. The first pair \(Z_{1}=(Z^{1}_{0},Z^{1}_{u})\)is given by 
+
+\[Z^{1}_{0}=\{(z_{0},z_{1})\in Z:\left\lvert z_{0}\right\rvert^{2} \geq 0.9\}, Z^{1}_{u}=\{(z_{0},z_{1})\in Z:\left\lvert z_{1}\right\rvert^{2} >0.11\};\]  

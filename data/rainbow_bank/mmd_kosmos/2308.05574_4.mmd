@@ -1,0 +1,149 @@
+Table 3: BLEU score for 4 language pair model 1. The rows are the source language and the columns are the target language. Cells in bold represent the translation directions used in training 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">kn</th>
+<th style="text-align: center;">ml</th>
+<th style="text-align: center;">te</th>
+<th style="text-align: center;">ta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">kn</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**7.7**</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">0.8</td>
+</tr>
+<tr>
+<td style="text-align: center;">ml</td>
+<td style="text-align: center;">**8.9**</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">5.7</td>
+<td style="text-align: center;">0.6</td>
+</tr>
+<tr>
+<td style="text-align: center;">te</td>
+<td style="text-align: center;">0.5</td>
+<td style="text-align: center;">3.2</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**7.4**</td>
+</tr>
+<tr>
+<td style="text-align: center;">ta</td>
+<td style="text-align: center;">5.8</td>
+<td style="text-align: center;">4.9</td>
+<td style="text-align: center;">**7.4**</td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+
+
+Table 4: BLEU score for 4 language pair model 2. The rows are the source language and the columns are the target language. Cells in bold represent the translation directions used in training 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">kn</th>
+<th style="text-align: center;">ml</th>
+<th style="text-align: center;">te</th>
+<th style="text-align: center;">ta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">kn</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**7.4**</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;">0.5</td>
+</tr>
+<tr>
+<td style="text-align: center;">ml</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**7.0**</td>
+<td style="text-align: center;">0.4</td>
+</tr>
+<tr>
+<td style="text-align: center;">te</td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;">4.7</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**7.1**</td>
+</tr>
+<tr>
+<td style="text-align: center;">ta</td>
+<td style="text-align: center;">**8.9**</td>
+<td style="text-align: center;">4.5</td>
+<td style="text-align: center;">0.6</td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+
+
+Table 5: BLEU score for 4 language pair model 3. The rows are the source language and the columns are the target language. Cells in bold represent the translation directions used in training 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">kn</th>
+<th style="text-align: center;">ml</th>
+<th style="text-align: center;">te</th>
+<th style="text-align: center;">ta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">kn</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**6.5**</td>
+<td style="text-align: center;">4.5</td>
+<td style="text-align: center;">0.8</td>
+</tr>
+<tr>
+<td style="text-align: center;">ml</td>
+<td style="text-align: center;">6.8</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**6.4**</td>
+<td style="text-align: center;">5.5</td>
+</tr>
+<tr>
+<td style="text-align: center;">te</td>
+<td style="text-align: center;">0.7</td>
+<td style="text-align: center;">2.4</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">**6.6**</td>
+</tr>
+<tr>
+<td style="text-align: center;">ta</td>
+<td style="text-align: center;">**8.1**</td>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: center;">4.5</td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+
+
+### 4 language pairs 
+
+A single encoder-decoder model is trained on 4 language pairs. We run experiments with 3 types of language pair combinations: 
+
+
+* ** Model 1** : 2 unique language pairs in forward and reverse direction: kn \(\leftrightarrow\)ml,te \(\leftrightarrow\)ta. Results documented in Table 3 
+* ** Model 2** : 4 unique language pairs: kn \(\rightarrow\)ml, ml \(\rightarrow\)te, te \(\rightarrow\)ta, ta \(\rightarrow\)kn. Results documented in Table 4 
+* ** Model 3** : 4 unique language pairs with VOLT: kn \(\rightarrow\)ml, ml \(\rightarrow\)te, te \(\rightarrow\)ta, ta \(\rightarrow\)kn. Results documented in Table 5 
+
+Both techniques expose the model to 1/3 of the total translation directions during training but the first technique is built to test model performance in very low resource conditions; when there are only 2 sources of parallel corpora available. In comparison, the second model is exposed to 1/3 of the total translation directions with each source-target language combination being unique. We ensure that in every model, both the encoder and decoder see each language atleast once during training. We observe that BLEU score for zero-shot translation lags by 5.03 on average compared to the performance of trained language pairs when we train on both directions of 2 language pairs only. In comparison, the zero-shot translation BLEU score lags by 5.98 BLEU on average for the model trained on 4 unique language pairs. The BLEU score for trained translation directions is always in the 6-8 BLEU range. The 4 language pair model trained with VOLT outperforms both the 32000 vocabulary models in zero-shot translation performance with zero shot scores lagging by 3.53 on average from the trained directions. 
+
+### 6 language pairs 
+
+2 additional language pairs are added to the 4 unique language pairs of model 2 and a transformer model is trained on all 6 language pairs. The model now sees 1/2 of all possible translation directions during training. Table 6 shows the results obtained from the 6 language pair model. We observe that zero-shot translation performance increases drastically. Zero-shot directions now lag by 1.76 BLEU to the trained translation directions. 

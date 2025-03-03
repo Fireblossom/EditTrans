@@ -1,0 +1,15 @@
+difference in belief between the cutoff belief for the first-best and the cutoff in any MPE). Changing \(\lambda\) scales the noncooperative game and the first-best solution identically and hence also has no impact on efficiency. 
+
+More notably, the efficiency condition is independent of \(R_{w}\) and \(\pi_{w}\); that is, the condition for efficiency does not depend on what the winner receives. To understand this, consider an incremental increase in \(R_{w}\) or \(\pi_{w}\), fixing \(R_{l}\) and \(\pi_{l}\). Any incremental increase induces agents in the noncooperative game to experiment more but also induces more experimentation in the social planner problem. To understand why this does not affect the efficiency implications, consider the best-response problem of agent \(i\). For agent \(i\), the cumulative effort of other agents \(K_{-i}\) brings about a “loss” event at a rate of \(\lambda K_{-i}\), but agent \(i\) has no agency over the effort of the other agents. Instead, the effort choice for agent \(i\) weighs the relative benefit of winning versus the status quo project (and in fact, \(b_{I}\) and \(c_{I}\) have no \(R_{l},\pi_{l}\)dependence). Hence, in the noncooperative game, agents are intuitively already trading off the relative benefits of winning versus the status quo in an efficient manner; however, they do not properly account for the externalities induced by their research effort on other players. Thus, the source of any potential inefficiency is the extent to which the externalities harm or help the other agents. 
+
+The next subsection outlines the technical steps to prove Theorem 2. A reader less concerned with these details may skip the next subsection and proceed to Section 5. 
+
+### Best Response Problem 
+
+Since I am interested in Markov perfect equilibria, I start by considering the best response problem of a single agent reacting to a given profile of Markov strategies of the other agents. That is, suppose that the strategies of all other agents are exogenously fixed at \(\{\sigma_{j}\}_{j\neq i}\). The cumulative effort of the other agents at some belief \(p\) is \(K_{-i}(p)=\sum_{j\neq i}\sigma_{j}(p)\), which is also left-continuous and finite piecewise Lipschitz by assumption. Using standard arguments, I derive the HJB equation characterizing best-response \(k_{i}\) given the function \(K_{-i}(p)\). Let \(u(\cdot)\)denote the value function of agent \(i\)’s best-response Markov decision process. Then the HJB equation characterizing \(u\) is given by 
+
+\[u(p)=\pi_{s}+K_{-i}(p)\left(p\lambda R_{l}+b_{I}(p,u,u^{\prime})-p\frac{ \lambda}{r}(\pi_{w}-\pi_{l})\right)+\max_{k_{i}}\left[k_{i}\left(b_{I}(p,u,u^{ \prime})-c_{I}(p)\right)\right],\] (5)  
+
+where 
+
+\[b_{I}(p,u,u^{\prime})=p\frac{\lambda}{r}(\pi_{w}-u(p)-(1-p)u^{\prime}(p)),\] (6)  

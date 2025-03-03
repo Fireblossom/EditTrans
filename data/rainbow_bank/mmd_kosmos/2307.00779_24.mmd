@@ -1,0 +1,19 @@
+## Motivating Examples Revisited 
+
+In this section, we apply the results in Sections 3-5 to the examples introduced in Section 2. 
+
+### Partial Identification of Treatment Effects 
+
+In addition to characterizing \(\Theta(\delta)\)introduced in Section 2, we also study the identified set for \(\theta_{Do}=\mathbb{E}_{o}[f(Y_{1},Y_{2})]\)without using the covariate information: \[\Theta_{\mathrm{D}}(\delta):=\left\{\int_{\mathcal{Y}_{1}\times\mathcal{Y}_{2} }f(y_{1},y_{2})\,d\gamma(y_{1},y_{2}):\gamma\in\Sigma_{\mathrm{D}}(\delta) \right\},\]  where 
+
+\[\Sigma_{\mathrm{D}}(\delta)=\left\{\gamma\in\mathcal{P}(\mathcal{ Y}_{1}\times\mathcal{Y}_{2}):\boldsymbol{K}_{Y_{1}}(\mu_{Y_{1}},\gamma_{1}) \leq\delta_{1},\boldsymbol{K}_{Y_{1}}(\mu_{Y_{2}},\gamma_{2})\leq\delta_{2}\right\}\]  
+
+in which \(\boldsymbol{K}_{Y_{1}}\) and \(\boldsymbol{K}_{Y_{2}}\) are the optimal transport costs associated with cost functions \(c_{Y_{1}}\) and \(c_{Y_{2}}\), respectively. 
+
+#### Characterization of the Identified Sets 
+
+When \(f\) is continuous and conditions in Proposition  4.1  are satisfied, the identified sets \(\Theta_{\mathrm{D}}(\delta)\)and \(\Theta(\delta)\)are both closed intervals with upper limits given by W-DMR for non-overlapping and overlapping marginals respectively. This allows us to apply our duality results in Section 3 to evaluate and compare \(\Theta_{\mathrm{D}}(\delta)\)and \(\Theta(\delta)\). 
+
+Let \(\mathcal{I}_{\mathrm{D}}(\delta)\)and \(\mathcal{I}(\delta)\)denote the upper bounds of \(\Theta_{\mathrm{D}}(\delta)\)and \(\Theta(\delta)\), respectively, where \[\mathcal{I}_{\mathrm{D}}(\delta)=\sup_{\gamma\in\Sigma_{\mathrm{D}}(\delta)} \int_{\mathcal{Y}_{1}\times\mathcal{Y}_{2}}f(y_{1},y_{2})\,d\gamma(y_{1},y_{2} )\text{ and }\mathcal{I}(\delta)=\sup_{\gamma\in\Sigma(\delta)}\int_{\mathcal{ S}}f(y_{1},y_{2})\,d\gamma(y_{1},y_{2},x).\]  Proposition  4.1  establishes robust versions of existing results on the identified sets of treatment effects under Assumption  2.4 , see Fan et al. ( 2017 ). Sensitivity to deviations from Assumption  2.4 can be examined via \(\Theta_{\mathrm{D}}(\delta)\)and \(\Theta(\delta)\)by varying \(\delta\). For example, when \(f\) satisfies assumptions in Theorems  5.1  and  5.2 , \(\mathcal{I}(\delta)\)and \(\mathcal{I}_{\mathrm{D}}(\delta)\)are continuous on \(\mathbb{R}_{+}^{2}\). As a result, \[\lim_{\delta\to 0}\mathcal{I}(\delta)=\mathcal{I}(0)\quad\text{and} \quad\lim_{\delta\to 0}\mathcal{I}_{\mathrm{D}}(\delta)=\mathcal{I}_{ \mathrm{D}}(0).\]  
+
+For a general function \(f\), the lower and upper limits of the identified sets \(\Theta_{\mathrm{D}}(\delta)\)and \(\Theta(\delta)\)need to be computed numerically. When \(f\) is additively separable, we show that duality results in Section 3 simplify the evaluation of \(\Theta_{D}(\delta)\)and \(\Theta(\delta)\). Since the lower bounds of \(\Theta_{D}(\delta)\)and \(\Theta(\delta)\)can be computed in a similar way by applying duality to \(-f(y_{1},y_{2})\), we omit details for the lower bounds. 

@@ -1,0 +1,33 @@
+of interaction will typically lead to homogeneous wellmixed systems, or to some condensation into a dense phase where agents are well-mixed, but since frustration is not implemented in the microscopic rules, we reasonably expect stationary states. 
+* peers and/or avoid agents of the other type in their surroundings. One should then expect a complete phase separation into two domains, one displaying a majority of \(A\)s and, the other, a majority of \(B\)s. Whether the \(A-B\) phase separation additionally displays some condensation depends on the self-affinity of each agent type. 
+* \(A\) settles with \(A\)but wants to avoid \(B\) agents, while \(B\) agents would like to gather and settle close to \(A\). In this situation, we may expect non stationary patterns, stemming from the fact that all agents cannot be satisfied at the same time. 
+
+With this last situation in mind, we have considered the following utility functions ( \(u_{A}\) for \(A\) agents and \(u_{B}\) for \(B\)agents): 
+
+\[u_{A}(x,[\varphi_{A,B}]) =-|\varphi_{A}(x)-\rho^{\star}|^{2}+c_{1}\varphi_{B}(x)\] (40) \[u_{B}(x,[\varphi_{A,B}]) =-|\varphi_{A}(x)-\rho^{\star}|^{2}+c_{2}\varphi_{B}(x),\] (41)  
+
+where \(c_{1}<0\) translates the fact that \(A\)s are fleeing from \(B\), and \(c_{2}>0\) translates the fact that \(B\)s have a tendency to gather with \(B\)s. The term \(-|\varphi_{A}-\rho^{\star}|^{2}\)\(-|\varphi_{A}-\rho^{\star}|^{2}\)enjoins both populations to settle among \(A\)populated areas. Of course, the specific shape of utilities taken here may be restrictive and can be easily generalized. 
+
+The extension of the mean-field dynamics to this two population problem is rather straightforward. Writing \(\rho_{A}(x,t)\)(resp. \(\rho_{B}(x,t)\)) the density of agents \(A\) (resp. \(B\)) at location \(x\) and time \(t\), and denoting the total density by \(\rho(x,t)\equiv\rho_{A}(x,t)+\rho_{B}(x,t)\), we now have an evolution equation of the form 
+
+\[\partial_{t}\rho_{A}(x,t) =[1-\rho(x,t)]\int\rho_{A}(y,t)w_{{\mathit{\oldGamma}}_{A}}([ \varphi_{A,B}],y,x,t)\,\mathrm{d}y\] (42) \[-\rho_{A}(x,t)\int[1-\rho(y,t)]w_{{\mathit{\oldGamma}}_{A}}([ \varphi_{A,B}],x,y,t)\,\mathrm{d}y,\]  
+
+and, by symmetry, a similar equation for \(B\). The transition rates depend on the utility function of each agent type and are _ a priori_  agent specific. Denoting \(u_{Z}(x)\equiv u_{Z}(x,[\varphi_{A,B}])\)(with \(Z=A\) or \(B\)), we set 
+
+\[w_{{\mathit{\oldGamma}}_{Z}}([\varphi_{A,B}],y,x,t)=\omega_{Z}f_ {{\mathit{\oldGamma}}_{Z}}[u_{Z}(x)-u_{Z}(y)],\] (43)  
+
+where \(\omega_{Z}\) and \({\mathit{\oldGamma}}_{Z}\) can be agent dependent. 
+
+FIG. 7. Snapshots of the system for two frustrated interaction parameter choices. (a) Stationary demixing in a region where LSA presents complex eigenvalues. The agent \(A\) phase still contains some \(B\) agents. Parameters: \(c_{1}=-2\), \(c_{2}=1\), \(\sigma=3\), \(\bar{\rho}_{A}=0.2\)\(\bar{\rho}_{A}=0.2\), \(\bar{\rho}_{B}=0.5\)\(\bar{\rho}_{B}=0.5\), \({\mathit{\oldGamma}}=10\). (b) Chaotic propagation of polarized blobs in a region where LSA presents pure real eigenvalues (null imaginary part). Parameters: \(c_{1}=-2\), \(c_{2}=0.5\), \(\sigma=7\), \(\bar{\rho}_{A}=0.6\)\(\bar{\rho}_{A}=0.6\), \(\bar{\rho}_{B}=0.2\)\(\bar{\rho}_{B}=0.2\), \({\mathit{\oldGamma}}=100\). For both (a) and (b), \(L_{x}=L_{y}=300\). Movies are available online [65]. 
+
+In App. G, we perform the linear stability analysis of the homogeneous state. As expected, in the frustrated twopopulation system, unstable modes can display temporal oscillations. However, these oscillations may stop when nonlinear terms become relevant, and the system may end up in a stationary phase separation (similar to classical demixing 
+
+in equilibrium systems), as displayed in Fig. 7(a). Reciprocally, non-oscillating growing modes at the linear level may give rise to propagating structures and waves when nonlinearities become important, as shown in Fig. 7(b) (see Supplementary Material in [65]). In our system, and at odds with recent work [63, 64], the oscillatory nature of the non-homogeneous steady state cannot be predicted from a simple linear stability analysis about the homogeneous solution. 
+
+A thorough analysis of the emerging behaviors in the multipopulation system would require more work, beyond the scope of the present paper. Still, it is remarkable that, here as well, the linear stability analysis in the case of local jumps yields exactly the same instability conditions as the nonlocal dynamics ones (see results of Appendices G and H). As a consequence, we expect that some results of the recent works [63, 64] should be relevant, to some extent, to describe our multi-population system. 
+
+### Housing market 
+
+A common and reasonable criticism of the kind of model developed here is that, while the perceived density may be a significant factor in the decision making process of agents, the price of a house should also necessarily be taken into account. Indeed, in classical economics, the market is usually considered to be the mechanism through which the optimal allocation of goods and assets occurs (despite some contradicting empirical evidence e.g. [66]). As a result, one could rightfully argue that a housing market is necessary to ensure that agents eventually reach a steady state where their utility is maximal, at odds with what we have observed in the condensed phase. 
+
+Incorporating pricing in the model is not trivial, however, and there are a number of ways in which this could be done. A common approach in the modeling of socioeconomic systems is to introduce an agent-dependent budget and to constrain agents’ moves based on such budget, as done in [67] for 

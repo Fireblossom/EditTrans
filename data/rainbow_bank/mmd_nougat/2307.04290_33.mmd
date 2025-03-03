@@ -1,0 +1,17 @@
+exact in the large$m$ limit. 
+
+An important question is how many rotation gates of the form $e^{i H_j t/m}$are needed to perform time evolution up to time $t$ with error $\epsilon$ (in the trace distance), which we denote $N_{\textrm{gates}}(t,\epsilon)$. This question has been studied in detail. For the first-order Trotter formula the number of required gates is $N_{\textrm{gates, 1}}(t,\epsilon) = \mathcal{O}(t^2/\epsilon)$ while for the second-order formula 24 $N_{\textrm{gates, 2}}(t,\epsilon) = \mathcal{O}(t^{1.5}/\sqrt{\epsilon})$. For a comparison of $N_{\mathrm{gates}}(t, \epsilon)$ for different simulation methods, see Ref. 25. 
+
+Having discussed Trotterization for general Hamiltonians, we now consider the specific case of H $_2$, taking the first-order Trotter expansion. Here we approximate $U(t)$ by 
+
+\begin{equation}     U(t) \approx \Big( e^{i Z c_1 t/m} e^{i X c_2 t/m} \Big)^m, \end{equation}
+
+so that each term is a Pauli rotation gate. In particular, the Pauli-Z rotation is defined $R_Z(\theta) = e^{-i Z \theta/2}$, and the Pauli-X rotation is $R_X(\theta) = e^{-i X \theta/2}$. Thus we have 
+
+\begin{equation}     U(t) \approx \biggl[ \, R_Z \biggl( \frac{- 2 c_1 t}{m} \biggr) R_X \biggl( \frac{- 2 c_2 t}{m} \biggr) \, \biggr]^m. \end{equation}
+
+Lastly, note from Fig. 4 that the $U$ operators must each be controlled on an ancilla qubit. The circuit diagram for the controlled$U$ operation is shown in Figure 5. 
+
+$\approx$
+
+### Qubitisation Figure 5: First-order Trotter approximation to the controlled time evolution operator, for H $_2$in a minimal basis. The Trotter expansion is repeated for $m$ steps, with the approximation becoming more accurate with larger $m$. 

@@ -1,0 +1,25 @@
+_(i) The entangled two-qubit state_ \(\varrho_{AB}\)_ is compatible with a PT-moment vector_ \(\boldsymbol{p}^{(4)}\)_if_ _and only if_ 
+
+\[F(p_{2},p_{3})<p_{4}\leqslant F^{+}(p_{2},p_{3}),\quad\forall(p_ {2},p_{3})\in\mathcal{A}.\  
+
+_(ii) The separable two-qubit state_ \(\varrho_{AB}\)_ is compatible with a PT-moment vector_ \(\boldsymbol{p}^{(4)}\)_if and only if_ 
+
+\[F^{-}(p_{2},p_{3})\leqslant p_{4}\leqslant F(p_{2},p_{3}),\quad \forall(p_{2},p_{3})\in\mathcal{A}.\  
+
+_Proof._  According to Theorem  3.2 , it is equivalent to proving any two-qubit state \(\varrho_{AB}\) is entangled if and only if the following inequality holds: 
+
+\[p_{4}>F(p_{2},p_{3}),\  
+
+where \(F(p_{2},p_{3}):=\frac{3p^{2}_{2}-6p_{2}+8p_{3}+1}{6}\). This follows directly from the fact that 
+
+\[\operatorname{det}(\varrho^{\Gamma}_{AB})=\frac{3p^{2}_{2}-6p_{2} +8p_{3}-6p_{4}+1}{4!}.\  
+
+It follows from [ 0 ,  0 ] that \(\varrho_{AB}\)is entangled if and only if \(\operatorname{det}(\varrho^{\Gamma}_{AB})<0\).  It follows that \(3p^{2}_{2}-6p_{2}+8p_{3}-6p_{4}+1<0\), and equivalently Eq. holds. This completes the proof. 
+
+According to Proposition  3.4 , we identify the dividing surface represented by \(p_{4}=F(p_{2},p_{3})\)which separates the whole 3D region of all two-qubit states into two parts corresponding to separable states and entangled states respectively. 
+
+## Calculating procedure with examples 
+
+According to the above discussion, we can list the calculating procedure of \(F^{+/-}(p_{2},p_{3})\) (corresponding to \(p^{\max/\min}_{4}\)) for \((p_{2},p_{3})\in\mathcal{A}\). 
+
+**Algorithm 1:** **Input:**  ( _p_ 2 , _ p_ 3 ) _ ∈A_ **Output:** _ p_ max / min 4 **1**  choose randomly  ( _p_ 2 , _ p_ 3 ) _ ∈A_ ; **2**  calculate _ s_ max / min _ ≡_ _s_ max / min ( _p_ 2 , _ p_ 3 )  via Eqs. ( 2.10 )/( 2.11 ); **3**  calculate _ M_ ( _p_ 2 , _ p_ 3 ) / _m_ ( _p_ 2 , _ p_ 3 )  via Eqs. ( 3.7 )/( 3.8 ); **4**  calculate _ F_ _±_ ( _p_ 2 , _ p_ 3 )  via Eqs. ( 3.3 )/( 3.4 ); **5**  Output _ p_ max 4 = _ F_ + ( _p_ 2 , _ p_ 3 )  and _ p_ min 4 = _ F_ _−_ ( _p_ 2 , _ p_ 3 ) .  The max/min value of \(p_{4}\)

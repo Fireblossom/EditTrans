@@ -1,0 +1,37 @@
+cidate the impacts of a common phonon mode on the qubit and the photon dynamics. The state of the hybrid system is expressed with the Davydov D ₂and derived using the time-dependent variational principle. By tuning the external driving field amplitudes and phases, the left and right qubit dynamics show distinct patterns of the LZ transitions. Additionally, the presence of the photon tunnelling allows the photons to hop between the left and right qubits. Thereafter, low frequency phonons and qubit-phonon coupling will be introduced to the Rabi Dimer system to emulate environmental effects in the Rabi dimer system. 
+
+The remainder of this paper is structured as follows Sec. II we present our methodology, including the system Hamiltonian, the Multi D ₂_ Ansatz_ , and the timedependent variational principle. In Sec. III, results and discussions will be given. Finally, conclusions are drawn in Sec. IV. 
+
+## METHODOLOGY 
+
+### Hamiltonian of the hybrid QED device 
+
+FIG. 1. A sketch of the hybrid QED system under study. Photons can hop between two transmission-line resonators with a tunneling rate of \(J\). Driven by an external field, the left (right) qubit is coupled to the photon mode in the left(right) resonator with a coupling strength \(g\). Both left and right qubits are coupled to a common phonon mode with a coupling strength \(\alpha\). 
+
+As illustrated in Fig. 1, the hybrid circuit QED system explored in the current work comprises of two coupled transmission-line resonators each interacting with a qubit, and the qubits are modulated via external driving fields and coupled to a micromechanical resonator. The two transmission-line resonators coupled with qubits are modelled by a Rabi dimer Hamiltonian ( \(\hbar=1\)) 
+
+\[H_{\textrm{RD}}=H^{\textrm{Rabi}}_{\textrm{L}}+H^{\textrm{Rabi}}_{\textrm{R}}- J(a_{\textrm{L}}^{\dagger}a_{\textrm{R}}+a_{\textrm{R}}^{\dagger}a_{\textrm{L} }),\] (1)  
+
+where \(H_{\textrm{L}/\textrm{R}}^{\textrm{Rabi}}\)is a Rabi Hamiltonian describing the left (L) or right (R) resonator coupled to a qubit, and \(J\)refers to the tunnelling rate for photons hopping between the two resonators. Specifically, the Rabi Hamiltonian, [44–47] 
+
+\[H_{i=\textrm{L},\textrm{R}}^{\textrm{Rabi}}=\frac{F_{i}}{2}\cos(\Omega_{i}t+ \Phi_{i})\sigma_{z}^{i}+\omega_{i}a_{i}^{\dagger}a_{i}-g_{i}(a_{i}^{\dagger}+a _{i})\sigma_{x}^{i},\] (2)  
+
+presents a driven qubit coupled to a photon mode at frequency \(\omega_{i}\) with a strength of \(g_{i}\) in the \(i\)th ( \(i=\textrm{L},\textrm{R}\)) resonator. The external harmonic driving field imposed to the \(i\)th qubit is characterized by an amplitude \(F_{i}\), a frequency \(\Omega_{i}\)and an initial phase \(\Phi_{i}\). Here \(\sigma_{x}^{i}\)and \(\sigma_{z}^{i}\)are Pauli matrices and \(a_{i}\)( \(a_{i}^{\dagger}\)) is the annihilation (creation) operator of the \(i\)th photon mode. Throughout this work, it is assumed that the two photon modes have the same frequencies \(\omega_{\textrm{L}}=\omega_{\textrm{R}}=\omega_{r}\), and the qubitphoton coupling strengths in two resonators are also the same, \(g_{\textrm{L}}=g_{\textrm{R}}=g\). 
+
+The micromechanical resonator is modelled by a single phonon mode 
+
+\[H_{\textrm{ph}}=\omega_{\textrm{ph}}b^{\dagger}b\] (3)  
+
+with a frequency of \(\omega_{\textrm{ph}}\) and a creation (annihilation) operator \(b^{\dagger}\)( \(b\)). The interaction between the micromechanical resonator and the two qubits is then expressed as 
+
+\[H_{\textrm{ph-q}}=\alpha(b^{\dagger}+b)(\sigma_{z}^{\textrm{L}}+\sigma_{z}^{ \textrm{R}}),\] (4)  
+
+where \(\alpha\) stands for the qubit-phonon coupling strength. Combining the Hamiltonians for the Rabi dimer, the phonon mode, and the qubit-phonon interaction yields the total Hamiltonian for the hybrid system 
+
+\[H=H_{\textrm{RD}}+H_{\textrm{ph}}+H_{\textrm{q-ph}}.\] (5)  
+
+Considering the low working temperatures of the modelled QED device, the micromechanical resonator in the system is thermally inactive and thus the temperature is set to zero in this work. Nevertheless, we still would like to comment that quantum dynamics at finite temperatures is also readily accessible within the undermentioned framework via the integration of methodologies, such as the Monte Carlo importance sampling method [48], the thermal field method [49] and the method of displaced number states [50, 51] 
+
+### The multiple Davydov D ₂
+
+To unveil the role of the phonon mode and driving fields in manipulating the photon and qubit states, we need a method which can explicitly depict all the DOFs for the qubits, the photon and phonon modes. Density matrix-based approaches are, therefore, inadequate for this purpose, as only the dynamics of the electronic DOFs are resolved after tracing out the bosonic DOFs. In contrast, the multiple Davydov D ₂ (multi-D ₂) _ Ansatz_ 

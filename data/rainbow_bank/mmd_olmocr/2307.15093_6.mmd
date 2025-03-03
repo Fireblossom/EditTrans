@@ -1,0 +1,33 @@
+# Berry phase of spin-one system in a rotating electric field 
+
+Since \(\psi_{n}={\cal R}^{+}(t)\varphi_{n}\) and \(\varphi_{n}\) is independent of time, (27) can also be rewritten in this way 
+
+\[\frac{dc_{n}}{dt}=-\psi^{+}_{n}\frac{d\psi_{n}}{dt}\,c_{n}.\] (45)  
+
+Using the explicit expressions (23), we can calculate 
+
+\[\psi^{+}_{1}\frac{d\psi_{1}}{dt}=-i\frac{d\varphi}{dt}\cos{\theta},\;\;\psi^{+ }_{0}\frac{d\psi_{0}}{dt}=0,\;\;\psi^{+}_{-1}\frac{d\psi_{-1}}{dt}=i\frac{d \varphi}{dt}\cos{\theta},\;\;\psi^{+}_{00}\frac{d\psi_{00}}{dt}=0.\] (46)  
+
+\(00\)is the same as multiplying by zero) 
+
+\[c_{n}(t)=c_{n}(0)e^{in\varphi(t)\cos{\theta}}.\] (47)  
+
+Therefore, after a full period \(T\) of revolution of the electric field, \(\varphi(T)=2\pi\)and the wave function \(\Psi_{n}\) acquires an additional geometric phase factor \(e^{i\alpha_{g}}\)with \(\alpha_{g}=2\pi n\,cos{\theta}\).  Since the phase is determined only up to an integer multiple of \(2\pi\), and since \(\Omega=2\pi(1-\cos{\theta})\)is the solid angle subtended by the electric field vector over one cycle, the Berry phase \(\alpha_{g}\) can be rewritten as 
+
+\[\alpha_{g}=-n\Omega.\] (48)  
+
+We don’t actually need explicit forms (23) to calculate \(\alpha_{g}\). Indeed, in light of (17) 
+
+\[\varphi_{1}^{+}{\cal R}\frac{d{\cal R}^{+}}{dt}\varphi_{1}= \langle 1,1|\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}}{dt}|1,1\rangle,\;\;\;\varphi_{ -1}^{+}{\cal R}\frac{d{\cal R}^{+}}{dt}\varphi_{-1}=\langle 1,-1|\hat{R}^{(p)} \frac{d\hat{R}^{(p)+}}{dt}|1,-1\rangle,\] \[\varphi_{0}^{+}{\cal R}\frac{d{\cal R}^{+}}{dt}\varphi_{0}=\cos^{ 2}{\alpha}\,\langle 1,0|\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}}{dt}|1,0\rangle+ \sin^{2}{\alpha}\,\langle 0,0|\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}}{dt}|0,0\rangle\] \[+\sin{\alpha}\cos{\alpha}\left(\langle 1,0|\hat{R}^{(p)}\frac{d \hat{R}^{(p)+}}{dt}|0,0\rangle+\langle 0,0|\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}} {dt}|1,0\rangle\right),\] \[\varphi_{00}^{+}{\cal R}\frac{d{\cal R}^{+}}{dt}\varphi_{00}=\sin ^{2}{\alpha}\,\langle 1,0|\hat{R}^{(p)}\frac{d\hat{R}^{(p)}+}{dt}|1,0\rangle+ \cos^{2}{\alpha}\,\langle 0,0|\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}}{dt}|0,0\rangle\] \[-\sin{\alpha}\cos{\alpha}\left(\langle 1,0|\hat{R}^{(p)}\frac{d \hat{R}^{(p)+}}{dt}|0,0\rangle+\langle 0,0|\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}} {dt}|1,0\rangle\right),\] (49)  
+
+), \(\hat{R}^{(p)}=e^{i\theta\hat{J}_{2}}e^{i\varphi\hat{J}_{3}}=\hat{R}^{(a)+}\)\(\hat{R}^{(p)}=e^{i\theta\hat{J}_{2}}e^{i\varphi\hat{J}_{3}}=\hat{R}^{(a)+}\), and consequently 
+
+\[\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}}{dt}=-i\frac{d\varphi}{dt}e^{i\theta\hat{J} _{2}}e^{i\varphi\hat{J}_{3}}\hat{J}_{3}e^{-i\varphi\hat{J}_{3}}e^{-i\theta\hat {J}_{2}}=-i\frac{d\varphi}{dt}e^{i\theta\hat{J}_{2}}\hat{J}_{3}e^{-i\theta\hat {J}_{2}}.\] (50)  \[\hat{R}^{(p)}\frac{d\hat{R}^{(p)+}}{dt}=-i\frac{d\varphi}{dt}e^{i\theta\hat{J} _{2}}e^{i\varphi\hat{J}_{3}}\hat{J}_{3}e^{-i\varphi\hat{J}_{3}}e^{-i\theta\hat {J}_{2}}=-i\frac{d\varphi}{dt}e^{i\theta\hat{J}_{2}}\hat{J}_{3}e^{-i\theta\hat {J}_{2}}.\] (50)  
+
+We can calculate (33) using one of the Baker-Campbell-Hausdorff formulas [21, 22] 
+
+\[e^{i\theta\hat{J}_{2}}\hat{J}_{3}e^{-i\theta\hat{J}_{2}}=\hat{J}_{3}+i\theta[ \hat{J}_{2},\hat{J}_{3}]+\frac{(i\theta)^{2}}{2!}[\hat{J}_{2},[\hat{J}_{2}, \hat{J}_{3}]]+\frac{(i\theta)^{3}}{3!}[\hat{J}_{2},[\hat{J}_{2},[\hat{J}_{2}, \hat{J}_{3}]]]+\ldots\] (51)  
+
+But, according to commutation relations \([\hat{J}_{i},\hat{J}_{j}]=i\epsilon_{ijk}\hat{J}_{k}\), we have \([\hat{J}_{2},\hat{J}_{3}]=i\hat{J}_{1}\), \([\hat{J}_{2},[\hat{J}_{2},\hat{J}_{3}]]=\hat{J}_{3}\)) takes the form 
+
+\[e^{i\theta\hat{J}_{2}}\hat{J}_{3}e^{-i\theta\hat{J}_{2}}=\hat{J}_{3}\sum \limits_{n=0}^{\infty}\frac{(-1)^{n}\theta^{2n}}{(2n)!}-\hat{J}_{1}\sum\limits _{n=0}^{\infty}\frac{(-1)^{n}\theta^{2n+1}}{(2n+1)!}=\hat{J}_{3}\cos{\theta}- \hat{J}_{1}\sin{\theta}.\] (52)  

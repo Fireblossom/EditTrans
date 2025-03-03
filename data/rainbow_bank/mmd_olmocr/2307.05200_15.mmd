@@ -1,0 +1,23 @@
+Dividing the total energy range \([-N,N]\)into \(R_{1}\)segments of width \(\Lambda_{1}>0\)each, the first term of \(\mathcal{I}_{1}\) is then bounded as 
+
+\[\sum\limits_{E_{j}>0}{|b_{j}|^{2}\cos^{2M}{\left(\frac{E_{j}}{N} \right)}(E_{j})^{2}} \leq\sum\limits_{l=0}^{R_{1}-1}{\cos^{2M}{\left(\frac{\Lambda_{1} l}{N}\right)}(\Lambda_{1}(l+1))^{2}}\sum\limits_{\Lambda_{1}l<E_{j}<\Lambda_{1 }(l+1)}{|b_{j}|^{2}},\] (116) \[\leq\sum\limits_{l=0}^{R_{1}-1}{\cos^{2M}{\left(\frac{\Lambda_{1} l}{N}\right)}(\Lambda_{1}(l+1))^{2}\left[\int\limits_{\Lambda_{1}l}^{\Lambda_{ 1}(l+1)}{\frac{dt}{\sigma\sqrt{2\pi}}e^{-\frac{t^{2}}{2\sigma^{2}}}}+\zeta_{N} \right]}.\] (117)  
+
+Let  \(\tilde{t}=\frac{t}{\sqrt{2}\sigma},d\tilde{t}=\frac{dt}{\sqrt{2}\sigma}\)\(\tilde{t}=\frac{t}{\sqrt{2}\sigma},d\tilde{t}=\frac{dt}{\sqrt{2}\sigma}\), and \(\tilde{\Lambda}_{1}=\frac{\Lambda_{1}}{\sqrt{2}\sigma}\), then LHS is bounded as 
+
+\[\begin{split}\sum\limits_{E_{j}>0}{|b_{j}|^{2}\cos^{2M}{\left( \frac{E_{j}}{N}\right)}(E_{j})^{2}}\leq\frac{1}{\sqrt{\pi}}\sum\limits_{l=0}^{ R_{1}-1}{\int\limits_{\tilde{\Lambda}_{1}l}^{\tilde{\Lambda}_{1}(l+1)}{d\tilde {t}\cos^{2M}{\left(\sqrt{2}\sigma\left(\frac{\tilde{t}-\tilde{\Lambda}_{1}}{N} \right)\right)}(\sqrt{2}\sigma(\tilde{t}+\tilde{\Lambda}_{1}))^{2}e^{-\tilde{t }^{2}}}}\\ +2\sigma^{2}\zeta_{N}\sum\limits_{l=0}^{R_{1}-1}{\cos^{2M}{\left(\frac{\sqrt{2 }\sigma\tilde{\Lambda}_{1}l}{N}\right)}(\tilde{\Lambda}_{1}(l+1))^{2}}.\end{split}\] (118)  
+
+We get the following upper bound on \(\mathcal{I}_{1}\), 
+
+\[\mathcal{I}_{1}\leq\frac{1}{\sqrt{\pi}}\int\limits_{0}^{\tilde{ \Lambda}_{1}R_{1}}{d\tilde{t}\cos^{2M}{\left(\sqrt{2}\sigma\left(\frac{\tilde{ t}-\tilde{\Lambda}_{1}}{N}\right)\right)}(\sqrt{2}\sigma(\tilde{t}+\tilde{ \Lambda}_{1}))^{2}e^{-\tilde{t}^{2}}}+2\sigma^{2}\zeta_{N}\sum\limits_{l=0}^{R _{1}-1}{\cos^{2M}{\left(\frac{\sqrt{2}\sigma\tilde{\Lambda}_{1}l}{N}\right)}( \tilde{\Lambda}_{1}(l+1))^{2}}+4e^{-y^{2}}\sigma^{2}.\] (119)  
+
+Using inequalities from Eq. ( B28 ) to replace cosines by exponentials 
+
+\[\mathcal{I}_{1}\leq\frac{1}{\sqrt{\pi}}\int\limits_{0}^{\tilde{\Lambda}_{1}R_{ 1}}{d\tilde{t}e^{-2M\sigma^{2}(\frac{\tilde{t}-\tilde{\Lambda}_{1}}{N})^{2}}( \sqrt{2}\sigma(\tilde{t}+\tilde{\Lambda}_{1}))^{2}e^{-\tilde{t}^{2}}}+2\sigma^ {2}\zeta_{N}\sum\limits_{l=0}^{R_{1}-1}{e^{-4M\sigma^{2}\frac{\tilde{\Lambda}_ {1}^{2}l^{2}}{N^{2}}}(\tilde{\Lambda}_{1}(l+1))^{2}}+4e^{-y^{2}}\sigma^{2}.\] (120)  
+
+Now consider \(\sigma=s\sqrt{N}\) so that 
+
+\[\mathcal{I}_{1}\leq\frac{2s^{2}N}{\sqrt{\pi}}\int\limits_{0}^{\tilde{\Lambda}_ {1}R_{1}}{d\tilde{t}e^{-\frac{2s^{2}M}{N}(\tilde{t}-\tilde{\Lambda}_{1})^{2}}( \tilde{t}+\tilde{\Lambda}_{1})^{2}e^{-\tilde{t}^{2}}}+2s^{2}N\zeta_{N}\sum \limits_{l=0}^{R_{1}-1}{e^{-\frac{4s^{2}M}{N}\tilde{\Lambda}_{1}^{2}l^{2}}( \tilde{\Lambda}_{1}(l+1))^{2}}+4s^{2}Ne^{-y^{2}}.\] (121)  
+
+The integral in the first term is bounded as 
+
+2⁢s2⁢Nπ∫0Λ~1⁢R1dt~e−2⁢s2⁢MN⁢(t~−Λ~1)2(t~+Λ~1)2e−t~2≤2⁢s2⁢Nπe−2⁢s2⁢MN⁢Λ~124⁢(1+2⁢s2⁢MN)52[4Λ~11+2⁢s2⁢MN(1+3⁢s2⁢MN)+−2⁢e−Λ~12⁢R12⁢(1+2⁢s2⁢MN)⁢eΛ~12⁢R1⁢4⁢s2⁢MN⁢Λ~1⁢1+2⁢s2⁢MN⁢(R1⁢(1+2⁢s2⁢MN)+2⁢(1+3⁢s2⁢MN))++e11+2⁢s2⁢MN⁢(2⁢s2⁢MN⁢Λ~1)2π((1+2⁢s2⁢MN)+2Λ~12(1+4⁢s2⁢MN)2)[erf(2⁢s2⁢MN⁢Λ~11+2⁢s2⁢MN)++erf(Λ~1⁢R1⁢(1+2⁢s2⁢MN)−2⁢s2⁢MN⁢Λ~11+2⁢s2⁢MN)]], (122)  

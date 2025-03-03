@@ -1,0 +1,28 @@
+# Quantum dynamic response-based NV-diamond magnetometry: Robustness to decoherence and applications in motion detection of magnetic nanoparticles 
+
+Wenkui Ding, 1 
+
+Xingyu Zhang, 2 
+
+Jing Liu, 3 
+
+and Xiaoguang Wang 1, _ ∗_ 
+
+1 _Department of Physics, Zhejiang Sci-Tech University, 310018 Zhejiang, China_ 2 _Department of Physics, Xiamen University, 361005 Fujian, China_ 3 _MOE Key Laboratory of Fundamental Physical Quantities Measurement,_ _National Precise Gravity Measurement Facility, School of Physics,_ _Huazhong University of Science and Technology, Wuhan 430074, China_ (Dated: May 30, 2024) 
+
+##### Abstract
+We propose a novel quantum sensing protocol that leverages the dynamical response of physical observables to quenches in quantum systems. Specifically, we use the nitrogen-vacancy (NV) color center in diamond to realize both scalar and vector magnetometry via quantum response. Furthermore, we suggest a method for detecting the motion of magnetic nanoparticles, which is challenging with conventional interference-based sensors. To achieve this, we derive the closed exact form of the Berry curvature corresponding to NV centers and design quenching protocols to extract the Berry curvature via dynamical response. By constructing and solving non-linear equations, the magnetic field and instantaneous motion velocity of the magnetic nanoparticle can be deduced. We investigate the feasibility of our sensing scheme in the presence of decoherence and show through numerical simulations that it is robust to decoherence. Intriguingly, we have observed that a vanishing nuclear spin polarization in diamond actually benefits our dynamic sensing scheme, which stands in contrast to conventional Ramsey-based schemes. In comparison to Ramsey-based sensing schemes, our proposed scheme can sense an arbitrary time-dependent magnetic field, as long as its time dependence is nearly adiabatic. 
+
+## INTRODUCTION 
+
+Quantum metrology [1–6] and quantum sensing [7, 8] have attracted significant attention in recent years. Quantum sensors, leveraging the unique properties of quantum systems, hold promise for detecting weak or nanoscale signals that surpass the capabilities of classical sensors. While most quantum sensors rely on interference schemes, there are situations where implementing interferometry or Ramsey-based schemes becomes challenging [9, 10]. One such scenario arises when the signal to be detected exhibits a short period of viability, making it impractical to accumulate the necessary phase for information encoding in the interference-based scheme [11]. As a result, there is a growing emphasis on exploring novel mechanisms to realize innovative quantum sensing schemes, driving rapid developments in the field of quantum science and technology [6, 12–16]. 
+
+In recent studies [17–21], the concept of dynamical response has been proposed as a means to detect geometric quantities in quantum many-body systems. Notably, the emergence of Berry curvature in the nonadiabatic response of physical observables to slow quenches, irrespective of the system’s interaction nature, has been identified [17]. Building upon these findings, our study showcases the potential of utilizing the mechanism of dynamic response for quantum sensing, offering a complementary approach to the conventional interference-based sensing schemes. Specifically, we present quantum responsebased sensing schemes utilizing nitrogen-vacancy (NV) 
+
+color centers in diamond [22, 23]. The NV center in diamond is a highly attractive candidate for quantum sensing due to its efficient initialization and readout capabilities through optical excitations, as well as its relatively long coherence time, even at ambient temperature [24, 25]. Consequently, extensive theoretical and experimental investigations have been conducted to explore the quantum sensing potential of NV centers [26–31]. Notably, NV centers have demonstrated the ability to sense magnetic fields with nanoscale spatial resolution [30, 32]. Besides, the geometric quantity, like the geometric phase, in NV centers has been investigated [33, 34] and proposed in the applications in quantum sensing, like gyroscope [35, 36] and magnetometer [37]. Furthermore, owing to diamond’s chemical inertness and the excellent quantum property under ambient condition, NV sensors hold promise for applications in bioimaging [38]. In this study, we propose a novel approach using NV centers through quantum dynamic response to sense the motion of magnetic nanoparticles, which has the potential to find applications in the field of bioimaging. 
+
+Before introducing the dynamic response-based sensing scheme, we provide a brief overview of the quantum response theory [17, 20]. By employing adiabatic perturbation theory [18], the general formula for quantum response can be derived as follows (see Appendix A for detailed information): 
+
+\[M_{\mu}=\text{const}+v_{\lambda}\mathcal{F}^{(m)}_{\mu\lambda}+\mathcal{O}(v_{ \lambda}^{2}).\] (1)  
+
+Here, \(M_{\mu}\) represents the observable being measured in the experiment, often referred to as the generalized force along the \(\mu\)-direction. It can be defined as \(M_{\mu}\equiv-\langle\psi(t_{f})|\partial_{\mu}H|\psi(t_{f})\rangle\), with \(\partial_{\mu}H\equiv\partial H/\partial\mu\). 

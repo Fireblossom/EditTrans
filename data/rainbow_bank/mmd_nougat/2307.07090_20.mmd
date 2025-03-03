@@ -1,0 +1,32 @@
+**Note:**  This table presents the bias and variance of cross-elasticity when there are inattentive consumers. We simulate the market share of each product in each market by assuming there is a portion of consumers who ignore the product with the highest price. We assume the portion is \(1-\frac{1}{1+Price_{j}}\). We consider 3 scenarios with 2, 5, and 10 products respectively. We fix the number of markets to 100 and the number of features to 1 (with only price). Other parts are the same as RCL in our baseline. 
+
+due to its structural constraints on the input space. We use two data generation processes – Multinomial Logit (MNL) and Random-Coefficients Logit (RCL). The observable characteristics of the new product are simulated using the same distribution as other products. In Table  10 , we present the estimated market share of the new product. Our model outperforms the MNL when the underlying data generation process is RCL, and produces results comparable to the true model. 
+
+**Note:**  This table presents the bias and variance of predicted market shares of all products in the market when a new product enters. We simulate market shares as in our baseline scenario (10 products, 100 markets, 10 features) when a new product is introduced. 
+
+### Inference and Coverage Analysis 
+
+Finally, we demonstrate the performance of the inference procedure. The objective is to demonstrate the validity of the estimated confidence intervals. To this end, we estimate the effect of a 1% change in price on demand and compute the corresponding confidence intervals of this effect. To simulate the data, we consider a random-coefficients logit model of demand with 3 products across 100 markets. We set the true model parameters to be \(\beta_{ik}\sim\mathcal{N}(1,0.5),\alpha_{i}\sim\mathcal{N}(-1,0.5)\). The effect of a 1 increase in a product’s price is given by θ0=𝔼[m(wi,π]=𝔼[π(pj⁢t∗(1.01),xj⁢t,{xk⁢t}k≠j)−π(pj⁢t,xj⁢t,{xk⁢t}k≠j)],  As discussed earlier, one way to estimate this effect is to compute the sample analog of this Table 9: Consumer Inattention - Estimated Cross-Elasticity 
+
+\begin{tabular}{c c c c c c c c c c c}
+\hline \hline
+\# & J & \multicolumn{2}{c}{Our Model} & \multicolumn{2}{c}{MNL} & \multicolumn{2}{c}{RCL} & \multicolumn{2}{c}{NP} & No. Obs \\
+\hline
+ & & MAE & RMSE & MAE & RMSE & MAE & RMSE & MAE & RMSE & \\
+\hline
+0 & 2 & 0.0419 & 4.3553 & 0.1911 & 8.8197 & 0.3350 & 8.5791 & 0.0378 & 5.6814 & 3200 \\
+1 & 5 & 0.0486 & 4.7745 & 0.0827 & 5.8357 & 0.0503 & 5.8404 & 0.1897 & 5.5601 & 32000 \\
+2 & 10 & 0.0212 & 3.8765 & 0.0476 & 4.0961 & 0.0146 & 4.1113 & 0.1676 & 4.1198 & 144000 \\ \hline \hline
+\end{tabular}
+
+
+Table 10: New Product Demand Estimation - Predicted Market Share 
+
+\begin{tabular}{c c c c c c c c}
+\hline \hline
+True Model & \multicolumn{2}{c}{Our Model} & \multicolumn{2}{c}{MNL} & \multicolumn{2}{c}{RCL} & No. Obs. \\
+ & MAE & RMSE & MAE & RMSE & MAE & RMSE & \\
+\hline
+MNL & 0.0234 & 0.0644 & 0.0041 & 0.0095 & 0.0023 & 0.0045 & 22,000 \\
+RCL & 0.0186 & 0.0145 & 0.0265 & 0.0331 & 0.0023 & 0.0031 & 22,000 \\ \hline \hline
+\end{tabular}

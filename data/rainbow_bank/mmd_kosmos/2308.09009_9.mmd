@@ -1,0 +1,29 @@
+consequence, the two generators \(A_{D}\) and \(A_{J}\) commute, \(A_{D}A_{J}=A_{J}A_{D}\), in which case 
+
+\[u_{t}\left(x\right)=e^{\left(A_{D}+A_{J}\right)t}f\left(x\right)=e^{A_{D}t}B_{ J,t}\left(x\right)=e^{A_{J}t}B_{D,t}\left(x\right),\  
+
+where 
+
+\[B_{J,t}\left(x\right)=\mathbb{E}\left[\left.f\left(x_{J,t}\right)\right|x_{J,0 }=x\right],\text{ \ \ }B_{D,t}\left(x\right)=\mathbb{E}\left[\left.f\left(x_{D ,t}\right)\right|x_{D,0}=x\right].\]  
+
+Now, consider first the case where (ii) is satisfied. In this scenario, \(x_{J,t}|x_{J,0}=x\) has density 
+
+\[p_{J,t}\left(y|x\right)=\sum_{k=0}^{\infty}e^{-\lambda t}\frac{\left(\lambda t \right)^{k}}{k!}\nu_{k}\left(y-x\right),\  
+
+where \(\nu_{k}\left(y\right)\)is the density of the sum of \(k\) independent jumps, \(\sum_{i=1}^{k}J_{i}\), \(J_{i}\oldsim\nu\left(\cdot\right)\). Since \(p_{J,t}\left(y|x\right)\)is a smooth function then \(x\mapsto B_{J,t}\left(\Delta x_{D,T}+x\right)\)is also a smooth function even if \(f\left(x\right)\)is irregular. Thus, if \(B_{J,t}\left(x\right)\)is available on closed form then the smoothing device is not needed and we can approximate \(u_{t}\) by 
+
+\[\hat{u}_{t}\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}A_{D}^{m}B_{J,t }\left(x\right).\  \[\hat{u}_{t}\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}A_{D}^{m}B_{J,t }\left(x\right).\  
+
+Similar, if (i) is satisfied then \(x_{D,t}|x_{D,0}\) is a Brownian motion with drift and has Gaussian density as given in ( 3.4 ). Because of its simple dynamics, \(B_{D,t}\left(x\right)\)is available on closed form in many cases and will again be a smooth function; if so, we propose to approximate \(u_{t}\) by 
+
+\[\hat{u}_{t}\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}A_{J}^{m}B_{D,t }\left(x\right).\]  \[\hat{u}_{t}\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}A_{J}^{m}B_{D,t }\left(x\right).\]  
+
+If closed form expressions of neither \(B_{D,t}\) nor \(B_{J,t}\) are available, it is still possible to simplify the computation using, for example, 
+
+\[\hat{u}_{t}\left(x\right)=\left[\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}e^{A_{J}t }\left(A_{D}-\partial_{t}\right)^{m}u_{0,t}\left(x\right)\right],\  \[\hat{u}_{t}\left(x\right)=\left[\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}e^{A_{J}t }\left(A_{D}-\partial_{t}\right)^{m}u_{0,t}\left(x\right)\right],\  
+
+assuming that closed form expressions of \(e^{A_{J}\left(T-t\right)}\left(A_{D}-\partial_{t}\right)^{m}u_{0,t}\left(x\right)\)can be computed. This last version is the one proposed by  Wan and Yang  ( 2021 ) for jump–diffusions with state–independent jumps. 
+
+#### State–dependent jump and diffusive component 
+
+Finally, consider the general case where \(A_{J}\neq 0\)and both the diffusion and jump component are state–dependent. First observe that when the jumps are state–dependent, or have a complex distribution, \(A_{J}f\left(x\right)\)cannot be evaluated analytically for a given function \(f\) in general. We propose to re

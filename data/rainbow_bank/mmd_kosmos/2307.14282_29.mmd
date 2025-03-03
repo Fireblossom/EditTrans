@@ -1,0 +1,147 @@
+Table 1: Results under SPO 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Estimate bounds</th>
+<th style="text-align: center;">Naive estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="3" style="text-align: left;">_Graduation from Bus. Adm.,
+PUC Santiago_</td>
+</tr>
+<tr>
+<td style="text-align: left;">Economics, UChile Santiago</td>
+<td style="text-align: center;">[.319 ; .418]</td>
+<td style="text-align: center;">.369</td>
+</tr>
+<tr>
+<td style="text-align: left;">Science &amp; Engineering, UChile
+Santiago</td>
+<td style="text-align: center;">[.000 ; .188]</td>
+<td style="text-align: center;">.159</td>
+</tr>
+<tr>
+<td style="text-align: left;">Social Sciences &amp; Humanities, PUC
+Santiago</td>
+<td style="text-align: center;">[.230 ; .239]</td>
+<td style="text-align: center;">.272</td>
+</tr>
+<tr>
+<td style="text-align: left;">Law, PUC Santiago</td>
+<td style="text-align: center;">[.087 ; .407]</td>
+<td style="text-align: center;">.321</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: left;">_Reapplication_</td>
+</tr>
+<tr>
+<td style="text-align: left;">Economics, UChile Santiago</td>
+<td style="text-align: center;">[-.178 ; -.079]</td>
+<td style="text-align: center;">-.114</td>
+</tr>
+<tr>
+<td style="text-align: left;">Science &amp; Engineering, UChile
+Santiago</td>
+<td style="text-align: center;">[-.369 ; -.107]</td>
+<td style="text-align: center;">-.199</td>
+</tr>
+<tr>
+<td style="text-align: left;">Social Sciences &amp; Humanities, PUC
+Santiago</td>
+<td style="text-align: center;">[-.164 ; -.155]</td>
+<td style="text-align: center;">-.156</td>
+</tr>
+<tr>
+<td style="text-align: left;">Law, PUC Santiago</td>
+<td style="text-align: center;">[.065 ; .174]</td>
+<td style="text-align: center;">.116</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: left;">_Graduation from any
+program_</td>
+</tr>
+<tr>
+<td style="text-align: left;">Economics, UChile Santiago</td>
+<td style="text-align: center;">[-.218 ; -.029]</td>
+<td style="text-align: center;">-.084</td>
+</tr>
+<tr>
+<td style="text-align: left;">Science &amp; Engineering, UChile
+Santiago</td>
+<td style="text-align: center;">[-.126 ; .164]</td>
+<td style="text-align: center;">-.003</td>
+</tr>
+<tr>
+<td style="text-align: left;">Social Sciences &amp; Humanities, PUC
+Santiago</td>
+<td style="text-align: center;">[-.055 ; -.064]</td>
+<td style="text-align: center;">-.063</td>
+</tr>
+<tr>
+<td style="text-align: left;">Law, PUC Santiago</td>
+<td style="text-align: center;">[.032 ; .139]</td>
+<td style="text-align: center;">.058</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: left;">_Graduation from STEM
+program_</td>
+</tr>
+<tr>
+<td style="text-align: left;">Economics, UChile Santiago</td>
+<td style="text-align: center;">[-.016 ; .021]</td>
+<td style="text-align: center;">.004</td>
+</tr>
+<tr>
+<td style="text-align: left;">Science &amp; Engineering, UChile
+Santiago</td>
+<td style="text-align: center;">[.000 ; .076]</td>
+<td style="text-align: center;">.064</td>
+</tr>
+<tr>
+<td style="text-align: left;">Social Sciences &amp; Humanities, PUC
+Santiago</td>
+<td style="text-align: center;">[.000 ; .015]</td>
+<td style="text-align: center;">.000</td>
+</tr>
+<tr>
+<td style="text-align: left;">Law, PUC Santiago</td>
+<td style="text-align: center;">[.000 ; .000]</td>
+<td style="text-align: center;">.000</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: left;">_Graduation from a top
+university (PUC Santiago or UChile)_</td>
+</tr>
+<tr>
+<td style="text-align: left;">Economics, UChile Santiago</td>
+<td style="text-align: center;">[-.086 ; .013]</td>
+<td style="text-align: center;">-.040</td>
+</tr>
+<tr>
+<td style="text-align: left;">Science &amp; Engineering, UChile
+Santiago</td>
+<td style="text-align: center;">[-.058 ; .232]</td>
+<td style="text-align: center;">.060</td>
+</tr>
+<tr>
+<td style="text-align: left;">Social Sciences &amp; Humanities, PUC
+Santiago</td>
+<td style="text-align: center;">[.209 ; .218]</td>
+<td style="text-align: center;">.210</td>
+</tr>
+<tr>
+<td style="text-align: left;">Law, PUC Santiago</td>
+<td style="text-align: center;">[.123 ; .411]</td>
+<td style="text-align: center;">.193</td>
+</tr>
+</tbody>
+</table>
+
+
+Outcomes and second-best options \(k\) in \(Q_{j}=(j,k)\)are shown in the leftmost column of the table. For out parameter of interest, the first-best option in \(Q_{j}\) is always \(j=\)“BA in Business administration at PUC Santiago”. The second column shows bounds for our parameter of interest (Equation 1). Bounds are estimated using local linear polynomials, and without imposing UMAS (Assumption 5). Bandwidths are set to 30 points, except if another program \(\ell\)has its cutoff within 30 points of \(c_{j}\). Then, the bandwidth is reduced to the distance between \(c_{j}\) and \(c_{\ell}\). Naive estimates in the third column are computed as the difference in mean outcomes between applicants above vs. below the admission cutoff, within the same bandwidths, and conditional on reported local preferences \(P_{j}\) being equal to \((j,k)\), where \(k\) is given in the leftmost column of the table. 
+
+second-best option. We compare our bounds to naive estimates that simply control for reported preferences as if they were true preferences. Naive estimates generally fall within our bounds but may lead to erroneous conclusions in some cases where bounds are wide and do not pin down the sign of the true effect. 

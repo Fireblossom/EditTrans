@@ -1,0 +1,25 @@
+Jacqueline Harding 
+
+_Proof._ Let a proxy vote profile $(\boldsymbol{P},\boldsymbol{S},\boldsymbol{D})$be arbitrary. Pick some bijection $\psi:N\rightarrow N$. Then we must have 
+
+\begin{align*}     f(\psi(\boldsymbol{P})_{\boldsymbol{\pi},\psi(\boldsymbol{S}),\psi(\boldsymbol{D})}) &= f(\psi(\boldsymbol{P}_{\boldsymbol{\pi},\boldsymbol{S},\boldsymbol{D}})) &\text{(since $g$ is anonymous)} & \\     &= f(\boldsymbol{P}_{\boldsymbol{\pi},\boldsymbol{S},\boldsymbol{D}}) &\text{(since $f$ is anonymous)} &\quad  \end{align*}
+
+**Lemma 3** _ If_ $f$_ is neutral and_ $g$_ is proxy mechanism neutral, then_ $(f,g)$_ is_ _proxy vote neutral._ 
+
+_Proof._ Let a proxy vote profile $(\boldsymbol{P},\boldsymbol{S},\boldsymbol{D})$be arbitrary. Pick some bijection $\psi:A\rightarrow A$. Then we must have 
+
+\begin{align*}     f(\psi(\boldsymbol{P})_{\boldsymbol{\pi},\boldsymbol{S},\psi(\boldsymbol{D})}) &= f(\psi(\boldsymbol{P}_{\boldsymbol{\pi},\boldsymbol{S},\boldsymbol{D}})) &\text{(since $g$ is neutral)} & \\     &= \psi(f(\boldsymbol{P}_{\boldsymbol{\pi},\boldsymbol{S},\boldsymbol{D}})) &\text{(since $f$ is neutral)} &\quad  \end{align*}
+
+Note that, in general, the other direction of Lemmas 2 and 3 won’t hold. 
+
+### 5.3 A Proxy Vote Analogue of May’s Theorem 
+
+When $|A|=2$, the _ majority rule_  selects the alternative which receives the most first choice votes. When $|N|$ is odd (meaning the majority rule is resolute), May (May 1952) shows that we can characterise the majority rule as the unique rule satisfying anonymity, neutrality and weak monotonicity. 
+
+We can use the proxy vote analogues of these properties to achieve the same characterisation result. The key point is that setting $|A|=2$fully specifies the proxy mechanism $g$, by the definition of a proxy mechanism (since either a voter submits an empty order, meaning she is allowed to delegate to any other voter, or she submits a linear order, meaning she casts her vote directly). In effect, we are close to a classical vote; the only voters who delegate their votes are the voters who submit empty orders. So it is unsurprising that the following result holds irrespective of the choice of $g$. 
+
+Theorem _ Suppose_ $|A|=2$_ and_ $|N|$_ is odd. Then a pair_ $(f,g)$_ satisfies_ 
+
+**–** _ Proxy Vote Anonymity_ **–** _ Proxy Vote Neutrality_ **–** _ Proxy Vote Addition Monotonicity (PVAM), and_ **–** _ Proxy Vote Deletion Monotonicity (PVDM)_ 
+
+_iff_ $f$_ is the majority rule._ 

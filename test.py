@@ -16,7 +16,7 @@ import torch
 from tqdm import tqdm
 import time
 
-from edit_trans_nougat import EditTransNougat
+from edit_trans.edit_trans_nougat import EditTransNougat
 from nougat.metrics import compute_metrics, split_text
 from nougat.utils.device import move_to_device
 from datasets import ClassLabel

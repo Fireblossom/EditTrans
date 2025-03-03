@@ -1,0 +1,31 @@
+( \(P_{2}=0.521\)), followed by paths 1 and 5 ( \(P_{1}=P_{5}=0.192\)), path 4 ( \(P_{4}=0.070\)) and path 3 ( \(0.026\)). Note that the results in cases 1 and 2 are consistent with those of the non-adaptive and path-based multinomial logit (MNL) model. 
+
+In contrast, in case 3, travelers could not obtain information about the additional travel times before the trip, and they had to adjust their paths locally. Because they globally perceived only \(x_{1}\) when they departed from the origin \(o\), they originally planned their paths according to the same path probabilities as case 1, resulting in more than half of travelers taking an action to travel link \(a_{2}\) that is the first elemental link of path 3 (and paths 4 and 5). However, at the sink node of link \(a_{2}\), the travelers locally perceived the additional time of link \(a_{5}\) and switched their paths, moving to link \(a_{3}\). This local adaption was also observed when travelers move from \(a_{4}\) to \(a_{6}\), instead of \(a_{7}\). As a result, path 5 got the highest probability ( \(P_{5}=0.434\)), followed by path 2 ( \(P_{2}=0.268\)), path 4 ( \(P_{4}=0.160\)), path 1 ( \(P_{4}=0.099\)) and path 3 ( \(P_{4}=0.040\)). This result implies that travelers cannot take the globally optimal path when some attributes are only locally perceived by them. As such, our model can describe both global preferences for and local responses to network attributes through the specifications of decomposed global and local utility functions. 
+
+Table 1: Three tested cases. The columns for \(x_{1}\) and \(x_{2}\) indicate whether the attributes are global or local variables and their coefficients in the utility function. The resultant global and l ocal i \(v_{G},v_{L}\) for each case are shown in the fourth and f i fth columns. 
+
+   Case     $x_{1}$        $x_{2}$          $v_{G}$        $v_{L}$
+  ------ -------------- -------------- ------------------ ----------
+    1     Global, $-1$        \-            $-x_{1}$         $0$
+    2     Global, $-1$   Global, $-1$   $-(x_{1}+x_{2})$     $0$
+    3     Global, $-1$   Local, $-1$        $-x_{1}$       $-x_{2}$
+
+
+abl ath probabilities for different cases. 
+
+   Case   $P_{1}$   $P_{2}$   $P_{3}$   $P_{4}$   $P_{5}$
+  ------ --------- --------- --------- --------- ---------
+    1     $0.183$   $0.183$   $0.498$   $0.067$   $0.067$
+    2     $0.192$   $0.521$   $0.026$   $0.070$   $0.192$
+    3     $0.099$   $0.268$   $0.040$   $0.160$   $0.434$
+
+
+Next, to discuss the effect of the size of the scale parameter \(\mu_{G}\), we computed the path probabilities with different values of \(\mu_{G}\) where \(\mu\) and \(\gamma\) are both fixed to one, thereby \(\gamma\mu/\mu_{G}=1/\mu_{G}\). The results in Figure  3 (a) show that the probabilities gradually converge to certain values as \(\mu_{G}\) grows. This is because, when \(\mu_{G}\) goes to a sufficiently large value, the global path choice becomes deterministic, and the value function can be approximated by \(V^{d}(k)\approx\max_{a\in A(k)}\{v_{G}(a|k)+V^{d}(a)\}\) describing the deterministic maximum path utility from link \(k\) to \(d\). This change in the value function is displayed in Figure  3 (b). Also, the difference between the values \(V^{d}(a_{1})\) and \(V^{d}(a_{2})\) of links \(a_{1}\) and \(a_{2}\) gets larger according to the increase in \(\mu_{G}\). This explains that the probabilities of paths 1 and 2 whose first link is \(a_{1}\) decrease, whereas those of paths 3-5 whose first link is \(a_{2}\) increase. Note that although the certainty of travelers’ perception of the global utility increases, they still locally maximize their utilities whose uncertainty is characterized by the scale \(\mu\). 
+
+## 4. Learning preferences from observed network paths 
+
+In this section, we present the estimation of the proposed global-local path choice model based on maximum likelihood. Unlike most of the previous adaptive (plan-action) path choice models, the proposed model can be estimated only with observations of paths that travelers actually took, without the information of _ plans_ . Consider we have path observations \(r_{n}=[a_{1},\ldots,a_{J_{n}}]\), \(n\in\{1,\ldots,N\}\), where an observed path \(r_{n}\) is a sequence of links of length \(J_{n}\), and the last element \(a_{J_{n}}\) corresponds to its destination \(d_{n}\). The log-likelihood function of the proposed model is 
+
+\[LL(\mathbold{\theta};\mathbold{r})=\sum^{N}_{n=1}\sum^{J_{n}-1}_{j=1}\ln p^{d_ {n}}(a_{j+1}|a_{j})=\sum^{N}_{n=1}\sum^{J_{n}-1}_{j=1}\left\{v(a|k)+V^{d}(a)- \ln\sum_{a^{\prime}\in A(k)}e^{v(a^{\prime}|k)+V^{d}(a^{\prime})}\right\}\  
+
+where we assume a linear-in-parameters formulation of the reward functions and consider \(\mu\) and \(\gamma\) to be one, and \(\mathbold{\theta}=(\mathbold{\beta}_{L},\mathbold{\beta}_{G},\mu_{G})\) are the parameters to be estimated. 

@@ -1,0 +1,23 @@
+# Fault Tolerance in Euclidean Committee Selection 
+
+\(i\leqslant j\). By assumption, before the modification we have \(|T^{*}\cap C_{i,j}|\geqslant\delta_{i,j}(f)\). If \(j\geqslant k_{t}\), then \(|T^{*}\cap C_{i,j}|\) does not decrease after the modification, and is thus at least \(\delta_{i,j}(f)\). So assume \(j<k_{t}\). In this case, \(T\cap C_{i,j}=\{c_{k_{1}},\dots,c_{k_{t-1}}\}\cap C_{i,j}\subseteq T^{*}\cap C _{i,j}\). Since \(|T\cap C_{i,j}|\geqslant\delta_{i,j}(f)\)by Lemma 3, we have \(|T^{*}\cap C_{i,j}|\geqslant\delta_{i,j}(f)\). 
+
+We use binary search to find the smallest \(r\) such that the reduced instance has an \(f\)-tolerant hitting set of size at most \(k\). Therefore, the following theorem holds. 
+
+▶ _ Optimal Fault-Tolerant Committee can be solved in time_ \(\mathcal{O}(n^{2}m^{3}f\log(nm))\)_for one-dimensional Euclidean elections._ 
+
+▶ Remark 10.  Our dynamic programming algorithm works as long as either the set \(V\) or the set \(C\) is embedded in \(\mathbb{R}\) (i.e., has a linear ordering), while the other set can have an arbitrary \(d\)-dimensional embedding. Moreover, we can also extend our algorithms to ordinal elections with (widely studied) single-peaked preferences [ 2  26 ] to compute an optimal fault-tolerant Chamberlin-Courant committee. 
+
+## Fault-Tolerant Committees in Multidimensional Space 
+
+We now consider fault tolerance in multidimensional elections. Unsurprisingly, the optimal committee design problem is intractable — it is similar to facility location — but it turns out that the seemingly simpler variants ORP and FTS are also intractable. 
+
+### Hardness Results 
+
+▶ **Theorem 11**  ( _⋆_ ) **.** _ All three problems (Optimal Replacement, Fault-Tolerance Score, and_ _Optimal Fault-Tolerant Committee) are NP-hard, in any dimension_ \(d\geqslant 2\)_ under the Euclidean_ _norm, where size of the committee_ \(k\)_ and the failure parameter_ \(f\)_ are part of the input._ 
+
+We will use a single construction to show NP-hardness all three problems. Our proof uses a reduction from the NP-complete problem  Planar Monotone 3-SAT  (PM-3SAT) 7 ]. An input to this problem is a _ monotone_  3-CNF formula \(\varphi\) where each clause contains either three positive literals or three negative literals, and whose variable-clause incidence graph has a planar embedding which is given as a part of the input. Given an instance \(\varphi\) of PM-3SAT, our reduction constructs a 2-dimensional Euclidean election. The general outline follows a scheme used in [ 32 ] to show the hardness of committee selection under _ ordinal_ preferences, but generalizing the proof to _ fault-tolerant committees_  requires several technical modifications and a new proof of correctness. 
+
+For ease of referencing, we adapt the terminologies from [ 32 ]. In the planar embedding of the formula \(\varphi\), each variable/clause is drawn as an (axis-parallel) rectangle in the plane, and so this is called a _ rectangular embedding_ . See Figure 2a for an illustration. The rectangles for the variables are drawn along the \(x\)-axis, while the rectangles for the positive (resp., negative) clauses lie above (resp., below) the \(x\)-axis. If a clause contains a variable, then there is a vertical segment connecting the clause rectangle and the variable rectangle. Each such vertical segment is disjoint from all the rectangles except the two it connects. 
+
+The rectangular embedding of \(\varphi\) can be modified to another embedding which is easier to work with called _ orthogonal embedding_ . We refer the reader to [ 33 ] for details of the modification (See figure 2b for intuition). The intersection points of vertical and horizontal segments in the orthogonal embedding are _ connection points_ . To build the intuition for the orthogonal embedding, we now give its properties as stated in [33]: 

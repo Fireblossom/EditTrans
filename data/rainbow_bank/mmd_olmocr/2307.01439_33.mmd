@@ -1,0 +1,19 @@
+KYUNGKEUN KANG AND CHANHONG MIN 
+
+The first integral of ( 5.21 ) can be estimated as follows: for any \(\epsilon>0\), 
+
+\[\int_{\frac{1}{4}}^{\frac{1}{2}}\int_{|y^{\prime}|\leq 1} \frac{1}{(t-s)^{\frac{1}{2}}(|x-y^{\prime}|^{2}+(t-s))^{\frac{n-1 }{2}}}\left|\partial_{s}g_{k}^{\mathcal{T}}(s)\right|dy^{\prime}ds\] \[\lesssim\int_{\frac{1}{4}}^{\frac{1}{2}}\frac{1}{(t-s)^{\frac{1}{ 2}}}\frac{\log\left(2+\frac{1}{\sqrt{t-s}}\right)}{(|x|+1+\sqrt{t-s})^{n-1}}ds\] \[\lesssim\frac{1}{\left<x\right>^{n-1}}\int_{\sqrt{t-\frac{1}{2}}} ^{\sqrt{t-\frac{1}{4}}}\log\left(2+\frac{1}{u}\right)du\lesssim\frac{1}{\left< x\right>^{n-1}}\int_{\sqrt{t-\frac{1}{2}}}^{\sqrt{t-\frac{1}{4}}}\frac{1}{v^{ \epsilon}}dv\] \[\lesssim\frac{(t-\frac{1}{2})^{\frac{1-\epsilon}{2}}}{\left<x \right>^{n-1}}.\]  
+
+The second integral of ( 5.21 ) can be estimated as follows: 
+
+\[\int_{\frac{1}{2}}^{1}\int_{|y^{\prime}|\leq 1} \frac{1}{(t-s)^{\frac{1}{2}}(|x-y^{\prime}|^{2}+(t-s))^{\frac{n-1 }{2}}}\left|\partial_{s}g_{k}^{\mathcal{T}}(s)\right|dy^{\prime}ds\] \[\lesssim\int_{\frac{1}{2}}^{1}\int_{|y^{\prime}|\leq 1}\frac{1}{( t-s)^{\frac{1}{2}}(|x-y^{\prime}|^{2}+(t-s))^{\frac{n-1}{2}}(1-s)^{1-a}}dy^{ \prime}ds\] \[\lesssim\int_{\frac{1}{2}}^{1}\frac{1}{(t-s)^{\frac{1}{2}}}\frac{ \log\left(2+\frac{1}{\sqrt{t-s}}\right)}{(|x|+\sqrt{t-s}+1)^{n-1}}\frac{1}{(1- s)^{1-a}}ds\mathbbm{1}_{|x|<2}+\int_{\frac{1}{2}}^{1}\frac{1}{(t-s)^{\frac{1}{ 2}}(1-s)^{1-a}}ds\frac{1}{|x|^{n-1}}\mathbbm{1}_{|x|>2}\] \[\lesssim\int_{\sqrt{t-1}}^{\sqrt{t-\frac{1}{2}}}\frac{\log\left(2 +\frac{1}{u}\right)}{(1-t+u^{2})^{1-a}}du\mathbbm{1}_{|x|<2}+\frac{\textup{LN} ^{*}}{|x|^{n-1}}\mathbbm{1}_{|x|>2}\] \[\lesssim\int_{\sqrt{t-1}}^{\sqrt{t-\frac{1}{2}}}\frac{(1+\frac{1} {u})^{\epsilon}}{(1-t+u^{2})^{1-a}}du\mathbbm{1}_{|x|<2}+\frac{\textup{LN}^{*} }{|x|^{n-1}}\mathbbm{1}_{|x|>2}\] \[\lesssim\int_{\sqrt{t-1}}^{\sqrt{t-\frac{1}{2}}}\frac{1}{u^{ \epsilon}(1-t+u^{2})^{1-a}}du\mathbbm{1}_{|x|<2}+\frac{\textup{LN}^{*}}{|x|^{n -1}}\mathbbm{1}_{|x|>2}\] \[\lesssim\frac{1}{(t-1)^{\frac{\epsilon}{2}}}\int_{0}^{\frac{1}{2} }\frac{dv}{v^{1-a}(t-1+v)^{\frac{1}{2}}}\mathbbm{1}_{|x|<2}+\frac{\textup{LN}^ {*}}{|x|^{n-1}}\mathbbm{1}_{|x|>2}\] \[\lesssim\frac{\textup{LN}^{*}}{(t-1)^{\frac{\epsilon}{2}}} \mathbbm{1}_{|x|<2}+\frac{\textup{LN}^{*}}{|x|^{n-1}}\mathbbm{1}_{|x|>2}.\]  
+
+Thus we conclude that 
+
+(707.1) \[|I_{2}|\lesssim\frac{\left(t-\frac{1}{4}\right)^{\frac{1-\epsilon}{2}}}{\left< x\right>^{n-1}}+\mathbbm{1}_{|x|<2}\frac{\textup{LN}^{*}}{(t-1)^{\frac{ \epsilon}{2}}}+\mathbbm{1}_{|x|>2}\frac{\textup{LN}^{*}}{|x|^{n-1}}.\]  
+
+Hence ( 5.17 ), ( 5.19 ) and ( 5.22 ) give 
+
+\[|I_{2}| \lesssim\mathbbm{1}_{|x|<2}\left(\mathbbm{1}_{t\leq\frac{1}{2}} \left(t-\frac{1}{4}\right)^{\frac{1-\epsilon}{2}}+\mathbbm{1}_{\frac{1}{2}\leq t <1}\left(1+\frac{1}{(1-t)^{\frac{1+\epsilon}{2}-a}}\right)+\mathbbm{1}_{t>1} \frac{\textup{LN}^{*}}{(t-1)^{\frac{\epsilon}{2}}}\right)\] \[+\mathbbm{1}_{|x|>2}\left(\mathbbm{1}_{t\leq\frac{1}{2}}\frac{1}{ |x|^{n-1}}+\left(\mathbbm{1}_{\frac{1}{2}\leq t<1}+\mathbbm{1}_{t>1}\right) \left(\frac{1}{|x|^{n-1}}+\frac{\textup{LN}^{*}}{|x|^{n-1}}\right)\right).\]  
+
+For the estimates of the higher spatial derivatives, the similar argument as above gives the result, and this proves the pressure estimate.  □ 

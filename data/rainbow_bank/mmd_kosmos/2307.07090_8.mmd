@@ -1,0 +1,15 @@
+there exists suitable \(\rho\), \(\phi_{1}\) and \(\phi_{2}\) such that 
+
+\[\pi_{jt}=\rho(\phi_{1}(X_{jt},p_{jt},\mu_{jt}(\gamma_{0}))+\sum_{k\neq j,k\in \mathcal{S}}\phi_{2}(X_{kt},p_{jt},\mu_{kt}(\gamma_{0}))).\]  
+
+The result follows straightforwardly from the observation that after controlling for \(CF(\mu_{jt})\)the unobservable component \(\tilde{\varepsilon}\)\(\tilde{\varepsilon}\) is exogenous. This implies the aggregate demand function is invariant under any permutation applied to competitors of product \(j\). The result demonstrates that endogeneity can be addressed by using the residuals from Equation  5  along with product observable characteristics simply as an additional set of features. 
+
+### Inference 
+
+The aim of this paper is to estimate choice functions flexibly using non-parametric estimators. However, often in social science contexts, one is also interested in conducting inference over some economic objects. Now, given non-parametric regression functions are estimated at a slower rate compared to parametric regressions it is often infeasible to construct confidence intervals directly on the estimated \(\hat{\pi}\)\(\hat{\pi}\). Fortunately, it is generally possible to perform inference and construct valid confidence intervals for specific economic objects that are functions of \(\pi\). In this section, we will provide example of one such important economic object and demonstrate how to construct valid confidence intervals for it. This will be done by leveraging the recent advances in automatic debiased machine learning as shown in the works of  Ichimura 
+
+et al. (2022 );  Chernozhukov, Newey, Quintas-Martinez, et al. (2021 ), and others. The only difference between our setup and existing automatic debiased machine learning is that we have to account for an additional first-stage estimator \(\hat{\gamma}\)\(\hat{\gamma}\). However, as we will show later in this section if \(\hat{\gamma}\)\(\hat{\gamma}\) is estimable at a fast enough rate the same analysis of  Chernozhukov, Escanciano, et al. (2022 ) applies. 
+
+**Average Effect of Price Change** : Let \(w_{jt}=(y_{jt},p_{jt},x_{jt},\{p_{kt},x_{kt}\}_{k\neq j})\)and \(z_{jt}=(p_{jt},x_{jt},\{p_{kt},x_{kt}\}_{k\neq j})\)represent the variables associated with product \(j\) in market \(t\). Here, \(p_{jt}\in\mathbb{C}\) denotes the observed prices, \(x_{jt}\in\mathbb{C}^{d}\)represents other exogenous product characteristics and \(y_{jt}\in\mathbb{R}\) refers to the observed demand for product \(j\) in market \(t\), such as market shares or log shares. In this context, researchers are often interested in estimating the average effect of a price change on the demand for a product. 
+
+The average effect of a price change can be expressed as the difference between the demand function \(\pi_{jt}(\cdot;\gamma)\)evaluated at the original price \(p_{jt}\) and at the price incremented by 

@@ -1,0 +1,35 @@
+ment flows using a quantum router with quantum memories in a photonic switchboard to enable entanglements having high fidelity. [16] proposes a greedy algorithm to generate a path for entanglement swapping and maximize the number of satisfied demands concerning start and end times along with the number of entangled pairs. A mechanism to find the shortest path for entanglement distribution with nested purification of qubits has been proposed in [41]. Authors present a real-time and preestablished entanglement distribution in [17]. [42] describes a hybrid continuous variable-discrete variable (CV-DV) quantum network which can distribute a large number of entanglements for multi-hop nodes. [18] proposes a proactive entanglement distribution using the history of actual qubits used along each physical link. The history is an indirect measure of user demands. 
+
+From the above survey, it is evident that there is a huge effort in ensuring quick and efficient entanglement distribution. Some of the works have also focussed on meeting user demand for entanglement generation. Most of the proposals are based on a bottom-up approach to meet user demands. The main motivation of this work is to understand how usage patterns can impact entanglement distribution in terms of edge and node centralities. As observed from the above survey, such an effort to understand the network centralities of entanglement distribution has not been attempted. This work is thus relevant as the quantum internet grows in size and its characteristics emerge to its classical counterpart. 
+
+## III. S YSTEM  M ODEL 
+
+Firstly, the basics of quantum communications are discussed and then the model is explained. 
+
+### A. Quantum Basics Quantum States 
+
+:  Quantum bits (qubits) are in a superposition of their orthonormal basis states. A single qubit can be represented as \(|\phi\rangle=\alpha|0\rangle+\beta|1\rangle\)where \(|\alpha|^{2}+|\beta|^{2}=1\), \(|0\rangle\)and \(|1\rangle\)are the orthonormal basis states. Similarly, a two-qubit can be represented as \(|\psi\rangle=\gamma_{1}|00\rangle+\gamma_{2}|01\rangle+\gamma_{3}|11\rangle+ \gamma_{4}|10\rangle\)where \(|\gamma_{1}|^{2}+|\gamma_{2}|^{2}+|\gamma_{3}|^{2}+|\gamma_{4}|^{2}=1\), \(|00\rangle\), \(|01\rangle\), \(|11\rangle\)and \(|10\rangle\)are the orthonormal basis states. Measurement of a qubit leads to the collapse of the qubit to one of its basis states. For example, \(\psi\)when measured will collapse to one of its four orthonormal states with probability \(|\gamma_{x}|^{2}\), where \(x=1,2,3,4\). 
+
+#### Quantum Entanglement 
+
+:  A two-qubit system can be in a special state which cannot be expressed as a tensor product of two other states. Lets consider a qubit \(|\psi_{1}\rangle=\delta_{1}|01\rangle+\delta_{2}|11\rangle\). This can be represented as \(|\psi_{1}\rangle=(\delta_{1}|0\rangle+\delta_{2}|1\rangle)\otimes|1\rangle\)where \(\otimes\)is the tensor product. However, a special two-qubit of the form \(|\psi_{2}\rangle=\delta_{1}|00\rangle+\delta_{2}|11\rangle\)cannot be represented as a tensor product to two states as \(|\psi_{1}\rangle\). These special states are called entangled states. There are four maximally entangled states also known as Bell pairs or EPR pairs, namely, \(\frac{|00\rangle+|11\rangle}{\sqrt{2}}\), \(\frac{|00\rangle-|11\rangle}{\sqrt{2}}\), \(\frac{|01\rangle+|10\rangle}{\sqrt{2}}\)and \(\frac{|01\rangle-|10\rangle}{\sqrt{2}}\). If the first qubit of the EPR pair is given to one node and the other to the second, and a measurement is performed on the EPR pair then their states are highly deterministic. For example, \(\frac{|01\rangle+|10\rangle}{\sqrt{2}}\)will collapse with the first node having a value \(0\) and the other having a value \(1\), and vice versa when measured. 
+
+#### Quantum Entanglement Swapping 
+
+:  If a node \(A\)is entangled to \(B\)and \(B\)in turn is entangled to \(C\)then \(A\)and \(C\)can be entangled with the measurement of the two individual entanglements. This is known as Quantum Entanglement Swapping. This process can be repeated over multiple hops to create a long-distance entanglement. 
+
+#### Quantum Teleportation 
+
+:  In a nutshell, quantum teleportation is a method of transferring any arbitrary qubit \(\Psi\) from one source to another using a Bell pair shared between them. It requires a classical channel to communicate the results of the measurement to the receiver. Using the result, the receiver applies linear transforms to recreate \(\Psi\). 
+
+### B. Model Description 
+
+Let there be \(N\)nodes in a quantum network. There are \(E\)edges in the network indexed with \(i\). A node \(j\)can have uniform random number of edges \(X^{(p)}_{j}\)in the range \(1\) to \(\lfloor\alpha N\rfloor\), \(0<\alpha\leqslant 1\), with other nodes. These \(X^{(p)}_{j}\)are designated as physical edges which can be used to set up direct entanglements between the connected nodes. 
+
+These entangled physical edges can help in setting up entanglement between nodes that are not physically connected using quantum entanglement swapping. For example, if node A is entangled with B and B in turn is entangled with C then applying entanglement swapping A and C can get entangled. Such edges which connect two remote entangled nodes set up using entanglement swapping are designated as virtual edges \(X^{(v)}_{j}\). Thus, the total number of edges that connect node \(j\)to its entangled neighbours (physical and virtual) is denoted by \(X_{j}\). Thus, 
+
+\[X_{j}=X^{(p)}_{j}+X^{(v)}_{j}\] (1)  
+
+This process of entanglement generation either directly through a physical link or indirectly through entanglement swapping can provide valuable insights (e.g., the centrality of edges) on how each physical edge \(e^{(p)}_{i}\)or a virtual \(e^{(v)}_{i}\)edge is involved in entanglement generation for a large quantum network when entanglements are needed between two remote nodes based on user connection setup requests \(k\). Traditionally, edge centrality measures are based on the shortest paths between nodes. Since, quantum entanglements are used on a peer-to-peer basis (when measurements are performed) usage frequencies ( \(f_{e^{(p)}_{i}}\)or \(f_{e^{(v)}_{i}}\)) of links during the entanglement generation and distributions are used as a measure of edge centrality in this paper. Generally, \(f_{e_{i}}\)denotes the usage frequency of any edge either physical or virtual in an entanglement setup. The higher the usage of a link the larger is its edge centrality. 
+
+As mentioned above, an edge (physical or virtual) is created in the graph of the quantum network when the two nodes share an entanglement. In the process of edges getting added, the degree centrality (the degree of the node) of the nodes also increases. Thus, degree centralities can also provide a key 

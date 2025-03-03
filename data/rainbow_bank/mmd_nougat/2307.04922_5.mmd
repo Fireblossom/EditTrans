@@ -1,0 +1,23 @@
+
+* 97 , 050505 (2006), URL  https://link.aps.org/doi/ 10.1103/PhysRevLett.97.050505 . [20] D. F. V. James, Applied Physics B 66 , 181 (1998), ISSN 1432-0649, URL  https://doi.org/10. 1007/s003400050373 . [21] T. Graß and M. Lewenstein, EPJ Quantum Technology 1 , 8 (2014), ISSN 2196-0763, URL  https://doi.org/10. 1140/epjqt8 . [22] Y. Zhu, A. M. Green, N. H. Nguyen, C. H. Alderete, E. Mossman, and N. M. Linke,  Pairwise-parallel entangling gates on orthogonal modes in a trapped-ion chain (2023), arXiv:2302.09145. [23] R. Islam, W. C. Campbell, T. Choi, S. M. Clark, C. W. S. Conover, S. Debnath, E. E. Edwards, B. Fields, D. Hayes, D. Hucul, et al., Opt. Lett.  39 , 3238 (2014), URL  https://opg.optica.org/ol/abstract.cfm?URI= ol-39-11-3238 . [24] S. Motlakunta, N. Kotibhaskar, C.-Y. Shih, A. Vogliano, D. Mclaren, L. Hahn, J. Zhu, R. Habl¨utzel, and R. Islam, 
+* Preserving a qubit during adjacent measurements at a few micrometers distance  (2023), arXiv:2306.03075. [25] S. Korenblit, D. Kafri, W. C. Campbell, R. Islam, E. E. Edwards, Z.-X. Gong, G.-D. Lin, L.-M. Duan, J. Kim, K. Kim, et al., New Journal of Physics  14 , 095024 (2012), URL  https://dx.doi.org/10.1088/1367-2630/ 14/9/095024 . [26] C. N. Varney, K. Sun, V. Galitski, and M. Rigol, Phys. Rev. Lett.  107 , 077201 (2011), URL  https://link.aps. org/doi/10.1103/PhysRevLett.107.077201 . [27] F. Rajabi, S. Motlakunta, C.-Y. Shih, N. Kotibhaskar, Q. Quraishi, A. Ajoy, and R. Islam, npj Quantum Information  5 , 32 (2019), ISSN 2056-6387, URL  https: //doi.org/10.1038/s41534-019-0147-x . [28] C. H. Baldwin, B. J. Bjork, M. Foss-Feig, J. P. Gaebler, D. Hayes, M. G. Kokish, C. Langer, J. A. Sedlacek, D. Stack, and G. Vittorini, Phys. Rev. A  103 , 012603 (2021), URL  https://link.aps.org/doi/10. 1103/PhysRevA.103.012603 . 
+
+## Appendix A: Distinguishing between XX and XY Hamiltonian (2 ions) 
+
+If we start with the Hamiltonian \(H=J^{x}_{12}\sigma_{x}^{1}\sigma_{x}^{2}+J^{y}_{12}\sigma_{y}^{1}\sigma_{y}^{2}\)and the evolution operator U such that \(U(\tau)=\mathrm{exp}(-iH\tau)\). It is easy to show that: 
+
+
+*  U \(\ket{\downarrow\downarrow}\)= \(\cos{\left(\tau\left(J^{x}_{12}-J^{y}_{12}\right)\right)}\)\(\ket{\downarrow\downarrow}\)\(i\sin{\left(\tau\left(J^{x}_{12}-J^{y}_{12}\right)\right)}\)\(\ket{\uparrow\uparrow}\)
+*  U \(\ket{\uparrow\uparrow}\)= \(\cos{\left(\tau\left(J^{x}_{12}-J^{y}_{12}\right)\right)}\)\(\ket{\uparrow\uparrow}\)\(i\sin{\left(\tau\left(J^{x}_{12}-J^{y}_{12}\right)\right)}\)\(\ket{\downarrow\downarrow}\)
+*  U \(\ket{\downarrow\uparrow}\)= \(\cos{\left(\tau\left(J^{x}_{12}+J^{y}_{12}\right)\right)}\)\(\ket{\downarrow\uparrow}\)\(i\sin{\left(\tau\left(J^{x}_{12}+J^{y}_{12}\right)\right)}\)\(\ket{\uparrow\downarrow}\)
+*  U \(\ket{\uparrow\downarrow}\)= \(\cos{\left(\tau\left(J^{x}_{12}+J^{y}_{12}\right)\right)}\)\(\ket{\uparrow\downarrow}\)\(i\sin{\left(\tau\left(J^{x}_{12}+J^{y}_{12}\right)\right)}\)\(\ket{\downarrow\uparrow}\)
+
+For the case of the XY Hamiltonian, we have that \(J^{x}_{12}=J^{y}_{12}\). When initialized in \(\ket{\downarrow\downarrow}\), we do not expect to see oscillations between ( \(\ket{\downarrow\downarrow}\), \(\ket{\uparrow\uparrow}\)). But when initialized in \(\ket{\downarrow\uparrow}\), we expect to see oscillations between ( \(\ket{\downarrow\uparrow}\), \(\ket{\uparrow\downarrow}\)) at a frequency of ( \(J^{x}_{12}+J^{y}_{12}\)). 
+
+## Appendix B: Detailed derivation of constraint in Eq. (8) ) and with \(\delta_{xm}=\omega_{m}-\mu_{1}\) and \(\delta_{ym}=\omega_{m}-\mu_{2}\) we have, 
+
+Hx=∑i,mηi⁢mΩix(ame−i⁢(δx⁢m⁢t+ψx)+h.c.)σxi,Hy=∑i,mηi⁢mΩiy(ame−i⁢(δy⁢m⁢t+ψy)+h.c.)σyi (9)  
+
+The first two terms in the exponent of (5) come from calculations already described in [4]. The last two terms come from the cross commutators, 
+
+[Hx⁢(t1),Hy⁢(t2)]+[Hy⁢(t1),Hx⁢(t2)]=[∑i,mηi⁢mΩix(ame−i⁢(δx⁢m⁢t1+ψx)+h.c.)σxi,∑j,nηj⁢nΩjy(ane−i⁢(δy⁢n⁢t2+ψy)+h.c.)σyi]+[∑i,mηi⁢mΩiy(ame−i⁢(δy⁢m⁢t1+ψy)+h.c.)σyi,∑j,nηj⁢nΩjx(ane−i⁢(δx⁢n⁢t2+ψx)+h.c.)σxi]  

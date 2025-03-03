@@ -1,0 +1,22 @@
+and thus tr(|0⟩⟨0|⋅e−β⁢ρ±tr⁡(e−β⁢ρ±))=e±1e+e−1.  By Equation (5), we can consider \(\rho_{+}\) and \(\rho_{-}\)separately as follows: 
+
+\[\Pr\left[\mathcal{T}^{U_{\rho_{+}}}\textup{ outputs }0\right]\] ⩾tr(|0⟩⟨0|⋅e−β⁢ρ+tr⁡(e−β⁢ρ+))−ε=ee+e−1−ε⩾23, \[\Pr\left[\mathcal{T}^{U_{\rho_{-}}}\textup{ outputs }0\right]\] ⩽tr(|0⟩⟨0|⋅e−β⁢ρ−tr⁡(e−β⁢ρ−))+ε=e−1e+e−1+ε⩽13.  
+
+We conclude that \(\mathcal{T}\) is a tester for \(\textsc{Dis}_{\rho_{+},\rho_{-}}^{\diamond}\). 
+
+#### Quantum Gibbs sampler given the square root of the Hamiltonian A quantum query algorithm \(\mathcal{A}\)is said to be a quantum Gibbs sampler given the square root  of the Hamiltonian with precision \(\varepsilon\) at inverse temperature \(\beta\), if for every block-encoding \(U\) of 
+
+\(\sqrt{H}\)\(\sqrt{H}\)where \(H\) is a Hamiltonian, \(\mathcal{A}^{U}\)prepares a mixed quantum state that is \(\varepsilon\)-close to the Gibbs state \(e^{-\beta H}/\operatorname{tr}\lparen e^{-\beta H}\rparen\)in trace distance. 
+
+**Theorem 4.2**  (Impossibility of improving quantum Gibbs sampling given stronger oracles) **.** _ For_ \(\beta\geqslant 2\)_ and_ \(0<\varepsilon\leqslant 1/5\)_, any quantum Gibbs sampler given the square root of the Hamiltonian with_ _precision_ \(\varepsilon\)_ at inverse temperature_ \(\beta\)_ has quantum query complexity_ \(\widetilde{\Omega}\lparen\beta\rparen\)\(\widetilde{\Omega}\lparen\beta\rparen\)_._ _Proof._  Suppose that there is a quantum Gibbs sampler \(\mathcal{A}\) with precision \(\varepsilon\)at inverse perature \(\beta\), which has quantum query complexity \(Q\), such that for every block-encoding \(U\) of 
+
+\(\sqrt{H}\)\(\sqrt{H}\) where \(H\)is an \(n\)-qubit Hamiltonian, ∥trenv(𝒜U(|0⟩⟨0|⊗n⊗|0⟩⟨0|⊗nenv⏟env)(𝒜U)†)−e−β⁢Htr⁡(e−β⁢H)∥1⩽ε.  
+
+The proof follows that of Theorem 4.1. The difference is that Equation (5) in the proof of Theorem 4.1 becomes |∗|Pr[𝒯Uρ± outputs 0]−tr(|0⟩⟨0|⋅e−β⁢ρ±2tr⁡(e−β⁢ρ±2))⩽ε.  In fact, the arguments in the proof of Theorem 4.1 still work here. This can be seen by noting that e−β⁢ρ±2tr⁡(e−β⁢ρ±2)=e−β⁢ρ±tr⁡(e−β⁢ρ±)=1e+e−1(e±1|0⟩⟨0|+e∓1|1⟩⟨1|)  under the choice of \(\rho_{\pm}\). 
+
+### Entanglement entropy problem 
+
+The entanglement entropy problem \(\textsc{Entropy}_{N,a,b}\)with \(0<a<b\leqslant\ln\lparen N\rparen\)is a promise problem for unitary property testing, with 
+
+
+*  Yes instance: U=I−2|ψ⟩⟨ψ| such that S2(trB(|ψ⟩⟨ψ|))⩽a, 

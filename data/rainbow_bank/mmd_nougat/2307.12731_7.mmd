@@ -1,0 +1,19 @@
+The full set of instrumental variables is given by Z=[W1:Z2],  so that the number of instrumental variables, \(k_{1}+k_{3}\), can be larger than the number of endogenous variables, \(k_{1}+k_{2}\), i.e. we are possibly dealing with an overidentified model. Hence, I will consider the 2SLS estimator, also known as the generalized instrumental variables estimator ( Davidson and MacKinnon ,  2004 , p. 321), for the full regression model ( 2 ). 4 4 The 2SLS estimator uses, from among all possible linear combination of the set of instruments, the one that minimizes the The unique 2SLS estimator for coefficients in the full regression model ( 2 ) is given by ( asymptotic covariance matrix of the instrumental variables estimator ( Greene ,  2012 Brundy and Jorgenson , p. 231), ,  1971 
+
+\[b=\begin{pmatrix}\underset{\left(k_{1}\times 1\right)}{b_{1}}\\ \underset{\left(k_{2}\times 1\right)}{b_{2}}\end{pmatrix}=\left[\left(P_{Z}W \right)^{\prime}W\right]^{-1}\left(P_{Z}W\right)^{\prime}Y,\] (6)  
+
+where ). \(P_{Z}=Z\left(Z^{\prime}Z\right)^{-1}Z^{\prime}\)projects on to the column space of \(Z\). Hence, 
+
+\[b_{2}=\text{ ($2,1$) block of }\left[\left(P_{Z}W\right)^{\prime}W\right]^{-1} \left(P_{Z}W\right)^{\prime}Y.\] (7)  
+
+Turning to the partial model ( 3 ), we estimate it with the instrumental variables formed by the residualized set of instrumental variables, \(\widetilde{Z}_{2}=M_{W_{1}}Z_{2}\)\(\widetilde{Z}_{2}=M_{W_{1}}Z_{2}\), which is a \(N\times k_{3}\) matrix. Thus, the 2SLS estimator for the partial regression model ( 3 ) is given by 
+
+\[\tilde{b}_{2}=\left[\left(P_{\widetilde{Z}_{2}}\widetilde{W}_{2}\right)^{ \prime}\widetilde{W}_{2}\right]^{-1}\left(P_{\widetilde{Z}_{2}}\widetilde{W}_{ 2}\right)^{\prime}\widetilde{Y},\] (8)  \[\tilde{b}_{2}=\left[\left(P_{\widetilde{Z}_{2}}\widetilde{W}_{2}\right)^{ \prime}\widetilde{W}_{2}\right]^{-1}\left(P_{\widetilde{Z}_{2}}\widetilde{W}_{ 2}\right)^{\prime}\widetilde{Y},\] (8)  
+
+where \(P_{\widetilde{Z}_{2}}=\widetilde{Z}_{2}\left(\widetilde{Z}_{2}^{\prime} \widetilde{Z}_{2}\right)^{-1}\widetilde{Z}_{2}^{\prime}\)projects on to the column space of \(\widetilde{Z}_{2}\)\(\widetilde{Z}_{2}\). 
+
+**Theorem 1.** _ For instrumental variables estimation of the coefficients in the full regression model (_ _2_ _) and_ _the partial regression model (_ _3_ _), we have_ 
+
+_1. the estimated coefficient vectors_ \(b_{2}\)_ in (_ _7_ _) and_ \(\tilde{b}_{2}\)\(\tilde{b}_{2}\)_ in (_ _8_ _) are identical, and_ _2. the residual vectors from the full model (_ _2_ _) and from the partial model (_ _3_ _) are identical._ 
+
+The results in theorem  1  applies to the following special cases: (a) the instrumental variables (IV) estimator for an exactly identified model, when the number of instruments is exactly equal to the number 

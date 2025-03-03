@@ -1,0 +1,27 @@
+tackled using inverse probability weighting methods. Since there are various types of reserves in general insurance, in this section we provide the overall idea of the methodology for the total reserve of outstanding claims only. Section 3 will delve into the specific details of the methodology for the most prevalent and significant reserves in general insurance, namely RBNS and IBNR reserves. 
+
+### The claim reserving problem 
+
+Suppose an insurance company is analyzing its total liabilities associated with claims whose accident times occur between \(t=0\)and \(t=\tau\), where \(\tau\) is the valuation time of analysis as defined by the actuary. In general insurance, accidents are often not immediately reported to the insurance company for various reasons, resulting in a significant delay between the occurrence of a claimable accident and the time the insurance company is notified. Therefore, at a given valuation time \(\tau\), the insurance company only has information on the claims reported by \(\tau\) and is unaware of the unreported claims. Furthermore, the complexity of the problem increases due to another delay in the payment process. When a claim is reported, it is common for it to be paid in several subpayments over time rather than as a lump sum. This is because the impact of an accident can evolve, requiring additional payments until it is fully settled. Therefore, at a given valuation time \(\tau\), the insurance company is only aware of the claims that were reported on time, and for each one, it may have paid only a partial amount of the associated claim size, rather than the entire amount. 
+
+As a result, the insurance company is interested in estimating the total claim amount of these unreported claims, as well as the remaining payments of the reported claims, to construct the overall reserve of outstanding claims. This reserve is also known in the insurance jargon as the Incurred But Not Settled (IBNS), and it’s usually decomposed into further subcomponents depending on whether the payment is associated with a reported or not reported claim. For simplicity, here we consider the estimation of the overall reserve of outstanding claims without referring to the components. 
+
+That said, let’s describe the payment process as follows: 
+
+
+*  Let \(N(\tau)\)represent the total number of different payments associated with all the claims whose accident time is before the valuation time \(\tau\). 
+
+
+*  Let \(Y_{i}\), \(i=1,\ldots,N(\tau)\)denote the sequence payments. Note that some payments may belong to the same claim/accident, but we will not make any distinction. 
+
+
+*  Let \(T_{i}\), \(i=1,\ldots,N(\tau)\)denote the sequence of accident times associated with the claim underlying each payment; let \(R_{i}\), \(i=1,\ldots,N(\tau)\)denote the sequence of the associated reporting times; let \(S_{i}\), \(i=1,\ldots,N(\tau)\)denote the sequence of the associated times in which the payments take place. Clearly, \(T_{i}<R_{i}<S_{i}\) and note that the values \(T_{i},R_{i}\) would be the same for payments associated with the same claim, but the \(S_{i}\) would differ. 
+
+
+*  Let \(U_{i}=R_{i}-T_{i}\), \(i=1,\ldots,N(\tau)\)be the sequence of the reporting delay times associated with the claim underlying each payment, and \(V_{i}=S_{i}-R_{i}\), \(i=1,\ldots,N(\tau)\)be the sequence of the associated payment delay time of each payment. Note that \(U_{i}\) is the same for all the payments associated with the same claim. 
+
+
+*  Let \(X_{i}\), \(i=1,\ldots,N(\tau)\)be the sequence of information/attributes of relevance, that is associated with the accident, the type of claim, the policyholder attributes, or the characteristics of the payment itself. 
+
+
+*  Let \(N^{P}(\tau)\)the number of payments made by valuation time \(\tau\) out of the total \(N(\tau)\)i.e the number of payments made to the claims reported by \(\tau\). 

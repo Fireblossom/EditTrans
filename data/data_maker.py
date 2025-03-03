@@ -6,10 +6,9 @@ from operator import itemgetter
 from dataclasses import dataclass
 from typing import Optional
 from pathlib import Path
-FLAGS = fitz.TEXTFLAGS_DICT | fitz.TEXT_DEHYPHENATE & ~fitz.TEXT_PRESERVE_IMAGES
+FLAGS = fitz.TEXTFLAGS_DICT & ~fitz.TEXT_PRESERVE_IMAGES # fitz.TEXTFLAGS_DICT | fitz.TEXT_DEHYPHENATE & ~fitz.TEXT_PRESERVE_IMAGES
 from helpers.multi_column import column_boxes
-from helpers.get_text_lines import get_raw_lines
-from helpers.pymupdf_rag import is_in_rects, intersects_rects
+import pypandoc
 
 @dataclass
 class RainbowLatexToken:
@@ -21,7 +20,6 @@ class RainbowLatexToken:
     text: str = ''
     line_no: int = 0
     tex: Optional[str] = None
-    
     
 
 def get_depth(toc_table: pd.DataFrame) -> dict:
@@ -115,6 +113,11 @@ def flags_decomposer(flags):
 
 
 class DatasetMaker:
+    def __init__(self, table_format='latex', table_position='end', figure_position='end'):
+        self.table_format = table_format
+        self.table_position = table_position
+        self.figure_position = figure_position
+
     def process_file(self, filename: Path, output_path:Path):
         basepath = filename.parent
         annotation = pd.read_csv(basepath/(filename.stem+'_data.csv'), sep='\t', low_memory=False)
@@ -156,7 +159,11 @@ class DatasetMaker:
                 img_name = filename.stem+'_{}.png'.format(page_no)
 
                 text_dict = pdf_page_obj.get_text('dict', flags=FLAGS, sort=True)
-                text_rects = column_boxes(pdf_page_obj) #sometimes doesn't work, so resort with reading order from rainbowlatex
+                
+                text_rects = column_boxes(pdf_page_obj) 
+                # sometimes doesn't work, so we resort with reading order from rainbowlatex
+                # this step is time consuming, do we really need to keep it?
+
                 height, width = text_dict['height'], text_dict['width']
                 rainbow_tokens = get_page_tokens(annotation, page_no=page_no)
                 labels_in_page = set([t.label for t in rainbow_tokens])
@@ -196,10 +203,26 @@ class DatasetMaker:
                 sorted_keys = sorted(merged_reading_orders.items(), key=itemgetter(1))
                 sorted_dataset = [dataset[key] for key, _ in sorted_keys]
 
-                sorted_mmd = [mmd[key] for key, _ in sorted_keys]
-                sorted_mmd += self.add_end_mmd
-
+                if self.table_position == 'end' and self.figure_position == 'end':
+                    sorted_mmd = [mmd[key] for key, _ in sorted_keys]
+                    sorted_mmd += self.add_end_mmd
+                elif self.table_position == 'start' and self.figure_position == 'end':
+                    float_mmds = ''.join(self.add_end_mmd).split('\n\n')
+                    add_start_mmd = []
+                    add_end_mmd = []
+                    for m in float_mmds:
+                        if m.lower().lstrip('*').startswith('fig'): # figure caption
+                            add_end_mmd.append('\n\n'+m)
+                        else:
+                            add_start_mmd.append('\n\n'+m)
+                    sorted_mmd = add_start_mmd + [mmd[key] for key, _ in sorted_keys] + add_end_mmd
+                else:
+                    assert self.figure_position == 'middle' and self.table_position == 'middle', 'unk setting'
+                    sorted_mmd = [mmd[key] for key, _ in sorted_keys]
+                    
+                sorted_mmd = [m[:-2] if m.endswith('- ') else m for m in sorted_mmd]
                 mmd = ''.join(sorted_mmd)
+                mmd = mmd.replace('\n\n\n\n', '\n\n')
                 if mmd.startswith('\n\n'):
                     mmd = mmd[2:]
                 # print(label_segment_order)
@@ -316,10 +339,10 @@ class DatasetMaker:
                 no_anno = True
 
             if isinstance(label, str):
-                if label != self.last_label_mmd:
-                    self.last_2_label_mmd = self.last_label_mmd
-                    self.last_label_mmd = label
-            if self.first_page and no_anno and 'Title' == self.last_2_label_mmd and 'Author' == self.last_label_mmd: # addresses
+                if label != self.last_label_dataset:
+                    self.last_2_label_dataset = self.last_label_dataset
+                    self.last_label_dataset = label
+            if self.first_page and no_anno and 'Title' == self.last_2_label_dataset and 'Author' == self.last_label_dataset: # addresses
                 span_output['filter_label'] = 'I'
 
             words = []
@@ -387,15 +410,17 @@ class DatasetMaker:
                 section_id = most_common([t.section_id for t in in_bbox_tokens])
             else:
                 section_id = set([t.section_id for t in in_bbox_tokens]).pop()
-            
+
+            label = labels_set.pop()
             if block_id != self.mmd_block_id:
                 # start new block
                 new_block = True
                 self.mmd_block_id = block_id
+            elif {self.last_label_mmd, label} == {"Section", "Paragraph"}: # section and paragraph could have the same block id
+                new_block = True
             else:
                 new_block = False
 
-            label = labels_set.pop()
             if label in ['Paragraph', 'Author']:
                 if new_block and not mmd.endswith('\n\n'): 
                     mmd += '\n\n'
@@ -465,13 +490,28 @@ class DatasetMaker:
             elif label in ['Table']:
                 if new_block and self.add_end_mmd and not self.add_end_mmd[-1].endswith('\n\n'):
                     self.add_end_mmd.append('\n\n')
+                elif new_block and self.table_position == 'middle':
+                    self.add_end_mmd.append('\n\n')
+
                 for t in in_bbox_tokens:
                     if isinstance(t.tex, str):
-                        self.add_end_mmd.append(t.tex)
+                        if self.table_format == 'latex':
+                            self.add_end_mmd.append(t.tex)
+                        elif self.table_format == 'md':
+                            self.add_end_mmd.append(pypandoc.convert_text(t.tex, 'md', format='latex'))
+                        elif self.table_format == 'html':
+                            self.add_end_mmd.append(pypandoc.convert_text(t.tex, 'html', format='latex'))
+                        else:
+                            raise ValueError('Table format not supported.')
+                        break
+                            
             elif label in ['Caption']:
                 # add to end
                 if new_block and self.add_end_mmd and not self.add_end_mmd[-1].endswith('\n\n'): 
                     self.add_end_mmd.append('\n\n')
+                elif new_block and self.table_position == 'middle':
+                    self.add_end_mmd.append('\n\n')
+
                 if 'bold' in flags:
                     self.add_end_mmd.append('**' + span['text'] + '** ')
                 elif 'italic' in flags:
@@ -498,6 +538,9 @@ class DatasetMaker:
                     else:
                         mmd += span['text'] + ' '
 
+            if self.table_position == 'middle' and self.add_end_mmd:
+                mmd += ''.join(self.add_end_mmd)
+                self.add_end_mmd = []
             return [mmd]
         
         else:
@@ -512,24 +555,20 @@ class DatasetMaker:
             return ret
 
 
-def process_file(file, output):
-    processor = DatasetMaker()
+def process_file(file, output, table_format='latex', table_position='end', figure_position='end'):
+    processor = DatasetMaker(table_format, table_position, figure_position)
     processor.process_file(file, output)
 
 
-if __name__ == "__main__":
-    process_file(Path('/raid/oldhome/elektra/home/duan/EditTrans/outputs/2308.08384.pdf'), Path('/raid/oldhome/elektra/home/duan/EditTrans/rainbow_bank_pymupdf'))
-    exit()
+def main(input_path, output_path, table_fromat, table_position, figure_position):
     from pebble import ProcessPool
     from multiprocessing import set_start_method
     from concurrent.futures import TimeoutError, as_completed
     from collections import OrderedDict
     import logging
 
-    TIMEOUT_SECONDS = 300
+    TIMEOUT_SECONDS = 1200
     
-    input_path = Path('outputs/')
-    output_path= Path('rainbow_bank_pymupdf')
     output_path.mkdir(exist_ok=True)
     
     logging.basicConfig(filename='error.log', encoding='utf-8', level=logging.ERROR)
@@ -539,7 +578,7 @@ if __name__ == "__main__":
     args = []
     for file in input_path.glob('*.pdf'):
         #file = Path('outputs/1412.8507.pdf')
-        args.append([file, output_path])
+        args.append([file, output_path, table_fromat, table_position, figure_position])
 
     debug = False
     if debug:
@@ -568,4 +607,16 @@ if __name__ == "__main__":
             pool.terminate()
             pool.join()
             pool.close()
-        
+
+if __name__ == "__main__":
+    #process_file(Path('outputs_latex_rainbow/2307.05191.pdf'), Path('.')) # debug
+
+    input_path = Path('outputs_latex_rainbow/')
+    output_path= Path('rainbow_bank_nougat')
+    main(input_path, output_path, 'latex', 'end', 'end')
+
+    output_path = Path('rainbow_bank_kosmos')
+    main(input_path, output_path, 'html', 'start', 'end')
+
+    output_path = Path('rainbow_bank_olmocr')
+    main(input_path, output_path, 'md', 'middle', 'middle')

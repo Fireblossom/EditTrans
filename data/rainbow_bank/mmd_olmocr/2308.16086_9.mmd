@@ -1,0 +1,66 @@
+Here we prove an alternate formula for the charging distance for pure states. 
+
+_Sketch._ The theorem is proved by separating the Hilbert space dimension into two relevant and other irrelevant dimensions. The relevant dimension is given by the plane spanned by \(\ket{\psi}\)and \(\ket{\phi}\). The optimal unitary transforms one of the states into the other by rotating it in this plane. Thus, the total unitary \(U\) can be expressed as a direct sum of unitary operators \(U=U_{2}\oplus U_{d-2}\). \(U_{d-2}\) turns out to be irrelevant for the distance, and \(U_{2}\) is a twodimensional unitary that is easily parameterized. Analytical optimization in Theorem  2 yields \(\arccos(\left|\innerproduct{\psi}{\phi}\right|)\). 
+
+_Proof._  (Theorem  3 ) The dimensions except for the two dimensions of a plane where states live, can not contribute to evolution by the optimal time-independent driving Hamiltonian. Terms of these additional dimensions in \(U\) just make \(\|i\ln(U)\|\)increase without changing the state, thus, they will be irrelevant for the optimal charging unitary. 
+
+Generally, unitary operator \(\ket{\varphi_{\perp}}\)lives in the plane defined by both \(\ket{\psi}\)and \(\ket{\varphi}\). Using the Gram-Schmidt process, we derive the orthogonal vector to \(\ket{\psi}\)in this plane as 
+
+\[\ket{\psi_{\perp}}=\frac{\ket{\varphi}-\innerproduct{\psi}{\varphi}\ket{\psi}} {\sqrt{1-\left|\innerproduct{\psi}{\varphi}\right|^{2}}}e^{-i\phi^{\prime}},\] (59)  
+
+except for the case \(\left|\innerproduct{\psi}{\varphi}\right|=1\), which is trivial since \(D(\ket{\psi},\ket{\varphi})\) is clearly zero. \(e^{-i\phi}\)is a phase that can be chosen arbitrarily, but note that it appears in the parametrization below. 
+
+\(U\) that connects the two pure states can be expressed as a sum of three terms, 
+
+\[U=|\varphi\rangle\langle\psi|e^{i\phi_{1}}+|\varphi_{\perp}\rangle\langle\psi_ {\perp}|e^{i\phi_{2}}+U^{\prime},\] (60)  
+
+where \(U^{\prime}\)is an arbitrary unitary operator that lives in the irrelevant dimensions orthogonal to \(\ket{\psi}\)and \(\ket{\varphi}\). \(U\)can be expressed as a direct sum, 
+
+\[U=\begin{pmatrix}\cos(\theta)e^{i(\phi_{1}+\phi)}&-\sin(\theta)e^{i(\phi_{2}+ \phi)}\\ \sin(\theta)e^{i(\phi_{1}+\phi^{\prime})}&\cos(\theta)e^{i(\phi_{2}+\phi^{ \prime})}\end{pmatrix}\oplus U^{\prime},\] (61)  
+
+in the basis \(\{\ket{\psi},\ket{\psi_{\perp}}\}\). We expressed the other states as \(\ket{\varphi}=(\cos(\theta)e^{i\phi},\sin(\theta)e^{i\phi^{\prime}})^{T}\)and \(\ket{\varphi_{\perp}}=(-\sin(\theta)e^{i\phi},\cos(\theta)e^{i\phi^{\prime}})^ {T}\)in that basis, and we assume \(\theta\in[0,\pi/2)\), \(\phi,\phi^{\prime}\in[0,2\pi)\). Note that in this parametrization, 
+
+θ=arccos⁡(|⟨ψ|φ⟩|),ei⁢ϕ=⟨ψ|φ⟩|⟨ψ|φ⟩|,ei⁢ϕ′=⟨ψ⟂|φ⟂⟩|⟨ψ⟂|φ⟂⟩|, (62)  
+
+as long as the denominator is nonzero. This excludes orthogonal states. If the denominator is zero, then 
+
+\[e^{i\phi}=-\innerproduct{\psi}{\varphi_{\perp}},\quad e^{i\phi^{\prime}}= \innerproduct{\psi_{\perp}}{\varphi}.\] (63)  
+
+\(\|i\ln(U)\|\)is function of \(\phi_{1}\) and \(\phi_{2}\) for a given \(\theta\), \(\phi\) and \(\phi^{\prime}\)as 
+
+\[\begin{split}&\|i\ln(U)\|=\max\bigg{\{}\|i\ln(U^{\prime})\|,\\ &\bigg{|}\arccos(\cos(\theta)\cos(\frac{\phi_{1}\!+\!\phi\!-\!\phi_{2}\!-\! \phi^{\prime}}{2}))+i\frac{\phi_{1}\!+\!\phi\!+\!\phi_{2}\!+\!\phi^{\prime}}{2 }\bigg{|},\\ &\bigg{|}\arccos(\cos(\theta)\cos(\frac{\phi_{1}\!+\!\phi\!-\!\phi_{2}\!-\! \phi^{\prime}}{2}))-i\frac{\phi_{1}\!+\!\phi\!+\!\phi_{2}\!+\!\phi^{\prime}}{2 }\bigg{|}\,\bigg{\}}\end{split}\] (64)  
+
+which is minimized to \(\theta\) when \(\phi_{1}=-\phi\) and \(\phi_{2}=-\phi^{\prime}\)and when \(\|i\ln(U^{\prime})\|\)is smaller than the other two terms. By Theorem , \(D(\ket{\psi},\ket{\varphi})\) is equal to \(\theta=\arccos(\left|\innerproduct{\psi}{\varphi}\right|)\). 
+
+The prescription for  \({\hat{U}}_{\mathrm{opt}}\)\({\hat{U}}_{\mathrm{opt}}\) is obtained by inserting \(\phi_{1}=-\phi\) and \(\phi_{2}=-\phi^{\prime}\)into equations , while considering Eq. ( C2 ). We can also choose \(U^{\prime}=\hat{I}_{d-2}\) as an identity on the orthogonal dimensions, since for such \(U^{\prime}\), \(\|i\ln(U^{\prime})\|=0\). The optimal Hamiltonian is then obtained as \({\hat{V}}_{\mathrm{opt}}=i\ln(U_{\mathrm{opt}})/D({\hat{\rho}},{\hat{\sigma}})\)\({\hat{V}}_{\mathrm{opt}}=i\ln(U_{\mathrm{opt}})/D({\hat{\rho}},{\hat{\sigma}})\), as per Theorem . 
+
+## Appendix D: Proof of Theorem  4 
+
+Here we prove an alternate formula for the charging distance for mixed states. 
+
+_Sketch._  We will show that condition \(U{\hat{\rho}}U^{{\dagger}}={\hat{\sigma}}\) implies the form \(U=\bigoplus_{i=1}^{m}U_{i}(\sum_{i=1}^{m}\sum_{k=1}^{n_{i}}|s_{i}^{k}\rangle \langle r_{i}^{k}|)\). 
+
+_Proof._  (Theorem  4 ) Any unitary operator can be written as a product of two unitary operators, 
+
+\[U=U^{\prime}U^{\prime\prime}.\] (65)  
+
+\(U^{\prime\prime}\)can be chosen arbitrarily and \(U^{\prime}\)is determined by \(U\)and \(U^{\prime\prime}\). We set \(U^{\prime\prime}=\sum_{i=1}^{m}\sum_{k=1}^{n_{i}}|s_{i}^{k}\rangle\langle r_{i }^{k}|\). Then 
+
+\[U=U^{\prime}\sum_{i=1}^{m}\sum_{k=1}^{n_{i}}|s_{i}^{k}\rangle\langle r_{i}^{k}|.\] (66)  
+
+\(U\) has to satisfy 
+
+\[U{\hat{\rho}}U^{{\dagger}}=U^{\prime}{\hat{\sigma}}U^{\prime{\dagger}}={\hat{ \sigma}},\] (67)  
+
+which can be rewritten as 
+
+\[[U^{\prime},{\hat{\sigma}}]=0.\] (68)  
+
+We use a general representation of a matrix to express \(U^{\prime}\)as 
+
+\[U^{\prime}=\sum_{i=1}^{m}\sum_{k=1}^{n_{i}}\sum_{j=1}^{m}\sum_{l=1}^{n_{i}}u_{ ikjl}|s_{i}^{k}\rangle\langle s_{j}^{l}|.\] (69)  
+
+We compute the commutator, 
+
+\[[U^{\prime},{\hat{\sigma}}]=\sum_{i=1}^{m}\sum_{k=1}^{n_{i}}\sum_{j=1}^{m}\sum _{l=1}^{n_{i}}(r_{j}-r_{i})u_{ikjl}|s_{i}^{k}\rangle\langle s_{j}^{l}|.\] (70)  
+

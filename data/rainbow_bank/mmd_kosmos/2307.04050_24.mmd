@@ -1,0 +1,83 @@
+**Table 3:** _ Optimality Gap (%) with respect to the Total Trailer Cost_ 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Instance</th>
+<th colspan="6" style="text-align: center;">Model (1)</th>
+<th colspan="2" style="text-align: center;">GH</th>
+<th colspan="2" style="text-align: center;">Proxies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-11</span></td>
+<td style="text-align: center;">1s</td>
+<td style="text-align: center;">5s</td>
+<td style="text-align: center;">10s</td>
+<td style="text-align: center;">30s</td>
+<td style="text-align: center;">60s</td>
+<td style="text-align: center;">1800s</td>
+<td style="text-align: center;">Gap</td>
+<td style="text-align: center;">Time (s)</td>
+<td style="text-align: center;">Gap</td>
+<td style="text-align: center;">Time (s)</td>
+</tr>
+<tr>
+<td style="text-align: left;">M</td>
+<td style="text-align: right;">2.59</td>
+<td style="text-align: right;">0.55</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">3.84</td>
+<td style="text-align: right;">3.12</td>
+<td style="text-align: right;">1.14</td>
+<td style="text-align: right;">0.33</td>
+</tr>
+<tr>
+<td style="text-align: left;">L</td>
+<td style="text-align: right;">51.15</td>
+<td style="text-align: right;">5.22</td>
+<td style="text-align: right;">2.18</td>
+<td style="text-align: right;">1.71</td>
+<td style="text-align: right;">1.41</td>
+<td style="text-align: right;">1.39</td>
+<td style="text-align: right;">12.85</td>
+<td style="text-align: right;">13.28</td>
+<td style="text-align: right;">3.80</td>
+<td style="text-align: right;">1.10</td>
+</tr>
+<tr>
+<td style="text-align: left;">XL</td>
+<td style="text-align: right;">77.35</td>
+<td style="text-align: right;">14.02</td>
+<td style="text-align: right;">10.41</td>
+<td style="text-align: right;">2.93</td>
+<td style="text-align: right;">2.07</td>
+<td style="text-align: right;">0.93</td>
+<td style="text-align: right;">17.01</td>
+<td style="text-align: right;">121.55</td>
+<td style="text-align: right;">5.21</td>
+<td style="text-align: right;">2.49</td>
+</tr>
+</tbody>
+</table>
+
+
+### Computational Performance of the Optimization Proxies 
+
+This section presents numerical experiments used to assess the performance of the proposed optimization proxies (Proxies) against the optimization models (GDO) and the greedy heuristic (GH). 
+
+**Optimality Gap:** 
+
+Table 3 presents the optimality gaps of various approaches, including the results of Model  (1)  under various time constraints. In the table, the columns under “Gap of Model  (1) ” denote the optimality gaps of the model under various time limits. Similarly, columns _ Gap_  for GH and Proxies denote optimality gaps for GH and the optimization proxies. In addition, columns _ Time(s)_  denote the solving times for GH and Proxies. 
+
+Recall that Model  (1)  produces solutions that exhibit considerable variability when the total commodity volume is perturbed as detailed in Table 4 and 5. As such, it is unlikely to be practical in scenarios with planners in the loop. Hence, the table compares the optimization proxies and the heuristics GH with an “idealized” benchmark. With this caveat in place, observe the performance of the optimization proxies under tight time constraints. Proxies generate solutions with low optimality gaps and may be up to 10 to 50 times faster than GH, and around 10 times faster than Model  (1)  solved with Gurobi. Second, although Model  (1)  efficiently produces solutions with low optimality gaps, closing the optimizality gap proves to be a significant challenge due to the poor LP relaxation. The performance of GH is also impeded by the inefficiencies of the LP relaxation, as it solves the LP relaxations over many iterations; it takes the GH \(30\)iterations for terminal M, \(200\)iterations for terminal L, and more than \(1000\)iterations for terminal XL to generate a feasible solution. 
+
+**Consistency:** 
+
+Tables 4 and 5 report the consistency of solutions obtained from different models in terms of the normalized distance to the reference load plan and the total variation of the generated solutions. As GDO requires running Model  (1)  and Model  (2)  sequentially, these experiments set the same time limits for the two stages. For example, if a time limit of 30 seconds is set, GDO runs Model  (1)  for 30 seconds and subsequently runs Model (2) using the best upper bound obtained from Model (1) for another 30 seconds. 
+
+_The high-level result is that proxies are ideally suited to produce consistent plans._  Table 4 shows that the proxies accurately predict, in a few seconds, the results produced by GDO after an hour. Furthermore, Table 5 

@@ -1,0 +1,29 @@
+_better estimation of the total liability and, consequently, a more accurate estimation of the IBNR_ _reserve._ 
+
+_In this case, within the two-stage sampling mechanism described in Section 2, we can assume_ _that only the first stage is performed. This means that either a claim is reported or not, and the_ _ultimate value of the claim as based on the case estimates, which we will denote as_ \(\hat{Y}_{i}\)\(\hat{Y}_{i}\)_, is observed._ _Alternatively, this can be viewed as if there was only one payment per claim, where that payment_ _represents the full amount of the claim._ 
+
+_Following this analogy, with this ”single payment” per claim, we can estimate the total out-_ _standing claims and the IBNR reserve using the IPW framework as follows:_ 
+
+\[\hat{L}(\tau)=\sum_{j=1}^{N^{P}(\tau)}\frac{\hat{Y}_{j}}{\pi_{j}^{U}(\tau)}\]  \[\hat{L}(\tau)=\sum_{j=1}^{N^{P}(\tau)}\frac{\hat{Y}_{j}}{\pi_{j}^{U}(\tau)}\]  
+
+
+
+\[\hat{L}^{IBNR}(\tau)=\sum_{j=1}^{N^{P}(\tau)}\frac{1-\pi_{j}^{U}(\tau)}{\pi_{j }^{U}(\tau)}\hat{Y}_{j}\]  \[\hat{L}^{IBNR}(\tau)=\sum_{j=1}^{N^{P}(\tau)}\frac{1-\pi_{j}^{U}(\tau)}{\pi_{j }^{U}(\tau)}\hat{Y}_{j}\]  
+
+
+
+_where in this case_ \(N^{P}(\tau)\)_ denotes the number of these ”single payments” made by valuation_ _time_ \(\tau\)_, which coincides with just the number of reported claims._ 
+
+_The resulting estimator for the IBNR provides an intuitive interpretation of the estimator of_ _the previous section. Indeed, we can informally interpret the quantity_ \(Y_{j}/\pi_{j}^{V}(\tau)\)_ in the equation_ _above as an HT estimator of the ultimate amount of the claim_ \(\hat{Y}_{j}\)\(\hat{Y}_{j}\)_, so leading to the estimator in_ _the previous equation._ 
+
+\[\hat{L}(\tau)=\sum_{j=1}^{M^{I}(\tau)}\frac{\hat{Y}_{j}}{\pi_{j}^{U}(\tau)}\]  \[\hat{L}(\tau)=\sum_{j=1}^{M^{I}(\tau)}\frac{\hat{Y}_{j}}{\pi_{j}^{U}(\tau)}\]  
+
+\[\hat{L}^{IBNR}(\tau)=\hat{L}(\tau)-L^{I}(\tau)=\sum_{j=1}^{M^{I}(\tau)}\frac{1 -\pi_{j}^{U}(\tau)}{\pi_{j}^{U}(\tau)}\hat{Y}_{j}\]  \[\hat{L}^{IBNR}(\tau)=\hat{L}(\tau)-L^{I}(\tau)=\sum_{j=1}^{M^{I}(\tau)}\frac{1 -\pi_{j}^{U}(\tau)}{\pi_{j}^{U}(\tau)}\hat{Y}_{j}\]  
+
+## Estimation of the model 
+
+_In order to implement the IPW estimator, the key input required is the unknown inclusion proba-_ _bilities_ \(\pi_{i}(\tau)\)_. These probabilities are associated with the evolution of a claim, including reporting_ _and settlement delays and depend on various attributes of the payment, the claim, and the policy-_ _holder, denoted as_ \(X_{i}\)_, as well as the claim amount_ \(Y_{i}\)_ itself. In this section, we outline a data-driven_ _approach to estimating these values. As explained in Section_ _ 2_ _, the inclusion probabilities consist_ _of two separate components: the probability of reporting and the probability of settlement. Each_ _one is estimated separately, so we discuss different strategies in Sections_ _ 4.1_ _ and_ _ 4.2_ _._ 
+
+### Estimation of the reporting delay times probabilities \(P(U_{j}\leqslant\tau-T_{j})\)
+
+_To estimate probabilities, it is common to assume that the reporting delay times, conditioned on_ _claim attributes_ \(X_{i}\)_, follow a common distribution function (see, for example,_ _ Verrall and W¨uthrich_ 

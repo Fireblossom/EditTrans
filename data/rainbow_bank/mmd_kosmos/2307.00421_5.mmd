@@ -1,0 +1,93 @@
+Table 1: Performance with color transfer and Gaussian blur 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Brightness range</th>
+<th style="text-align: center;">Original</th>
+<th style="text-align: center;">Color transfer</th>
+<th style="text-align: center;">Gaussian blur</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="math inline">1</span>
+(AdvPatch)</td>
+<td style="text-align: center;">89.4%</td>
+<td style="text-align: center;">90.8%</td>
+<td style="text-align: center;">47.8%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="math inline">0.35</span></td>
+<td style="text-align: center;">89.5%</td>
+<td style="text-align: center;">87.9%</td>
+<td style="text-align: center;">22.7%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="math inline">0.24</span></td>
+<td style="text-align: center;">74.2%</td>
+<td style="text-align: center;">75.3%</td>
+<td style="text-align: center;">10.1%</td>
+</tr>
+</tbody>
+</table>
+
+
+Table 2: Performance with different color drift 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Brightness range</th>
+<th style="text-align: center;">Original</th>
+<th style="text-align: center;">10% drift</th>
+<th style="text-align: center;">15% drift</th>
+<th style="text-align: center;">20% drift</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="math inline">1</span>
+(AdvPatch)</td>
+<td style="text-align: center;">89.4%</td>
+<td style="text-align: center;">87.6%</td>
+<td style="text-align: center;">85.9%</td>
+<td style="text-align: center;">83.3%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="math inline">0.35</span></td>
+<td style="text-align: center;">89.5%</td>
+<td style="text-align: center;">84.2%</td>
+<td style="text-align: center;">77.6%</td>
+<td style="text-align: center;">67.2%</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span
+class="math inline">0.24</span></td>
+<td style="text-align: center;">74.2%</td>
+<td style="text-align: center;">68.6%</td>
+<td style="text-align: center;">43.2%</td>
+<td style="text-align: center;">27.3%</td>
+</tr>
+</tbody>
+</table>
+
+
+### Effectiveness of different features in the physical world 
+
+#### Color transfer and texture blurring 
+
+In physical-world deployments, attack patches are often affected by color transfer due to lighting conditions or blurring caused by camera focus or smudging. To analyze if these changes will affect the performance of the attack patches, we compare the performance of an original patch, a color-adjusted patch, and a local texture adjusted patch. The color-adjusted patch is applied by adding a value ( \(\delta\)) to all values in RGB channels and making sure \(\delta\) will not lead to an overflow. This color transfer will not change the texture information of the patch. The local texture adjustment is applied by using a 3x3 Gaussian blur. Figure 4 demonstrates the two types of feature adjustments applying to a patch with brightness range=0.24. 
+
+The performances of different patches are shown in Table 1. Regardless of the lightness restriction, the color transfer patch achieves almost the same success rate as the original patch. This performance shows that the patch does not need to maintain a specific color to deceive the target network. On the other hand, the blurred patch exhibits a significant decrease in success rate, suggesting that local texture is the key feature in deceiving target networks. Using these findings, we can apply the proposed hue mapping method to adjust the color of the patch and enhance its integration with the target environment, resulting in further reduced visibility. This process does not require any learning and can be quickly applied when deploying the patch in the physical world. 
+
+#### Random color variations 
+
+When printing an attack patch, it is important to consider that normal printers are not able to produce a patch with precisely the same color as the digital version. Therefore, the patch’s robustness to random color variations must be evaluated. 
+
+To replicate the color drift that commonly occurs during printing, we generate random noise within a restricted range that corresponds to a percentage of the original value. This approach allows us to simulate different levels of drift, and the results are shown in Table 2. 
+
+Figure 4: Patch with different feature changes. (left: original patch; middle: color transfer patch; right: texture blurring patch) 

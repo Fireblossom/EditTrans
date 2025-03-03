@@ -1,0 +1,19 @@
+and the proof is finished. Therefore, we assume that some student is rejected by some school in the SPDA of Round \(k-1\). 
+
+Suppose not; that is, 
+
+\[I^{\prime}=\left\{i\in I\text{ }\left|\text{ }\hat{\mu}^{k-1}\left(i\right)P_{ i}\hat{\mu}^{k}\left(i\right)\right.\right\}\neq\emptyset.\]  
+
+Since \(\hat{\mu}^{k}\left(i\right)=\hat{\mu}^{k-1}\left(i\right)\)\(\hat{\mu}^{k}\left(i\right)=\hat{\mu}^{k-1}\left(i\right)\)for all \(i\in\mathcal{E}^{k-1}\), \(I^{\prime}\subseteq I\setminus\mathcal{E}^{k-1}\). Let \(i\in I^{\prime}\)be the student who is rejected by \(\hat{\mu}^{k-1}\left(i\right)=DA\left(G_{S}^{k-1}\right)\left(i\right)\)\(\hat{\mu}^{k-1}\left(i\right)=DA\left(G_{S}^{k-1}\right)\left(i\right)\)in the earliest step of the SPDA in Round \(k\) among \(I^{\prime}\). Let \(s=DA\left(G_{S}^{k-1}\right)\left(i\right)\)and \(t\) be that step. Then, in Step \(t\) (of the SPDA in Round \(k\)), there are \(q_{s}\) students who is temporarily accepted by \(s\). We let \(j\) be a student who is temporarily accepted by \(s\) in Step \(t\). Then, \(sR_{j}DA\left(G_{S}^{k}\right)\left(j\right)\)and \(\left(j,i\right)\in\succ_{s}^{\ast}\). On the other hand, since \(i\in\hat{\mu}^{k-1}\left(s\right)\)and \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\)is stable, there is \(j\notin\hat{\mu}^{k-1}\left(s\right)\)among the temporarily accepted students. This implies \(DA\left(G_{S}^{k-1}\right)\left(j\right)P_{j}s\) and therefore \(j\in I^{\prime}\). Since \(j\) is temporarily accepted by \(s\) in Step \(t\), \(j\) is rejected by \(DA\left(G_{S}^{k-1}\right)\left(j\right)\)before Step \(t\). Since \(i\) is the student who is firstly rejected by \(DA\left(G_{S}^{k-1}\right)\left(i\right)\), this is a contradiction. ** Q.E.D.** 
+
+**Claim 2** _ If_ \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\)_is stable for_ \(\succ\)_, then_ \(\left|\hat{\mu}^{k-1}\left(s\right)\right|=\left|\hat{\mu}^{k}\left(s\right)\right|\)_ for all_ \(s\in S\)_._ 
+
+**Proof.** Suppose that \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\)is stable for \(\succ\). By Claim 1 and the individually rationality of \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\), for any \(i\)such that \(\hat{\mu}^{k-1}\left(i\right)\in S\)\(\hat{\mu}^{k-1}\left(i\right)\in S\), we have \(\hat{\mu}^{k}\left(i\right)R_{i}\hat{\mu}^{k-1}\left(i\right)P_{i}\emptyset\)\(\hat{\mu}^{k}\left(i\right)R_{i}\hat{\mu}^{k-1}\left(i\right)P_{i}\emptyset\)and thus \(\hat{\mu}^{k}\left(i\right)\in S\)\(\hat{\mu}^{k}\left(i\right)\in S\). Therefore, 
+
+\[\sum_{s\in S}\left|\hat{\mu}^{k-1}\left(s\right)\right|\leqslant\sum_{s\in S} \left|\hat{\mu}^{k}\left(s\right)\right|.\] (1)  
+
+Now, suppose not; that is, \(\left|\hat{\mu}^{k-1}\left(s\right)\right|\neq\left|\hat{\mu}^{k}\left(s\right )\right|\) for some \(s\in S\). First, we assume \(\left|\hat{\mu}^{k-1}\left(s\right)\right|<\left|\hat{\mu}^{k}\left(s\right) \right|\leqslant q_{s}\) for some \(s\in S\). Then, there is \(i\in\hat{\mu}^{k}\left(s\right)\setminus\hat{\mu}^{k-1}\left(s\right)\). By Claim 1, \(sP_{i}\hat{\mu}^{k-1}\left(i\right)\). However, \(\left|\hat{\mu}^{k-1}\left(s\right)\right|<q_{s}\) and \(sP_{i}\hat{\mu}^{k-1}\left(i\right)\)contradict the nonwastefulness of \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\). Therefore, \(\left|\hat{\mu}^{k-1}\left(s\right)\right|\geqslant\left|\hat{\mu}^{k}\left(s \right)\right|\) for all \(s\in S\) and \(\left|\hat{\mu}^{k-1}\left(s\right)\right|>\left|\hat{\mu}^{k}\left(s\right)\right|\) for some \(s\in S\). However, these contradict (1). ** Q.E.D.** 
+
+**Claim 3** _ If_ \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\)_is stable for_ \(\succ\)_, then_ \(\ \hat{\mu}^{k}\)\(\ \hat{\mu}^{k}\)_is also stable for_ \(\succ\)_._ 
+
+**Proof.** Suppose that \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\)is stable for \(\succ\). First, since \(\hat{\mu}^{k-1}\)\(\hat{\mu}^{k-1}\)is individually rational, by Claim 1, \(\hat{\mu}^{k}\)\(\hat{\mu}^{k}\)is also individual rational. 

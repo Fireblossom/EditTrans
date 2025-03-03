@@ -1,0 +1,31 @@
+for estimating \(a\) satisfies [33] 
+
+\[|a-\widetilde{a}|\leqslant\frac{\pi}{R}+\frac{\pi^{2}}{R^{2}},\] (28)  
+
+where \(\widetilde{a}\)\(\widetilde{a}\) is the estimation of \(a\), and \(R\) is the iteration of times of operator \(Q\). Obviously, \(R\) needs to satisfy the following inequation, i.e. 
+
+\[R\geqslant\frac{\pi(\pi+1)}{\delta},\] (29)  
+
+if the error probability \(|a-\widetilde{a}|\leqslant\delta\). That is to say, the \(Q\) operator needs to be performed at least \(R\) times ( \(O(R)\)) to ensure that the error probability is less than or equal to \(\delta\). Therefore, the total complexity of similarity calculating is \(O(M{\rm log}^{2}_{2}U+R)\). For quantum \(k\)-maximal finding, let \({\mathcal{T}}\) be a set whose elements do not belong to set \(K\) but are more similar to \({\bf v_{0}}\) than some points in set \(K\), and the number of elements of set \({\mathcal{T}}\) is \(t\). Obviously, to find out \(k\) maximal values, the Grover’s algorithm and replacement need to be repeatedly performed until set \({\mathcal{T}}\)is empty, i.e., \(t=0\). Reference [40] shows that \(t\) can be reduced to \(\frac{t}{2}\)by performing \(O(k)\)iterations of Grover’s algorithm and replacem  when \(t>2k\), i.e., the Oracle needs to preform \(O(k\sqrt{\frac{M}{t}})\)times. Once \(t\) is reduced to \(t\leq 2k\), \(O(\sqrt{\frac{M}{t}})\)times Oracles in each round of Grover’s algorithm are required to ensure \(t=0\). Therefore, 
+
+{k⁢(M2⁢k+M4⁢k+M8⁢k+…),t>2⁢k∑i=12⁢kMi,t≤2⁢k (30)  
+
+times Oracles are required for reducing \(t\) to 0. From Eq. (30), we can easily find that that t the  complexity of quantum \(k\)-maximal finding is \(O(\sqrt{kM})\).  Till now, we have presented the complexity analysis of the former three parts, note that the last part of Q \(k\)NN, namely the majority voting, is similar to that of classical \(k\)NN, so that its complexity remains \(O(k)\). Therefore, the total complexity of our proposed Q \(k\)NN is 
+
+\[O(M{\rm log}^{2}_{2}U+R+\sqrt{kM}+k).\] (31)  
+
+Figure 13 shows complexity comparisons between the proposed Q \(k\)NN and classical \(k\)NN. As can be seen in Fig. 13(a), the total complexity of the proposed Q \(k\)NN is much less than that of classical \(k\)NN, it illustrates that the proposed Q \(k\)NN algorithm could offer a significant speedup over classical \(k\)NN algorithm. To figure out how the acceleration happens, we further mark each part with different colors and the result shows that the complexities of similarity calculating and \(k\)-maximal finding (corresponding to sorting in classical \(k\)NN algorithm) are dramatically decreased by the proposed Q \(k\)NN. It illustrates that the quantum parts of Q \(k\)NN are crucial for 
+
+speedup. In addition, we find that the complexities for both Q \(k\)NN and classical \(k\)NN algorithms are affected by several parameters, i.e., the dimension \(U\), the number of training data \(M\) and the number of nearest neighbors \(k\). We therefore plot Fig. 13(b), Fig. 13(c) and Fig. 13(d) to investigate the respective influence of each parameter on complexity. As shown in Fig. 13(b) and Fig. 13(c), the complexity of classical \(k\)NN rises quite sharply with the increase of \(U\) or \(M\), while the complexity of Q \(k\)NN rises very slowly. It illustrates that the proposed Q \(k\)NN algorithm is of clear superiority in addressing high dimensional or large-size classification issues. Figure 13(d) shows that although the complexity of classical \(k\)NN is apparently larger than that of Q \(k\)NN, the complexities of both algorithms are not sensitive to the hyper-parameter \(k\), which illustrates that \(k\) is not a crucial parameter that heavily affects the complexities of both classical \(k\)NN and Q \(k\)NN algorithms. It is worthy noting that, to explicitly show the respective trends, the scale of labeled data point \(M\) is set to 128 in Fig. 13(a), Fig. 13(b) and Fig. 13(d). Actually, \(M\)is usually far more than \(10^{5}\)for a realistic CVQKD system [31]. In such a practical scenario, the complexity gap between Q \(k\)NN and classical \(k\)NN will be extremely large. 
+
+### Security analysis of Q \(k\)NN-based CVQKD 
+
+Till now, we have demonstrated the performance of Q \(k\)NN-based CVQKD in terms of machine learning metrics and have analyzed the complexity of Q \(k\)NN algorithm, both results have shown the advantages of our scheme. In what follows, we present the theoretical security proof for Q \(k\)NN-based CVQKD with semi-definite program (SDP) method [41], detailed calculations can be found in Appendix E. As known, the asymptotic secret key rate of the conventional DM CVQKD with reverse reconciliation is given by [42] 
+
+\[K_{\rm asym}=\beta I_{\rm AB}-\chi_{\rm BE},\] (32)  
+
+where \(\beta\) is the reconciliation efficiency, \(I_{\rm AB}\) is the Shannon mutual information between Alice and Bob, and \(\chi_{\rm BE}\) is the Holevo bound of the mutual information between Eve and Bob. However, Eq. (32) does not consider the influence of the introduction of Q \(k\)NN classifier for both legitimate users (Alice and Bob) and the eavesdropper (Eve), it, therefore, has to be amended to suitable for evaluating quantum machine learning-based CVQKD. Due to the data processing is quite different, Eq. (32) can be rewritten as the following form 
+
+\[K_{\rm asym}^{\rm Q}=\beta\Lambda_{\rm Q}I_{\rm AB}-p(y_{i})\chi _{\rm BE}.\] (33)  
+
+The difference between Eq. (32) and Eq. (33) lies in two parts.  First, the AUC value \(\Lambda_{\rm Q}\) has to be considered as it describes the efficiency of quantum classifier. Higher AUC value implies higher correlation of raw key between Alice and Bob. Second, term \(\chi_{\rm BE}\), which represents the Holevo quantity for Eve’s maximum accessible 

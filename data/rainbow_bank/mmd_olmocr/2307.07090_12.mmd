@@ -1,0 +1,20 @@
+\(m(w,\pi)\)is linear in \(\pi\) and there is \(C>0\)such that \[\left|E\left[m(w,\pi)-\theta_{0}+\alpha_{0}(z)(y-\pi(z;\gamma))\right]\right| \leq C\left\|\pi-\pi_{0}\right\|^{2}\]  
+
+Proposition _ If Assumptions 1-3 are satisfied then for_ V=E[{m(w,π0(z;γ0))−θ0+α0(z)(y−π0(z;γ0))}2]_,_ 
+
+\[\sqrt{n}(\hat{\theta}-\theta_{0})\xrightarrow[]{D}N(0,V),\hat{V}\xrightarrow[] {p}V.\]  
+
+This result follows immediately following arguments in  Chernozhukov, Escanciano, et al. (2022 ). The only point of difference is that we have to account for the first-stage estimator \(\hat{\gamma}\)\(\hat{\gamma}\). However, since it is estimable at a \(n^{-1/2}\)rate, the analysis of  Chernozhukov, Escanciano, et al. (2022 ) still applies. We show the proof in Appendix  6 . 
+
+### Estimation Outline 
+
+
+*  Consider the dataset \(\{y_{t},z_{t}\}_{t=1}^{n}\)is independently and identically distributed. Now we randomly split the data into L folds such that the data \(D_{l}:=\{y_{t},z_{t}\}_{t\in I_{l}}\), where \(I_{l}\)denotes the \(l^{th}\)partition. 
+*  In the second stage for each fold \(I_{l}\), we estimate both the choice function and the Riesz estimator on the left out data \(D_{l^{c}}:=\{y_{t},x_{t}\}_{t\notin I_{l}}\)
+
+\[\hat{\pi}_{l}=\operatorname*{arg\,min}_{f\in\mathcal{F}}\frac{1}{\sum_{t\in D_ {l^{c}}}J_{t}}\sum_{t\in D_{l^{c}}}\sum_{j\in J_{t}}[(y_{jt}-\pi(z_{jt};\gamma ))^{2}]\] (8)  \[\hat{\pi}_{l}=\operatorname*{arg\,min}_{f\in\mathcal{F}}\frac{1}{\sum_{t\in D_ {l^{c}}}J_{t}}\sum_{t\in D_{l^{c}}}\sum_{j\in J_{t}}[(y_{jt}-\pi(z_{jt};\gamma ))^{2}]\] (8)  
+
+\[\hat{\alpha}_{l}=\operatorname*{arg\,min}_{\alpha\in\mathcal{A}}\frac{1}{\sum_ {t\in D_{l^{c}}}J_{t}}\sum_{t\in D_{l^{c}}}\sum_{j\in J_{t}}\left[\alpha(z_{jt })^{2}-2m(w_{jt};\alpha)\right]\] (9)  \[\hat{\alpha}_{l}=\operatorname*{arg\,min}_{\alpha\in\mathcal{A}}\frac{1}{\sum_ {t\in D_{l^{c}}}J_{t}}\sum_{t\in D_{l^{c}}}\sum_{j\in J_{t}}\left[\alpha(z_{jt })^{2}-2m(w_{jt};\alpha)\right]\] (9)  
+
+
+*  Now for every \(I_{l}\), we will estimate  \(\hat{\theta}_{l}\)\(\hat{\theta}_{l}\) by using the estimators estimated on \(D_{l}^{c}\). And finally, to estimate \(\theta\), we average it out across all folds. Thus the estimator for \(\theta_{0}\) and its variance can be given as follows – 

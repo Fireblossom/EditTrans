@@ -1,0 +1,28 @@
+# Lasing, quantum geometry and coherence in non-Hermitian flat bands 
+
+Ivan Amelio 1 
+
+and Nathan Goldman 1 
+
+1 _Center for Nonlinear Phenomena and Complex Systems,_ _Université Libre de Bruxelles, CP 231, Campus Plaine, B-1050 Brussels, Belgium_ (Dated: May 31, 2024) 
+
+##### Abstract
+We show that lasing in flat band lattices can be stabilized by means of the geometrical properties of the Bloch states, in settings where the single-particle dispersion is flat in both its real and imaginary parts. We illustrate a general projection method and compute the collective excitations, which are shown to display a diffusive behavior ruled by quantum geometry through a peculiar coefficient involving gain, losses and interactions. Then, we analytically show that the phase dynamics display a surprising cancellation of the Kardar-Parisi-Zhang nonlinearity at the leading order. Because of the relevance of Kardar-Parisi-Zhang universality in one-dimensional geometries, we focus our study on the diamond chain and provide confirmation of these results through full numerical simulations. 
+
+_Introduction._  The physics of weakly dispersive bands, where correlation effects and interactions dominate over kinetic energy, has been the topic of various conceptual and experimental studies, starting from the strong coupling limit of the Hubbard model and the fractional quantum Hall effect, and pioneering, in recent years, the discovery of flat bands in twisted bilayer graphene [1] and the consequent experimental observation of superconductivity [2] and correlated insulators [3]. The most interesting flat bands are the ones displaying a complex structure of the Bloch states, not ascribable to a trivial atomic limit. The crucial role of Bloch state geometry for (quasi-)condensation [4–6] and superfluid transport [7, 8] has been pointed out. 
+
+In analogy to the case of weakly interacting atomic BECs [6, 9], it is natural to consider lasing in flat band systems in a semi-classical approximation. In such a non-Hermitian context, however, one needs to specify whether the flatness condition applies to the real or imaginary part of the single-particle dispersion relation. In this work, we are interested in studying the case where the Bloch geometry stabilizes a lasing state _ in a purely_ _non-linear fashion_ , as due to gain competition. This goes beyond a number of recent results in topological lasers [10, 11] and polariton condensation on the Lieb lattice [12], where a privileged Bloch state enjoys a larger gain or quality factor _ already at the linear level_ . In other words, we consider single-particle bands that are flat both in their real and imaginary parts. 
+
+Moreover, a question specific to non-equilibrium onedimensional quasi-condenstates concerns the fate of Kardar-Parisi-Zhang (KPZ) physics [13–16] in a flat band. Indeed, the KPZ nonlinearity is typically proportional to the bandwidth in the case of a dispersive band without quantum geometry. 
+
+This Letter starts by introducing the semi-classical lasing equations on the diamond chain and a real space projection method to the lowest flat band. The geometry of the Bloch states determines the steady-state lasing mode and the collective modes, calculated by the Bogoliubov method. We then go beyond Bogoliubov introducing stochastic noise and allowing for large phase fluctuations. Adiabatically eliminating density fluctuations yields an equation for the phase with a full cancellation of a candidate nonlinear KPZ term, which is proportional to a Bloch geometric constant. To check this remarkable conclusion, we perform numerical simulations that display full agreement with the analytical argument. Finally, we discuss connections with previous works on flat bands [12, 17, 18] and outline future directions. 
+
+_Model and projection._  We consider lasing in a semiclassical framework, particularly adequate for lattices of microring laser resonators [19], polariton micropillars [20] and VCSEL’s arrays [21]. While a slow carrier dynamics can in practice give rise to further instabilities [11, 17, 22, 23], here we assume that the adiabatic approximation holds. The light field \(\psi_{x\sigma}(t)\) on the lattice site \(\sigma=1,...,N_{\sigma}\) in the \(x\)-th unit cell obeys then a complex Ginzburg Landau equation (CGLE) [24] 
+
+\[i\partial_{t}\psi_{x\sigma}=(H_{0}\psi)_{x\sigma}+\\ +\left\{g|\psi_{x\sigma}|^{2}+\frac{i}{2}\left[P\left(1-\frac{|\psi_{x\sigma}| ^{2}}{n_{S}}\right)-\gamma\right]\right\}\psi_{x\sigma},\] (1)  
+
+where \(g\) is the refractive index nonlinearity, \(P\) and \(\gamma\) are respectively gain and losses, which we assume to be uniform along the system, \(n_{S}\) is the saturation density that determines the strength of gain competition. Finally, the single particle Hamiltonian \(H_{0}\) encodes the hopping on the lattice. Because of the special interest of 1D lattices for KPZ physics, we will be mainly dealing with the diamond (also known as rhombic) chain [25], but we expect our analytical results to hold for other models and independently of the dimensionality of the system. The diamond chain is sketched in Fig. 1 and is described by 
+
+\[H_{0}=-J\sum_{x=1}^{N_{x}}(c^{\dagger}_{x}a_{x}-b^{\dagger}_{x}a_{x}+ia^{ \dagger}_{x+1}b_{x}+ia^{\dagger}_{x+1}c_{x})+\text{h.c.},\] (2)  
+
+where \(\sigma\) runs over \(A,B,C\) and we denoted \(a\equiv\psi_{xA},b\equiv\psi_{xB},c\equiv\psi_{xC}\) . The band flatness arises from destructive interference, since a flux \(\pi\) pierces each plaquette; notice 

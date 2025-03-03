@@ -1,0 +1,29 @@
+higher-order beliefs. The construction—which is based on the set-up in Heifetz (1993)—shows that this set of hierarchies identifies in a natural way a type structure, which we call it “canonical.” Next, we show how each profile of types in a type structure can be associated with an element of the constructed set of hierarchies. This part is standard (cf. Heifetz and Samet 1998). 
+
+#### From hierarchies to types 
+
+To construct the set of hierarchies of conditional beliefs, we define recursively, for each player, two sequences of sets as well as a sequence of conditioning events. The first sequence, \(\left(\Theta_{i}^{n}\right)_{n\geq 0}\), represents player \(i\)’s \(\left(n+1\right)\)-order domain of uncertainty, for each \(n\geq 0\). The second sequence, \(\left(H_{i}^{n}\right)_{n\geq 1}\), consists of player \(i\)’s \(n\)-tuples of _ coherent_  conditional beliefs over these space. The notion of coherence, formally defined below, says that, conditional on any relevant hypothesis, beliefs at different order do not contradict one another. 
+
+Formally, for each player \(i\in I\), let 
+
+\[\Theta_{i}^{0} : =S\text{,}\] \[\mathcal{B}_{i}^{0} : =\mathcal{B}_{i}\text{,}\] \[H_{i}^{1} : =\Delta^{\mathcal{B}_{i}^{0}}\left(\Theta_{i}^{0}\right)\text{.}\]  
+
+The set \(\Theta_{i}^{0}\)is player \(i\)\(1\)-order (primitive) domain of uncertainty, and a first-order belief, viz. \(\mu_{i}^{1}\), is an element of the set \(H_{i}^{1}\). 
+
+For \(n\geq 1\), assume that \(\left(\Theta_{i}^{m}\right)_{m=0,...,n-1}\), \(\left(\mathcal{B}_{i}^{m}\right)_{m=0,...,n-1}\)and \(\left(H_{i}^{m}\right)_{m=1,...,n}\)have been defined for each player \(i\in I\). Then, for each \(i\in I\), let 
+
+\[\Theta_{i}^{n}:=\Theta_{i}^{0}\times H_{j}^{n}\text{.}\]  
+
+That is, \(\Theta_{i}^{n}\)is player \(i\)’s \(\left(n+1\right)\)-order domain of uncertainty: it consists of the space of primitive uncertainty and what player \(j\neq i\) believes about the space of primitive uncertainty, what player \(j\) believes about what player \(i\) believes about the space of primitive uncertainty,..., and so on, up to level \(n\). For each \(i\in I\) and \(n\geq 1\), let \(\pi_{i}^{n,n+1}:H_{i}^{n+1}\to H_{i}^{n}\)and \(\rho_{i}^{n-1,n}:\Theta_{i}^{n}\rightarrow\Theta_{i}^{n-1}\)denote the coordinate projections. By construction, these maps satisfy the following property: 
+
+\[\forall i\in I,\forall n\geq 2,\rho_{i}^{n-1,n}=\left(\mathrm{Id}_{\Theta_{i}^ {0}},\pi_{j}^{n-1,n}\right)\text{,}\]  
+
+where \(\mathrm{Id}_{\Theta_{i}^{0}}\)is the identity on \(\Theta_{i}^{0}\). 
+
+To define players’ conditional beliefs on the \(\left(n+1\right)\)-th order domain of uncertainty, for each player \(i\in I\), let 
+
+\[\mathcal{B}_{i}^{n} : =\left(\rho_{i}^{n-1,n}\right)^{-1}\left(\mathcal{B}_{i}^{n-1} \right)=\left\{C\subseteq\Theta_{i}^{n}:\exists B\in\mathcal{B}_{i}^{n-1},C= \left(\rho_{i}^{n-1,n}\right)^{-1}\left(B\right)\right\}\text{,}\] \[H_{i}^{n+1} : =\left\{\left(\left(\mu_{i}^{1},...,\mu_{i}^{n}\right),\mu_{i}^{n +1}\right)\in H_{i}^{n}\times\Delta^{\mathcal{B}_{i}^{n}}\left(\Theta_{i}^{n} \right):\overline{\mathcal{L}}_{\rho_{i}^{n-1,n}}\left(\mu_{i}^{n+1}\right)= \mu_{i}^{n}\right\}\text{.}\]  
+
+Specifically, \(\mathcal{B}_{i}^{n}\)represents the set of relevant hypotheses upon which player \(i\)’s \(\left(n+1\right)\)-th order conditional beliefs are defined. That is, \(\mu_{i}^{n+1}\in\Delta^{\mathcal{B}_{i}^{n}}\left(\Theta_{i}^{n}\right)\) is player \(i\)’s \(\left(n+1\right)\)-th order CPS with μin+1(⋅|B)∈Δ(Θin), \(B\in\mathcal{B}_{i}^{n}\). Recursively, it can be checked that, for all \(n\geq 1\), 
+
+\[\mathcal{B}_{i}^{n}=\left\{C\subseteq\Theta_{i}^{n}:\exists B\in\mathcal{B}_{i },C=B\times H_{j}^{n}\right\}\text{,}\]  

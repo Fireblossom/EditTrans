@@ -1,0 +1,18 @@
+outcomes. Next we show that under Assumption  5.1  and Assumption  5.2 , \(\mathbb{E}\pv{\bar{Y}}{a}_{n,post}\)may be written as a linear combination of unit \(n\)’s _ pre_ -intervention outcomes. We note that similar 
+
+**Lemma 5.4**  ( **Reformulation of average expected post-intervention outcome** ) **.** _ Under As-_ _sumption_ _ 5.1_ _ and Assumption_ _ 5.2_ _, there exists slope vector_ \(\theta(a)\in\mathbb{R}^{T_{0}}\)_, such that the average_ _expected post-intervention outcome of unit_ \(n\)_ under intervention_ \(a\)_ is expressible as_ 
+
+\[\mathbb{E}\pv{\bar{Y}}{a}_{n,post}=\frac{1}{T-T_{0}}\langle\theta(a),\mathbb{E }Y_{n,pre}\rangle.\]  
+
+\(\theta(a)\) may be interpreted as a unit-independent measure of the causal relationship between of Section  4               f               y
+. Overloading the notation of , we let \(\mathbf{X}_{n}=(\mathbb{E}Y_{1,pre},\ldots,\mathbb{E}Y_{n,pre})^{T}\), \(\mathbf{Z}_{n}=(Y_{1,pre},\ldots,Y_{n,pre})^{T}\), \(\epsilon_{n,pre}=(\pv{\epsilon}{0}_{n,1},\ldots,\pv{\epsilon}{0}_{n,T_{0}})^{T}\) , \(\mathcal{E}_{n}=(\epsilon_{1,pre},\ldots,\epsilon_{n,pre})^{T}\)\(\xi_{n}=\sum_{t=T_{0}+1}^{T}\pv{\epsilon}{a_{n}}_{n,t}\), \(\Xi_{n}=(\xi_{1},\ldots,\xi_{n})^{T}\), and \[\mathbf{Y}_{n}=\left(\frac{1}{T-T_{0}}\sum_{t=1}^{T_{0}}\pv{Y}{a_{1}}_{1,t}, \ldots,\frac{1}{T-T_{0}}\sum_{t=1}^{T_{0}}\pv{Y}{a_{n}}_{n,t}\right)^{T}.\]  Finally, we define quantities such as \(\mathbf{Z}_{n}(a)\), \(\mathbf{X}_{n}(a)\), \(\mathbf{Y}_{n}(a)\)analogously to . We now 
+
+**Theorem 5.5**  ( **Prediction error of average expected post-intervention outcome** ) **.** _ Let_ \(\delta\in(0,1)\)_ be an arbitrary confidence parameter and_ \(\rho>0\)_ be chosen to be sufficiently small, as_ _some_ \(n_{0}\geq 1\)_ such that_ \(\mathrm{rank}(\mathbf{X}_{n_{0}}(a))=r\)_, and_ \(\mathrm{snr}_{n}(a)\geq 2\)_ for all_ \(n\geq n_{0}\)_. If_ \(T_{0}\leq\frac{1}{2}T\)_, then_ _under Assumption_ _ 4.2_ _ with probability at least_ \(1-O(A\delta)\)_, simultaneously for all interventions_ \(a\in\{0,\ldots,A-1\}\)
+
+\[|\widehat{\mathbb{E}}\pv{\bar{Y}}{a}_{n,post}-\mathbb{E}\pv{\bar{Y}}{a}_{n, post}|\leq\widetilde{O}\left(\frac{r^{2}}{T_{0}\wedge n}+\frac{r}{\sqrt{T_{0} \wedge n}}+\frac{\sqrt{T_{0}}}{\sqrt{T-T_{0}}}\right),\]  
+
+_where_ \(\widehat{\mathbb{E}}\pv{\bar{Y}}{a}_{n,post}:=\frac{1}{T-T_{0}}\cdot\langle \widehat{\theta}_{n}(a),Y_{n,pre}\rangle\)\(\widehat{\mathbb{E}}\pv{\bar{Y}}{a}_{n,post}:=\frac{1}{T-T_{0}}\cdot\langle \widehat{\theta}_{n}(a),Y_{n,pre}\rangle\)_is the estimated average post-intervention outcome for_ _unit_ \(n\)_ under intervention_ \(a\)_._ 
+
+A more complicated bound which does not require Assumption  4.2  or \(T_{0}\leq\frac{1}{2}T\) may be found in . Observe that \(|\widehat{\mathbb{E}}\pv{\bar{Y}}{a}_{n,post}-\mathbb{E}\pv{\bar{Y}}{a}_{n, post}|\to 0\) with high probability as \(T,T_{0},n\rightarrow\infty\), as long as \(T-T_{0}\) grows faster than \(T_{0}\). 
+
+for estimating \(\widehat{\mathbb{E}}\pv{\bar{Y}}{a}_{n,post}\)\(\widehat{\mathbb{E}}\pv{\bar{Y}}{a}_{n,post}\)is known as a _ horizontal_  regression method in the panel data literature.   a slow \(\widetilde{O}(r^{1/2}T_{0}^{-1/4})\)\(\widetilde{O}(r^{1/2}T_{0}^{-1/4})\) term which does not appear in our analysis. (2) The non-adaptive SI bound also contains a term which scales as \(\widetilde{O}(\frac{\sqrt{n}}{\sqrt{T-T_{0}}})\)\(\widetilde{O}(\frac{\sqrt{n}}{\sqrt{T-T_{0}}})\) in the worst case, while our bound has no 

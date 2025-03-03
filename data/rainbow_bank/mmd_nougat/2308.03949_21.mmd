@@ -1,0 +1,25 @@
+The result in Eq. ( 67 ) can be interpreted as another two step process: first, repeatedly performing the Bell-state measurement of _ each state_ \(\rho_{\mathbf{P}_{i}}\) that makes up the cluster and \(\rho_{\mathbf{P}}\)corresponding to the datapoint, to estimate each individual dissimilarity; and then, taking the weighted average of the dissimilarities according to the composition of the mixed state centroid. This procedure is clearly impractical experimentally and no longer correlates to the cosine dissimilarity for mixed states. 
+
+Computing the diagonalization of \(\bar{\rho}\)\(\bar{\rho}\) as per Eq. ( 11 ) 
+
+\[ρ =p\rho\left({\frac{\mathbf{P}}{\left\lVert\mathbf{P}\right\rVert} }\right)+(1-p)\rho\left({\frac{-\mathbf{P}}{\left\lVert\mathbf{P}\right\rVert} }\right) p =\frac{1}{2}(1+\left\lVert\bar{\mathbf{P}}\right\rVert)\] (66) \[=p\psi_{\bar{\mathbf{P}}}+(1-p)\psi_{-\bar{\mathbf{P}}}\] (67)  
+
+(where \(\psi\) is the Bloch embedding) makes the estimation more practical by reducing it to two estimations of \(d_{\mathrm{q}}\), namely 
+
+\[\tilde{d}_{\mathrm{q}}\left(\bar{\mathbf{P}},\mathbf{P}\right) =p\tilde{d}_{\mathrm{q}}\left(\frac{\bar{\mathbf{P}}}{\left\lVert \bar{\mathbf{P}}\right\rVert},\mathbf{P}\right)+(1-p)\tilde{d}_{\mathrm{q}} \left(-\frac{\bar{\mathbf{P}}}{\left\lVert\bar{\mathbf{P}}\right\rVert}, \mathbf{P}\right)\] (68) \[=p{d}_{\mathrm{q}}\left(\bar{\mathbf{P}},\mathbf{P}\right)+(1-p){ d}_{\mathrm{q}}\left(-\bar{\mathbf{P}},\mathbf{P}\right).\] (69)  \[\tilde{d}_{\mathrm{q}}\left(\bar{\mathbf{P}},\mathbf{P}\right) =p\tilde{d}_{\mathrm{q}}\left(\frac{\bar{\mathbf{P}}}{\left\lVert \bar{\mathbf{P}}\right\rVert},\mathbf{P}\right)+(1-p)\tilde{d}_{\mathrm{q}} \left(-\frac{\bar{\mathbf{P}}}{\left\lVert\bar{\mathbf{P}}\right\rVert}, \mathbf{P}\right)\] (68) \[=p{d}_{\mathrm{q}}\left(\bar{\mathbf{P}},\mathbf{P}\right)+(1-p){ d}_{\mathrm{q}}\left(-\bar{\mathbf{P}},\mathbf{P}\right).\] (69)  
+
+The implementation portrayed at Eq. ( 71 ) simplifies the measurement procedure of the mixed state. Furthermore, instead of estimating \({d}_{\mathrm{q}}(\pm\bar{\mathbf{P}},\mathbf{P})\) separately, the estimation can be done directly by preparing \(\psi(\mathbf{P})\) with probability \(p\) and \(\psi(-\mathbf{P})\)with probability \(1-p\), and finally collecting all the outcomes in a single estimation, which simply requires a larger number of shots to achieve the same precision of estimation. Another issue is that the points \(\bar{\mathbf{P}},-\bar{\mathbf{P}}\)\(\bar{\mathbf{P}},-\bar{\mathbf{P}}\) have to be computed which is quite time-consuming. This is true even for Eq. ( 67 ); however, a number of shots proportional to the number of Bloch vectors \(\mathbf{P}_{i}\) in the cluster is needed for an accurate estimation. Regardless, linearity and convexity make it clear that using mixed states can only increase the quantum dissimilarity. 
+
+Namely, while in Euclidean dissimilarity points inside the sphere can reduce the dissimilarity, the quantum dissimilarity is proportional to the Euclidean dissimilarity only for unit vectors, and actually increases for points inside the Bloch sphere. Hence we conclude that the behaviour of 3DSC-kNN does not carry over to SQ-kNN. 
+
+## 4. Quantum-Inspired Stereographic K Nearest-Neighbour Clustering 
+
+Through the previous section, Section  3 , we have detailed the developed quantum algorithm. In this section, we develop the classical analogue to this quantum algorithm - the ‘quantum-inspired’ classical algorithm. A table summarizing all the algorithms discussed in this paper, including the next one, can be found in Table  1 . We begin by defining this analogous classical algorithm in terms of the clustering state (Definition  1 ), deriving a relationship between the Euclidean and spherical centroids given datapoints that lie on a sphere, and then proving our claim that the defined classical algorithm and previously described Stereographic Quantum K Nearest-Neighbour Clustering algorithms are indeed equivalent. 
+
+Recall from Lemma  3  that 
+
+\[\mathbf{c}_{\mathrm{s}}^{\mathrm{update}}(C) \coloneqq\argmin_{\mathbf{x}\in S^{n}(r)}\sum_{\mathbf{p}\in C}d_ {\mathrm{s}}(\mathbf{x},\mathbf{p})=r\frac{\sum_{\mathbf{p}\in C}\mathbf{p}}{ \left\lVert\sum_{\mathbf{p}\in C}\mathbf{p}\right\rVert}.\] (70)  
+
+**Definition 12.** _ [2D Stereographic Classical kNN (2DSC-kNN)]_ _Let_ \(s^{-1}_{r}\)_be the ISP, and let_ \(({D},\mathbf{\bar{c}},{\mathbbm{R}}^{2},d_{\mathrm{e}})\)_ be a 2D euclidean clustering state . We define the 2D Stereographic Classical kNN_ _(2DSC-kNN) as_ 
+
+\[\left(s^{-1}_{r}({D}),\ s^{-1}_{r}(\mathbf{\bar{c}}),\ S^{2}(r), \ d_{\mathrm{s}},\ \mathbf{\bar{c}}_{\mathrm{s}}^{\mathrm{update}}\right).\] (71)  

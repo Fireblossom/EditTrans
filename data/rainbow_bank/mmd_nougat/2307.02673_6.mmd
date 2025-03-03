@@ -1,0 +1,19 @@
+where the MIDAS weight function is \(\omega(s;\beta_{k})\)= \(\sum_{l=0}^{L-1}\beta_{l,k}w_{l}(s),\)\((w_{l})_{l\geq 0}\) is a collection of \(L\) approximating functions, called the   _ dictionary_ , and \(\beta_{k}\in\mathbf{R}^{L}\)is the unknown parameter. An example of a dictionary used in the MIDAS ML literature is the set of orthogonal Legendre polynomials. To streamline notation it will be convenient to assume, without loss of generality, a common lag length, i.e.  \(\bar{k}_{max}\)\(\bar{k}_{max}\) = \(k_{max}\)\(\forall\)\(k\)\(\in\)\([K].\)The linear in parameters dictionaries map the MIDAS regression to a standard linear regression framework. In particular, define \(\mathbf{x}_{i}=(X_{i,1}W,\dots,X_{i,K}W)\), where for each \(k\in[K]\), Xi,k=(xi,τ−j/nkH,k,j=0,…,k¯m⁢a⁢x−1)τ∈[T] is a \(T\times\bar{k}_{max}\) matrix of covariates and  \(\bar{k}_{max}W\)\(\bar{k}_{max}W\)= (wl(j/nkH;βk)0≤l≤L−1,0≤j≤k¯m⁢a⁢xis a \(\bar{k}_{max}\times L\)\(\bar{k}_{max}\times L\) matrix corresponding to the dictionary. In addition, let \(\mathbf{y}_{i}\)= \((y_{i,t|\tau},t,\tau\in[T])^{\top}\)and \(\mathbf{u}_{i}\)= \((u_{i,t|\tau},t,\tau\in[T])^{\top}.\)The regression equation after stacking time series observations for each firm \(i\in[N]\)is as follows 
+
+\[\mathbf{y}_{i}=\iota\alpha_{i}+\mathbf{x}_{i}\beta+\mathbf{u}_{i},\]  
+
+where \(\iota\in\mathbf{R}^{T}\)is the all-ones vector and \(\beta\in\mathbf{R}^{LK}\)is a vector of slope coefficients. Lastly, put \(\mathbf{y}=(\mathbf{y}_{1}^{\top},\dots,\mathbf{y}_{N}^{\top})^{\top}\), \(\mathbf{X}=(\mathbf{x}_{1}^{\top},\dots,\mathbf{x}_{N}^{\top})^{\top}\), and \(\mathbf{u}=(\mathbf{u}_{1}^{\top},\dots,\mathbf{u}_{N}^{\top})^{\top}\). Then the regression equation after stacking all cross-sectional observations is 
+
+\[\mathbf{y}=B\alpha+\mathbf{X}\beta+\mathbf{u},\]  
+
+where \(B=I_{N}\otimes\iota\), \(I_{N}\) is \(N\times N\) identity matrix, and \(\otimes\)is the Kronecker product. Given that the number of potential predictors \(K\) can be large, additional regularization can improve the predictive performance in small samples. To that end, we take advantage of the sg-LASSO regularization, suggested by  Babii, Ghysels, and Striaukas  ( 2022 ). 
+
+The fixed effects sg-LASSO estimator \(\hat{\rho}=(\hat{\alpha}^{\top},\hat{\beta}^{\top})^{\top}\)\(\hat{\rho}=(\hat{\alpha}^{\top},\hat{\beta}^{\top})^{\top}\)solves 
+
+\[\min_{(a,b)\in\mathbf{R}^{N+p}}\|\mathbf{y}-Ba-\mathbf{X}b\|_{NT}^{2}+2\lambda \Omega(b),\] (2)  
+
+\(\Omega\)is the sg-LASSO regularizing functional.  It is worth stressing that the design matrix \(\mathbf{X}\) does not include the intercept and that we do not penalize the fixed effects which are typically not sparse. In addition, ∥.∥N⁢T2=|.|2/(NT)is the empirical norm and 
+
+\[\Omega(b)=\gamma|b|_{1}+(1-\gamma)\|b\|_{2,1},\]  
+
+is a regularizing functional. It is a linear combination of the \(\ell_{1}\) LASSO and \(\ell_{2,1}\)group LASSO norms. Note that for a group structure \(\mathcal{G}\) described as a partition of \([p]=\{1,2,\dots,p\}\), the group LASSO norm is computed as \(\|b\|_{2,1}=\sum_{G\in\mathcal{G}}|b_{G}|_{2}\), while |.|q denotes the usual \(\ell_{q}\) norm. The group LASSO penalty encourages sparsity 

@@ -155,3 +155,5 @@ filter_pths/
 *.safetensors
 kosmos-2.5-4bit/
 kosmos_4bit*
+./rainbow_bank*
+outputs*

@@ -1,0 +1,45 @@
+vertices \(P_{i}\). We can decompose the field using the basis functions \(e_{i}(\underline{x})\), such that 
+
+\[\hat{\phi}=\sum_{i}\hat{\Phi}_{i}\hat{e}_{i}\;,\] (22)  \[\hat{\phi}=\sum_{i}\hat{\Phi}_{i}\hat{e}_{i}\;,\] (22)  
+
+where  \(\hat{\Phi}_{i}=\hat{\Phi}(P_{i})\)\(\hat{\Phi}_{i}=\hat{\Phi}(P_{i})\). Let \(\mathbf{M}\) be a matrix with elements 
+
+\[M_{ij}=\int_{\Omega}\hat{\nabla}\hat{e}_{i}\cdot\hat{\nabla}v_{j}dx\;,\] (23)  
+
+then rewriting the terms in the equation of motion, equation (A6), in terms of the basis functions \(\hat{e}_{i}\)\(\hat{e}_{i}\), we have 
+
+\[\alpha\mathbf{M}\mathbf{\hat{\Phi}}= \left[\int_{\Omega}\hat{\mu}^{2}\cdot\hat{e}_{i}\cdot v_{j}dx \right]\hat{\Phi}_{i}-\left[\int_{\Omega}\hat{\rho}\cdot\hat{e}_{i}\cdot v_{j} dx\right]\hat{\Phi}_{i}\] \[-\left[\int_{\Omega}3\hat{\phi}_{k}^{2}\left(\hat{\mu}^{2}-1 \right)\cdot\hat{e}_{i}\cdot v_{j}dx\right]\hat{\Phi}_{i}\] \[+2\left(\hat{\mu}^{2}-1\right)\int_{\Omega}\hat{\phi_{k}^{3}}v_{j }dx\;.\] (24)  
+
+Now let \(\mathbf{P}\) be a vector with elements 
+
+\[P_{ij}=\int_{\Omega}\hat{\rho}\cdot\hat{e}_{i}\cdot v_{j}dx\;,\] (25)  
+
+and let \(\mathbf{B}_{k}\) and \(\mathbf{C}_{k}\) be matrices with elements 
+
+\[\left[B_{k}\right]_{ij}=\int_{\Omega}\hat{\phi}_{k}^{2}\cdot\hat{e}_{i}\cdot v _{j}dx\;,\] (26a) \[\left[C_{k}\right]_{ij}=\int_{\Omega}\hat{\phi}_{k}^{3}\cdot v_{j}dx\;.\] (26b)  
+
+In terms of these matrices, the symmetron equation of motion is 
+
+\[\left[\alpha\mathbf{M}+\mathbf{P}+3\left(\hat{\mu}^{2}-1\right) \mathbf{B}_{k}-\hat{\mu}^{2}\mathbb{1}\right]\hat{\mathbf{\Phi}}=2\left(\hat{ \mu}^{2}-1\right)\mathbf{C}_{k}\;,\] (27)  
+
+where \(\mathbb{1}\) is the identity matrix. 
+
+## Appendix B: Evolving the motion of the test particle 
+
+We will be interested in solving for the motion of matter particles under the influence of a symmetron fifth force. We solve for their motion using a leapfrog algorithm. This algorithm consists of an initial desynchronization of the velocity: 
+
+\[v_{1/2}=v-\frac{1}{2}a\text{d}t\;,\] (28)  
+
+where \(a\) is the acceleration due to the symmetron field. In terms of the gradient of the scalar field  \(\hat{\nabla}\hat{\phi}\)\(\hat{\nabla}\hat{\phi}\), the acceleration \(a\) is given by 
+
+\[a=-\frac{c^{2}}{L}\frac{\mu^{2}}{\lambda M^{2}}\hat{\phi}\hat{\nabla}\hat{\phi }\;.\] (29)  
+
+Inside a loop over time, the position and velocity of the test particle are updated via 
+
+\[v_{1/2}=v_{1/2}+a\text{d}t\;,\] (30a) \[x=x+v_{1/2}\text{d}t\;,\] (30b) \[v=v_{1/2}-\frac{1}{2}a\text{d}t\;,\] (30c)  
+
+after which the velocity is resynchronized with 
+
+\[v=v_{1/2}-\frac{1}{2}a\text{d}t\;.\] (31)  
+* [1] W. Hu, R. Barkana, and A. Gruzinov, Phys. Rev. Lett. 85 , 1158 (2000), astro-ph/0003365. [2] E. G. M. Ferreira, Astron. Astrophys. Rev.  29 , 7 (2021), 2005.03254. [3] E. J. Copeland, M. Sami, and S. Tsujikawa, Int. J. Mod. Phys. D  15 , 1753 (2006), hep-th/0603057. [4] A. Joyce, B. Jain, J. Khoury, and M. Trodden, Phys. Rept.  568 , 1 (2015), 1407.0059. [5] T. Clifton, P. G. Ferreira, A. Padilla, and C. Skordis, Phys. Rept.  513 , 1 (2012), 1106.2476. [6] T. Damour, F. Piazza, and G. Veneziano, Phys. Rev. D 66 , 046007 (2002), hep-th/0205111. [7] M. Gasperini, F. Piazza, and G. Veneziano, Phys. Rev. D  65 , 023508 (2002), gr-qc/0108016. [8] T. Binoth and J. J. van der Bij, Z. Phys. C  75 , 17 (1997), hep-ph/9608245. 
+* [9] B. Patt and F. Wilczek (2006), hep-ph/0605188. [10] R. M. Schabinger and J. D. Wells, Phys. Rev. D  72 , 093007 (2005), hep-ph/0509209. [11] C. Englert, T. Plehn, D. Zerwas, and P. M. Zerwas, Phys. Lett. B  703 , 298 (2011), 1106.3097. [12] M. Bauer, P. Foldenauer, P. Reimitz, and T. Plehn, SciPost Phys.  10 , 030 (2021), 2005.13551. [13] J. Beacham et al., J. Phys. G  47 , 010501 (2020), 1901.09966. [14] A. Slosar et al. (2019), 1903.12016. [15] P. Brax, S. Casas, H. Desmond, and B. Elder, Universe 8 , 11 (2021), 2201.10817. [16] K. Hinterbichler and J. Khoury, Phys. Rev. Lett.  104 , 231301 (2010), 1001.4525. [17] K. Hinterbichler, J. Khoury, A. Levy, and A. Matas, Phys. Rev. D  84 , 103521 (2011), 1107.2112. 

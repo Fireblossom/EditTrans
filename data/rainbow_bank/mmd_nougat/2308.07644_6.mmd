@@ -1,0 +1,41 @@
+an integral over the coupling Rabi frequency over time. However, the more complete analysis here allows us to incorporate more degrees of freedom in our analysis such as detunings between exciting x-ray pulse and two-level system or decay processes. 
+
+Going further in the perturbative expansion, we find that the second-order contributions can be written as (see Appendix B), 
+
+\[\rho^{(2)}_{ge}(t) =0\,,\] (20a) \[\rho^{(2)}_{ee}(t) =\left\lvert\int^{t}_{t_{0}}\:f(t,\tau)\:d\tau\right\rvert^{2}= \left\lvert\rho^{(1)}_{ge}(t)\right\rvert^{2}\,.\] (20b)  
+
+Hence, we find that the excited-state population and the coherence-squared are identical up to second order in the driving x-ray field also in this more general case, 
+
+\[\rho^{(0-2)}_{ee}(t)=\left\lvert\rho^{(0-2)}_{ge}(t)\right\rvert^ {2}\,,\] (21)  
+
+where the superscript \((0-2)\)indicates that all contributions up to second order are included. 
+
+As a result, we have shown for general two-level systems including decay and driven by weak time-dependent x-ray pulses that the coherently emitted intensity is equivalent to the intensity of the incoherent emission in second order of the x-ray-nucleus coupling. Note that this result is independent of the temporal shape of the x-ray field, such that it also holds for pulse sequences. 
+
+In terms of experimentally-accessible quantities, this implies that the ratio of the coherently and incoherently scattered intensities Eqs. (6),(8) is constant as function of time in the LER, i.e., if both observables are expanded up to second order in the driving x-ray field. Conversely, deviations from this time-independence therefore imply dynamics beyond the LER. In particular, as discussed in Sec. III A, the ratio is expected to change quadratically with the integrated Rabi frequency in leading higherexcitation order. In Secs. IV and V, we will explore particular x-ray pulse examples of experimental relevance for such dynamics beyond the LER, which will also allow for analytical solutions of the nuclear dynamics to higher order. 
+
+### Perturbative solution of the interacting many-body nuclear ensemble 
+
+In Appendix C we show that the relevant solution to the full master equation Eq. (3) of the \(N\)-body system up to second order in the x-ray-nuclei interaction, which at initial time \(t_{0}\) is in the ground state, can be written 
+
+for nucleus \(x\) as, 
+
+\[\rho_{g_{x},e_{x}}^{(1)}(t) =\sum_{n=1}^{N}\int^{t}_{t_{0}}d\tau\:g_{nx}(\tau)\,,\] (22a) \[g_{nx}(\tau) =-\frac{i}{2}\Omega^{*}(\mathbf{r}_{n},\tau)\left[e^{\mathcal{K}( t-\tau)}\right]_{nx}\,,\] (22b) \[\mathcal{K} =(\kappa_{nm})\,,\] (22c) \[\kappa_{nm} =-(\Gamma_{nm}+i\,J_{nm})-(\Gamma_{\mathrm{IC}}-i\omega_{0}) \delta_{nm}\,,\] (22d) \[\rho_{e_{x},e_{x}}^{(2)}(t) =\left|\rho_{e_{x},g_{x}}^{(1)}(t)\right|^{2}\,,\] (22e)  
+
+where \(\mathcal{K}\)\(\mathcal{K}\) is a matrix with elements \(\kappa_{nm}\). With this result at hand, we can now proceed by showing the equivalence between the population-based observables and the coherence-based observables also in the many-body case. 
+
+The solutions Eqs. (22) directly prove the equivalence on the single-particle level, 
+
+\[\lvert\rho^{(1)}_{g_{x}e_{x}}(t)\rvert^{2} =\rho^{(2)}_{e_{x}e_{x}}(t)\,,\] (23a) \[\Rightarrow\lvert\rho^{(0-2)}_{g_{x}e_{x}}(t)\rvert^{2} =\rho^{(0-2)}_{e_{x}e_{x}}(t)\,.\] (23b)  
+
+However, this result on the single-particle level is not sufficient for the experimentally accessible ensemblebased observables, given by Eqs. (6) and (8) as 
+
+\[I_{inc}(t) \propto\sum_{n=1}^{N}\:\langle\hat{\sigma}^{+}_{n}\hat{\sigma}^{- }_{n}\rangle\,,\] (24) \[I_{coh}(t,\mathbf{k}_{out}) \propto\left\lvert\sum_{n}e^{i\mathbf{k}_{out}\mathbf{r}_{n}} \langle\hat{\sigma}^{+}_{n}\rangle\right\rvert^{2}\,.\] (25)  
+
+To evaluate the sums in these expressions, we make two assumptions: First, we assume that all nuclei are excited with the same amplitude using a plane-wave field with wave vector \(\mathbf{k}_{\mathrm{in}}\), 
+
+\[\Omega(\mathbf{r}_{n},t)=\Omega(t)\,e^{i\mathbf{k}_{\mathrm{in}} \,\mathbf{r}_{n}}\,.\] (26)  
+
+Second, we make the assumption of a homogeneous ensemble of nuclei, i.e., 
+
+\[\rho_{g_{x},e_{x}}^{(1)}(t)=-\frac{i}{2}\sum_{n=1}^{N}\int^{t}_{t _{0}}d\tau\:\Omega^{*}(\mathbf{r}_{n},\tau)\left[e^{\mathcal{K}(t-\tau)}\right ]_{nx}\] \[= -\frac{i}{2}e^{-i\mathbf{k}_{\mathrm{in}}\,\mathbf{r}_{x}}\sum_{n =1}^{N}\int^{t}_{t_{0}}d\tau\:\Omega^{*}(\tau)e^{i\mathbf{k}_{in}(\mathbf{r}_{ x}-\mathbf{r}_{n})}\left[e^{\mathcal{K}(t-\tau)}\right]_{nx}\] \[= -\frac{i}{2}e^{-i\mathbf{k}_{\mathrm{in}}\,\mathbf{r}_{x}}\sum_{n =1}^{N}\int^{t}_{t_{0}}d\tau\:\Omega^{*}(\tau)e^{i\mathbf{k}_{in}(\mathbf{r}_{ n_{0}}-\mathbf{r}_{n})}\left[e^{\mathcal{K}(t-\tau)}\right]_{nn_{0}}\] \[= \rho_{ge}^{(1)}(t)\:e^{-i\mathbf{k}_{\mathrm{in}}\,\mathbf{r}_{x} }\,.\] (27)  

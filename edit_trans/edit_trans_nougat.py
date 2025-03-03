@@ -1,45 +1,56 @@
-from transformers import NougatProcessor, VisionEncoderDecoderModel, LayoutLMv3ImageProcessor
+from transformers import NougatProcessor, VisionEncoderDecoderModel, PreTrainedModel
 from transformers.tokenization_utils_base import PreTrainedTokenizerBase
-from ernie_layout_pytorch.networks import ErnieLayoutConfig, set_config_for_extrapolation
-from ernie_layout_pytorch.networks import exErnieLayoutForTokenClassification, ErnieLayoutTokenizerFast, ErnieLayoutProcessor
-
-from transformers import PreTrainedModel
+from ernie_layout_pytorch.networks import ErnieLayoutConfig
+from ernie_layout_pytorch.networks import exErnieLayoutForTokenClassification
 from transformers.generation.stopping_criteria import StoppingCriteriaList, EosTokenCriteria, MaxLengthCriteria, StoppingCriteria
 from transformers.generation.logits_process import LogitsProcessorList
 from torch.nn import functional as F
 from transformers.modeling_outputs import BaseModelOutput
 from transformers.generation.configuration_utils import GenerationConfig
-
-import re
 import time
-
 import torch
 from pytorch_forecasting.utils import padded_stack
 
 
-class StopTokenCriteria(StoppingCriteria):
+class NGramMatchStopCriteria(StoppingCriteria):
     # yet only support stop token with batch size 1
-    def __init__(self, stop_strings: list[str], tokenizer: PreTrainedTokenizerBase, device=None):
-        self.stop_tokens = tokenizer(stop_strings, return_tensors='pt', padding=True, truncation=True)['input_ids'][:,1:-1].to(device)
-        self.stop_tokens_add_space = tokenizer([' '+stop_string for stop_string in stop_strings], return_tensors='pt', padding=True, truncation=True)['input_ids'][:,1:-1].to(device)
+    def __init__(self, stop_string: list[torch.LongTensor], ngram_size: int = 3):
+        self.stop_string = stop_string
+        self.ngram_size = ngram_size
+        self.match_position = 0
     
     def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> torch.Tensor:
-        if input_ids.size(1) < self.stop_tokens.size(1) or input_ids.size(1) < self.stop_tokens_add_space.size(1):
-            return False
-            
-        ret_1 = any([torch.any(input_ids[i, -self.stop_tokens.size(1):] == self.stop_tokens[i,:]) for i in range(input_ids.size(0))])
-        ret_2 = any([torch.any(input_ids[i, -self.stop_tokens_add_space.size(1):] == self.stop_tokens_add_space[i,:]) for i in range(input_ids.size(0))])
-        return ret_1 or ret_2
-    
+        # TODO: support batch size > 1
+        # TODO: skip the current stop_string if it's not valid
 
-def find_first_long_word(text):
-    # This regex matches a word with more than 2 letters
-    match = re.search(r'\b\w{3,}\b', text)
-    if match:
-        start, end = match.start(), match.end()
-        return [text[start:end], text[end:]]
-    else:
-        return None
+        if input_ids.size(0) > 1:
+            raise NotImplementedError('StopLastNGramCriteria only support batch size 1 ATM')
+        
+        if self.stop_string[0] is False or input_ids.size(1) < self.ngram_size:
+            return False # last insert or not enough tokens
+        
+        # inspired by PromptLookupCandidateGenerator
+
+        # Create sliding windows of size ngram_size
+        windows = self.stop_string[0].unfold(dimension=0, size=self.ngram_size, step=1)
+
+        # Convert ngram to a tensor for comparison
+        ngram_tensor = input_ids[0, -self.ngram_size:]
+
+        # Find where the windows match the ngram
+        matches = (windows == ngram_tensor).all(dim=1)
+
+        # Get the indices of matches
+        match_indices = matches.nonzero(as_tuple=True)[0]
+
+        # Iterate through match indices to find a valid continuation
+        for idx in match_indices:
+            self.match_position = idx + self.ngram_size
+            return True
+        return False
+
+    def get_matched_add_position(self):
+        return [self.match_position,]
 
 
 def build_edit_seq(logits: torch.Tensor, inputs: dict) -> list[list[str]]:
@@ -62,21 +73,19 @@ def build_edit_seq(logits: torch.Tensor, inputs: dict) -> list[list[str]]:
             if label == 1: # INSERT
                 if edit_seq and edit_seq[-1] is not None:
                     edit_seq.append(None)
-                match = find_first_long_word(segment_text[seg_id][i].strip())
-                if match and len(match[1]) > 5:
-                    edit_tuple = [match[0], match[1]] # stop_string, add_string
-                    edit_seq.append(edit_tuple)
+                match = segment_text[seg_id][i].rstrip()
+                if match and len(match) > 5:
+                    edit_seq.append(match)
             elif label == 0: # DELETE
                 pass
             else: # KEEP
-                if segment_text[seg_id][i].strip():
+                if segment_text[seg_id][i].rstrip():
                     if edit_seq and edit_seq[-1] is not None:
-                        edit_seq[-1][1] += ' ' + segment_text[seg_id][i].strip()
+                        edit_seq[-1] += ' ' + segment_text[seg_id][i].lstrip()
                     else:
-                        match = find_first_long_word(segment_text[seg_id][i].strip())
-                        if match and len(match[1]) > 5:
-                            edit_tuple = [match[0], match[1]] # stop_string, add_string
-                            edit_seq.append(edit_tuple)
+                        match = segment_text[seg_id][i].rstrip()
+                        if match and len(match) > 5:
+                            edit_seq.append(match)
         if not edit_seq: # empty page?
             edit_seq.append(None)
         elif len(segment_text) >= max(vote.keys()) and edit_seq[-1] is not None:
@@ -85,11 +94,11 @@ def build_edit_seq(logits: torch.Tensor, inputs: dict) -> list[list[str]]:
     return edit_seqs
 
 
-def sync_batch(input_ids: torch.Tensor, add_next:list[torch.LongTensor]):
+def sync_batch(input_ids: torch.Tensor, add_next:list[torch.LongTensor], match_idxes: list[int]) -> torch.Tensor:
     lst = [
             torch.cat([
                 input_ids[i,:], #[input_ids[i,:]>2], 
-                add_next[i]
+                add_next[i][match_idxes[i]:]
             ]) for i in range(input_ids.size(0))
         ]
     ret = padded_stack(lst, side='left')
@@ -113,25 +122,48 @@ class EditTransNougat(PreTrainedModel):
         self.processor = NougatProcessor.from_pretrained("facebook/nougat-base")
         self.tokenizer = self.processor.tokenizer
 
+    def tokenize_edit_seqs(self, edit_seqs: list[list[str]]) -> list[list[torch.LongTensor|None]]:
+        tokenized_seqs = []
+        for seq in edit_seqs:
+            tokenized_seq = []
+            for action in seq:
+                if action is None:
+                    tokenized_seq.append(None)
+                else:
+                    ids = torch.LongTensor(self.tokenizer.encode(action)[1:-1]).to(self.device)
+                    if ids.size(0) > 5:
+                        tokenized_seq.append(ids) # don't insert very short text
+                    else:
+                        if tokenized_seq and tokenized_seq[-1] is None:
+                            tokenized_seq.pop() # remove the last None and skip this insert
+            tokenized_seqs.append(tokenized_seq)
+        return tokenized_seqs
+
     def get_next(self, edit_seqs):
         stop_strings = []
         add_next = []
         for seq in edit_seqs:
             if not seq: #empty edit seq, generate normally
+                stop_strings.append(False)
                 add_next.append(torch.LongTensor([]).to(self.device))
             else:
                 next_action = seq.pop(0)
                 if next_action is None: # NEED INSERT
                     if seq: # has next keep seq
-                        stop_strings.append(seq[0][0])
+                        stop_strings.append(seq[0])
+                    else:
+                        stop_strings.append(False)
                     add_next.append(torch.LongTensor([]).to(self.device))
                 else: # KEEP
-                    token_ids = torch.LongTensor(self.tokenizer.encode(next_action[1])[1:-1]).to(self.device)
-                    add_next.append(token_ids)
+                    add_next.append(next_action)
                     if seq: # has next action
-                        assert seq.pop(0) == None, 'Next action should be [INSERT]'
+                        assert seq.pop(0) == None, 'Next action should be [INSERT_LEFT]'
                         if seq: # has one more next keep seq
-                            stop_strings.append(seq[0][0])
+                            stop_strings.append(seq[0])
+                        else:
+                            stop_strings.append(False)
+                    else:
+                        stop_strings.append(False)
         return stop_strings, add_next
 
     def generate(
@@ -160,7 +192,7 @@ class EditTransNougat(PreTrainedModel):
         filter_time = end_filter - start_filter
         batch_size = filter_outputs.logits.size(0)
         start_build = time.time()
-        edit_seqs = build_edit_seq(filter_outputs.logits, filter_inputs)
+        edit_seqs = self.tokenize_edit_seqs(build_edit_seq(filter_outputs.logits, filter_inputs))
         end_build = time.time()
         build_time = end_build - start_build
 
@@ -178,16 +210,14 @@ class EditTransNougat(PreTrainedModel):
             steps = torch.LongTensor([1]*batch_size).to(self.device) # for paper
             start_edit = time.time()
             stop_strings, add_next = self.get_next(edit_seqs)
-            input_ids = sync_batch(input_ids, add_next)
+            input_ids = sync_batch(input_ids, add_next, [0]*batch_size)
             len_before = torch.sum(input_ids>2, dim=-1)
-            if not stop_strings:
-                stop_strings = None
             end_edit = time.time()
             edit_time.append(end_edit - start_edit)
             
             prepared_stopping_criteria = StoppingCriteriaList()
             prepared_stopping_criteria.append(EosTokenCriteria(self.tokenizer.eos_token_id))
-            prepared_stopping_criteria.append(StopTokenCriteria(stop_strings=stop_strings, tokenizer=self.tokenizer, device=self.device))
+            prepared_stopping_criteria.append(NGramMatchStopCriteria(stop_strings))
             prepared_stopping_criteria.append(MaxLengthCriteria(max_length=1024))
             prepared_logits_processor = LogitsProcessorList() # we don't need NoBadWords and ForcedEosToken ATM
 
@@ -211,15 +241,11 @@ class EditTransNougat(PreTrainedModel):
             while any(outputs.sequences[:,-1]>2): # batch not finished generation
                 start_edit = time.time()
                 stop_strings, add_next = self.get_next(edit_seqs)
-                input_ids = sync_batch(outputs.sequences, add_next)
+                input_ids = sync_batch(outputs.sequences, add_next, prepared_stopping_criteria[1].get_matched_add_position())
                 if input_ids.size(1) > 1022:
                     break # early stop
                 len_before = torch.sum(input_ids>2, dim=-1)
-                if not stop_strings:
-                    stop_strings = None
-                    del prepared_stopping_criteria[1]
-                else:
-                    prepared_stopping_criteria[1] = StopTokenCriteria(stop_strings=stop_strings, tokenizer=self.tokenizer, device=self.device)
+                prepared_stopping_criteria[1] = NGramMatchStopCriteria(stop_strings)
                 end_edit = time.time()
                 edit_time.append(end_edit - start_edit)
 

@@ -1,0 +1,30 @@
+subsystem-code versions of the more traditional 3d stabilizer toric codes. For example, the 3d cubic lattice fusion complex maps to the 3d subsystem toric code of Ref. [89]. Thus, the fusion complex framework gives a constructive and generative way to generalize the subsystem toric code (STC) models of Refs. [89, 90], providing a family of examples of 3d single-shot error correcting codes that have been of recent interest [88–92]. 
+
+A subsystem code [93, 94] is specified by a (not-necessarily commuting) subgroup of Pauli operators \(\mathcal{G}\) called the gauge group. Stabilizers for the code are obtained (up to phases) by \(\mathcal{S}=\mathcal{Z}(\mathcal{G})\cap\mathcal{G}\), where \(\mathcal{Z}(\mathcal{G})\) consists of all Pauli operators commuting with all elements of \(\mathcal{G}\). Thus in particular, \(\mathcal{S}\subset\mathcal{G}\), such that stabilizer outcomes can be inferred by measuring gauge generators. Some subsystem codes, like gauge color codes and subsystem toric codes, allow “gauge fixing” between different stabilizer codes (meaning the target stabilizer code is described by a subgroup of the gauge group) [95, 96]. Here we show that any fusion complex with bi-colorable vertices can be used to define a subsystem toric code. 
+
+_(3d subsystem-toric-code complex) A 3-_ _dimensional cell complex,_ \(\mathcal{L}=\{C,F,E,V\}\)_, is a subsystem-_ _toric-code complex if every edge has exactly four incident_ _faces, and it has bi-colorable vertices._ 
+
+The subsystem code is defined on such a complex as follows (recall that the 3-cells are also bicolorable by construction). 
+
+
+* \(e\in E\). 
+* \(g\in\mathcal{G}\) is associated to each corner of a 3-cell, and is \(X\)-type or \(Z\)-type according to the color of the 3-cell. 
+* \(s\in\mathcal{S}\) is associated to each 3-cell \(c\in C\), and is \(X\)-type or \(Z\)-type according to the color of the 3-cell. 
+
+In particular, the stabilizers for each 3-cell \(c\in C\) are a product of either \(X\) or \(Z\) (depending on the color of \(c\)) on all qubits supported on edges of that cell. To define the gauge generators, take an \(X\)-type ( \(Z\)-type) 3-cell \(c\in C\), and a vertex \(v\) supported on \(c\). Then the gauge generator \(g_{(v,c)}\in\mathcal{G}\)associated to the corner \((v,c)\) of the 3-cell is given by a product of \(X\) ( \(Z\)) operators on all qubits supported on the edges of \(c\) that are incident to \(v\). Stabilizers commute with each other and all gauge generators. 
+
+Mapping from the FBQC version of the fusion complex to the 3d subsystem code, one simply replaces fusions by qubits, and maps the support of resource-state stabilizers and check operators to these qubits appropriately: resource state stabilizers correspond to gauge generators and checks of the fusion network correspond to stabilizers of the subsystem code. Thus the set of gauge generators around each vertex defines a 2d stabilizer surface code on a sphere. While all 2d surface code stabilizers commute within each surface code on each vertex, neighbouring surface codes overlap, and their stabilizers do not necessarily commute. 
+
+We can verify that this construction gives a well-defined subsystem code with \(\mathcal{S}=\mathcal{Z}(\mathcal{G})\cap\mathcal{G}\) (up to signs). To do so, we show that (i), gauge generators commute with stabilizers, and (ii) that \(\mathcal{S}\subset\mathcal{G}\). For (i), all gauge generators around a vertex form a 2d surface code, and thus commute. Gauge generators therefore commute with stabilizers, as each gauge generator can be obtained by restricting a stabilizer on a cell \(c\in C\) to one of its corners. For (ii) we use the bi-colorability of the vertices of the complex. In particular, the corners of the 3cell \(c\in C\) supporting a stabilizer, are partitioned into two colors. Taking the product of gauge generators on the corners of (either) one of the colors gives the stabilizer on that 3-cell. Note that each stabilizer can be obtained in two ways as a product of gauge generators. This redundancy also enables single-shot error correction for these models (although we do not prove this here). 
+
+The cell complex has bi-colourable vertices if and only if its 1-skeleton has even cycles (when viewed as a graph). In other words, each face of the complex must have even length. This rules out any complex with triangular faces (and thus tetrahedral volumes). Such complexes do not form valid subsystem surface codes. 
+
+Noting that the FBQC realization of the fusion complex is also described by a (different kind of) subsystem code (see Refs. [1, 45]), where fault-tolerant computation is described as a gauge fixing from the resource group to the fusion group. That single-shot 3d codes and (2+1)d fault-tolerant quantum computation are described by the same underlying fusion complex may clarify the connection between fault-tolerant quantum instruments and single-shot codes. 
+
+**Example: cubic complex** . The cubic complex corresponds to the 3d STC of Ref. [89]. Gauge generators are all 3-body operators, and stabilizers are 12-body operators. 
+
+**Example: 4-star complex** . The 4-star complex corresponds to a 3d STC with 4-body and 2-body gauge generators, and stabilizers that are 24-body operators. 
+
+**Example: Bipartite** \(n\)**-star complex.**  Take any 3d cell complex. Construct the fusion complex as per Appendix D, consisting of GHZ and GHX resource states. This forms a valid subsystem toric code complex. 
+
+**Example: Enneahedral complex.**  Consider the complex FIG. 8: (top left) Cubic fusion complex with qubit locations on edges. (top middle, right) \(X\) and \(Z\) gauge generators on each corner, in blue and red, respectively. (bottom) Two ways of obtaining a \(Z\) stabilizer for each \(Z\)-cell (similarly for \(X\)). 

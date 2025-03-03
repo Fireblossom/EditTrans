@@ -1,0 +1,27 @@
+However, if the approximation error is not a major concern (which is, for example, the case if the order of approximation can be chosen sufficiently large) then one can choose \(s=t\) in which case \(E_{t}f\left(x\right)=e^{\left(B-\partial_{t}\right)t}u_{0,t}\left(x\right)\)and the following special case of ( ) can be employed, 
+
+\[\hat{E}_{t}f\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}\left(B- \partial_{t}\right)^{m}u_{0,t}\left(x\right).\  \[\hat{E}_{t}f\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}\left(B- \partial_{t}\right)^{m}u_{0,t}\left(x\right).\  
+
+We show in Appendix  A  that ( 2.16 ) is a generalized version of the proposal of  Kristensen and Mele  ( 2011 ) which in turn contains as special cases the expansions of  Yang et al.  ( 2019 ) and  Wan and Yang  ( 2021 ). 
+
+## Implementation of expansion for jump-diffusion models 
+
+This section provides details regarding the practical implementation of the proposed approximation in the jump–diffusion case. We here focus on the special case of \(r\left(x\right)=0\)and \(s=t\), in which case \(u_{t}\left(x\right)=E_{t}f\left(x\right)=\mathbb{E}\left[f\left(x_{t}\right)|x _{0}=x\right]\)and 
+
+\[\hat{u}_{t}\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}\left(A- \partial_{t}\right)^{m}u_{0,t}\left(x\right).\  \[\hat{u}_{t}\left(x\right)=\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}\left(A- \partial_{t}\right)^{m}u_{0,t}\left(x\right).\  
+
+This is done to avoid overly complicated notation. Most of the ideas and arguments extend to the general case. 
+
+### Choice of smoothing function for irregular moments 
+
+Following  Kristensen and Mele  ( 2011 ), a simple choice of \(u_{0,s}\left(x\right)\)that satisfies A.1 is \(u_{0,s}\left(x\right)=E_{0,s}f\left(x\right)=\mathbb{E}\left[f\left(x_{0,s} \right)|x_{0,0}=x\right]\)where \(x_{0,s}\) is chosen as the solution to an auxiliary jump–diffusion model, 
+
+\[dx_{0,t}=\mu_{0}\left(x_{0,t}\right)dt+\sigma_{0}\left(x_{0,t}\right)dW_{t}+J_ {0,t}dN_{0,t},\  
+
+where \(N_{0,t}\) is a Poisson process with jump intensity \(\lambda_{0}\left(x\right)\)and \(J_{0,t}\) has density ν0(⋅|x). The auxiliary model should be chosen so that \(u_{0,t}\left(x\right)\)is available on closed form. One such model is the multivariate Brownian motion with drift model, 
+
+\[dx_{0,t}=\mu_{0}dt+\sigma_{0}dW_{t}\  
+
+where \(\mu_{0}\in\mathbb{R}^{d}\)and \(\sigma_{0}\in\mathbb{R}^{d\times d}\)–Uhlenbeck) model, 
+
+\[dx_{0,t}=\left(\mu_{0}+Ax_{0t}\right)dt+\sigma_{0}dW_{t},\]  

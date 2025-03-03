@@ -1,0 +1,23 @@
+to $Ax=b$has full support. By Proposition  4 , columns of $A$are integrally independent. It follows 
+
+**Remark 1.** _ We demonstrate how to modify the proof of Theorem_ _ 6_ _ to obtain the bound_  ( 7 ) _ given in_ _[_ _AADLO22_ _]. We use the same notation as in the proof of Theorem_ _ 6_ _. For any_ $m\times m$_submatrix of_ $A$_whose columns are indexed by_ $J$_where_ $|J|=m$_, we have_ 
+
+\begin{equation*} \begin{aligned}     |\operatorname{det}(A_{[m]\times J})|     = & |\operatorname{det}(D)|\cdot |\operatorname{det}((U^{-1})_{[m]\times J})|\\     = & \gcd(A) \cdot |\operatorname{det}((U^{-1})_{[m]\times J})| \\     = & \gcd(A) \cdot |\operatorname{det}(U_{[n]\backslash J ~\times~ [m+1:n]})|. \end{aligned} \end{equation*}
+
+_We also know that_ 
+
+\begin{equation*}     \prod_{i\in [n]\backslash J}q_i~ \Big|~|\operatorname{det}(U_{[n]\backslash J ~\times~ [m+1:n]})|, \end{equation*}
+
+_and thus_ 
+
+\begin{equation*}     \prod_{i\in [n]\backslash J}q_i~ \Big|~\frac{|\operatorname{det}(A_{[m]\times J})|}{\gcd(A)}, \end{equation*}
+
+_where_ $q_i, i\in [n]\backslash J$_are primes numbers and with the same prime repeating at most_ $m$_times in_ $\{q_i\mid i\in  [n]\backslash J\}$_. Recall notation_ $\Omega_m(z)=\sum_{i=1}^{k}\min\{s_i,m\}$_ for the prime factorization of_ $z=r_1^{s_1}\cdots r_k^{s_k}$_with mul-_ _tiplicities_ $s_1,...,s_k\in\mathbb{Z}_{>0}$_. Clearly, when_ $x\mid y$_,_ $\Omega_m(x)\ensuremath{\leqslant} \Omega_m(y)$_. Thus,_ $\Omega_m\mathopen{}\mathclose\bgroup\originalleft(\prod_{i\in [n]\backslash J}q_i\aftergroup\egroup\originalright)\ensuremath{\leqslant} \Omega_m\mathopen{}\mathclose\bgroup\originalleft(\frac{|\operatorname{det}(A_{[m]\times J})|}{\gcd(A)}\aftergroup\egroup\originalright)$_._ _Moreover, since the multiplicity of each_ $q_i$_in_ $\prod_{i\in [n]\backslash J}q_i$_is at most_ $m$_, we have_ $\Omega_m\mathopen{}\mathclose\bgroup\originalleft(\prod_{i\in [n]\backslash J}q_i\aftergroup\egroup\originalright)=|[n]\backslash J|=n-m$_._ _Therefore,_ $n-m\ensuremath{\leqslant} \Omega_m\mathopen{}\mathclose\bgroup\originalleft(\frac{|\operatorname{det}(A_{[m]\times J})|}{\gcd(A)}\aftergroup\egroup\originalright)$_. Since_ $J$_is an arbitrary subset of_ $[n]$_ with cardinality_ $m$_, we obtain_ $n\ensuremath{\leqslant} m+\min_{\tau\in\binom{[n]}{m}, \operatorname{det}(A_\tau)\neq 0}\Omega_m\Big(\frac{|\operatorname{det}(A_\tau)|}{\gcd(A)}\Big)$_. Applying the same argument as in the proof of Theorem_ _ 2_ _above, we obtain_ $f(A)\ensuremath{\leqslant} m+\min_{\tau\in\binom{[n]}{m}, \operatorname{det}(A_\tau)\neq 0}\Omega_m\Big(\frac{|\operatorname{det}(A_\tau)|}{\gcd(A)}\Big)$_._ 
+
+### Upper bound on $h(m,t)$
+
+Recall $h(m,t)$ is the maximum, taken over all integer matrices $A$with $m$rows and largest entry $t$, of the smallest support size of an integer solution to $Ax=b$for some $b\in \mathcal{L}(A)$ (formally subdeterminant, we want to use results in Section  3.2  to obtain an upper bound for $h(m,t)$. We determinant of a matrix, i.e. for any matrix $B\in \mathbb{R}^{m\times m}$, $$|\operatorname{det}(B)|\ensuremath{\leqslant} (\sqrt{m}\mathopen{}\mathclose\bgroup\originalleft\lVert B\aftergroup\egroup\originalright\rVert_\infty)^m.$$**Corollary 9.** 
+
+$h(m,t)$_ satisfies_ 
+
+\begin{equation}     \label{eq:integer:equation:bound2}         (\sqrt{m}~t)^m\ensuremath{\geqslant} p_2^m p_3^m\cdots p_{\mathopen{}\mathclose\bgroup\originalleft\lfloor\frac{h(m,t)}{m}\aftergroup\egroup\originalright\rfloor}^{m}p_{\mathopen{}\mathclose\bgroup\originalleft\lceil\frac{h(m,t)}{m}\aftergroup\egroup\originalright\rceil}^{h(m,t)-m\mathopen{}\mathclose\bgroup\originalleft\lfloor\frac{h(m,t)}{m}\aftergroup\egroup\originalright\rfloor}.     \end{equation}

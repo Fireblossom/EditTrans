@@ -1,0 +1,36 @@
+# Interpretable inverse-designed cavity for on-chip nonlinear and quantum optics 
+
+Zhetao Jia, 1 
+
+Wayesh Qarony, 1 
+
+Jagang Park, 1 
+
+Sean Hooten, 2 
+
+Difan Wen, 1, 3 
+
+Yertay Zhiyenbayev, 1 
+
+Matteo Seclì, 1 
+
+Walid Redjem, 1 
+
+Scott Dhuey, 4 
+
+Adam Schwartzberg, 4 
+
+Eli Yablonovitch, 1 
+
+and Boubacar Kanté 1, 5, _ ∗_ 
+
+1 _Department of Electrical Engineering and Computer Sciences,_ _University of California at Berkeley, Berkeley, California 94720, USA_ 2 _Hewlett Packard Labs, Hewlett Packard Enterprise,_ _820 N. McCarthy Blvd., Milpitas, California 95035, USA_ 3 _Applied Science and Technology Graduate Group,_ _University of California at Berkeley, Berkeley, California 94720, USA_ 4 _Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA_ 5 _Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA_ (Dated: May 31, 2024) 
+
+##### Abstract
+Inverse design is a powerful tool in wave-physics and in particular in photonics for compact, high-performance devices. To date, applications have mostly been limited to linear systems and it has rarely been investigated or demonstrated in the nonlinear regime. In addition, the "black box" nature of inverse design techniques has hindered the understanding of optimized inverse-designed structures. We propose an inverse design method with interpretable results to enhance the efficiency of on-chip photon generation rate through nonlinear processes by controlling the effective phase-matching conditions. We fabricate and characterize a compact, inverse-designed device using a silicon-on-insulator platform that allows a spontaneous four-wave mixing process to generate photon pairs at 1.1MHz with a coincidence to accidental ratio of 162. Our design method accounts for fabrication constraints and can be used for scalable quantum light sources in large-scale communication and computing applications. 
+
+## INTRODUCTION 
+
+Enhancing nonlinear optical processes has been a longstanding challenge due to materials’ weak nonlinear response. The quest for effective approaches to achieve on-chip frequency conversion and generate photon pairs has been an enduring endeavor. Over the last decades, various nanophotonic platforms have been proposed to implement and enhance nonlinear photon generation processes, including wire waveguides,, nanobeam cavities,, metamaterials,, microring resonators,, periodically poled waveguides/cavities,, and photonic crystal cavities.. It is well-known that high-quality factor cavities designed at target frequencies can bolster the nonlinear process by enhancing the field with confinement. Yet, the effective phase matching conditions are typically challenging to satisfy in non-conventional cavity structures. Without effective phase-matching, the generated photons from different positions in nonlinear materials can destructively interfere, reducing the total generation efficiency. Such issues can be addressed by computational inverse design.. Recently, the adjoint method has been generalized to optimize nonlinear photonic processes, such as second harmonic generation or optical switches based on the Kerr effect.. However, current optimization methods face difficulties in generalization to multi-photon generation processes, and the coupling efficiencies for both input and output channels are often overlooked due to the optimization complexity. In addition, an intuitive understanding of the inverse-designed structure is unclear. The optimized structure often lacks interpretability, making it challenging to gain insights into how and why the inverse design method works. To address these challenges, we put forth an inverse design approach to amplify the efficiency of on-chip photon pair generation. We implement this strategy using the open-source package  EmOpt .. Our method employs a multi-frequency co-optimization strategy and calculates gradients with respect to the design parameters via the adjoint method. The resulting efficiency enhancement stems not only from the increased field intensity due to the confinement of light in high quality factor cavity resonances but also from the improvement of phase-matching conditions, along with coupling between the cavity and waveguide mode considered in the design. We demonstrate the capability of the proposed method by fabricating and characterizing an optimized device that enables the efficient generation of photon pairs. Interestingly, the shape of the proposed design can also be explained by an effective potential method, and the approximate solution aligns well with the finite-difference frequency domain (FDFD) simulation results. The proposed optimization strategy can be generalized to other nonlinear processes for compact frequency-mixing devices on-chip, and the performance can be further improved using global optimization methods.. 
+
+exemplifies the spontaneous four-wave mixing process shown in Fig. (a), where a single port is used to couple the pump/generated photons to/from the cavity. In 

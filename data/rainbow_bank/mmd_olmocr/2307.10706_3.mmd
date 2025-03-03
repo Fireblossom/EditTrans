@@ -1,0 +1,39 @@
+These microstates describe for each site \(j\) an atom with spin \(m_{j}\), while \(q_{i}\) is the corresponding microstate energy, in our case \(q_{i}=q\sum_{j}m_{j}^{2}\). \(H_{C}\) on the other hand captures (in the specific case that we consider below) the long-range dipole-dipole interactions between atoms. 
+
+We further introduce the physical strengths \((d,c)\)of respectively \(H_{D}\) and \(H_{C}\) by writing \(H=dh_{D}+ch_{C}\)where \(h_{D}\) and \(h_{C}\) are now dimensionless. As \(h_{D}\) does not couple different microstates, it does not contribute to any sort of propagation in the Hilbert space either. \(h_{C}\)on the other hand does and at each step of the Lanczos iteration, the probability to further propagate into the Hilbert space is thus qualitatively given by \(\frac{c^{2}}{d^{2}+c^{2}}\) . 
+
+We now state this article’s main statement: a system \((\psi_{0},H)\)will be localized if and only if 
+
+\[R^{\left(\frac{c^{2}}{d^{2}+c^{2}}l_{loc}\right)}\ell\mathrm{dim}(H),\] (4)  
+
+where \(\mathrm{dim}(H)\)is the size of the Hilbert space and \(R\) the typical number of microstates that a typical microstate is coupled to, due to the action of \(h_{C}\). In the case of Anderson localization for example, each site is coupled to \(R=p\) sites by tunneling, where \(p\) is the coordination of the lattice. In the case of spin dynamics, each microstate is typically coupled to \(R=O(N^{2})\)microstates (corresponding to spin flips between \(N(N-1)/2\)pairs of atoms). The left-hand side of Eq. 4 thus qualitatively represents the number of states that are explored by the system, assuming that at each step, there are \(R\) times more populated microstates, due to the sole action of \(H_{C}\). Note that this estimate is only qualitative, as it for example ignores interference effects that may occur during the propagation _ in the Hilbert space_  [35, 36]. The criterion can be equivalently written 
+
+\[\frac{c^{2}}{d^{2}+c^{2}}l_{loc}\mathrm{Log}(R)\ell\mathrm{Log}(\mathrm{dim}(H ))=S_{C}.\] (5)  
+
+\(S_{C}\) is the entropy of the system at infinite temperature ( \(i.e.\) all states are equally populated) in the microcanonical ensemble. 
+
+We will now make one simplification, in order to find simple _ qualitative_  criteria separating localized and chaotic systems. For this, it can be noted that if there is a transition between a localized and a chaotic regime due to a competition between the terms \(H_{C}\) and \(H_{D}\), the transition will generally occur when these terms are of the same order of magnitude. Therefore \(\frac{c^{2}}{d^{2}+c^{2}}\) is of order unity close to the transition. The localization criterion thus reads: 
+
+Log(R)ll⁢o⁢cℓSC⇔localized, (6)  
+
+where \(l_{loc}\) is either of the localization lengths defined above. \(\mathrm{Log}(R)\)will be of order 1 for the Anderson localization, and approximately of order \(\mathrm{Log}(N)\)for a generic 
+
+many-problem. Note that Eq. 6 implies that, for quantum chaotic systems, the local fluctuations of both \(h_{k}\)and \(\Gamma_{k}\)are small compared to \(\bar{\gamma}\)\(\bar{\gamma}\), in all three cases described above (classical localization, diagonal disorder or non-diagonal disorder), and both for single-particle and many-body physics. 
+
+## EXAMPLE 1: ANDERSON LOCALIZATION 
+
+In this first example we examine the problem of Anderson localization using the Lanczos basis. Our goal is to show that our approach can offer an intuitive picture and easily recover well-known results. We consider a particle moving in a lattice, with \(J\) the tunneling coupling from one lattice site to its neighbors. Each site \(i\) is characterized by a random energy offset \(\epsilon_{i}\) such that: 
+
+\[H=-J\sum_{<i,j>}(a_{j}^{+}a_{i}+a_{i}^{+}a_{j})+\sum_{j}\epsilon_{j}a_{j}^{ \dagger}a_{j},\] (7)  
+
+where the first sum is performed over nearest neighbors, and the second sum over all lattice sites. \(a_{i}\) is the destruction operator on site \(i\). 
+
+### 1D case 
+
+We consider the semi-infinite case, with a particle initially lying at the edge of a semi-infinite 1D lattice. We denote by \(\{j\}\) the Wannier state describing a particle localized in site \(j\). The initial state of the system is \(\{0\}\). Then one easily finds that the Lanczos states are exactly the Wannier states: \(\forall j,\left|j\right>=\{j\}\). Therefore, localization in the Lanczos basis is identical to localization in the physical space. 
+
+### 2D case 
+
+We consider the upper right quadrant of a plane given by all sites with indices \(\{p,q\}\in\mathbb{N}^{2}\). We assume that all atoms are in initially in site \(\{0,0\}\). The Hamiltonian is given by Eq. 7. After \(k\) iteration, the Lanczos state \(\left|k\right>\)involves microstates states \(\{p,q\}\) with \(p+q\leq k\). The expectation energy of \(\left|k\right>\), \(h_{k}\), is therefore an average of a large number of values \(\epsilon_{(p,q)}\); if the disorder in the local energies \(\epsilon_{(p,q)}\) is assumed to be non-correlated, the standard deviation associated with local tuations of \(h_{n}\) for \(n\) close to \(k\)therefore scales as \(1/\sqrt{N_{k}}\), where \(N_{k}\)is the typical number of microstates contained in \(\left|k\right>\). In general, the fluctuations of \(h_{k}\) are therefore expected to be a decreasing function of \(k\). If this decrease is too fast as a function of \(k\), localization may not occur. 
+
+Therefore, to investigate Anderson localization in 2D, we have performed numerical simulations to determine 

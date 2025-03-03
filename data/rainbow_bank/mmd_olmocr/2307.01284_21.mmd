@@ -1,0 +1,33 @@
+**Table 5:**  Normal model, censoring only 
+
+  ------------------------------------------------------------------ --------- --------- --------- --------- ---------
+                                                                      Outcome                                
+                                                                       Emp.       p10       p25       p50       p90
+  \_Panel A: Baseline\_                                                                                      
+  Mean causal effect                                                   0.000     0.022     0.002     0.000     0.000
+  Effective min. wage                                                  0.000     0.025     0.002     0.000    -0.000
+                                                                      (0.000)   (0.019)   (0.010)   (0.000)   (0.019)
+  \_Panel B: Reduction in average dispersion\_                                                               
+  Mean causal effect                                                   0.000     0.025     0.001     0.000     0.000
+  Effective min. wage                                                  0.000     0.016     0.001     0.000    -0.000
+                                                                      (0.000)   (0.018)   (0.010)   (0.000)   (0.019)
+  \_Panel C: Dispersion changes correlated with location changes\_                                           
+  Mean causal effect                                                   0.000     0.019     0.001     0.000     0.000
+  Effective min. wage                                                  0.000     0.076     0.034     0.000    -0.064
+                                                                      (0.000)   (0.016)   (0.009)   (0.000)   (0.016)
+  \_Panel D: Dispersion changes correlated with initial location\_                                           
+  Mean causal effect                                                   0.000     0.019     0.001     0.000     0.000
+  Effective min. wage                                                  0.000     0.011    -0.006     0.000     0.014
+                                                                      (0.000)   (0.019)   (0.010)   (0.000)   (0.019)
+  \_Panel E: Regional variation in location is small\_                                                       
+  Mean causal effect                                                   0.000     0.008     0.000     0.000     0.000
+  Effective min. wage                                                  0.000     0.012     0.000     0.000    -0.000
+                                                                      (0.000)   (0.037)   (0.021)   (0.000)   (0.039)
+  ------------------------------------------------------------------ --------- --------- --------- --------- ---------
+
+
+**Notes:**  See the text for a description of each panel. Each panel displays average results for 5,000 simulations, each with 50 regions. 
+
+Table  3  adds regional differences in the initial location parameter, as well as dispersion parameters. That generates some bias. Finally, Panel E makes regions more similar in terms of their location parameters. That leads to large biases. 
+
+The fundamental problem is similar to that in the case of the fraction affected design: the treatment intensity variable used in the regression does not neatly map into the thought experiment that intuitively identifies the causal effect of interest. Random shocks to location, uncorrelated with dispersion parameters, provide good variation because they closely correspond to what would happen if all regions where the same, but subject to random changes in minimum wage bindingness. But suppose that regions differ exclusively in their initial dispersion parameters and are subject to a national increase in the minimum wage. One can show that the effective minimum wages changes differentially across regions, and so do outcomes such as employment and wages. However, that scenario does not correspond to the thought experiment of interest. Correspondingly, the estimated effects of the minimum wage 

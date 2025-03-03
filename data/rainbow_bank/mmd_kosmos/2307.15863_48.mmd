@@ -1,0 +1,27 @@
+_Assumption_ _ 1_ _(i). It follows that_ 
+
+Γ^K(ℓ)(ℓ)=maxk∈[K(ℓ)](Γ^k,K(ℓ)(ℓ))2=maxk∈[m](Γ^k,K(ℓ)0,(ℓ))2+op(1)↝𝒵,  
+
+_where_ \(\mathcal{Z}\)_ is the maximum of_ \(m\)_ independent_ \(\chi^{2}\left(1\right)\)_ random variables. Then Theorem_ _ 4.3_ _(i.b) follows._ 
+
+_(ii) When_ \(m<K^{(\ell)},\)_ Theorem_ _ 4.3_ _(i.1) does not hold and we can not change the estimated group membership_ \(\hat{\mathcal{G}}_{K^{(\ell)}}^{(\ell)}\)\(\hat{\mathcal{G}}_{K^{(\ell)}}^{(\ell)}\)_ to the true group membership_ \(\mathcal{G}^{(\ell)}\)_. To get around of this issue, we define the “pseudo groups”. For_ \(m<K^{(\ell)}\)_, let_ \(\mathbb{G}_{m}^{(\ell)}:=\{G_{1,m}^{(\ell)},\cdots,G_{m,m}^{(\ell)}\}\)_ such that_ \([N]=G_{1,m}^{(\ell)}\cup\cdots\cup G_{m,m}^{(\ell)}\)_, which indicates one possible_ _partition of the set_ \({\small[N]}\)_. We further define_ \(\mathcal{G}_{m}^{(\ell)}\)_to be the collection of all possible_ \(\mathbb{G}_{m}^{(\ell)}\)_._ 
+
+_By Theorem_ _ 4.3_ _(i.c), we can conclude that_ \(\mathbb{P}\left(\hat{K}^{(\ell)}\neq K^{(\ell)}\right)\leqslant\varsigma+o(1)\)_ provided we can show that_ \(\hat{\Gamma}_{m}^{(\ell)}\to\infty\)\(\hat{\Gamma}_{m}^{(\ell)}\to\infty\)_when_ \(m<K^{(\ell)}\)_. By Lemma_ _ B.10_ _, we notice that_ \(\hat{\mathcal{G}}_{m}^{(\ell)}\in\mathbb{G}_{m}^{(\ell)}\)\(\hat{\mathcal{G}}_{m}^{(\ell)}\in\mathbb{G}_{m}^{(\ell)}\)_w.p.a.1. Conditioning on the event_ \(\{\hat{\mathcal{G}}_{m}^{(\ell)}\in\mathbb{G}_{m}^{(\ell)}\}\cap\{\hat{T}_{1}= T_{1}\}\)_, we have_ 
+
+Γ^m(ℓ)>min𝒢m(ℓ)∈𝔾m(ℓ)Γ^m0,(ℓ)(𝒢m(ℓ)):=min𝒢m(ℓ)∈𝔾m(ℓ){maxk∈[m][Γ^k,m0,(ℓ)(Gk,m(ℓ))]2},  
+
+_where_ 
+
+\[\hat{\Gamma}_{k,m}^{0,(\ell)}(G_{k,m}^{(\ell)})=\sqrt{\left|G_{k,m}^{(\ell)} \right|}\frac{\frac{1}{\left|G_{k,m}^{(\ell)}\right|}\sum_{i\in G_{k,m}^{(\ell )}}\hat{\mathbb{S}}_{i,k,m}^{0,(\ell)}-p}{\sqrt{2p}},\]  
+
+_and_ \(\hat{\mathbb{S}}_{i,k,m}^{0,(\ell)}\)\(\hat{\mathbb{S}}_{i,k,m}^{0,(\ell)}\)_is defined similarly to_ \(\hat{\mathbb{S}}_{i,k,K^{(\ell)}}^{0,(\ell)}\)\(\hat{\mathbb{S}}_{i,k,K^{(\ell)}}^{0,(\ell)}\)_ in the proof of (i)._ 
+
+_Owing to the fact that_ \(|\mathbb{G}_{m}^{(\ell)}|=m^{K^{(\ell)}}\)_ which is a constant since_ \(K^{(\ell)}\)_ is a constant, we can show that_ \(\hat{\Gamma}_{m}^{(\ell)}\to\infty\)_by showing that_ \(\hat{\Gamma}_{m}^{0,(\ell)}(\mathcal{G}_{m}^{(\ell)})\to\infty\)_for any possible realization_ \(\mathcal{G}_{m}^{(\ell)}\)_. Under the case when_ \(m<K^{(\ell)}\)_,_ _there exists at least one_ \(k\in[m]\)_ such that the slope coefficient is not homogeneous across_ \(i\in G_{k,m}^{(\ell)}\)_. Assume_ _that_ \(G_{k,m}^{(\ell)}\)_contains_ \(n\)_ true groups, i.e.,_ \(G_{k,m}^{(\ell)}=G_{k_{1}}^{(\ell)}\cup\cdots\cup G_{k_{n}}^{(\ell)}\)_for_ \(k_{1},\cdots,k_{n}\in[K^{(\ell)}]\)_ and_ \(k_{1}\neq\cdots\neq k_{n}\)_._ _Then for_ \(i\in G_{k,m}^{(\ell)}\)_, we have_ 
+
+\[\theta_{i}^{0,(\ell)} =\sum_{s=1}^{n}\alpha_{k_{s}}^{(\ell)}\mathbf{1}\{i\in G_{k_{s}}^ {(\ell)}\}=\frac{1}{n}\sum_{s^{\ast}=1}^{n}\alpha_{k_{s^{\ast}}}^{(\ell)}+\sum _{s=1}^{n}\left(\frac{n-1}{n}\alpha_{k_{s}}^{(\ell)}-\frac{1}{n}\sum_{s^{\ast} \in\left[n\right],s^{\ast}\neq s}\alpha_{k_{s^{\ast}}}^{(\ell)}\right)\mathbf{ 1}\{i\in G_{k_{s}}^{(\ell)}\}\] \[=\frac{1}{n}\sum_{s^{\ast}=1}^{n}\alpha_{k_{s^{\ast}}}^{(\ell)}+ \sum_{s=1}^{n}\frac{1}{n}\sum_{s^{\ast}\in\left[n\right],s^{\ast}\neq s}( \alpha_{k_{s}}^{(\ell)}-\alpha_{k_{s^{\ast}}}^{(\ell)})\mathbf{1}\{i\in G_{k_{ s}}^{(\ell)}\}:=\bar{\theta}_{n}^{0,(\ell)}+c_{i}^{(\ell)}\]  
+
+_such that_ 
+
+\[\frac{T_{\ell}}{\sqrt{N}}\sum_{i\in[N]}\left\|c_{i}^{(\ell)} \right\|^{2}/(\log N)^{1/2} = \frac{T_{\ell}}{\sqrt{N}}\sum_{s=1}^{n}\frac{N_{k_{s}}^{(\ell)}}{ n}\left\|\sum_{s^{\ast}\in\left[n\right],s^{\ast}\neq s}(\alpha_{k_{s}}^{(\ell )}-\alpha_{k_{s^{\ast}}}^{(\ell)})\right\|^{2}/(\log N)^{1/2}\] \[= \frac{T_{\ell}}{\sqrt{N}n}\sum_{s=1}^{n}N_{k_{s}}^{(\ell)}\left\| \frac{\sum_{s^{\ast}\in\left[n\right],s^{\ast}\neq s}\alpha_{k_{s^{\ast}}}^{( \ell)}}{n-1}-\alpha_{k_{s}}^{(\ell)}\right\|^{2}/(\log N)^{1/2}\to\infty,\]  
+
+_by Assumption_ _ 7_ _(iii). Then_ \({\small|}\)Γ^k,m0,(ℓ)(Gk,m(ℓ))|/(logN)1/2→∞Γ^k,m0,(ℓ)(Gk,m(ℓ))|/(logN)1/2→∞_for some_ \(k\in[m]\)_ by Lemma_ _. By the definition_ _of_ \(\hat{\Gamma}_{m}^{0,(\ell)}(\mathcal{G}_{m}^{(\ell)})\)\(\hat{\Gamma}_{m}^{0,(\ell)}(\mathcal{G}_{m}^{(\ell)})\)_, we have_ \(\hat{\Gamma}_{m}^{0,(\ell)}(\mathcal{G}_{m}^{(\ell)})/(\log N)^{1/2}\to\infty\)_, which yields_ \(\hat{\Gamma}_{m}^{(\ell)}/\log N\to\infty\)_w.p.a.1 for_ \(m<K^{(\ell)}\)_ and_ \(\mathbb{P(}\hat{K}^{(\ell)}\neq K^{(\ell)})\leqslant\varsigma+o(1)\)_ as_ \(z_{\varsigma}\)_ diverges to infinity at rate_ \(\log N\)_ as_ \({\small\varsigma=\varsigma}_{N}{\small\to 0}\)_ at some rate_ \(N^{-c}\)_for some_ \({\small c>0}.\)\(\quad\blacksquare\)

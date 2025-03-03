@@ -1,0 +1,31 @@
+which is equivalent to 
+
+\[\max_{\underline{\bm{\Lambda}}}\frac{1}{nT}\text{tr}\left\{\bm{X} ^{\prime}\bm{X}\underline{\bm{\Lambda}}(\underline{\bm{\Lambda}}^{\prime} \underline{\bm{\Lambda}})^{-1}\underline{\bm{\Lambda}}^{\prime}\right\}=\max_{ \underline{\bm{\Lambda}}}\frac{1}{n}\text{tr}\left\{(\underline{\bm{\Lambda}}^ {\prime}\underline{\bm{\Lambda}})^{-1/2}\underline{\bm{\Lambda}}^{\prime}\frac {\bm{X}^{\prime}\bm{X}}{T}\underline{\bm{\Lambda}}(\underline{\bm{\Lambda}}^{ \prime}\underline{\bm{\Lambda}})^{-1/2}\right\}\] (7)  
+
+Now since by construction each column of \(\underline{\bm{\Lambda}}(\underline{\bm{\Lambda}}^{\prime}\underline{\bm{ \Lambda}})^{-1/2}\)is normalized (since we assumed \(\frac{\underline{\bm{\Lambda}}^{\prime}\underline{\bm{\Lambda}}}{n}\)to be diagonal), then the above maximizaton, once solved, should return the \(r\) largest eigenvalues of \(\widehat{\bm{\Gamma}}^{x}\)\(\widehat{\bm{\Gamma}}^{x}\)divided by \(n\), i.e., it must give \(\frac{\widehat{\mathbf{M}}^{x}}{n}\)\(\frac{\widehat{\mathbf{M}}^{x}}{n}\). In other words, our estimator \(\widehat{\bm{\Lambda}}\)\(\widehat{\bm{\Lambda}}\) must be such that \(\widehat{\bm{\Lambda}}(\widehat{\bm{\Lambda}}^{\prime}\widehat{\bm{\Lambda}})^ {-1/2}\)\(\widehat{\bm{\Lambda}}(\widehat{\bm{\Lambda}}^{\prime}\widehat{\bm{\Lambda}})^ {-1/2}\) is the matrix of normalized eigenvectors corresponding the \(r\) largest eigenvalues of \(\frac{\bm{X}^{\prime}\bm{X}}{nT}\), i.e., such that: 
+
+\[(\widehat{\bm{\Lambda}}^{\prime}\widehat{\bm{\Lambda}})^{-1/2}\widehat{\bm{ \Lambda}}^{\prime}\frac{\bm{X}^{\prime}\bm{X}}{nT}\widehat{\bm{\Lambda}}( \widehat{\bm{\Lambda}}^{\prime}\widehat{\bm{\Lambda}})^{-1/2}=\frac{\widehat{ \mathbf{M}}^{x}}{n},\] (8)  
+
+but also, by definition of eigenvectors, 
+
+\[\widehat{\mathbf{V}}^{x\prime}\frac{\bm{X}^{\prime}\bm{X}}{nT}\widehat{\mathbf {V}}^{x}=\frac{\widehat{\mathbf{M}}^{x}}{n}.\] (9)  \[\widehat{\mathbf{V}}^{x\prime}\frac{\bm{X}^{\prime}\bm{X}}{nT}\widehat{\mathbf {V}}^{x}=\frac{\widehat{\mathbf{M}}^{x}}{n}.\] (9)  
+
+Therefore, from ( 8 ) and ( 9 ), 
+
+\[\widehat{\bm{\Lambda}}=\widehat{\mathbf{V}}^{x}(\widehat{\mathbf{M}}^{x})^{1/2},\] (10)  \[\widehat{\bm{\Lambda}}=\widehat{\mathbf{V}}^{x}(\widehat{\mathbf{M}}^{x})^{1/2},\] (10)  
+
+which is such that \(\frac{\widehat{\bm{\Lambda}}^{\prime}\widehat{\bm{\Lambda}}}{n}=\frac{\widehat {\mathbf{M}}^{x}}{n}\)\(\frac{\widehat{\bm{\Lambda}}^{\prime}\widehat{\bm{\Lambda}}}{n}=\frac{\widehat {\mathbf{M}}^{x}}{n}\)is diagonal. The factors are then estimated as the linear projections: \(\widehat{\bm{F}}=\bm{X}\widehat{\bm{\Lambda}}(\widehat{\bm{\Lambda}}^{\prime} \widehat{\bm{\Lambda}})^{-1}=\bm{X}\widehat{\mathbf{V}}^{x}(\widehat{\mathbf{M }}^{x})^{-1/2}\)\(\widehat{\bm{F}}=\bm{X}\widehat{\bm{\Lambda}}(\widehat{\bm{\Lambda}}^{\prime} \widehat{\bm{\Lambda}})^{-1}=\bm{X}\widehat{\mathbf{V}}^{x}(\widehat{\mathbf{M }}^{x})^{-1/2}\), which are the normalized PCs of \(\bm{X}\), such that \(\frac{\widehat{\bm{F}}^{\prime}\widehat{\bm{F}}}{T}=\mathbf{I}_{r}\)\(\frac{\widehat{\bm{F}}^{\prime}\widehat{\bm{F}}}{T}=\mathbf{I}_{r}\). These however are not needed in the following. 
+
+The PC estimator of the loadings in ( 10 ) has the following asymptotic properties. **Theorem 1.** _ Under Assumptions_ _ 1_ _ through_ _ 7_ _, if_ 
+
+\(\sqrt{T}/n\to 0\)_, as_ \(n,T\to\infty\)_, for any given_ \(i=1,\ldots,n\)_,_ \[\sqrt{T}(\widehat{\bm{\lambda}}_{i}-{\bm{\lambda}}_{i})\to_{d}\mathcal{N}\left (\mathbf{0}_{r},\bm{\Phi}_{i}\right),\]  _where_ \(\bm{\Phi}_{i}\)_ is defined in Assumption_ _ 7_ _._ 
+
+An important consequence of Theorem  1  is that the PC estimator is asymptotically equivalent to the unfeasible OLS estimator which we would obtain if the factors were observed, and denoted as \({\bm{\lambda}}_{i}^{\text{\tiny OLS}}\). 
+
+**Corollary 1.** _ Under Assumptions_ _ 1_ _ through_ _ 7_ _, as_ \(n,T\to\infty\)_, for any given_ \(i=1,\ldots,n\)_,_ \[\left\|\widehat{\bm{\lambda}}_{i}-{\bm{\lambda}}_{i}^{\text{\tiny OLS}}\right \|=O_{\mathrm{P}}\left(\max\left(\frac{1}{n},\frac{1}{\sqrt{nT}}\right)\right).\]  
+
+## Quasi Maximum Likelihood 
+
+Define \(\bm{\mathcal{X}}=\text{vec}(\bm{X}^{\prime})=(\mathbf{x}_{1}^{\prime}\cdots \mathbf{x}_{T}^{\prime})^{\prime}\) and \(\bm{\mathcal{Z}}=\text{vec}(\bm{\Xi}^{\prime})=(\bm{\xi}_{1}^{\prime}\cdots\bm {\xi}_{T}^{\prime})^{\prime}\) as the \(nT\)-dimensional vectors of observations and idiosyncratic components, \(\bm{\mathcal{F}}=\text{vec}(\bm{F}^{\prime})=(\mathbf{F}_{1}^{\prime}\cdots \mathbf{F}_{T}^{\prime})^{\prime}\) as the \(rT\)-dimensional vector of factors, and \(\bm{\mathfrak{L}}=\mathbf{I}_{T}\otimes\bm{\Lambda}\) as the \(nT\times rT\) matrix containing all factor loadings. Then, by vectorizing the transposed of ( 2 ) we have: 
+
+\[\bm{\mathcal{X}}=\bm{\mathfrak{L}}\bm{\mathcal{F}}+\bm{\mathcal{Z }}.\] (11)  

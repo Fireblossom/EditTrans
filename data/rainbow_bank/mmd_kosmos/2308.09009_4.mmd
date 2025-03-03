@@ -1,0 +1,27 @@
+using numerical approximations. To motivate our proposed approximation of \(u_{t}\left(x\right)\), observe that an equivalent representation of it is the solution to a partial integro-differential equation (PIDE). An important component of this PIDE is the so–called (infinitesimal) generator \(A\) of \(x_{t}\) which fully characterizes the dynamics. The generator is given by, for any sufficiently regular function \(f\left(x\right)\), 
+
+\[Af\left(x\right)=A_{D}f\left(x\right)+A_{J}f\left(x\right),\  
+
+where, with \(\sigma^{2}\left(x\right):=\sigma\left(x\right)\sigma\left(x\right)^{\top}\in \mathbb{R}^{d\times d}\), 
+
+\[A_{D}f\left(x\right)=\sum_{i=1}^{d}\mu_{i}\left(x\right)\partial_{x_{i}}f\left (x\right)+\frac{1}{2}\sum_{i,j=1}^{d}\sigma_{ij,t}^{2}\left(x\right)\partial_{ x_{i},x_{j}}^{2}f\left(x\right)\  
+
+and 
+
+\[A_{J}f\left(x\right)=\lambda\left(x\right)\int_{\mathbb{R}^{d}}\left[f\left(x+ c\right)-f\left(x\right)\right]\nu\left(c|x\right)dc\  
+
+are the generators of the diffusive and jump component of \(x_{t}\), respectively. Here, \(\partial_{x_{i}}f\left(x\right)=\partial f\left(x\right)/\left(\partial x_{i}\right)\), \(\partial_{x_{i},x_{j}}^{2}f\left(x\right)=\partial^{2}f\left(x\right)/\left( \partial x_{i}\partial x_{j}\right)\)and similar for other partial derivatives. 
+
+It can then be shown, c.f. Section  4 , that \(u_{t}\left(x\right)\)solves the following PIDE: 
+
+\[\partial_{t}u_{t}\left(x\right)=\left[A-r\left(x\right)\right]u_{t}\left(x \right),\text{ \ \ }t\geq 0,x\in\mathcal{X},\  
+
+with initial condition \(u_{0}\left(x\right)=f\left(x\right)\)for all \(x\in\mathcal{X}\). In the case of pure diffusions ( \(A_{J}=0\)), the reader may recognize ( 2.2 ) as the celebrated Feynman–Kac representation of the solution to ( 2.7 ) which also holds for the general case of jump–diffusions. The solution to this PIDE can be represented in the following abstract manner: \(u_{t}\left(x\right)=e^{\left(A-r\right)t}f\left(x\right)\), where \(e^{\left(A-r\right)t}\)is the exponential of the operator \(A-r\) in the sense that 
+
+\[\frac{\partial e^{\left(A-r\right)t}}{\partial t}=\left(A-r\right)e^{\left(A-r \right)t}.\  
+
+We are now interested in obtaining an approximation of \(u_{t}\left(x\right)\)based on a series expansion w.r.t. time \(t\). A simple version of this would be a Taylor series expansion around \(t=0\)on the form 
+
+\[\tilde{u}_{t}\left(x\right)\equiv\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}\left. \partial_{t}^{m}u_{t}\left(x\right)\right|_{t=0}=\sum\limits_{m=0}^{M}\frac{t^ {m}}{m!}\left(A-r\right)^{m}f\left(x\right),\  \[\tilde{u}_{t}\left(x\right)\equiv\sum\limits_{m=0}^{M}\frac{t^{m}}{m!}\left. \partial_{t}^{m}u_{t}\left(x\right)\right|_{t=0}=\sum\limits_{m=0}^{M}\frac{t^ {m}}{m!}\left(A-r\right)^{m}f\left(x\right),\  
+
+for some \(M\geq 1\), where the second equality uses ( 2.8 ). This type of moment approximations have found widespread use in the literature; see, e.g., (see, e.g.,  A¨ıt-Sahalia ,  2002 ;  Bakshi et al. ,  2006 ; Yu ,  2007 ;  A¨ıt-Sahalia ,  2008 ;  Filipovi´c et al. ,  2013 ;  Li ,  2013 ). However, this expansion is not valid (well-defined) when, for example, \(f\left(x\right)\)is a non–smooth function since the domain of the operator \(A_{D}\) is restricted to smooth functions, c.f. ( 2.5 ). The transition density and option pricing examples provided above fall in this category. We will now present a generalized version of above expansion 

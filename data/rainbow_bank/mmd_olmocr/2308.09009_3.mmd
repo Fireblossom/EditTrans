@@ -1,0 +1,25 @@
+Consider a \(d\)-dimensional process, \(x_{t}\in\mathcal{X\subseteq}\mathbb{R}^{d}\)that solves the following stochastic differential equation (SDE): 
+
+\[dx_{t}=\mu\left(x_{t}\right)dt+\sigma\left(x_{t}\right)dW_{t}+J_{t}dN_{t},\  
+
+where \(\mu\left(x\right)\)and \(\sigma\left(x\right)\)are the so-called drift and diffusion functions, respectively, \(W_{t}\) is a \(d\)dimensional standard Brownian motion, \(N_{t}\) is a Poisson process with jump intensity \(\lambda\left(x_{t}\right)\), and \(J_{t}\)captures the jump-sizes and has conditional density ν(⋅|xt). The precise form of \(\mu\left(x\right)\), \(\sigma\left(x\right)\), \(\lambda\left(x\right)\)and ν(⋅|x)are chosen by the researcher according to the dynamic problem that is being considered and so are known to us. To keep notation simple, we restrict ourselves to the time–homogenous case meaning that none of the functions entering the model depend on \(t\); the extension to the time–inhomogenous case can be found in Appendix  B . 
+
+We are interested in computing conditional moments on the form 
+
+\[u_{t}\left(x\right)=E_{t}f\left(x\right)\  
+
+where 
+
+\[\left(t,f\right)\mapsto E_{t}f\left(x\right)\equiv\mathbb{E}\left[\left.\exp \left(-\int\nolimits_{0}^{t}r\left(x_{s}\right)ds\right)f\left(x_{t}\right) \right|x_{0}=x\right]\  
+
+is a conditional moment operator. This family of operators, indexed by the time variable \(t\geq 0\), constitutes a so–called semi–group of linear operators; for an overview of the general theory of semi– groups with applications to Markov processes we refer to  Ethier and Kurtz  ( 1986 ); for applications of semi–group theory in econometrics and finance, see  A¨ıt-Sahalia et al.  ( 2010 ). 1 1 Note that we here opt for the so–called Musiela parameterization where \(t\) measures the time distance between the current and some future calendar time point. One could alternatively have defined the function of interest as, for some given \(T<\infty\), 
+
+u~τ(x)=𝔼[exp(−∫τTr(xs)ds|f(xT)|xτ=x],  u~τ(x)=𝔼[exp(−∫τTr(xs)ds|f(xT)|xτ=x],  where now \(\tau\leq T\)is a calendar time point. In the current time–homogenous case, it is easily seen that 
+
+The functions \(\tilde{u}_{\tau}\left(x\right)=u_{T-\tau}\left(x\right)\)\(\tilde{u}_{\tau}\left(x\right)=u_{T-\tau}\left(x\right)\)\(r\left(x\right)\)and , where \(f\left(x\right)\)\(u_{t}\)entering ( 2.2  was defined in ( )–( ). 2.3 ) are chosen by the researcher according to the problem of interest. For example, with \(r\left(x\right)=0\)and \(f\left(x\right)=\delta\left(y-x\right)\)for some fixed \(y\in\mathcal{X}\), where \(\delta\left(x\right)\)is Dirac’s Delta function, \(u_{t}\left(x\right)=p_{t}\left(y|x\right)\), where \(p_{t}\) is the transition density of \(x_{t}\), 
+
+\[\operatorname*{\mathbf{Pr}}\left(x_{t}\in\mathcal{A}|x_{0}=x\right)=\int_{ \mathcal{A}}p_{t}\left(y|x\right)dy,\text{ \ \ }\mathcal{A}\subseteq\mathcal{X}.\]  
+
+If instead we choose \(r_{t}\left(x\right)=r>0\)and \(f\left(x\right)=\left(\exp\left(x_{1}\right)-K\right)^{+}\)then \(u_{t}\left(x\right)\)becomes the price of a European call option with time to maturity \(t\) when the state variables \(x_{t}\) satisfy ( 2.1 ) under the risk–neutral measure with the first component, \(x_{1,t}\), being the log-price of the underlying asset and the short-term interest rate equals the constant \(r\). When \(r\left(x\right)=x_{2}\), \(u_{t}\left(x\right)\)is the price of the same option but now allowing for a stochastic short–term interest rate, which is the second component of \(x_{t}\). 
+
+In most cases, an analytic expression of ( 2.2 ) is not available and \(u_{t}\left(x\right)\)has to be computed 

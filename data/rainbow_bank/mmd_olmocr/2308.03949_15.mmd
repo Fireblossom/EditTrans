@@ -1,0 +1,27 @@
+This information, particularly Eq. ( 51 ), will allow us to associate each point in \({\mathbbm{R}}^{2}\)to a unique quantum state through the Bloch sphere. Still, the inverse stereographic projection does not need to be bound to the preparation of quantum states and can be used as a transformation between classical kNN algorithms. Indeed, we can stereographically project and then perform classical clustering on the 3D data, namely perform 3DEC-kNN as defined in Definition  4 . This produces the following algorithm. 
+
+**Definition 6.** _ [3D Stereographic Classical kNN (3DSC-kNN)]_ _Let_ \(s^{-1}_{r}\)_be an ISP, and let_ \(({D},\mathbf{\bar{c}},{\mathbbm{R}}^{2},d_{\mathrm{e}})\)_ be a clustering state (recall,_ \({D}\)_ is the dataset and_ \(\mathbf{\bar{c}}\)_ are the initial centroids). We then_ define the 3D Stereographic Classical kNN (3DSC-kNN) as ( \(s^{-1}_{r}({D})\), \(s^{-1}_{r}(\mathbf{\bar{c}})\)_,_ \({\mathbbm{R}}^{3}\), de,𝐜eupdate)_._ 
+
+Here we apply \(s^{-1}_{r}\)elementwise and thus \(s^{-1}_{r}(\mathbf{\bar{c}})=(s^{-1}_{r}(\mathbf{c}_{1}),...,s^{-1}_{r}( \mathbf{c}_{k}))\) for any list of centroids \(\mathbf{\bar{c}}\) and \(s^{-1}_{r}(D)=\Set{s^{-1}_{r}{(\mathbf{p}):\mathbf{p}\in C}}\)for any set of points \(C\), and where \(C_{j}\) are the clusters as defined in Eq. ( 22 ). 
+
+**Remark 2.** _ Derivations and further observations can be found in Appendix_ _ C_ _. Of particular note,_ _as explained in more detail in Appendix_ _ C.2_ _, is the fact that changing the distance of the plane from_ _the centre of the sphere is equivalent to a change of radius. Therefore we can limit our analysis to_ _projections where the centre of the plane is also the centre of the sphere without loss of generality._ 
+
+## 3. Stereographic Quantum Nearest-Neighbour Clustering (SQ-kNN) 
+
+In this section, we propose and describe the quantum \(k\) (nearest-neighbour) clustering using the stereographic embedding. We demonstrate an equivalent quantum-inspired (classical) version of it in the next section, Section  4 . In the Section  3.1  next, we define the method to convert the classical data into quantum states. In what follows, we describe how these states are manipulated so that we obtain an output that can be used to perform clustering. In Section  2.3 , we show how the circuit of Section  2.3  can be used for dissimilarity estimation. Section  3.2  defines the quantum algorithm in terms of Definitions  1  to  3 , and Section  3.3  discusses the complexity and scalability of the algorithm. 
+
+### 3.1. Stereographic Embedding, Bloch Embedding and Quantum Dissimilarity 
+
+For quantum algorithms to work on classical data, the classical data must be converted into quantum states. This process of encoding classical data into quantum states is also called _ embedding_ . The process of embedding classical data into quantum states is not unique, and the pros and cons of each technique have to be weighted in the context of a specific application. The process of data embedding is an active field of research, more details on existing embedding can be found in Appendix  B . 
+
+Here, we propose the _ stereographic embedding_  as an improved embedding of classical vector \(\mathbf{p}\in{\mathbbm{R}}^{2}\)into quantum state using the stereographic projection. We can split stereographic embedding into two steps: inverse stereographic projection and Bloch embedding. We define Bloch embedding, a variation of angle embedding, as follows. 
+
+**Definition 7.** _ [Bloch embedding]_ 
+
+_Let_ \(\mathbf{P}\in{\mathbbm{R}}^{3}\)_. We define the_  Bloch embedded quantum state _, or_  Bloch embedding _ for short,_ _of_ \(\mathbf{P}\)_ as the quantum state_ 
+
+\[\psi_{\mathbf{P}}\coloneqq\frac{1}{2}\left(\mathbbm{1}+\frac{\mathbf{P}}{\left \lVert\mathbf{P}\right\rVert}\cdot\vec{\sigma}\right)\] (50)  
+
+_which is simply the pure state obtained using_ \(\mathbf{P}/\left\lVert\mathbf{P}\right\rVert\)_as Bloch vector._ 
+
+To actually obtain \(\psi_{\mathbf{P}}\) the state can be encoded as explained in the preliminaries in Section  2.2 , through Eqs. ( 2 ) and ( 6 ). For Bloch embedding, the \(\theta\) and \(\phi\) of Eqs. ( 2 ) and ( 6 ) would be the polar and azimuthal angles of \(\mathbf{P}\) respectively. We now define the quantum dissimilarity as follows. 

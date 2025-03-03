@@ -1,0 +1,19 @@
+\(s\in S\cup\left\{\emptyset\right\}\) to \(s^{\prime}\in S\cup\left\{\emptyset\right\}\) and \(\emptyset\)represents her/his best outside option. If \(sP_{i}\emptyset\), then school \(s\) is said to be ** acceptable**  for \(i\). Further, \(sR_{i}s^{\prime}\)implies \(sP_{i}s^{\prime}\)or \(s=s^{\prime}\). Let \(\mathbb{P}\) be all possible total orders on \(S\cup\left\{\emptyset\right\}\). 
+
+Each school \(s\) has a capacity constraint represented by \(q_{s}\in\mathbb{Z}_{++}\) and moreover, \(q=\left(q_{s}\right)_{s\in S}.\) Let \(\succ_{s}\) be an asymmetric and irreflexive binary relation on \(I\) representing the priority for school \(s\), where \(\left(i,j\right)\in\succ_{s}\) means that \(i\) has a higher priority than \(j\) for school \(s\). Let \(\mathcal{B}\) be the set of all possible asymmetric and irreflexive binary relations on \(I\). Moreover, let \(\mathcal{P},\)\(\mathcal{W}\) and \(\mathcal{T}\) be the set of all possible partial orders, weak orders and total orders on \(I\), respectively. Hereafter, we call ≻s∈ℬ a ** priority order** . 4 4 To put it precisely, ≻s∈ℬ may be improper to call a priority “order”, because it may not be transitive. However, with few exceptions, we assume that \(\succ_{s}\) is transitive and thus Let ≻=(≻s)s∈S∈ℬ|S|and we call it a priority order. ≻′=(≻s′)s∈S∈ℬ|S| be typical profiles of priority orders on \(I\). 
+
+For ≻s∈ℬ, let \(\succ_{s}^{\ast}\)be an (total order) ** extension**  of \(\succ_{s}\)if ≻s∗∈𝒯 and \(\succ_{s}\subseteq\succ_{s}^{\ast}\). The following result is provided by Kitahara and Okumura (2023, Proposition 1). 
+
+**Remark 1** _ There is an extension of_ ≻s∈ℬ_ if and only if_ \(\succ_{s}\)_ is P-acyclic._ 
+
+Therefore, for any ≻s∈𝒫, there is an extension of \(\succ_{s}\). Note that there may exist multiple extensions for \(\succ_{s}\). Let \(\succ^{\ast}\)be an ** extension profile of** \(\succ\)if \(\succ_{s}^{\ast}\)is an extension of \(\succ_{s}\)for all \(s\in S\). 
+
+We let 
+
+\[G_{S}=\left(I,S,P,\succ,q\right)\]  
+
+be a ** school choice problem with a single priority order** . In almost cases, \(\left(I,S,P,q\right)\)is fixed. Thus, the school choice problem is simply denoted by \(G_{S}=\succ\). 
+
+A ** matching** \(\mu\) is a mapping satisfying \(\mu(i)\in S\cup\{\emptyset\},\)\(\mu\left(s\right)\subseteq I\), and \(\mu(i)=s\) if and only if \(i\in\mu\left(s\right)\). Note that \(\mu(i)=\emptyset\)means that \(i\) is unmatched to any school and \(\mu(i)=s\in S\) means that \(i\) is matched to \(s\)under a matching \(\mu\). A matching \(\mu\) is said to be ** individually rational**  if \(\mu\left(i\right)R_{i}\emptyset\)for all \(i\in I\). A matching \(\mu\) is said to be ** non-wasteful**  if \(sP_{i}\mu\left(i\right)\), then \(\left|\mu\left(s\right)\right|=q_{s},\) for all \(i\in I\) and all \(s\in S\). A matching \(\mu\)** violates**  the priority \(\succ_{s}\) of \(i\notin\mu\left(s\right)\)over \(j\in\mu\left(s\right)\)if \(sP_{i}\mu\left(i\right)\\)and \(\left(i,j\right)\in\succ_{s}\). If a matching \(\mu\) does not violate any priority, then it is said to be ** fair**  for \(\succ\). A matching \(\mu\) is ** stable**  for \(\succ\)if it is individually rational, non-wasteful and fair for \(\succ\). 
+
+The following result is due to Kitahara and Okumura (2023, Lemma 1). 

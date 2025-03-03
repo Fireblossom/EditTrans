@@ -1,0 +1,31 @@
+where  \(\hat{K}_{\mu}=\langle\mu|\hat{\mathcal{U}}|a\rangle\)\(\hat{K}_{\mu}=\langle\mu|\hat{\mathcal{U}}|a\rangle\). These operators  \(\hat{K}_{\mu}\)\(\hat{K}_{\mu}\) will form a Kraus representation for the quantum operation _ E_  for an open system, Eq. (37), provided the so-called Kraus operators satisfy the extended ”unitarity” condition 
+
+\[\sum_{\mu}K_{\mu}^{\dagger}K_{\mu}=I\] (40)  
+
+Note that the individual Kraus operator need not be unitary. Based on this framework for open quantum systems we proceed to construct a physical unitary dilation for the combined systemenvironment by identifying dissipation as an amplitude damping operation, ** [21]** . 
+
+Let \(d\) be the dimension of the system Hilbert space, and \(r\) the dimension of the dissipative Hamiltonian \(H_{1}\), Eq. (35). We require \(d\geq 2r\), for optimal results but the dilation technique can be also applied to systems with \(d=r\). If the system was quantum mechanical in nature, then there can be a set of \(d^{2}\)Kraus operators at most. The matrix representation of the total unitary dilation evolution operator consists of listing all the Kraus matrices in the first column block. The remaining columns must then be determined so that  \(\hat{\mathcal{U}}\)\(\hat{\mathcal{U}}\) is unitary. This unitary dilation is equivalent to the Stinespring dilation theorem ** [25]** . The advantage of the Kraus approach is that it avoids the need to actually know the physical properties of the environment. 
+
+Returning to the Schrodinger representation of the classical system Eq. (35), one can employ the Trotter-Suzuki expansion to \(exp[-i\delta t(\hat{H}_{0}-i\hat{H}_{1})]\)
+
+\[|\psi(\delta t)\rangle=\left[e^{-i\delta t\hat{H}_{0}}\cdot e^{-\delta t\hat{H }_{1}}+\textit{O}(\delta t^{2})\right]|\psi(0)\rangle.\] (41)  
+
+Even though \(exp(-\delta t\hat{H}_{1})\)is not unitary, \(\hat{H}_{1}\)\(\hat{H}_{1}\) is Hermitian and can be diagonalized by a unitary transformation \(U_{1}\)
+
+\[\hat{H}_{1}=\hat{U}_{1}\hat{D}_{1}\hat{U}_{1}^{\dagger}\quad\text{with diagonal}\quad\hat{D}_{1}=diag[\gamma_{1},...,\gamma_{r}],\] (42)  \[\hat{H}_{1}=\hat{U}_{1}\hat{D}_{1}\hat{U}_{1}^{\dagger}\quad\text{with diagonal}\quad\hat{D}_{1}=diag[\gamma_{1},...,\gamma_{r}],\] (42)  
+
+where \(\gamma_{i}>0\)are the dissipative rate eigenvalues of \(\hat{H}_{1}\)\(\hat{H}_{1}\). Thus Eq. (41) becomes 
+
+\[|\psi(\delta t)\rangle=\left[e^{-i\delta t\hat{H}_{0}}\hat{U}_{1}\hat{K}_{0} \hat{U}_{1}^{\dagger}+\textit{O}(\delta t^{2})\right]|\psi(0)\rangle,\] (43)  
+
+where  \(\hat{K}_{0}\)\(\hat{K}_{0}\) is 
+
+\[\hat{K}_{0}=\left[\begin{array}[]{cc}\hat{\bm{\Gamma}}_{r\times r}&0_{r\times r }\\ 0_{(d-r)\times(d-r)}&I_{(d-r)\times(d-r)}\end{array}\right],\quad\text{with diagonal }\hat{\bm{\Gamma}}_{r\times r}=diag[e^{-\gamma_{1}\delta t}...e^{- \gamma_{r}\delta t}].\] (44)  \[\hat{K}_{0}=\left[\begin{array}[]{cc}\hat{\bm{\Gamma}}_{r\times r}&0_{r\times r }\\ 0_{(d-r)\times(d-r)}&I_{(d-r)\times(d-r)}\end{array}\right],\quad\text{with diagonal }\hat{\bm{\Gamma}}_{r\times r}=diag[e^{-\gamma_{1}\delta t}...e^{- \gamma_{r}\delta t}].\] (44)  
+
+The non-unitary  \(\hat{K}_{0}\)\(\hat{K}_{0}\) will be one of our Kraus operators, and it describes the physical dissipation in the open system. We must now introduce a second Kraus operator  \(\hat{K}_{1}\)\(\hat{K}_{1}\) so that  \(\hat{K}_{0}^{\dagger}\hat{K}_{0}+\hat{K}_{1}^{\dagger}\hat{K}_{1}=\mathcal{I}\)\(\hat{K}_{0}^{\dagger}\hat{K}_{0}+\hat{K}_{1}^{\dagger}\hat{K}_{1}=\mathcal{I}\): 
+
+\[\hat{K}_{1}=\left[\begin{array}[]{cc}0_{(d-r)\times(d-r)}&0_{(d-r)\times(d-r)} \\ \sqrt{I_{r\times r}-\hat{\bm{\Gamma}}^{2}}&0_{r\times r}\end{array}\right].\] (45)  \[\hat{K}_{1}=\left[\begin{array}[]{cc}0_{(d-r)\times(d-r)}&0_{(d-r)\times(d-r)} \\ \sqrt{I_{r\times r}-\hat{\bm{\Gamma}}^{2}}&0_{r\times r}\end{array}\right].\] (45)  
+
+\(\hat{K}_{1}\)\(\hat{K}_{1}\)represents a transition that is not of direct interest. These Kraus operators \(\hat{K}_{0},\hat{K}_{1}\)\(\hat{K}_{0},\hat{K}_{1}\) are the multidimensional analogs of the quantum amplitude damping channel ** [21]** : with  \(\hat{K}_{0}\)\(\hat{K}_{0}\) corresponding to the dissipation processes, while  \(\hat{K}_{1}\)\(\hat{K}_{1}\) corresponds to an unwanted quantum transition. 
+
+The block structure of the final _ unitary_  dilation evolution operator  \(\hat{\mathcal{U}}_{diss}\)\(\hat{\mathcal{U}}_{diss}\), corresponding to the non-unitary dissipation operator \(e^{-\delta t\hat{H}_{1}}\), consists of column blocks of the Kraus operators 

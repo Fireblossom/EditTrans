@@ -1,0 +1,36 @@
+
+3. Compute the detection result,\(W_{i}\), \(W_{i}^{\prime}\), test round choice \(T_{i}\), test round outcomes \(A_{i}^{test}\), \(B_{i}^{test}\), sifted bits \(A_{i}^{\prime}\), \(B_{i}^{\prime}\)and statistics \(C_{i}\). 
+4. Trace out\(A_{i}\), \(B_{i}\) and \(B_{i}^{\prime}\). 
+
+Since \(T_{i}\), \(A_{i}^{test}\)and \(B_{i}^{test}\)is announced by the two parties, they are accessible to Eve. Therefore, it is clear that \(C^{N}\)can be recovered through \(E_{N}^{\prime}\)alone and the channel satisfies projective reconstructability. Since there is no \(R_{i}\) in the protocol, non-signalling is trivially satisfied by \(\mathcal{R}_{i}=\operatorname{Tr}_{A_{i}}\circ\mathcal{M}_{i}\), demonstrating that \(\mathcal{M}_{i}\) is a valid EAT channel. 
+
+Before applying GEAT, one has to define a valid mintradeoff function, \(f(q)\), which lower bounds \(H(A_{i}^{\prime}|E_{i}^{\prime})\)for any state that can be generated from the channel \(\mathcal{M}_{i}\) and has statistics \(C_{i}\in\{0,1,2,\perp\}\) satisfying some probability distribution \(q=(q_{0},q_{1},q_{2},q_{\perp})\), i.e. states in set \(\mathfrak{S}_{i}(q)=\{\rho|\rho_{A_{i}^{\prime}C_{i}R_{i}E_{i}\tilde{E}_{i-1}} =\mathcal{M}_{i}(\omega_{R_{i-1}E_{i-1}\tilde{E}_{i-1}}),\rho_{C_{i}}=q\}\). Expanding the entropy to remove cases where \(A_{i}^{\prime}=\perp\), when Alice and Bob did not both choose the \(\mathsf{Z}\) basis or when either party registers no detection, 
+
+\[H(A_{i}^{\prime}|E_{i}^{\prime}\tilde{E}_{i-1})=p_{\mathsf{Z}}^{2}p_{det}H(A_{ i}^{det,\mathsf{Z}\mathsf{Z}}|E\tilde{E}_{i-1}),\] (22)  
+
+where \(A_{i}^{det,\mathsf{Z}\mathsf{Z}}\)are the outcomes of rounds where both parties chose a \(\mathsf{Z}\) basis and records a detection and \(p_{det}\)is the detection probability. Note that fair sampling is assumed here, \(p_{det|\mathsf{X}\mathsf{X}}=p_{det|\mathsf{Z}\mathsf{Z}}=p_{det}\), so the detection probability should be basis independent. Since these rounds have guaranteed detection and \(\mathsf{Z}\) basis measurement, one can apply the entropic uncertainty relation (for conditional von Neumann entropy) [ 41 ,  42 ] to show 
+
+\[H(A_{i}^{\prime}|E_{i}^{\prime}\tilde{E}_{i-1})\geq p_{\mathsf{Z}}^{2}p_{det}[ 1-h_{b}(e_{ph})],\] (23)  
+
+where the phase error rate can be computed from \(e_{ph}=\frac{q_{1}}{q_{1}+q_{0}}\)and the detection probability from \(p_{det}=(q_{0}+q_{1})/p_{\mathsf{X}}^{2}=1-\frac{q_{2}}{p_{\mathsf{X}}^{2}}\)for statistics \(\vec{q}\). To define an affine min-tradeoff function, noting that binary entropy is concave, one could upper bound the expression above by its tangent, 
+
+\[H(A_{i}^{\prime}|E_{i}^{\prime}\tilde{E}_{i-1})\geq\\ p_{\mathsf{Z}}^{2}p_{det}\left[1-h_{b}(e_{ph}^{\prime})-\log_{2}\left(\frac{1} {e_{ph}^{\prime}}-1\right)\left(\frac{q_{1}}{p_{\mathsf{X}}^{2}p_{det}}-e_{ph} ^{\prime}\right)\right],\] (24)  
+
+
+
+where \(e_{ph}^{\prime}\in(0,0.5)\)is the tangent point, which could be optimised to provide a tight entropy bound. Simplifying the RHS of the equation, one arrives at an affine mintradeoff function 
+
+\[f(\vec{q})=p_{\mathsf{Z}}^{2}\Bigg{\{}\left(1-\frac{q_{2}}{p_{\mathsf{X}}^{2}} \right)\left[1+\log_{2}(1-e_{ph}^{\prime})\right]\\ -\frac{q_{1}}{p_{\mathsf{X}}^{2}}\log_{2}\left(\frac{1}{e_{ph}^{\prime}}-1 \right)\Bigg{\}}.\] (25)  
+
+Using the min-tradeoff function, one could compute the quantities relevant to GEAT, 
+
+\[\mathrm{Max}(f)=p_{\mathsf{Z}}^{2}\left[1+\log_{2}(1-e_{ph}^{ \prime})\right]\] \[\mathrm{Min}_{\mathfrak{S}}(f)=p_{\mathsf{Z}}^{2}\left[1+\log_{2} e_{ph}^{\prime}\right]\] \[\mathrm{Var}(f)\leq\frac{p_{\mathsf{Z}}^{4}}{p_{\mathsf{X}}^{2}} \left[1+\log_{2}(1-e_{ph}^{\prime})\right]^{2}\] \[h=p_{\mathsf{Z}}^{2}\eta_{tol}\left[1-h(e_{ph}^{\prime})-(Q_{tol }-e_{ph}^{\prime})\log_{2}\left(\frac{1}{e_{ph}^{\prime}}-1\right)\right]\]  
+
+using an expansion similar to those in Lemma V.5 of Ref. [ 43 ] for the variance computation. Applying GEAT, the error can now be expressed as 
+
+\[\varepsilon_{sec}=2\varepsilon_{sm}+\frac{1}{2}\times 2^{-\frac{1}{2}[Nh-Nf_{ EC}h_{b}(e_{b})-l]}\\ \times 2^{-\frac{1}{2}[-N\frac{(\alpha-1)\ln 2}{2(2-\alpha)}V^{2}-N(\frac{ \alpha-1}{2-\alpha})^{2}K^{\prime}(\alpha)-\frac{g(\varepsilon)+\alpha\log_{2} (\frac{1}{p_{\Omega}})}{\alpha-1}]}.\] (26)  
+
+The key length at a given secrecy level can then be expressed as 
+
+\[l\geq Nh-N\frac{(\alpha-1)\ln 2}{2(2-\alpha)}V^{2}-N\left(\frac{\alpha-1}{2- \alpha}\right)^{2}K^{\prime}(\alpha)\\ -\frac{g(\varepsilon_{sm})+\alpha\log_{2}(\frac{1}{p_{\Omega}})}{\alpha-1}-Np_ {\mathsf{Z}}^{2}p_{det}f_{EC}h_{b}(e_{b})\\ +1-\log_{2}\left(\frac{1}{\varepsilon_{sec}-2\varepsilon_{sm}}\right).\] (27)  
+

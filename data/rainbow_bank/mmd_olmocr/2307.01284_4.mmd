@@ -1,0 +1,17 @@
+I consider two-period data generating processes of the following form: 
+
+\[\bm{y}_{r,t}=f\left(mw_{t},\bm{\theta}_{r,t}\right)\] (1)  
+
+where \(r\in\{1,\dots,R\}\) denotes region, \(t\in\{0,1\}\) denotes time, \(\bm{y}_{r,t}\) is a vector of equilibrium outcomes (employment to population ratio and quantiles of the log wage distribution), \(mw_{t}\)denotes the logarithm of the national minimum wage, \(\bm{\theta}_{r,t}\) is a vector of region-time-specific parameters, and \(f\) is a function that depends on the particular economic model (to be described later in the paper). Minimum wage levels are different between periods. Without loss of generality, I assume henceforth that \(mw_{1}>mw_{0}\). 
+
+Given this data-generating process, there are two natural ways to define the ceteris paribus average treatment effects of the national minimum wage: 
+
+\[\bm{ATE}_{0} =\frac{1}{R}\sum_{r}f\left(mw_{1},\theta_{r,0}\right)-f\left(mw_{ 0},\theta_{r,0}\right)\] \[=\frac{1}{R}\sum_{r}f\left(mw_{1},\theta_{r,0}\right)-\bm{y}_{r,0}\] \[\bm{ATE}_{1} =\frac{1}{R}\sum_{r}f\left(mw_{1},\theta_{r,1}\right)-f\left(mw_{ 0},\theta_{r,1}\right)\] \[=\frac{1}{R}\sum_{r}\bm{y}_{r,1}-f\left(mw_{0},\theta_{r,1}\right)\]  
+
+The first considers a counterfactual where the minimum wage is increased to the level valid in period 1, keeping other characteristics constant at their \(t=0\)levels. The other compares the outcomes as of \(t=1\)to a counterfactual scenario where the minimum wage remained at the \(t=0\)level. The two definitions are identical if the minimum wage is the only timevarying component of the model, and are equal in expectation if the parameters \(\bm{\theta}_{r,t}\) have the same distribution across regions in both periods. This is true for some of the models I study, but not all. To keep the analysis as simple as possible, I use the average of these two definitions as the “true” causal effects to be recovered by the econometric designs: 
+
+\[\bm{ATE}=\frac{\bm{ATE}_{0}+\bm{ATE}_{1}}{2}\]  
+
+which gives equal weight to all observations in the data, and is thus closely related to the usual definition of average treatment effects in potential outcomes models. 
+
+Equation ( 1 ) is fairly general, but it imposes important constraints that limit the scope of my 

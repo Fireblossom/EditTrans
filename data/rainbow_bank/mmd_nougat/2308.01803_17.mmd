@@ -1,0 +1,27 @@
+Assuming that all the miners are _ interchangeable_  (which assumes a homogenous miner population), we drop the subscript ‘ \(k\)’ in (5.5), and the objective of a _ typical_  miner is: 
+
+\[U(x):=\] sup{(ν⁢(t),b⁢(t))}J(ν,b):=𝔼{∫0𝒯e−β⁢t[dc(t)+ℓ(X(t))dt]+e−β⁢𝒯[b(𝒯)+h(X(𝒯)]} (618.1) \[\mbox{ subject to }X^{\prime}(t)=\nu(t)+\frac{N^{\prime}(t)}{N(t) -Z(t)}X(t),\,X(0)=x,\] (C0) \[\qquad\qquad\quad\,dc(t)=rb(t)dt-db(t)-P(t)\nu(t)dt-N^{\prime}(t) \,L\left(\frac{\nu(t)}{N^{\prime}(t)}\right)dt,\] (C1) \[\qquad\qquad\quad\,b(0)=0,\,b(t)\geqslant 0\mbox{ and }0\leqslant X (t)\leqslant N(t),\] (C2) \[\qquad\qquad\quad\,P(t)=P(0)+\sigma B(t)-\eta(Z(t)-Z(0)),\] (C3)  
+
+where (C0) is a repeat of the state dynamics in (5.2), and (C3) is the price dynamics in (5.4). Compared to (4.4), the volume constraint \(|\nu(t)|\leqslant\overline{\nu}\) for \(\overline{\nu}>0\)is removed; instead the transaction cost \(-N^{\prime}(t)\,L\left(\frac{\nu(t)}{N^{\prime}(t)}\right)dt\) is introduced in the budget constraint (C1). This way, the miner’s strategy will no longer be a bang-bang control but depend on the specific market impact mechanism. 
+
+Let 
+
+\[\widetilde{P}_{\beta}(t):=e^{-\beta t}\mathbb{E}P(t)=e^{-\beta t}\left[P(0)- \eta(Z(t)-Z(0))\right]\quad\mbox{and}\quad\widetilde{P}(t):=\widetilde{P}_{0}( t).\  \[\widetilde{P}_{\beta}(t):=e^{-\beta t}\mathbb{E}P(t)=e^{-\beta t}\left[P(0)- \eta(Z(t)-Z(0))\right]\quad\mbox{and}\quad\widetilde{P}(t):=\widetilde{P}_{0}( t).\  
+
+The same argument as in (4.6)–(4.7) shows that the consumption-investment problem (5.6) is separable: 
+
+\[U(x):=\sup_{\{(\nu,b)\}}J(\nu,b)=\sup_{b}J_{1}(b)+\sup_{\nu}J_{2}(\nu),\]  
+
+where \(J_{1}(b):=(r-\beta)\int_{0}^{\mathcal{T}}e^{-\beta t}b(t)dt\) and 
+
+J2(ν):=∫0𝒯[−P~β(t)ν(t)−e−β⁢tN′(t)L(ν⁢(t)N′⁢(t))+e−β⁢tℓ(X(t)]dt+e−β⁢𝒯h(X(𝒯)).  
+
+Again suppose \(\beta\geqslant r\). Then \(\sup_{b}J_{1}(b)=0\)with the optimality binding at \(b_{*}(t)=0\)for all \(t\). So the problem (4.4) is reduced to 
+
+\[U(x)=\sup_{\nu}J_{2}(\nu)\quad\mbox{subject to (C0), (C2')},\  
+
+where (C2’) is (C2) without the constraints on \(b(\cdot)\). 
+
+Next we argue by dynamic programming, and let 
+
+\[v(t,x):=\] sup{ν⁢(s),s⩾t}∫t𝒯[−P~β(s)ν(s)−e−β⁢sN′(s)L(ν⁢(s)N′⁢(s))+e−β⁢sℓ(X(s)]dt+e−β⁢𝒯h(X(𝒯)) \[\mbox{ subject to }X^{\prime}(s)=\nu(s)+\frac{N^{\prime}(s)}{N(s) -Z(s)}X(s),\,X(t)=x,\] \[\qquad\qquad\quad\,0\leqslant X(s)\leqslant N(s),\]  

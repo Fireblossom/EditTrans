@@ -1,0 +1,125 @@
+Table 9: Consumer Inattention - Estimated Cross-Elasticity 
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th style="text-align: center;">J</th>
+<th colspan="2" style="text-align: center;">Our Model</th>
+<th colspan="2" style="text-align: center;">MNL</th>
+<th colspan="2" style="text-align: center;">RCL</th>
+<th colspan="2" style="text-align: center;">NP</th>
+<th style="text-align: center;">No. Obs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">MAE</td>
+<td style="text-align: center;">RMSE</td>
+<td style="text-align: center;">MAE</td>
+<td style="text-align: center;">RMSE</td>
+<td style="text-align: center;">MAE</td>
+<td style="text-align: center;">RMSE</td>
+<td style="text-align: center;">MAE</td>
+<td style="text-align: center;">RMSE</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0.0419</td>
+<td style="text-align: center;">4.3553</td>
+<td style="text-align: center;">0.1911</td>
+<td style="text-align: center;">8.8197</td>
+<td style="text-align: center;">0.3350</td>
+<td style="text-align: center;">8.5791</td>
+<td style="text-align: center;">0.0378</td>
+<td style="text-align: center;">5.6814</td>
+<td style="text-align: center;">3200</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">0.0486</td>
+<td style="text-align: center;">4.7745</td>
+<td style="text-align: center;">0.0827</td>
+<td style="text-align: center;">5.8357</td>
+<td style="text-align: center;">0.0503</td>
+<td style="text-align: center;">5.8404</td>
+<td style="text-align: center;">0.1897</td>
+<td style="text-align: center;">5.5601</td>
+<td style="text-align: center;">32000</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0.0212</td>
+<td style="text-align: center;">3.8765</td>
+<td style="text-align: center;">0.0476</td>
+<td style="text-align: center;">4.0961</td>
+<td style="text-align: center;">0.0146</td>
+<td style="text-align: center;">4.1113</td>
+<td style="text-align: center;">0.1676</td>
+<td style="text-align: center;">4.1198</td>
+<td style="text-align: center;">144000</td>
+</tr>
+</tbody>
+</table>
+
+
+Table 10: New Product Demand Estimation - Predicted Market Share 
+
+<table>
+<tbody>
+<tr>
+<td style="text-align: center;">True Model</td>
+<td colspan="2" style="text-align: center;">Our Model</td>
+<td colspan="2" style="text-align: center;">MNL</td>
+<td colspan="2" style="text-align: center;">RCL</td>
+<td style="text-align: center;">No. Obs.</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">MAE</td>
+<td style="text-align: center;">RMSE</td>
+<td style="text-align: center;">MAE</td>
+<td style="text-align: center;">RMSE</td>
+<td style="text-align: center;">MAE</td>
+<td style="text-align: center;">RMSE</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">MNL</td>
+<td style="text-align: center;">0.0234</td>
+<td style="text-align: center;">0.0644</td>
+<td style="text-align: center;">0.0041</td>
+<td style="text-align: center;">0.0095</td>
+<td style="text-align: center;">0.0023</td>
+<td style="text-align: center;">0.0045</td>
+<td style="text-align: center;">22,000</td>
+</tr>
+<tr>
+<td style="text-align: center;">RCL</td>
+<td style="text-align: center;">0.0186</td>
+<td style="text-align: center;">0.0145</td>
+<td style="text-align: center;">0.0265</td>
+<td style="text-align: center;">0.0331</td>
+<td style="text-align: center;">0.0023</td>
+<td style="text-align: center;">0.0031</td>
+<td style="text-align: center;">22,000</td>
+</tr>
+</tbody>
+</table>
+
+
+**Note:**  This table presents the bias and variance of cross-elasticity when there are inattentive consumers. We simulate the market share of each product in each market by assuming there is a portion of consumers who ignore the product with the highest price. We assume the portion is \(1-\frac{1}{1+Price_{j}}\). We consider 3 scenarios with 2, 5, and 10 products respectively. We fix the number of markets to 100 and the number of features to 1 (with only price). Other parts are the same as RCL in our baseline. 
+
+due to its structural constraints on the input space. We use two data generation processes – Multinomial Logit (MNL) and Random-Coefficients Logit (RCL). The observable characteristics of the new product are simulated using the same distribution as other products. In Table  10 , we present the estimated market share of the new product. Our model outperforms the MNL when the underlying data generation process is RCL, and produces results comparable to the true model. 
+
+**Note:**  This table presents the bias and variance of predicted market shares of all products in the market when a new product enters. We simulate market shares as in our baseline scenario (10 products, 100 markets, 10 features) when a new product is introduced. 
+
+### Inference and Coverage Analysis 
+
+Finally, we demonstrate the performance of the inference procedure. The objective is to demonstrate the validity of the estimated confidence intervals. To this end, we estimate the effect of a 1% change in price on demand and compute the corresponding confidence intervals of this effect. To simulate the data, we consider a random-coefficients logit model of demand with 3 products across 100 markets. We set the true model parameters to be \(\beta_{ik}\sim\mathcal{N}(1,0.5),\alpha_{i}\sim\mathcal{N}(-1,0.5)\). The effect of a 1 increase in a product’s price is given by θ0=𝔼[m(wi,π]=𝔼[π(pj⁢t∗(1.01),xj⁢t,{xk⁢t}k≠j)−π(pj⁢t,xj⁢t,{xk⁢t}k≠j)],  As discussed earlier, one way to estimate this effect is to compute the sample analog of this 

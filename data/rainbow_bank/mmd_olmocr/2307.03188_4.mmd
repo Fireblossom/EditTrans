@@ -1,0 +1,25 @@
+Bohm and Hiley [13] criticized Nelson’s theory for assuming a particular definition of the acceleration, which they felt was ad hoc, since other definitions are possible which nevertheless result in Schr¨odinger’s equation, and which obey the time-reversal symmetry desired by Nelson. 8 8 Yasue [44] has shown that Nelson’s Second Law follows from a stochastic variational principle, together Instead, they reinterpreted the theory, much in line with the demand of positive semidefinite mean kinetic energy. with standard Bohmian mechanics, to merely _ postulate_  the Schr¨odinger equation, and provide a definite ontology by asserting the existence of a particle undergoing the random motion determined by the wave function via the stochastic guiding law. In so doing they drop the postulate of a stochastic Newton’s Second Law, and furthermore avoid the Wallstrom criticism (see footnote 3). In effect, they take a less ambitious perspective than Nelson did. In what follows, we adhere to the interpretation of Bohm and Hiley as a matter of simplicity, but continue to refer to it as Nelson’s stochastic mechanics. 
+
+### Discrete Formulation 
+
+Throughout this work, we will supplement the discussion by displaying results of numerical simulations of Nelson’s theory. We therefore describe in brief how to suitably formulate Nelson’s dynamics for simulation. See also [45–47] for previous simulations of stochastic mechanics. 
+
+We discretize the time variable into steps of equal duration \(\varepsilon\), and define a dimensionless Gaussian noise \(\widehat{\boldsymbol{\eta}}_{t}\)\(\widehat{\boldsymbol{\eta}}_{t}\)with mean zero  and variance 1, related to the previously defined noise by sending sending \(\boldsymbol{\eta}(t)\to\sqrt{2\nu/\varepsilon}\;\widehat{\boldsymbol{\eta}}_{t}\). The discrete Euler step for the Langevin equation becomes, for all \(t=n\varepsilon\) with \(n\geqslant 0\)an integer, 
+
+\[\boldsymbol{x}_{t+\varepsilon}=\boldsymbol{x}_{t}+\varepsilon\boldsymbol{b}( \boldsymbol{x}_{t},t)+\sqrt{2\nu\varepsilon}\;\widehat{\boldsymbol{\eta}}_{t}\  
+
+Here the factor \(2\nu=\hbar/m\) explicitly appears in the noise term. Since the time step \(\varepsilon\) is finite, the actual (quantum-) equilibrium distribution of the discrete process will deviate from the desired distribution by terms of order \(\varepsilon\), and therefore one is ultimately concerned with taking the limit \(\varepsilon\to 0\), or simulating instead with an “improved” discrete equation that eliminates leading effects, such as the stochastic Runge-Kutta algorithm in [48] or [49]. In this work we restrict ourselves to the simple Euler discretization, and merely make note of the behavior of repeated simulations with decreasing \(\varepsilon\). 
+
+When implementing such simulations, it is most convenient to work with dimensionless positions and times; in any given problem, there will be a natural length scale \((a_{0})\)and time scale \((\tau_{0})\), so the quantities entering the simulation will be given in these units. In the case of hydrogen, for example, the natural unit for distance is the Bohr radius \(a_{0}\), and natural times are in units of the “Bohr time” \(\tau_{0}=ma_{0}^{2}/\hbar\). 
+
+### Application to Hydrogen 
+
+We now consider the behavior of a (spinless) “electron” in the hydrogen atom according to Nelson’s theory. First consider the ground state, whose wave function has the wellknown form 
+
+\[\psi_{100}(\boldsymbol{x},t)=\frac{1}{\sqrt{\pi a_{0}^{3}}}\;\mathrm{e}^{-r/a_ {0}-iE_{1}t/\hbar}\  
+
+where \(r=\|\boldsymbol{x}\|\)is the distance to the proton and \(E_{1}=-me^{4}/2(4\pi\varepsilon_{0})^{2}\hbar^{2}\). In standard Bohmian mechanics, the position-independence of the imaginary part of the phase, in this state, yields a motionless particle: \(\dot{\boldsymbol{x}}=\boldsymbol{\nabla}S=0\)\(\dot{\boldsymbol{x}}=\boldsymbol{\nabla}S=0\). However, in Nelson’s theory, there is a contribution from the osmotic velocity and the random background noise, yielding a stochastic guiding law 
+
+\[\dot{\boldsymbol{x}}=-\frac{\hbar}{ma_{0}}\frac{\boldsymbol{x}}{r}+\boldsymbol {\eta}_{t}\  \[\dot{\boldsymbol{x}}=-\frac{\hbar}{ma_{0}}\frac{\boldsymbol{x}}{r}+\boldsymbol {\eta}_{t}\  
+
+We see that the displacement over any short span of time tends toward the origin, but the additional random kicks given to the particle by the background noise prevent 

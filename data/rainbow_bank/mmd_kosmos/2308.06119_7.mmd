@@ -1,0 +1,21 @@
+ Algorithm of the \(\rho\)-method (no regularization) \(\Theta_{1}^{u}:=\{t\in[0,T]:u^{(k+1)}(t)\neq u^{(k)}(t)\}\)_k_ -th ( _k_ _ ≥_ 0 ) iteration ( _ρ_ -procedure) consists of the following steps. 1) If _ k_  = 0 , then obtain _ ρ_ (0) from ( 2 ) and compute _ I_ ( _c_ (0) ) ; if _ k >_  0  then for the known _c_ ( _k_ ) solve the adjoint system ( 11 ) to obtain _ χ_ ( _k_ ) . 3) Solve the system ( 17 ) and construct the set of pairs _ {_ ( _c, ρ_ ) _}_ , where each pair consists of a solution _ ρ_  of ( 17 ) and _ c_ ( _t_ ) = _ c_ _∗_ ( _ρ_ ( _t_ ) _, t_ ) . 4) Select the pair  ( _c_ ( _k_ +1) _, ρ_ ( _k_ +1) )  which provides maximal decrease of _ I_ ( _c_ ) ; if there is no decrease then select any  ( _c_ ( _k_ +1) _, ρ_ ( _k_ +1) ) . 5) If the stopping criterion _ |_ _I_ ( _c_ ( _k_ +1) ) _−_ _I_ ( _c_ ( _k_ ) ) _|_ _ < ϵ_ _ ≪_ 1  is not satisfied, then set _ k_  := _ k_ +1 
+
+**Algorithm 1** 
+
+Define the sets , 
+
+\[\Theta_{1}^{n_{j}} := \{t\in[0,T]:n_{j}^{(k+1)}(t)\neq n_{j}^{(k)}(t)\},\] \[\Theta_{2,\rho}^{u} := \{t\in[0,T]:\mathcal{K}^{u}(\chi^{(k)}(t),\rho^{(k+1)}(t))\neq 0\},\] \[\Theta_{2,\rho}^{n_{j}} := \{t\in[0,T]:\mathcal{K}^{n_{j}}(\chi^{(k)}(t),\rho^{(k+1)}(t)) \neq 0\},\quad j=1,2.\]  
+
+**Proposition 1** _ The_ \(\rho\)_-procedure provides a resulting control_ \(c^{(k+1)}\)_such that the first in-_ _tegrand in (_ _) for_ \(\widehat{\alpha}=0\)\(\widehat{\alpha}=0\)_,_ \(c(t)=c^{(k+1)}(t)\)_,_ \(\rho(t)=\rho^{(k+1)}(t)\)_,_ \(t\in[0,T]\)_ is non-negative and_ \(I(c^{(k+1)})\leq I(c^{(k)})\)_. The strong inequality_ \(I(c^{(k+1)})<I(c^{(k)})\)_ holds when at least one of the_ _three sets_ \(\Theta_{1}^{u}\cap\Theta_{2,\rho}^{u}\)_,_ \(\Theta_{1}^{n_{j}}\cap\Theta_{2,\rho}^{n_{j}}\)_,_ \(j=1,2\)_ has non-zero measure._ 
+
+Further, based on the second increment formula ( 14 ) for \(\widehat{\alpha}=0\)\(\widehat{\alpha}=0\), the _ χ_ _-method_  is 
+
+\[u^{\ast}(\chi,t) = {\rm arg}\max\limits_{|u|\leq\mu}(\mathcal{K}^{u}(\chi,\rho^{(k)} (t))u),\] (18) \[n_{j}^{\ast}(\chi,t) = {\rm arg}\max\limits_{n_{j}\in[0,n_{\max}]}(\mathcal{K}^{n_{j}}( \chi,\rho^{(k)}(t))n_{j}),\quad j=1,2.\] (19)  \[u^{\ast}(\chi,t) = {\rm arg}\max\limits_{|u|\leq\mu}(\mathcal{K}^{u}(\chi,\rho^{(k)} (t))u),\] (18) \[n_{j}^{\ast}(\chi,t) = {\rm arg}\max\limits_{n_{j}\in[0,n_{\max}]}(\mathcal{K}^{n_{j}}( \chi,\rho^{(k)}(t))n_{j}),\quad j=1,2.\] (19)  Form \(n^{\ast}(\chi,t):=\big{(}n_{1}^{\ast}(\chi,t),\leavevmode\nobreak\ n_{2}^{\ast }(\chi,t)\big{)}\)
+
+and \(c^{\ast}(\chi,t):=\big{(}u^{\ast}(\chi,t),n^{\ast}(\chi,t)\big{)}\)system ( ) with \(u^{\ast}(\chi(t),t)\) and \(n^{\ast}(\chi(t),t)\): 
+
+\[\dot{\chi}(t)=-i\big{[}H_{c^{\ast}(\chi(t),t)},\chi(t)\big{]}- \varepsilon\mathcal{L}^{D,\dagger}_{n^{\ast}(\chi(t),t)}(\chi(t)),\quad\chi(T) =\rho_{\rm target}.\leavevmode\nobreak\ \leavevmode\nobreak\\] (20)  \[\dot{\chi}(t)=-i\big{[}H_{c^{\ast}(\chi(t),t)},\chi(t)\big{]}- \varepsilon\mathcal{L}^{D,\dagger}_{n^{\ast}(\chi(t),t)}(\chi(t)),\quad\chi(T) =\rho_{\rm target}.\leavevmode\nobreak\ \leavevmode\nobreak\\] (20)  
+
+Introduce the sets \(\Theta_{2,\chi}^{u}:=\{t\in[0,T]:\mathcal{K}^{u}(\chi^{(k+1)}(t),\rho^{(k)}(t) )\neq 0\}\) and \(\Theta_{2,\chi}^{n_{j}}:=\{t\in[0,T]:\mathcal{K}^{n_{j}}(\chi^{(k+1)}(t),\rho^ {(k)}(t))\neq 0\}\), \(j=1,2\). 
+
+**Proposition 2** _ The_ \(\chi\)_-procedure provides a resulting control_ \(c^{(k+1)}\)_such that the first_ _integrand in (_ _) for_ \(\widehat{\alpha}=0\)_,_ \(c(t)=c^{(k+1)}(t)\)_,_ \(\chi(t)=\chi^{(k+1)}(t)\)_,_ \(t\in[0,T]\)_ is non-negative_ _and_ \(\widehat{\alpha}=0\)\(I(c^{(k+1)})\leq I(c^{(k)})\). _. The strong inequality_ \(I(c^{(k+1)})<I(c^{(k)})\)_ holds when at least one_ _of the three sets_ \(\Theta_{1}^{u}\cap\Theta_{2,\chi}^{u}\)_,_ \(\Theta_{1}^{n_{j}}\cap\Theta_{2,\chi}^{n_{j}}\)_,_ \(j=1,2\)_ has non-zero measure._ 

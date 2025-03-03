@@ -1,0 +1,19 @@
+decision. More specifically, it takes one day for an order to be delivered to the store and become available to consumers. 13 13 Based on the interviews we conducted with store managers, the most common delivery lag reported is one day. Delivery lags exceeding three days were described as extremely rare. The ordered amount \(y_{t}\) is a discrete variable with support set \(\mathcal{Y}\equiv\{0,1,...,J\}\). 
+
+**Step (ii)** . Demand \(d_{t}\) is realized. Demand has a Negative Binomial distribution with logexpected demand and variance: 
+
+\[\begin{cases}\text{ }\ln d^{e}_{t}\text{ }=\text{ }\boldsymbol{\eta}_{0}^{ \prime}\text{ }\mathbf{seas}_{t}+\eta_{p}\text{ }\ln p_{t}+\eta_{Q}\text{ }\ln Q ^{[-7,-1]}_{t}\\ \text{ }\text{ }\text{ }\text{ }\sigma^{2}_{t}\text{ }=\text{ }d^{e}_{t}\text{ }\left(1+\alpha\text{ }d^{e}_{t}\right)\end{cases}\] (11)  
+
+where \(\boldsymbol{\eta}_{0}\), \(\eta_{p}\), \(\eta_{Q}\), and \(\alpha\) are parameters; \(\mathbf{seas}_{t}\) is a vector of seasonal dummies (i.e., weekend dummy and main holidays dummy); \(Q^{[-7,-1]}_{t}\)is the average daily sales of the product in the store during the last seven days; and \(\alpha\) denotes the over-dispersion parameter in the Negative Binomial. We use \(F_{d_{t}}\) to represent the distribution of \(d_{t}\) conditional on \((p_{t},Q^{[-7,-1]}_{t},\mathbf{seas}_{t})\). Importantly, the stochastic demand shock \(u_{t}^{d}\equiv\ln d_{t}-\ln d^{e}_{t}\)is unknown to the store manager at the beginning of the day when she makes her ordering decision. 
+
+**Step (iii)** . The store sells \(q_{t}\) units of inventory, which is the minimum of supply and demand: 
+
+\[q_{t}\text{ }=\text{ }\min\{\text{ }d_{t}\text{ },\text{ }k_{t}\text{ }\}\] (12)  
+
+The store generates flow profits \(\Pi_{t}\). The profit function has the following form: 
+
+\[\Pi_{t}\text{ }=\text{ }\left(p_{t}-c_{t}\right)\text{ }\min\{d_{t},k_{t}\}+ \gamma^{z}\mathbbm{1}\{d_{t}>k_{t}\}-\gamma^{h}\text{ }k_{t}-\gamma^{c}\text{ }y_{t}-\gamma^{f}\text{ }\mathbbm{1}\{y_{t}>0\}+\sigma_{\varepsilon}\text{ } \varepsilon_{t}(y_{t})\] (13)  
+
+where \(c_{t}\) is the wholesale price, and \(\gamma^{z}\), \(\gamma^{h}\), \(\gamma^{c}\), \(\gamma^{f}\), and \(\sigma_{\varepsilon}\) are store-product-specific structural parameters. When \(\gamma^{z}>0\), the term \(\gamma^{z}\cdot\mathbbm{1}\{d_{t}>k_{t}\}\) captures the situation where the cost of a stockout can be smaller than the revenue loss from excess demand because some consumers substitute the product within the store. On the other hand, if \(\gamma^{z}<0\), this term can represent an additional reputational cost of stockouts that goes beyond the lost revenue (see ** ?** 
+
+,  2006 ). The term \(\gamma^{h}\cdot k_{t}\) represents the storage cost associated with holding \(k_{t}\) units of inventory at the store. Parameter \(\gamma^{c}\)denotes the per-unit cost incurred by the store manager when placing an order, and \(\gamma^{f}\)represents the fixed ordering cost, including the transportation cost from the warehouse to the store. The variable \(\varepsilon_{t}(y_{t})\) corresponds to a stochastic shock with a mean of zero that affects ordering costs. More specifically, variables \(\varepsilon_{t}(0)\), \(\varepsilon_{t}(1)\), ..., \(\varepsilon_{t}(J)\)are i.i.d. with a Extreme Value type 1 distribution. Parameter \(\sigma_{\varepsilon}\) represents the standard deviation of the shocks in ordering costs. 

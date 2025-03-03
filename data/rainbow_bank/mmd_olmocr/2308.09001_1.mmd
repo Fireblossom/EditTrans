@@ -1,0 +1,29 @@
+previous \(m\) values. The first value for which the algorithm provides an estimation is \(f(x_{m+1})\). Consequently, the errors for \(y_{1},...,y_{m}\) cannot be defined and must be excluded from the squared errors. 
+
+To generalize the approach to handle complex-valued data sets, we modified the derivation. For a complex array \(y_{1},...,y_{n}\) with \(y_{i}\in\mathbb{C}\), the squared error is given by: 
+
+\[S= \sum_{i=m+1}^{n}\lvert y_{i}-\sum_{j=1}^{m}y_{i-j}d_{j}\rvert^{2}\] (2) \[= \sum_{i=m+1}^{n}\lvert y_{i}\rvert^{2}-\sum_{i=m+1}^{n}\sum_{j=1} ^{m}(y_{i}^{*}y_{i-j}d_{j}-y_{i}y_{i-j}^{*}d_{j}^{*})\] \[\ +\sum_{i=m+1}^{n}\sum_{j=1}^{m}\sum_{k=1}^{m}y_{i-j}y_{i-k}^{*} d_{j}d_{k}^{*}\:.\]  
+
+To minimize the sum of squared errors, we set the partial derivative of \(S\) with respect to \(d_{j}\) to 0: 
+
+\[\frac{\partial S}{\partial d_{j}}=-\sum_{i=m+1}^{n}y_{i}^{*}y_{i-j}+\sum_{i=m+ 1}^{n}\sum_{k=1}^{m}y_{i-j}y_{i-k}^{*}d_{k}^{*}=0\:.\] (3)  
+
+We can express Eq. (3) with matrices and vectors, setting \(\varphi_{j}=\sum_{i=m+1}^{n}y_{i}^{*}y_{i-j}\) and \(M_{jk}=\sum_{i=m+1}^{n}y_{i-j}y_{i-k}^{*}\)and it becomes 
+
+\[-\varphi_{j}+M_{jk}d_{k}^{*}=0\:.\] (4)  
+
+The linear prediction coefficients are solved as 
+
+\[d_{k}=(M_{jk}^{-1}\varphi_{j})^{*}\:.\] (5)  
+
+Once we obtain \(d_{j}\), we can estimate subsequent function values with Eq. (1). 
+
+### Discussion on performance 
+
+Linear prediction exhibits excellent performance on periodic analytic functions, particularly plane waves and sinusoidal functions [16]. For instance, when considering the plane wave function \(f(x)=e^{ikx}\), it can be analytically justified that linear prediction with a single coefficient (order 1) yields perfect estimation. In this case, the coefficient \(d\) represents a constant phase \(e^{ik\triangle x}\), where \(\triangle x\) is the spacing between \(x_{i}\) values. Multiplying \(d\) with \(f(x)\) produces the same result as evaluating \(f(x+\triangle x)\). 
+
+FIG. 1: Estimation results of plane wave functions with linear prediction. (a). \(f(x)=e^{ix}\)estimated with \(m=1\). (b). \(f(x)=e^{ix}+e^{2ix}\)estimated with \(m=2\). (c). \(f(x)=\cos x+\cos\sqrt{2}x\) estimated with \(m=4\). 
+
+This conclusion can be extended to sums of plane waves with different frequencies. Each additional frequency necessitates an extra prediction coefficient to achieve perfect estimation. Fig. 1 illustrates linear prediction results for plane wave functions with varying frequencies, serving as examples. The extrapolation starts at the black vertical line, with the input function values for the algorithm shown in blue, and the output estimation results depicted in red. The figures only display the real part of the complex function values. 
+
+However, linear prediction’s performance diminishes for non-analytic periodic functions [17] such as square 

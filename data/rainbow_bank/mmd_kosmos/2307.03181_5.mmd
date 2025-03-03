@@ -1,0 +1,25 @@
+Krishnamurthy Iyer Haifeng Xu You Zu 
+
+generic element of \(\mathcal{X}\) by \(x=(\omega,a)\). Thus, \(\bar{x}_{t}=(\bar{\omega}_{t},\bar{a}_{t})\in\mathcal{X}\)\(\bar{x}_{t}=(\bar{\omega}_{t},\bar{a}_{t})\in\mathcal{X}\) denotes the state-action pair at time \(t\), and \(p(\omega^{\prime}|x)\) with \(x=(\omega,a)\) stands for \(p(\omega^{\prime}|\omega,a)\). Next, for any \(k\geq 1\) and at any time \(t\), a _ slice_ of history \(\bar{h}_{t}^{k}\)\(\bar{h}_{t}^{k}\)of length \(k\) describes the sequence of states-action pairs in the past \(k\) time periods: \(\bar{h}_{t}^{k}=(\bar{x}_{t-k},\dots,\bar{x}_{t-1})\in\mathcal{X}^{k}\)\(\bar{h}_{t}^{k}=(\bar{x}_{t-k},\dots,\bar{x}_{t-1})\in\mathcal{X}^{k}\). We denote a generic element of \(\mathcal{X}^{k}\) by \(h^{k}=(x_{-k},\dots,x_{-1})\). Finally, we let \(\mathcal{X}^{0}\)denote the singleton set consisting of the unique (empty) slice of history of length zero. 
+
+A signaling mechanism is a mapping \(\sigma\colon\mathcal{X}^{k}\times\Omega\to\Delta(A)\) (for some \(k\geq 0\)) that specifies for each \(h^{k}\in\mathcal{X}^{k}\)and \(\omega\in\Omega\), the probability \(\sigma(a|h^{k},\omega)\) with which the sender shares the signal \(\bar{s}_{t}=a\in A\)\(\bar{s}_{t}=a\in A\)if the (slice of) history is \(\bar{h}_{t}^{k}=h^{k}\)\(\bar{h}_{t}^{k}=h^{k}\) and the current state is \(\bar{\omega}_{t}=\omega\)\(\bar{\omega}_{t}=\omega\). We let \(\Sigma_{k}\)denote the set of all signaling mechanisms that depend only on history slices of length \(k\), and let \(\Sigma=\cup_{k\geq 0}\Sigma_{k}\). The set \(\Sigma_{0}\) contains the signaling mechanisms that do not depend on the history. 
+
+### Beliefs and Persuasiveness 
+
+Next, we describe the notion of persuasiveness as applied to signaling mechanisms. To do this, we need to model the receivers’ beliefs about the history of the process, which in general depends endogenously on how much information they have about the past. We capture this endogenous level of historical information through the concept of an _ information model_  (see Section  3.4 ). However, to develop our concepts, we will initially consider the receiver’s prior beliefs as exogenously specified. 
+
+Suppose the sender commits to a signaling mechanism \(\sigma\in\Sigma_{k}\) for some \(k\geq 0\). Fix a time \(t\), and let the corresponding receiver’s belief over the history \(\bar{h}_{t}\)\(\bar{h}_{t}\) and the current state \(\bar{\omega}_{t}\)\(\bar{\omega}_{t}\) (prior to receiving any signal) be denoted by \(\phi_{t}\). Then, upon receiving an action recommendation \(\bar{s}_{t}=a\)\(\bar{s}_{t}=a\), the receiver’s posterior belief that \(\bar{\omega}_{t}=\omega\)\(\bar{\omega}_{t}=\omega\) can be found using Bayes’ rule as 
+
+\[F(\omega|a;\phi_{t},\sigma)=\frac{\sum_{h^{k}}\phi_{t}(h^{k}, \omega)\sigma(a|h^{k},\omega)}{\sum_{\omega^{\prime}}\sum_{h^{k}}\phi_{t}(h^{k },\omega^{\prime})\sigma(a|h^{k},\omega^{\prime})}.\]  
+
+Here, \(\phi_{t}(h^{k},\omega)\) denotes the receiver’s marginal belief that the history slice of length \(k\) is \(\bar{h}_{t}^{k}=h^{k}\in\mathcal{X}^{k}\)\(\bar{h}_{t}^{k}=h^{k}\in\mathcal{X}^{k}\)and the state is \(\bar{\omega}_{t}=\omega\)\(\bar{\omega}_{t}=\omega\). The receiver then chooses an action that maximizes their expected utility under their posterior belief F(⋅|a;ϕt,σ). We say the signaling mechanism \(\sigma\) is persuasive w.r.t. the belief \(\phi_{t}\), if the recommended action \(\bar{s}_{t}=a\)\(\bar{s}_{t}=a\) is optimal for the receiver, i.e., the following inequality holds: 
+
+\[\sum_{\omega}F(\omega|a;\phi_{t},\sigma)\ {\partial u}(\omega,a,a ^{\prime})\geq 0,\text{ for all $a,a^{\prime}\in A$},\]  
+
+where \({\partial u}(\omega,a,a^{\prime})\coloneqq u(\omega,a)-u(\omega,a^{\prime})\) denotes the incremental payoff for the receiver for choosing action \(a\in A\) over action \(a^{\prime}\in A\) at state \(\omega\in\Omega\). The inequality states that the receiver’s expected utility with the action \(a\) is higher than that with \(a^{\prime}\)when action \(a\) is recommended. 
+
+More generally, let \(\Phi=\{\phi_{t}:t\in\mathbb{Z}\}\) denote the sequence of receivers’ beliefs at each time \(t\in\mathbb{Z}\). For any such sequence \(\Phi\), the set \(\mathsf{Pers}(\Phi)\) of persuasive signaling mechanisms contains all signaling mechanisms \(\sigma\) that are persuasive w.r.t. \(\phi_{t}\) for each \(t\in\mathbb{Z}\). We note that the set \(\mathsf{Pers}(\Phi)\) is non-empty, since the mechanism that recommends the receivers’ preferred action at each state is persuasive for sequence \(\Phi\). 
+
+### Invariant Distribution 
+
+As a step towards describing the models of endogenous historical information held by the receivers, we next analyze the induced dynamics under a signaling mechanism to characterize its invariant distribution. Suppose the sender chooses a signaling mechanism \(\sigma\in\mathsf{Pers}(\Phi)\cap\Sigma_{k}\) for some \(k\geq 0\)

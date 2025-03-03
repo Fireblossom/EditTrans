@@ -1,0 +1,39 @@
+[[2]p(t)q]i=||[2]⟨i|Ut|φ⟩||2, (9)  
+
+where \(\left|\varphi\right>\)is a generic initial quantum state in \(\mathcal{H}=\mathbb{C}^{N}\otimes\mathbb{C}^{N}\). 
+
+The Szegedy’s quantum walk described in this manner can be understood as a coined quantum walk where the first register encodes the position in the graph, and the second register encodes the coin state [ 23 ]. However, the original formulation made by Szegedy consisted on a coinless quantum walk based on two reflections, each around one of the two subspaces [ 3 ]. Then, in the literature we can find the following unitary operator for one step of Szegedy’s quantum walk [ 12 ]: 
+
+\[W=R_{B}R_{A},\] (10)  
+
+where \(R_{A}\) is a reflection over the subspace spanned by the \(\left|\psi_{i}\right>\)states, and \(R_{B}\) over the space formed by the swapped version of these. Thus, we can identify \(R_{A}=R\) and \(R_{B}=SRS\), so that the original unitary operator \(W\) corresponds to two steps of the coined version \(U\), i.e., \(W=U^{2}\). Therefore, w.l.o.g. we can use the formulation in terms of the reflection \(R\) and swap \(S\) operators to construct any of the unitary operator presented above, and moreover, to simulate them classically. 
+
+Finally, the unitary operator can be modified introducing oracles in the context of quantum search. Let us define the operator \(Q\) as follows: 
+
+\[Q=\mathbbm{1}_{N}-2\sum_{k\in\mathcal{M}}\left|k\right>\left<k\right|,\] (11)  
+
+which inverts the sign of the vectors \(\left|k\right>\)given a set \(\mathcal{M}\) of nodes to mark. In order to mark the nodes in the first register, we use the oracle \(Q_{1}\) defined as: 
+
+\[Q_{1}=Q\otimes\mathbbm{1}_{N},\] (12)  
+
+whereas to mark them in the second register, we use \(Q_{2}\): 
+
+\[Q_{2}=\mathbbm{1}_{N}\otimes Q.\] (13)  
+
+Examples of modified operators used in the literature are \(U=SQ_{1}R\), or \(W=R_{B}R_{A}Q_{1}\). 
+
+## MEMORY-SAVING CLASSICAL SIMULATION 
+
+In order to understand the complexity of the different simulation algorithms, we need to clarify the following concepts about the matrices: 
+
+\(0\). 
+
+\(0\). 
+
+Moreover, let us clarify the following concepts about how a matrix can be represented in the computer: 
+
+\(0\), are stored in memory. 
+
+-Sparse representation: in this case only the non-null elements are stored in memory. However, this method can be less efficient if the matrix is dense enough. 
+
+The naive method for simulating Szegedy’s quantum walk is creating the unitary matrix and applying it to a vector state. The matrix representing the unitary operator \(U\) in ( 5 ) is of size \(N^{2}\times N^{2}\), so to simulate it classically with a dense representation we would need memory resources that scale as \(\mathcal{O}(N^{4})\). Nevertheless, for a dense transition matrix \(G\), this unitary operator only has at most \(N^{3}\)non-null elements. Thus, if we used a sparse representation for the unitary matrices, the resources requirements would improve to \(\mathcal{O}(N^{3})\). This scaling is still so much prohibitive, so that there is a limitation in simulating the quantum walk over graphs with dense transition matrices, as for example the ones used for the quantum PageRank algorithm [ 9 ]. However, there are graphs with very sparse transition matrices, like regular lattices, so that the unitary operator has \(\mathcal{O}(N)\)non-null elements and can be efficiently stored 
