@@ -55,6 +55,8 @@ class ErnieProcessor:
                 sample['json'] = json.load(open(sample['json']))
             elif sample['json'].startswith('{'): # fix path
                 sample['json'] = json.loads(sample['json'])
+            elif len(sample['json']) < 15:
+                sample['json'] = json.load(open('data/rainbow_bank/json/'+sample['json']+'.json'))
             else:
                 sample['json'] = json.load(open(sample['json']))
         d = sample['json']

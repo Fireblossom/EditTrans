@@ -9,13 +9,13 @@ import json
 from multiprocessing import Pool
 from collections import defaultdict
 from pathlib import Path
-from transformers import NougatProcessor, VisionEncoderDecoderModel, LayoutLMv3ImageProcessor
+from transformers import Kosmos2_5Processor, Kosmos2_5ForConditionalGeneration, LayoutLMv3ImageProcessor, NougatProcessor
 import numpy as np
 import torch
 from tqdm import tqdm
 import time
 
-from edit_trans.edit_trans_nougat import EditTransNougat
+from edit_trans.edit_trans_kosmos import EditTransKosmos
 from nougat.metrics import compute_metrics
 from nougat.utils.device import move_to_device
 from datasets import ClassLabel
@@ -70,75 +70,74 @@ def test(args):
     filter_config.pretrained_model_path = 'Norm/ERNIE-Layout-Pytorch'
     set_config_for_extrapolation(filter_config)
 
-    pretrained_model = EditTransNougat(filter_config)
-    pretrained_model = move_to_device(pretrained_model)
-
-    pretrained_model.eval()
-
     metrics = defaultdict(list)
-    metrics_nougat = defaultdict(list)
+    metrics_kosmos = defaultdict(list)
 
     times = {
         'filter': [],
         'edit': [],
-        'nougat': [],
+        'kosmos': [],
         'build': [],
         'generation': []
 
     }
 
-    processor = NougatProcessor.from_pretrained("facebook/nougat-base")
-    model = VisionEncoderDecoderModel.from_pretrained("facebook/nougat-base")
+    processor = Kosmos2_5Processor.from_pretrained("microsoft/kosmos-2.5")
+    model = Kosmos2_5ForConditionalGeneration.from_pretrained("microsoft/kosmos-2.5")
     model = move_to_device(model)
 
-    tgt_path = Path(args.data_dir)/'mmd_nougat'
+    pretrained_model = EditTransKosmos(filter_config, model)
+    pretrained_model = move_to_device(pretrained_model)
+
+    pretrained_model.eval()
+
+    nougat_processor = NougatProcessor.from_pretrained('facebook/nougat-base')
+
+    tgt_path = Path(args.data_dir)/'mmd_kosmos'
     img_path = Path(args.data_dir)/'images'
     steps_edit = []
-    steps_nougat = []
+    steps_kosmos = []
     for idx, sample in tqdm(enumerate(data_loader), total=len(data_loader)):
         if sample is None:
             continue
-
-        # image_tensors, decoder_input_ids, _ = sample
-        # if image_tensors is None:
-        #     return
 
         ground_truth = []
         for uid in [Path(n).stem for n in sample['uid']]:
             with open(tgt_path/(uid+'.mmd')) as tgt_mmd:
                 ground_truth.append(tgt_mmd.read())
 
-        # ground_truth = pretrained_model.tokenizer.batch_decode(
-        #     decoder_input_ids, skip_special_tokens=True
-        # )
+        prompt = "<md>"
+        kosmos_inputs = processor(text=[prompt], images=[Image.open(img_path/img) for img in sample['uid']], return_tensors="pt")
+        height, width = kosmos_inputs.pop("height"), kosmos_inputs.pop("width")
+        prompt_len = kosmos_inputs['input_ids'].size(1)
+        start_kosmos = time.time()
         
-        nougat_inputs = pretrained_model.processor([Image.open(img_path/img) for img in sample['uid']],
-                                                    return_tensors="pt")
-        start_nougat = time.time()
-        outputs_nougat = model.generate(
-            nougat_inputs['pixel_values'].to(model.device, dtype=torch.bfloat16),
+        kosmos_inputs = {k: kosmos_inputs[k].cuda() for k in kosmos_inputs}
+        kosmos_inputs['flattened_patches'] = kosmos_inputs['flattened_patches'].to(dtype=torch.bfloat16)
+        outputs_kosmos = model.generate(
+            **kosmos_inputs,
             min_length=1,
             max_new_tokens=1024,
             bad_words_ids=[[processor.tokenizer.unk_token_id]],
         )
-        end_nougat = time.time()
-        nougat_time = end_nougat - start_nougat
-        step_nougat = outputs_nougat.size(0) * outputs_nougat.size(1)
-        print('baseline:', nougat_time, step_nougat)
-        times['nougat'].append(nougat_time)
+        end_kosmos = time.time()
+        kosmos_time = end_kosmos - start_kosmos
+        step_kosmos = outputs_kosmos.size(0) * (outputs_kosmos.size(1)-prompt_len)
+        print('baseline:', kosmos_time, step_kosmos)
+        times['kosmos'].append(kosmos_time)
 
         outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = pretrained_model.generate(
             filter_inputs=sample,
-            nougat_inputs=nougat_inputs,
+            kosmos_inputs=kosmos_inputs,
         )
         outputs_text = pretrained_model.processor.batch_decode(
-            outputs, skip_special_tokens=True
+            outputs[:, prompt_len:], skip_special_tokens=True
         )
-        outputs_text = pretrained_model.processor.post_process_generation(outputs_text, fix_markdown=True)
+        outputs_text = nougat_processor.post_process_generation(outputs_text, fix_markdown=True)
         #text, math, table = split_text(outputs_text)
 
         ground_truth_text = [ground_truth[i][:len(text)] for i, text in enumerate(outputs_text)] # keep lengths same for too long generation
-        ground_truth_text = pretrained_model.processor.post_process_generation(ground_truth_text, fix_markdown=True)
+        ground_truth_text = nougat_processor.post_process_generation(ground_truth_text, fix_markdown=True)
         #text_gt, math_gt, table_gt = split_text(ground_truth_text)
 
         print('editTrans:',filter_time, build_time, sum(edit_time), sum(generation_time), sum(generation_steps))
@@ -147,11 +146,11 @@ def test(args):
         times['edit'].append(sum(edit_time))
         times['generation'].append(sum(generation_time))
 
-        outputs_text_nougat = pretrained_model.processor.batch_decode(
-            outputs_nougat, skip_special_tokens=True
+        outputs_text_kosmos = pretrained_model.processor.batch_decode(
+            outputs_kosmos[:, prompt_len:], skip_special_tokens=True
         )
-        outputs_text_nougat = pretrained_model.processor.post_process_generation(outputs_text_nougat, fix_markdown=True)
-        #text_nougat, math_nougat, table_nougat = split_text(outputs_text_nougat)
+
+        outputs_text_kosmos = nougat_processor.post_process_generation(outputs_text_kosmos, fix_markdown=True)
 
         with Pool(args.batch_size) as p:
             _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text, ground_truth_text))
@@ -161,27 +160,27 @@ def test(args):
             print({key: sum(values) / len(values) for key, values in metrics.items()})
         
         with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text_nougat, ground_truth_text))
+            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text_kosmos, ground_truth_text))
             for m in _metrics:
                 for key, value in m.items():
-                    metrics_nougat[key].append(value)
-            print({key: sum(values) / len(values) for key, values in metrics_nougat.items()})
+                    metrics_kosmos[key].append(value)
+            print({key: sum(values) / len(values) for key, values in metrics_kosmos.items()})
 
         steps_edit.append(torch.sum(steps).item())
-        steps_nougat.append(outputs_nougat.size(0) * outputs_nougat.size(1))
-        print(sum(steps_edit)/(idx+1), sum(steps_nougat)/(idx+1))
+        steps_kosmos.append(outputs_kosmos.size(0) * (outputs_kosmos.size(1)-prompt_len))
+        print(sum(steps_edit)/(idx+1), sum(steps_kosmos)/(idx+1))
 
-    result_path = Path('results/nougat')/(args.test_dataset_name.split('.')[0])
+    result_path: Path = Path('results/kosmos')/(args.test_dataset_name.split('.')[0])
     result_path.mkdir(parents=True, exist_ok=True)
     with open(result_path/'score_edit.json', 'w') as file:
         json.dump(metrics, file, indent=2)
-    with open(result_path/'score_nougat.json', 'w') as file:
-        json.dump(metrics_nougat, file, indent=2)
+    with open(result_path/'score_kosmos.json', 'w') as file:
+        json.dump(metrics_kosmos, file, indent=2)
 
     with open(result_path/'steps.json', 'w') as file:
         json.dump({
             'edit': steps_edit,
-            'nougat': steps_nougat
+            'kosmos': steps_kosmos
         }, file, indent=2)
     with open(result_path/'times.json', 'w') as file:
         json.dump(times, file, indent=2)
