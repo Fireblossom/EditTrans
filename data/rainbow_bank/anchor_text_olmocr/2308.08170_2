@@ -1,0 +1,173 @@
+Page dimensions: 612.0x792.0
+[49x123]tensor product to two states as
+[49x99]states also known as Bell pairs or EPR pairs, namely,
+[49x135]of the form
+[49x135]|
+[49x147]where
+[49x171]of two other states. Lets consider a qubit
+[49x171]|
+[49x219]example,
+[49x58]measurement is performed on the EPR pair then their states
+[49x428]as the quantum internet grows in size and its characteristics
+[49x452]effort to understand the network centralities of entanglement
+[49x476]can impact entanglement distribution in terms of edge and
+[49x500]on a bottom-up approach to meet user demands. The main
+[49x524]Some of the works have also focussed on meeting user demand
+[49x668]of entangled pairs. A mechanism to find the shortest path for
+[49x680]demands concerning start and end times along with the number
+[49x692]entanglement swapping and maximize the number of satisfied
+[49x716]a photonic switchboard to enable entanglements having high
+[49x761]JOURNAL OF L
+[49x291]be represented as
+[49x360]and then the model is explained.
+[49x267]|
+[49x267]can be represented as
+[49x243]|
+[52x243]10
+[53x88]00
+[54x157]2
+[59x195]A two-qubit system can be in
+[60x88]⟩−|
+[61x159]11
+[62x243]⟩
+[67x78]2
+[67x78],
+[69x243]are the orthonormal basis states. Measurement of a qubit
+[74x279]⟩
+[75x159]. This can be represented as
+[86x253]1
+[88x147]is the tensor product. However, a special two-qubit
+[89x219]when measured will collapse to one of its four
+[96x762]A
+[99x761]TEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 3
+[101x84]√
+[106x78]and
+[110x88]10
+[112x255]𝛾
+[117x253]2
+[118x88]⟩
+[119x135]=
+[126x291]𝜙
+[139x291]=
+[142x255]𝛾
+[143x267]𝜓
+[149x135]⟩+
+[150x267]⟩
+[154x291]|
+[155x88]⟩−|
+[155x389]M
+[156x267]=
+[161x291]𝛽
+[166x88]10
+[168x133]|
+[175x135]11
+[177x267]00
+[178x253]|
+[178x253]4
+[182x291]|
+[184x291]1
+[185x135]⟩
+[185x258]=
+[189x121]1
+[192x135]cannot be represented as a
+[196x291]|
+[197x389]ODEL
+[201x267]𝛾
+[204x159]⟩
+[210x255],
+[214x267]01
+[222x51]⟩+|
+[228x41]2
+[234x171]𝜓
+[236x294]+|
+[236x294]2
+[240x51]⟩
+[243x265]|
+[243x255]01
+[256x207]=
+[257x255],
+[259x291]|
+[262x294]2
+[262x294]=
+[265x207]1
+[265x159]1
+[270x207],
+[270x169]|
+[270x159]⟩)⊗|
+[274x267]𝛾
+[277x100]√
+[277x255]⟩
+[277x171]01
+[277x291]1
+[279x265]|
+[282x94],
+[282x94]2
+[282x291]|
+[282x291],
+[286x255]and
+[286x267]10
+[312x142]measure of edge centrality in this paper. Generally,
+[312x192]shortest paths between nodes. Since, quantum entanglements
+[312x227]quantum network when entanglements are needed between
+[312x265]swapping can provide valuable insights (e.g., the centrality
+[312x277]through a physical link or indirectly through entanglement
+[312x410]A is entangled with B and B in turn is entangled with C then
+[312x510]𝑖
+[312x510]edges in the network indexed with
+[312x571]Ψ
+[312x583]the measurement to the receiver. Using the result, the receiver
+[312x594]It requires a classical channel to communicate the results of
+[312x716]1
+[312x58]the degree centrality (the degree of the node) of the nodes
+[312x70]share an entanglement. In the process of edges getting added,
+[312x82]in the graph of the quantum network when the two nodes
+[312x667]ual entanglements. This is known as Quantum Entanglement
+[312x204]𝑘
+[313x338]𝑋
+[313x362]𝑋
+[317x482]𝛼𝑁
+[317x236]edge is involved in entanglement generation for a large
+[320x359]𝑗
+[320x367](
+[320x244]𝑣
+[322x446]These entangled physical edges can help in setting up
+[322x521]Let there be
+[322x521]𝑁
+[322x703]3) Quantum Entanglement Swapping:
+[322x94]As mentioned above, an edge (physical or virtual) is created
+[322x630]4) Quantum Teleportation:
+[323x338]. Thus,
+[327x367])
+[335x482]0
+[342x716], and vice versa when measured.
+[344x482]< 𝛼
+[368x691]𝐵
+[385x482]1
+[387x691]in turn is entangled to
+[397x691]𝐶
+[402x323]𝑋
+[410x321]𝑗
+[436x328]𝑝
+[441x328])
+[445x164]𝑒
+[449x161]𝑖
+[452x167]𝑝
+[462x319](1)
+[465x327]𝑣
+[470x494]𝑗
+[470x571].
+[470x502](
+[470x510]𝑗
+[474x502]𝑝
+[479x502])
+[485x167](
+[487x167]𝑣
+[493x250]or a virtual
+[493x258](
+[494x691]then
+[502x258])
+[523x141]𝑒
+[527x140]denotes
+[527x140]𝑖
+[533x479]are
+[548x362]to

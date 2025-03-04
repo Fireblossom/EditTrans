@@ -1,0 +1,50 @@
+Page dimensions: 612.0x792.0
+[72x136]is computationally easy enough to estimate and allows the calculation of both conditional and unconditional
+[72x160]horizon for one variable.
+[72x172]number of test sets multiplied by the number of periods in which forecasts are made) to test one forecast
+[72x184]of thousands of time series sets, so it is necessary to train the model hundreds of thousands of times (the
+[72x208]one hand, the more flexible the model, the tighter the lower bound will be. On the other hand, estimating
+[72x232]in terms of MSFE and LPS.
+[72x244]no matter which forecasting model we build on the test data, it should not outperform the neural network
+[72x256]LPS) should be the largest in the class of normal distributions. These two facts allow us to conclude that,
+[72x268]each horizon by construction of the loss function. Moreover, the mean log predictive scores (hereinafter,
+[72x280]network should have the smallest mean square forecast error (hereinafter, MSFE) for each variable and for
+[72x304]on a test dataset.
+[72x316]the neural network takes historical information into account, we estimate the lower bound of forecast quality
+[72x363]testing.
+[72x375]and standard deviation estimates.
+[72x399]testing about the mean and standard deviation, since the drift of the neural network coefficients at non-zero
+[72x447]as a signal of problems with the quality of the neural network. The reverse situation, in which the test is
+[72x459]should be considered one stage of the verification of the quality of the model. Not passing it should serve
+[72x495]worry that the distribution of the correlation estimates will have a mean and standard deviation different
+[72x507]the adjustment of the asymptotic distribution due to the finite length of the time series. Thus, there is no
+[72x519]to test the quality. The latter, in fact, is equivalent to testing for autocorrelation, but it does not require
+[72x90]procedure, or by using averaging at different iterations within the same training procedure, but this issue is beyond the scope
+[72x531]k
+[72x567]the standardized forecast errors (with the mean removed and divided by the standard deviation) should
+[72x579]probability integral transforms, which must match the normal distribution and have zero autocorrelation,
+[72x590]probability distribution of the forecasts is not fully specified. However, it can be noted that, similarly to the
+[72x602]directly to a case in which only the mean and the standard deviation of the forecast are estimated, since the
+[72x614]are often tested by interval calibration or probability integral transforms. These methods cannot be applied
+[72x638]\[1993\]) or variations of it.
+[72x650]Chopin et al. \[2012\]) require computationally complex algorithms with a particle filter (see Gordon et al.
+[72x662]it based on MCMC algorithms (see Andrieu et al. \[2010\]) or sequential Monte Carlo algorithms (SMC; see
+[72x674]of this paper, constructing an exact posterior distribution of forecasts is impossible, and approximations of
+[72x686]distribution itself. Unfortunately, for most simulation models, and in particular for ABM, which is the focus
+[72x698]istics of the posterior forecast distribution is to compare it with the characteristics of the posterior forecast
+[83x102]9
+[83x121]7
+[87x292]Such an estimate can be made with a benchmark model. Note that after optimization, the neural
+[87x351]As mentioned above, passing the test on standardized
+[87x351]Comparison with the benchmark model.
+[87x626]Forecast error standardization.
+[87x710]Of course, the best way to answer the question about the quality of the approximation of the character-
+[87x100]It is probable that the estimates could be improved by applying ensembles of models based on several runs of the training
+[87x109]The distribution need not be normal.
+[87x119]See Clark \[2011\]
+[219x379]9
+[250x626]7
+[304x42]6
+[476x630]the forecasts
+[500x531]periods
+[520x558]for

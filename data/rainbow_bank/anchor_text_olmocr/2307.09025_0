@@ -1,0 +1,74 @@
+Page dimensions: 612.0x792.0
+[54x77]parity check (LDPC) codes.
+[54x89]propagation do not work as well as in classical low-density
+[54x113]tains loops with various sizes due to the commutation
+[54x125]for example, in CSS code the factor graph always con-
+[54x161]is considered to be more challenging than classical code,
+[54x197]the decoding problem is a hard problem, for example, it
+[54x209]priate operation to correct the logical error. However,
+[54x245]the redundant ancilla qubits, giving an error syndrome.
+[54x256]set of discrete errors, which can be obtained by measuring
+[54x268]effects of continuous errors can be digitalized into a finite
+[54x280]n
+[54x292]k
+[54x292]tation \[3\]. In QEC, logical states with
+[54x376]problems which are intractable for classical computers.
+[64x388]Quantum computers can potentially solve practical
+[109x420]power.
+[109x430]of quantum error-correcting codes using generative artificial intelligence and modern computational
+[109x441]of a large number of syndromes. Our approach sheds light on the efficient and accurate decoding
+[109x461]model and quantum codes with different topologies such as surface codes and quantum LDPC codes.
+[109x472]belief-propagation-based algorithms. Our framework is general and can be applied to any error
+[109x482]provides significantly better decoding accuracy than the minimum weight perfect matching and
+[109x493]larizing error models and error models with correlated noise. The results show that our approach
+[109x503]We perform numerical experiments on stabilizer codes with small code distances, using both depo-
+[109x535]O
+[109x545]computational complexity
+[109x545]O
+[109x556]using maximum likelihood decoding. It can directly generate the most-likely logical operators with
+[109x566]training, the model can efficiently compute the likelihood of logical operators for any given syndrome,
+[109x577]without the need for labeled training data, and is thus referred to as
+[109x587]the joint probability of logical operators and syndromes. This training is in an unsupervised way,
+[109x597]modeling. The model utilizes autoregressive neural networks, specifically
+[118x524]refinement
+[120x608]We propose a general framework for decoding quantum error-correcting codes with generative
+[120x280]physical qubits with redundancy. The
+[134x629]4
+[138x625]International Centre for Theoretical Physics Asia-Pacific, Beijing/Hangzhou, China
+[139x730]qecGPT: decoding Quantum Error-correcting Codes with
+[145x681]1
+[150x678]CAS Key Laboratory for Theoretical Physics, Institute of Theoretical Physics,
+[187x646]School of Fundamental Physics and Mathematical Sciences,
+[197x667]Chinese Academy of Sciences, Beijing 100190, China
+[199x716]Generative Pre-trained Transformers
+[218x695]Feng Pan,
+[218x292]logical qubits are
+[223x545](2
+[236x545]k
+[236x545]) in the number of logical qubits
+[280x695]1
+[280x695]Yijia Wang,
+[317x173]maximum-likelihood decoders is computing probabilities
+[317x185]large treewidth of the graph. Another issue for existing
+[317x197]sor network contractions are difficult to apply due to the
+[317x245]boundary matrix product state method \[6\]) consider the
+[317x280]pergraphs where the distances between two nodes are
+[317x292]graphs and is challenging when applied to code on hy-
+[317x304]oretical limit. Moreover, it is less efficient in non-planar
+[317x316]in principle its performance usually has a gap to the the-
+[317x352]minimum weight perfect matching algorithm \[4, 5\] can
+[317x77]GPUs \[7–14\]. These methods are based on supervised
+[317x89]leveraging fast inference in neural networks on modern
+[317x113]decoding algorithms and hence less efficient. Recently,
+[317x149]k
+[327x388]While a number of algorithms have been proposed for
+[338x164]k
+[342x695]and Pan Zhang
+[372x545], which is significantly better than
+[406x535](4
+[411x149]. Moreover, the contraction of ten-
+[414x539]k
+[419x535]) computation.
+[437x161]logical qubits, which is in-
+[442x577]. After the pre-
+[468x597], to learn

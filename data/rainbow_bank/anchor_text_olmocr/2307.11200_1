@@ -1,0 +1,171 @@
+Page dimensions: 612.0x792.0
+[57x57](L) or right (R) resonator coupled to a qubit, and
+[57x57]J
+[57x300]2
+[57x311]Sec. II we present our methodology, including the sys-
+[57x277]discussions will be given. Finally, conclusions are drawn
+[57x289]dependent variational principle. In Sec. III, results and
+[57x334]ronmental effects in the Rabi dimer system.
+[57x346]introduced to the Rabi Dimer system to emulate envi-
+[57x357]frequency phonons and qubit-phonon coupling will be
+[57x392]tinct patterns of the LZ transitions. Additionally, the
+[57x403]and phases, the left and right qubit dynamics show dis-
+[57x437]2
+[57x449]qubit and the photon dynamics. The state of the hy-
+[57x460]cidate the impacts of a common phonon mode on the
+[57x494]α
+[57x504]and right qubits are coupled to a common phonon mode
+[57x114]modelled by a Rabi dimer Hamiltonian (
+[57x114]ℏ
+[57x148]qubit, and the qubits are modulated via external driving
+[57x159]pled transmission-line resonators each interacting with a
+[57x514]left(right) resonator with a coupling strength
+[57x525]the left (right) qubit is coupled to the photon mode in the
+[57x535]with a tunneling rate of
+[57x535]J
+[57x546]Photons can hop between two transmission-line resonators
+[60x70]where
+[67x182]As illustrated in Fig. 1, the hybrid circuit QED sys-
+[85x91]H
+[93x90]RD
+[93x90]=
+[Image 95x577 to 258x735]
+[97x67]L
+[98x74]Rabi
+[108x91]H
+[122x233]II. METHODOLOGY
+[127x89]+
+[127x89]L
+[128x95]Rabi
+[165x494].
+[165x89]−
+[165x89]R
+[166x95]Rabi
+[185x91]J
+[192x298]Ansatz
+[202x91](
+[205x91]a
+[211x88]L
+[211x96]†
+[216x91]a
+[221x90]R
+[230x300], and the time-
+[245x88]R
+[245x96]†
+[251x514]. Both left
+[251x91]a
+[257x90]L
+[259x436]Ansatz
+[262x91])
+[266x91],
+[315x714]tween the two resonators. Specifically, the Rabi Hamil-
+[315x614]i
+[315x626]resonator. The external harmonic driving field imposed
+[315x637]frequency
+[315x637]ω
+[315x603]a frequency Ω
+[315x532]same,
+[315x532]g
+[315x555]the same frequencies
+[315x366]phonon mode, and the qubit-phonon interaction yields
+[315x377]Combining the Hamiltonians for the Rabi dimer, the
+[315x57]In contrast, the multiple Davydov D
+[315x80]for this purpose, as only the dynamics of the electronic
+[315x114]need a method which can explicitly depict all the DOFs
+[315x125]fields in manipulating the photon and qubit states, we
+[315x196]the method of displaced number states \[50, 51\]
+[315x219]methodologies, such as the Monte Carlo importance
+[315x231]the undermentioned framework via the integration of
+[315x276]in the system is thermally inactive and thus the tem-
+[315x288]modelled QED device, the micromechanical resonator
+[318x388]α
+[319x466]ω
+[319x466]with a frequency of
+[319x648]presents a driven qubit coupled to a photon mode at
+[321x587]are Pauli matrices and
+[321x587]z
+[321x593]i
+[325x137]To unveil the role of the phonon mode and driving
+[325x299]Considering the low working temperatures of the
+[328x673]=L
+[330x590]a
+[341x673]=
+[350x675]F
+[360x458]†
+[360x458](
+[364x668]2 cos(Ω
+[366x636]with a strength of
+[371x531]R
+[371x531]=
+[371x455]b
+[373x637]g
+[376x455]). The interaction between the microme-
+[378x601]and an initial phase Φ
+[379x333]H
+[379x333]=
+[380x532]g
+[382x409]=
+[396x532].
+[399x674]i
+[401x410]α
+[402x675]t
+[402x675]+ Φ
+[406x488]H
+[410x331]+
+[410x331]RD
+[414x486]=
+[415x465]ph
+[418x410](
+[418x554]=
+[422x410]b
+[424x333]H
+[425x674]i
+[425x578]i
+[426x414]+
+[428x675])
+[429x578]th photon mode. Throughout
+[429x555]ω
+[432x675]σ
+[438x673]+
+[438x679]i
+[442x331]ph
+[445x675]ω
+[446x410])(
+[448x554]R
+[448x554]=
+[452x488]b
+[454x333]H
+[454x410]σ
+[455x590]a
+[459x555]ω
+[460x408]+
+[460x408]z
+[460x414]L
+[460x636]i
+[460x594]†
+[468x410]σ
+[469x672]i
+[470x55]2
+[470x55](multi-D
+[472x331]q-ph
+[478x554]r
+[479x674]−
+[479x674]i
+[482x555], and the qubit-
+[483x408])
+[486x162]Ansatz
+[489x603]. Here
+[494x410](4)
+[500x637]th (
+[506x675]a
+[512x672]i
+[516x637]i
+[516x637]= L
+[518x675]a
+[520x57]Ansatz
+[533x674]i
+[540x637],
+[543x660](2)
+[546x679]i
+[550x751]2
+[553x614],

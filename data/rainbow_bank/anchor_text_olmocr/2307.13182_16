@@ -1,0 +1,240 @@
+Page dimensions: 612.0x792.0
+[72x208]:
+[72x583]H
+[72x610]environment by identifying dissipation as an amplitude damping operation,
+[72x682]extended "unitarity" condition
+[72x682]X
+[72x695]operation
+[72x695]E
+[72x515]\[25\]
+[72x142]multidimensional analogs of the quantum amplitude damping channel
+[72x475]the Trotter-Suzuki expansion to
+[72x475]exp
+[72x502]to actually know the physical properties of the environment.
+[72x529]columns must then be determined so that ˆ
+[72x542]evolution operator consists of listing all the Kraus matrices in the first column block. The remaining
+[72x556]d
+[72x404]transformation
+[72x404]U
+[72x569]be also applied to systems with
+[72x569]d
+[72x128]to the dissipation processes, while ˆ
+[75x235]The non-unitary ˆ
+[76x355]where
+[76x418]exp
+[76x418]Even though
+[76x155]K
+[77x709]where ˆ
+[86x153]1
+[86x153]represents a transition that is not of direct interest. These Kraus operators ˆ
+[89x596]d
+[89x596]Let
+[89x488]Returning to the Schrodinger representation of the classical system Eq. (35), one can employ
+[89x114]unitary
+[110x596]be the dimension of the system Hilbert space, and
+[112x268]K
+[113x354]>
+[115x271]ˆ
+[116x297]0
+[119x707]=
+[119x707]µ
+[120x596]r
+[121x267]0
+[121x267]=
+[122x695]for an open system, Eq. (37), provided the so-called Kraus operators satisfy the
+[130x709]⟨
+[140x284]
+[144x581]1
+[148x709]µ
+[149x583], Eq. (35). We require
+[149x583]d
+[149x560]Kraus operators at most. The matrix representation of the total unitary dilation
+[151x261]0
+[154x403]1
+[155x709]ˆ
+[155x709]|
+[156x235]K
+[158x709]U|
+[163x418]−
+[167x275]Γ
+[169x709]a
+[175x259])
+[179x709]. These operators ˆ
+[179x273]×
+[181x418]H
+[185x259](
+[188x259]d
+[189x378]= ˆ
+[189x378]1
+[199x259]r
+[202x328]|
+[203x447]|
+[203x259]I
+[203x259])
+[205x328]ψ
+[206x447]ψ
+[209x380]U
+[213x328](
+[217x187]K
+[217x328]δt
+[218x447]δt
+[225x259]d
+[226x185]1
+[227x447])
+[229x259]−
+[230x378]1
+[231x515]. The advantage of the Kraus approach is that it avoids the need
+[231x328]⟩
+[231x447]⟩
+[231x569]r
+[236x259]r
+[237x128]K
+[239x273]r
+[243x385]†
+[245x475]\[
+[245x206]0
+[247x126]1
+[248x475]−
+[248x569]. If the system was quantum mechanical in nature, then there
+[250x259](
+[250x459]h
+[250x273]r
+[253x259]d
+[254x328]e
+[257x475]iδt
+[257x192]q
+[260x452]−
+[263x195](
+[263x583]≥
+[264x259]r
+[266x195]d
+[266x333]iδt
+[267x452]ˆ
+[268x178]I
+[268x104]ˆ
+[269x475]( ˆ
+[270x195]−
+[272x583]2
+[272x177]r
+[273x709]K
+[275x104]H
+[277x452]H
+[277x284]
+[277x195]r
+[277x529]U
+[278x655]µ
+[281x195])
+[282x103], consists of column blocks of the Kraus operators
+[283x707]will form a Kraus representation for the quantum
+[283x707]µ
+[283x473]0
+[283x473]−
+[283x177]−
+[284x451]0
+[284x195]×
+[284x268]with diagonal ˆ
+[284x268],
+[285x416]is Hermitian and can be diagonalized by a unitary
+[290x583]r
+[290x475]i
+[290x178]ˆ
+[291x195](
+[295x327]1
+[295x327]ˆ
+[299x665]µ
+[300x672]†
+[300x328]K
+[301x42]17
+[301x475]ˆ
+[301x178]Γ
+[301x452]−
+[305x475]H
+[305x667]K
+[308x452]ˆ
+[308x452]δt
+[309x195]0
+[309x195])
+[309x327]ˆ
+[309x327]0
+[314x473]1
+[314x666]=
+[315x452]H
+[321x325]+
+[322x451]1
+[323x333]†
+[323x667]I
+[329x195](
+[329x447]O
+[331x354]1
+[334x667](40)
+[334x380]D
+[335x355]. Thus Eq. (41) becomes
+[336x195]−
+[343x195]r
+[343x378]1
+[343x378]=
+[346x177]r
+[348x447](
+[349x328](
+[350x177]×
+[351x380]diag
+[352x447]δt
+[357x177]r
+[360x195]d
+[362x452]2
+[362x333]2
+[365x195]−
+[366x447])
+[367x328])
+[371x340]i
+[371x195]r
+[374x596]the dimension of the dissipative
+[375x195])
+[376x267]r
+[378x328]|
+[380x267]×
+[383x380]\[
+[384x206]#
+[386x380]γ
+[387x267]r
+[388x447](0)
+[388x328](0)
+[392x378]1
+[392x187].
+[394x268]diag
+[397x380], ..., γ
+[402x447]⟩
+[404x220]so that ˆ
+[404x220]1
+[406x447](41)
+[407x328](43)
+[407x328],
+[425x142]: with ˆ
+[426x380]\]
+[428x114]U
+[429x380](42)
+[429x380],
+[434x113]diss
+[435x273]−
+[449x221]K
+[450x114], corresponding to
+[458x218]ˆ
+[459x227]†
+[463x221]K
+[469x155]K
+[472x273]−
+[473x220]0
+[478x153]0
+[483x272]r
+[483x155],
+[487x273]δt
+[487x155]K
+[490x221]K
+[494x268]\]
+[497x153]1
+[497x153]are the
+[497x268](44)
+[500x227]†
+[505x221]K
+[514x220]1
+[522x221]I

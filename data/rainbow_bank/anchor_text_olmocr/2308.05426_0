@@ -1,0 +1,44 @@
+Page dimensions: 612.0x792.0
+[156x666]Adaptive Low Rank Adaptation of Segment
+[178x648]Anything to Salient Object Detection
+[226x614]Ruikai Cui, Siyuan He, and Shi Qiu
+[246x593]Australian National University
+[206x582]{ruikai.cui, siyuan.he, shi.qiu}@anu.edu.au
+[163x547]Abstract.
+[163x536]Foundationmodels,suchasOpenAI'sGPT-3andGPT-4,Meta'sLLaMA,
+[163x525]and Google's PaLM2, have revolutionized the field of artificial intelli-
+[163x514]gence. A notable paradigm shift has been the advent of the Segment
+[163x503]Anything Model (SAM), which has exhibited a remarkable capability
+[163x492]to segment real-world objects, trained on 1 billion masks and 11 mil-
+[163x481]lion images. Although SAM excels in general object segmentation, it
+[163x471]lacks the intrinsic ability to detect salient objects, resulting in subopti-
+[163x460]mal performance in this domain. To address this challenge, we present
+[163x449]the Segment Salient Object Model (SSOM), an innovative approach that
+[163x438]adaptively fine-tunes SAM for salient object detection by harnessing the
+[163x427]low-rank structure inherent in deep learning. Comprehensive qualita-
+[163x416]tive and quantitative evaluations across five challenging RGB benchmark
+[163x405]datasets demonstrate the superior performance of our approach, surpass-
+[163x394]ing state-of-the-art methods.
+[163x372]Keywords:
+[163x372]salient object detection
+[217x372]·
+[317x372]large-scale pre-trained models
+[323x372]·
+[163x361]parameter-efficient fine-tuning.
+[135x330]1 Introduction
+[135x308]Foundation models \[3,14,23\] have received significant interests in recent years,
+[135x296]owing to their exceptional performance across a multitude of diverse tasks These
+[135x284]models typically consume billions of parameters, trained on expansive web-scaled
+[135x273]datasets for fundamental tasks such as next token prediction \[6\] or masked re-
+[135x261]gion completion \[7\]. A particularly compelling instance of these models is the
+[135x249]Segment-Anything Model (SAM) \[14\], which has been trained on an unprece-
+[135x237]dentedly vast dataset comprising 11 million images and 1 billion masks.
+[150x225]Despite the Segment-Anything Model's (SAM) noteworthy proficiency in
+[135x213]generating masks to segment real-world objects, it is deficient in the detec-
+[135x201]tion of salient objects. This shortcoming leads to suboptimal performance in
+[135x189]isolating a single salient object from a given RGB image, a crucial aspect of
+[135x177]computer vision that emphasizes the identification of the most visually striking
+[135x165]or attention-demanding object within an image.
+[150x153]Traditional approaches for harnessing the capabilities of foundation models
+[135x141]for downstream tasks generally include fine-tuning the entire model \[11\] or inte-
+[135x129]grating additional adapter layers \[9\]. However, most foundation models possess

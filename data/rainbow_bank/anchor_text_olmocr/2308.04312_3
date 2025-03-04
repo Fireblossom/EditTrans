@@ -1,0 +1,145 @@
+Page dimensions: 612.0x792.0
+[54x730]B. Compared Methods
+[54x330]for goal selection in this work are:
+[54x342]modelling vehicle motion phenomenon which we consider
+[54x354]behavior of vehicle motion. For our case, the functions
+[54x460]grid (d) and a
+[54x460]dynamic
+[54x424]arbitrary value equals to
+[54x424]0
+[54x436]current velocity
+[54x436]v
+[64x146]•
+[64x146]2) DCM 2 :
+[64x581]III) DCM-MHA-LSTM :
+[64x581]•
+[64x641]II) G-MHA-LSTM \[17\]:
+[64x641]•
+[64x701]•
+[64x715]The experiment includes a comparison of different models:
+[64x522]•
+[64x496]We also compare different
+[64x316]occupancy:
+[64x366]We compare two types of DCMs for modelling the
+[64x269]collision avoidance:
+[64x293]2)
+[74x60]as the occupancy function in (IV-C), however, we
+[74x72]occup
+[74x72]For
+[74x134]is defined as :
+[74x158]avoidance
+[74x593]the architecture in the orange rectangle in Fig. 1).
+[74x605]the trajectories conditioned on the predicted goal. (see
+[74x522]This model only uses the
+[74x534]in the blue rectangle in Fig. 1.
+[74x219]a utility function defined as:
+[74x665]architecture in the red rectangle in Fig. 1). We use
+[78x182]dir
+[78x245]becomes less desirable due to the chance of a collision.
+[78x257]trajectory is head-on towards a potential goal, this goal
+[78x281]direction of motion.
+[78x293]vehicles tend to maintain the same
+[78x305]vicinity are less desirable.
+[78x316]directions containing neighbours in the
+[79x84]dir
+[79x84]Where the function
+[95x200]u
+[95x460]fixed
+[100x199]k
+[115x158]. These functions are defined in \[2\] and \[6\].
+[116x103]u
+[116x200]β
+[116x200]) =
+[117x71]k
+[122x412]= 5
+[122x72], we use the same mathematical formula
+[126x103](
+[128x433]T
+[128x433]. If
+[131x439]obs
+[139x199]dir
+[142x436]v
+[160x102]dir
+[163x424].
+[165x433]T
+[165x440]t
+[177x416]−
+[179x83]is the same as in (IV-C).
+[183x416]1
+[184x436], we replace it with an
+[185x102]k
+[186x199]occ
+[191x428]−
+[192x103]β
+[194x170]occupancy
+[194x170],
+[198x200]occ
+[201x424]. The fixed grid is built
+[204x180]k
+[208x102]occup
+[211x199]k
+[218x200]β
+[234x199]col
+[245x200]col
+[246x180]correspond
+[246x180]k
+[246x170]collision
+[252x102](14)
+[274x665]= 6
+[313x421]parallel attention operations. We use a batch size of 64 and
+[313x433]more computationally expensive. We use
+[313x433]L
+[313x469]t
+[313x469]that are not situated in the grid at
+[313x481]argue that this representation allows to consider neighbors
+[313x553]t
+[313x565]10 m behind and 25 m on each side. We consider the
+[313x60]models using a fixed grid perform slightly better than when
+[313x84]potential goals. We can see that adding the DCM module
+[313x96]the dynamic radial grid representation for the extraction of
+[313x604]D. Implementation details
+[323x589]We use
+[323x215]Collision II - Groundtruth collision (Col-II)
+[323x132]1
+[323x132]The results are reported in Table I. DCM
+[323x275]•
+[323x349]Our method for trajectory forecasting is evaluated with the
+[333x180]neighbors in the groundtruth future scene.
+[333x204]This metric calculates the percentage of collision
+[333x634]occup
+[333x670]according to their headings and current velocitites,
+[333x682]first predicts the future positions of his surroundings
+[333x694]assume that before predicting his goal, the target agent
+[333x718]t
+[333x730]don't consider the position of the neighbors at time
+[333x287]the k most likely predictions.
+[333x299]between the predicted trajectory and ground truth over
+[333x622]neighbors.
+[333x706]t
+[333x706]time
+[337x717]obs
+[357x633]function using the grouth truth positions of the
+[360x705]+
+[360x705]obs
+[368x589]number of potential goals. Similar to \[8\],
+[375x706]t
+[378x262]k
+[383x311]: The average of pointwise L2 distances
+[389x705]using a Constant velocity model. We
+[409x379]V. R
+[409x379]ESULTS
+[412x457]=
+[421x457]t
+[422x528]obs
+[439x456]+ 1
+[439x529]t
+[454x457]to
+[455x528]f
+[455x528]. To do so, we predict
+[475x457]t
+[486x433]+
+[488x457]=
+[496x433]K
+[503x136]and DCM
+[515x456]. without
+[518x553]. We also

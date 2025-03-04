@@ -1,0 +1,77 @@
+Page dimensions: 612.0x792.0
+[56x483]100,000 episodes, and a replay memory was used with a length matching the number of warmup steps. Mini-batch training was
+[56x519]32
+[56x519]We used TensorFlow 2.3+
+[56x495]when the agent misclassifies a sample from the minority-class but not a majority-class sample. The training process involved
+[56x639]As suggested in
+[56x377]The provided Figure 3 presents an overview of our proposed methodological framework. The first phase in the framework
+[57x83]Here is an explanation of each layer:
+[57x95]Sequential model consisting of an input layer, three classical hidden layers, one quantum layer, and a classical output layer.
+[Image 57x186 to 555x219]
+[57x245]quantum computations on the encoded data. This comprehensive framework enables us to effectively leverage the collected
+[57x293]applied PCA on both the train and test datasets to prepare the input for our 2-qubit Amplitude Encoder, resulting in 4 features.
+[57x305]eliminating inconsistent data points, managing null values, and scaling and normalizing the data within a specified range. We
+[57x317]Scaling+VIF treatment' method to address the common anomalies found in manufacturing industrial sensor data. This involves
+[57x329]into training and testing sets. The collected data undergoes preprocessing using our suggested 'Log transformation+Standard
+[57x365]is gathering baseline information, which may include supplier efficiency, lead times, inventory levels, and product sales.
+[57x411]1
+[57x435]followed by dropout layers with a rate of 0.2. The final layer directly outputted the Q-values. Adam optimization was applied
+[57x471]performed with a batch size of 32, and the Q-network was updated using 2,000 steps of data collected during each episode.
+[57x507]classification problem as an Imbalanced Classification Markov Decision Process, DDQN predicts that the episode will end
+[57x555]model is 71.09%, and the closest threshold to optimal ROC is 54%.
+[57x567]for the final state
+[57x579]displacement gates were employed in the QNN's four-step sequence. Using the
+[57x591]displacement gates, and Kerr gates as input parameters. Kerr gates, Interferometer-1, interferometer-2, squeezers, and
+[57x603]layer, comprise the classical NN. Then, 14 entries of the classical NN's output vectors are sent into squeezer, interferometers,
+[57x615]data into quantum states. Two 10-neuron hidden layers, each with an 'ELU' activation function and a 14-neuron output
+[57x627]that make up the quantum circuit. Each vector entry was used as the parameter of available quantum gates to encode classical
+[57x670]applying the state preparation process and estimating the expectation value of the
+[57x670]Pauli
+[57x682]gates on qubits 0 and 1 and performs a CNOT operation between them. The quantum circuit was evaluated on a test input by
+[57x706]as
+[57x706]R
+[57x718]controlled Y-axis rotations into simpler circuits. The quantum state preparation process was defined using quantum gates such
+[57x389]Proposed QAmplifyNet Model
+[69x64]Input Layer:
+[69x64]1.
+[72x131]In our implementation, we leveraged the capabilities of PennyLane
+[73x705](rotation around the y-axis), controlled-NOT (CNOT), and
+[78x408]th
+[121x642]25
+[129x639], this hybrid model is made up of a classical NN, an encoder circuit, and a QNN. There are two qumodes
+[130x567]φ
+[135x565]k
+[139x567]of each qumode, a two-element vector \[
+[139x567]⟩
+[166x523]and TF Agents 0.6+
+[197x156]Figure 5.
+[241x156]Model architecture of QAmplifyNet model.
+[263x523]to implement Double Deep Q-Network (DDQN)
+[274x519]28
+[306x567]⟨
+[315x566]0
+[322x567]X
+[331x567]φ
+[337x135]to convert QNodes into Keras layers. This integration
+[341x567]⟩
+[342x706]−
+[345x567],
+[351x706]X
+[351x706]gates. The primary quantum circuit incorporates
+[353x567]φ
+[366x567]X
+[373x567]|
+[375x567]φ
+[381x566]1
+[385x567]⟩
+[405x670]−
+[408x579]X
+[415x670]Z
+[415x670]operator on qubit 0.
+[452x577]k
+[459x579]X
+[466x579]|
+[469x579]φ
+[474x577]k
+[486x519]. By treating the
+[533x34]12/26

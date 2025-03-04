@@ -1,0 +1,200 @@
+Page dimensions: 595.3x841.9
+[0x0]22 of 55
+[35x781]Version May 31, 2024 submitted to
+[35x781]Entropy
+[165x286]'quantum-inspired' classical algorithm. A table summarizing all the algorithms discussed
+[166x106](
+[166x437]points ¯
+[166x725]performing the Bell-state measurement of
+[166x119]\[2D Stereographic Classical kNN (2DSC-kNN)\] Let s
+[166x211]equivalent.
+[166x249]relationship between the Euclidean and spherical centroids given datapoints that lie on
+[166x261]analogous classical algorithm in terms of the clustering state (Definition 1), deriving a
+[166x274]in this paper, including the next one, can be found in Table 1. We begin by defining this
+[166x327]4. Quantum-Inspired Stereographic K Nearest-Neighbour Clustering
+[166x349]conclude that the behaviour of 3DSC-kNN does not carry over to SQ-kNN.
+[166x362]for unit vectors, and actually increases for points inside the Bloch sphere. Hence we
+[166x374]dissimilarity, the quantum dissimilarity is proportional to the Euclidean dissimilarity only
+[166x399]clear that using mixed states can only increase the quantum dissimilarity.
+[166x412]cluster is needed for an accurate estimation. Regardless, linearity and convexity make it
+[166x462]finally collecting all the outcomes in a single estimation, which simply requires a larger
+[166x475]done directly by preparing
+[166x475]ψ
+[166x487]d
+[166x487]mixed state. Furthermore, instead of estimating
+[166x575]d
+[166x674]the cosine dissimilarity for mixed states.
+[166x687]centroid. This procedure is clearly impractical experimentally and no longer correlates to
+[166x699]the weighted average of the dissimilarities according to the composition of the mixed state
+[166x712]corresponding to the datapoint, to estimate each individual dissimilarity; and then, taking
+[179x106]¯ c
+[187x106]R
+[188x311]Through the previous section, Section 3, we have detailed the developed quantum
+[188x387]Namely, while in Euclidean dissimilarity points inside the sphere can reduce the
+[188x198]Recall from Lemma 3 that
+[192x106]2
+[203x437],
+[203x437]−
+[204x106],
+[204x106]d
+[216x437]P
+[217x439]¯
+[218x106])
+[225x633]ρ
+[233x633]p
+[233x611]p
+[233x611]=
+[250x633]ρ
+[250x611]ψ
+[255x647]P
+[256x608]P
+[257x548]˜
+[257x610]¯
+[258x171]c
+[260x575], namely
+[262x170]s
+[264x626]∥
+[264x545]¯
+[264x545](
+[268x545]P
+[275x545],
+[275x545]P
+[275x626]∥
+[278x611]1
+[278x611]−
+[282x82]
+[285x611]p
+[285x545]) =
+[288x71]s
+[291x633]+ (
+[292x475](
+[292x545]p
+[292x523]pd
+[292x68](
+[292x68]r
+[293x75]−
+[296x475]P
+[298x171])
+[299x75]1
+[303x475]with probability
+[304x545]˜
+[305x611]ψ
+[307x171]=
+[307x171]argmin
+[308x71]D
+[309x545]d
+[311x608]−
+[314x544]q
+[314x521]q
+[316x71])
+[318x608](69)
+[318x608]P
+[319x610]¯
+[319x559]¯
+[319x559]
+[320x71],
+[320x161]x
+[323x523]P
+[324x161]∈
+[329x633])
+[330x161]S
+[330x523],
+[331x75]−
+[333x538]P
+[337x75]1
+[338x647]−
+[338x647]
+[340x662]as per Eq. (11)
+[340x523]) + (
+[341x161]r
+[344x161])
+[346x545]P
+[346x545],
+[347x626]∥
+[350x71])
+[351x161]p
+[353x626]P
+[354x169]∑
+[354x71]S
+[356x161]∈
+[357x640]P
+[357x559]
+[359x626]∥
+[366x647]
+[366x545]+ (
+[367x75]2
+[368x523]p
+[369x171]d
+[374x170]s
+[375x71]r
+[378x171](
+[382x171]x
+[384x71]d
+[384x71],
+[384x523])
+[384x487](
+[387x171],
+[388x523]d
+[388x487]±
+[390x475]ψ
+[393x521]q
+[396x69]s
+[397x487]P
+[398x171]) =
+[398x523](
+[399x71],
+[399x71]¯ c
+[403x487]P
+[403x487],
+[404x545]˜
+[404x545])
+[408x721]i
+[408x545]d
+[411x69]s
+[412x525]¯
+[413x487])
+[413x487]separately, the estimation can be
+[416x171]∑
+[416x475](
+[417x523]P
+[418x559]
+[426x545]−
+[427x160]∑
+[428x523])
+[429x475]P
+[432x523]. (71)
+[435x177]p
+[435x82]
+[435x538]∥
+[435x475]with probability 1
+[439x159]∈
+[440x633]1
+[441x552]P
+[441x71]. (73)
+[442x554]¯
+[445x177]C
+[445x159]p
+[445x159]C
+[447x538]∥
+[452x626](
+[452x626]2
+[453x545]P
+[453x545],
+[462x633]+
+[464x559]
+[466x171]. (72)
+[468x116]r
+[469x122]−
+[470x633]∥
+[485x633]P
+[487x635]¯
+[492x633]∥
+[497x633])
+[497x633](68)
+[515x475]−
+[522x475]p
+[529x423]in the
+[529x423]i
+[538x475], and
+[544x545](70)
+[554x723]P

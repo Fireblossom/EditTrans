@@ -1,0 +1,135 @@
+Page dimensions: 612.0x792.0
+[7x455]a)
+[54x70]therefore provides a clear illustration of how coherent e
+[54x70]ff
+[54x82]nature of the integrated current, as shown in Fig. 2(a). This
+[54x385]modyne current
+[54x105]Rabi oscillations about the
+[54x105]σ
+[54x128]our method with the FPT obtained from histograming quan-
+[54x151]N
+[54x271]suring the system and hence disturbing it. The quantum bound
+[54x322]and Monte Carlo sampling using 1000 trajectories (dashed black).
+[54x237]describing the activity from the unitary dynamics (in our ex-
+[54x187]=
+[54x187]n
+[54x199]sider the di
+[54x139]P
+[58x373]N
+[61x138]N
+[62x372](
+[62x372]th
+[64x210]For our second example we con-
+[64x210]Homodyne detection.—
+[64x248]Q
+[65x137](
+[69x258]\](
+[70x374]t
+[71x162]=
+[72x374]) and the modified distribution
+[72x374]P
+[73x139]n
+[75x187]ν
+[75x149]th
+[75x149]=
+[78x139],
+[81x260]+
+[83x248]is called the quantum dynamical activity \[62\], with
+[83x248]Q
+[96x171]R
+[98x199]ff
+[109x162]σ
+[109x351](
+[109x351]th
+[117x353]t
+[123x385](
+[126x385]t
+[128x162])
+[129x385]Ω =
+[130x187]1 and
+[131x162]⟩
+[135x161]c
+[136x331]\] as computed by our method (solid purple)
+[139x162]dt
+[156x385]γ
+[172x186]−
+[172x186]=
+[180x385]ω
+[180x385]=
+[185x161]−
+[190x162]. An example of the FPT
+[197x372](
+[197x372]th
+[205x374]n
+[209x187]2. This therefore cor-
+[213x374]T
+[244x364], and
+[284x70]ects
+[317x441]ties with ours, although they focused only on feedback. The
+[317x465]feedback, it is to modify the Liouvillian.
+[317x477]action is to continue or cease the dynamics. In the case of
+[317x500]monitoring of a stochastic quantity and performing (or not)
+[317x511]and FPTs are actually conceptually very similar. Both require
+[317x523]of this letter, we emphasize this connection because feedback
+[317x534]N
+[317x557]incorporate
+[317x568]N
+[317x603]ing time-dependent Hamiltonians. It therefore encompass a
+[317x614]ible with any type of master equation in the form (2), includ-
+[317x661]this case the slightly non-linear behavior of
+[317x661]E
+[317x696]tic trajectories and the shaded region represents three times
+[317x417]D
+[317x650]readily appear in our framework, despite requiring an exces-
+[317x93]either of these quantities could then devise a strategy such
+[317x151]a certain goal, which can be relevant in the context of thermo-
+[317x162]tem's state to devise stopping strategies aimed at maximizing
+[317x209]able. We believe a similar point can be made for our results.
+[317x221]having a deterministic strategy is nonetheless extremely valu-
+[317x232]that even though it deals with a restrictive type of feedback,
+[317x255]deterministic theory is that of current feedback put forth in
+[317x266]ter, are therefore crucial. A famous example of a successful
+[317x289]quantum trajectories, however, hampers meaningful progress.
+[317x301]tities other than
+[317x335]share similar practical di
+[317x359]jump operators which need not be Hermitian.
+[317x382]ments of a single Hermitian jump operator, our framework
+[317x405]we condition instead on the net charge (formally equivalent to
+[317x105]ff
+[317x116]of quantum jumps) or to the work performed by a Rabi drive
+[317x128]N
+[327x453]Ref. \[54\] introduced a method that shares various similari-
+[328x128]t
+[342x534]) in a quantum trajectory. Despite not being the focus
+[344x545]or
+[346x394]ff
+[346x394]). While their results focus only on di
+[347x430]ff
+[353x430]erence is that they conditioned the dynamics on a fil-
+[355x545]{
+[358x719]N
+[373x557]-dependent feedback. That is, to study models
+[382x417]t
+[395x301]t
+[398x301])). The excessive computational cost of
+[403x425]t
+[416x335]ffi
+[419x417]dt
+[422x371]ff
+[423x728]N
+[424x335]culties: using quantum trajectories
+[427x420]γ
+[428x727](
+[428x727]th
+[428x923]a)\nb)
+[431x105]usion). An agent with access to
+[436x730]t
+[439x417]e
+[439x730]). Fig. 2(b) presents the mean
+[448x626]Our methodology is compat-
+[456x420]−
+[464x717]th
+[464x717](solid-magenta). The
+[478x420]′
+[481x417]γ >
+[557x756]4

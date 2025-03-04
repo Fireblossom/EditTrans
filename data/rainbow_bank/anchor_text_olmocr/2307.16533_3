@@ -1,0 +1,114 @@
+Page dimensions: 612.0x792.0
+[0x473]x2
+[0x473]x4
+[0x473]x3
+[11x284]Move complete at
+[13x42]Event at t=0
+[16x380]size at t = r_max/vp
+[29x39]Logical qubit
+[33x387]2D Array
+[33x107]Order
+[38x359]Surface
+[49x475]fixed amount of time. Max size at
+[49x484]Fig. 5. The hole can flee any distance along an available rectilinear path in a
+[49x159]earlier, CREs preferentially result in
+[49x183]possible. While the details of such a determination remain to
+[49x207]decoherence thoroughly enough that we can ignore them.
+[49x219]has been set to suppress logical state errors due to ordinary
+[49x243]paper, as in our previous work \[18\], we only consider errors
+[49x255]qubit far enough to prevent the CRE from destroying it. In this
+[49x295]B. Software strategies
+[49x314]distance between holes, and this tradeoff is investigated below.
+[49x326]reduction in code distance naturally reduces the physical
+[49x338]rays and shortening the hole move time. However, this
+[49x350]hence the cross-section presented to potential incoming cosmic
+[49x362]distance, reducing the physical area of a logical qubit and
+[49x398]the measurement time, where longer measurement times may
+[49x410]by the relative qubit interaction frequency and strength and
+[49x76]∆
+[49x76]is unequivocally detected either
+[49x88]and other places, we will designate the time at which a CRE
+[49x111]of 0 and 1. This sudden asymmetry in syndrome values is a
+[49x466]t
+[53x331]code
+[59x195]We must be able to detect a cosmic ray strike as quickly as
+[59x434]However, the time required for the circuit in Fig. 2 is
+[61x502]Event at t=0\nDetection at t = Delta \nMove at t = Delta +1\nMove complete at\nt = Delta +1 + d\nWait out the storm max\nsize at t = r_max/vp\nr_max
+[111x466], event at
+[144x466]= 0
+[163x466].
+[164x475]=
+[169x475]r
+[181x76]or Delta.
+[182x474]max
+[193x475]/v
+[201x474]p
+[204x432]x1
+[205x475]t
+[205x475], move begins at
+[207x159]1
+[212x159]⟩ → |
+[219x347]2
+[239x185]5
+[242x159]⟩
+[242x159]decay. If all
+[262x475]= ∆ + 1
+[298x475],
+[312x425]The complete sequence of events is as follows:
+[312x449]are illustrated in Figs. 4 and 5.
+[312x473]velocity
+[312x497]assume detection of a hit in time
+[312x497]t
+[312x509]time measured in units of the surface code cycle time
+[312x545]to allow us to move a particular hole, we must examine how
+[312x557]vulnerable during the move or while we maneuver other holes
+[312x568]surface code than other codes. In addition, as the state remains
+[312x592]far enough from the strike's epicenter to preserve our logical
+[312x649]physical radius is likely impractical, so we investigate a more
+[312x661]or the phonon front can consume a single hole. Such a large
+[312x673]radius
+[312x721](including the flexible elements of error correction) can
+[318x25]15
+[322x352]5)
+[322x352]t
+[322x364]4)
+[322x364]t
+[322x400]t
+[322x412]t
+[322x521]Implementing this strategy will involve several phases. With
+[322x733]Complementing the hardware strategies above, software
+[331x107]6
+[336x376]= ∆ + 1
+[336x316]the storm should be possible.
+[336x328]of resources, continuing the planned computation during
+[336x340]as the phonons dissipate. With appropriate management
+[344x672]max
+[345x352]r
+[346x400]: The strike is detected via a combination of
+[350x459]p
+[352x471]p
+[356x619]LIGHT
+[356x673]. However, the hole must also have a radius
+[356x673]> r
+[356x473], the phonon front has advanced to a ring of radius
+[358x412]: The cosmic ray event occurs.
+[361x348]v
+[365x347]p
+[372x352]: The logical data (hole) waits out the storm
+[379x376]: The move of the hole(s) begins.
+[391x364]d
+[396x364]: The move completes.
+[419x619]ETECTION AND
+[419x619]E
+[433x236]Open trajectory\nLogical qubit\nHole\nLogical\noperator\n2D Array\nSurface\ncode\n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 9 \n10 \n1 1 \n12 \n13 \n14 \n15 \n16 \nx1 x2 x3 x4 x5\ny1\ny2\ny3\ny4\ny5\nOrder
+[480x604]: move logical qubits
+[528x108]16
+[531x27]1
+[561x673],
+[628x186]13
+[632x266]12
+[634x348]14
+[637x25]3
+[637x104]9
+[705x211]y3
+[710x60]y5

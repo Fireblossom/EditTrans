@@ -1,0 +1,205 @@
+Page dimensions: 595.3x841.9
+[0x-450]Global Model Local Model\nz\nz\nx,y x,y\nLV\nLH\nR
+[42x255]d
+[42x273]we can approximate the line element by
+[42x284]local model on the equator of the sphere (
+[42x284]𝜃
+[42x295]geometries). Without loss of generality, we can locate our
+[42x756]2
+[42x399]sider a local neighbourhood of a point,
+[42x502]venient for implementation in hydrocodes) are presented in
+[42x513](including alternative formulations which maybe more con-
+[42x524]clusions in Section 6 and additional mathematical details
+[42x557]these relate to the global problem. In Section 4 we derive
+[42x579]servation laws of the local model. Section 3 presents some
+[42x589]model. Sections 2.4 and 2.5 derives symmetries and con-
+[42x611]generalising to MHD.
+[42x644]Latter (2013); Ogilvie & Barker (2014)). We shall focus, in
+[42x655]be closer to the distorted shearing box models of Ogilvie &
+[42x677]formation problem, results in a model close to the acceler-
+[42x710]panding box model to radially varying flows was done in
+[42x721]rally varying spherical flows. The generalisation of the ex-
+[42x388]equator of a sphere of radius
+[42x168]𝑔
+[42x206]𝑔
+[42x93]Γ
+[43x317]occurring on a horizontal lengthscale
+[43x317]𝑝
+[45x236]which results in metric tensor components,
+[45x328]We are interested in describing the local dynamics near to
+[45x73]with all others vanishing. The fluid equations in this coor-
+[47x204]=
+[47x172]=
+[47x172]𝑅𝑅
+[47x255]𝑠
+[48x90]𝜃𝑅
+[48x90]=Γ
+[51x258]=
+[60x600]In Section 2 we present the derivation of our local
+[66x347]d
+[69x110]Γ
+[71x347]𝑅
+[73x206]𝜃𝜃
+[73x168], 𝑔
+[73x168]𝜃𝜃
+[74x90]=Γ
+[75x114]𝑅
+[77x258]2
+[78x804]Global Model Local Model
+[92x172]=
+[97x258]2
+[97x351]2
+[102x347](
+[105x255]d
+[110x255]𝜃
+[114x93]𝜙
+[115x351]+
+[115x258]+
+[117x205]=
+[127x89]𝑅𝜙
+[128x255]d
+[139x258]2
+[139x168]𝑅
+[140x351]𝜃
+[143x255]𝐿
+[143x255])+O((
+[145x172]−
+[149x206](3)
+[149x206],
+[149x93]𝑅
+[152x347]d
+[154x168](4)
+[154x168],
+[155x96]−
+[157x347]𝜙
+[167x347])
+[170x347].
+[176x253]H
+[182x255]/
+[193x255])
+[196x258]2
+[207x316]≪
+[207x316]H
+[212x284]=
+[219x255],
+[227x317]𝑅
+[227x317](See Figure
+[232x284]/
+[235x753]R
+[269x101](5)
+[305x101]𝑈
+[305x112]𝜌
+[305x123]sider a spherically symmetric fluid in this potential with
+[305x134]tially time dependant) central potential
+[305x156]For the background fluid flow we wish to consider a spher-
+[305x173]2.2 Spherical Collapse/Expansion
+[305x262]tions we must supplement them with an equation of state
+[305x284]𝑧
+[305x502]vertical direction moves between spherical shells comoving with
+[305x512]are equivalent to the latitude/longitude on the sphere and the
+[305x532]to the spherically symmetric background flow. The local model
+[305x542]ity. Points within the domain move in the radial direction due
+[305x379]𝐷𝑢
+[305x62]𝐷
+[305x312]=
+[309x295]𝑅
+[309x295]Note, we have listed the
+[312x60]0
+[313x222]=
+[313x222]𝑝
+[316x101]𝑅,𝑡
+[317x62]𝜌
+[318x383]𝑅
+[322x60]0
+[322x60]=
+[323x312]𝜕
+[325x379]−
+[327x222](
+[327x311]+
+[329x101])
+[331x222]𝜌
+[332x101]𝑒
+[333x101]ˆ
+[333x379]𝑅𝑢
+[336x222])
+[337x97]𝑅
+[337x62]−
+[339x222].
+[339x222](11)
+[340x312]𝑢
+[340x405]𝐷𝑢
+[342x101]. The density of the fluid then evolves according to
+[343x111]0
+[343x111]=
+[344x316]𝑖
+[348x312]𝜕
+[350x379]𝑢
+[351x112]𝜌
+[352x408]+
+[352x408]𝜙
+[353x62]𝑅
+[353x434]𝜃
+[353x434]+
+[355x383]𝜙
+[359x65]−
+[364x65]2
+[366x111]0
+[368x62]𝜕
+[368x399]𝑅𝑢
+[369x411]2
+[369x424]𝑅𝑢
+[369x437]2
+[371x379]𝑅𝑢
+[373x60]𝑅
+[379x62](
+[384x358]=
+[386x405]𝑢
+[387x430]𝑢
+[387x112])
+[388x65]2
+[392x434]=
+[392x383]=
+[407x405]−
+[407x430]−
+[407x379]−
+[413x405]𝑅
+[413x358]𝜌𝑅
+[419x379]𝜕
+[419x434]−
+[423x377]𝑅
+[424x408]2
+[424x434]2
+[430x362]2
+[431x417]
+[438x379]+
+[438x357]𝑖
+[439x403]𝜙
+[439x429]𝜃
+[442x358](
+[445x405]Φ
+[446x358]𝑅
+[450x40]000
+[451x362]2
+[453x430]+
+[454x405]+
+[456x780]LH
+[457x377]𝑅
+[461x362]𝑖
+[462x411]1
+[462x399]𝜌𝜕
+[467x358],
+[467x358](9)
+[473x429]𝜃
+[473x403]𝜙
+[483x443]
+[489x430](6)
+[489x430],
+[490x405],
+[490x405](7)
+[496x40], 1–20 (2019)
+[499x134](
+[502x134]𝑡,𝑅
+[515x134])
+[518x134]. Con-
+[532x115]𝑖
+[566x688]LV

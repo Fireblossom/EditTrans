@@ -1,0 +1,205 @@
+Page dimensions: 612.0x792.0
+[0x0]|
+[0x0]|
+[0x0]target
+[72x304]a momentum
+[72x304]q
+[72x320]initially at rest (
+[72x334]be aligned with the momentum of the incoming particle
+[72x334]p
+[72x361]the structure function only depends on the magnitude of the momentum transfer.
+[72x249]fer,
+[72x276]are non-recoiling in this formalism.
+[72x290]that the recoil energy
+[72x389]and other effects that scale with
+[72x403]the interaction), that scatter with the background particles. The Born enhancement effect
+[72x417](
+[72x431]runs over the constituents of the cloud, which we refer to as "targets" of the interaction
+[72x445]as
+[72x445]S
+[72x507]e.g.
+[72x507]normalized,
+[72x221]≤
+[72x221]0
+[72x235]cle's mass
+[72x235]M
+[72x710]in the decoherence rate per interaction, Γ(
+[72x710]ω,
+[72x137]grated out. We refer the reader to Appendix B for the explicit integration of the angular
+[72x165]modulation of the decoherence. As we discuss in Section II B, we further assume that the
+[72x207]the shortest scattering scale allowed by the kinematics.
+[72x612]quantities relevant for the kinematics of the scattering process).
+[74x109]6
+[74x109]We use the matrix element for unit normalized quantum states,
+[76x640]q
+[76x640]where the momentum transfer is
+[77x417]atoms, nucleons, electrons inside the cloud, or even the cloud itself, depending on
+[77x459]We define the static structure function, which gives the cloud response to the scattering,
+[82x221]q
+[82x91]M
+[82x76]|M|
+[87x348]Throughout this paper, we adopt the laboratory frame and choose the ˆ
+[87x262]According to momentum and energy conservation, the magnitude of the momentum trans-
+[89x521]|
+[93x524]2
+[94x221]≤
+[100x445]q
+[104x76]/
+[106x445])
+[106x445]≡
+[109x76](2
+[110x677]ω,
+[117x445]P
+[125x249]q
+[125x75]i
+[132x249]∥
+[135x76]E
+[138x221], where
+[138x249], can be determined by the background particle's mass,
+[141x235], the kinetic energy
+[142x75]2
+[142x75]f
+[144x304]to the target, making it recoil with a final energy
+[145x442]f
+[145x442]|⟨
+[152x584]background
+[154x76]ω
+[156x320]E
+[160x445]f
+[164x507]p
+[165x318]i
+[166x694]Z
+[166x694]d
+[167x76]ω
+[171x320]M
+[174x556]target
+[174x556]{
+[175x507]p
+[177x76]). See Appendix A for more details.
+[179x443]T
+[181x669](2
+[182x507]⟩
+[185x219]is defined in Eq. (2.8). As discussed in Sec. II B,
+[186x445](
+[190x445]q
+[191x507]⟨
+[192x289]−
+[196x686]q
+[196x320]k
+[198x669])
+[205x221]q
+[205x445]i
+[209x445]⟩|
+[210x290]is suppressed, since
+[210x290]M
+[212x677]M
+[213x556](
+[213x556]M,
+[213x584]{
+[214x320]0
+[215x507]i
+[217x451]2
+[219x584](
+[219x584]m,
+[219x507]⟩
+[222x445]F
+[222x445], where
+[222x677]|
+[226x681]p
+[226x681]2
+[230x479]p
+[235x556]E
+[236x477]dec
+[236x477]=
+[239x584]ω,
+[239x584]p
+[244x554]i
+[247x640]=
+[247x556],
+[250x388]target
+[250x388]are contained within this term. Note that since the
+[251x677](
+[252x479]R
+[255x677]·
+[255x677]q
+[261x235]p
+[261x235], and the angle between
+[264x584]}
+[265x677]∆x
+[275x479]e
+[275x443]T
+[278x644]′
+[280x479]{
+[283x640]p
+[283x91]⟨
+[287x445]q
+[289x710]Ω). Applying Fermi's Golden rule, this reads:
+[294x445]) is the cloud form factor \[59\]. Here the sum
+[295x479]exp\[
+[296x689]X
+[303x640], and the energy deposition is
+[315x677]|⟨
+[323x677]f
+[327x290]≪
+[328x479]i
+[332x479]q
+[336x290]M
+[336x556]{
+[341x479]∆x
+[349x677](
+[361x677])
+[363x290]. Thus, we assume that the targets
+[365x677]|
+[366x479]\]
+[368x677]i
+[372x677]⟩|
+[375x556](
+[375x556]M,
+[376x334]. In such a frame, the target is
+[378x479](3.4)
+[380x683]2
+[393x235]and
+[397x556]E
+[403x584](
+[406x677](
+[406x554]f
+[406x235]q
+[410x677]E
+[411x556]k
+[419x676]−
+[422x303]=
+[426x556])
+[431x556]}
+[431x588]′
+[434x584],
+[434x584]p
+[437x89]k
+[442x91]|
+[444x91]p
+[447x588]′
+[448x676]i
+[449x89]k
+[454x584]}
+[454x91]⟩
+[456x304]q
+[462x308]+
+[468x348]direction to
+[469x304]M
+[477x91]E
+[479x677])
+[479x677],
+[481x374]dec
+[484x89]k
+[486x677](3.2)
+[493x308]2
+[495x644]−
+[498x304]. Notice
+[498x375]q
+[501x640]ω
+[513x91]M
+[516x568](3.3)
+[521x640]ω
+[525x94]2
+[528x745]13
+[532x375]),
+[537x644]′

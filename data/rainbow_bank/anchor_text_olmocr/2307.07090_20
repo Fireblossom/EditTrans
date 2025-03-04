@@ -1,0 +1,112 @@
+Page dimensions: 612.0x792.0
+[152x710]Table 9: Consumer Inattention - Estimated Cross-Elasticity
+[105x684]# J Our Model MNL RCL NP No. Obs
+[149x671]MAE RMSE MAE RMSE MAE RMSE MAE RMSE
+[107x657]0 2 0.0419 4.3553 0.1911 8.8197 0.3350 8.5791 0.0378 5.6814 3200
+[107x644]1 5 0.0486 4.7745 0.0827 5.8357 0.0503 5.8404 0.1897 5.5601 32000
+[107x631]2 10 0.0212 3.8765 0.0476 4.0961 0.0146 4.1113 0.1676 4.1198 144000
+[77x614]Note:
+[77x614]This table presents the bias and variance of cross-elasticity when there are inattentive consumers.
+[73x602]We simulate the market share of each product in each market by assuming there is a portion of consumers
+[84x590]who ignore the product with the highest price. We assume the portion is 1
+[84x590]−
+[413x590]1
+[424x587]1+
+[435x587]Price
+[435x587]j
+[460x590]. We consider 3
+[74x577]scenarios with 2, 5, and 10 products respectively. We fix the number of markets to 100 and the number of
+[129x565]features to 1 (with only price). Other parts are the same as RCL in our baseline.
+[72x531]due to its structural constraints on the input space. We use two data generation processes
+[72x513]– Multinomial Logit (MNL) and Random-Coefficients Logit (RCL). The observable charac-
+[72x495]teristics of the new product are simulated using the same distribution as other products. In
+[72x477]Table 10, we present the estimated market share of the new product. Our model outper-
+[72x459]forms the MNL when the underlying data generation process is RCL, and produces results
+[72x441]comparable to the true model.
+[126x415]Table 10: New Product Demand Estimation - Predicted Market Share
+[112x388]True Model Our Model MNL RCL No. Obs.
+[186x373]MAE RMSE MAE RMSE MAE RMSE
+[128x358]MNL 0.0234 0.0644 0.0041 0.0095 0.0023 0.0045 22,000
+[129x344]RCL 0.0186 0.0145 0.0265 0.0331 0.0023 0.0031 22,000
+[76x326]Note:
+[76x326]This table presents the bias and variance of predicted market shares of all products in the market
+[86x314]when a new product enters. We simulate market shares as in our baseline scenario (10 products, 100
+[183x302]markets, 10 features) when a new product is introduced.
+[72x249]4.5 Inference and Coverage Analysis
+[72x223]Finally, we demonstrate the performance of the inference procedure. The objective is to
+[72x206]demonstrate the validity of the estimated confidence intervals. To this end, we estimate
+[72x188]the effect of a 1% change in price on demand and compute the corresponding confidence
+[72x170]intervals of this effect. To simulate the data, we consider a random-coefficients logit model
+[72x152]of demand with 3 products across 100 markets. We set the true model parameters to be
+[72x134]β
+[79x132]ik
+[79x132]∼ N
+[116x134](1
+[126x134],
+[126x134]0
+[137x134].
+[141x134]5)
+[151x134], α
+[164x132]i
+[164x132]∼ N
+[196x134](
+[201x134]−
+[210x134]1
+[216x134],
+[216x134]0
+[227x134].
+[230x134]5). The effect of a 1% increase in a product's price is given
+[72x116]by
+[125x98]θ
+[131x96]0
+[131x96]=
+[139x98]E
+[159x98]\[
+[162x98]m
+[173x98](
+[177x98]w
+[186x96]i
+[189x98], π
+[201x98]\] =
+[201x98]E
+[228x98]\[
+[232x98]π
+[239x98](
+[243x98]p
+[249x96]jt
+[249x96]∗
+[259x98](1
+[278x98].
+[281x98]01)
+[298x98], x
+[310x96]jt
+[317x98],
+[317x98]{
+[328x98]x
+[335x96]kt
+[343x98]}
+[349x96]k
+[354x96]̸
+[354x96]=
+[360x96]j
+[365x98])
+[365x98]−
+[372x98]π
+[391x98](
+[395x98]p
+[401x96]jt
+[409x98], x
+[421x96]jt
+[428x98],
+[428x98]{
+[439x98]x
+[446x96]kt
+[454x98]}
+[460x96]k
+[465x96]̸
+[465x96]=
+[471x96]j
+[476x98])\]
+[483x98],
+[76x72]As discussed earlier, one way to estimate this effect is to compute the sample analog of this
+[300x42]20

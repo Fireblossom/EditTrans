@@ -1,0 +1,135 @@
+Page dimensions: 612.0x792.0
+[54x358]m
+[54x370]finite magnetic field strength (see Supplementary Sec-
+[54x381]ponent of the hyperfine tensor in combination with the
+[54x393]0
+[54x70]t
+[54x70]time
+[54x82]of the
+[54x105]onance sequence (mint green) is inserted in the spin-
+[54x128](Fig. 4b).
+[54x140]couplings to multiple spins that are spectrally unresolved
+[54x151]shows a quickly decaying time-domain signal, indicating
+[54x174]The goal is to extract ∆
+[54x174]2
+[54x186]A
+[54x186]quency
+[54x209]ping frequencies. We illustrate this scheme on a chain
+[54x220]even when a chain contains multiple spins with overlap-
+[54x243]nuclear double resonance to correlate high-resolution spin
+[54x278]resolution enhancement is possible by applying multiple
+[54x290]with weak hyperfine couplings, we expect that further
+[54x301]spins near the NV center. For larger fields or for spins
+[54x324]which is not decoupled by the spin-echo sequence (see
+[54x462]∼
+[54x462]Gaussian decay. e) Power spectral density of (d), showing a line width that is
+[54x472]d) Time domain signal of ∆
+[54x472]1
+[54x483]T
+[54x335]causes a change of the nuclear-nuclear interactions \[
+[54x347]changes the quantization axes of the nuclear spins, which
+[54x514]the electron spin ∆
+[54x514]i
+[54x525]Electron-nuclear double resonance.
+[54x504]1
+[62x393]62(5) s. This reduction is caused by a perturbitive com-
+[64x116]Figure 4c shows how the electron-nuclear double res-
+[64x416]The observed coherence time
+[64x416]T
+[74x161]24
+[81x69]1
+[81x69]shows multiple frequencies (Fig. 4d), hinting at
+[82x163], C
+[92x80]frequency region. Sweeping the interaction
+[92x80]23
+[96x184]and both couple to
+[96x184]23
+[102x163]). As a reference, standard double-resonance
+[Image 118x555 to 499x740]
+[118x230]i
+[121x232]C
+[133x513](blue dotted line). Performing double resonance between the nuclear spin and the electron (mint green)
+[166x174]∆
+[168x471]= 14549
+[199x414]= 0
+[211x472]91(5) Hz (undersampled), with a coherence time of 0
+[235x525]A
+[245x184]4
+[245x184](Fig. 4a).
+[268x357]s
+[275x358]±
+[275x403]SE
+[275x403]=
+[283x335]\],
+[292x232]),
+[294x358]1
+[317x428]A
+[317x405]∆
+[317x416]The result is consistent with two spins at frequencies
+[317x394]C
+[317x394]an internal coupling of
+[317x313]f
+[317x313]quency regions along the
+[317x325]spectral density (PSD) shows signals in two distinct fre-
+[317x336]nuclear-nuclear couplings
+[317x336]C
+[317x256]4
+[317x267]coupling
+[317x279]and
+[317x279]C
+[317x290]these frequencies (Fig. 4f), we find
+[317x233]of the network (for example to determine
+[317x244]ment of the interactions of spins 2 and 3 to other parts
+[317x70]ited sized chains are sufficient because the couplings are
+[317x82]tions, we reconstruct the connectivity (Fig. 5). Lim-
+[317x93]tem, and fusing them together based on overlapping sec-
+[317x105]\[
+[317x116]work. The problem resembles a graph search (Methods)
+[317x187](Supplementary Fig. S5).
+[317x199]quence (Fig. 2c) to extract ∆
+[317x199]i
+[317x210]can be inserted at specific positions in the spin-chain se-
+[317x222]yond the examples shown here, the electron-nuclear block
+[320x105]?
+[325x403]= 8019
+[327x370]Next, we add a nuclear-nuclear block (pink) and
+[327x128]Finally, we apply these methods to map a 50-spin net-
+[343x277]34
+[355x279]−
+[364x266]between Spins 2 and 3 (Methods, Extended
+[371x462]75 times improved.
+[371x405]5(2) Hz and ∆
+[371x405]3
+[373x524]are shifted by the hyperfine interaction with
+[373x524]i
+[378x279].
+[425x493]⟩
+[425x493]to the
+[431x392]23
+[431x392]= 7
+[439x335]24
+[440x403]= 7695
+[443x313]-axis, corresponding to ∆
+[444x359]t
+[444x394].
+[447x358]1
+[450x197]of all spins in the chain
+[452x336]C
+[452x359]) and nuclear-nuclear (
+[460x493]+1
+[464x394]6(1) Hz (Fig. 4a and
+[484x289]24
+[485x405]2(1) Hz, split by
+[508x232]12
+[510x300]2
+[526x290].
+[529x290]8(2) Hz
+[533x346]with
+[533x481]-time.
+[533x481]2
+[534x487]⋆
+[536x233]). Be-
+[551x426]23
+[557x756]5
+[558x359])
+[559x428].

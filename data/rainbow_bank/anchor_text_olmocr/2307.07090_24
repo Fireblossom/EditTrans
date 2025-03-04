@@ -1,0 +1,32 @@
+Page dimensions: 612.0x792.0
+[Image 93x537 to 304x677]
+[Image 308x537 to 519x677]
+[72x708]though our model exhibits a larger variance in the estimated elasticity values compared to
+[72x690]the BLP model.
+[93x522](a) Own-Elasticity Estimation (Our Model
+[93x508]vs. BLP Model)
+[308x522](b) Cross-Elasticity Estimation (Our Model
+[308x508]vs. BLP Model)
+[194x484]Figure 4: Elasticity Estimation Comparison
+[77x472]Note: Figure 4 illustrates the distributions of the estimated own- and cross-elasticities obtained from our
+[92x460]model and the BLP model. The filled areas in the violin plots represent the complete range of the
+[177x448]elasticities, while the text labels indicate the mean values.
+[90x416]We further estimate the average own-elasticity for high-priced, medium-priced, and low-
+[72x398]priced cars and construct a confidence interval for each category using our inference proce-
+[72x380]dure. We present our result in Table 14.
+[72x335]6 Conclusion
+[72x305]Choice models are fundamental in understanding consumer behavior and informing business
+[72x287]decisions. Over the years, various methods, both parametric and non-parametric, have been
+[72x269]developed to represent consumer behavior. While parametric methods, such as logit or
+[72x251]probit-based models, are favored for their simplicity and interpretability, their restrictive
+[72x233]assumptions can limit their ability to fully capture consumer preferences' intricacies. On the
+[72x215]other hand, non-parametric methods offer a more flexible approach, but they often suffer
+[72x197]from the "curse of dimensionality", where the complexity of estimating choice functions
+[72x180]escalates exponentially with an increase in the number of products.
+[90x162]In this paper, we propose a fundamental characterization of choice models that combines
+[72x144]the tractability of traditional choice models and the flexibility of non-parametric estimators.
+[72x126]This characterization specifically tackles the challenge of high dimensionality in choice sys-
+[72x108]tems and facilitates flexible estimation of choice functions. Through extensive simulations,
+[72x90]we validate the efficacy of our model, demonstrating its superior ability to capture a range
+[72x72]of consumer behaviors that traditional choice models fail to capture. We also show how to
+[300x42]24

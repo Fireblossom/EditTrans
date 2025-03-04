@@ -1,0 +1,45 @@
+Page dimensions: 612.0x792.0
+[278x748]P
+[283x748]ANALOGY
+[283x748]L
+[335x748]AB
+[335x748]T
+[356x748]ECHNICAL
+[356x748]R
+[410x748]EPORT
+[410x748]2023-001 - 01.08.2023
+[72x710]Model Diversity:
+[72x710]Our platform currently supports only OpenAI's models, chosen for their leading-edge capabilities
+[72x699]and robust API access. This model-specific dependency could limit the platform's flexibility, as different models may
+[72x688]offer unique strengths and capabilities that could be beneficial in diverse research scenarios. We are therefore actively
+[72x677]testing other open source and commercial AI models to potentially integrate into our platform (Bai et al., 2022; Touvron
+[72x666]et al., 2023), thus expanding its versatility and research applicability. It should be noted that we avoid models that
+[72x655]essentially add new prompt-engineering layers on top of base ALMs to improve decision performance in specific tasks
+[72x645](Shinn et al., 2023; Yao et al., 2023).
+[72x628]Realistic Condition Profiles:
+[72x628]A minor drawback of our platform is the occasional generation of unrealistic agent
+[72x617]profiles due to the randomness of profile construction. This approach also means that sometimes we end up with
+[71x606]"interesting" agent profile combinations that may seldom present in the real world (e.g., a male lesbian). While rare,
+[72x595]these cases can disrupt the research process and lead to unrealistic model responses. One solution lies in conditional
+[72x585]profile construction, where agent attributes are selected based on real-world prevalence and correlations. However, it is
+[72x574]important to note that this randomness can sometimes yield unique case studies that might not have been otherwise
+[72x563]considered, offering unexpected insights and interesting research avenues.
+[72x546]Multi-Agent Games and Interaction:
+[72x546]Currently, SurveyLM allows for the simulation of an agent's participation in
+[72x535]games with other players only when the other players and interaction rules are hard-coded into the uploaded questions
+[72x525]and answer instruction. However, we are yet to develop the capacity for interactions between different agents within the
+[72x514]same simulated population. To achieve this, a series of sophisticated enhancements would be necessary. Key among
+[72x503]these improvements is the ability to form and manage groups of agents. These groups function as independent social
+[72x492]entities, engaging in intricate social interactions within their own set boundaries. In this envisioned application, users
+[72x481]could define group sizes, roles within these groups (e.g., the proposer and responder roles in the ultimatum game),
+[72x470]and any variations thereof. Furthermore, we would offer the ability to set randomisation parameters for both roles and
+[72x459]variations, adding yet another layer of complexity and realism to the simulations. Another captivating idea under this
+[72x448]future avenue is the introduction of a chat function between different agents. This feature would allow the observation of
+[72x437]direct communication patterns and language use within and across agent groups, offering researchers another dimension
+[72x426]to their social agent studies.
+[72x410]In summary, while our platform faces certain limitations, we view these as opportunities for growth and enhancement.
+[72x399]Our commitment to continuous development and user satisfaction drives us to persistently explore innovative solutions
+[72x388]to these challenges. This means that we are open for feedback and suggestions. As we progress on this journey, we look
+[72x377]forward to unlocking further potential in facilitating complex research through advanced ALM models.
+[72x361]For beta access and further details about the SurveyLM platform, please contact the corresponding author of this paper.
+[303x42]7

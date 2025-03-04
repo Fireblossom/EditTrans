@@ -1,0 +1,48 @@
+Page dimensions: 595.3x841.9
+[103x701]QUENCHED DECAY OF CORRELATIONS FOR RANDOM
+[185x687]CONTRACTING LORENZ MAPS
+[184x657]ANDREW LARKIN AND MARKS RUZIBOEV
+[114x603]Abstract.
+[114x603]In this work we consider i.i.d. random perturbations of contracting
+[114x591]Lorenz maps sufficiently close to a Rovella parameter. We prove that the quenched
+[114x579]correlations of the random dynamical system decays exponentially.
+[243x538]1.
+[243x538]Introduction
+[107x517]The Lorenz system was introduced in \[30\] as a simplified model for atmospheric
+[78x503]convection. Numerical simulations have shown that the Lorenz system admits a
+[78x489]strange attractor, called the Lorenz attractor, which became one of the most iconic
+[78x475]examples in the field.
+[90x461]A rigorous mathematical approach was developed with the introduction of the so
+[78x447]called geometric Lorenz flow by \[1, 26\], which mimicks simulation of the dynamics of
+[78x434]the Lorenz flow, and which has a robust strange attractor under
+[78x434]C
+[422x438]1
+[422x438]perturbations.
+[78x420]Later in \[37, 38\] it was shown that the actual Lorenz attractor is indeed a singular
+[78x406]hyperbolic attractor, further showing that the geometric Lorenz attractor represents
+[78x392]the Lorenz attractor well. Moreover, it admits the so called Sinai-Ruelle-Bowen
+[78x378](SRB) measure, which is ergodic \[11\]. Its statistical properties, such as mixing
+[78x364]rates, limit theorems and their stability under various perturbations, were studied
+[78x350]intensively (see for example, \[31, 10, 9, 7, 14, 13, 24\]).
+[90x336]Another class of systems with similar properties was introduced in \[35\] called the
+[78x322]contracting Lorenz flow
+[197x322]. A fundamental difference between these is that the attrac-
+[78x308]tor of the system introduced by Rovella is not robust under perturbations, but still
+[78x294]abundant in a measure theoretic sense. The set of measures for which the system
+[78x280]is chaotic is called Rovella parameters and satisfies strong chaotic properties \[8\];
+[78x266]moreover, restricted to this set the system is stochastically stable \[32, 33\]. In \[34\]
+[78x252]the authors addressed thermodynamic formalism for it. Up to now, the contracting
+[78x238]Lorenz flow and one dimensional maps with critical points remain a profound exam-
+[78x224]ple of a truly nonuniformly hyperbolic systems, which is studied via construction of
+[78x210]induced schemes. We refer to \[3\] for a comprehensive account of these constructions.
+[90x196]Recently, there has been increased interest in studying statistical properties of
+[78x182]random dynamical systems, especially quenched (path-wise) properties. When the
+[78x169]system has good uniformly hyperbolic properties, spectral techniques are still ap-
+[78x155]plicable and imply strong statistical properties; we refer to \[19, 20, 21, 23, 22\] and
+[78x141]references therein for results on quenched decay of correlations, limit theorems and
+[78x127]stability results in this case.
+[90x113]For the non-uniformly expanding (or non-uniformly hyperbolic) case, spectral
+[78x99]techniques are not applicable directly. In this regards, it is customary to employ
+[78x85]inducing techniques, in particular randomised version of Young Tower \[39\] construc-
+[78x71]tion called random Young towers. This was first carried out in \[15\] for random
+[289x59]1

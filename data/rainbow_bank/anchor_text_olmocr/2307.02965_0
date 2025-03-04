@@ -1,0 +1,75 @@
+Page dimensions: 612.0x792.0
+[54x69]ization pattern. We further show that all three DoF's
+[54x80]light field shows a different spatial (or spectral) polar-
+[54x92]given wavelength (or transverse angular position) the
+[54x115]ements placed along a single beam line, we are able to
+[54x126]Using a simple setup consisting of only three optical el-
+[54x149]which are light fields with a varying polarization struc-
+[54x161]such light pulses spatio-spectral vector beams (SSVB's),
+[54x184]beams by combining all three DoF's, namely polariza-
+[54x222]for advanced sensing and pulse characterization schemes
+[54x233]the wavelength of a light pulse, for example, can be used
+[54x245]i.e. the spectral domain. Correlating polarization with
+[54x256]structured light fields in the time's complementary DoF,
+[54x302]of vectorial light fields \[9\]. Interestingly, the focus in
+[54x325]years, this approach has been extended to combine all
+[54x336]larization vector across the pulse duration. Over the last
+[54x348]spatial vector beams, as well as a temporally varying po-
+[54x359]with spatially non-uniform polarization distributions, i.e.
+[54x371]by including the polarization domain leading to beams
+[54x382]plexity of the light field's structure was further increased
+[54x405]temporal profile of pulses, both in its scalar forms, i.e.
+[54x416]structuring transverse light fields as well as shaping the
+[54x428]nologies \[1–6\]. Initially, many experiments have studied
+[54x439]of the DoF's has already enabled novel photonic tech-
+[54x451]decades and the enhanced understanding of the interplay
+[54x462]been studied in a myriad of experiments over the last
+[54x474]plex structures realized by combining several DoF's have
+[54x497]trol of different degrees of freedom (DoF's) is beneficial
+[99x1445]fs-Laser
+[109x579]studies on the non-separable nature of a classical light field and new technological opportunities,
+[109x589]to the loss of coherence in non-separable quantum systems. Such light fields allow fundamental
+[109x600]unveiled when the field is narrowly defined in space and wavelength, and demonstrate the analogy
+[109x621]novel state of light in three non-separable DoF's, i.e. space, wavelength, and polarization. We study
+[113x697]1
+[113x697]Tampere University, Photonics Laboratory, Physics Unit, Tampere, FI-33720, Finland
+[120x673]Increasing the complexity of a light field through the advanced manipulation of its degrees of
+[196x706]Lea Kopf,
+[220x730]Spatio-Spectral Vector Beams
+[241x710]1
+[244x710],
+[247x710]Rafael Barros,
+[317x100]Poincaré sphere \[15\] illustrates that each wavelength has a
+[317x121]sphere of the light field shows that each wavelength compo-
+[317x132]that the light field is diagonally polarized. (
+[317x142]ponents of the light field. (
+[317x152]color in the insets symbolizes the different wavelength com-
+[317x163]wherepolarization, wavelength, andspacearecorrelated. The
+[317x388]novel spectroscopy, imaging, or sensing technologies.
+[317x400]structured light fields and advance their applications in
+[317x411]of our generation technique will trigger novel studies on
+[317x423]that the complexity of SSVB's combined with the ease
+[317x434]ent quantum states in the GHZ description. We expect
+[317x457]describes three entangled particles in quantum optics.
+[317x469]to the Greenberger–Horne–Zeilinger (GHZ) state, which
+[317x492]beam would be seemingly unpolarized. Finally, we de-
+[317x503]spatial extend or wavelength spectrum (or both), the
+[317x515]are resolved. By integrating over the light's transverse
+[320x710]1
+[346x240]QWP\nfs-Laser\nBirefringent\nCrystal\nVortex-Retarder\n(A)\nS1\nS2\nS3\n(C)\nS1\nS2\nS3(B)
+[427x60]S1
+[438x757]A
+[444x142]) Poincaré sphere displaying
+[488x111]) The higher-order
+[502x132]) The Poincaré
+[510x757])
+[794x1878]Birefringent
+[891x730]S3
+[1420x1878]QWP
+[1451x417]S1
+[1466x1104]B
+[1538x1104])
+[1915x1087]S3
+[2001x2239]Vortex-Retarder
+[2467x1443](
+[2573x1443])

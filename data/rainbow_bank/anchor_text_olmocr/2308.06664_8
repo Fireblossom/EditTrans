@@ -1,0 +1,149 @@
+Page dimensions: 612.0x792.0
+[0x0]Tc=0.4
+[0x0]N=32
+[0x0]N=4
+[0x0]N=8
+[16x65](0)
+[23x137](2)8
+[26x367](2)N
+[36x351]G
+[43x60]10
+[43x133]10
+[47x580]G
+[50x518]10
+[52x342]2.1
+[52x452]2.4
+[54x306]ω
+[54x234]∥
+[54x295]are in units of
+[54x337]the cold thermal reservoir temperature was chosen as
+[54x348](c)-(d). In (e)-(f), the qubit number was fixed at
+[54x348]N
+[54x358]reservoir temperature fixed at
+[54x358]T
+[54x390]strength
+[54x390]λ
+[54x400]N
+[54x411]FIG. 7. Two-photon correlation function
+[54x188]being greater the greater the amount of entanglement
+[54x211]erator
+[54x82]T
+[54x105]that the quantum correlations are degraded by increasing
+[54x116]tures on the quantumness of the work substance. Note
+[54x128]N
+[54x139]for different number of qubits. In Figs. 7(e),(f) we set
+[55x569]10
+[55x671]10
+[58x247]where
+[60x80]h
+[61x141]1
+[61x213]2
+[65x82], whereas
+[65x82]η
+[68x526]-1
+[70x30]0 0.5 1 1.5 2
+[73x577]0
+[73x628]1
+[76x277]0 0.5 1 1.5 2
+[87x-4722](e)
+[92x250]T
+[93x211]. Non-zero negativity values indicate the pres-
+[96x390]. In (a)-(d) both the two-photon correlation func-
+[97x305]=
+[97x305]c
+[100x315]= 5 (black dash line). The other system param-
+[104x306]ω
+[112x238]Tc=0.1
+[118x82]ξ
+[127x326]c
+[127x326]= 0
+[128x400]ρ
+[137x166](2)
+[151x327]T
+[154x234]∥
+[159x233]=
+[168x234]T r
+[186x357]= 0
+[194x358].
+[205x234]=
+[212x358]1 (a)-(b) and
+[212x358]T
+[216x-4358]Tc=0.1
+[219x306]and temperatures
+[224x-4476]Tc=2
+[224x247]with respect to
+[227x326]c
+[229x408](0) (a), (c), (e)
+[229x408]N
+[229x415](2)
+[238x243]√
+[256x348]= 8 and
+[256x237]†
+[271x336]= 0
+[271x336]c
+[276x357]= 2
+[276x357]c
+[277x743]0 0.5 1 1.5 2\n100\n101\n102\nG(2)8(0)\nTc=0.1 Tc=0.4 Tc=2 Tc=5\n0 0.5 1 1.5 2\n0\n0.1\n0.2\n0.3\n0 1 ... 0.5 1 1.5 2\n2\n2.1\n2.2\n2.3\n2.4\nG(2)N(0)\n(a)\n(c)\n(f)\nTc=0.1\n(d)\n(e)\nTc=2\nTc=0.1\n(b)\nTc=2
+[286x162](
+[292x337].
+[294x337]1
+[317x615]from Fig.5(a)-(c) for the COP, whose maxima lie in re-
+[317x627]Poissonian effect. The same conclusion can be drawn
+[317x650](
+[317x661]efficiency is higher in the deep strong coupling regime
+[317x673]As far as the second-order correlation is concerned, the
+[317x684]correlations and the maximum of efficiency and COP.
+[317x707]tively show efficiency and COP, we will see that there
+[317x70]applicability, we show, for a wide temperature range and
+[317x116]the atom-field coupling parameter
+[317x139]ically in the thermodynamic limit
+[317x151]model presents a critical point and can be solved analyt-
+[317x174]qubits, which constitute the working substance of the
+[317x208]Dicke model (ODM). The ODM is composed of N atoms
+[317x219]tum Otto heat machine (UQOHM) based on the open
+[317x295]model.
+[317x306]ity of the spectrum around the critical point of the Dicke
+[317x329]the working substance cannot be attributed to quantum
+[317x352]we point out that the improvement in the efficiency and
+[317x363]To summarize this Section, and as previously mentioned,
+[317x386]These same conclusions are supported by additional nu-
+[317x398]pending on
+[317x398]N
+[317x421]N
+[317x432]λ
+[317x432]then increases monotonically until to
+[317x444]λ
+[317x455]ment. Take for example Fig.7(d) for
+[317x478]COP: there is nothing in the analysis of the maximums
+[317x489]coupling parameter. The same can be said about the
+[317x512]T
+[317x512]negativity, also at
+[317x547]N
+[317x558]COP. For example, in Fig. 4(b) for
+[317x558]T
+[317x592]regard to negativity, Figs.7(b), (d), and (f) show that the
+[321x650]2), Figs. 4(b),(e), and therefore, far from the re-
+[327x231]In summary, in this work we propose a universal quan-
+[337x334]0.005
+[346x374]0.01
+[346x455]0.02
+[353x563]0.1
+[353x618]0.2
+[353x674]0.3
+[376x30]0 0.5 1 1.5 2
+[379x398], with no correspondence with negativity.
+[392x547], the efficiency is practically constant
+[393x257]V. CONCLUSION
+[408x511]c
+[408x511]= 0
+[411x-4723](f)
+[418x512].
+[438x512]1 and the various values of
+[465x116]of the ODM, to build
+[486x453]c
+[486x453]= 2, where neg-
+[488x557]c
+[496x558].
+[516x558]1 and var-
+[537x444]and
+[557x756]9

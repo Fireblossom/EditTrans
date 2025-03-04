@@ -1,0 +1,180 @@
+Page dimensions: 595.3x841.9
+[0x0]𝟎
+[0x0]𝑼
+[0x0]−
+[0x0]+
+[0x0]+
+[0x0]−
+[54x184]2,
+[54x184]. . .
+[54x195]15, 45\]. As a consequence, the Hilbert spaces with 0, 1,
+[54x207]excitations (sum of qubit and photonic excitations) \[12–
+[54x311]|
+[54x322]processes are off-resonant \[
+[54x334]≪
+[54x345]treatment is restricted to the weak coupling regime, i.e.,
+[54x380]as well as the case where the qubits are all coupled to the
+[54x414]works considered regularly placed impurity qubits cou-
+[54x603]FIG. 2: Schematic of the energy bands for the one- and two-
+[54x448]n
+[54x460]the lowering operator (ˆ
+[54x582]cuses on the band gap regime, i.e., negative detunings
+[54x509]in Ref. \[53\].
+[54x519]Explicit expressions for the energy bands can be found, e.g.,
+[54x540]respectively, between qubit groups. The two-photon scatter-
+[54x426]pattern with spacing
+[54x426]x
+[54x437]work, the qubits are assumed to be arranged in a regular
+[54x551]and
+[54x561]photon bound state bands introduces the effective interactions
+[57x242]For fixed
+[57x242]U/J
+[57x311]δ
+[57x474]where ˆ
+[62x311]|
+[65x228]𝒄
+[65x431]𝒄
+[81x184]total excitations are decoupled. This work focuses
+[83x311]δ
+[83x311]\] can, for negative
+[85x334]. The requirement that single- and two-photon
+[86x474]σ
+[92x471]is the raising operator (ˆ
+[103x447]j
+[111x366]two
+[114x368]= 0) are discussed in the text. Since
+[116x242]g/J
+[119x269]|
+[122x269]U
+[126x230]g/J
+[153x426], where
+[153x426]x/a
+[157x285]r
+[158x460]σ
+[161x366]photon bound state
+[173x269]1 +
+[180x322]ℏ
+[186x322]ω
+[192x321]−
+[192x321]c
+[195x460]⟩
+[199x322]2
+[199x457]j
+[206x426]n
+[211x471]=
+[211x478]+
+[213x460]|
+[215x322]J
+[217x269]1
+[221x322])
+[223x424]−
+[226x872]ℏ𝝎𝒄\n𝟐ℏ𝝎𝒄\n𝑬\n8𝑱\n4𝑱\nℏ𝝎𝒆\n𝜹(< 𝟎)\ntwo-photon scattering \ncontinuum\n𝟎\nsingle-photon band\ntwo-photon bound state\n𝟐ℏ𝝎𝒆\n𝜹/𝟐+𝟐𝑱− 𝑼𝟐 +𝟏𝟔𝑱𝟐/𝟐\nℏ𝝎𝒄 −𝟐𝑱\nℏ𝝎𝒄 +𝟐𝑱\n𝟐ℏ𝝎𝒄 − 𝑼𝟐 +𝟏𝟔𝑱𝟐\n𝟐ℏ𝝎𝒄 −|𝑼|\n𝟐ℏ𝝎𝒄 +𝟒𝑱\n𝟐ℏ𝝎𝒄 −𝟒𝑱
+[228x322]ℏ
+[234x474]e
+[235x593]. This work fo-
+[242x471]j
+[244x424]j
+[247x136]spin
+[248x424]−
+[252x474]g
+[255x448]N
+[260x474]) and ˆ
+[271x230]|
+[292x478]−
+[317x155]W
+[317x429]Eq. (7) is important. As discussed in more detail below,
+[317x440]of the indices are equal, the order of the operators in
+[317x547]( ˆ
+[317x120]nation steps, respectively. The effective spin Hamiltonian
+[317x277]H
+[317x300]pair with wave vector
+[317x393]interactions
+[317x534]H
+[317x560]not. The reason is that Refs. \[45–47\] focused on
+[317x583]arise. While the latter two interactions were discussed in
+[317x595]K
+[317x606]and effective interactions between two two-photon bound
+[317x688]master equation approach pursued in Ref. \[45\]. The first
+[317x700]phasize that the approach taken here is distinct from the
+[317x734]by the spin Hamiltonian ˆ
+[317x745]physics in the two-excitation manifold is well described
+[317x757]nance with the band gap. We find that the band gap
+[317x143]g
+[317x311]B
+[317x324]imation, namely, the adiabatic elimination of the states
+[317x347]smaller than 10% for the parameter combinations con-
+[317x629](see ˆ
+[320x418]ˆ
+[320x537]ˆ
+[325x316]†
+[327x780]As mentioned above, we focus on negative detunings
+[329x546]vanishes for
+[331x208]H
+[337x311]g,
+[339x207]=
+[353x547]N
+[353x504]H
+[370x218]X
+[371x197]i
+[373x197]=1
+[383x221]1
+[389x311]⟩
+[391x254]spin
+[391x254]= ˆ
+[393x311], i.e., basis kets that describe a photon
+[397x143]g
+[402x197]+1
+[408x513]X
+[413x221]N
+[421x147]4
+[423x595]and
+[427x254]single
+[435x504]W
+[436x733]spin
+[439x474]W
+[440x218]X
+[440x196]=
+[440x169]𝜹
+[442x221]N
+[446x196]l
+[451x504]σ
+[457x501]i
+[459x256]H
+[460x471]i
+[460x471]ˆ
+[461x328](
+[469x501]ˆ
+[472x328]<
+[473x471]ˆ
+[481x593]K,K
+[482x256](8)
+[482x501]ˆ
+[483x616]in Eq. (A12)\],
+[483x208]ˆ
+[485x471]l
+[486x478]−
+[488x206]ˆ
+[490x166]F
+[492x438]𝑱
+[494x153]ij,lh
+[495x501]l
+[495x508]−
+[496x165](see below).
+[497x595]in Eq. (A13)\]
+[501x206]j
+[501x206]ˆ
+[511x474].
+[514x328])
+[515x169]𝟐𝑱
+[526x205]h
+[527x213]−
+[527x370]show
+[533x208](9)
+[572x266]𝒄
+[586x401]𝒄
+[588x486]𝒄
+[614x271]𝟐𝑱
+[636x407]𝑼
+[696x177]𝟐
+[741x351]𝑱
+[751x359]𝟐

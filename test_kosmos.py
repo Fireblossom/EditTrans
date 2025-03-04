@@ -86,10 +86,10 @@ def test(args):
     model = Kosmos2_5ForConditionalGeneration.from_pretrained("microsoft/kosmos-2.5")
     model = move_to_device(model)
 
-    pretrained_model = EditTransKosmos(filter_config, model)
-    pretrained_model = move_to_device(pretrained_model)
+    edit_model = EditTransKosmos(filter_config, model)
+    edit_model = move_to_device(edit_model)
 
-    pretrained_model.eval()
+    edit_model.eval()
 
     nougat_processor = NougatProcessor.from_pretrained('facebook/nougat-base')
 
@@ -126,11 +126,11 @@ def test(args):
         print('baseline:', kosmos_time, step_kosmos)
         times['kosmos'].append(kosmos_time)
 
-        outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = pretrained_model.generate(
+        outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = edit_model.generate(
             filter_inputs=sample,
             kosmos_inputs=kosmos_inputs,
         )
-        outputs_text = pretrained_model.processor.batch_decode(
+        outputs_text = edit_model.processor.batch_decode(
             outputs[:, prompt_len:], skip_special_tokens=True
         )
         outputs_text = nougat_processor.post_process_generation(outputs_text, fix_markdown=True)
@@ -146,7 +146,7 @@ def test(args):
         times['edit'].append(sum(edit_time))
         times['generation'].append(sum(generation_time))
 
-        outputs_text_kosmos = pretrained_model.processor.batch_decode(
+        outputs_text_kosmos = edit_model.processor.batch_decode(
             outputs_kosmos[:, prompt_len:], skip_special_tokens=True
         )
 

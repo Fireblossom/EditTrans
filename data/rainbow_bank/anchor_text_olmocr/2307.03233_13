@@ -1,0 +1,138 @@
+Page dimensions: 612.0x792.0
+[0x0](b) Pauli
+[54x70]ing that a
+[54x93]III C, the only operations required are a single joint Pauli
+[54x116]rounds. In comparison, when Clifford operations have
+[54x128]d
+[54x139]|
+[54x139]when implementing Clifford gates directly, a
+[54x151]S
+[54x174]3
+[54x231]|
+[54x242]are needed. This depends on both the number of QEC
+[54x265]|
+[54x265]generated, we need to ensure that
+[54x339]m T
+[54x339]uses
+[54x362]sider the overall logical failure probability from faulty
+[54x412]and number of qubits. A summary of several protocols
+[54x424]ity requires additional resources in terms of both time
+[54x277]|
+[54x458]15-to-1 protocol to generate a single
+[54x458]|
+[54x469]error probability 35
+[54x288]|
+[54x316]p
+[54x447]ror probability 35(35
+[54x447]p
+[54x539]|
+[55x516]defects are presented in yellow. Arrows between neighbouring measurement qubits show extended connectivity than
+[56x574]FIG. 17: Layout of logical patches for implementing joint Pauli measurements. In (17a), the two qubits used in the
+[57x551]π/
+[57x551]measurements required for implementing
+[59x314]dist
+[59x314]such that
+[64x385]When choosing a suitable protocol, there are multiple
+[65x174]+4 QEC rounds, and
+[66x562]logical circuit are at the bottom, and an auxiliary qubit is initialised in the
+[76x339]gates – and therefore requires
+[97x151]gate correction is required. This means that
+[99x339]m
+[104x70]T
+[111x70]state must be produced every
+[111x70]⟩
+[131x316]p
+[139x469]p
+[146x314]is within our error bounds.
+[151x450]3
+[156x447])
+[159x450]3
+[167x174]-like gates, which take between
+[169x288]⟩
+[171x82]basis measurement, mean-
+[176x539]T
+[178x505]what is required for the methods presented in Section III B.
+[184x447],
+[184x447]500
+[190x539]Z
+[200x231]T
+[204x447]625
+[207x231]⟩
+[211x265]T
+[219x265]⟩
+[219x265]states are gener-
+[223x458]T
+[228x450]9
+[230x458]⟩
+[230x458]state with er-
+[233x277]T
+[235x339]|
+[236x597]Y
+[241x277]states to be
+[249x128]+ 5 QEC
+[249x551]Y
+[251x70]+ 1 QEC
+[257x339]states –
+[257x339]⟩
+[269x139]⟩
+[270x223]T
+[276x597]⊗
+[288x362]T
+[294x597]⊗
+[305x597]Z
+[314x597]measurement.
+[317x163]can be estimated as
+[317x186]code, the probability of a logical error on a single logical
+[317x209]physical qubits per logical qubit, and the number of QEC
+[317x221]but comes at the cost of increasing both the number of
+[317x232]a sequence of physical errors which lead to a logical error,
+[317x255]one of our logical qubits, we can tweak the code distance
+[317x343]from errors while it waits to be consumed, which can be
+[317x355]additional storage space is required to protect the state
+[317x366]a logical
+[317x378]|
+[317x378]routing and storage of
+[317x401]space. It is possible to add even more factories beyond
+[317x412]placed around the two corners at the top of the routing
+[317x424]As we show in Appendix D, up to four factories can be
+[317x435]the cost of increasing the number of physical qubits \[12\].
+[317x447]be run in parallel to generate states more frequently, at
+[317x458]states fast enough, multiple instances of the protocol can
+[317x70]our error bound. We use Equation 25 to approximate
+[317x82]occurring on any qubit during any QEC round is within
+[317x93]d
+[317x105]For the purpose of this application, we want to choose a
+[322x116]p
+[322x244]. A higher distance will reduce the probability of getting
+[327x266]To reduce the probability of a logical error occurring on
+[329x539]basis as part of the joint measurement. Green dots
+[332x960]|T
+[336x551]⊗
+[352x116]is the physical error probability \[10, 12, 53\].
+[355x551]operations are presented in (17b) and (17c),
+[359x366]T
+[366x366]state can be generated faster than required,
+[366x366]⟩
+[380x140]p
+[385x138]L
+[391x140](
+[393x597]Z
+[395x140]p, d
+[400x562]T
+[407x562]state at the top. Example joint
+[407x562]⟩
+[421x378]T
+[428x378]states. On the other hand, if
+[428x378]⟩
+[431x597]⊗
+[432x140].
+[435x140]1(100
+[440x597]Y
+[458x140]p
+[459x597]Z
+[463x140])
+[467x144](
+[492x144]2
+[496x140](25)
+[496x140],
+[552x756]14

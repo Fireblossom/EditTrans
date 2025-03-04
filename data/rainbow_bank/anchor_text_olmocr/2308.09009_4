@@ -1,0 +1,254 @@
+Page dimensions: 612.0x792.0
+[72x390]with initial condition
+[72x482]are the generators of the diffusive and jump component of
+[72x482]x
+[72x709]using numerical approximations. To motivate our proposed approximation of
+[72x709]u
+[72x228]time
+[72x228]t
+[72x340]in the following abstract manner:
+[72x340]u
+[72x357]also holds for the general case of jump–diffusions. The solution to this PIDE can be represented
+[72x466](
+[72x660]characterizes the dynamics. The generator is given by, for any sufficiently regular function
+[72x676]An important component of this PIDE is the so–called (infinitesimal) generator
+[72x676]A
+[72x693]an equivalent representation of it is the solution to a partial integro-differential equation (PIDE).
+[72x89]A
+[72x105]f
+[72x105](well-defined) when, for example,
+[72x155]M
+[72x155]for some
+[72x525]and
+[72x600]where, with
+[72x324]A
+[72x324]operator
+[80x87]is restricted to smooth functions, c.f. (2.5). The transition density and option pricing examples
+[89x449]u
+[97x466])
+[101x228]. A simple version of this would be a Taylor series expansion around
+[101x228]t
+[103x466](
+[115x466]∂x
+[116x155]≥
+[131x466]),
+[131x466]∂
+[131x155]1, where the second equality uses (2.8). This type of moment approximations have
+[138x324]in the sense that
+[138x604]2
+[147x463]x
+[148x470]2
+[155x600]σ
+[155x600]) :=
+[155x463],x
+[163x462]j
+[163x462]f
+[167x466](
+[173x563]A
+[175x191]u
+[176x191]˜
+[177x600](
+[180x388]0
+[180x388](
+[181x189](
+[186x466]∂
+[186x466]) =
+[189x563]f
+[190x600]x
+[191x191]x
+[195x509]A
+[196x600])
+[197x390]f
+[197x191]≡
+[203x507]J
+[203x419]∂
+[207x563]) =
+[209x509](
+[209x418]t
+[211x470]2
+[216x390](
+[216x466]f
+[216x466](
+[216x178]m
+[219x418]t
+[219x418](
+[224x178]=0
+[225x605]⊤
+[226x573]X
+[227x550]i
+[227x509]λ
+[227x509]) =
+[228x419]x
+[228x390]x
+[228x466]x
+[230x550]=1
+[232x577]d
+[234x105](
+[234x419]) = \[
+[234x390]x
+[234x466]/
+[235x600]R
+[236x630](
+[236x630]Af
+[238x198]t
+[241x466](
+[242x202]m
+[243x298]∂e
+[244x563]µ
+[246x509](
+[246x105]x
+[247x184]∂
+[247x184]!
+[249x339]t
+[250x561]i
+[250x561](
+[252x466]∂x
+[253x105]) is a non–smooth function since the domain of the operator
+[253x604]d
+[255x302](
+[256x419]A
+[256x419]−
+[257x630]x
+[257x283]= (
+[258x604]×
+[258x302]A
+[258x340]x
+[259x509]x
+[260x563]x
+[260x188]u
+[261x196]m
+[263x630]) =
+[263x630]A
+[264x604]d
+[264x340]e
+[264x340]) =
+[265x464]i
+[266x563])
+[266x563]∂
+[267x419]r
+[268x466]∂x
+[269x600],
+[271x524]Z
+[271x302]r
+[272x390]∈ X
+[275x189](
+[275x302])
+[278x419](
+[281x464]j
+[283x560]i
+[284x191]x
+[285x466]) and similar for other partial derivatives.
+[286x563]f
+[289x419]x
+[289x509]\[
+[290x628]D
+[291x191])
+[292x509](
+[295x191]|
+[295x419])\]
+[295x419]u
+[295x344]A
+[296x448]t
+[298x630]f
+[298x630](
+[298x188]t
+[300x390]. In the case of pure diffusions (
+[301x188]=
+[301x188]=0
+[302x290]−
+[303x36]5
+[305x509]+
+[305x509]x
+[305x563]) + 1
+[308x344]r
+[311x418]t
+[311x418](
+[312x449]) solves the following PIDE:
+[312x344])
+[312x290]r
+[316x344]t
+[316x630]) +
+[316x630]A
+[319x340](
+[319x340]f
+[320x419]x
+[328x201]X
+[329x290]e
+[329x509])
+[329x509]−
+[332x205]M
+[332x340]x
+[332x550]i,j
+[333x419]≥
+[334x178]=0
+[334x573]X
+[336x509]f
+[338x340]e
+[340x577]d
+[342x628]f
+[342x628]J
+[343x295]A
+[348x630](
+[349x198]t
+[349x295]−
+[354x244]u
+[354x563]σ
+[355x419]0
+[359x509]x
+[360x295])
+[360x560]ij,t
+[360x560](
+[360x242](
+[361x630]x
+[361x568]2
+[363x295]t
+[366x509]ν
+[366x509])\]
+[367x290](2.8)
+[367x630],
+[367x630])
+[368x191]−
+[368x191]A
+[373x630](2.4)
+[375x509](
+[376x244]) based on a series expansion w.r.t.
+[377x480]t
+[381x482]∂
+[381x482], respectively. Here,
+[387x509]c
+[388x344](
+[395x509]x
+[397x568]2
+[398x344]−
+[399x196]f
+[401x509])
+[401x509]dc
+[401x559]i
+[404x344]r
+[405x560],x
+[406x419],
+[406x419](2.7)
+[407x509](2.6)
+[408x344])
+[412x559]f
+[412x559]j
+[428x191],
+[432x228]= 0 on the form
+[434x191](2.9)
+[435x563]) (2.5)
+[448x390]A
+[452x676]of
+[454x707]t
+[456x388]= 0), the reader
+[456x388]J
+[463x676]x
+[463x709]x
+[470x709]), observe that
+[481x675]which fully
+[494x480]x
+[499x479]i
+[503x482]f
+[507x660](
+[520x660]x
+[521x482]) =
+[526x660]),

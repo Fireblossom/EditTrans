@@ -1,0 +1,151 @@
+Page dimensions: 612.0x792.0
+[72x708](1980/81); see also Zitikis and Gastwirth (2002) for further references and statistical infer-
+[72x689]ence.
+[72x661]Note 4.1.
+[72x661]The asymptotically negligible term 1
+[313x661]/n
+[313x661]on the right-hand side of the first equation
+[72x642]of
+[72x642]G
+[96x640]n
+[96x640]ensures that
+[107x642]G
+[185x640]n
+[185x640]makes sense for all sample sizes. Without this term we may get
+[72x623]counterintuitive values. For example, when the 'incomes' are
+[72x623]X
+[400x621]1
+[400x621]= 1,
+[409x623]X
+[445x621]2
+[445x621]= 2 and
+[453x623]X
+[509x621]3
+[509x621]= 3,
+[72x604]we have
+[72x604]G
+[125x602]n
+[125x602]= 2
+[153x604]/
+[159x604]9, whereas
+[159x604]G
+[225x602]n
+[225x602]without the added 1
+[235x604]/n
+[339x604]= 1
+[373x604]/
+[379x604]3 would give the negative value
+[72x585]−
+[81x585]1
+[87x585]/
+[93x585]9, which is incompatible with the meaning of the index.
+[90x557]Finally, using the same arguments as above but now with the right-most expression for
+[72x538]G
+[81x536]2
+[81x536]given in Section 2.2 as our starting point, we arrive at
+[214x499]G
+[223x498]2
+[228x498],n
+[228x498]=
+[270x511]¯
+[267x508]X
+[253x491]X
+[262x489]⌈
+[266x489]n/
+[275x489]2
+[280x489]⌉
+[283x489]:
+[286x489]n
+[295x499]−
+[295x499]2
+[308x491]n
+[315x495]2
+[329x514]n
+[323x511]X
+[325x486]i
+[328x486]=1
+[344x517]P
+[356x513]i
+[356x504]k
+[361x504]=1
+[361x504]X
+[384x506]k
+[389x506]:
+[391x506]n
+[351x491]X
+[360x489]⌈
+[364x489]n/
+[374x489]2
+[378x489]⌉
+[382x489]:
+[384x489]n
+[76x458]as an empirical estimator of
+[76x458]G
+[232x456]2
+[237x458]. As before, ¯
+[301x458]X
+[301x458]stands for the mean of
+[315x458]X
+[444x456]1
+[449x458], . . . , X
+[485x456]n
+[490x458].
+[72x418]4.3 An analysis of capital incomes from the ECHP 2001 survey
+[72x392]Using the formulas for calculating the aforementioned indices from data, we now analyze
+[72x373]capital incomes reported in the European Community Household Panel survey (ECHP, 2001)
+[72x354]that was conducted by Eurostat in 2001, which is the last of the eight waves of the survey.
+[90x335]Specifically, the data come from 59,750 households with 121,122 persons from the fifteen
+[72x316]European countries specified in Table 4.1 using the ISO 3166-1 alpha-2 (two-letter) codes.
+[72x298]By looking at the means and medians in Table 4.1, we see how skewed to the right the
+[72x279]distributions of the countries are. Figure 4.1 (with
+[72x279]G
+[353x277]2
+[357x277],n
+[357x277]excluded due to its large values)
+[72x260]visualizes the index values calculated using formulas (4.1)–(4.3) and reported in Table 4.1.
+[72x241]For a more detailed description of the data and relevant references, we refer to Greselin et
+[72x223]al. (2014, Section 1). Next are several observations based on Table 4.1 and Figure 4.1.
+[90x204]Portugal has the lowest value of Ψ
+[90x204]1
+[272x202],n
+[280x204], with the median income of the poorest
+[280x204]p
+[492x204]×
+[501x204]100%
+[72x185]persons equal, after averaging over all
+[72x185]p
+[266x185]∈
+[275x185](0
+[297x185],
+[297x185]1), to 84
+[345x185].
+[348x185]7% of the median income of the entire
+[72x166]population.
+[90x147]The opposite happens in France, which provides the highest contrast among the countries
+[72x129]when comparing the median income of the poorest
+[72x129]p
+[338x129]×
+[349x129]100% persons with the overall median
+[72x110]income: after averaging such ratios over all
+[72x110]p
+[296x110]∈
+[306x110](0
+[327x110],
+[327x110]1), we obtain 21
+[416x110].
+[419x110]7%.
+[90x91]For France, we also observe the largest value of Ψ
+[90x91]3
+[348x89],n
+[356x91]. The median income of the poorest
+[72x72]p
+[72x72]×
+[81x72]100% people is equal, after averaging over all
+[93x72]p
+[334x72]∈
+[345x72](0
+[368x72],
+[368x72]1), to only 15
+[373x72].
+[448x72]5% of the median
+[300x42]15

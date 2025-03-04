@@ -1,0 +1,55 @@
+Page dimensions: 612.0x792.0
+[72x708]3.6 Discussion of Model Assumptions
+[72x679]Payoffs
+[72x679]Two characteristics of the payoff function must be noted. First, the utility is
+[72x657]additively separable in each players' output, ruling out static strategic complementarities
+[72x635]between players' actions, a modelling choice that allows us to isolate disagreement as a driving
+[72x614]force of our results.
+[72x614]27
+[174x618]Second, we allow players utility to depend on each other's output.
+[72x592]We interpret this as a reduced-form way of capturing how the overall team performance in a
+[72x570]project can feedback positively on each team member. In particular, the positive externalities
+[72x549]imply that players benefit from increasing each others' production and breakthroughs. In
+[72x527]section 6, we discuss how our results are impacted under different assumptions regarding the
+[72x505]sign of production externalities.
+[72x467]Action Informativeness
+[72x467]In both example 1 and example 2, the technology views have the
+[72x445]property that higher effort is more informative than lower effort, as we show in the appendix.
+[72x424]Intuitively, in the bandit problem higher effort increases
+[72x424]F
+[379x424](
+[384x424]e
+[389x424]) the probability of a return,
+[72x402]making players subjectively more likely to parse between
+[72x402]H
+[366x402]and
+[380x402]L
+[403x402]at the end of the period.
+[72x380]In the log-concave noise example, an increase in effort makes the two alternative views'
+[72x359]predictions diverge – so that high output realization becomes stronger evidence in favor
+[72x337]of
+[72x337]H
+[86x337]while low output realizations become stronger evidence in favor of
+[101x337]L
+[461x337]. While 3 is in
+[72x315]practice satisfied by many applications (e.g., Keller et al., 2005; Heidhues et al., 2018; Dong,
+[72x294]2018; Ba, 2022), in section 6 we briefly discuss the implications of other relations between
+[72x272]the productivity and informativeness of actions, providing an example of a technology that
+[72x250]violates assumption 3.
+[72x212]Different Models and Model Shifts
+[72x212]Three non-standard assumptions about model and
+[72x190]model shifts are worth discussing. First, in our model players can agree to disagree on the true
+[72x168]model of the world. When they hold different models, Ann sees Bob's model as misspecified
+[72x147]– for instance because based on the wrong hypotheses. Hence, she does not regard it as
+[72x125]informative of the true process
+[72x125]Q
+[243x125]. Second, for
+[243x125]α
+[312x125]low, the model switch rule LR means that
+[85x107]27
+[93x104]For the same reason, the output stochastic process rules out
+[93x104]technological
+[364x104]complementarities between
+[72x92]players' efforts. Such complementarities would have relevant and well-known implications for the productivity
+[72x80]of heterogeneous vs homogeneous groups (e.g., Prat, 2002), but are not the focus of the present study.
+[300x42]25

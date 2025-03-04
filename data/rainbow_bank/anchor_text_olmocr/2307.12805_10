@@ -1,0 +1,60 @@
+Page dimensions: 612.0x792.0
+[100x708]We then proceed to disentangle the coherent dynamics and the associated lifetimes of each
+[72x679]component. For this, we perform the data analysis of the residuals by fitting exponentially decaying
+[72x650]harmonic functions in order to extract the oscillation frequencies and the lifetime of the coherences.
+[72x621]The detailed fitting functions and procedures are shown in the SI. We first show the residuals
+[72x592]of the cross peak "X" in Fig. 4(a) as blue square dots. We start our fitting procedure with the
+[72x564]resolved oscillatory frequencies: 122, 250 and 345 cm
+[72x564]−
+[341x568]1
+[346x564]. We then assign the initial values of the
+[72x535]lifetime to be 300 fs with the guessed range from 0 to infinity. All the fitting procedures were
+[72x506]performed using the Curve fitting Toolbox (Matlab2021(b)). We finalize the fitting results with
+[72x477]the R-square
+[72x477]>
+[147x477]0.97. They are shown as red solid line in Fig. 4(a). The green shadow indicates
+[72x448]the boundary of the confidence interval of 95%. By this, we are able to separate the electronic
+[72x419]coherence from vibrational coherence. The coordinates of cross peak "X" (
+[72x419]ω
+[459x417]τ
+[459x417],
+[464x419]ω
+[480x417]t
+[483x419]) = (14812,
+[72x390]14690) cm
+[123x395]−
+[130x395]1
+[130x395]reveal the energy gap of 122 cm
+[291x395]−
+[298x395]1
+[298x395]in the 2D electronic spectra. The matching of the
+[72x361]resolved frequency of this mode and the energy gap manifests that the oscillatory dynamics of 122
+[72x332]cm
+[87x337]−
+[93x337]1
+[93x337]corresponds to the electronic quantum coherence. Moreover, theoretical calculations and
+[72x304]the representation transformation from the site to the exciton basis reveal that the cross peak "X"
+[72x275]mainly originates from the transition between
+[290x275]Chl
+[308x273]D1
+[308x273]and
+[322x275]Pheo
+[367x273]D1
+[378x275]. Thus, this oscillatory component
+[72x246]of 122 cm
+[121x250]−
+[127x250]1
+[127x250](magenta solid line in Fig. 4(a)) reveals the electronic coherence between
+[135x246]Chl
+[508x244]D1
+[508x244]and
+[72x217]Pheo
+[98x215]D1
+[109x217]. It shows the lifetime of 180 fs, which perfectly agrees with the lifetime retrieved from
+[72x188]the theoretical modeling and the calculations discussed in the next section. In addition, we also
+[72x159]resolve the vibrational coherence of frequencies 250 and 345 cm
+[72x159]−
+[390x163]1
+[390x163](black and green dashed lines
+[72x130]in Fig. 4(a)). They have the lifetimes of 527 and 829 fs, respectively.
+[300x72]11

@@ -1,0 +1,141 @@
+Page dimensions: 612.0x792.0
+[37x140]ML/DL
+[37x140]-
+[37x140]-
+[37x140]-
+[37x140]97.5
+[37x140]95.8
+[37x140]97.2
+[37x140]-
+[37x140]-
+[37x140]92.7
+[37x140]-
+[37x140]ML
+[37x140]95
+[37x140]91.4
+[37x140]89.3
+[37x140]DL (AE)
+[37x140]-
+[37x140]96.7
+[37x140]68.1
+[37x140]-
+[37x140]-
+[37x140]Re
+[37x140]88.3
+[37x140]MRI
+[37x140]-
+[37x140]94.5
+[37x140]MRI
+[37x140]-
+[37x140]-
+[37x140]-
+[37x140]PD vs. SWEDD
+[37x140]97.9
+[37x140]MRI
+[37x140]MRI
+[37x140]Pr
+[37x140]PD vs HC
+[37x140]-
+[37x140]-
+[37x140]-
+[37x140]88.4
+[37x140]97.6
+[37x140]-
+[37x140]-
+[37x140]97.1
+[37x140]-
+[37x140]-
+[37x140]MRI
+[37x140]-
+[37x140]SPECT
+[37x140]-
+[37x140]-
+[37x140]Ac
+[37x140]88.2
+[37x140]89.67
+[37x140]Ac
+[37x140]95
+[37x140]MRI
+[37x140]88.9
+[37x140]-
+[37x140]-
+[37x140]MRI
+[37x140]-
+[37x140]-
+[37x140]-
+[37x140]-
+[37x140]ML
+[37x140]93.03
+[37x140]MRI + DTI
+[37x140]MRI
+[37x140]Ac
+[37x140]-
+[37x140]81.9
+[37x140]96.04
+[37x140]93.7
+[135x129]our work, we explicitly consider data with both MRI and DTI for the same individual
+[135x141]mental protocol by considering two publicly available databases of ADNI and PPMI. In
+[135x153]cation accuracy of \[2\]. Note that in \[2\], the authors used a somewhat different experi-
+[135x165]at least eight out of 10 methods. It is also higher than two out of three binary classifi-
+[135x177]classification accuracy turns out to be superior than two-class classification accuracy of
+[135x189]binary classifications as obtained from our method in this table. Our direct three-class
+[135x201]SWEDD in their paper. In order to have fair comparisons, we have also included three
+[135x213]classes \[2,10\]. However, Li at al. \[10\] did not report the classification results for PD vs.
+[135x225]a third class but have divided the three-class classification problem into multiple binary
+[135x249]two-class classification problem between PD and HC and did not consider the chal-
+[135x261]classification. Also note that eight of these ten techniques have only addressed a single
+[135x273]four out of five DL based approaches, only a single modality, namely, MRI is used for
+[135x284]machine learning (ML) and the rest five are based on deep learning (DL). Further, in
+[135x296]are shown in Table 4. Out of the ten methods we have considered, five are based on
+[135x308]modalities and with three or fewer two-class classifications. The results of comparisons
+[135x320]that have addressed the PD classification on the PPMI database using single or multiple
+[135x332]able for a direct 3-class PD classification. So, we compare our results with those papers
+[135x344]We compare our method with ten state-of-the-art approaches. There are no results avail-
+[135x365]3.3 Comparisons with State-of-the-art Approaches
+[135x607]Table 4: Comparisons of the proposed method with State-of-the-art Approaches
+[135x630]proposed OW AF outperforms other fusion strategies.
+[135x654]lustrates the effects of various fusion strategies. For fare comparison, we use both MRI
+[135x666]with a step size of 0.01. The final weights are used in our OW AF technique. Table 3 il-
+[135x692]8 S. Sahu et al.
+[136x471]Chakraborty 2020 \[7\]
+[137x459]Sivaranjini 2020 \[23\]
+[138x550]Prashanth 2018 \[20\]
+[138x482]Tremblay 2020 \[22\]
+[138x448]Rajanbabu 2022 \[8\]
+[141x517]Gabriel 2021 \[21\]
+[142x426]Proposed method
+[145x539]Singh 2018 \[2\]
+[145x573]Adeli 2016 \[1\]
+[148x494]Li 2019 \[10\]
+[148x389]data
+[148x389]Auto Encoder, Ensemble Learning &
+[151x590]Approach
+[195x448]DL (EL)
+[201x517]ML
+[201x550]ML
+[201x561]ML
+[202x426]DL
+[202x459]DL
+[202x471]DL
+[202x482]DL
+[220x590]MODALITY
+[222x494]MRI + DTI
+[257x505]93.05 (A)
+[257x527]99.01(M)
+[258x516]87.10(F)
+[262x494]85.24
+[264x426]97.8
+[266x584]Ac
+[284x389]not available respectively. All the values are in %.
+[284x527]100(M)
+[284x516]97.2(F)
+[293x505]-
+[306x527]99.3(M)
+[308x516]100(F)
+[316x505]-
+[350x517]-
+[374x595]HC vs. SWEDD
+[419x595]PD vs. HC vs SWEDD
+[437x415]Re: 91.99
+[437x426]Pr: 93.64
+[442x437]95.53

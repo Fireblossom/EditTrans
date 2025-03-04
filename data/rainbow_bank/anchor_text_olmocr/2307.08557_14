@@ -1,0 +1,143 @@
+Page dimensions: 612.0x792.0
+[72x708]true. In this sense, as in Sandholm (2002, 2005), we need not impose that players play
+[72x684]an equilibrium of the game but could depart from more primitive assumptions on players'
+[72x660]strategic sophistication by requiring that none play a strategy that is iteratively dominated.
+[72x636]Equilibrium play would then be obtained as a result, rather than an assumption, of the
+[72x612]analysis.
+[90x589]Section 5 presents the building blocks of this result and develops some of the intuition. It
+[72x565]also discusses the properties of ˜
+[233x565]s
+[233x565]and compares those to other proposals in the literature.
+[72x510]5 Analysis
+[72x475]The plan for this section is as follows. We first show that for any vector of subsidies
+[72x475]s
+[505x475]there
+[72x451]exists a unique vector of real numbers
+[72x451]x
+[274x451](
+[278x451]s
+[284x451]) = (
+[308x451]x
+[315x449]i
+[318x451](
+[323x451]s
+[328x451])) such that the increasing strategy vector
+[72x427]p
+[78x431]x
+[83x431](
+[86x431]s
+[90x431])
+[90x431]is the unique strategy vector that survives IESDS in
+[98x427]ε
+[378x427](
+[383x427]s
+[389x427]). Then we demonstrate that
+[72x403]the strategy vector
+[72x403]p
+[180x407]x
+[185x407](
+[188x407]s
+[192x407])
+[192x407]is also the unique Bayesian Nash equilibrium of
+[200x403]ε
+[455x403](
+[460x403]s
+[465x403]). We use this,
+[72x379]and some minor technical results, to derive the unique subsidy scheme ˜
+[432x379]s
+[432x379]that implements
+[441x379]p
+[534x383]˜
+[534x383]x
+[539x379].
+[90x355]The analysis relies on two monotonicity properties of players' expected incentives for
+[72x331]much of the heavy lifting.
+[72x297]Lemma 1.
+[72x297]Given is a vector of real numbers
+[135x297]y
+[307x297]= (
+[333x297]y
+[339x295]i
+[342x297])
+[342x297]and the associated increasing strategy
+[71x273]vector
+[71x273]p
+[112x278]y
+[112x278]= (
+[137x273]p
+[143x279]y
+[147x278]i
+[143x270]i
+[143x270])
+[155x273]. Then,
+[82x239](i)
+[82x239]u
+[108x244]ε
+[108x237]i
+[108x237](
+[117x239]p
+[123x245]y
+[123x236]−
+[129x236]i
+[129x236]|
+[136x239]x
+[149x244]ε
+[149x237]i
+[149x237])
+[154x239]is monotone increasing in
+[162x239]x
+[305x244]ε
+[305x237]i
+[305x237];
+[79x206](ii)
+[79x206]u
+[108x210]ε
+[108x203]i
+[108x203](
+[117x206]p
+[123x211]y
+[123x203]−
+[129x203]i
+[129x203]|
+[136x206]x
+[149x210]ε
+[149x203]i
+[149x203])
+[154x206]is monotone decreasing in
+[162x206]y
+[305x204]j
+[309x206], all
+[309x206]j
+[334x206]∈
+[343x206]N
+[354x206]\ {
+[386x206]i
+[390x206]}
+[396x206].
+[90x172]Part (i) of Lemma 1 says that a player's incentive to play 1 is increasing in his type
+[90x172]x
+[536x176]ε
+[536x169]i
+[72x148]when his opponents play increasing strategies. There are two sides to this. First, taking as
+[72x124]given the vector of actions
+[72x124]a
+[213x122]−
+[220x122]i
+[223x124], a player's expected payoff to playing 1 is linearly increasing in
+[72x100]x
+[79x104]ε
+[79x97]i
+[79x97]; hence, his expected incentive is increasing in his signal
+[83x100]x
+[377x104]ε
+[377x97]i
+[377x97]. Second, as
+[381x100]x
+[453x104]ε
+[453x97]i
+[453x97]increases player
+[72x76]i
+[76x76]'s posterior distribution on the hidden state
+[76x76]x
+[307x76]and, therefore, the signals of his opponents
+[300x42]15

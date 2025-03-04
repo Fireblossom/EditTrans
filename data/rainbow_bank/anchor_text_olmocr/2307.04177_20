@@ -1,0 +1,253 @@
+Page dimensions: 595.3x841.9
+[59x707]of
+[59x733]p
+[59x733]just the first projection
+[59x757]trivialization of the cotangent bundle
+[59x781]The particular case of a Lie group. In what follows, we will show the previous reduction process in
+[59x179]R
+[59x253]locally characterized by (22).
+[59x360]Poisson structure on
+[59x360]g
+[59x167]reduction process of the system (
+[59x167]S, ω, H
+[59x683]with
+[59x584](40)
+[59x539]ϕ
+[59x527]π
+[59x527]The corresponding line bundle
+[63x483]π
+[63x655]On the other hand, the Lie-Poisson bracket
+[63x655]{·
+[72x804]KIRILLOV STRUCTURES AND REDUCTION OF HAMILTONIAN SYSTEMS BY SCALING AND STANDARD SYMMETRIES 21
+[74x332]p
+[74x266]p
+[74x266]Note however, that this
+[74x372]L
+[74x139]First of all, we will show a reduction process for Kirillov structures in the presence of a standard symmetry.
+[74x602]The scaling symmetry on
+[74x551]Now, we apply the second reduction step to the (Lie)-Poisson Hamiltonian system
+[84x707]Φ
+[85x683]∈
+[106x179]and a symplectic
+[107x683]i.e.
+[107x683],
+[109x745]·
+[110x448])\]
+[112x745],
+[116x179]G
+[120x448]L,
+[127x745]is the Lie algebra of
+[142x415]\[
+[142x448]p
+[146x509]G
+[154x413], h
+[165x719]. We take the left invariant vector field
+[165x719]Y
+[168x414]ξ
+[172x413]2
+[176x448]: (
+[179x414]P
+[183x360]the Lie-Kirillov structure on
+[185x731]1
+[192x733]G
+[192x415](
+[198x733]×
+[198x452]∗
+[199x179]-symmetry Φ
+[205x415]α
+[205x505]((
+[208x733]g
+[208x266]-projection of
+[209x636]{
+[210x606]− {
+[210x606]∗
+[215x448]→
+[218x634]1
+[222x525]:
+[222x640]ℓ
+[226x636], ξ
+[228x509]− {
+[231x527]L
+[232x584]}
+[232x602]0
+[235x634]2
+[236x167]) in two steps, but in the following order: the first reduction is obtained
+[236x527]:= (
+[237x602]}
+[237x602]is just
+[237x674]ℓ
+[240x640]ℓ
+[248x745]τ
+[248x695]is the restriction to
+[250x505]0
+[251x452]∗
+[251x484]:
+[253x636]∗
+[254x674]− {
+[257x584]g
+[257x733]Φ :
+[258x483]L
+[259x757]in order to identify
+[260x505])
+[261x213]standard symmetries
+[266x324]∈
+[266x324]ℓ
+[267x539]P
+[268x530]∗
+[270x757]T
+[277x298]ℓ
+[277x298]=
+[278x636]\[
+[281x376]may be considered as the Kirillov version of the Lie-
+[281x376]∗
+[281x670]} →
+[283x505])
+[283x505]→
+[283x584]0
+[283x769]is a Lie group
+[289x179]S
+[289x505](
+[289x304]g
+[290x527]0
+[290x636], ξ
+[290x415]h
+[292x398](\[
+[293x655],
+[293x655]·}
+[293x584])
+[293x584]→
+[293x306]∗
+[294x265]ℓ
+[295x527]} ×
+[297x272],
+[298x179]S
+[301x300]{·
+[302x487]associated with the linear map
+[303x320]g
+[303x636]\]
+[303x397]1
+[306x633]g
+[306x432]g
+[308x324]∗
+[308x398], ξ
+[309x655]∗
+[311x509]− {
+[311x436]∗
+[314x411]2
+[314x466])\]) =
+[317x584]g
+[317x413]}
+[321x398]\]
+[322x412]g
+[322x589]− {
+[322x589]∗
+[323x527]/
+[329x398]h
+[329x304]ℓ
+[329x320]0
+[332x527]R
+[334x320]}
+[335x415]p
+[337x655]T
+[338x505]}
+[340x415](
+[342x301]∗
+[343x670]α
+[347x300].
+[349x655]G
+[349x655]−
+[350x733]×
+[350x415]))(\[(
+[352x397]\[
+[353x584])
+[354x397]ξ
+[356x527]0
+[357x584](
+[357x396]1
+[359x655]0
+[360x733]G
+[361x527]}
+[361x397],ξ
+[366x769]In such a case, one may use the left
+[366x505]e
+[366x527]→
+[367x396]2
+[368x634]1
+[373x527]P
+[373x396]g
+[373x396](
+[374x653]G
+[375x760]∗
+[379x757]with the product manifold
+[379x757]G
+[379x719]← −
+[380x670].
+[380x733]G
+[381x634]∈
+[381x634]2
+[383x415]−
+[385x655]/G
+[387x398](
+[388x695]0
+[388x584]s, α
+[390x757]G
+[391x398]α
+[392x527]g
+[393x719]on
+[397x530]is defined by the action
+[399x502]s
+[399x509]G
+[400x654]=
+[402x695]ξ
+[403x636].
+[404x584]→
+[404x584])
+[404x719]G
+[410x584]sα.
+[414x415]t
+[418x415]{
+[418x191]ϕ
+[418x191]) with a scaling symmetry
+[420x719]induced by an element
+[424x505]) = (
+[427x419]ℓ
+[437x655]0
+[440x413]2
+[441x419]ℓ
+[441x398].
+[442x655]is characterized by
+[445x415]}
+[449x265]h
+[450x414]g
+[453x711]∗
+[454x264]ξ
+[454x416]∗
+[459x415](
+[467x707]0
+[469x415])
+[470x487]:
+[477x483]g
+[477x551](
+[481x551]g
+[482x706]G
+[485x266]P
+[486x554]∗
+[488x487]−{
+[493x707]∼
+[496x270]∗
+[497x699]ℓ
+[501x266])
+[504x551]0
+[508x707]=
+[509x551]}
+[513x483]} →
+[524x711]− {
+[524x711]∗
+[534x483]is
+[536x745]is
+[543x757]g
+[543x539]g
+[543x194]:
+[545x707]0
+[548x760]∗
+[564x551],

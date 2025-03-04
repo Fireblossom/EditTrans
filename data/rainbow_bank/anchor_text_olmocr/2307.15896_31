@@ -1,0 +1,206 @@
+Page dimensions: 612.0x792.0
+[0x0](b) two-spike slow dynamics
+[19x160]x
+[25x82]-0.08
+[25x134]-0.06
+[25x185]-0.04
+[25x236]-0.02
+[31x31]-0.8
+[31x68]-0.6
+[31x104]-0.4
+[31x141]-0.2
+[35x214]0.2
+[35x251]0.4
+[35x288]0.6
+[44x704]O
+[44x704]time-scale. We remark that this time-scale is longer than the
+[44x118]below is inspired by a related analysis for the GM model in \[58\].
+[44x132]linearization of the DAE dynamics (5.24) in Proposition 5.1 about the steady-state spike locations. Our approach
+[44x147]d
+[44x147]In this subsection, and as remarked in §4, we show that when
+[44x171]5.1 Computation of Jacobian Matrix for Balancing Conditions
+[44x546]β
+[44x560]sponding numerical results computed from the full PDE system (1.2) using FLEXPDE7 \[14\]. In our comparison,
+[44x488]namics starting from the initial condition
+[44x488]x
+[44x503]quasi-equilibrium pattern. In Figure 8b a similar favorable comparison is shown for the case of two-spike dy-
+[44x517]x
+[44x517]condition
+[44x178]0
+[44x288]0
+[47x590]Moreover, in Appendix H we show at the steady-state spike locations that
+[47x590]β
+[52x20]0 100 200 300 400 500
+[52x20]0 100 200 300 400 500
+[61x575]To illustrate our results, we now compare the dynamics computed from the DAE system (5.24) with corre-
+[61x674]In Appendix H, we show that
+[61x103]To this end, we use the Green's function in (2.24) together with its decomposition in (5.20) to define
+[67x66]∂
+[73x64]x
+[78x63]j
+[80x66]G
+[89x66](
+[93x66]x
+[98x515]1
+[100x64]j
+[102x517](0)
+[102x517]=
+[103x66]x
+[114x64]k
+[118x66]) :
+[120x517]−
+[122x254](a) one-spike slow dynamics
+[129x66]=
+[138x517]0
+[140x83](
+[140x83]∂
+[144x297]Slow motion of two spikes
+[147x297]Slow motion of one spike
+[147x517]1, the asymptotic and numerical spike trajectories are favorably compared for a one-spike
+[153x64]∂
+[153x69]∂
+[157x78]R
+[157x69](
+[158x55]x
+[158x55](
+[168x59]x
+[173x73]x
+[173x73];
+[173x59]x
+[173x59];
+[185x72]j
+[189x59])
+[192x73]|
+[193x59]|
+[195x72]x
+[196x57]x
+[198x72]=
+[204x72]x
+[205x57]x
+[208x71]j
+[208x71],
+[209x56],
+[214x59]j
+[216x3]t
+[218x674], as given in (5.17), can be calculated asymptotically by retaining only the
+[223x544]numerically from (5.17). The results for a one- and two-spike dynamics
+[229x59],
+[229x73]=
+[233x626]β
+[235x59]k
+[235x73]k
+[240x624]j
+[240x624]∼
+[246x59], ∂
+[246x73],
+[246x626]2
+[248x486]1
+[253x488](0)
+[253x488]=
+[258x617]v
+[264x616]max
+[264x616]j
+[270x488]−
+[285x214]right location (asy)
+[285x254]left location (num)
+[286x626]for
+[287x230]Figure 8:
+[288x488]0
+[289x577]0 100 200 300 400 500\nt\n-0.1\n-0.08\n-0.06\n-0.04\n-0.02\n0\nx\nSlow motion of one spike\nlocation (num)\nlocation (asy)
+[294x488].
+[295x64]x
+[297x488]x
+[297x488]6 and
+[300x63]j
+[309x250]location (asy)
+[309x263]location (num)
+[312x63]G
+[312x63]k
+[315x626]v
+[318x722]N
+[325x66](
+[327x722]-spike quasi-equilibrium solution on the long
+[329x66]x
+[333x486]2
+[336x64]j
+[337x488](0)
+[337x488]=
+[339x66]x
+[339x66];
+[340x624]j
+[340x624]max
+[349x715]
+[350x64]k
+[353x704]ϵ
+[353x145]∈T
+[353x145]1
+[354x66])
+[354x66]=
+[356x624]≫
+[358x708]−
+[368x715]
+[371x488].
+[372x83](
+[374x488]6.
+[376x704]time-scale of slow spike dynamics for the
+[376x626]1
+[380x430]0 100 200 300 400 500\nt\n-0.8\n-0.6\n-0.4\n-0.2\n0\n0.2\n0.4\n0.6\nx\nSlow motion of two spikes\nleft location (num)\nright location (num)\nleft location (asy)\nright location (asy)
+[381x145]e
+[381x145]the matrix
+[385x70]∂
+[389x147]M
+[390x70]x
+[390x56]x
+[395x55]∂
+[395x55]j
+[397x72]x
+[401x72]=
+[404x56]x
+[406x72]x
+[407x55]k
+[407x55]G
+[409x588]j
+[409x588]=
+[414x70]∂
+[416x79]∂
+[418x70]y
+[418x70]|
+[420x58](
+[424x689]ects.
+[424x58]x
+[426x72]y
+[429x72]=
+[431x56]j
+[432x588]∀
+[434x58]x
+[434x58];
+[435x72]x
+[438x71]R
+[438x71]k
+[445x56]k
+[448x590]j
+[449x58],
+[449x58])
+[452x590]β
+[452x590], with
+[454x74]x
+[455x58]j
+[459x147]in (4.29) arises from the
+[459x74];
+[470x74])
+[476x74]j
+[488x588]given in (4.28).
+[488x588]0
+[490x58],
+[490x74]=
+[497x58]k
+[497x74]k
+[508x58].
+[508x74],
+[516x58](5.27)
+[543x722]O
+[553x733]
+[557x722]ϵ
+[563x727]−
+[568x727]3
+[572x733]

@@ -1,0 +1,231 @@
+Page dimensions: 595.3x841.9
+[54x646]tion (A6), in terms of the basis functions ˆ
+[54x768]functions
+[54x780]vertices
+[54x377]motion is
+[56x657]then rewriting the terms in the equation of motion, equa-
+[57x711]where ˆΦ
+[57x485]and let
+[57x536]Now let
+[59x158]\[7\] M. Gasperini, F. Piazza, and G. Veneziano, Phys. Rev.
+[59x242]\[3\] E. J. Copeland, M. Sami, and S. Tsujikawa, Int. J. Mod.
+[59x263]29
+[59x263]\[2\] E. G. M. Ferreira, Astron. Astrophys. Rev.
+[59x137]75
+[59x200]\[5\] T. Clifton, P. G. Ferreira, A. Padilla, and C. Skordis,
+[59x283]\[1\] W. Hu, R. Barkana, and A. Gruzinov, Phys. Rev. Lett.
+[61x363]
+[65x355]α
+[65x618]α
+[72x618]MˆΦ
+[72x127]hep-ph/9608245.
+[72x210]568
+[72x210]Rept.
+[72x231]Phys. D
+[72x231]15
+[83x168], 046007 (2002), hep-th/0205111.
+[83x273], 1158 (2000), astro-ph/0003365.
+[93x710]i
+[94x536]be a vector with elements
+[95x355]+ 3
+[97x778]i
+[99x483]and
+[100x780]. We can decompose the field using the basis
+[102x767]i
+[104x590]−
+[104x563]+ 2
+[105x768](
+[107x485]C
+[114x768]), such that
+[121x459]\[
+[122x618]µ
+[123x618]ˆ
+[124x459]B
+[124x581]Ω
+[125x563]µ
+[126x684]M
+[128x622]2
+[129x415]\[
+[130x512]P
+[131x567]2
+[131x567]−
+[132x457]k
+[132x359]2
+[132x590]3ˆ
+[135x483]k
+[136x683]=
+[136x683]ij
+[136x510]=
+[137x459]\]
+[137x590]ϕ
+[138x563]1
+[139x189], 1 (2012), 1106.2476.
+[139x414]k
+[139x618]e
+[143x588]k
+[144x415]\]
+[144x617]i
+[147x412]=
+[147x412]ij
+[147x744]ϕ
+[148x747]ˆ
+[150x618]v
+[154x590]µ
+[155x590]ˆ
+[156x698]Z
+[157x525]Z
+[159x617]j
+[160x355]B
+[160x594]2
+[162x675]Ω
+[162x503]Ω
+[165x450]Ω
+[167x429]Z
+[168x354]−
+[170x684]∇
+[170x512]·
+[171x512]ˆ
+[171x687]ˆ
+[172x733]i
+[172x563]ϕ
+[174x461]ˆ
+[175x632]
+[175x355]ˆ
+[178x684]e
+[179x456]k
+[179x463]2
+[182x418]ˆ
+[182x512]e
+[186x459]ˆ
+[186x413]·
+[186x419]3
+[187x510]·
+[187x510]i
+[188x562]j
+[189x617]i
+[189x590]ˆ
+[189x743]i
+[191x359]2
+[191x459]e
+[192x563](A10)
+[192x563]dx .
+[193x512]v
+[193x684]∇
+[193x744]ˆ
+[195x355]1
+[198x589]i
+[201x363]
+[201x459]v
+[201x684]v
+[202x510]j
+[203x744](A8)
+[204x590]v
+[204x632]Z
+[207x355]Φ
+[207x415](A12b)
+[210x684](A9)
+[210x684]dx ,
+[211x457]j
+[215x609]Ω
+[230x618]ˆ
+[235x363]
+[237x593]ˆΦ
+[240x355]µ
+[240x617]·
+[240x355]ˆ
+[241x644]i
+[243x589]i
+[245x618]v
+[246x359]−
+[246x359]2
+[258x263], 7 (2021),
+[267x363]
+[270x632]
+[278x621]ˆΦ
+[282x354],
+[317x210]\[13\] J. Beacham et al., J. Phys. G
+[317x231]\[12\] M. Bauer, P. Foldenauer, P. Reimitz, and T. Plehn, Sci-
+[317x252]\[11\] C. Englert, T. Plehn, D. Zerwas, and P. M. Zerwas, Phys.
+[317x179]\[15\] P. Brax, S. Casas, H. Desmond, and B. Elder, Universe
+[317x189]\[14\] A. Slosar et al. (2019), 1903.12016.
+[317x665]nization of the velocity:
+[317x677]rithm. This algorithm consists of an initial desynchro-
+[317x688]force. We solve for their motion using a leapfrog algo-
+[317x738]Appendix B: Evolving the motion of the test particle
+[320x539]Inside a loop over time, the position and velocity of the
+[320x780]where
+[320x608]a
+[320x608]where
+[327x711]We will be interested in solving for the motion of mat-
+[335x127]Phys. Rev. D
+[335x147]231301 (2010), 1001.4525.
+[335x221]Post Phys.
+[335x221]10
+[335x242]703
+[335x168]8
+[335x200]1901.09966.
+[349x780]is the identity matrix.
+[349x608]is the acceleration due to the symmetron field.
+[351x584]is given by
+[384x242], 298 (2011), 1106.3097.
+[392x221], 030 (2021), 2005.13551.
+[396x553]=
+[396x553]a
+[400x503]v
+[402x364]=
+[402x364]v
+[402x421]v
+[403x127], 103521 (2011), 1107.2112.
+[404x501]1
+[405x465]x
+[405x465]=
+[407x634]1
+[408x501]/
+[410x421]v
+[412x501]2
+[414x465]x
+[415x634]2
+[420x503]v
+[424x560]c
+[424x465]+
+[425x546]L
+[425x419]1
+[428x564]2
+[429x362]/
+[433x419]−
+[433x419]2
+[433x362]2
+[433x362]−
+[435x546]λM
+[435x501]1
+[439x501]/
+[440x636]1
+[440x364]1
+[440x421]1
+[443x501]+
+[446x564]2
+[447x463]1
+[451x463]/
+[451x629]2
+[457x553]ˆ
+[457x553]ϕ
+[457x364]a
+[457x421]a
+[457x636]a
+[458x556]ˆ
+[463x364]d
+[463x636]d
+[463x553]∇
+[465x465](B3b)
+[465x465]t ,
+[468x364]t .
+[468x421](B3c)
+[468x636](B1)
+[471x553](B2)
+[471x553]ϕ .
+[491x210], 010501 (2020),
+[510x598]ˆ
+[515x596], the accel-
+[557x806]7
+[560x158],
+[560x273],

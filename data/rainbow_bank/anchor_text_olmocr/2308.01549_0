@@ -1,0 +1,61 @@
+Page dimensions: 595.3x841.9
+[54x349]which corrects small displacement errors in phase space
+[54x360]The GKP code is one of the most promising bosonic codes,
+[54x122]∗
+[54x175]etc. Concatenation with qubit codes with a high thresh-
+[54x186]nation with surface/toric codes \[27–32\], color code \[33–35\]
+[54x209]is to concatenate the GKP code with qubit codes to fur-
+[54x257]have not been experimentally generated due to the strin-
+[54x280]code has promising advantages in optical quantum in-
+[54x292]of the logical qubit through error correction. The GKP
+[54x303]platforms, and is used to extend the decoherence time
+[54x314]recently in ion-trapped \[ 18, 19\] and superconducting \[ 20\]
+[54x326]has been proposed for two decades \[ 8\], it is prepared only
+[54x337]and also photon loss \[ 6, 17\]. Although the GKP code
+[54x372]mial code \[12–14\], and rotation-symmetric code \[ 15, 16\].
+[54x383]Kitaev-Preskill (GKP) code \[ 8, 9\], cat code \[ 10, 11\], bino-
+[54x395]rently well established bosonic codes include Gottesman-
+[54x418]cal qubits, the bosonic code is more hardware efficient and
+[54x429]codes that encode a single logical qubit using many physi-
+[54x452]dimensional bosonic quantum system \[ 4, 5\], e.g., a simple
+[54x486]code is introduced to correct errors by using redundancy
+[54x498]tolerant quantum computation. Quantum error correcting
+[58x119]Electronic address: sudaiqin@hust.edu.cn
+[62x780]Correcting biased noise using Gottesman-Kitaev-Preskill repetition code with noisy
+[64x221]In order to achieve fault tolerance, the common strategy
+[64x509]Noise is the main hindrance to achieve large-scale fault-
+[108x579]with repetition code. Our study paves the way for practical implementation of error correction by
+[109x568]concatenating GKP code with low-level qubit codes.
+[109x589]size. Furthermore, one round of GKP error correction has to be performed before concatenating
+[109x610]qubits in correcting biased noise. We find that there exists a critical value of noise variance for
+[109x631]code or repetition code that promises a high fault-tolerant threshold to suppress the logical error.
+[109x641]noise in phase space is biased, square-lattice GKP code can be concatenated with XZZX surface
+[109x652]Kitaev-Preskill (GKP) code is proposed to correct small displacement error in phase space. If the
+[109x662]fault-tolerant quantum computation. As one of the most important bosonic codes, Gottesman-
+[124x537]I. INTRODUCTION
+[164x721]Hubei Key Laboratory of Gravitation and Quantum Physics, PGMF,
+[167x711]Institute for Quantum Science and Engineering, School of Physics,
+[249x742]∗
+[249x742]Zhifei Li and Daiqin Su
+[289x766]ancilla
+[317x274]when the imperfections from the ancillary GKP qubits
+[317x377]with repetition code \[ 39\], which requires easier syndrome
+[317x119]code concatenation. We also find that the logical Pauli
+[317x142]error rate of the GKP code and modifies the error profile,
+[317x165]measurement outcomes. We find that the GKP error
+[317x176]repetition code and recovery operation according to the
+[317x199]rection procedure consists of four steps: encoding, one
+[317x233]lattice GKP code with classical repetition code to cor-
+[317x262]are taken into account.
+[317x285]an upper bound, and the requirement is more stringent
+[317x308]to be ideal, namely, with infinitely energy. The error
+[317x342]biased GKP repetition code with isotropic noise, which
+[317x388]to suppress biased noise is to concatenate GKP code
+[317x400]and computational resources. A relatively easier scheme
+[317x411]surface code \[ 38\], which therefore consume more physical
+[317x422]ment and decoding are still complicated for the XZZX
+[317x468]the displacement error is biased \[ 37\]. This can happen in
+[317x480]surface code would enable lower squeezing threshold if
+[317x491]expected that concatenation of GKP code with XZZX
+[317x514]known as the XZZX surface code \[36\], has recently been
+[327x245]In this work, we study the concatenation of square-

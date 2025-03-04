@@ -1,0 +1,252 @@
+Page dimensions: 612.0x792.0
+[54x105]is
+[54x116]−
+[54x673]for the trace of the Green's function
+[54x696]part
+[54x82]tegration variable
+[54x93]transformed into the result Eq. (15) by replacing the in-
+[54x128]will appears for
+[54x321]The function in the denominator of the integral (13) can
+[54x437]the integration boundaries results an additional minus
+[54x70]cases
+[54x730]Ω
+[54x730]taking
+[54x605]function of
+[54x582]determined by Eqs. (10).
+[54x195]the implicit form
+[54x264]|
+[54x264]that
+[54x287]point
+[54x252]1
+[57x507]Outside the region (14) Tr
+[57x139]where the definition (7) is used. The similar expression
+[58x616]where we used the fact that the integrand is an even
+[64x484]The next step in evaluation of Eq. (13) is to perform
+[64x570]The DOS is proportional to the imaginary part of
+[64x113]p
+[66x391]>
+[80x264]y
+[80x168]|
+[81x696]ı
+[85x730]→
+[86x105]y
+[87x391], and
+[87x559], therefore it is nonzero only in the region of
+[89x116]y
+[106x264]1
+[110x160]π
+[110x285]sgn
+[115x391]m
+[116x287]m
+[117x605]. Here the values
+[118x298]y
+[118x298]and changes the sign only once at the
+[120x168]√
+[121x105]y
+[122x460](1
+[124x391]|
+[124x391]<
+[126x688]+
+[128x105]y
+[128x160]Ω
+[130x659]π
+[131x730]0
+[131x448]y
+[134x460]y
+[135x472]. It is convenient to replace
+[136x636]0
+[137x115]and denominator in the integrand
+[139x128]−
+[141x287]y
+[147x105])
+[149x463]2
+[151x527]a
+[151x105]. The corresponding DOS can be
+[152x448]1
+[154x592]and
+[156x531]2
+[157x644]y
+[158x463]−
+[160x181]1
+[161x313]2
+[163x527]b
+[163x593]Ω
+[163x128]: the boundaries of integration
+[163x82]y
+[164x662]sgn
+[164x662](
+[168x82]. So Eq. (15) is valid for both
+[169x507]is real and the DOS is equal
+[170x158]0
+[172x425]y
+[172x638]sgn Ω
+[180x313]2
+[182x711]2
+[188x649]−
+[190x634]−
+[192x358]|
+[194x287]2
+[198x707]gets small imaginary
+[200x527].
+[200x527](14)
+[201x636]for
+[202x605]and
+[208x275]and using the fact
+[209x313]2
+[212x605]b
+[214x162]2
+[216x206]gives the DOS in
+[216x653]a
+[216x638]a
+[226x159]−
+[233x159]y
+[239x642]⩽
+[244x313]2
+[258x168],
+[258x310]5
+[261x657]2
+[264x332]|
+[264x310]−
+[267x332]m
+[273x310]4
+[275x403]= 1
+[278x593]m
+[296x332].
+[317x208]substituting it in Eq. (7), we obtain the nonzero DOS in
+[317x417]nominator of Eq. (13). For
+[317x547]ρ
+[317x131]Eq. (14), which reads
+[321x143]Here the boundaries of integration are determined by
+[323x604]1
+[327x231]Lets consider the case
+[327x406]−
+[336x406]b
+[340x410]2
+[345x547](Ω) =
+[353x606],
+[355x429]we need first to analyze the function in de-
+[356x616]3
+[363x592]2
+[363x165]2
+[367x406]m
+[367x171]√
+[370x694]Z
+[371x383]˜
+[372x606]y
+[372x241]1
+[373x558]
+[375x410]2
+[378x177]Ω
+[380x671]2
+[380x406]−
+[381x382]2
+[384x165]2
+[385x177]|
+[387x328]˜
+[387x356]˜
+[389x552]2
+[389x383], respectively, where
+[389x557]2
+[391x355]= Ω
+[391x162]1
+[392x681]p
+[392x606]u
+[393x592](1
+[399x242],
+[402x639]−
+[402x273]Ω
+[402x549]Ω
+[403x74]|
+[404x604]3
+[404x592]y
+[406x88]y
+[406x673]u
+[406x558]Ω
+[407x301]1
+[408x640]u
+[409x277]2
+[410x617]. In Eq. (15) these parameters are
+[410x241]2
+[410x87]1
+[411x606]and the result of integration is
+[411x671]3
+[412x549]−
+[415x74]>
+[416x406]y
+[416x273]m
+[417x338]2
+[418x549]1
+[423x130]1
+[423x130]≥
+[424x592])
+[424x363]1
+[424x639]1
+[428x231]|
+[429x259]1
+[430x321]2(
+[430x349]2(
+[432x162]−
+[432x592]2
+[434x335]−
+[434x567]q
+[435x277]−
+[436x88]|
+[437x603]i
+[439x406]−
+[439x349]+ 1)
+[439x231]|
+[441x363](
+[441x673]−
+[441x673]y
+[445x688]dy
+[445x131]≥
+[446x231]1
+[447x301]2
+[447x301]= ˜
+[451x557]9
+[453x74]|
+[454x557]−
+[455x131]y
+[455x466]>
+[457x654](
+[458x417]m
+[458x88]1
+[460x321].
+[460x466]1
+[460x406]. Here the left and right
+[461x557]Ω
+[461x654]u
+[462x231], then factor
+[462x162])(
+[466x302]y
+[466x335]1)
+[467x417]| ̸
+[471x301]2
+[474x74].
+[474x640]u
+[474x654]u
+[474x108]y
+[475x161]−
+[475x161]1
+[476x266](19)
+[476x417]we can write
+[476x417]= 1
+[476x673]y
+[484x673]u
+[489x639]1
+[490x328](18)
+[505x162]y
+[513x553]Ω
+[521x231]m
+[522x719](
+[525x394],
+[526x719]x
+[529x234]−
+[530x394]y
+[531x162])
+[531x719])
+[532x592]m
+[534x534].
+[536x170](20)
+[557x756]5
+[559x131].

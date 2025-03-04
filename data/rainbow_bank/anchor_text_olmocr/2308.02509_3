@@ -1,0 +1,133 @@
+Page dimensions: 612.0x792.0
+[0x0]{z
+[0x0]{z
+[0x0]}
+[0x0]}
+[135x129]trained) and dedicated networks (separately trained) for edge/node prediction.
+[135x141]between consecutive GNN layers, multiple heads with a shared backbone (jointly
+[135x165](
+[135x165]edges
+[135x177]the orientation of each vertebra. Prediction scores of corresponding directed
+[135x189]detection) and body-pedicle association via edge prediction, implicitly defining
+[135x201]T1-T13, L1-L6, S1-S2), keypoint-level legitimacy (legitimate vs. false-positive
+[135x225]between the two endpoints.
+[135x237]x
+[135x249]channels which represent the different spine segments). The edge input features
+[135x273]probability in
+[135x273]\[0
+[135x284]type (body, left or right pedicle) and the segment input information (a pseudo-
+[135x392]over the neighborhood
+[135x476]edge features are updated as follows:
+[135x630]following \[5\] to perform several prediction tasks on this graph simultaneously:
+[135x654]associated with information through embeddings, described below.
+[135x666]the other cliques, ensuring a fully connected graph. All nodes and edges are
+[135x692]4 V. Bürgin et al.
+[135x380]our case, two distinct two-layer MLPs with ReLU nonlinearities. After
+[135x308]for the output.
+[135x320]a node legitimacy prediction score: nodes predicted as illegitimate are discarded
+[135x332]logit, respectively. The last entry in the node prediction vector is interpreted as
+[135x344]and edges) to obtain a vector of node class logits or a single edge prediction
+[135x356]Each node/edge embedding is passed through a linear layer (distinct for nodes
+[135x368]message-passing layers we obtain an embedding vector for each node and edge.
+[135x488]v
+[135x488]by
+[135x500]node update and edge update operation. Denoting the feature vector of a node
+[135x512]beddings which are updated in each layer. A message-passing layer performs a
+[135x524]To perform these task, our message-passing GNN maintains edge and node em-
+[139x613]1.
+[139x613]keypoint association prediction:
+[139x578]body keypoint level prediction:
+[139x578]2.
+[139x554]keypoint legitimacy prediction:
+[140x235]∈
+[140x235]uv
+[144x488]x
+[150x213]The output of the GNN contains finer spine-level classification (i.e. C1-C7,
+[150x642]GNN stage
+[150x404]L
+[150x404]Here
+[150x296]The node input features
+[152x613]we model association between body
+[152x589]cation on the over-connected
+[152x601]keypoints and their corresponding pedicle keypoints as binary edge classifi-
+[152x542]additionally compute an binary legitimacy prediction for each node.
+[152x566]level prediction as multi-class node classification.
+[153x237]R
+[164x487]v
+[165x165]u, v
+[169x488], and the feature vector of a directed edge
+[169x240]4
+[169x240]consist of the normalized direction vector of the edge and the distance
+[173x453]x
+[173x433]|
+[178x450]=
+[178x450]u
+[178x457]′
+[181x165]and
+[181x165])
+[188x165](
+[197x440]v
+[201x440]∈N
+[208x273],
+[208x273]1\]
+[209x462]M
+[209x642]The second stage employs a generalized message-passing GNN
+[211x165]v, u
+[212x273]for each of the four spine segments of belonging to that
+[213x439]u
+[218x440]∪{
+[221x424]Node update
+[226x165])
+[226x165]are symmetrized by taking the mean.
+[227x440]u
+[232x440]}
+[235x392]N
+[238x453]ψ
+[243x391]u
+[244x451]node
+[248x392]ψ
+[248x392].
+[261x391]node
+[261x391]and
+[262x296]x
+[265x453]x
+[267x295]∈
+[267x295]u
+[271x451]u
+[276x453], x
+[277x296]R
+[280x589]k
+[281x392]edge
+[286x589]-NN graph.
+[286x451]v
+[291x453], x
+[295x300]7
+[295x300]consist of the one-hot encoded keypoint
+[300x391]are trainable parametric functions: in
+[301x451]uv
+[310x554]to filter out false-positive keypoints, we
+[310x578]for body keypoints, we model the spine
+[310x453])
+[314x453]′
+[314x453], x
+[339x433]|
+[344x450]uv
+[344x450]=
+[357x453]ψ
+[359x488](
+[369x424]Edge update
+[374x451]edge
+[379x488]by
+[379x488])
+[386x488]x
+[390x453](
+[393x453]x
+[399x451]u
+[404x453], x
+[406x487]uv
+[414x451]v
+[416x488], the node and
+[419x453], x
+[439x453])
+[449x380]N
+[468x453](1)

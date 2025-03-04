@@ -1,0 +1,39 @@
+Page dimensions: 612.0x792.0
+[72x709]impose the UMAS assumption. Reassuringly, estimates show that admission to the case-study
+[72x693]program, Business Administration at PUC Santiago, increases students' probability to graduate
+[72x676]from that program. The effect is particularly strong for those whose next-preferred alternative is
+[72x660]Economics at UChile or Social Sciences and Humanities at PUC Santiago.
+[89x643]Admission to our case-study program also strongly decreases students' probability to reapply
+[72x627]through the centralized system in subsequent years for students whose local next-preferred option is
+[72x610]Science and Engineering at UChile, Economics at UChile, or Social Sciences and Humanities at PUC
+[72x594]Santiago. Interestingly, for students with the latter two next-best alternatives, it also decreases the
+[72x578]probability to graduate from any program. For students whose next-best alternative is Science &
+[72x561]Engineering at UChile, the naive estimate indicates a small negative effect on graduation from any
+[72x545]program while our bounds show that this effect cannot be signed and may be 50 times larger in
+[72x528]magnitude. Bounds do suggest that admission to Business Administration at PUC Santiago has a
+[72x512]negative effect on reapplication for these students. While we generally see magnitudes of 0.1 or 0.2
+[72x495]in the effects on graduation from Business Administration or any program, we see much smaller
+[72x479]magnitudes on the students' probability to graduate from a STEM program —which is reassuring
+[72x463]given that our definition of STEM does not include Business Administration. Finally, we find a
+[72x446]strong positive effect on the probability to graduate from a top institution for those whose local
+[72x430]next-best alternative is Law or Social Sciences and Humanities at PUC Santiago.
+[72x391]6 Conclusion
+[89x364]Centralized mechanisms for the assignment of students to educational programs are growing
+[72x348]in popularity across the world. These systems provide a valuable source of exogenous variation
+[72x331]through discontinuities around admission cutoffs. This along with individual-level data on admis-
+[72x315]sions, preferences, and future outcomes allow researchers to identify a wide range of causal effects of
+[72x298]education on outcomes. The variation is useful for identification as long as we control for students'
+[72x282]true preferences; however, true preferences generally differ from what students report to the mech-
+[72x266]anism given that most implementations of mechanisms generate incentives for students to behave
+[72x249]strategically.
+[89x233]This paper provides a novel approach to partially identify effects from mechanism assignment
+[72x216]on future outcomes that is robust to strategic behavior. We illustrate our approach using data
+[72x200]from a deferred-acceptance mechanism that assigns roughly 70,000 students to more than 1,000
+[72x183]university-major programs every year in Chile. First, we find substantial evidence of strategic
+[72x167]behavior which confirms earlier findings from the literature on Chile. Second, we compute bounds
+[72x151]on the average effect of program assignment on graduation outcomes. We do so for students whose
+[72x134]scores are marginal to the cutoff of admission into one of the most popular and selective programs
+[72x118]in the system: business administration at the Catholic University of Santiago. Although admission
+[72x101]into this program increases the likelihood of graduating from that same program, its effect on the
+[72x85]likelihood of ever graduating from university varies depending on what students prefer as their
+[301x42]29

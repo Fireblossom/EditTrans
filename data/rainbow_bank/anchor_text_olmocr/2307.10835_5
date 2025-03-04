@@ -1,0 +1,221 @@
+Page dimensions: 595.3x841.9
+[48x679]=
+[48x679]ζ
+[48x708]loading, the direct term is given by
+[48x756]6
+[48x626]of floating ice (e.g. Crawford et al. 2018, equations 31–34).
+[48x525]· ∇
+[48x525]u
+[48x554]the above expression for sea level change we can write
+[48x578]however, we assume that these loads are decomposed as in eq.(2.11) into water and direct terms that share a common ocean function. From
+[48x479]Z
+[48x62]with respect to. Suppose that, within eq.(2.17), we take
+[48x115]∆
+[48x144]Because the fingerprint problem is linear, its solution must take the form
+[48x174]2.4 Symmetry of the Green's function
+[48x215]been facilitated by restricting attention to the elastic fingerprint problem.
+[48x239]viscoelastic earth model. What is new is the explicit statement as a reciprocity theorem along with the more elementary derivation that has
+[48x362]Z
+[48x421]Z
+[53x458]∂M
+[53x284]∂M
+[53x342]∂M
+[53x400]∂M
+[56x115]SL
+[66x467](
+[66x650]ρ
+[66x650]where
+[66x732]where
+[66x732]ρ
+[66x602]Consider again a pair of solutions
+[66x602](
+[66x496]and hence eq.(2.8) becomes
+[66x379]If we now substitute into the equality the decompositions of the loads,
+[66x379]σ
+[66x438]Φ
+[66x438]The terms involving the constants
+[66x85]for an appropriate Green's function, where we have added a subscript to the surface element to make clear which variable it is defined
+[66x263]Again, this is a known result, being implied as a special case by the adjoint theory of Crawford et al. (2018) for sea level change in a
+[66x321]∆
+[66x321]and cancelling the terms symmetric in
+[67x292]∆
+[67x350]∆
+[67x408]∆
+[68x115](
+[68x525]ϕ
+[68x525]Φ +
+[69x467]−
+[70x678]i
+[72x115]x
+[72x756]et al.
+[73x679]−
+[75x292]SL
+[75x350]SL
+[75x408]SL
+[76x467]g
+[76x467]∆
+[77x115]) =
+[83x679]C
+[86x525]=
+[87x296]ζ
+[87x296]†
+[87x354]†
+[87x413]†
+[87x413]σ
+[90x467]SL
+[91x350](
+[93x292]d
+[93x408]d
+[93x127]Z
+[94x525]−
+[95x350]ρ
+[95x649]is the density of ice, and
+[95x649]i
+[95x731]is the density of water and
+[95x731]w
+[98x106]∂M
+[100x349]w
+[100x679])∆
+[100x650]∆
+[103x471]†
+[103x471]+ Φ
+[103x732]C
+[105x408]S
+[105x408]=
+[106x350]C
+[106x350]∆
+[106x292]=
+[111x679](2.12)
+[111x679]I,
+[111x525]g
+[111x525]∆
+[112x115]G
+[120x115](
+[122x350]+
+[123x115]x
+[123x421]Z
+[125x465]g
+[125x471]†
+[125x525]+ Φ
+[125x525]SL
+[129x400]∂M
+[129x115]x
+[129x115],
+[129x467])
+[129x467]σ
+[129x284]∂M
+[134x467]d
+[136x350]ζ
+[138x119]′
+[141x115])
+[142x408]∆
+[143x292]∆
+[145x115]ζ
+[146x467]S
+[146x467]=
+[149x115](
+[150x408]SL σ
+[150x350]) d
+[151x292]SL ζ
+[153x115]x
+[155x524]g
+[159x119]′
+[160x525],
+[161x115]) d
+[162x350]=
+[162x350]S
+[165x479]Z
+[169x296]d
+[169x296]†
+[170x413]d
+[170x413]†
+[170x458]∂M
+[171x115]S
+[177x113]x
+[179x529]†
+[179x529]· ∇
+[180x292]S.
+[180x292](2.17)
+[180x408]S.
+[180x408](2.15)
+[180x362]Z
+[181x115]′
+[181x115],
+[182x467](
+[185x115](2.18)
+[186x342]∂M
+[193x467]∆
+[193x467]g
+[196x602]u
+[196x437]g
+[196x437]and
+[197x525]Φ +
+[197x525]ϕ
+[197x650]the change in ice thickness. The factor,
+[197x650]I
+[200x350]∆
+[200x732]the ocean function that equals one where water is present and zero otherwise. In the case of ice
+[202x602], ϕ
+[203x438]Φ
+[204x650]1
+[207x467]SL
+[207x467]+ Φ
+[207x350]SL
+[207x350](
+[211x602])
+[211x602]and
+[213x321]SL
+[213x321]and
+[217x602](
+[220x529]†
+[220x529]=
+[224x436]vanish due to conservation of mass, and so the identity simplifies to
+[224x436]g
+[224x441]†
+[227x525]−
+[227x321]∆
+[230x349]w
+[236x350]C
+[236x350]∆
+[237x602]u
+[242x467])
+[242x467]σ
+[243x606]†
+[244x525]g
+[244x525]∆
+[247x602], ϕ
+[250x321]SL
+[252x350]SL
+[252x471]d
+[252x471]†
+[256x606]†
+[258x525]SL
+[260x602]of the loading problem associated, respectively, to with loads
+[263x325]†
+[263x325]we arrive at
+[263x467]S.
+[264x354]+
+[264x354]†
+[266x602]σ
+[270x529]+ Φ
+[270x529]†
+[270x350]ζ
+[284x354]†
+[288x350]) d
+[292x523]g
+[292x529]†
+[296x525](2.13)
+[296x525],
+[298x350](2.16)
+[298x350]S,
+[320x379]and
+[327x379]σ
+[345x650]−
+[348x383]†
+[352x650]C
+[352x379], we find
+[368x650], within this expression accounts for the possibility
+[492x602]and
+[500x602]σ
+[522x606]†
+[526x602]. Here,

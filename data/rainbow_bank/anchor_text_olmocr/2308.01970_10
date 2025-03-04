@@ -1,0 +1,230 @@
+Page dimensions: 612.0x792.0
+[0x0](b)
+[15x134]p
+[15x135]p
+[25x45]20
+[25x61]1.0
+[25x85]500
+[25x85]0.5
+[25x89]10
+[36x122]0.4
+[36x134]0.5
+[36x178]10
+[36x181]500
+[36x218]1.2
+[36x222]20
+[50x30]0
+[54x454]C
+[54x124]C
+[54x145]component uncertainties have to be minimized and their
+[54x189]are of the model LT1363, and are powered through the DC
+[54x199]voltages across all nodes when required. The op-amps used
+[54x210]A relay is used to simultaneously switch on or off the input
+[54x262]grounding layer is placed in the gap between any two layers.
+[54x272]vent unintended interference between different PCB layers, a
+[54x283]tion, stackup layout, internal layers and grounding. To pre-
+[54x624]the truncation position
+[54x635]Effect of changing the order
+[54x635]FIG. 5.
+[54x82]capacitors are chosen for their stability.
+[54x590]good numerical agreement with the theoretical prediction ¯
+[55x133]0
+[61x123]1
+[61x123]= 4
+[61x113]= 0
+[64x30]0
+[69x114].
+[87x114]50nF with 0.5% error tolerance are obtained by se-
+[108x464]V
+[108x464]= ¯
+[120x507]2
+[120x123]= 2
+[120x123]2
+[124x504]−
+[124x504]L
+[126x555]J
+[127x30]10
+[130x30]10
+[131x554]+
+[131x554]c
+[132x464]P
+[133x510](
+[146x124]C
+[149x613]EB
+[149x613]increases exponentially with
+[153x509]+ 2
+[160x555]=
+[173x510]C
+[179x123]= 4
+[185x464]p
+[187x30]20
+[190x5]xcut
+[194x30]20
+[194x30]20
+[197x30]20
+[198x5]xcut
+[198x5]xcut
+[200x5]xcut
+[201x509]3
+[202x411]¯
+[205x124]3nF,
+[209x461]C
+[215x460]0
+[215x868]0 10 20 30 40\n-0.2\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\nxcut\np
+[221x471]1
+[222x425]
+[222x440]
+[226x461]ω
+[231x462]2
+[232x510])
+[234x425]−
+[234x123]4
+[235x461]L
+[239x435]0
+[242x404].
+[243x393]−
+[243x464](
+[244x404]17 0
+[253x510]−
+[256x464]C
+[258x30]30
+[260x124]04nF and
+[261x30]30
+[262x30]30
+[263x463]+ 2
+[263x30]30
+[270x435]8
+[271x526]
+[271x542]
+[275x435].
+[277x414].
+[277x435]85 0
+[277x435]−
+[283x464]C
+[285x590]p
+[286x504]−
+[286x504]2
+[286x525]1
+[286x525]−
+[287x536]−
+[289x463]2
+[289x463]+
+[290x589]EB
+[290x589]∝
+[292x526]C
+[293x484]C
+[293x516]0
+[294x536]C
+[295x464]C
+[303x383]−
+[303x425]17 0 0 0
+[306x414]−
+[306x414]5
+[308x504]4
+[308x504]0
+[308x525]3
+[317x195]amplitude 2V, with frequency swept from 310kHz to 400kHz
+[317x226]sion DSO7104B) measures the voltage signal
+[317x299]of no more than 200mΩ, as measured through a WK6500B
+[317x81]can be reconstructed, thereby yielding the Laplacian and its
+[317x91]tant voltages
+[317x112]I
+[317x112]the current is
+[317x123]i
+[317x133]input a signal with amplitude 2V and frequency 350kHz into
+[317x144]the same arbitrary waveform generator is used to successively
+[318x590]±
+[319x624]= 1
+[325x515]2
+[327x154]J
+[327x154]To map out the matrix elements of the circuit Laplacian
+[327x258]To measure the resonances and hence map out the EB state
+[329x414]8
+[330x30]40
+[331x516]C
+[331x536]C
+[332x505]C
+[334x393].
+[335x404]5 0
+[335x404].
+[336x393].
+[336x393]91 0
+[336x414]85 0
+[336x414]−
+[336x435]91 0 0
+[337x102]J
+[337x102]-th column of
+[339x525]C
+[345x624],
+[347x515]−
+[347x535]0
+[347x535]3
+[352x590]λ
+[354x464]and ¯
+[354x624]3
+[354x624],
+[359x383]0
+[363x483]−
+[363x525]−
+[366x383]25 0
+[366x383].
+[369x505]C
+[371x536]C
+[371x624],
+[373x464]P
+[376x70]P
+[380x468]is the matrix on the RHS (Eqs. 5 and 6).
+[380x468]′
+[381x111]∝
+[381x111]j
+[383x635]spectrum of our canonical model
+[383x74]through matrix inversion.
+[385x483]0
+[385x483]4
+[385x504]3
+[385x504]−
+[385x525]0 0 0
+[385x587]π
+[386x91]i
+[388x393]8
+[390x112]δ
+[391x635]H
+[402x494]2
+[402x515]+
+[402x535]2
+[403x106]−
+[405x596]√
+[408x425]
+[408x495]C
+[408x516]C
+[408x536]C
+[416x504]C
+[424x494]−
+[424x535]0 0
+[437x590]L/π
+[438x841]0 10 20 30 40\n-20\n-10\n0\n10\n20\nxcut\np
+[441x483]−
+[441x483]1
+[441x504]2
+[447x505]C
+[449x495]C
+[463x483]−
+[463x504]0
+[463x504]4
+[479x494]+
+[479x494]1
+[486x495]C
+[494x483]5
+[494x188]eigenvalues).
+[494x188]′
+[501x515]4
+[505x542]
+[510x590]= 12
+[515x510](20)
+[515x510]V
+[540x91]J
+[541x634]=2
+[550x590]73.
+[552x95]−
+[560x154],
+[560x841]0 10 20 30 40\n-500\n0\n500\nxcut\np

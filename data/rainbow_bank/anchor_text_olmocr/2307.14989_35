@@ -1,0 +1,108 @@
+Page dimensions: 612.0x792.0
+[54x646](Chamberland and Ronagh, 2018; Varsamopoulos
+[54x646]et al.
+[54x682]performance of this decoder, several studies discussing
+[54x706]lar performance as the MWPM decoder while maintain-
+[54x718]tance,
+[54x718]𝑑
+[54x730]proved to be an efficient method for decoding small dis-
+[54x275]et al.
+[54x287]cific to the noise model in consideration (Varsamopoulos
+[54x299]model so that they can cope with it, i.e. training is spe-
+[54x311]portantly, NN decoder should be trained using this error
+[54x346]ion as other decoders, dealing with noisy measurements
+[54x587]coder proved an almost linear complexity at the cost of
+[54x610]proved a better threshold than MWPM at the cost of a
+[54x622](Sweke
+[54x634]2020b) or the reinforcement learning based decoder in
+[54x263](Varsamopoulos
+[54x263]et al.
+[54x142]only been tested for small distances
+[54x142]𝑑 <
+[54x166]et al.
+[54x166]mer
+[54x178]may scale exponentially with the code distance (Vas-
+[54x251]mance as MWPM for this scenario.
+[54x94]𝑑
+[54x130]et al.
+[54x382]et al.
+[54x419]the natural trade-off between accuracy and speed.
+[54x455]and Martin-Delgado, 2020). Each of the proposed ML
+[54x467]et al.
+[54x467](Baireuther
+[54x479]et al.
+[54x479]and Melko, 2017; Wagner
+[54x527]proposed for other topological codes such as the toric
+[54x563]Combinations of NN decoders with RG decoders have
+[54x358]agh, 2018; Varsamopoulos
+[54x491]et al.
+[54x370]2019; Chamberland
+[54x503]et al.
+[54x70]ing stage before operation implies that NN and ML de-
+[54x82]et al.
+[64x238]To sum up, NN decoders are promising in the quest
+[77x130], 2022). Interestingly, promising results have been
+[78x275], 2017). The performance of the NN decoder of
+[84x718]∈{
+[111x622], 2020). The deep neural network decoder
+[111x718],
+[120x718],
+[125x718]7
+[130x718]}
+[132x503], 2020; Krastanov and Jiang, 2017; Liu
+[132x467], 2019) or the semionic code (Varona
+[134x718], rotated planar codes achieving simi-
+[151x263], 2017) achieves the same perfor-
+[158x515], 2019; Domingo Colomer
+[158x515]et al.
+[164x370], 2023; Chamberland and Ron-
+[260x575], 2020b).
+[296x646],
+[296x515],
+[317x70]number of clauses of a Boolean function that can be made
+[317x82]erally refers to the problem of determining the maximum
+[317x106]LightsOut puzzle, the authors formulate such problem as
+[317x118]surement. In order to obtain the minimal solution of the
+[317x130]timate of minimum weight matching the syndrome mea-
+[317x142]set for the puzzle, which is equivalent to a decoding es-
+[317x154]puzzle. The main idea is to find the minimal solution
+[317x166]pose a decoding methods based on solving the LightsOut
+[317x314]by doing the following analogy:
+[317x338]dependence on the order). The authors argue that this
+[317x350]on how often its neighbour switch have been toggled (in-
+[317x397]lem then tries to find out a sequence of switch actions so
+[317x421]lights change their previous state, i.e. if they were on
+[317x493]the decoding problem of the color code and the Light-
+[317x505]2023a). This decoder is based on the analogy between
+[317x517]efficient algorithm to decode color codes (Berent
+[317x552]4. MaxSAT decoder
+[317x622]scales as 2
+[317x622]2
+[317x634]not too high. However, since the number of logical errors
+[317x646]logical qubits, implying that the possible logical errors is
+[317x658]other topological codes since they encode a low number of
+[317x694]et al.
+[317x706]platforms (Etxezarreta Martinez
+[317x718]tuates over time, as it occurs for superconducting qubit
+[333x210]•
+[333x210]Minimum-weight decoding estimate
+[333x231]•
+[333x252]•
+[333x252]Syndrome
+[333x273]Checks
+[333x273]•
+[333x293]Data qubits
+[333x293]•
+[338x610], 2022),
+[338x610]𝑘
+[342x210]↔
+[342x231]↔
+[367x626]with the number of logical qubits (Fuentes
+[379x610], these methods may not be implementable
+[383x694], 2023). Additionally, it is important to
+[410x293]switches.
+[439x231]switch set that is a solution.
+[481x706], 2021; Etxezarreta
+[511x210]solution
+[552x756]36
+[559x517],

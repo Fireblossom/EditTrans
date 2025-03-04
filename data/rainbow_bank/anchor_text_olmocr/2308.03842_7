@@ -1,0 +1,23 @@
+Page dimensions: 612.0x792.0
+[Image 85x509 to 527x735]
+[Image 108x118 to 504x274]
+[235x487]Figure 6: Lyric Query Detection
+[100x455]In the process of scanning the database, the system identifies all the songs that have the word
+[85x443]'good' either in their titles or in their lyrics. The first song that meets this criterion is 'Good Life' by
+[85x431]Kehlani and G-Eazy. This song contains the word 'good' not only in its title but also within its lyrical
+[85x419]content.
+[100x407]It's important to note that the search doesn't stop at 'Good Life.' There might be many other
+[85x395]songs with the word 'good' in their titles or lyrics within the database. The given information only
+[85x383]indicates the first result that the system presents in response to the query 'good.'
+[100x371]To summarize, the system is a music-centric search tool that uses the provided query to locate
+[85x359]songs in its database containing the term 'good' either in their titles or lyrics. The first song it finds
+[85x347]is 'Good Life' by Kehlani and G-Eazy, which contains 'good' both in its title and lyrics. The system
+[85x335]can provide more results if the user wishes to explore other songs with the word 'good.'
+[100x323]In Figure 7, the dataset consists of song lyrics from the year 1950 to 2019. This provides a well-
+[85x311]spread dataset which allows us to get results from over 60 years, thus making the search engine efficient
+[85x299]enough to provide songs from every year. The year 2017 has the most songs amounting upto 660 songs
+[85x287]from various different genres and emotions.
+[191x96]Figure 7: Distribution of songs throughout the years
+[100x72]In Figure 8, the dataset has been categorized into 7 major genres namely - pop, country, blues,
+[85x60]rock, jazz, reggae and hip hop. There are about 7042 songs under the genre pop. This includes pop
+[304x27]8

@@ -1,0 +1,229 @@
+Page dimensions: 612.0x792.0
+[92x143]these quantities only differ by 1, so only additive terms are affected.
+[92x312]n
+[92x312]≥
+[92x326]If
+[92x326]Chain reduction.
+[92x353]single leaf with a new label.
+[92x366]least two leaves, then reduce
+[92x366]T
+[92x380]If
+[92x380]Subtree reduction.
+[92x407]of the uMAF \[2\]:
+[92x421]is well-known that the following two polynomial-time reduction rules do not alter the size
+[92x434]Recall the definitions of common subtrees and common chains from the preliminaries. It
+[92x458]5 A tight 7k kernel
+[92x659]components. We know that
+[92x659]|
+[92x672]β
+[92x170]and subtree reductions, and this is tight up to a constant additive term.
+[92x184]There is a 7k kernel for uMAF on caterpillars using only the common chain
+[92x184]Theorem 4.
+[92x204]much smaller kernel is obtained than on general unrooted binary trees.
+[92x217]pillar. In this section we will show that, when applied to exhaustion on two caterpillars, a
+[92x244]15
+[92x258]fully reduced
+[92x258]trees are
+[92x299]respectively.
+[102x672]Opt
+[103x244]k
+[103x244]taxa \[10\], where
+[104x157]3
+[108x154]The kernel bound given in \[10\] is in terms of TBR distance, rather than uMAF, but as noted earlier
+[109x506]So we pick
+[109x506]β
+[109x686]For the fourth property we need to find a value for
+[109x686]β
+[109x231]Note that applying the subtree or chain reduction to a caterpillar produces a new cater-
+[109x272]When applied to exhaustion on two unrooted binary trees, at which point we say the
+[112x244]k
+[113x312]T
+[120x672](
+[124x672]T
+[130x671]G
+[137x672], T
+[149x669]G
+[150x676]′
+[156x672])
+[156x672]− |
+[163x506]= 1 and we are done.
+[178x672]F
+[183x312]and
+[187x672]||
+[189x326]T
+[192x244]is the size of the uMAF
+[193x672]. Let
+[193x672]ℓ
+[194x258], these rules yield an instance with (ignoring additive terms) at most
+[195x312]T
+[199x624]|
+[199x326]and
+[202x244]3
+[202x624]Opt
+[203x380]T
+[211x326]T
+[214x380]and
+[220x624](
+[223x316]to
+[223x316]′
+[224x624]T
+[225x672]=
+[227x380]T
+[229x312]T
+[230x659]F
+[231x622]G
+[235x366]and
+[235x672]|
+[238x624], T
+[239x659]| ≥ |
+[240x330]′
+[240x330]have a maximal common
+[246x326]n
+[247x366]T
+[249x311]r
+[249x311]=
+[251x628]′
+[252x672]I
+[256x624]− |
+[256x624])
+[256x312]T
+[257x671]F
+[257x671]|
+[257x384]have a maximal common pendant subtree
+[259x659]F
+[264x672]be the number of
+[264x380]S
+[268x663]′
+[271x659]| ≥ |
+[272x672]A
+[276x312]|
+[276x370]′
+[276x370]to
+[277x624]F
+[279x312]X
+[279x312]\{
+[283x366]T
+[285x624]=
+[285x624]||
+[291x659]F
+[294x541]|
+[294x541]=
+[294x558]=
+[294x558]k
+[294x574]= 12
+[294x591]= 12
+[294x607]≥ |
+[294x624]|
+[300x663]′′
+[301x113]13
+[303x312]ℓ
+[304x365]r
+[305x659]= 12
+[305x659]|
+[306x558]−
+[308x311]4
+[309x607]F
+[309x624]F
+[312x312], ℓ
+[312x366]T
+[314x558]ℓ
+[317x574]−
+[317x574]n
+[317x591]n
+[317x591]−
+[317x612]′′
+[317x624]| −
+[319x244], and the analysis is tight.
+[322x311]5
+[323x607]| −
+[326x574]ℓ
+[326x591]ℓ
+[326x312], . . . , ℓ
+[327x541](
+[331x541]G
+[333x659]n
+[333x659]−
+[334x624]Opt
+[337x574]−
+[337x591]−
+[339x607]Opt
+[340x541])
+[340x541]− |
+[341x364]r
+[342x370]′
+[342x659]ℓ
+[344x591]Opt
+[345x366]S
+[345x366], respectively, by replacing
+[352x624](
+[355x311]n
+[356x624]T
+[357x607](
+[360x541]I
+[361x312]and
+[361x312]}
+[361x607]T
+[363x622]G
+[365x539]F
+[365x539]||
+[368x606]G
+[370x312]T
+[370x624], T
+[370x574]−
+[370x574]n
+[370x686]such that
+[371x671]v
+[373x591](
+[374x326]C
+[374x326]-chain
+[375x607], T
+[377x591]T
+[379x574]k
+[381x621]G
+[381x686]|
+[382x628]′
+[386x605]G
+[387x612]′
+[388x624])
+[390x591], T
+[393x607])
+[396x574])
+[397x310]r
+[397x310]=
+[398x316]′
+[402x588]G
+[403x595]′
+[403x676]′′
+[403x676]that are covered by 6
+[404x312]T
+[406x326]= (
+[409x591])
+[424x316]′
+[427x312]|
+[430x312]X
+[430x312]\{
+[433x326]ℓ
+[435x686]Opt
+[438x324]1
+[443x326], ℓ
+[452x324]2
+[453x686](
+[454x312]ℓ
+[457x326], . . . , ℓ
+[458x686]G
+[458x311]4
+[463x312], ℓ
+[466x686]− |
+[466x686])
+[473x311]5
+[473x380]with at
+[477x312], . . . , ℓ
+[478x366]with a
+[486x324]n
+[489x686]I
+[491x326]) with
+[493x684]|| ≤
+[493x684]F
+[506x311]n
+[512x312]}
+[517x312],

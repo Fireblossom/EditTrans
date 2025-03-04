@@ -1,0 +1,195 @@
+Page dimensions: 612.0x792.0
+[8x216](b)
+[8x158])
+[11x329](a)
+[12x99]x
+[12x135](×10 -6
+[16x105]QP,qubit
+[17x101]t
+[24x191]16
+[24x211]18
+[24x130]10
+[27x174]5
+[28x201]6
+[28x146]4
+[28x118]3
+[28x36]0
+[28x91]2
+[28x63]1
+[31x49]2
+[37x249]Readout Frequency
+[39x289]DC/SFQ Converter Drive Frequency
+[54x466]t
+[54x366]the population of
+[54x366]|
+[54x378]|
+[54x378]excited to the
+[54x151]surement, and (ii) the
+[54x174]mechanism, we compare (i) the
+[54x185]tion extracted in this way to analyze the QP propagation
+[54x231]Γ
+[54x400]π
+[54x412]ually relaxes to
+[54x412]|
+[54x423]states. As shown in Fig. 8 (c) and (d), the qubit grad-
+[54x455]have been marked.
+[54x487]Pulse sequence applied to measure qubits state with variable delay
+[54x487]t
+[54x196]x
+[54x208]t
+[54x219]measurement, which can be regarded as the average den-
+[54x93]text, is the real QP density evolution. The trends and
+[54x105]x
+[54x105]trend of the extracted
+[54x508](a)
+[54x508]FIG. 8.
+[54x497]f
+[54x497]resonator is measured at
+[54x70]vary little over all values of
+[58x116]t
+[61x115]= 0) in the Fig. 9 below, which is similar to the
+[62x211]f
+[63x285]Appendix C: Extraction of Quasiparticle Density
+[64x242]The
+[64x242]x
+[65x231])
+[69x231]is a kind of average QP density during the
+[69x231]/C
+[71x239](~
+[86x231]T
+[91x278](~1.42GHz)
+[93x508]Pulse sequence applied to measure qubits state after an SFQ pulse train. The transmission of the readout
+[97x400]pulse is applied to the qubit immediately af-
+[104x241],
+[104x82]∼
+[106x241]qubit
+[112x82]x
+[115x465]dalay
+[115x331]SFQ circuit operation
+[122x378]1
+[127x378]⟩
+[128x412]0
+[131x242]x
+[133x412]⟩
+[135x366]1
+[138x11]f
+[140x366]after the
+[140x366]⟩
+[148x366]π
+[154x314]t
+[157x2]R
+[163x103]QP
+[164x6](μs)
+[164x497].
+[169x213]f
+[174x103],
+[175x149],
+[176x103]qubit
+[176x103]evolution in the main-
+[177x149]extracted with several
+[180x25]6.9566.9546.9526.950
+[186x162]t
+[189x174]x
+[189x497]t
+[190x161]avg
+[194x172]QP
+[195x475]r
+[199x206]avg
+[199x206](
+[199x476](d)
+[208x172]qubit
+[212x241]QP
+[217x210]|0〉
+[218x208]∼
+[222x25]6.958
+[224x80]QP
+[226x241]= (Γ(
+[226x241]qubit
+[231x138]t
+[231x196]t
+[231x152]t
+[231x167]t
+[233x164]= 6 μs
+[233x178]avg
+[233x178]= 3 μs
+[233x193]avg = 0
+[235x139]6
+[235x139],
+[235x80],
+[238x80]qubit
+[238x80]evolution
+[240x208]t
+[246x20]140 160
+[247x139],
+[247x139]12
+[248x195],
+[250x195]qubit
+[251x242]t
+[264x139]18
+[264x139],
+[272x139]µs
+[276x55]15
+[277x192]30
+[277x146]25
+[284x242])
+[295x229]1
+[303x20]S21 Readout Resonator Transmission (a.u.)
+[317x151]x
+[317x248]evolution
+[317x258]FIG. 9. Effect of measurement time on the extracted
+[317x70]device described in the paper. We set a boundary of
+[317x82]bution of QP diffusion to the QP propagation in the
+[317x93]nite element simulation, thereby estimating the contri-
+[317x105]mechanism. We calculated the diffusion equation by fi-
+[317x116]and phonon-mediated propagation becomes the leading
+[317x128]creases, QPs have a greater probability of recombination,
+[327x486]after a 25
+[327x486]dalay
+[327x214](d)
+[327x174]Most QPs propagate diffusively when the local QP
+[329x328](c)
+[334x104]t
+[334x127](μs)
+[338x151]n
+[338x108]delay
+[340x212]Appendix D: Diffusion of Quasiparticles in
+[342x190]30
+[342x138]20
+[342x87]10
+[348x35]0
+[354x149]QP
+[366x151]/n
+[369x289]DC/SFQ Converter Drive Frequency
+[377x149]CP
+[384x211]f
+[388x208]bare
+[389x151], where
+[389x151]n
+[391x487]s SFQ pulse train. The transmission of the
+[402x239](~
+[422x278](~1.42GHz)
+[430x149]QP
+[430x149]is the QP density and
+[445x151]n
+[455x993]DC/SFQ Converter Drive Frequency \n(~1.42GHz)\n Readout Frequency\n(~fr)\nMeasure\nSFQ circuit ... Readout Resonator Transmission (a.u.)\n6.9566.9546.9526.950\nfr (GHz)\n6.958\nf|0〉 f|1〉 fbare \n15\n20\n25\n30
+[461x11]f
+[465x7]r (GHz)
+[474x466]0
+[478x466]⟩
+[482x466],
+[482x466]|
+[490x466]1
+[495x466]⟩
+[495x210]|1〉
+[527x496]SFQ
+[532x257]QP
+[537x210]|0〉
+[542x497](c)
+[542x497].
+[542x257],
+[543x24]6.958
+[545x257]qubit
+[553x249]Measure
+[599x192]30
+[599x100]20
+[623x19]S21 Readout Resonator Transmission (a.u.)

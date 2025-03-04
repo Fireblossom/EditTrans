@@ -1,0 +1,193 @@
+Page dimensions: 612.0x792.0
+[26x41]driving
+[54x95]we have
+[54x106]tors
+[54x316]prepared at time
+[54x141]schemes. Within this approach, the system evolution
+[54x164]in the following a quantum jump unravelling, although
+[54x175]ifying
+[54x175]P
+[54x201]dt
+[54x213]generalized measurement is performed on the system
+[54x224]ducing a continuous monitoring scheme \[2\], where a
+[54x236]can be
+[54x259]namic description at the level of fluctuations \[25\].
+[54x362]L
+[54x397]Λ :=
+[54x270]projectors
+[54x409]some parameter
+[54x420]dependent, following the externally imposed variation of
+[54x443]{
+[54x466]pator describing irreversible processes triggered by the
+[54x84]tion of a jump of type
+[54x613]as a function of time conditioned on given set of (two) detected events together with their conditional average
+[54x623]Figure 1. a) Sketch illustrating imperfect detection for a driven two-level atom in an optical cavity. b) Samples of heat dissipated
+[58x489]ρ
+[58x489]where
+[64x69]=
+[64x327]We further assume the system of interest to be initially
+[64x247]The dynamics described by the master equation (4)
+[66x349]k
+[68x187]dt
+[71x350]\[17\]. Here
+[71x350]}
+[74x359]k
+[74x359]=
+[80x350]∆
+[82x105]k
+[85x362]L
+[89x70]−
+[93x515]˙
+[93x487]t
+[94x172]M
+[97x305](0)
+[99x70]iHdt
+[101x515]L
+[103x186]M
+[105x94]=
+[109x362]e
+[109x305], as sampled from
+[109x305]ρ
+[110x172]k
+[111x180]†
+[115x443]}
+[116x175]M
+[118x270]⟩⟨
+[118x515](
+[120x397]); 0
+[120x397]⩽
+[122x542]k
+[125x174]k
+[127x365]s
+[128x514]t
+[130x103]√
+[132x2]hidden emission
+[133x316]t
+[133x189]M
+[138x541]B
+[139x267]}
+[139x267]τ
+[141x349]is the entropy change in the envi-
+[143x362], which is also included in the set
+[151x175]1. For concreteness, we assume
+[154x94]k
+[156x477]=
+[156x477]ρ
+[159x84]in the interval
+[166x67]k
+[166x477]LρL
+[170x339]k
+[170x70]L
+[174x118]associated with opera-
+[182x70]/
+[184x515]\] +
+[192x70], for no-jumps during
+[201x95]...K
+[203x503]=1
+[210x432]L
+[210x305]P
+[214x602]⟩
+[214x602]predicted by the Lindblad master equation (grey dashed line).
+[221x477]L
+[231x316]|
+[239x84]t, t
+[244x313]0
+[244x313]with prob-
+[249x515],
+[251x305](0)
+[254x84]+
+[258x477]2
+[273x397]τ
+[275x489]H
+[275x489]its
+[283x305]n
+[296x305].
+[317x128]N
+[317x141]dN
+[317x508]τ
+[317x531]the initial state and the final projection, we hence define
+[317x542]ing a stochastic Schrödinger equation \[2, 3\]. Including
+[317x554]tected during the evolution as a pure state
+[317x93]the second term in the first line of Eq. (5) disappears,
+[317x290]tion of the state under imperfect monitoring follows a
+[317x313]pure state during the stochastic evolution, being instead
+[317x325]measurement record can no longer be described by a
+[317x382]QED setups \[45, 65\]. In such situations, the monitoring
+[317x416]sion from cavities with imperfect mirrors \[2, 3, 58\], Ram-
+[317x439]any realistic monitoring setup, many jumps might not be
+[323x69]=
+[324x198]\[
+[324x210]where we introduced the supeoperators
+[325x126]k
+[327x198]L
+[327x462]In an ideal setting, each jump in the system trajectory
+[330x128], which verify
+[330x115]k
+[333x202]†
+[337x198]Lσ
+[338x141]{
+[347x506]\[0
+[350x70]⟩⟨
+[350x198]\]
+[351x40]emission
+[351x55]detected
+[360x506]:=
+[365x1049]hidden emission\ndetected \nemission\nhidden absorption\ninput\ndriving\nfield\nheat dissipated\nb.a.\ntime
+[367x234]+
+[368x141]}
+[373x198]L
+[378x256]i
+[403x254]t
+[403x359]η
+[406x198]/
+[408x358]of each process
+[409x256]+
+[414x232]k
+[417x128]⟩
+[419x234]\]
+[420x256]P
+[437x198]J
+[437x198]\[
+[440x253]k
+[444x508], k
+[445x128]\[
+[453x256]dt
+[454x125]k
+[455x198]\]
+[458x198]:=
+[462x508], ...,
+[466x198]LσL
+[473x103]= 1
+[476x126]t
+[476x240]√
+[479x508](
+[483x508]t
+[485x234]η
+[496x302]σ
+[498x613]⟨
+[503x198]/
+[506x234]\]
+[509x234]σ
+[511x508], m
+[511x613]γ
+[515x198]\[
+[516x612]\[0
+[517x254]k
+[518x245]
+[519x166]b.a.
+[522x256]\]
+[524x508]}
+[524x210]\[
+[527x210]L
+[528x612]\]
+[531x254]t
+[531x613](black
+[534x210]\]
+[537x210]:=
+[537x210]σ
+[545x45]heat dissipated
+[545x198]−
+[547x126]l
+[547x126]=
+[553x198]1
+[719x1]time

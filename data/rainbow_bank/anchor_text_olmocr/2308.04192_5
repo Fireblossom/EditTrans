@@ -1,0 +1,90 @@
+Page dimensions: 612.0x792.0
+[54x284]a similar threshold
+[54x284]∼
+[54x227]ing and thus, resource states. We include thresholds up
+[54x238]loss threshold can be improved by enlarging the encod-
+[54x250]or cyclic, and encoded BSM, i.e., static or active, the
+[54x261]that for any combination of architecture, i.e., minimal
+[54x295]4
+[54x307]provements in that we obtain (1) a 75% higher threshold
+[54x318].
+[54x318]loss threshold is 2
+[54x330]six-ring FBQC construction, of which the single-photon
+[54x341]pare our cyclic architecture with the 24-photon, encoded
+[54x353]ways outperforms the minimal architecture. We com-
+[54x364]same type of encoded BSM, the cyclic architecture al-
+[54x387]tons in their resource states. We observe that when con-
+[54x431]threshold (gray triangle) of the construction from Ref. \[6\] us-
+[54x442]tons per resource state. For comparison, we also show the
+[54x452]optics, at various QPC code sizes and thus, number of pho-
+[54x463]surement implementation, i.e., using static or active linear
+[54x473]for a choice of architecture, i.e., minimal or cyclic, and mea-
+[54x483]linear-optical components. Each solid line shows thresholds
+[54x494]coded measurements comprises either only static, or active
+[54x504]parity code (QPC). The hardware implementation of the en-
+[54x525]cyclic architectures constructed using GHZ-state measure-
+[54x536]FIG. 4. Single-photon loss thresholds for the minimal and
+[Image 54x556 to 299x740]
+[55x276]1
+[55x269]3
+[55x269]fewer photons, i.e., 16 photons. We further observe
+[59x141]\[3\] R. Raussendorf, J. Harrington, and K. Goyal, New Jour-
+[59x152]87
+[59x152]\[2\] B. M. Terhal, Rev. Mod. Phys.
+[59x120]\[4\] S. D. Barrett and T. M. Stace, Phys. Rev. Lett.
+[59x99]\[5\] J. M. Auger, H. Anwar, M. Gimeno-Segovia, T. M. Stace,
+[59x79]\[6\] S. Bartolucci, P. Birchall, H. Bombin, H. Cable, C. Daw-
+[70x295].
+[72x131]9
+[72x131]nal of Physics
+[72x162]86
+[72x162]Cleland, Phys. Rev. A
+[72x89]and D. E. Browne, Phys. Rev. A
+[72x89]97
+[72x110]200502 (2010).
+[73x295]75% using resource states of the same size, and (2)
+[136x131], 199 (2007).
+[137x318]7% \[28\], and find two significant im-
+[161x284].
+[164x284]5% using resource states with
+[176x162], 032324 (2012).
+[218x89], 030301 (2018).
+[297x120],
+[317x661]state \[24\].
+[317x696]∼
+[317x696]ities; the resource states that enable a
+[317x707]resource states far exceeds current experimental capabil-
+[317x730]∼
+[317x227]computing for their helpful comments.
+[317x317]networks \[49, 50\].
+[317x363]GHZ-state measurements may also find use in quantum
+[317x374]tion \[47, 48\]. Beyond quantum computation, our encoded
+[317x386]ing fusion networks that are not derived from folia-
+[317x397]employing different resource states \[20\], and consider-
+[317x409]in different codes \[45, 46\], exploiting biased errors \[35\],
+[317x468]states with modest numbers of photons, comparable to
+[317x479]Furthermore, we obtain high thresholds using resource
+[317x490]ing the efficacy of our encoded GHZ-state measurements.
+[317x536]to suppress errors due to photon loss and the probabilistic
+[317x548]surements and resource states in a quantum parity code
+[317x582]that achieve fault-tolerance by fusing two-qubit resource
+[317x79]\[10\] K. Fukui, A. Tomita, A. Okamoto, and K. Fujii, Phys.
+[322x120]\[8\] Y. Li, P. C. Humphreys, G. J. Mendoza, and S. C. Ben-
+[322x141]\[7\] M. Gimeno-Segovia, P. Shadbolt, D. E. Browne, and
+[327x250]The authors thank Ian Walmsley, Josh Nunn, Alex
+[327x432]A non-limiting list of exploration beyond our work
+[327x594]In this work, we investigate MBQC architectures
+[331x730]12% in Fig. 4, though higher thresholds are at-
+[335x152]14
+[335x162]N. Nickerson, M. Pant,
+[335x173]son, M. Gimeno-Segovia, E. Johnston, K. Kieling,
+[335x110]5
+[335x131]115
+[335x131]T. Rudolph, Phys. Rev. Lett.
+[335x89]3
+[346x152], 912 (2023).
+[377x277]ACKNOWLEDGEMENTS
+[394x621]IV. DISCUSSION
+[405x89], 030309 (2022).
+[473x131], 020502 (2015).
+[557x756]6

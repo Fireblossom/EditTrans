@@ -1,0 +1,202 @@
+Page dimensions: 595.3x841.9
+[0x0]SW \[13\]
+[0x0]346
+[0x0]276
+[0x0]433
+[0x0]341
+[0x0]Experimental \[78\]
+[0x0]384
+[0x0]261
+[8x109]1
+[8x109]
+[8x109]2
+[8x112]
+[8x112]1
+[8x112]2
+[16x101]Fsn
+[16x105]F s n
+[16x126](
+[16x126]MeV
+[16x129]MeV
+[16x129])
+[16x129](
+[25x35]300
+[25x62]100
+[25x80]400
+[25x89]200
+[25x116]300
+[25x125]500
+[25x142]400
+[25x169]500
+[25x170]600
+[25x195]600
+[25x215]700
+[25x222]700
+[38x36]0
+[44x25]0
+[83x424]a
+[83x439]the results show a smooth behavior of the decay constants in the region of interest, i.e.,
+[83x454]numerical results are displayed on the left panel of Fig. 14. As can be seen from the plot,
+[83x469]a
+[83x469]the parameter
+[83x121]decay constant using the final set of parameters for models A and B displayed in Table 1.
+[83x136]maximum value and then decreases when the quark mass grows. Finally, we calculate the
+[83x151]the plot, the decay constant increases in the region of small quark mass until it reaches some
+[83x209]λ
+[83x222]limit. Right panel: The decay constants of the scalar mesons as a function of the quark mass for
+[83x409]a
+[83x236]Figure 14
+[83x648]order to compare with experimental results of \[78\], we need to identify
+[83x661]for models A and B), compared against the result obtained using the soft wall model (SW) \[13\]. In
+[83x674]Table 6
+[83x597]asymptotic expansion of the normalizable solution,
+[83x552]\[40\]
+[83x567]in (4.3). Then decay constants of the scalar mesons are given by the following dictionary
+[85x25]500
+[89x611]where
+[89x423]< a
+[89x423]0
+[89x406]0
+[89x406]for the ground state while it decreases for the scalar resonances.
+[89x413]c
+[92x580]s
+[96x579]n
+[99x25]0.05
+[102x582]u
+[104x484]We first investigate the behavior of the scalar meson decay constants as a function of
+[104x180]In addition, we calculate the scalar meson decay constants as a function of the quark
+[108x586]3
+[112x209],
+[112x209]b
+[114x428]c
+[119x424], where
+[120x674]. The decay constants of the vector mesons (in MeV) obtained in our work (same result
+[123x208]= 1
+[123x208]0
+[124x582], where
+[128x610]n
+[129x25]1000
+[131x236]. Left panel: The decay constants of the scalar mesons as a function of
+[134x611](
+[138x611]u
+[139x491]0.05 0.10 0.15 0.20\n300\n400\n500\n600\n700\na0\nFsn\n12\n(MeV)
+[144x611]e
+[144x611]) =
+[145x209].
+[148x209]and
+[148x209]7
+[156x424]a
+[157x209]a
+[161x467]in the chiral limit with the other parameters fixed as in model A. Our
+[161x467]0
+[162x421]≈
+[162x421]0
+[162x428]c
+[168x715]F
+[168x700]F
+[168x730]F
+[170x424]0
+[174x4]m q
+[175x25]0.10
+[175x713]V
+[175x698]V
+[175x727]V
+[175x615]−
+[176x25]1500
+[176x720]1
+[176x705]1
+[176x735]1
+[179x696]2
+[179x726]0
+[179x711]1
+[180x720]/
+[180x705]/
+[180x735]/
+[181x208]= 0
+[182x615]B
+[184x720]2
+[184x705]2
+[184x735]2
+[185x580]s
+[187x424].
+[188x4]a
+[188x614]S
+[189x579]n
+[189x579]is the normalization constant, which is obtained by plugging
+[190x424]0974
+[191x4]MeV
+[191x4](
+[191x4])
+[194x2]0
+[200x745]Models A and B
+[201x610]s
+[203x527]F
+[204x209].
+[205x609]n
+[207x209]02
+[210x525]s
+[211x611](
+[212x424]. However, the behavior of the decay constant increases close to
+[214x524]=
+[214x524]n
+[217x209].
+[221x611])
+[222x527]ζ u e
+[223x25]2000
+[226x611]. To get the normalization constant we first consider the
+[251x25]0.15
+[255x531]3
+[265x530]s
+[270x25]2500
+[276x531]Φ
+[282x527]∂
+[283x62]– 21 –
+[288x525]u
+[293x527]S
+[300x525]n
+[309x516]u
+[314x516]=
+[318x25]3000
+[321x516]ϵ
+[327x25]0.20
+[328x527]= 3
+[330x597]S
+[336x595]n
+[340x715]±
+[342x597](
+[346x543]√
+[346x597]u
+[351x519]2
+[352x597])
+[355x534]N
+[356x730].
+[356x519]π N
+[357x597], close to the boundary,
+[359x730]±
+[359x730]2
+[364x533]c
+[365x491]0 500 1000 1500 2000 2500 3000\n0\n100\n200\n300\n400\n500\n600\n700\nm q (MeV)\nF s n\n12\n(MeV)
+[367x730]1
+[380x525]s
+[383x730].
+[384x524]n
+[389x527].
+[389x527](4.4)
+[395x648]F
+[401x647]V
+[411x648]g
+[439x647]ρ
+[443x648].
+[446x236]a
+[452x234]in the chiral
+[452x234]0
+[473x597]S
+[480x595]n
+[485x582]S
+[485x597](
+[490x597]u
+[492x580]n
+[496x597]) =
+[497x582](
+[501x582]u
+[508x582])

@@ -1,0 +1,174 @@
+Page dimensions: 612.0x792.0
+[0x0]ϱ
+[0x0]ϱ
+[0x0]ϱ
+[51x508]population under the influence of a chemical agent with concentration
+[51x598](1.5)
+[51x749]2 VALENTIN LEMARIÉ
+[51x134]Before describing the main results of this article, we introduce the different notations and definitions used
+[51x147]Functional spaces.
+[51x173]justification of the passage to the limit to parabolic-elliptic Keller-Segel system.
+[51x249]elliptic.
+[51x262]their passage to the limit. Here, we have to handle the more singular case where the limit system is parabolic-
+[51x430]effect. We refer to the articles \[0\] and \[0\] for more details and information about the different Keller-Segel
+[51x443]was used to describe the collective movement of bacteria possibly leading to cell aggregation by chemotactic
+[51x456]The previous system is famous in biology and comes from E.F Keller and L.A Segel in \[0\]. This basic model
+[51x469]many branches of medicine such as cancer \[0\], \[0\], embryonic development \[0\] or vascular networks \[0\], \[0\].
+[51x287]chemotaxis) which is a damped isentropic compressible Euler system with a potential satisfying an elliptical
+[51x300]−
+[51x313]asymptoticsforthe(lesssingular)parabolic-parabolicKeller-Segelsystem(thepotentialsatisfiestheequation
+[51x339]by P-G. Lemarié-Rieusset for the case of Morrey spaces).
+[51x352]parabolic-parabolic Keller-Segel system to the parabolic-elliptic Keller-Segel system (see e.g. the paper \[0\]
+[51x365]to the limit for regular periodic solutions. A lot of articles justify another limit: the passage from the
+[51x96]We designate by
+[51x57]decomposition
+[51x83]to
+[51x108]will mean
+[55x624]we expect the limit density
+[55x571]supplemented with the initial data
+[55x725]We then define the damped mode:
+[63x521]Recall that (1.5) is a model for describing the evolution of density
+[63x199]In this section, we will first present and motivate the functional spaces used. Secondly we will state
+[63x326]In the same spirit as this article, T. Crin-Barat, Q. He and L. Shou in \[0\] justified the high relaxation
+[69x300]V
+[69x300]+
+[72x87]2
+[76x83](
+[80x300]bV
+[81x83]R
+[88x81]+
+[91x300]=
+[95x83]and write
+[99x108]≤
+[108x108]Cg
+[109x300]aN
+[117x57]. To this end, we introduce a regular non-negative function
+[121x300]with
+[132x96]L
+[134x108]. For any Banach space
+[140x100]2
+[149x96]R
+[151x83]∥ · ∥
+[156x94]+
+[162x391]0
+[163x96];
+[163x96]X
+[170x80]L
+[171x643]˜
+[175x644]ϱ
+[176x83]2
+[178x96]the set of measurable functions
+[181x649]ε
+[189x79]+
+[193x699]W
+[195x80];
+[196x702]˜
+[197x300]0
+[203x300]) : this other system comes from the system (HPC) (hyperbolic-parabolic-
+[205x704]:=
+[205x80]:=
+[205x80])
+[211x391].
+[214x644]P
+[215x83]∥ · ∥
+[222x644](˜
+[223x564]ε
+[224x604]∂
+[233x591]∆
+[234x604]−
+[235x564]0
+[236x644]))
+[239x707](
+[242x591]V
+[242x571]˜
+[246x692]ϱ
+[246x604]∆ (
+[247x575]ε
+[247x692]˜
+[251x83]2
+[255x80](
+[256x707]ϱ
+[261x710]ε
+[265x591]−
+[266x80])
+[275x653]
+[280x644]ϱ
+[281x604](
+[286x649]ε
+[289x699]v
+[290x644]∇
+[303x644]−
+[311x121]0
+[312x644]∆)
+[312x624]parabolic-elliptic Keller-Segel system
+[325x649]−
+[326x699]−
+[332x649]1
+[337x96]f
+[337x96]: \[0
+[339x604]N
+[339x604]∇
+[340x547]ε
+[346x649]−
+[347x704]−
+[349x547]0
+[354x704]1
+[358x108]∈
+[359x699](˜
+[361x96]+
+[362x604]V
+[362x274]used a parabolic approach to justify
+[362x274]et al
+[363x547]of the Euler-Poisson system towards the
+[363x699]ϱ
+[369x704]ε
+[369x704]−
+[374x653]
+[374x96]∞
+[382x644]= div(˜
+[384x508]V
+[384x508]=
+[385x96]\[
+[388x96]→
+[388x96]X
+[392x699])
+[395x521]=
+[395x521]N
+[402x96]such that
+[407x508](
+[410x521]N
+[418x649]˜
+[419x57]on
+[421x508]t, x
+[423x644]W
+[431x57]R
+[435x649]ε
+[436x508])
+[436x508]∈
+[437x521]t, x
+[443x508]R
+[443x644],
+[452x521])
+[454x121]and time, and
+[454x121]ε
+[454x61]with support in the
+[454x61]d
+[460x512]d
+[463x96]7→ ∥
+[464x108]∥
+[465x508]. Chemotaxis are an
+[481x519]of a biological
+[481x519]+
+[496x96](
+[503x108]f
+[509x96]∥
+[510x108]∥
+[514x94]belongs
+[515x107]+
+[515x107]X
+[533x108]∥
+[534x121]≲
+[543x121]g
+[544x108]∥
+[550x107]X
+[558x108].

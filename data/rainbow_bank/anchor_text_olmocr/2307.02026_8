@@ -1,0 +1,224 @@
+Page dimensions: 612.0x792.0
+[107x687]2. Gravitational singularities
+[107x659]The existence of gravitational singularity is usually signalized by the blow-up of
+[92x645]the curvature scalars. The Kretschmann scalar can be decomposed in the following
+[92x631]way:
+[175x612]K
+[175x612]=
+[189x612]R
+[210x610]µνλσ
+[210x610]R
+[240x617]µνλσ
+[240x617]=
+[263x612]C
+[284x610]µνλσ
+[284x610]C
+[314x617]µνλσ
+[314x617]+ 2
+[354x612]R
+[363x610]µν
+[374x612]R
+[383x617]µν
+[383x617]−
+[395x612]1
+[409x604]3
+[416x612]R
+[426x617]2
+[426x617],
+[434x612](30)
+[96x588]where
+[96x588]R
+[139x586]µνλσ
+[139x586],
+[159x588]C
+[175x586]µνλσ
+[175x586],
+[196x588]R
+[212x586]µν
+[212x586]and
+[227x588]R
+[250x588]are the Riemann, Weyl and Ricci tensors and the
+[92x574]scalar curvature. Term by term, we have:
+[176x536]C
+[184x534]µνλσ
+[184x534]C
+[214x541]µνλσ
+[214x541]= 48
+[277x544]1
+[277x528]3
+[285x544]∂M
+[287x528]∂R
+[307x553]
+[307x553]∂r
+[317x528]∂R
+[335x553]
+[343x550]−
+[350x550]1
+[357x536]r
+[362x541]−
+[369x541]2
+[369x541]−
+[376x536]Mr
+[406x541]−
+[413x541]3
+[418x557]!
+[427x554]2
+[437x536],
+[437x536](31)
+[185x494]R
+[194x493]µν
+[205x494]R
+[214x499]µν
+[214x499]= 64
+[264x494]π
+[271x499]2
+[276x494]ρ
+[282x499]2
+[282x499]=
+[312x494]2
+[319x503]∂M
+[321x486]∂R
+[341x511]
+[341x511]∂r
+[351x486]∂R
+[368x511]
+[377x509]−
+[384x509]1
+[391x494]r
+[396x499]−
+[403x499]2
+[407x515]!
+[417x512]2
+[427x494],
+[427x494](32)
+[200x456]R
+[200x456]= 8
+[258x456]πρ
+[258x456]= 2
+[294x464]∂M
+[296x448]∂R
+[317x473]
+[317x473]∂r
+[327x448]∂R
+[344x473]
+[352x470]−
+[359x470]1
+[366x456]r
+[371x461]−
+[378x461]2
+[378x461].
+[386x456](33)
+[107x417]For the separable solution (18), with
+[297x417]C
+[305x415]2
+[305x415]= 0
+[313x417]corresponding to the OS model (see,
+[92x403]subsection IID), we get:
+[137x371]C
+[145x369]µνλσ
+[145x369]C
+[175x376]µνλσ
+[175x376]= 48
+[227x385]
+[234x371]AM
+[257x379]1
+[257x373]2
+[257x373]r
+[268x376]−
+[276x379]3
+[276x373]2
+[276x373]−
+[284x371]Mr
+[314x376]−
+[320x376]3
+[325x385]
+[332x382]2
+[340x371]= 0
+[340x371],
+[362x371](34)
+[147x349]R
+[156x348]µν
+[166x349]R
+[175x354]µν
+[175x354]= 36
+[225x349]A
+[234x354]2
+[239x349]Mr
+[257x354]−
+[263x354]3
+[263x354]= 576
+[272x349]λ
+[310x354]4
+[310x354]ϵ
+[322x354]−
+[328x354]4
+[328x354],
+[336x349](35)
+[161x330]R
+[161x330]= 6
+[219x330]AM
+[242x338]1
+[242x332]2
+[242x332]r
+[253x335]−
+[261x338]3
+[261x332]2
+[261x332]= 24
+[269x330]λ
+[302x335]2
+[302x335]ϵ
+[314x335]−
+[320x335]2
+[320x335],
+[328x330](36)
+[161x307]K
+[161x307]= 108
+[231x307]A
+[240x312]2
+[245x307]Mr
+[263x312]−
+[269x312]3
+[269x312]−
+[277x307]96
+[300x307]AM
+[323x316]3
+[323x309]2
+[323x309]r
+[334x312]−
+[342x316]9
+[342x309]2
+[342x309]+ 48
+[373x307]M
+[386x312]2
+[390x307]r
+[396x312]−
+[403x312]6
+[403x312]= 240
+[427x299]81
+[427x299]λ
+[452x312]4
+[452x312]ϵ
+[463x312]−
+[470x312]4
+[470x312],
+[478x307](37)
+[95x278]where
+[127x278]ϵ
+[127x278]:=
+[135x278]λt
+[162x278]+
+[172x278]C
+[180x276]1
+[185x278]. Thesolution(18)impliesthatfor
+[185x278]ϵ
+[362x278]→
+[370x278]0
+[386x278]wehavethegravitational
+[92x264]singularity.
+[107x226]3. Apparent horizon
+[107x198]Very often, in the case of dynamical space-times it is not possible to establish the
+[92x184]event horizon (EH), since it requires a knowledge of the whole space-time, including
+[92x170]null and spatial infinities. One of the ways to replace the notion of event horizon by
+[92x157]something in principle determinable locally is to resort to the outermost marginally
+[92x143]outer trapped surface called the apparent horizon (AH). Although its definition is
+[297x113]9

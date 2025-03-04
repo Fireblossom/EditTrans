@@ -1,0 +1,190 @@
+Page dimensions: 612.0x792.0
+[86x694]I consider two-period data generating processes of the following form:
+[262x661]y
+[269x659]r
+[272x659],
+[274x659]t
+[274x659]=
+[280x661]f
+[294x661](
+[305x661]mw
+[322x659]t
+[325x661],
+[330x661]θ
+[337x659]r
+[339x659],
+[342x659]t
+[345x661])
+[345x661](1)
+[90x628]where
+[90x628]r
+[122x628]∈ {
+[147x628]1
+[153x628],...,
+[153x628]R
+[183x628]}
+[183x628]denotes region,
+[192x628]t
+[268x628]∈ {
+[292x628]0
+[298x628],
+[303x628]1
+[309x628]}
+[309x628]denotes time,
+[318x628]y
+[392x626]r
+[395x626],
+[397x626]t
+[397x626]is a vector of equilibrium
+[86x610]outcomes (employment to population ratio and quantiles of the log wage distribution),
+[86x610]mw
+[522x608]t
+[86x592]denotes the logarithm of the national minimum wage,
+[86x592]θ
+[353x590]r
+[355x590],
+[358x590]t
+[358x590]is a vector of region-time-specific
+[86x574]parameters, and
+[86x574]f
+[169x574]is a function that depends on the particular economic model (to be de-
+[86x556]scribed later in the paper). Minimum wage levels are different between periods. Without
+[86x538]loss of generality, I assume henceforth that
+[86x538]mw
+[311x537]1
+[311x537]>
+[318x538]mw
+[347x537]0
+[352x538].
+[86x513]Given this data-generating process, there are two natural ways to define the ceteris paribus
+[86x495]average treatment effects of the national minimum wage:
+[203x461]ATE
+[232x459]0
+[232x459]=
+[240x461]1
+[253x453]R
+[253x453]∑
+[267x449]r
+[278x461]f
+[278x461](
+[289x461]mw
+[306x459]1
+[311x461],
+[316x461]θ
+[322x459]r
+[324x459],
+[327x459]0
+[332x461])
+[338x461]−
+[338x461]f
+[351x461](
+[362x461]mw
+[379x459]0
+[384x461],
+[388x461]θ
+[394x459]r
+[397x459],
+[400x459]0
+[405x461])
+[240x428]=
+[240x428]1
+[253x420]R
+[253x420]∑
+[267x416]r
+[278x428]f
+[278x428](
+[289x428]mw
+[306x426]1
+[311x428],
+[316x428]θ
+[322x426]r
+[324x426],
+[327x426]0
+[332x428])
+[338x428]−
+[349x428]y
+[356x426]r
+[359x426],
+[361x426]0
+[203x395]ATE
+[232x393]1
+[232x393]=
+[240x395]1
+[253x387]R
+[253x387]∑
+[267x384]r
+[278x395]f
+[278x395](
+[289x395]mw
+[306x393]1
+[311x395],
+[316x395]θ
+[322x393]r
+[324x393],
+[327x393]1
+[332x395])
+[338x395]−
+[338x395]f
+[351x395](
+[362x395]mw
+[379x393]0
+[384x395],
+[388x395]θ
+[394x393]r
+[397x393],
+[400x393]1
+[405x395])
+[240x362]=
+[240x362]1
+[253x354]R
+[253x354]∑
+[267x351]r
+[277x362]y
+[284x360]r
+[286x360],
+[289x360]1
+[289x360]−
+[295x362]f
+[308x362](
+[319x362]mw
+[336x360]0
+[341x362],
+[345x362]θ
+[352x360]r
+[354x360],
+[357x360]1
+[362x362])
+[89x326]The first considers a counterfactual where the minimum wage is increased to the level valid
+[86x308]in period 1, keeping other characteristics constant at their
+[86x308]t
+[366x308]=
+[373x308]0 levels. The other compares
+[86x290]the outcomes as of
+[86x290]t
+[182x290]=
+[189x290]1 to a counterfactual scenario where the minimum wage remained
+[86x272]at the
+[86x272]t
+[117x272]=
+[124x272]0 level. The two definitions are identical if the minimum wage is the only time-
+[86x254]varying component of the model, and are equal in expectation if the parameters
+[86x254]θ
+[491x252]r
+[493x252],
+[496x252]t
+[496x252]have
+[86x236]the same distribution across regions in both periods. This is true for some of the models I
+[86x218]study, but not all. To keep the analysis as simple as possible, I use the average of these two
+[86x200]definitions as the "true" causal effects to be recovered by the econometric designs:
+[241x165]ATE
+[241x165]=
+[274x165]ATE
+[317x172]0
+[317x172]+
+[335x174]ATE
+[364x172]1
+[325x157]2
+[90x133]which gives equal weight to all observations in the data, and is thus closely related to the
+[86x115]usual definition of average treatment effects in potential outcomes models.
+[86x90]Equation (1) is fairly general, but it imposes important constraints that limit the scope of my
+[303x57]4

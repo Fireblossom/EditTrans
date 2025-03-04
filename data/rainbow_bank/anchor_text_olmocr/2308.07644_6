@@ -1,0 +1,238 @@
+Page dimensions: 612.0x792.0
+[54x529]the coherence-squared are identical up to second order in
+[54x195]order.
+[54x241]excitation order. In Secs. IV and V, we will explore par-
+[54x252]with the integrated Rabi frequency in leading higher-
+[54x286]deviations from this time-independence therefore imply
+[54x321]scattered intensities Eqs. (6),(8) is constant as function
+[54x332]implies that the ratio of the coherently and incoherently
+[54x370]this result is independent of the temporal shape of the
+[54x381]second order of the x-ray-nucleus coupling. Note that
+[54x393]equivalent to the intensity of the incoherent emission in
+[54x404]x-ray pulses that the coherently emitted intensity is
+[54x70]t
+[54x82]up to second order in the x-ray-nuclei interaction, which
+[54x646]Appendix B),
+[54x658]that the second-order contributions can be written as (see
+[54x696]as detunings between exciting x-ray pulse and two-level
+[54x707]incorporate more degrees of freedom in our analysis such
+[54x730]an integral over the coupling Rabi frequency over time.
+[58x453]where the superscript (0
+[64x541]Hence, we find that the excited-state population and
+[82x617]ρ
+[87x581](
+[87x621](2)
+[101x583]t
+[105x583]) =
+[107x134]many-body nuclear ensemble
+[123x69]0
+[124x485]ρ
+[125x597]t
+[129x482]ee
+[129x482](
+[129x489](0
+[143x583]f
+[149x583](
+[154x485]t
+[166x583])
+[183x482]ge
+[183x489](0
+[196x489]2)
+[207x583]ρ
+[208x485]t
+[212x581]ge
+[212x581](
+[212x587](1)
+[226x485],
+[226x485](21)
+[231x583])
+[245x583].
+[245x583](20b)
+[317x730]for nucleus
+[317x730]x
+[317x503]on the single-particle level,
+[317x537]lence between the population-based observables and the
+[317x404]based observables, given by Eqs. (6) and (8) as
+[317x415]not sufficient for the experimentally accessible ensemble-
+[317x275]k
+[317x275]wave vector
+[317x298]assumptions: First, we assume that all nuclei are excited
+[318x152]−
+[320x309]To evaluate the sums in these expressions, we make two
+[327x427]However, this result on the single-particle level is
+[328x109]i
+[331x72](
+[331x193]g
+[331x200](1)
+[332x698]g
+[332x705](1)
+[332x580]e
+[336x579]x
+[339x145]2
+[341x698],e
+[347x697]x
+[350x156]−
+[350x662](
+[350x560]is a matrix with elements
+[350x196](
+[351x610]nm
+[354x662]τ
+[355x635]K
+[356x582]t
+[356x113]i
+[358x196]−
+[358x196]) =
+[359x113]k
+[359x156]k
+[359x582]) =
+[359x662]) =
+[360x78]−
+[361x560]κ
+[363x112]r
+[363x155]in
+[366x612]−
+[367x730]as,
+[369x336]coh
+[373x77]in
+[373x77]r
+[375x196]i
+[375x112]x
+[377x710]X
+[380x582]ρ
+[380x635]κ
+[380x713]N
+[381x689]=1
+[381x97]n
+[381x141]n
+[382x118]X
+[382x162]X
+[385x77].
+[385x586](1)
+[386x97]=1
+[388x374]I
+[389x579]x
+[390x256]Ω(
+[391x74](27)
+[391x184]n
+[392x205]X
+[393x714]t
+[393x580],g
+[394x610]+
+[395x208]N
+[396x184]=1
+[398x122]t
+[398x166]Z
+[399x483]|
+[399x692]t
+[399x666]∗
+[399x336]out
+[401x483]ρ
+[403x662](
+[404x143]t
+[404x582](
+[406x454]x
+[407x99]0
+[407x662]r
+[408x582]t
+[408x209]Z
+[410x462]−
+[411x256], t
+[412x374])
+[413x109]dτ
+[415x454]x
+[415x481]e
+[416x462]2)
+[417x186]0
+[419x480]x
+[419x591]2
+[423x196]dτ
+[423x483](
+[426x699]nx
+[427x582],
+[427x662])
+[429x362]n
+[429x383]X
+[429x610]nm
+[433x386]N
+[435x483]|
+[435x457]|
+[437x662]e
+[438x487]=
+[438x462]=
+[438x152](
+[440x701]τ
+[445x483]ρ
+[445x701],
+[445x701])
+[447x109])
+[448x196](
+[448x666](
+[450x374]σ
+[450x374]ˆ
+[451x701](22a)
+[451x256]e
+[452x196]r
+[455x371]ˆ
+[455x371]n
+[456x113]i
+[456x156]i
+[456x194]n
+[460x666]τ
+[461x481]e
+[461x260]i
+[462x196], τ
+[463x112]in
+[464x480]x
+[465x666])
+[468x610]−
+[468x371]n
+[468x371]⟩
+[469x455]e
+[471x156](
+[473x480]x
+[473x454]x
+[473x655]nx
+[474x113]r
+[474x156]r
+[477x207]h
+[478x112]n
+[480x259].
+[480x338]⟨
+[481x374],
+[482x196]e
+[482x110]0
+[482x156]−
+[483x558]nm
+[484x338]σ
+[485x338]ˆ
+[485x483])
+[485x483],
+[487x662](22b)
+[487x200]K
+[488x156]r
+[489x457])
+[489x457].
+[490x335]n
+[490x335]⟩
+[493x113]r
+[496x200]t
+[496x112]n
+[497x156])
+[499x200]−
+[502x163]h
+[503x612])
+[504x353]2
+[505x200]τ
+[507x120]h
+[511x109]e
+[512x610]nm
+[512x338](25)
+[513x207]i
+[524x156]−
+[525x113]t
+[528x113]−
+[535x156])
+[538x163]i
+[539x113])
+[542x120]i
+[557x756]7

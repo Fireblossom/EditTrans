@@ -1,0 +1,250 @@
+Page dimensions: 612.0x792.0
+[78x126]Thus,
+[78x61]written with
+[78x94](
+[78x94]For example, if it were the case that Rank
+[78x495]have that
+[78x110]number of groups). By construction, we have that Rank
+[78x327]Similarly, define
+[78x511]for a particular group
+[78x599]would be feasible using the approach in
+[78x599]–"color \[RGB\]–0
+[78x528]allow for more interactive fixed effects. The arguments in this section target recovering
+[78x616]AT T
+[78x632]does not require this sort of covariate (which is a key advantage of our approach), but it comes at
+[78x665]potential outcomes and show that this sort of covariate can be used to generate additional moment
+[78x714]identify as many group-time average treatment effects as would be possible using other identifi-
+[78x215]matrix. Next, define
+[78x215]p
+[81x232]∆
+[81x343]∆
+[82x435]η
+[82x145]where the notation
+[87x281]Y
+[87x281]pre
+[93x544]In this section, we extend the results above to a setting with more periods, more groups, and
+[93x731]To conclude this section, notice that the main cost of our approach is that we are not able to
+[93x278](0) :=
+[93x278]i
+[108x287](
+[111x287]g
+[119x390]∆
+[120x232]pre
+[120x232]Y
+[121x343]Y
+[123x126]|G| ×
+[127x228](0)
+[127x228]i
+[127x342]i
+[128x390]Y
+[131x343](0)
+[135x388]i
+[138x390](0) :=
+[138x61]−
+[141x237](
+[145x343],
+[151x291]
+[151x310]
+[158x61]factors. Similarly, if Rank
+[158x61]1
+[163x299]∆
+[166x343]∆
+[167x232]∆
+[167x232],
+[167x61](
+[167x263]Y
+[169x399]
+[169x418]
+[172x126](
+[173x287]...
+[175x157]h
+[177x126]+ 1)
+[177x371]∆
+[181x261]−
+[183x214]:=
+[184x511]∈
+[186x371]Y
+[187x145]·
+[187x407]Y
+[187x261]1
+[188x395]...
+[188x236]pre
+[191x215]P
+[192x310]
+[192x369]i
+[192x511]¯
+[195x369]T
+[196x157]i
+[196x406]2
+[201x281]; ∆
+[201x137]g
+[202x418]
+[203x343]e
+[203x236]g
+[206x137]∈G
+[208x236])
+[208x342]i
+[210x511]. Given the model in Assumption 4, after taking first differences, we
+[211x390]θ
+[211x390]; ∆
+[212x232], and
+[213x215](
+[213x126]|G|
+[215x343](
+[221x145]G
+[221x145]indicates that there is one row in the matrix for each group in
+[229x215]g
+[232x286]pre
+[236x390]:=
+[243x465]Y
+[244x286](
+[246x215]and
+[246x215])
+[247x286]g
+[248x232]e
+[249x463]it
+[251x286]:=
+[253x343]T −
+[253x237]pre
+[259x399]
+[259x418]
+[267x371]∆
+[268x182]\[
+[268x435]. Next, define
+[268x407]∆
+[269x237]g
+[272x190]1
+[273x291]
+[273x310]
+[274x343]1)
+[274x343]dimensional vectors, and
+[275x616](3
+[276x395]...
+[276x371]θ
+[277x407]θ
+[278x190]{
+[280x263]∆
+[280x232](
+[281x369]T
+[282x406]2
+[285x616],
+[285x299]∆
+[288x399]
+[288x418]
+[290x616]without recovering
+[290x175]p
+[293x465]θ
+[293x94]∆F
+[295x299]θ
+[295x173]g
+[296x190]g
+[296x61]Λ
+[297x390];
+[299x261]−
+[300x297]2
+[301x21]14
+[303x616]AT T
+[304x465]λ
+[304x61]R
+[304x61]) =
+[305x261]1
+[311x94]R
+[313x190]}
+[313x390]:=
+[317x232]g
+[319x281]∆F
+[319x281];
+[321x462]i
+[324x232]−
+[328x182]λ
+[328x182]1
+[331x698];
+[331x698]0˝callaway-karami-2023˝
+[334x465]F
+[339x94]−
+[341x463]t
+[345x232]×
+[349x399]
+[349x418]
+[349x186]′
+[351x110]∆F
+[354x232]vectors and
+[354x232]1
+[356x371]∆
+[357x599]0
+[359x182]\]
+[362x181]g
+[363x232]∆F
+[367x465]e
+[369x286]g
+[369x110]R
+[371x599]0˝callaway-karami-2023˝
+[371x599];
+[373x94], then the unit fixed effect would
+[373x286]:=
+[374x404]2
+[380x418]
+[389x390];
+[389x390]and
+[389x110]and that Rank
+[395x291]
+[395x310]
+[398x390]∆
+[402x263]∆
+[408x343]is
+[411x263]F
+[415x616](3
+[416x287]...
+[419x267]′
+[422x260]−
+[423x296]2
+[425x616],
+[430x343](
+[430x616]or
+[433x388]:=
+[433x388]i
+[434x291]
+[434x310]
+[443x281];
+[446x343]T −
+[450x236](
+[451x281]∆
+[454x399]
+[458x236]is a
+[458x236])
+[460x126](which is the
+[465x232](
+[466x343]×
+[472x395]...
+[474x110]Λ
+[475x369]i
+[476x698]suppose that
+[477x406]i
+[478x369]T
+[482x281]e
+[483x110]) =
+[483x110]R
+[487x278]:=
+[487x287]pre
+[488x343]R
+[488x343]matrix.
+[489x232]g
+[490x616],
+[490x616]4)
+[495x616]which
+[496x232]−
+[502x287]g
+[505x232]2)
+[513x599].
+[516x528]g, t
+[526x232]R
+[528x291]
+[528x310]
+[531x110].
+[531x145].
+[544x263]e
+[550x299]e
+[557x261]−
+[563x261]1
+[568x291]
+[568x310]

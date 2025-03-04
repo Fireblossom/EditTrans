@@ -1,0 +1,51 @@
+Page dimensions: 595.3x841.9
+[89x726]1 Introduction
+[89x697]Distributionally robust optimization
+[89x697](DRO) has emerged as a powerful tool for
+[89x683]hedging against model misspecification and distributional shifts. It minimizes
+[88x668]distributional model risk
+[88x668](DMR) defined as the worst risk over a class of distribu-
+[89x654]tions lying in a
+[89x654]distributional uncertainty set
+[174x654], see Blanchet and Murthy (2019).
+[89x639]Among many different choices of uncertainty sets, Wasserstein DRO (W-DRO)
+[89x625]with distributional uncertainty sets based on optimal transport costs has gained
+[89x610]much popularity, see Kuhn et al. (2019) and Blanchet et al. (2021) for recent
+[89x596]reviews. W-DRO has found successful applications in robust decision making in all
+[89x582]disciplines including economics, finance, machine learning, and operations research.
+[89x567]Its success is largely credited to the strong duality and other nice properties of the
+[89x553]Wasserstein DMR (W-DMR). The objective of this paper is to propose and study
+[89x538]W-DMR in
+[89x538]marginal problems where only some marginal measures of a reference
+[89x524]measure are given
+[177x524], see e.g., Kellerer (1984), Rachev and R¨ uschendorf (1998), Villani
+[88x509](2009), and Villani (2021), and R¨ uschendorf (1991).
+[107x495]In practice,
+[107x495]marginal problems
+[170x495]arise from either the lack of complete data or
+[89x480]an incomplete model. In insurance and risk management, computing model-free
+[89x466]measures of aggregate risks such as Value-at-Risk and Expected Short-Fall is of
+[89x452]utmost importance and routinely done. When the exact dependence structure
+[89x437]between individual risks is lacking, researchers and policy makers rely on the worst
+[89x423]risk measures defined as the maximum value of aggregate risk measures over all joint
+[89x408]measures of the individual risks with some fixed marginal measures, see Embrechts
+[89x394]and Puccetti (2010) and Embrechts et al. (2013); In causal inference, distributional
+[89x379]treatment effects such as the variance and the proportion of participants who benefit
+[89x365]from the treatment depend on the joint distribution of the potential outcomes.
+[89x350]Even with ideal randomized experiments such as double-blind clinical trials, the
+[89x336]joint distribution of potential outcomes is not identified and as a result, only the
+[89x322]lower and upper bounds on distributional treatment effects are identified from the
+[89x307]sample information, see Fan and Wu (2009), Fan and Park (2010) and Fan and
+[89x293]Park (2012), Fan et al. (2017), Ridder and Moffitt (2007), Firpo and Ridder (2019);
+[89x278]In algorithmic fairness when the sensitive group variable is not observed in the
+[89x264]main data set, assessment of unfairness measures must be done using multiple data
+[89x249]sets, see Kallus et al. (2022). Abstracting away from estimation, all these problems
+[89x235]involve optimizing the expected value of a functional of multiple random variables
+[89x220]with fixed marginals and thus belong to the class of marginal problems for which
+[89x206]optimal transport related tools are important.
+[89x206]1
+[103x188]1
+[107x185]When the marginals are univariate, optimal transport problem can be conveniently expressed
+[89x173]in terms of copulas. Fan and Park (2010), Fan and Park (2012), Fan and Wu (2009), Fan et al.
+[88x161](2017), Ridder and Moffitt (2007), and Firpo and Ridder (2019) explicitly use copula tools.
+[295x122]2

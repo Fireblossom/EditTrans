@@ -1,0 +1,112 @@
+Page dimensions: 595.3x841.9
+[54x281]associated to the corner
+[54x281](
+[54x120]ers do not necessarily commute.
+[54x132]vertex, neighbouring surface codes overlap, and their stabiliz-
+[54x143]code stabilizers commute within each surface code on each
+[54x155]a 2d stabilizer surface code on a sphere. While all 2d surface
+[54x178]sion network correspond to stabilizers of the subsystem code.
+[54x189]lizers correspond to gauge generators and checks of the fu-
+[54x212]and maps the support of resource-state stabilizers and check
+[54x269]X
+[54x269]uct of
+[54x304]X
+[54x315]qubits supported on edges of that cell. To define the gauge
+[54x327]X
+[54x476]lows (recall that the 3-cells are also bicolorable by construc-
+[54x508]faces, and it has bi-colorable vertices.
+[54x519]toric-code complex if every edge has exactly four incident
+[54x530]L
+[54x573]Here we show that any fusion complex with bi-colorable ver-
+[54x585]code is described by a subgroup of the gauge group) \[95, 96\].
+[54x631]such that stabilizer outcomes can be inferred by measuring
+[54x642]commuting with all elements of
+[54x654]S
+[54x665]group. Stabilizers for the code are obtained (up to phases) by
+[54x677]G
+[54x677]commuting) subgroup of Pauli operators
+[54x700]terest \[88–92\].
+[54x711]single-shot error correcting codes that have been of recent in-
+[54x757]maps to the 3d subsystem toric code of Ref. \[89\]. Thus, the
+[64x488]The subsystem code is defined on such a complex as fol-
+[64x338]c
+[65x654]Z
+[71x424]g
+[71x445]• A qubit is associated to each 1-cell
+[79x370]and is
+[79x413]X
+[96x654]∩ G
+[101x269]) operators on all qubits supported on the edges of
+[119x654]Z
+[124x327]or
+[129x381]∈ S
+[135x327]Z
+[139x292]g
+[139x292]. Then the gauge generator
+[148x413]-type or
+[154x424]∈ G
+[157x327]c
+[159x370]-type according to the color of the
+[160x530]=
+[161x654](
+[164x654]G
+[168x281])
+[171x654])
+[176x304]-type) 3-cell
+[228x445]E
+[229x530]}
+[236x304]C
+[255x338]C
+[260x291](
+[263x291]v,c
+[270x381]∈
+[273x291]∈ G
+[297x381],
+[297x642],
+[317x621]stabilizer for each
+[317x632]ner, in blue and red, respectively. (bottom) Two ways of obtaining a
+[317x642]edges. (top middle, right)
+[317x642]X
+[317x653]FIG. 8: (top left) Cubic fusion complex with qubit locations on
+[317x144]consisting of GHZ and GHX resource states. This forms a
+[317x156]complex. Construct the fusion complex as per Appendix D,
+[317x215]operators, and stabilizers are 12-body operators.
+[317x251]quantum instruments and single-shot codes.
+[317x274]computation are described by the same underlying fusion
+[317x308]Refs. \[1, 45\]), where fault-tolerant computation is described
+[317x344]surface codes.
+[317x355]dral volumes). Such complexes do not form valid subsystem
+[317x366]rules out any complex with triangular faces (and thus tetrahe-
+[317x378]words, each face of the complex must have even length. This
+[317x413]not prove this here).
+[317x425]single-shot error correction for these models (although we do
+[317x459]of (either) one of the colors gives the stabilizer on that 3-cell.
+[317x471]colors. Taking the product of gauge generators on the corners
+[317x482]c
+[317x482]cell
+[317x494]vertices of the complex. In particular, the corners of the 3-
+[317x505]one of its corners. For (ii) we use the bi-colorability of the
+[317x517]c
+[317x528]therefore commute with stabilizers, as each gauge generator
+[317x539]form a 2d surface code, and thus commute. Gauge generators
+[317x551](ii) that
+[317x562]show that (i), gauge generators commute with stabilizers, and
+[327x585]We can verify that this construction gives a well-defined
+[327x120]Example: Enneahedral complex.
+[Image 327x731 to 401x786]
+[335x482]∈
+[345x482]C
+[356x482]supporting a stabilizer, are partitioned into two
+[Image 365x673 to 438x730]
+[400x621]-cell (similarly for
+[400x621]X
+[401x574]S
+[410x574]Z
+[422x167]Take any 3d cell
+[433x574]G
+[Image 441x673 to 514x730]
+[443x574]∩G
+[476x621]).
+[Image 479x731 to 552x790]
+[525x517]∈
+[552x806]13

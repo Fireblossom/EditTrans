@@ -1,0 +1,136 @@
+Page dimensions: 595.3x841.9
+[99x117]with the demand of positive semidefinite mean kinetic energy.
+[110x129]8
+[114x126]Yasue \[44\] has shown that Nelson's Second Law follows from a stochastic variational principle, together
+[124x201]yielding a stochastic guiding law
+[124x212]there is a contribution from the osmotic velocity and the random background noise,
+[124x144]but the additional random kicks given to the particle by the background noise prevent
+[124x223]this state, yields a motionless particle: ˙
+[124x234]Bohmian mechanics, the position-independence of the imaginary part of the phase, in
+[124x559]of stochastic mechanics.
+[124x581]numerical simulations of Nelson's theory. We therefore describe in brief how to suitably
+[124x609]2.2 Discrete Formulation
+[124x635]mechanics.
+[124x646]and Hiley as a matter of simplicity, but continue to refer to it as Nelson's stochastic
+[124x657]perspective than Nelson did. In what follows, we adhere to the interpretation of Bohm
+[124x679]doing they drop the postulate of a stochastic Newton's Second Law, and furthermore
+[124x690]random motion determined by the wave function via the stochastic guiding law. In so
+[124x701]provide a definite ontology by asserting the existence of a particle undergoing the
+[124x712]postulate
+[124x723]symmetry desired by Nelson.
+[124x745]of the acceleration, which they felt was ad hoc, since other definitions are possible
+[124x280]known form
+[124x291]to Nelson's theory. First consider the ground state, whose wave function has the well-
+[124x319]2.3 Application to Hydrogen
+[124x455]ε
+[124x526]η
+[124x466]step
+[124x367]scale (
+[124x378]dimensionless positions and times; in any given problem, there will be a natural length
+[124x400]decreasing
+[124x400]ε
+[124x411]Euler discretization, and merely make note of the behavior of repeated simulations with
+[124x422]Runge-Kutta algorithm in \[48\] or \[49\]. In this work we restrict ourselves to the simple
+[124x356]these units. In the case of hydrogen, for example, the natural unit for distance is the
+[124x444]ε
+[124x444]ultimately concerned with taking the limit
+[127x244]r
+[128x155]We see that the displacement over any short span of time tends toward the origin,
+[129x477]ν
+[129x477]Here the factor 2
+[138x548]We discretize the time variable into steps of equal duration
+[138x548]ε
+[138x756]Bohm and Hiley \[13\] criticized Nelson's theory for assuming a particular definition
+[138x389]When implementing such simulations, it is most convenient to work with
+[144x466]is finite, the actual (quantum-) equilibrium distribution of the discrete process
+[153x244]=
+[154x366]0
+[159x367]) and time scale (
+[160x244]∥
+[175x244]x
+[180x344]0
+[181x244]∥
+[181x244]is the distance to the proton and
+[188x244]E
+[202x477]=
+[213x477]ℏ
+[229x367]τ
+[230x477]explicitly appears in the noise term. Since the time
+[230x477]/m
+[233x366]0
+[237x367]), so the quantities entering the simulation will be given in
+[237x266]100
+[239x495]t
+[242x495]+
+[244x727]Instead, they reinterpreted the theory, much in line
+[247x495]=
+[249x267](
+[252x537]η
+[254x496]x
+[258x535]t
+[258x267], t
+[261x177]x
+[262x178]˙
+[266x267]) = 1
+[270x495]t
+[270x495]+
+[280x526](
+[283x268]p
+[284x515]=
+[287x526])
+[289x496]b
+[289x223]=
+[289x223]x
+[289x515]nε
+[292x260]πa
+[294x496](
+[295x84]5
+[297x496]x
+[300x170]0
+[307x496], t
+[307x183]x
+[308x171]r
+[308x534]p
+[309x444]→
+[310x267]e
+[311x712]the Schr¨ odinger equation, and
+[312x515]n
+[314x496]) +
+[316x177]η
+[317x526]2
+[319x444]0, or simulating instead with an
+[319x223]= 0. However, in Nelson's theory,
+[322x526]b
+[322x526]ν/ε
+[329x504]√
+[330x243]1
+[332x271]0
+[333x515]⩾
+[336x272]−
+[336x244]−
+[337x496]2
+[341x496]b
+[341x515]0 an integer,
+[341x272]iE
+[349x526]. The discrete Euler step for
+[353x244]me
+[353x272]t/
+[359x494]t
+[360x272](2.8)
+[360x272]ℏ
+[366x248]4
+[370x244]/
+[374x244]2(4
+[381x455], and therefore one is
+[387x244]πε
+[397x243]0
+[397x344]0
+[401x244])
+[405x248]2
+[409x244]ℏ
+[414x248]2
+[418x244]. In standard
+[426x344]0
+[426x349]2
+[435x345]ℏ
+[440x345].

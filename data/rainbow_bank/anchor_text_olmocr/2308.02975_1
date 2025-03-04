@@ -1,0 +1,234 @@
+Page dimensions: 612.0x792.0
+[79x715]Lemma 1.1.
+[79x715]\[0\] If
+[79x679]Let
+[79x545]{
+[79x432]Q
+[79x446]Theorem 1.2.
+[79x446]\[0\] Let
+[79x482]Q
+[79x273]G
+[79x286]the above notation only gives information about the blocks of
+[79x469]A
+[79x315]G
+[79x315]is a clique. Let
+[79x183]v
+[79x169]G
+[79x156]G
+[79x74]motivation for our study. In this article, the authors obtained the graphs that maximize the
+[79x88]interest among researchers. One such result due to Brualdi and Solheid in \[0\] is an important
+[79x102]of a given class of a graph and the problem of determining the extremal graphs find a particular
+[79x115]constraints. In spectral graph theory, the maximization and minimization of the spectral radius
+[79x142]v
+[79x142]of
+[79x666]{
+[79x558]q
+[83x572]A
+[88x432](
+[89x183]G
+[91x558](
+[96x558]A
+[96x693]A
+[96x396]A vertex
+[96x396]v
+[96x342]A complete graph is a graph where each vertex is adjacent to every other vertex. A complete
+[96x196]H
+[96x196]A block
+[96x129]The spectral radius of a graph has been extensively studied subject to various graph theoretic
+[98x666]V
+[104x664]1
+[104x432], then,
+[104x432]σ
+[106x297]b
+[106x297], then we write
+[109x666], V
+[110x300]G
+[111x482](
+[111x356]F
+[111x356], to represent the induced subgraph on the vertex set of two adjacent blocks
+[113x369]of graph
+[115x482]A
+[120x664]2
+[122x570]denotes the block formed by intersection of the rows in
+[122x570]ij
+[123x482]A
+[123x482]) is called an equitable quotient matrix of
+[123x154]1
+[125x666],
+[125x666]···
+[127x678]2
+[130x383]is a maximal connected subgraph of G that has no cut-vertex. Given two blocks
+[131x679]···
+[133x572]V
+[133x329]K
+[136x196]of a clique tree
+[137x543]1
+[141x545], V
+[142x396]of a connected graph
+[154x315]be a clique tree with
+[157x545],
+[157x545]···
+[157x664]k
+[161x154]2
+[163x666]}
+[164x678]k
+[166x315]d
+[169x679]}
+[171x432]⊂
+[172x419](
+[174x169]induced by
+[177x419]A
+[178x679]V
+[179x715]is a graph such that for
+[183x432]σ
+[185x300]with blocks
+[185x419]is actually the spectral radius of
+[186x183]G
+[186x183]. If
+[187x169]{
+[190x543]k
+[191x715]u, v
+[193x419]A
+[195x545]is given by
+[195x545]}
+[197x300]K
+[217x183]v
+[219x432]A
+[221x196]is a pendent block of
+[227x432]))
+[231x234]G
+[233x196]G
+[235x432]A
+[238x183]W
+[243x234]K
+[248x169]v
+[255x396]is a cut vertex of
+[262x156]G
+[263x631]
+[263x650]
+[263x298]n
+[263x232]n
+[264x305](
+[267x305]d
+[268x396]G
+[269x297]1
+[269x231]⊚
+[270x520]Q
+[272x238]1
+[272x169]V
+[273x679]A
+[273x557]ij
+[274x313]1
+[276x494]is constant then we say that the partition is equitable
+[276x494]ij
+[276x305])
+[277x617]... ... ... ...
+[278x594]k
+[278x626]A
+[278x640]11
+[279x520](
+[280x558]A
+[282x154]⊕
+[282x154]1
+[282x315]K
+[282x234]K
+[285x169]W
+[291x520]) = \[
+[296x168]i
+[298x154]v
+[299x169]), then
+[301x298]n
+[302x305](
+[306x594]k
+[306x626]22
+[306x626]. . . A
+[306x44]2
+[307x297]− ··· −
+[307x297]2
+[308x231]⊚
+[308x231]2
+[310x304]2
+[310x594]. . . A
+[310x594]2
+[311x238]2
+[313x154]2
+[314x305])
+[318x432]ρ
+[321x234]···
+[325x715]V
+[325x715]∈
+[328x142]and is denoted by
+[333x196]if
+[337x313]n
+[345x520].
+[346x482]. There is a nice relation between the
+[346x315]d
+[348x169]v
+[349x715]G
+[353x396]if
+[355x300]K
+[356x594]kk
+[356x626]2
+[356x640]1
+[356x419].
+[360x640]k
+[361x715]uv /
+[365x298]n
+[365x305](
+[366x631]
+[366x396]G
+[367x315]K
+[369x305]d
+[372x239]d
+[373x230].
+[373x230]b
+[375x618],
+[376x396]−
+[380x239])
+[383x715]∈
+[387x396]v
+[388x156]in a graph
+[397x181]and
+[397x181]1
+[398x396]is disconnected. A block of
+[402x715](
+[403x570]and the columns in
+[410x572]V
+[415x715])
+[419x715]ρ
+[427x312], so on up to
+[427x312]2
+[428x432]A
+[431x315]d
+[434x558]with respect to the
+[436x432]ρ
+[437x181]2
+[441x142](
+[446x183]G
+[456x715](
+[458x156], the block index
+[461x715]G
+[465x693]{
+[465x432]Q
+[469x715])
+[479x356]and
+[480x169]of the two
+[482x693]1
+[487x693],
+[491x356]H
+[492x181]i
+[494x715](
+[495x183](
+[497x693]···
+[497x693],
+[498x715]G
+[499x183]= 1
+[501x313]b
+[508x715]uv
+[515x572]. Let
+[515x196]. Let
+[522x356].
+[524x183],
+[531x715])
+[535x715].
+[535x693].

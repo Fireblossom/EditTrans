@@ -1,0 +1,146 @@
+Page dimensions: 612.0x792.0
+[72x620]the
+[72x634]conjecture one does not need positivity assumptions to reverse the construction above and define
+[72x648]a discretization of the K¨ahler–Ricci flow. Observe that, if the manifold
+[72x676]two or three must be K ¨ahler-Einstein metrics. This was generalized \[20, 33\] to periodic points
+[72x606]in the literature, see for instance \[5, 13\].
+[72x240]satisfy
+[72x333]µG
+[72x333]+
+[72x555]ρ
+[72x555](4)
+[72x662]ρ
+[72x519]behaved K¨ahler metrics. Our second result is the following theorem dealing with K ¨ahler metrics
+[72x92]then this result can be rephrased in terms of the inverse K ¨ahler–Ricci iterations. Namely, Theo-
+[72x105]λ >
+[72x119]k
+[72x119]which indeed served as partial motivation for this paper. In particular, if we assume
+[72x147]see in particular Proposition 2.
+[72x161]C
+[72x268]Let
+[72x268]Theorem 3.
+[72x291]iterations of metrics induced by complex space forms.
+[72x305]in the study of the K¨ahler–Ricci flow. Our next result show that KRS cannot arise as K¨ahler–Ricci
+[72x319]X
+[72x375]sensibly relaxed, cf. Remark 11 below.
+[72x389]the metric
+[72x417]k
+[72x417]= 1
+[72x468]the corresponding K¨ahler forms
+[72x482]Let
+[72x482]Theorem 2.
+[72x505]induced by the flat metric (which are well-behaved by Example 4 below).
+[72x189]any K¨ahler–Einstein metric
+[72x203]C
+[72x254]g
+[72x254]that
+[72x347]is a KRS if there exists a holomorphic vector field
+[72x64]M
+[75x690]This iteration was introduced by Nadel in \[31\] where he also proved that periodic points of order
+[76x533]where
+[78x172]ω
+[78x172]=
+[84x592]Here we focus on the following generalized Monge-Amp `ere equation on a complex manifold
+[84x133]Also in this case we generalize some recent results on KRS induced by complex space forms
+[84x361]Our third and last result deals with K ¨ahler–Ricci solitons (KRS). Recall that a K ¨ahler metric
+[84x431]Observe that this result can be seen as a generalization of \[40, Theorem 2.1\]. Namely, when
+[89x175]λ
+[91x333]L
+[100x105]) in Theorem 3, we recover \[25, Theorem 1.1\]. If we restrict to compact complex manifolds,
+[109x533]is again a K ¨ahler form. In particular we study equation (4) for a special class of well-
+[109x175]Ω
+[109x175]for
+[110x331]X
+[112x237]ω
+[112x237]=
+[120x203]and
+[124x389]is assumed to be induced by a flat one for simplicity, but the hypothesis on
+[130x333]Ric(
+[131x417]=
+[131x203]G
+[135x268]M
+[140x240]Ω
+[151x203]to be Hamilton's cigar KRS \[17\]. It is worth mentioning that we do not know of
+[152x240]λ
+[153x268]be a complex manifold with two real analytic K¨ahler metrics
+[153x482]be a complex manifold with two metrics
+[164x175]unless
+[164x175]0
+[165x166]\[40\]. On the other hand, such examples for
+[166x417], Theorem 2 shows that a K ¨ahler–Einstein submanifolds of
+[169x482]g
+[170x468]ω,
+[174x175]g
+[184x333]G
+[184x676]ω
+[196x240]̸
+[201x333]G
+[205x189]and K¨ahler metric
+[206x64]can be induced by a complex space form.
+[206x240]= 0
+[206x240]and
+[207x175]=
+[212x217], one cannot draw any conclusion. Take for instance
+[212x217]g
+[218x175]G
+[228x240]k
+[232x175]and
+[241x468]satisfy
+[245x175]k
+[246x617]. Both of this discrete dynamical systems have been studied
+[246x617]ω
+[248x240]⩾
+[252x468]ρ
+[255x659]=
+[255x659]ω
+[255x666]k
+[258x240]0
+[266x175]= 1
+[290x553]=
+[292x465]=
+[292x465]ω
+[295x254]G
+[295x254]is a KRS. If the corresponding K¨ahler forms
+[296x175]. In that case
+[296x175]M
+[300x555]λ
+[301x468]λ
+[304x52]5
+[306x417]C
+[306x240]is trivial, i.e. K ¨ahler–Einstein.
+[319x555]Ω
+[321x468]for some
+[321x468]Ω
+[331x333]and
+[342x662]N
+[343x333]L
+[370x75]ω
+[370x82]−
+[371x331]the Lie derivative in the direction
+[371x331]X
+[371x482]G
+[376x468]⩾
+[377x82]k
+[385x78](
+[386x468]1
+[392x268]g
+[399x468]and
+[405x161]are discussed in Section 3,
+[405x161]0
+[428x468]∈
+[439x468]R
+[458x468], then
+[467x268]G
+[469x217]to be the flat
+[470x361]G
+[470x421]with the flat
+[484x119]= 0
+[492x347]Ric(
+[492x468]M, g
+[497x268]. Assume
+[499x389]can be
+[512x78])
+[512x78]on a
+[514x347]G
+[516x468])
+[523x347]) =

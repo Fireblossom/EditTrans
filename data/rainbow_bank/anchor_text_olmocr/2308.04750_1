@@ -1,0 +1,228 @@
+Page dimensions: 595.3x841.9
+[0x0]∇
+[0x0]∇
+[0x0]∇
+[85x129]of the thickness of Ω
+[85x129]ε
+[85x174](1.9)
+[85x96]2.6. We further note that the difference estimate (1.8) also holds if we replace the tangential component
+[85x107]in Ω
+[85x118]the solution
+[85x389]a vector field
+[85x400]a function space
+[85x400]H
+[85x466]limit equations. We also obtained some estimates for the difference of
+[85x466]u
+[85x477]derived the nonstationary limit equations on Γ by characterizing
+[85x477]v
+[85x692]≡
+[85x703]constants which stands for the friction coefficients. For details of notations, see Section 2. Note that, when
+[85x736]the pressure
+[85x736]q
+[85x433]and characterization of the limit, but the procedure is the same so we omit it here. In this paper, we focus
+[85x681]Boussinesq–Scriven surface stress tensor (see \[4, 52, 2\])
+[85x771]2 T.-H. MIURA
+[85x329]Let
+[85x329]Theorem 1.1.
+[85x411]state our main results (see Section 2 for details). Let
+[85x411]P
+[85x542](1.2) by the thin-film limit in our previous work \[34\]. There we proved under suitable assumptions that,
+[85x657](1.5)
+[85x307]such that
+[85x318]respectively. Under suitable assumptions, suppose that there exist
+[88x356]H
+[88x156]Here
+[88x156]¯
+[88x239]ε >
+[88x239]for all
+[88x275]ε >
+[89x488]converges weakly to a tangential vector field
+[89x488]v
+[94x84]τ
+[97x140]ε
+[102x692]γ
+[103x106]ε
+[104x89]by the average
+[110x156]is the constant extension of
+[118x156]v
+[120x360]1
+[123x574]is the Bochner Laplacian on Γ and Ric is the Ricci curvature of Γ (see e.g. \[34, Lemma C.11\]
+[133x239]sufficiently small provided that
+[133x275]0
+[134x356], T
+[141x736]. Also,
+[141x736]f
+[141x122]to the bulk equations (1.2) when
+[141x239]∥
+[144x356]Γ) be the dual space of
+[147x459]in the
+[147x118]ε
+[153x329]f
+[154x455]L
+[154x696]=
+[161x399]given in (2.14), which is the standard
+[169x400]L
+[172x389], let
+[172x129]v
+[180x174]ε
+[185x179]−
+[187x459]sense when
+[187x459]2
+[188x89]ε
+[191x179]1
+[192x258]M
+[194x535]to the nonstationary Navier–Stokes equations in Ω
+[194x179]/
+[197x291]P
+[200x388]u
+[201x531]ε
+[201x257]τ
+[202x174]∥
+[206x291]f
+[207x174]u
+[210x664]−
+[212x179]−
+[212x179]ε
+[213x514]ε
+[218x174]¯
+[219x606]{
+[220x295]2
+[220x510]y
+[221x664]νP
+[224x329],
+[232x156]in the normal direction of
+[232x174]∥
+[237x172]L
+[239x217]δ
+[240x156]Γ
+[242x174]2
+[246x256](Γ)
+[246x663]Γ
+[249x360]1
+[251x503](
+[251x217]) =
+[251x217]ε
+[254x171]ε
+[255x503]y
+[259x258]c
+[260x422]v
+[263x356], T
+[264x174]c
+[266x522]εg
+[267x664](
+[270x664]v
+[270x374]∈
+[271x501]εg
+[272x221]α/
+[273x714]γ
+[274x356]Γ). Formally speaking, our main results are as follows (see
+[275x295]1+
+[275x664])\] +
+[276x239]∥
+[278x258]δ
+[279x606]}
+[280x221]4
+[281x237]H
+[281x118]is small. We also have an approximation result for
+[282x518]1
+[283x258](
+[284x295]α
+[286x519](
+[287x239]1
+[289x291]∥
+[289x291],
+[291x258]) +
+[291x258]∥
+[295x174]) +
+[296x206]i
+[298x225]X
+[300x663]v
+[304x239]ρ
+[304x664]v
+[307x606]v
+[308x206],
+[309x275]0
+[310x206]1
+[310x258]M
+[310x422]to (1.4). Let us fix some notations and formally
+[311x510]+
+[312x378]|
+[314x606]∇
+[314x174]M
+[315x650]div
+[316x411]L
+[316x290]P
+[318x592]div
+[319x374]v
+[319x239], where
+[319x257]τ
+[321x192]:
+[322x211]−
+[322x211]ε
+[324x374]·
+[325x736],
+[326x290]ε
+[327x333]ε
+[328x649]Γ
+[328x663]Γ
+[329x404]2
+[329x404]solenoidal space on Ω
+[333x650]= 0 on Γ
+[335x329]v
+[336x606]q
+[337x510](
+[337x174]f
+[338x735]Γ
+[340x291]∥
+[340x664]f
+[340x510]y
+[343x179]ε
+[343x606]f
+[345x258]f
+[345x510]dr, y
+[346x221]i
+[349x174]f
+[353x606]on Γ
+[353x156].
+[354x217].
+[354x477]as a unique
+[356x317]1
+[356x291]1
+[359x258]∥
+[360x318], c
+[360x289](Γ
+[362x329](1.2)
+[362x477]L
+[364x256]H
+[365x664],
+[366x736],
+[368x317]>
+[368x172]H
+[369x140](Ω
+[370x257]−
+[375x318]0
+[375x289]Γ)
+[376x257]1
+[379x275]such that
+[379x139]ε
+[380x174]1
+[391x172],T
+[394x470]ε
+[399x290]2
+[402x268]
+[403x466]v
+[407x184]
+[407x718]and
+[412x174].
+[419x481]2
+[432x466]v
+[438x718]1
+[438x718]are nonnegative
+[462x488]→
+[467x411](Ω
+[470x488]0, and
+[478x410]ε
+[482x411])
+[488x747]and
+[506x122]ε
+[507x329],

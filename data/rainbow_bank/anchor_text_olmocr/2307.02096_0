@@ -1,0 +1,50 @@
+Page dimensions: 612.0x792.0
+[147x654]Adaptive multi-stage integration schemes for
+[214x632]Hamiltonian Monte Carlo
+[125x600]Lorenzo Nagar
+[200x604]a,
+[207x604]∗
+[210x600], Mario Fernández-Pendás
+[344x604]b
+[349x600], Jesús María Sanz-Serna
+[478x604]c
+[482x600],
+[248x586]Elena Akhmatskaya
+[350x590]a,d
+[119x567]a
+[124x564]BCAM - Basque Center for Applied Mathematics, Alameda de Mazarredo 14, 48009
+[276x552]Bilbao, Spain
+[120x543]b
+[124x540]DIPC, Donostia International Physics Center, Manuel Lardizabal Ibilbidea 4, 20018
+[270x528]Donostia, Spain
+[111x519]c
+[116x516]Departamento de Matemáticas, Universidad Carlos III de Madrid, Avenida Universidad
+[250x504]30, 28911 Leganés, Spain
+[123x495]d
+[128x492]Ikerbasque - Basque Foundation for Science, Euskadi Plaza 5, 48009 Bilbao, Spain
+[111x433]Abstract
+[113x413]Hamiltonian Monte Carlo (HMC) is a powerful tool for Bayesian statisti-
+[111x399]cal inference due to its potential to rapidly explore high dimensional state
+[111x384]space, avoiding the random walk behavior typical of many Markov Chain
+[111x370]Monte Carlo samplers. The proper choice of the integrator of the Hamil-
+[111x355]tonian dynamics is key to the efficiency of HMC. It is becoming increas-
+[111x341]ingly clear that multi-stage splitting integrators are a good alternative to
+[111x326]the Verlet method, traditionally used in HMC. Here we propose a principled
+[111x312]way of finding optimal, problem-specific integration schemes (in terms of the
+[111x297]best conservation of energy for harmonic forces/Gaussian targets) within the
+[111x283]families of 2- and 3-stage splitting integrators. The method, which we call
+[111x269]Adaptive Integration Approach for statistics, or s-AIA, uses a multivariate
+[111x254]Gaussian model and simulation data obtained at the HMC burn-in stage to
+[111x240]identify a system-specific dimensional stability interval and assigns the most
+[111x225]appropriate 2-/3-stage integrator for any user-chosen simulation step size
+[111x211]within that interval. s-AIA has been implemented in the in-house software
+[111x196]package
+[111x196]HaiCS
+[155x196]without introducing computational overheads in the simula-
+[111x182]tions. The efficiency of the s-AIA integrators and their impact on the HMC
+[111x167]accuracy, sampling performance and convergence are discussed in compari-
+[124x136]∗
+[129x133]Corresponding author:
+[129x121]Email address:
+[129x121]lnagar@bcamath.org
+[198x121](Lorenzo Nagar)

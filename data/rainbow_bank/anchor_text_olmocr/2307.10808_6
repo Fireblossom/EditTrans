@@ -1,0 +1,159 @@
+Page dimensions: 612.0x792.0
+[72x351]the number of payments yet to make, as
+[72x364]simplifies to a count of the number of payments, allowing us to obtain an unbiased estimator for
+[72x391]the IPW estimator, and reserve the naming of HT estimator when referring to the general concept.
+[72x405]and outside the statistics literature, and so We will mostly refer to the estimator of the reserve as
+[72x418]ing applications in fairness in insurance. The terminology "IPW estimator" is more extended in
+[72x432]probability weighting (IPW) methods for estimation in causal inference (Yao et al. (2021)), includ-
+[72x445]sistency, unbiasedness, sufficiency, among others. More recently, it has also been applied in inverse
+[72x473]Arnab (2017)). Consequently, the HT estimator has a solid theoretical foundation and possesses
+[72x486]literature, having been extensively studied for over 70 years in the field of population sampling (e.g
+[72x594]of 1
+[72x608]reported, proportionally to
+[72x608]π
+[72x513]Therefore the estimator incorporates granular information as part of the estimation.
+[72x527]probabilities are dependent on the individual attributes of policyholders, claims, and payments.
+[72x540]even though the estimator is based on the population level (i.e a macro-level scale), the inclusion
+[72x554]of claim sizes (severity), which is a remarkable property. Additionally, we emphasize the fact that
+[72x567]assumptions on the underlying distribution of the number of claims (frequency) or the distribution
+[72x138]level adaptation of the Chain-Ladder method. By expressing the estimator in Equation (2) as
+[72x152]From an actuarial standpoint, the IPW estimator for the ultimate can be perceived as an individual-
+[72x172]A "Micro-level" Chain-Ladder method
+[72x201]distributions.
+[72x228]driven by a Poisson process. However, it is important to emphasize that within the framework of
+[72x242]follows a geometric distribution and demonstrated its unbiasedness when the number of claims is
+[72x255]work, they derived this expression under the assumption that the number of unreported claims
+[76x709]and therefore an unbiased estimator of the outstanding claims is the difference between the esti-
+[89x378]A specific case of interest arises when we set
+[89x378]Y
+[89x622]The intuition behind the HT estimator lies in the fact that only a portion of all payments
+[110x594]τ
+[116x594]) to approximate the actual total amount. It is important to note that the HT estimator
+[142x658]L
+[143x661]ˆ
+[144x313]N
+[147x316]ˆ
+[149x663]O
+[154x318]O
+[156x658](
+[166x313]τ
+[166x658]) = ˆ
+[172x313]) := ˆ
+[185x658]L
+[193x658](
+[193x313]N
+[197x658]τ
+[203x658])
+[203x658]−
+[208x313]τ
+[210x658]L
+[214x313])
+[214x313]−
+[215x608](
+[220x608]τ
+[226x608]), and so each payment in the sample is "augmented" by a factor
+[228x663]P
+[228x663](
+[241x318]P
+[241x318](
+[252x313]τ
+[255x101]L
+[258x313]) =
+[264x673]N
+[267x101]τ
+[269x645]j
+[272x676](
+[272x676]P
+[273x101]) =
+[277x328]N
+[281x673]τ
+[282x324]X
+[282x300]j
+[285x331]P
+[285x331](
+[286x673])
+[286x300]=1
+[292x116]N
+[292x651]π
+[294x328]τ
+[297x88]j
+[298x649]j
+[299x328])
+[299x666]Y
+[299x118]P
+[299x118](
+[301x88]=1
+[303x42]7
+[305x664]j
+[309x116]τ
+[311x304]j
+[313x651]−
+[314x116])
+[315x321]1
+[316x306](
+[319x101]f
+[320x306]τ
+[323x376]i
+[323x376]= 1. In this scenario, all the sums above
+[326x306]−
+[326x306])
+[328x101](
+[333x101]τ
+[336x669]X
+[339x101])
+[339x676]P
+[339x676](
+[341x645]=1
+[343x101]Y
+[345x328]N
+[349x673]τ
+[349x324]X
+[352x331](
+[352x331]P
+[353x673])
+[354x101],
+[354x300]=1
+[358x658]Y
+[362x328]τ
+[365x657]j
+[367x328])
+[384x673]N
+[388x669]X
+[389x645]j
+[391x676](
+[391x676]P
+[393x645]=1
+[396x324]X
+[397x300]j
+[399x331]P
+[401x673]τ
+[405x673])
+[409x328]τ
+[412x666]1
+[413x328])
+[419x666]π
+[420x321]1
+[420x321]−
+[421x651]π
+[427x321]π
+[429x306]π
+[432x651](
+[435x304]j
+[436x651]τ
+[437x664]j
+[440x306](
+[441x666](
+[442x651])
+[442x651]Y
+[445x319]j
+[445x666]τ
+[449x321](
+[450x306])
+[450x306].
+[451x666])
+[453x321]τ
+[459x321])
+[463x657]j
+[465x313](4)
+[467x658].
+[525x620]j

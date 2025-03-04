@@ -1,0 +1,223 @@
+Page dimensions: 595.3x841.9
+[54x120]itly in Ω.
+[54x236]seen that the qubit decay rates depend on
+[54x236]γ
+[54x224]the longer the qubit decays. Our calculations (not shown
+[54x143]ω
+[54x132]F
+[54x167]t
+[54x167]pulse at
+[54x247]ues for decay rates
+[54x258]qubit are shown in Fig. 1 for ∆
+[54x270]values of initial distance
+[54x339]x
+[54x293]x
+[54x304]ground state and the maximum of the envelope of a Gaus-
+[54x328]point
+[54x328]x
+[54x617]/
+[54x638]FIG. 1: Probability of the qubit excitation for different dis-
+[54x444]expressions (36), (33), and (34) for incident travelling
+[54x479]and (34) must be used.
+[54x549]γ
+[54x560]framework of time-dependent approach in \[32\], where
+[54x537]pressions (41) and (42) are valid if the incident photon
+[64x549](
+[64x316]t
+[64x491]γ
+[68x549]ω
+[74x549]) was arbitrary pulse shape. However, here the ex-
+[76x607].
+[79x607]04, dashed red line;
+[95x349]0
+[100x406]
+[108x385]π
+[114x385]∆
+[116x617].
+[116x617]Ω = 0
+[123x351]/v
+[133x349]is the time that it takes for the center
+[140x404]/
+[144x404]4
+[148x132](
+[152x132]ω
+[158x617]= Γ
+[159x132]F
+[160x607]= 0
+[161x247]/
+[181x392]ω
+[182x607].
+[184x132](Ω) is incorporated implic-
+[187x143](
+[191x143]ω
+[191x617].
+[191x617]Ω = 0
+[197x143]g
+[205x247],
+[206x390]s
+[214x247].
+[218x390]−
+[222x617]1, solid black line;
+[223x291]from the qubit.
+[227x247],
+[229x258]1 and three val-
+[233x213]|
+[236x213]β
+[236x247].
+[239x247]1. It is clearly
+[242x211]max
+[244x281]β
+[245x193]= 0
+[249x398]ω
+[250x385]∆
+[251x281]|
+[253x285]for three
+[261x216]2
+[261x216]≈
+[265x397]s
+[273x402]2
+[284x147]1
+[288x392],
+[292x147]2
+[317x498]is shown in Fig.2. For relative large distance,
+[317x510]distance
+[317x510]x
+[317x632]the coupling to negative frequencies:
+[317x643]\[32\] for arbitrary pulse shape and with the extension of
+[317x407]forward,
+[317x430]as shown in Fig.3.
+[317x384]pressions (44) and (45), and systematically compare
+[317x349]x
+[317x349]itly, all spectra are calculated for
+[317x189]nance frequency,
+[317x201]|
+[317x246]plots. In every case,
+[317x258]gration was performed within the frequency span of the
+[317x292]has the form of integral quantity (9). For every plot
+[317x304]tions (44) and (45) where the normalization condition
+[317x315]However, this simple condition is not valid for exact equa-
+[317x143]of the lines are similar. The transmittance
+[317x143]|
+[317x166]principal part integrals in (44), (45) which are responsi-
+[317x178]never reaches its maximum value
+[317x132]|
+[320x395]δ
+[324x119]WW
+[327x223]The major difference between the plots of equations
+[331x681]WW
+[331x744]WW
+[339x277]R
+[346x395]ω
+[352x745]ω
+[356x395]|
+[356x120]|
+[359x683]γ
+[359x683]) =
+[359x745]) =
+[363x395]Ω radiation spectra calculated from exact ex-
+[364x405]1
+[367x120]|
+[367x359]4
+[371x361](
+[372x407]ω
+[381x681]0
+[381x744]0
+[384x600]γ
+[386x745](
+[389x199](
+[389x550](
+[393x550]ω
+[394x189]= Ω and the reflectance
+[396x683])
+[397x269])
+[400x550]γ
+[400x600]) =
+[401x675]−
+[401x675]ω
+[401x738]ω
+[404x274]2
+[404x274]+
+[405x189]|
+[406x405]WW
+[410x753]Ω +
+[410x738]Ω +
+[411x201]ω
+[421x201]|
+[425x365]2
+[427x600](
+[428x407]ω
+[429x361]Ω. If it is not specified explic-
+[441x327]γ
+[444x757]Γ
+[444x672]2
+[445x407]Ω and backward,
+[450x327]ω
+[451x268](
+[451x593]Ω +
+[453x745]+
+[454x132]|
+[454x607]−
+[456x135]2
+[461x542]i
+[461x132], while the reflectance
+[461x593]i
+[463x607]Ω
+[465x557]i
+[465x178]γ
+[465x693]4
+[468x763]Γ
+[470x553]2
+[470x176]0
+[472x269]ω
+[473x675]−
+[474x738]ω
+[474x738]−
+[484x327]δ
+[485x546]Γ
+[485x539]2
+[485x274]where the inte-
+[485x274]2
+[486x589]2
+[486x705]R
+[486x707]∞
+[486x768]R
+[486x688]0
+[486x770]∞
+[486x750]0
+[488x327](
+[492x550].
+[492x181]2
+[492x327]ω
+[496x702]dω
+[498x372]ω
+[499x327])
+[504x756]ω
+[505x372]) =
+[506x330]=
+[506x767]′
+[508x764]γ
+[509x124]2
+[509x756]−
+[512x701]0
+[516x702](
+[516x679]Γ
+[517x734]2
+[518x143]γ
+[520x758]′
+[523x142](
+[527x702])
+[527x764])
+[531x405]2
+[536x407](
+[538x327](
+[540x407]ω
+[543x498]4 m,
+[544x143]ω
+[545x372]|
+[548x376]2
+[548x327])
+[551x143])
+[552x327]|
+[555x143]|
+[557x806]6
+[559x327].

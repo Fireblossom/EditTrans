@@ -1,0 +1,58 @@
+Page dimensions: 612.0x792.0
+[72x710]denoted by
+[72x710]b
+[123x710]in (27) are numerically equal to the corresponding coefficients denoted by
+[131x710]b
+[460x714]′
+[460x714]in (28).
+[498x714]21
+[87x690]With regard to the question posed in section 2, Frisch and Waugh provide the same answer as Yule:
+[72x670]coefficients are the same whether they are estimated from the multiple or from partial regressions. There
+[72x650]are both similarities and differences between Yule (1907) and Frisch and Waugh (1933). First, whereas in
+[72x630]Yule (1907), only one variable could be included in
+[72x630]W
+[308x629]1
+[308x629](the subset of covariates that was of interest to the
+[72x610]researcher), in Frisch and Waugh (1933) only one random variable could be included in
+[72x610]W
+[471x609]2
+[471x609](the subset of
+[72x590]covariates that was
+[72x590]not
+[158x590]of interest to the researcher). Second, much like Yule (1907) before them, Frisch and
+[72x571]Waugh (1933) did not investigate the relationship among estimated variances of the parameters of multiple
+[72x551]and partial regressions. The question that is relevant for statistical inference, i.e. standard errors, had still
+[72x531]not been posed.
+[72x493]5.3 Lovell extends the OLS analysis
+[72x467]Lovell (1963) extended the reach of the theorem significantly and addressed both questions that had been
+[72x447]left unanswered by Yule (1907) and Frisch and Waugh (1933). On the one hand, Lovell (1963) partitioned
+[72x427]the set of regressors,
+[72x427]W
+[174x427], into two subsets without any restrictions on the number of variables in each subset;
+[72x407]on the other, he laid the groundwork for thinking about the
+[72x407]estimated
+[336x407]covariance matrices of the coefficient
+[72x387]vectors.
+[87x367]In the context of OLS estimation, Lovell (1963) demonstrated two important results: (a) the coefficient
+[72x348]vectors are numerically the same whether they are estimated from the multiple or the partial regressions,
+[72x328]and (b) the vector of residuals from the multiple and partial regressions are numerically the same.
+[490x331]22
+[490x331]The first
+[72x308]result completed the YFWL so far as the estimate of the coefficient is concerned because the partitioning of
+[72x288]the set of regressors was completely general; the second result laid the groundwork for comparing estimated
+[72x268]variances of the coefficient vectors from multiple and partial regressions.
+[72x268]23
+[72x231]5.4 D. Giles extends the theorem to IV estimation
+[72x204]So far, the YFWL theorem was always posed in the context of least squares, ordinary or generalized,
+[72x184]estimation. To the best of my knowledge, Giles (1984) was the first scholar to extend the theorem to
+[79x169]21
+[87x166]For a proof see appendix D. In his presentation of the Frisch-Waugh theorem, Chipman (1998, p. 84–86) argues as if Frisch
+[72x157]and Waugh had used projection matrices in their proof. That is not correct. Frisch and Waugh (1933) did not use projection
+[72x147]matrices in their proof.
+[79x141]22
+[87x138]I omit the proofs because they are just special cases of theorem 2 in this paper.
+[79x131]23
+[87x128]It is straightforward to extend the YFWL from ordinary least squares to generalized least squares estimation, as Lovell had
+[72x119]noted when commenting on autocorrelated errors (Lovell, 1963, p. 1004). Other scholars have worked on variations of Lovell's
+[72x109]results; see, for instance, Fiebig and Bartels (1996); Krishnakumar (2006).
+[301x72]22

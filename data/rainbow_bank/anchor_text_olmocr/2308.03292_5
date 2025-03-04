@@ -1,0 +1,124 @@
+Page dimensions: 612.0x792.0
+[0x0]1
+[0x0]1
+[0x0]3
+[0x0]3
+[0x0]2
+[0x0](5,195)(a) (5,100) (d)
+[0x0]2
+[12x246]∞
+[14x244]˜∆
+[20x100]˜
+[24x88]∥
+[24x96]H
+[24x109]∥
+[24x64]10
+[24x100]10
+[24x193]10
+[24x246]10
+[25x236]10
+[31x299]10
+[31x69]10
+[31x114]10
+[31x159]10
+[31x288]10
+[36x68]□
+[36x197]□
+[36x250]□
+[37x240]□
+[43x68]5
+[43x140]1
+[43x197]2
+[43x250]1
+[43x118]3
+[43x163]4
+[43x187]2
+[43x240]1
+[43x293]0
+[54x281]Kutta,
+[54x281]ε
+[54x292]u
+[54x224]tocol that implements the imaginary time evolution tra-
+[55x27]0
+[59x105]\[4\] E. Farhi, J. Goldstone, and S. Gutmann, arXiv preprint
+[59x137]\[3\] A. Peruzzo, J. McClean, P. Shadbolt, M.-H. Yung, X.-Q.
+[59x168]\[1\] J. Preskill, Quantum
+[59x168]2
+[72x74]18
+[72x74]Guzik, New Journal of Physics
+[72x126]Zhou, P. J. Love, A. Aspuru-Guzik, and J. L. O'brien,
+[72x147]120
+[80x291]1
+[84x281]= 0
+[86x532](b)
+[107x281].
+[109x281]05, for the Heisenberg XXZ system for various
+[111x291]2
+[111x10]τ
+[112x10]τ
+[116x320](5,195)(c) (5,100)
+[123x49]= 14
+[123x49]L
+[123x66]= 12
+[123x66]L
+[123x83]= 10
+[123x83]L
+[135x292]w
+[135x292]5, block size
+[135x273]L
+[135x273]= 8
+[135x290]L
+[164x147], 12685 (2020).
+[189x883]10□2\n10□1\n100\nI∞\nL = 6\nL = 8\n0 1 2 3\nτ\n10□5\n10□3\n10□1\nIτ\nL = 10\nL = 12\nL = 14
+[201x302]H
+[204x671]10□2\n10□1\n100\n˜∆\n0 1 2 3\nτ\n102\n103\n104\n∥˜H∥
+[210x74], 023023 (2016).
+[317x235]grant no. DE-SC-0019374. GKC acknowledges support
+[317x247]Energy, Office of Science, Basic Energy Sciences, under
+[317x270]for helpful discussions.
+[317x352]dure a good match for near-term quantum architectures.
+[317x363]measurement-based feedback). This makes our proce-
+[317x375]amount of quantum resources (i.e. no ancillae and no
+[317x386]proach is that it can be implemented with a minimal
+[317x421]alysts \[8, 24\], etc. This is a direction to be explored in
+[317x432]applications such as introduction of novel adiabatic cat-
+[317x444]ite adiabatic paths (with A-QITE as one of them), with
+[317x455]new quantum adiabatic routines consisting of compos-
+[317x466]batic paths; this potentially allows for introduction of
+[317x489]the A-QITE adiabatic path introduced in this work can
+[317x501]ment in the approximate ground-state. More generally,
+[317x512]propagate for short times and to observe a large improve-
+[317x524]of the rapid decrease of the infidelity it is possible to
+[317x535]and which should be further explored. However, because
+[317x547]equation of the adiabatic Hamiltonian can be introduced
+[317x558]and its gap, for which modifications of the generating
+[317x570]time is related to the norm of the adiabatic Hamiltonian
+[317x581]tonian. Another source of growing cost at long imaginary
+[317x592]heuristics which truncate terms in the adiabatic Hamil-
+[317x615]including the nonlocality of the derived adiabatic Hamil-
+[317x627]a function of imaginary time arises from several sources,
+[317x638]and quantum parts of the protocol. The growth in cost as
+[317x650]grows rapidly with imaginary time both in the classical
+[317x684]exponential decrease of the infidelity with the ground-
+[317x696]When implemented faithfully, the algorithm leads to an
+[317x707]time integration to generate the adiabatic Hamiltonian.
+[317x719]cilla resources. This hybrid algorithm involves a classical
+[317x730]jectory without any need for quantum tomography or an-
+[317x74]\[10\] L. Veis and J. Pittner, The Journal of Chemical Physics
+[322x116]\[8\] T. Albash and D. A. Lidar, Reviews of Modern Physics
+[322x147]\[7\] J. Romero, R. Babbush, J. R. McClean, C. Hempel, P. J.
+[322x168]\[6\] C. Sch¨ on, K. Hammerer, M. M. Wolf, J. I. Cirac, and
+[322x95]\[9\] R. Babbush, P. J. Love, and A. Aspuru-Guzik, Scientific
+[327x281]We thank Yu Tong, Alex Dalzell and Anthony Chen
+[335x105]90
+[335x126]4
+[335x126]nology
+[335x137]Love, and A. Aspuru-Guzik, Quantum Science and Tech-
+[335x157]E. Solano, Physical Review A
+[335x84]reports
+[335x84]4
+[346x105], 015002 (2018).
+[370x126], 014008 (2018).
+[372x84], 1 (2014).
+[469x157], 032311 (2007).
+[557x756]6

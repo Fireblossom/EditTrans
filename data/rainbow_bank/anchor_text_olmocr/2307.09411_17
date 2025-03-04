@@ -1,0 +1,184 @@
+Page dimensions: 612.0x792.0
+[72x169]u
+[72x169]probabilities and aversion to risk is driven by the shape of the utility function
+[72x186]Assumption 2.2 is the same for each context. In the EU model, utility is linear in the
+[72x462]lated to filing claims and their probabilities:
+[72x267]context lottery is evaluated through
+[72x284]Expected Utility Theory (EU) or Yaari's (1987) Dual Theory (DT). Within EU, a single-
+[72x514]in Section 2.1, for each context
+[72x514]j
+[72x497]d
+[72x497]of deductible
+[72x147]B
+[72x147]density function evaluated at a single point. Rather,
+[72x531]d
+[72x531]with deductible
+[72x549]M
+[72x549]pairs,
+[72x566]in context
+[72x566]j
+[72x583]as households. As a reminder,
+[72x583]µ
+[72x601]chosen by the agent. In our data, the decision maker is a household; hence, we refer to agents
+[72x618]where each coverage provides full insurance against covered losses in excess of a deductible
+[72x635]As introduced in Section 2.1, we model agents' choices in two contexts of insurance coverage,
+[72x660]4.1 Empirical model
+[72x708]4 Model & Data on Choices in Automobile Insurance
+[72x123]x
+[72x135]the density function evaluated at cutoffs
+[72x135]V
+[76x204]w
+[76x204]where
+[77x364](II) Any claim exceeds the highest available deductible; payment of the deductible is the only
+[78x127]II
+[78x127]we are able to create such a mapping even though there can be multiple preference types.
+[81x408](I) Households disregard the possibility of experiencing more than one claim during the
+[90x436]Assumption
+[90x436]4.1
+[90x479]We make assumptions, that are widespread in the literature on property insurance, re-
+[90x302]We assume that the two types of preferences described in Section 2.2 result from either
+[101x329]claim probability.
+[101x346]cost associated with a claim; the household's deductible choice does not influence its
+[101x391]policy period.
+[119x202]is the household's wealth and
+[119x202]i
+[119x546]" tp
+[119x554]j
+[127x204]u
+[133x566]j
+[133x566]; for each coverage
+[144x235]U
+[148x501]kj
+[148x501]is constant across households for all
+[152x234]i
+[153x549]d
+[156x235]p
+[159x553]ℓj
+[160x235]L
+[161x536]and
+[161x536]ℓj
+[161x497]d
+[167x549],
+[167x549]x
+[169x235]p
+[172x531]D
+[173x235]d
+[178x436]:
+[178x436]\[Restrictions Related to Claim Probabilities\] line
+[179x546]q
+[179x546]i
+[179x554]ℓj
+[179x240]ℓj
+[187x549]:
+[187x235],
+[187x235]x
+[196x549]ℓ
+[199x232], µ
+[199x232]i
+[199x241]ℓj
+[204x536]is the set of deductible options offered in context
+[204x536]j
+[205x549]P
+[212x531]j
+[214x549]D
+[220x232]i
+[220x232]qq"p
+[220x241]j
+[224x235]1
+[232x514]Pt
+[232x566]Pt
+[234x580]denotes the probability of household
+[234x580]i
+[234x589]j
+[235x553]j
+[239x549]u
+[242x583]i
+[245x549]x
+[245x549], where
+[253x235]´
+[255x514]I
+[256x566]I
+[259x132]k
+[260x139]1
+[261x514],
+[261x514]II
+[262x566]II
+[262x566],
+[264x135]p
+[268x135]x
+[274x235]µ
+[274x139]I
+[279x135]q
+[279x514]u
+[279x566]u
+[281x232]q
+[281x232]i
+[281x241]j
+[282x135], k
+[285x566]i
+[288x514]the ratio of the price of deductible
+[288x514]d
+[290x235]u
+[291x202]i
+[294x204]p¨q
+[295x546]i
+[295x546]is the household-specific premium associated
+[295x554]ℓj
+[296x135]ą
+[296x234]i
+[300x235]p
+[300x41]17
+[304x235]w
+[307x135]1. In contrast, here by properly utilizing variation in
+[309x147]Pr
+[311x204]is its Bernoulli utility function, which under
+[313x234]i
+[313x234]´
+[324x147]I
+[330x151]"
+[330x151]˚
+[330x235]x
+[337x232]q`
+[337x232]i
+[337x241]ℓj
+[345x235]µ
+[347x566]faces a menu of premium-deductible
+[354x501]ℓj
+[354x145]1
+[359x147]|
+[361x147]x
+[362x497],
+[362x497]d
+[367x147]q{B
+[371x232]i
+[371x232]u
+[371x241]j
+[373x501]P
+[373x501]kj
+[381x147]x
+[382x234]i
+[386x235]p
+[387x151]I
+[387x151]maps into a linear combination of
+[390x235]w
+[395x497]D
+[399x234]´
+[399x234]i
+[405x501]j
+[409x497].
+[416x235]x
+[424x232]´
+[424x232]i
+[424x241]ℓj
+[429x583]experiencing a claim
+[446x235]d
+[452x240]ℓj
+[460x235]q
+[464x235],
+[464x235](4.1)
+[468x531]. As discussed
+[471x518]ℓj
+[471x518]to the price
+[482x167]i
+[485x169]p¨q
+[498x169].

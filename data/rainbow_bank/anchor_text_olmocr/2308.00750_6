@@ -1,0 +1,226 @@
+Page dimensions: 612.0x792.0
+[-2x307]A B C\nAO BI BO CI\nE1 E2 E3
+[0x0]perth
+[0x0]perth
+[0x0]perth
+[0x0]perth
+[54x70]ment
+[54x70]ρ
+[54x85]with writing the terms: the initial state of the environ-
+[54x108]U
+[54x108]= exp
+[54x131]creation and annihilation operators, respectively. Then
+[54x143]tem and memory qubit, respectively, and
+[54x143]σ
+[54x217]pled qubit, as shown in Fig. 4. This interaction can be
+[54x286]larger multi-qubit array. The particular qubits we choose
+[54x694]our case, ˆ
+[54x730]some metric ˆ
+[54x483]the credible interval).
+[54x508]cess; the sample mean of the metric ˆ
+[54x520]nally, we rely on bias correction in the bootstrapping pro-
+[54x555]noise in the finite-sample estimates of observables, and
+[54x590]the standard deviation of this distribution is used to cal-
+[54x648]surements at
+[54x671]11
+[54x671]0.0421,
+[64x97]To write the process matrix for our system, we start
+[72x566]). This technique is designed to account for shot
+[84x186]1
+[90x73]1
+[93x181]1
+[95x694]is a measured set of shot probabilities, which
+[99x671]: 0.0068
+[101x181]⊗
+[103x153]2
+[115x730]( ˆ
+[116x108]t
+[119x730]X
+[135x449]Simulated process
+[137x612]i
+[140x671]00
+[140x671], where,
+[142x186]2
+[156x648]. We resample 8000 shots from
+[159x68]1
+[159x68]and the second chan-
+[160x76]A
+[166x75]O
+[178x74]B
+[178x671]for example corresponds
+[184x683]10
+[185x495]X
+[190x75]I
+[198x179]12
+[200x76]2
+[202x717]is representative of
+[206x706]is drawn from. In
+[206x706]X
+[211x508]θ
+[216x508]( ˆ
+[240x179]+
+[240x683]01
+[240x683]: 0.1738,
+[263x179]−
+[286x166](7)
+[296x181],
+[317x396]t
+[317x694]trace out all the environment systems
+[317x717]a system denotes partial transposition for that system.
+[317x728]nel
+[317x70]Eq. 7 to the complexity of current-day quantum hard-
+[317x93]not a particularly surprising result when contrasting the
+[317x116]namics. In practice, both metrics were observed to be
+[317x139]t
+[317x219]FIG. 5. Simulated (a)
+[317x499]rameters of the Hamiltonian,
+[317x476]rameters,
+[317x522]and some basis of
+[317x534]H
+[317x534]on
+[317x573]L
+[317x430]ibm
+[317x442]capturing the 97 ns process conducted in the experiment.
+[317x465]on
+[317x619]T
+[317x619]and
+[317x634]tialised to the ground state,
+[317x634]T
+[317x555]P
+[321x394]1
+[321x394]= \[21
+[321x406]2
+[321x647]where
+[322x669]= Tr
+[322x669]W
+[324x584](
+[328x544]j
+[329x562](
+[331x544]|
+[332x552]AI
+[333x562]|
+[335x209]processor over a range of free evolution times
+[336x562]1
+[336x511](b)
+[336x577]A
+[338x197]2
+[339x725]2
+[341x734]B
+[342x587]I
+[342x587]⊗ H
+[342x198].
+[343x616]= \[\[
+[344x624]B
+[346x547]jj
+[352x534]T
+[356x547]⟩ ∈ H
+[357x667]E
+[358x562]|
+[359x737]T
+[361x650]1
+[361x562]1
+[362x622]C
+[362x627]T
+[367x667],E
+[369x647]|
+[370x733]I
+[374x565], where
+[375x666]2
+[376x476]ω
+[379x396].
+[379x587]), isomorphic to a CP map
+[380x733]3
+[380x551]A
+[382x396]89
+[383x647]0
+[386x550]⊗H
+[386x550]I
+[387x476], ω
+[387x666]3
+[388x647]⟩
+[388x728]T
+[392x396],
+[397x475]2
+[400x673]E
+[401x576]) is defined as
+[406x526]A
+[406x672]⊗
+[406x672]1
+[407x573]M
+[412x525].
+[413x669]T
+[414x550]I
+[416x619]\]\]
+[417x475]2
+[425x139].
+[428x219]JSD
+[428x219]and (b)
+[428x622]O
+[429x666]⊗
+[432x547]j
+[433x562]|
+[434x476], t
+[437x547]⟩}
+[440x162]t
+[442x674]E
+[444x623]C
+[444x632]= \[\[
+[444x632]1
+[445x430], the parameters were fixed
+[445x553]d
+[446x453]t
+[449x544]=1
+[449x544]is an orthonormal basis
+[450x452]and
+[451x498]1
+[453x219]N
+[454x161]= 24
+[455x499]ω
+[457x453]t
+[460x673]I
+[461x394]= \[21
+[463x638]1
+[464x674]E
+[471x499]g
+[473x638]I
+[476x669]T
+[477x639]E
+[479x452]2
+[482x498]1
+[485x162]89 ns should max-
+[486x498],
+[490x219]values for the
+[492x396].
+[493x499]t
+[493x499], and the time
+[493x577]A
+[499x576]I
+[503x577]A
+[505x396],
+[506x634]U
+[509x576]O
+[510x139].
+[514x634]\]\]
+[519x396].
+[523x573]I ⊗
+[527x674]E
+[528x600]A
+[533x673]3
+[534x598]I
+[535x139]44 ns)
+[535x562]1
+[538x417]1
+[538x417]and
+[538x600]A
+[541x728]on
+[541x562]=
+[543x588]A
+[543x588]:
+[544x598]O
+[544x598]∈
+[1082x1267]E
+[1480x1061]I
+[1580x1267]E
+[1581x1006]B
+[2140x1261]3
+[2413x1009]C

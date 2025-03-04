@@ -1,0 +1,136 @@
+Page dimensions: 612.0x792.0
+[72x708]de Finetti and many other authors who wrote on bookmaking, assumed additivity more or
+[72x687]less implicitly
+[142x691]4
+[142x691]but emphasized the importance of monotonicity. They used the above
+[72x666]result, without the antimonotonicity restriction, and several variations, to argue that it is
+[72x645]rational to use subjective probabilities in the context of uncertainty. Linearity of utility, as
+[72x624]implied here, is reasonable for moderate stakes (l'Haridon & Vieider, 2019, p. 189; Savage,
+[72x603]1954, p. 91). de Finetti's result was historically important as a foundation of Bayesianism.
+[72x582]Our result shows, again, that the most critical case of "bookmaking" occurs when there are
+[72x561]maximal possibilities of hedging (antimonotonicity). That is, de Finetti needed to defend
+[72x540]his condition only for antimonotonic cases.
+[72x498]3.2 Anscombe and Aumann's subjective expected utility
+[72x470]Anscombe & Aumann (1963) presented a famous preference axiomatization of expected
+[72x449]utility.
+[72x449]?
+[111x449](1970,
+[122x449]§
+[163x449]13.1) proposed a simplified version of their framework that is most
+[72x428]popular today and we will use that. It is important because it is mostly used as point of
+[72x407]departure for developing ambiguity theories (
+[72x407]§
+[309x407]4.3). The outcome set
+[309x407]C
+[427x407]is nowadays often
+[72x386]chosen to be a mixture space, and so will we do. Examples of mixture spaces include
+[72x365]money intervals, convex subsets of linear spaces, or, the most common case in the literature
+[72x344]on ambiguity, probability distributions over general "prizes." For simplicity, readers not
+[72x323]familiar with general mixture spaces may take in mind any such example.
+[72x302]We call
+[72x302]C
+[114x302]a
+[125x302]mixture space
+[134x302]if it is endowed with a mixture operation. A
+[207x302]mixture operation
+[72x281]generalizes convex combinations on linear spaces. It maps
+[72x281]C ×
+[394x281]\[0
+[403x281],
+[403x281]1\]
+[409x281]× C
+[443x281]to
+[443x281]C
+[465x281], and is
+[72x260]denoted
+[72x260]αx
+[116x260]+ (1
+[133x260]−
+[158x260]α
+[177x260])
+[182x260]y
+[188x260]. It is required to satisfy the following conditions:
+[83x233](i) 1
+[83x233]x
+[107x233]+ 0
+[134x233]y
+[134x233]=
+[143x233]x
+[156x233](identity);
+[80x203](ii)
+[80x203]αx
+[101x203]+ (1
+[118x203]−
+[143x203]α
+[162x203])
+[167x203]y
+[167x203]= (1
+[176x203]−
+[202x203]α
+[221x203])
+[226x203]y
+[226x203]+
+[235x203]αx
+[246x203](commutativity);
+[77x173](iii)
+[77x173]α
+[109x173](
+[113x173]βx
+[113x173]+ (1
+[130x173]−
+[155x173]β
+[174x173])
+[179x173]y
+[185x173]) + (1
+[217x173]−
+[217x173]α
+[236x173])
+[241x173]y
+[241x173]=
+[250x173]αβx
+[263x173]+ (1
+[287x173]−
+[312x173]αβ
+[338x173])
+[343x173]y
+[343x173](associativity).
+[72x146]A function
+[72x146]U
+[131x146]:
+[143x146]C →
+[175x146]R
+[175x146]is
+[188x146]affine
+[200x146]if
+[90x107]for all outcomes
+[90x107]x, y,
+[203x107]and 0
+[203x107]< α <
+[271x107]1 :
+[271x107]U
+[300x107](
+[304x107]αx
+[304x107]+ (1
+[321x107]−
+[346x107]α
+[365x107])
+[370x107]y
+[376x107]) =
+[376x107]αU
+[413x107](
+[418x107]x
+[424x107]) + (1
+[456x107]−
+[456x107]α
+[476x107])
+[480x107]U
+[490x107](
+[494x107]y
+[500x107])
+[505x107].
+[505x107](6)
+[85x90]4
+[90x86]The bookmaking argument usually makes yet stronger assumptions by also incorporating positive scalar
+[72x74]multiplications and, thus, linear combinations. We showed that such assumptions are not needed because
+[72x62]they are implied by the other conditions.
+[301x32]10

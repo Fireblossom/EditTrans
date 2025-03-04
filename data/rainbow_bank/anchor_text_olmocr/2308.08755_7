@@ -1,0 +1,79 @@
+Page dimensions: 612.0x792.0
+[54x70]and Quantum Systems Accelerator. H
+[54x93]by the U.S. Department of Energy, Office of Science, Na-
+[54x105](MR/T040513/1). YP, HR, and KBW were supported
+[54x139]ZZ acknowledges the support from the Royal Society
+[54x211]tems.
+[54x234]finements and extensions of the protocol as metasurface
+[54x257]imental implementation with small numbers of photons
+[54x268]quantum photonic technologies. We expect that exper-
+[54x314]such as Clifford measurement-based classical shadow of
+[54x337]the schemes described in this paper can be generalized to
+[54x349]that enables nonlocal measurements. So we expect that
+[54x360]achieving multi-photon interference \[7\], a characteristic
+[54x371]measurements \[3\]. However, metasurfaces are capable of
+[54x417]imperfections as well.
+[54x440]model its impact on the measurement outcomes, thereby
+[54x475]It is important to note that our measurement bases are
+[54x486]sult in deviations from the desired measurement basis.
+[54x498]Fabrication imperfections, on the other hand, tend to re-
+[54x521]phenomena that persist even under flawless metasurface
+[54x532]ent noise includes unwanted diffraction and photon loss,
+[54x543]trinsic noise associated with metasurfaces. This inher-
+[54x590]The study provides a promising approach for robust and
+[54x601]the accuracy of measurement outcomes to a high fidelity.
+[54x612]a corresponding error mitigation technique that ensures
+[54x635]erating measurement noise, we showed how to establish
+[54x647]the effects of realistic metasurface noise sources in gen-
+[54x658]the need for optical setup reconfiguration. To counter
+[54x670]ity of the approach for photonic qubits, which eliminates
+[64x151]The authors thank Ying Li for valuable discussions.
+[64x291]In this work, we have described all necessary pro-
+[64x406]Some randomized measurement protocols need nonlo-
+[317x670]domly chosen basis pairs of H/V, H
+[317x371]phase distribution of two orthogonal states (
+[317x394]lize the genetic algorithm (AGA) to carefully select the
+[317x405]verse position of metagratings (along the x-axis). We uti-
+[317x452]forming a birefringent film with high transmission.
+[317x475]the backward scattering is strongly suppressed, leading
+[317x486]resonances within the nanodisks and their interference,
+[317x498]the excitations of Mie-type electric and magnetic dipole
+[317x520]nanodisks. The design of nanodisks is optimized to en-
+[317x532]plane waves while altering the width and depth of the
+[317x578]and depth of the nanodisks along the x- (
+[317x601]h
+[317x601]the nanodisks are designed to have a height
+[317x624]assist the metasurface design.
+[317x636]measurement efficiency. We use numerical simulations to
+[317x659]design involves a metasurface composed of periodic Si
+[317x348]×
+[317x348]is 750
+[317x359]along the x-axis with high transmission. The unit size
+[317x117]method based on the decomposition of a periodic struc-
+[317x140]are calculated using Rigorous Coupled-Wave Analysis
+[317x151]while adjusting the width and depth of the nanodisk,
+[317x175]the calibrated noise rate can be found in Table IV.
+[317x210]parameters. With this design, we numerically character-
+[317x221]bilities, it is feasible to fabricate a metasurface with these
+[317x232]listed in Table I. Given the current experimental capa-
+[317x279]pairs of orthogonal states into different diffractive angles,
+[317x290]gratings, we can form metasurfaces that distinguish three
+[327x693]The guiding principle in our metasurface design is to
+[327x612]For an incident wavelength of 1550nm as an example,
+[327x163]The transmission and phase change spectra, obtained
+[356x566]), calculating the corresponding optical proper-
+[376x325]±
+[383x313]1, 5
+[384x325]V, and RCLC), illuminating into different
+[393x588]= 800 nm. We then scan the width
+[399x720]METASURFACE
+[407x313]×
+[451x313]1 meta-atoms as periodic
+[513x599]0
+[520x369]and
+[520x369]1
+[524x578]) and y-
+[528x371]φ
+[554x369]2
+[557x756]8
+[558x371])

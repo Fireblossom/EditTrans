@@ -1,0 +1,103 @@
+Page dimensions: 612.0x792.0
+[0x0](b)
+[7x124]0.0%
+[7x124]0.0%
+[7x196]0.1%
+[7x338]0.3%
+[7x410]0.4%
+[7x410]0.4%
+[7x482]0.5%
+[7x553]0.6%
+[7x624]0.7%
+[7x625]0.7%
+[36x85]/uni00000036/uni0000002c/uni00000031
+[36x85]/uni00000036/uni0000002c/uni00000031
+[36x212]/uni00000031/uni0000003c/uni00000026
+[36x212]/uni00000031/uni0000003c/uni00000026
+[36x352]/uni00000026/uni00000024/uni0000002f
+[36x352]/uni00000026/uni00000024/uni0000002f
+[65x110]/uni00000013/uni00000011/uni0000001b/uni00000019/uni00000014/uni00000015
+[65x246]/uni00000013/uni00000011/uni0000001c/uni00000019/uni00000019/uni00000018
+[65x246]/uni00000013/uni00000011/uni0000001a/uni00000015/uni0000001c/uni00000018
+[75x15]/uni00000033/uni0000002b/uni00000032
+[75x15]/uni00000033/uni0000002b/uni00000032
+[135x460]fer to the category transition distributions among
+[135x328]AE
+[135x512]further explore such correlation from the angle of user sequential behaviors.
+[135x524]pattern is a significant factor in the next POI recommendation task, we thus
+[135x548]when measuring the correlation of cities. Although the correlation of cities can
+[135x352](i.e., NYC and SIN). For ease of presentation, we select the 10 most frequent
+[135x400]tion. Specifically, PHO and CAL still keep higher similarity, whereas NYC shows
+[135x412]cities w.r.t behavioral patterns is quite different from that w.r.t POI distribu-
+[135x436]similarity among different cities can be calculated via the Pearson correlation
+[135x141]POI
+[135x141]p
+[135x177]Problem Formulation.
+[135x191]target city, i.e., paying more attention to more correlated knowledge.
+[135x215]This section presents the proposed MERec, which leverages the correlation of
+[135x268]knowledge from auxiliary cities to the target city.
+[135x280]between cities, which inspire us to differentiate their influence when transferring
+[135x292]vice versa
+[135x292]sitions and
+[135x153]i.e.,
+[135x565]patterns at category level; (c-d) two most correlated and least correlated cities.
+[154x153]= (
+[162x20]NS2TT
+[162x20]NS2TT
+[162x141]c
+[162x141], category
+[173x687]/uni00000033/uni0000002b/uni00000032/uni00000026/uni00000024/uni0000002f/uni00000031/uni0000003c/uni00000026/uni00000036/u ... ni0000001b/uni00000018\n/uni00000013/uni00000011/uni0000001c/uni00000013\n/uni00000013/uni00000011/uni0000001c/uni00000018
+[176x153]p, c, g, t
+[202x110]/uni00000013/uni00000011/uni0000001b/uni00000014/uni00000014/uni00000015
+[211x153], are ordered by timestamps as in \[22\], where
+[215x141], coordinate
+[216x15]/uni00000026/uni00000024/uni0000002f
+[251x177]Each city has its unique user set
+[252x674]/uni00000033/uni0000002b/uni00000032/uni00000026/uni00000024/uni0000002f/uni00000031/uni0000003c/uni00000026/uni00000036/u ... ni0000001a/uni00000018\n/uni00000013/uni00000011/uni0000001b/uni00000013\n/uni00000013/uni00000011/uni0000001b/uni00000018
+[269x471]1
+[269x477]cat
+[272x17]DR2TT
+[273x141](i.e., longitude and latitude) and timestamp
+[277x692]Title Suppressed Due to Excessive Length 5
+[292x471]...A
+[292x477]cat
+[293x448]F O
+[307x328]→
+[312x448]→
+[319x470]\]
+[326x448]within city A. Analogously, the
+[326x13]PO2CU
+[337x474]B
+[342x328](AE2CU), and the
+[348x15]/uni00000031/uni0000003c/uni00000026
+[356x460]S
+[363x328]y
+[364x477]cat
+[370x165]u
+[376x165], all his check-in records,
+[392x474]B
+[399x471], B
+[402x177]U
+[414x177]P
+[439x16]AE2OP
+[439x16]AE2OP
+[451x470]|S|
+[451x470]\]
+[451x477]cat
+[452x153]denote
+[456x328]−
+[463x474]re-
+[464x328]axis
+[469x457]1
+[493x13]CU2PO
+[493x13]CU2PO
+[551x17]SS2CU
+[572x573]SIN
+[605x13]CU2NS
+[639x78]/uni00000013/uni00000011/uni00000019/uni00000018
+[639x81]/uni00000013/uni00000011/uni0000001a/uni00000018
+[639x188]/uni00000013/uni00000011/uni0000001a/uni00000013
+[639x298]/uni00000013/uni00000011/uni0000001a/uni00000018
+[639x409]/uni00000013/uni00000011/uni0000001b/uni00000013
+[639x428]/uni00000013/uni00000011/uni0000001c/uni00000013
+[639x544]/uni00000013/uni00000011/uni0000001c/uni00000018

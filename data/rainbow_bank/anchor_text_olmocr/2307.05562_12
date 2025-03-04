@@ -1,0 +1,39 @@
+Page dimensions: 612.0x792.0
+[88x709]Toinvestigatethepossibilityofstockoutsatthewarehouselevelandtheirpotentialimpact
+[71x691]on store-level stockouts, we also analyze aggregate daily deliveries from the warehouse to all
+[71x673]634 stores. Given that the products in our working sample are popular items, we interpret a
+[71x655]zero value in aggregate daily deliveries as a stockout event at the warehouse. The results of
+[71x637]our analysis, presented in Section A.4 in the Appendix, reveal that warehouse stockouts are
+[71x620]negligible for our working sample. For each product within the working sample, warehouse
+[71x602]stockout events occur on no more than 3 out of the 677 days in the sample, which accounts
+[71x584]for less than
+[137x584]0
+[143x584].
+[146x584]5%
+[146x584]of the observed period. These findings suggest that stockouts observed at
+[71x566]the store level are primarily driven by factors other than warehouse-level stockouts.
+[71x527]2.4 Data on store managers' education and experience
+[71x501]In addition to the main dataset, we enhance our analysis by incorporating information
+[71x483]on store managers' human capital. Leveraging the professional social networking platform
+[71x465]LinkedIn
+[116x465], we gather data on the education and experience of store managers from their public
+[71x447]profiles. Out of the 634 store managers in our dataset, 600 are identifiable by name in the
+[71x429]LCBO's records.
+[155x434]7
+[155x434]Within this subset, we were able to locate public
+[417x429]LinkedIn
+[417x429]profiles for 143
+[71x411]managers, allowing us to retrieve valuable information about their educational background
+[71x394]and work experience.
+[88x376]Table 4 presents summary statistics for the variables related to store managers' educa-
+[71x358]tional background and work experience. Notably, we observe a pattern in which managers
+[71x340]with greater experience and higher educational attainment tend to be assigned to higher-
+[71x322]classified stores. This finding suggests a positive correlation between manager characteristics
+[71x304]and store classification, indicating that the LCBO may allocate more experienced and highly
+[71x286]educated managers to stores of higher importance or larger scale. In Appendix A.2, we pro-
+[71x268]vide more detailed information on the positive relationship between manager characteristics
+[71x250]and the classification of stores within the LCBO retail chain.
+[84x86]7
+[89x83]During our sample period, some stores are overseen by interim managers who are not identified by name
+[71x71]in our main dataset.
+[300x41]12

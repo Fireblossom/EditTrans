@@ -1,0 +1,189 @@
+Page dimensions: 595.3x841.9
+[93x729]and define a robust welfare function as
+[195x694]RW(
+[219x694]d
+[225x694]) = sup
+[245x684]γ
+[250x684]∈
+[256x684]Σ(
+[265x684]δ
+[269x684])
+[274x694]E
+[282x693]γ
+[290x715]"
+[290x715]L
+[297x706]X
+[298x680]ℓ
+[302x680]=1
+[316x694]Y
+[323x693]ℓ
+[327x694]I
+[333x694](
+[337x694]d
+[343x694](
+[348x694]X
+[359x694]) =
+[359x694]ℓ
+[384x694])
+[388x715]#
+[397x694].
+[89x642]Proposition 7.1.
+[89x642]For
+[188x642]ℓ
+[210x642]∈
+[218x642]\[
+[232x642]L
+[240x642]\]
+[244x642], let
+[213x615]c
+[218x614]ℓ
+[222x615](
+[227x615]s
+[232x614]ℓ
+[236x615], s
+[247x620]′
+[247x612]ℓ
+[251x615]) =
+[251x615]|
+[275x615]y
+[280x614]ℓ
+[280x614]−
+[287x615]y
+[305x620]′
+[305x612]ℓ
+[309x615]|
+[309x615]+
+[315x615]∥
+[332x615]x
+[339x614]ℓ
+[339x614]−
+[346x615]x
+[364x620]′
+[364x612]ℓ
+[368x615]∥
+[374x614]2
+[379x615].
+[93x589]Assume that
+[93x589]Y
+[168x587]ℓ
+[168x587]is unbounded,
+[176x589]E
+[257x589]\[
+[261x589]∥
+[267x589]X
+[277x589]∥
+[283x593]2
+[283x586]2
+[288x589]\]
+[288x589]<
+[295x589]∞
+[307x589]and
+[323x589]E
+[354x589]\[
+[357x589]|
+[360x589]Y
+[367x587]ℓ
+[371x589]|
+[375x589]\]
+[375x589]<
+[381x589]∞
+[405x589]. Then
+[97x556]RW(
+[121x556]d
+[127x556]) = sup
+[148x546]λ
+[153x546]≥
+[160x546]1
+[167x572]
+[213x556]inf
+[176x548]π
+[181x548]∈
+[187x548]Π(
+[196x548]µ
+[201x546]1
+[205x546],L
+[212x546]+1
+[222x548],...,µ
+[239x546]L,L
+[251x546]+1
+[261x548])
+[266x572]Z
+[273x545]V
+[281x556]min
+[281x548]ℓ
+[285x548]∈
+[291x548]\[
+[293x548]L
+[299x548]\]
+[301x556]{
+[307x556]y
+[313x554]ℓ
+[313x554]+
+[319x556]ϕ
+[338x554]λ,ℓ
+[349x556](
+[354x556]x
+[360x554]1
+[365x556], . . . , x
+[398x554]L
+[404x556])
+[409x556]}
+[415x556]dπ
+[428x556](
+[433x556]s
+[438x556])
+[438x556]− ⟨
+[462x556]λ, δ
+[480x556]⟩
+[484x572]
+[495x556],
+[93x522]where
+[188x487]φ
+[196x486]λ,ℓ
+[207x487](
+[212x487]x
+[218x486]1
+[223x487], . . . , x
+[256x486]L
+[262x487]) = min
+[282x479]x
+[287x482]′
+[290x479],d
+[296x479](
+[300x479]x
+[305x482]′
+[307x479])=
+[317x479]ℓ
+[328x502]L
+[323x499]X
+[324x473]ℓ
+[328x473]=1
+[342x487]λ
+[349x486]ℓ
+[353x487]∥
+[359x487]x
+[365x486]ℓ
+[365x486]−
+[372x487]x
+[390x492]′
+[393x487]∥
+[399x486]2
+[404x487].
+[107x435]Proposition 7.1 is an extension of Proposition 6.5.
+[89x395]8 Concluding Remarks
+[89x367]In this paper, we have introduced W-DMR in marginal problems for both non-
+[89x353]overlapping and overlapping marginals and established fundamental results includ-
+[89x338]ing strong duality, finiteness of the proposed W-DMR, and existence of an optimizer
+[89x324]at each radius. We have also shown continuity of the W-DMR-MP as a function
+[89x309]of the radius. Applicability of the proposed W-DMR in marginal problems and
+[89x295]established properties is demonstrated via distinct applications when the sample
+[89x280]information comes from multiple data sources and only some marginal reference
+[89x266]measures are identified. To the best of the authors' knowledge, this paper is the
+[89x252]first systematic study of W-DMR in marginal problems. Many open questions
+[89x237]remain including the structure of optimizers of W-DMR for both non-overlapping
+[89x223]and overlapping marginals, efficient numerical algorithms, and estimation and
+[89x208]inference in each motivating example. Another useful extension is to consider
+[89x194]objective functions that are nonlinear in the joint probability measure such as the
+[89x179]Value-at-Risk of a linear portfolio of risks in Puccetti and R¨ uschendorf (2012) and
+[89x165]robust spectral measures of risk in Ghossoub et al. (2023) and Ennaji et al. (2022).
+[292x122]35

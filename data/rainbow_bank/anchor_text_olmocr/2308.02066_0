@@ -1,0 +1,93 @@
+Page dimensions: 612.0x792.0
+[0x0](b)
+[29x44]45
+[29x97]50
+[29x149]55
+[29x201]60
+[29x254]65
+[50x122]\[53\], thereby limiting multi-task networks
+[50x122]task interference
+[50x145]across numerous tasks. However, there is well-documented
+[50x157]\[6, 33, 49\]. These models have led to impressive results
+[50x181]improve learning efficiency and performance of multiple
+[50x249]available at this URL.
+[50x261]parameters and similar FLOPs across all datasets. Code is
+[50x273]outperforms state-of-the-art baselines with fewer learnable
+[50x285]Experimental results indicate that ETR-NLP significantly
+[50x297]sification and pixel-level dense prediction MTL problems.
+[50x321]needed for minimizing task interference. We evaluate the
+[50x333]ters into shared and task-specific ones afford the flexibility
+[50x345]itives and the explicit decoupling of learnable parame-
+[50x357]branches reserved for each task. The non-learnable prim-
+[50x369]shared branch common to all tasks and explicit task-specific
+[50x381]set of task-agnostic features and recombine them into a
+[50x429]paper, we propose ETR-NLP to mitigate task interference
+[50x452]either loss/gradient balancing or implicit parameter par-
+[50x464]tasks. Efforts to mitigate task interference have focused on
+[50x488]mation among the tasks. Existing MTL models, however,
+[56x577]chuntaoding@163.com
+[56x577]{
+[57x675]Mitigating Task Interference in Multi-Task Learning via Explicit Task Routing
+[61x84]†
+[61x92]*
+[62x193]Multi-task learning (MTL) is commonly employed to
+[64x512]Multi-task learning (MTL) seeks to learn a single model
+[68x32]0
+[75x609]1
+[132x624]1
+[136x622]*
+[142x595]4
+[142x595]Southern University of Science and Technology
+[146x536]Abstract
+[149x591]5
+[154x32]10
+[172x577]luzhichaocn, ranchengcn
+[202x609]Sun Yat-sen University
+[203x657]with Non-Learnable Primitives
+[209x605]3
+[216x624]2
+[217x11]Epochs
+[221x624]Shangguang Wang
+[221x624]†
+[236x67]ETR-NLP
+[236x89](ETR)
+[236x89](ETR)
+[236x106]Explicit Task Routing
+[236x128](NLPs)
+[236x145]Non-Learnable Primitives
+[236x167]Standard learnable conv
+[236x167]Standard learnable conv
+[245x32]20
+[300x577]@gmail.com sgwang@bupt.edu.cn vishnu@msu.edu
+[309x117]either fully shared across all tasks or are shared across a par-
+[309x141]parameters are learned, either for a pre-trained task or for
+[309x165]chitectural design \[8, 18, 29\]. Despite the diversity of these
+[309x189]terference in MTNs, including loss/gradient balancing \[17,
+[309x215]tasks in Figure 1b.
+[309x227]or the lack thereof, between the gradients for each pair of
+[309x239]observing the similarity (centered kernel alignment \[19\]),
+[309x251]point in different directions. The latter can be verified by
+[309x275]since the model needs to exploit dissimilar information be-
+[309x299]the tasks, i.e., gradients pointing in similar directions. How-
+[309x334]MTN with a standard learnable convolutional layer in Fig-
+[309x370]correlation between tasks (low off-diagonal magnitude).
+[309x403]suffer less from task interference. (b) Gradient correlations mea-
+[309x414]ing (ETR; green), and ETR with NLPs (red) do not eliminate but
+[309x447]mance degradation due to conflicting gradients from task interfer-
+[309x469]on CelebA for eight tasks. Hard-sharing models with fully learn-
+[309x480]Figure 1. (a) Learning progression of multi-task networks (MTNs)
+[311x609]Beijing University of Posts and Telecommunications
+[318x510]0 10 20 30 40\nEpochs\n45\n50\n55\n60\n65\n70% CelebA F-score\nStandard learnable conv\nNon-Learnable ... Routing\n(ETR)\nETR-NLP\nStandard learnable conv\nNon-Learnable Primitives\n(NLPs)\nExplicit Task Routing\n(ETR)\nETR-NLP
+[321x201]Several approaches were proposed for mitigating task in-
+[321x346]For instance, consider the learning progression of an
+[322x492]ResNet18
+[322x492](a)
+[334x624]Ran Cheng
+[334x624]3
+[336x32]30
+[350x595]Michigan State University
+[388x492]Layer 1, 4, and 8 of ResNet18 (from left to right)
+[416x624]Vishnu N. Boddeti
+[416x624]4
+[427x32]40
+[534x624]5

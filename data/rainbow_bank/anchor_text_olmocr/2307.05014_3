@@ -1,0 +1,83 @@
+Page dimensions: 612.0x792.0
+[90x405]we see the shared idea of locality, regardless of the form of supervision.
+[90x680]work called transductive learning uses test data to add constraints to the margin of SVMs \[31, 11, 66\].
+[90x160]There are three widely accepted ways to optimize the model components (
+[90x465]Thanks to temporal smoothness, the student can generalize confidently across many frames without
+[90x124]Section 4. In contrast, \[19\] uses probing, which we describe next for completeness.
+[90x136]too much on features that are used by the main task. Our paper uses joint training, described in
+[90x148]h
+[90x148]joint training, probing, and fine-tuning. Fine-tuning is unsuitable for TTT, because it makes
+[90x206]the original
+[90x206]x
+[90x218]computes the pixel-wise mean squared error. For the main task, e.g. segmentation, all patches in
+[90x230]ℓ
+[90x242]input ˜
+[90x266]f
+[90x266]autoencoders,
+[90x278]the self-supervised task is masked image reconstruction \[27\]. Following standard terminology for
+[90x290]f
+[90x290]extractor
+[90x302]g
+[90x302]prediction head
+[90x326]describes TTT-MAE, as background for our extension. Figure 3 illustrates the process of TTT-MAE.
+[90x338]uses TTT-MAE as the inner loop when updating the model for each frame. This section briefly
+[90x350]Test-Time Training with Masked Autoencoders
+[90x417]main goal of our paper is to improve inference quality. Behind their particular algorithm, however,
+[90x429]task instead of a teacher model. Rather than focusing on computational e
+[90x441]teacher at every frame. Our method only consists of one model, which learns from a self-supervised
+[90x489]predictions frame-by-frame using a small student model. If the student is not confident, it queries
+[90x513]experiment on videos with artificial corruptions. These corruptions are also i.i.d. across frames.
+[90x525]model keeps learning over time. In addition, all of our results are on real world videos, while \[5\]
+[90x537]contrast, our paper emphasizes locality. We have access to only the current and past frames, and our
+[90x549]there is no concept of past vs. future frames. The same model is used on the entire video. In
+[90x572]and \[5\] which we discuss next.
+[90x584]followed this framework since then \[24, 60, 40, 77\], including \[69\] on videos discussed in Section 1,
+[90x596]particular self-supervised task used in \[ 61\] is rotation prediction \[ 21\]. Many other papers have
+[90x608]the general framework for test-time training with self-supervision, regardless of application. The
+[90x620]\[19\], detailed in Section 3. TTT-MAE, in turn, is inspired by the work Sun et al. \[61\], which proposed
+[90x656]answer that you really need but not a more general one."
+[90x692]be e
+[101x230]g
+[105x254]Each input image
+[105x314]The architecture for TTT with self-supervision \[61\] is Y-shaped with a stem and two heads: a
+[105x561]In \[5\], each video is treated as a dataset of unordered frames instead of a stream. In particular,
+[105x644]In computer vision, the idea of training at test time has been well explored for specific applica-
+[107x692]ff
+[113x692]ective for support vector machines (SVM) \[79\] and large language models \[25\]. Another line of
+[116x230]f
+[116x242]x
+[121x242], we mask out majority, e.g. 80%, of the patches in
+[122x230]( ˜
+[126x230]x
+[131x230])
+[134x230],x
+[140x290]f
+[150x230]g
+[151x206]are given as input to
+[154x266]is also called the encoder, and
+[171x302]h
+[171x302]for the self-supervised task, a prediction head
+[191x254]is first split into many non-overlapping patches. To produce the autoencoder
+[251x206]◦
+[264x206], during both training and testing.
+[303x60]4
+[339x242]x
+[348x230]◦
+[355x230]f
+[362x230]( ˜
+[370x230]) to the masked patches in
+[377x230]x
+[391x112]g
+[394x290]and
+[411x112]with
+[420x290]as input. For TTT-MAE,
+[425x160]g
+[425x160],
+[435x160],
+[440x501]ffi
+[446x160]) at training time:
+[447x110]on the training
+[447x110]s
+[449x501]cient, \[45\] makes
+[499x230], and
+[505x148]rely

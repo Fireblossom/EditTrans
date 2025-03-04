@@ -1,0 +1,27 @@
+Page dimensions: 612.0x792.0
+[Image 141x338 to 469x470]
+[111x654]4. TinySiamese Network
+[128x631]The proposed TinySiamese neural network takes on a new look and a
+[111x616]new way of working which is different from the standard Siamese network.
+[111x602]The difference first appears in the input processing of the network. Instead
+[111x587]of having images as input, the input was the output feature vector of a pre-
+[111x573]trained CNN model. In other words, all input images would be transformed
+[111x559]into feature vectors using a feature extractor (such as a pre-trained CNN
+[111x544]model) as illustrated in Fig. 3. Then, the Tiny-Siamese encoded the fea-
+[111x530]tures in a small set of layers and finally calculated the distance between two
+[111x515]encoded feature vectors and generated similarity score. Using this score, the
+[111x501]model was trained from scratch with the Adam optimization algorithm and
+[111x486]binary cross-entropy loss function.
+[118x316]Figure 3: The Proposed Architecture Based on TinySiamese Network for Verification.
+[111x276]4.1. Architecture
+[128x258]Unlike the standard Siamese, the input of the TinySiamese was the en-
+[111x244]coded image as a feature vector. The backbone layers first aimed to extract
+[111x230]relevant features using a linear fully-connected layer and a ReLU layer and
+[111x215]then amplify them using another linear fully-connected layer and Sigmoid
+[111x201]layer. The output size of the first linear layer had the half size of the input
+[111x186](n, n/2) and was followed by a non-linear ReLU layer. The second linear
+[111x172]layer took n/2 features in input and came back to the same first input size in
+[111x157]output (n/2, n). This layer was followed by a non-linear Sigmoid layer. The
+[111x143]outputs of the TinySiamese sub-networks were encoded into an n-dimensional
+[111x128]vector using inputs of a size equal to n. Siamese networks are usually trained
+[302x90]8

@@ -1,0 +1,53 @@
+Page dimensions: 612.0x792.0
+[72x708]1 Introduction
+[72x672]Understanding the behavior of commodity prices is of critical importance given their role
+[72x656]in many countries as determinants of balance of payments, exchange rates, tax revenue,
+[72x641]output fluctuations, and inflation (see, e.g., Byrne et al., 2013; Gospodinov and Ng, 2013;
+[72x625]Eberhardt and Presbitero, 2021; Peersman, 2022). While some commodity price move-
+[72x609]ments are driven by idiosyncratic shocks to supply and demand,
+[412x613]1
+[412x613]other commodity price
+[72x593]movements are driven by aggregate factors, such as aggregate demand and monetary
+[72x577]conditions. The role of aggregate factors in driving commodity prices is well recognized
+[72x561]in the literature. Alquist et al. (2020) show that up to 80% of the variance of commodity
+[72x545]prices is explained by common factors (see also Byrne et al., 2013). However, the precise
+[72x529]channels of transmission are less well identified.
+[72x507]In this paper, we contribute to the debate on the role of aggregate factors in commodity
+[72x491]prices through a focus on interest rate shocks and various important channels. Empirical
+[72x475]analysis of this question confront profound challenges, because of endogeneity and the
+[72x459]general equilibrium nature of some of the mechanisms: interest rate movements are de-
+[72x443]termined by several macroeconomic variables that also affect commodity markets,
+[72x443]2
+[511x448]and
+[72x427]conversely, pure monetary shocks affect commodity markets through various channels
+[72x412](e.g., speculation, aggregate demand, and supply reaction) that may not be disentangled
+[72x396]empirically.
+[134x400]3
+[134x400]A structural model is required to isolate the direct effect of interest rates on
+[72x380]commodity prices through each of these channels.
+[72x357]The obvious candidate to provide the required structure is the rational expectations com-
+[72x342]petitive storage model, which has been developed, among others, by Samuelson (1971),
+[72x326]Newbery and Stiglitz (1982), Wright and Williams (1982), Scheinkman and Schechtman
+[72x310](1983), Deaton and Laroque (1992, 1996), and Chambers and Bailey (1996).
+[459x314]4
+[459x314]In this model,
+[72x294]commodities are assets that also have intrinsic value, separate from future cash flows. The
+[86x275]1
+[90x272]For example, the price of lithium spiked in early 2021 when US President Biden announced a plan to
+[72x259]build 500,000 charging stations for electric vehicles. In the same period, the price of rubber fell as a shortage
+[72x246]in microchip supply for vehicle makers drove forecasts for a reduction in tire demand.
+[86x236]2
+[90x233]One of these confounding factors is the output. For example, a low aggregate output (recession) might
+[72x220]cause both falling commodity prices and a reduction in interest rates by the monetary authority. Even if
+[72x206]we fully control for changes in output and demand, rising commodity prices might themselves trigger a
+[72x193]tightening of monetary policy, without any change in output (see, e.g., Cody and Mills, 1991).
+[86x184]3
+[90x180]For example, a decline in the US interest rate can stimulate both global demand (see, e.g., Ramey, 2016)
+[72x167]and firms' incentive to hold inventories (see, e.g., Frankel, 1986, 2008, 2014), which then increase commodity
+[72x154]prices. An increase in interest rates works in the opposite direction.
+[86x145]4
+[90x141]Samuelson (1971) proved that the equilibrium quantities produced by this model are welfare maximiz-
+[72x128]ing for a representative consumer with marginal utility equal to the inverse demand function. Deaton and
+[72x115]Laroque (1996) and Cafiero et al. (2011) showed that the model can replicate several important features of
+[72x102]the data.
+[303x72]2

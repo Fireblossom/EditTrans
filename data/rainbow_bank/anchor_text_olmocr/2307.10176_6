@@ -1,0 +1,114 @@
+Page dimensions: 612.0x792.0
+[54x82]generate local minima states. Unitary evolution through
+[54x93]but not enough to prevent transitions to the nearly de-
+[54x105]prevent nonadiabatic transitions to highly excited states,
+[54x116]in Fig. 4(b). The chosen ramp rate is slow enough to
+[54x139]This results in much smaller gaps near the transition and
+[54x151]figurations that become exponentially numerous with
+[54x151]N
+[54x162]glasses are characterized by nearly degenerate spin con-
+[54x174]the two ferromagnetic ground states. By contrast, spin
+[54x185]for adiabatic evolution through the transition to either of
+[54x196]of
+[54x219]gaps controlling the adiabatic timescale of the transition.
+[54x231]of a many-body Landau-Zener problem with many-body
+[54x242]lution through the superradiance transition has the form
+[54x287]of-magnitude slower than those considered here.
+[54x309]path back downward to similarly low-energy states. How-
+[54x321]the semiclassical trajectories to follow a more adiabatic
+[54x332]steady-state configurations. Slower ramps could allow
+[54x344]allows the quantum spin network to reach lower-energy
+[54x378]state. We find that entanglement enables the quantum
+[54x390]lowed by gradient descent to the lowest possible energy
+[54x401]states constrained to the surface of the Bloch sphere) fol-
+[54x413]Carlo sampling of semiclassical spin states (i.e., those
+[54x424]of this semiclassically forbidden region through Monte-
+[54x435]surface of the Bloch sphere. We identified the boundaries
+[54x480]can be recovered by binning the off-diagonal values in the overlap matrix. Each overlap matrix is ordered via an independent
+[54x490]the full overlap matrix
+[54x490]q
+[54x500]in this figure and in subsequent figures are estimated from bootstrap analysis; see App. F for details. (f-j) Time evolution of
+[54x511]Each panel shows the probability for each spin overlap value to occur at each given time during the ramp sequence. Error bars
+[54x521]FIG. 5. (a-e) Time evolution of the overlap distribution for 200 quantum trajectories corresponding to the
+[Image 54x542 to 562x740]
+[64x265]The steady-state energy of the quantum trajectories
+[71x195]for a ferromagnetic
+[78x196]J
+[152x489]αβ
+[210x194]z
+[217x200]1
+[296x151].
+[317x70]q
+[317x70]do.) Peaks may also arise associated with overlaps
+[317x82]do not have such peaks, but ferromagnets and spin glasses
+[317x93]near
+[317x93]±
+[317x105]hibit an overlap distribution containing 'goal-post' peaks
+[317x128]Z
+[317x128]symmetric about 0 due to the global
+[317x139]ble values
+[317x139]∈
+[317x151]σ
+[317x162]dent quantum trajectory for a fixed
+[317x174]replica
+[317x174]α
+[317x249]as \[3\]
+[317x260]q
+[317x260]tions. The replica spin overlap parameter
+[317x272]J
+[317x294]quantum trajectories of a system with the same quenched
+[317x306]so, we first analyze the correlations between independent
+[317x317]is pumped through the transverse Ising transition. To do
+[317x390]surement projection before
+[317x390]ω
+[317x401]sitions experienced during the ramp as well as the mea-
+[317x413]trajectories is thus controlled by the nonadiabatic tran-
+[317x424]into a single spin state occurs. The final energy of the
+[319x185]Here,
+[319x185]σ
+[327x329]We now explore the emergence of RSB as the system
+[347x93]1 due to replica self-overlaps
+[347x93]q
+[351x182]iα
+[351x189]x
+[355x174], where each replica corresponds to an indepen-
+[364x139]\[
+[374x148]i
+[374x154]x
+[377x139]−
+[379x151]N
+[385x139]1
+[388x216]q
+[390x139],
+[390x139]1\]. The overlap distribution is always
+[392x215]= 1
+[392x215]αβ
+[414x272]matrix for all trajectory simula-
+[417x209]N
+[429x226]X
+[430x205]i
+[433x205]=1
+[433x229]N
+[443x388]z
+[445x216]⟨
+[449x216]σ
+[455x214]iα
+[455x220]x
+[463x216]⟩⟨
+[471x162]J
+[471x162]matrix. Once spins
+[471x216]σ
+[476x521]J
+[477x214]iβ
+[477x220]x
+[482x126]2
+[482x92]αα
+[485x216]⟩
+[489x216](8)
+[489x216].
+[507x259]is defined
+[507x259]αβ
+[507x151]+ 1 possi-
+[540x185]i
+[552x69]αβ
+[557x756]7

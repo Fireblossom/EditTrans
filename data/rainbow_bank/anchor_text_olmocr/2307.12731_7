@@ -1,0 +1,208 @@
+Page dimensions: 612.0x792.0
+[72x710]The full set of instrumental variables is given by
+[274x674]Z
+[274x674]= \[
+[297x674]W
+[307x672]1
+[307x672]:
+[314x674]Z
+[326x672]2
+[331x674]\]
+[331x674],
+[75x637]so that the number of instrumental variables,
+[270x637]k
+[276x635]1
+[276x635]+
+[289x637]k
+[294x635]3
+[299x637], can be larger than the number of endogenous variables,
+[72x617]k
+[77x616]1
+[77x616]+
+[83x617]k
+[98x616]2
+[102x617], i.e. we are possibly dealing with an overidentified model. Hence, I will consider the 2SLS estimator,
+[72x597]also known as the generalized instrumental variables estimator (Davidson and MacKinnon, 2004, p. 321),
+[72x577]for the full regression model (2).
+[72x577]4
+[211x581]The unique 2SLS estimator for coefficients in the full regression model (2)
+[72x557]is given by (Greene, 2012, p. 231),
+[214x510]b
+[214x510]=
+[231x536]
+[231x518]
+[248x523]b
+[252x522]1
+[240x515](
+[243x515]k
+[247x514]1
+[251x515]×
+[257x515]1)
+[248x498]b
+[252x497]2
+[240x490](
+[243x490]k
+[247x489]2
+[251x490]×
+[257x490]1)
+[264x536]
+[264x518]
+[264x506]=
+[286x518]
+[290x510](
+[294x510]P
+[301x508]Z
+[307x510]W
+[318x510])
+[322x515]′
+[322x515]W
+[337x518]
+[341x516]−
+[347x516]1
+[354x510](
+[357x510]P
+[364x508]Z
+[370x510]W
+[381x510])
+[385x515]′
+[385x515]Y,
+[389x510](6)
+[75x460]where
+[75x460]P
+[111x458]Z
+[111x458]=
+[120x460]Z
+[130x460](
+[143x460]Z
+[151x463]′
+[154x460]Z
+[161x460])
+[165x465]−
+[171x465]1
+[171x465]Z
+[185x463]′
+[185x463]projects on to the column space of
+[191x460]Z
+[352x460]. Hence,
+[205x423]b
+[209x422]2
+[209x422]= (2
+[216x423],
+[239x423]1) block of
+[295x431]
+[299x423](
+[303x423]P
+[309x422]Z
+[316x423]W
+[327x423])
+[330x428]′
+[330x428]W
+[346x431]
+[350x430]−
+[356x430]1
+[362x423](
+[366x423]P
+[372x422]Z
+[379x423]W
+[390x423])
+[394x428]′
+[394x428]Y.
+[398x423](7)
+[75x387]Turning to the partial model (3), we estimate it with the instrumental variables formed by the residualized
+[72x367]set of instrumental variables,
+[72x367]e
+[204x367]Z
+[211x365]2
+[211x365]=
+[219x367]M
+[240x365]W
+[248x364]1
+[248x364]Z
+[259x365]2
+[263x367], which is a
+[263x367]N
+[319x367]×
+[331x367]k
+[346x365]3
+[346x365]matrix. Thus, the 2SLS estimator for the
+[72x347]partial regression model (3) is given by
+[224x313]˜
+[225x310]b
+[229x309]2
+[229x309]=
+[247x324]
+[258x310]P
+[266x309]e
+[264x307]Z
+[270x306]2
+[275x313]f
+[274x310]W
+[284x309]2
+[288x321]
+[294x319]′
+[299x313]f
+[299x310]W
+[308x309]2
+[312x324]
+[318x322]−
+[324x322]1
+[324x322]
+[336x310]P
+[344x309]e
+[342x307]Z
+[348x306]2
+[353x313]f
+[352x310]W
+[362x309]2
+[366x321]
+[372x319]′
+[378x313]e
+[376x310]Y ,
+[376x310](8)
+[75x270]where
+[75x270]P
+[112x268]e
+[111x266]Z
+[116x265]2
+[123x270]=
+[123x270]e
+[134x270]Z
+[140x268]2
+[147x281]
+[154x272]e
+[153x270]Z
+[160x273]′
+[159x267]2
+[159x267]e
+[164x270]Z
+[171x268]2
+[175x281]
+[181x279]−
+[187x279]1
+[195x272]e
+[193x270]Z
+[201x273]′
+[200x267]2
+[200x267]projects on to the column space of
+[208x270]e
+[362x270]Z
+[369x268]2
+[373x270].
+[72x245]Theorem 1.
+[72x245]For instrumental variables estimation of the coefficients in the full regression model (2) and
+[72x225]the partial regression model (3), we have
+[84x199]1. the estimated coefficient vectors
+[84x199]b
+[242x198]2
+[242x198]in (7) and
+[250x199]˜
+[299x199]b
+[303x198]2
+[303x198]in (8) are identical, and
+[84x173]2. the residual vectors from the full model (2) and from the partial model (3) are identical.
+[87x148]The results in theorem 1 applies to the following special cases: (a) the instrumental variables (IV)
+[72x128]estimator for an exactly identified model, when the number of instruments is exactly equal to the number
+[83x114]4
+[87x111]The 2SLS estimator uses, from among all possible linear combination of the set of instruments, the one that minimizes the
+[72x102]asymptotic covariance matrix of the instrumental variables estimator (Brundy and Jorgenson, 1971).
+[304x72]8

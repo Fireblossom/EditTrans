@@ -1,0 +1,45 @@
+Page dimensions: 612.0x792.0
+[72x708]1 Introduction
+[72x677]Measuring income inequality has been a challenging task, as each of the indices used for the
+[72x659]purpose attempt to condense the complexities of populations into just one number. Among
+[72x640]the many indices, we have the Atkinson, Bonferroni, Gini, Palma, Pietra, Theil, and Zenga
+[72x621]indices, to name just a few associated with the names of their inventors. Many treatises
+[72x602]have been written on the topic, such as the handbook by Atkinson and Bourguignon (2000,
+[72x584]2015), which also contains many references to earlier studies, and they are voluminous.
+[90x565]The indices are often the areas under certain income-equality curves, which are consider-
+[72x546]ably more difficult to present and explain to the general audience, let alone to easily compare.
+[72x527]For example, the Gini index of inequality is 1 minus twice the area under the Lorenz curve.
+[72x508](We shall give mathematical definitions later in this paper.) The curves and thus the indices
+[72x490]are based on comparing the mean income of the poor with other means, such as the mean
+[72x471]income of the entire population, the mean income of the nonpoor, and the mean income of
+[72x452]the rich, whatever the definitions of "poor" and "rich" might be. Hence, to be well defined,
+[72x433]the curves and the indices inevitably assume that the mean of the underlying population is
+[72x415]finite. With the rising income inequality, and thus with the distribution of incomes becoming
+[72x396]more skewed and heavily tailed, researchers have therefore sought other ways for measuring
+[72x377]inequality.
+[90x358]Gastwirth (2014) proposed to use the median instead of the mean when "normalizing"
+[72x339]the absolute Gini mean difference, widely known as the GMD. The author noted, however,
+[72x321]that the proposed index might fall outside the class of normalized indices because it compares
+[72x302]the
+[72x302]mean
+[93x302]income of the poor with the
+[124x302]median
+[274x302]income of the entire population. There is a
+[72x283]natural remedy to this normalization issue: compare the
+[72x283]median
+[372x283]income of the poor with
+[72x264]the
+[72x264]median
+[92x264]of the population. Even more, we can compare the median income of the poor
+[72x245]with the median of the "not poor" or, for example, with the median of the rich, whatever
+[72x227]the latter might mean. This is the path that we take in this paper to arrive at the indices
+[72x208]to be formally introduced in the next section.
+[90x189]In this regard we wish to mention the study of Bennett and Zitikis (2015) where it
+[72x170]is shown that a number of classical indices of income inequality arise naturally from a
+[72x152]Harsanyi-inspired model of choice under risk, with persons acting as
+[72x152]reference-dependent
+[72x133]expected-utility maximizers in the face of an income quantile lottery, thus giving rise to a
+[72x114]reinterpretation of the classical indices as measures of the desirability of redistribution in
+[72x95]society. This relativistic approach to constructing indices of income inequality was further
+[72x76]explored by Greselin and Zitikis (2018), although more from the modeller's perspective than
+[303x42]2

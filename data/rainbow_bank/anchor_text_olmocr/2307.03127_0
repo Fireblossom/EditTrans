@@ -1,0 +1,54 @@
+Page dimensions: 612.0x792.0
+[119x644]Quantitative analysis of optimal Sobolev-Lorentz embeddings with
+[241x630]α
+[248x630]-homogeneous weights
+[204x600]PETR GURKA, JAN LANG, ZDENĚK MIHULA
+[134x572]Abstract.
+[134x572]This paper quantitatively investigates the structure of non-compactness
+[134x561]of the optimal weighted Sobolev-Lorentz embedding with homogeneous weights in an
+[134x550]open convex cone. We prove the optimal embedding in question and obtain the exact
+[134x540]values of all injective strict
+[248x540]s
+[252x540]-numbers (in particular, the Bernstein numbers) of the
+[134x529]embedding. Opposite to the earlier results in this direction, the non-compactness in
+[134x518]this case does not occur uniformly over all sub-domains of the underlying domain.
+[134x507]Despite that, we find an infinitely dimensional subspace restricted onto which the
+[134x496]embedding is isomorphic, proving that the embedding is not strictly singular.
+[262x443]1.
+[262x443]Introduction
+[110x424]It is a truth generally acknowledged that Sobolev embeddings hold a prominent position
+[98x411]in various areas of mathematics, making comprehensive understanding of their internal
+[98x398]structure and behavior essential. One of their oft-studied aspects is their compactness
+[98x385]and its quality. Quite often the quality of compactness is analyzed through the decay
+[98x372]rate of different
+[175x372]s
+[181x372]-numbers. Various
+[271x372]s
+[276x372]-numbers are closely related to the spectral theory
+[98x359]of the corresponding differential operators associated with Sobolev-type embeddings and
+[98x346]provide estimates for the growth of their eigenvalues (see \[14\]). There is quite extensive
+[98x333]literature in which the quality of compactness of Sobolev embeddings is investigated.
+[98x320]However, significantly less attention has been devoted to studying the structure of non-
+[98x307]compact Sobolev embeddings, where the measure of non-compactness may be related to
+[98x294]the shape of the essential spectrum (see \[12\]).
+[110x281]Naturally, there are several ways which Sobolev embeddings can become non-compact,
+[98x268]such as:
+[98x252](a) when the underlying domain is unbounded (see \[1\], cf. \[15\]);
+[98x239](b) when the boundary of the underlying domain is excessively irregular (see \[20, 21, 25,
+[117x226]26\];
+[99x213](c) when the target function norm is overly strong—in other words, the target function
+[117x200]space is too close to the optimal one (see \[19, 24\] and references therein).
+[98x184]Among these possibilities, the last one is particularly intriguing because it has not been
+[98x171]explored quantitatively nearly as much as the others, despite the interest in optimal
+[98x158]Sobolev embeddings (e.g., see \[10\] and references therein). Previous works investigating
+[98x145]the case (c) (see \[4, 18, 22, 23\]) dealt with Sobolev embeddings that are non-compact
+[110x120]Date
+[130x120]: May 30, 2024.
+[110x109]2020
+[110x109]Mathematics Subject Classification.
+[279x109]46E35, 47B06, 46B50.
+[110x98]Key words and phrases.
+[207x98]Sobolev spaces, Sobolev-Lorentz embeddings, homogeneous weights, compact-
+[98x87]ness, Bernstein numbers, measure of non-compactness.
+[110x76]This research was supported by the grant GA23-04720S of the Czech Science Foundation.
+[304x64]1

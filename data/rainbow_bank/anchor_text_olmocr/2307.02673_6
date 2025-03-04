@@ -1,0 +1,258 @@
+Page dimensions: 612.0x792.0
+[92x148]while
+[92x148]|
+[92x226]norm and
+[92x460]the regression equation after stacking all cross-sectional observations is
+[92x241]effects which are typically not sparse. In addition,
+[92x241]∥
+[92x255]X
+[92x255]design matrix
+[92x349]Striaukas (2022).
+[92x364]take advantage of the sg-LASSO regularization, suggested by Babii, Ghysels, and
+[92x378]ization can improve the predictive performance in small samples. To that end, we
+[92x393]K
+[92x474]y
+[92x474]Lastly, put
+[92x539]The regression equation after stacking time series observations for each firm
+[92x553]the dictionary. In addition, let
+[92x553]y
+[92x567]and ¯
+[92x584]∈
+[92x598]x
+[92x613]The linear in parameters dictionaries map the MIDAS regression to a standard linear
+[92x642]of orthogonal Legendre polynomials. To streamline notation it will be convenient to
+[92x671]L
+[92x671]of
+[95x685]where the MIDAS weight function is
+[96x407]where
+[96x489]where
+[96x489]ι
+[97x191]ℓ
+[97x270]where Ω is the sg-LASSO regularizing functional. It is worth stressing that the
+[102x584]\[
+[106x671]approximating functions, called the
+[109x162]p
+[115x162]{
+[115x567]k
+[116x584]K
+[119x671]dictionary
+[125x148].
+[127x584]X
+[127x584]\],
+[130x407]=
+[131x489]∈
+[132x146]denotes the usual
+[132x146]q
+[138x567]W
+[139x489]R
+[140x148]ℓ
+[146x582]= (
+[148x162]2
+[152x474]= (
+[159x162], . . . , p
+[161x493]T
+[161x493]is the all-ones vector and
+[162x405]⊗
+[165x255]does not include the intercept and that we do not penalize the fixed
+[172x489]β
+[173x407]ι
+[182x566]l
+[185x567](
+[188x471], . . . ,
+[189x407]I
+[189x567]j/n
+[191x162]}
+[197x162], the group LASSO norm is computed as
+[197x162]∥
+[200x581]j/n
+[202x405]N
+[208x564];
+[208x564]k
+[209x294](
+[212x294]a,b
+[213x578]k
+[213x584]H
+[214x407]N
+[216x567]β
+[222x474]y
+[222x302]min
+[226x294]∈
+[226x407]×
+[228x584], j
+[229x471]N
+[229x471])
+[231x294]R
+[233x567])
+[237x565]0
+[238x146]q
+[239x296]N
+[240x407]N
+[242x479]⊤
+[242x565]≤
+[249x474]X
+[249x474],
+[251x296]p
+[251x565]≤
+[252x407]identity matrix, and
+[252x212]γ
+[255x510]y
+[256x474]= (
+[257x302]∥
+[257x565]L
+[257x433]=
+[260x584], . . . ,
+[261x551]= (
+[261x551]i
+[262x508]=
+[263x302]−
+[263x302]y
+[268x433]Bα
+[269x510]ια
+[273x302]Ba
+[274x565],
+[279x212]|
+[281x565]≤
+[286x584]k
+[286x553]y
+[287x587]¯
+[287x565]j
+[288x212]|
+[288x685](
+[291x210]+ (1
+[291x565]≤
+[292x551]i,t
+[292x582]max
+[293x508]+
+[293x508]i
+[295x471], . . . ,
+[298x567]¯
+[298x685];
+[299x510]x
+[302x564]is a ¯
+[302x564]max
+[303x551]τ
+[303x113]6
+[303x302]X
+[306x329]ρ
+[307x489]∈
+[310x683]k
+[315x685]P
+[318x508]i
+[319x489]R
+[319x597]= (
+[319x597]i
+[320x584]1)
+[321x510]β
+[321x510]+
+[322x433]β
+[322x433]+
+[323x212]γ
+[325x302]b
+[329x474]x
+[330x302]∥
+[331x582]τ
+[331x510]u
+[332x433]u
+[333x553]\[
+[336x582]∈
+[336x471])
+[336x299]+ 2
+[336x307]2
+[341x582]\[
+[343x598]X
+[345x567]k
+[347x329],
+[347x329]ˆ
+[347x682]l
+[347x691]L
+[348x553]T
+[349x479]⊤
+[350x682]=0
+[350x508]i
+[351x566]×
+[351x433],
+[352x329]β
+[352x212]b
+[353x597]i,
+[353x691]−
+[354x510],
+[356x474], and
+[356x474]u
+[356x553]\])
+[358x597]1
+[359x671], and
+[359x691]1
+[362x238]NT
+[363x598]W, . . . , X
+[363x210]2
+[364x557]and
+[364x557]⊤
+[366x329])
+[367x210],
+[371x302]λ
+[371x333]solves
+[371x567]L
+[373x683]l,k
+[375x212],
+[375x584]×
+[378x302]Ω(
+[383x685]w
+[383x567]matrix corresponding to
+[387x474]= (
+[391x302]b
+[391x683]l
+[395x587]¯
+[395x241].
+[397x669]∈
+[397x669]k
+[398x241]|
+[400x302](2)
+[400x582]max
+[401x245]2
+[406x551]= (
+[406x241]/
+[407x671]R
+[409x685](
+[412x241](
+[417x241]NT
+[420x685]w
+[423x598]W
+[423x471], . . . ,
+[423x479]⊤
+[427x189]1
+[428x627]k
+[430x675]is the unknown
+[431x685])
+[431x553]u
+[432x160]2
+[435x598]), where for each
+[436x683]l
+[437x191]ℓ
+[438x160]1
+[438x683]≥
+[445x683]0
+[446x551]|
+[447x625]∀
+[449x551], t, τ
+[449x551]τ
+[457x474]u
+[464x471])
+[464x471]N
+[464x479]⊤
+[473x159]G
+[477x479]⊤
+[484x474]. Then
+[488x627]\[
+[492x539]\[
+[497x162]b
+[502x553]\])
+[503x627]K
+[506x539]N
+[509x189]2
+[509x162]|
+[510x557]⊤
+[512x160]2
+[513x189],
+[517x553].
+[517x627].
+[517x162],

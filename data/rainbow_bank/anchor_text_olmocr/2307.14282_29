@@ -1,0 +1,73 @@
+Page dimensions: 612.0x792.0
+[239x706]Table 1: Results under SPO
+[338x680]Estimate bounds Naive estimate
+[111x666]Graduation from Bus. Adm., PUC Santiago
+[111x653]Economics, UChile Santiago \[.319 ; .418\] .369
+[111x639]Science & Engineering, UChile Santiago \[.000 ; .188\] .159
+[111x626]Social Sciences & Humanities, PUC Santiago \[.230 ; .239\] .272
+[111x612]Law, PUC Santiago \[.087 ; .407\] .321
+[111x596]Reapplication
+[111x582]Economics, UChile Santiago \[-.178 ; -.079\] -.114
+[111x569]Science & Engineering, UChile Santiago \[-.369 ; -.107\] -.199
+[111x555]Social Sciences & Humanities, PUC Santiago \[-.164 ; -.155\] -.156
+[111x541]Law, PUC Santiago \[.065 ; .174\] .116
+[111x525]Graduation from any program
+[111x511]Economics, UChile Santiago \[-.218 ; -.029\] -.084
+[111x498]Science & Engineering, UChile Santiago \[-.126 ; .164\] -.003
+[111x484]Social Sciences & Humanities, PUC Santiago \[-.055 ; -.064\] -.063
+[111x471]Law, PUC Santiago \[.032 ; .139\] .058
+[111x454]Graduation from STEM program
+[111x441]Economics, UChile Santiago \[-.016 ; .021\] .004
+[111x427]Science & Engineering, UChile Santiago \[.000 ; .076\] .064
+[111x414]Social Sciences & Humanities, PUC Santiago \[.000 ; .015\] .000
+[111x400]Law, PUC Santiago \[.000 ; .000\] .000
+[111x383]Graduation from a top university (PUC Santiago or UChile)
+[111x370]Economics, UChile Santiago \[-.086 ; .013\] -.040
+[111x356]Science & Engineering, UChile Santiago \[-.058 ; .232\] .060
+[111x343]Social Sciences & Humanities, PUC Santiago \[.209 ; .218\] .210
+[111x329]Law, PUC Santiago \[.123 ; .411\] .193
+[121x311]Outcomes and second-best options
+[121x311]k
+[276x311]in
+[285x311]Q
+[305x309]j
+[305x309]= (
+[327x311]j, k
+[341x311]) are shown in the leftmost column of
+[121x299]the table. For out parameter of interest, the first-best option in
+[121x299]Q
+[420x297]j
+[420x297]is always
+[428x299]j
+[471x299]="BA
+[121x287]in Business administration at PUC Santiago". The second column shows bounds for our
+[121x275]parameter of interest (Equation 1). Bounds are estimated using local linear polynomials,
+[121x263]and without imposing UMAS (Assumption 5). Bandwidths are set to 30 points, except if
+[121x251]another program
+[121x251]ℓ
+[198x251]has its cutoff within 30 points of
+[205x251]c
+[356x250]j
+[360x251]. Then, the bandwidth is reduced
+[121x239]to the distance between
+[121x239]c
+[232x238]j
+[232x238]and
+[240x239]c
+[264x238]ℓ
+[267x239]. Naive estimates in the third column are computed as
+[121x227]the difference in mean outcomes between applicants above vs. below the admission cutoff,
+[121x215]within the same bandwidths, and conditional on reported local preferences
+[121x215]P
+[451x214]j
+[451x214]being equal
+[121x203]to (
+[137x203]j, k
+[151x203]), where
+[151x203]k
+[190x203]is given in the leftmost column of the table.
+[72x158]second-best option. We compare our bounds to naive estimates that simply control for reported
+[72x142]preferences as if they were true preferences. Naive estimates generally fall within our bounds but
+[72x125]may lead to erroneous conclusions in some cases where bounds are wide and do not pin down the
+[72x109]sign of the true effect.
+[301x42]30

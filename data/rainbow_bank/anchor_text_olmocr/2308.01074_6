@@ -1,0 +1,40 @@
+Page dimensions: 595.3x841.9
+[Image 127x595 to 301x716]
+[Image 304x595 to 467x706]
+[125x573]Figure 2: Waveform and corresponding mel-spectrogram of Left: Phone record-
+[125x561]ing, and Right: Zoom recording.
+[125x530]for this paper, since a majority of features in keystroke sounds are within the
+[125x518]lower frequencies \[15, 3, 4\] and would therefore be less distinguishable on a linear
+[125x506]scale. Meanwhile, MFCC involves performing the discrete cosine transform on
+[125x494]a mel-spectrogram, producing a compressed representation that prioritises the
+[125x482]frequencies used in human speech. Since, for this paper, human speech is not
+[125x470]the target, and the removal of frequencies could risk the loss of relevant data,
+[125x458]MFCC was decided to be less suitable than mel-spectrograms.
+[140x446]Data augmentation:
+[243x446]Prior to feature extraction, signals were time-shifted
+[125x434]randomly by up to 40% in either direction. This time shifting is an instance of
+[125x422]data augmentation, in which the amount of data input to a DL model is artifi-
+[125x410]cially increased by slightly adjusting existing inputs \[28\]. The mel-spectrograms
+[125x398]were then generated using 64 mel bands, a window length of 1024 samples and
+[125x386]hop length of 500 (255 for the MacBook keystrokes, given their shorter length),
+[125x374]resulting in 64x64 images. Using the spectrograms, a second method of data
+[125x362]augmentation was implemented called masking. This method involves taking a
+[125x350]random 10% of both the time and frequency axis and setting all values within
+[125x338]those ranges to the mean of the spectrogram, essentially 'blocking out' a portion
+[125x326]of the image. Using time warping and spectrogram masking combined is called
+[125x314]SpecAugment and was found to encourage the model to generalise and avoid
+[125x302]overfitting the training data \[25, 10\].
+[140x291]Having converted keystrokes from each data set into a more visual medium,
+[125x279]more direct comparisons could be made. MacBook keystrokes (similar to the
+[125x267]keystrokes examined in the literature \[4, 39, 6\]) have only 2 visible peaks: the
+[125x255]'push' and 'release' peaks respectively. The 2 peak structures shown in Fig. 2
+[125x243]are similar to each other, implying that such a structure is native to the Mac-
+[125x231]Book keyboard regardless of recording method, a noticeable difference however
+[125x219]is the large range of frequencies present in the zoom recording. The Zoom
+[125x207]peaks extend much higher than that of the phone-based recordings, indicating
+[125x195]significant data in multiple frequencies that were not present when recorded via
+[125x183]phone.
+[140x171]The overall data preparation procedure for our data was inspired by the
+[125x159]structure presented in \[10\] and is shown in Fig. 3.
+[125x131]3.2 Model Selection and Implementation
+[294x90]7

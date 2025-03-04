@@ -1,0 +1,118 @@
+Page dimensions: 595.3x841.9
+[104x746]For a particular arrangement of input/output points considered in Fig. 1, one
+[83x730]can indeed verify that the entanglement wedge for
+[345x730]R
+[354x728]1
+[354x728]and
+[363x730]R
+[395x728]2
+[395x728]is connected (Fig. 2).
+[83x714]This powerful theorem states that the connected entanglement wedge is actually a
+[83x698]generic feature whenever
+[211x698]c
+[216x696]1
+[221x698], c
+[231x696]2
+[236x698], r
+[247x696]1
+[251x698], r
+[262x696]2
+[262x696]satisfy (2.8). The above argument, based on the
+[83x682]B
+[93x680]84
+[93x680]task, provides a quantum information theoretic proof of the connected wedge
+[83x666]theorem. It turns out that the same statement can be proven from a geometric
+[83x650]argument as well \[49\]. In Section 5.2, we will review the geometric proof and further
+[83x635]generalize the theorem to the setup with a brane and in cutoff holography.
+[83x596]3 Holographic quantum task with a brane
+[83x569]In this section, we examine whether the connected theorem holds in the intermediate
+[83x553]picture in the case of pure global AdS
+[282x551]3
+[282x551]with an end-of-the-world (ETW) brane
+[499x553]Q
+[509x553].
+[83x537]Namely, we demonstrate that the entanglement wedge for the input regions
+[475x537]R
+[484x535]1
+[484x535]and
+[83x521]R
+[92x519]2
+[92x519]is disconnected when one of the input signals emanates from the brane
+[482x521]Q
+[491x521]. A
+[83x505]similar argument holds for cutoff holography as well if one replaces the ETW brane
+[83x489]Q
+[83x489]with an inhomogeneous cutoff surface
+[293x489]Q
+[293x489]with the same profile.
+[104x473]We would like to note that a previous work \[58\] studied a scattering process
+[83x457]involving a brane in a different setup. Specifically, they considered a situation where
+[83x441]one of the inputs is distributed over the entire brane and studied a 1-to-2 scattering
+[83x426]process. In this paper, we consider the 2-to-2 scattering process which allows us to
+[83x410]study the entanglement wedge for subregions involving a brane
+[409x410]Q
+[409x410]as opposed to the
+[83x394]previous work.
+[83x366]3.1 The AdS/BCFT correspondence
+[83x344]We begin by reviewing the basic setup of the AdS/BCFT correspondence and intro-
+[83x328]duce a few useful coordinate systems to describe a 2-to-2 scattering process between
+[83x312]the brane
+[136x312]Q
+[136x312]and the asymptotic boundary
+[305x312]Σ
+[313x312].
+[104x296]In the AdS/BCFT correspondence \[9, 10\], the bulk spacetime terminates on the
+[83x280]end-of-the-world (ETW) brane
+[245x280]Q
+[254x280], whose action is given by
+[250x256]1
+[237x239]8
+[243x239]πG
+[260x238]N
+[271x264]Z
+[278x237]Q
+[287x258]√
+[297x248]−
+[306x248]h
+[313x248](
+[317x248]K
+[317x248]−
+[331x248]T
+[351x248])
+[356x248],
+[356x248](3.1)
+[89x214]where
+[89x214]G
+[133x212]N
+[133x212]is Newton's constant of the bulk gravity,
+[367x214]h
+[367x214]is the determinant of the
+[83x198]induced metric on
+[179x198]Q
+[188x198],
+[188x198]K
+[195x198]is the trace of the extrinsic curvature, and
+[429x198]T
+[429x198]is a tension of
+[83x182]the brane. Imposing the Neumann boundary condition on
+[385x182]Q
+[394x182],
+[247x154]K
+[256x152]ab
+[256x152]−
+[268x154]Kh
+[297x152]ab
+[297x152]=
+[309x154]T h
+[337x152]ab
+[345x154],
+[345x154](3.2)
+[87x126]we find a simple solution
+[261x110]r
+[261x110]sin
+[268x110]θ
+[285x110]=
+[294x110]−
+[315x110]λR,
+[315x110](3.3)
+[285x51]– 9 –

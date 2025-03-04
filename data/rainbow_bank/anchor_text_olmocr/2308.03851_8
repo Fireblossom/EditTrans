@@ -1,0 +1,170 @@
+Page dimensions: 612.0x792.0
+[0x0]10
+[54x110]usual way, considering
+[54x122]|
+[54x133]random unitary circuits, these results do not directly translate
+[54x168]of sites, as quantified in, e.g., out-of-time-order correlators
+[54x191]|
+[54x271]tion in the unitary circuit.
+[54x328]the Hamiltonian case. Here we can also contrast the long-time
+[54x351]a single discrete time step (up to exponentially small correc-
+[54x362]the circuit case, the autocorrelation identically vanishes after
+[54x202]erator
+[54x213]expect a transition in the behaviour of the circuit once an op-
+[54x225]related to the size of the operator and operator spreading. We
+[54x408]in the Krylov subspace. In this regime the operator dynamics
+[54x431]the Heisenberg evolution with
+[54x454]Krylov matrix is identical to the structure previously observed
+[54x488]at larger values of
+[54x511]that the growth of
+[54x523]restricts the matrix elements of
+[54x546]sible rate as
+[54x649]being close to one reflects the appearance of the identity in
+[54x660]erator is close to being tridiagonal. The diagonal elements
+[54x534]U
+[54x603]Trotterized circuit can hence be expected to remain close to
+[54x614]Δ
+[64x500]Maximally ergodic dynamics
+[64x580]However, this regime cannot persist for arbitrarily large val-
+[77x61].
+[81x145])
+[84x672]𝑡
+[84x672]≲
+[87x569]. In chaotic systems the off-diagonal elements
+[92x29]∆
+[92x672]1
+[108x672]. Note that in this regime the unitary superop-
+[114x546]increases, corresponding to growth in the off-
+[121x236]𝑡
+[121x614]. In this regime, the operator dynamics of the
+[122x32]□
+[124x240]𝑔
+[128x475]≈
+[128x475]𝑚,𝑛
+[129x236]. As it turns out, this scale is very closely
+[130x709]|
+[132x709]𝑎
+[133x510]𝑛
+[133x510]is necessarily bounded.
+[133x77])
+[133x77]𝑛,𝑗
+[134x695]˜
+[134x1]n
+[138x488]. Here
+[138x708]𝑛
+[138x708]−
+[138x691]+
+[153x709]1
+[154x77]=
+[154x477]for
+[162x477]𝑚
+[165x189]𝑛
+[174x693]𝑡
+[175x431]𝑈
+[176x487]=
+[177x477]≠
+[177x191]and
+[177x191]|
+[178x77]O
+[178x693]𝑛
+[178x713]1
+[182x713].
+[183x523]to satisfy
+[184x713]4
+[188x477]𝑛
+[188x709]Δ
+[188x58]n
+[191x77]𝜎
+[194x61]0
+[198x713]2
+[198x82]𝛾
+[200x61]65
+[200x536]˜
+[207x487]+
+[215x487]≈
+[215x697]2
+[219x534]. However, unitarity
+[221x202]∼
+[223x82]𝛾
+[230x202]1
+[234x77]/
+[238x488]and all other
+[242x521]𝑚𝑛
+[251x202]sites. While
+[260x523]⩽
+[265x374]O
+[275x523], such
+[278x569]𝑏
+[282x374]. In
+[284x567]in
+[284x567]𝑛
+[297x191],
+[317x160]𝑛
+[317x171]different values of
+[317x194]function of the Krylov operators being a flat function. These
+[317x206]tion, maximally chaotic dynamics corresponds to the spectral
+[317x217]thonormalization procedure. On the level of the spectral func-
+[317x229]the maximally ergodic regime as a stable attractor for the or-
+[317x251]can be understood on the level of the spectral function, which
+[317x275]corresponding to the scaling observed in Fig. 3.
+[317x297]tic growth in the limit
+[317x320]the Hamiltonian act on the bulk of the operator
+[317x412]Δ
+[317x424]we note that this exponent is not universal since it crucially
+[317x435]yields the observed transition on a scale
+[317x469]value of
+[317x469]𝑛
+[317x537]U
+[317x547]Δ
+[317x568]calculated for each
+[320x378]𝑂
+[322x579]. The extent is measured by fitting the error function to the OTOC
+[328x376]𝑛
+[328x355]𝑛
+[332x378])
+[340x492]∈{
+[346x355]. For very small
+[348x547], the extent of the operator grows roughly as
+[354x469]where the error function equals
+[356x92]𝑛
+[362x469]1
+[363x492]𝑥,𝑦,𝑧
+[364x93]𝜔
+[365x450].
+[367x450]65
+[375x447]ℓ
+[380x115]𝑓
+[390x568]O
+[402x589]|
+[402x568])
+[430x355]𝑡
+[432x115]𝑓
+[433x355], we can approximate the uni-
+[439x297]Δ
+[442x115](
+[446x115]𝜔
+[464x481]𝑂
+[470x447]∼
+[481x481]ℓ
+[481x481], and define
+[482x115]𝜔
+[485x435]∼
+[489x115])|
+[490x447]1
+[497x588]𝑛
+[499x469]/
+[501x115](53)
+[504x469]2
+[512x439].
+[514x439]5
+[524x458], we have
+[529x389]O
+[531x319]𝑛
+[533x551].
+[541x389])
+[544x82]𝜔
+[548x389]and
+[556x297]𝑡
+[557x756]9
+[558x86]2
+[601x687]100 101\nn\n100\n101\nℓ\nn0.65\n∆ t = 10□2\n∆ t = 10□0.3

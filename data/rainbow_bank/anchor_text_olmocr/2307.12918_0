@@ -1,0 +1,37 @@
+Page dimensions: 595.3x841.9
+[104x704]Flexible heat pumps: must-have or nice to have in a power
+[218x682]sector with renewables?
+[129x653]Alexander Roth, Dana Kirchem, Carlos Gaete-Morales, Wolf-Peter Schill
+[266x631]May 26, 2024
+[282x595]Abstract
+[126x579]Heat pumps are a key technology for reducing fossil fuel use in the heating sector. A transition to heat
+[111x568]pumps implies an increase in electricity demand, especially in cold winter months. Using an open-source
+[111x557]power sector model, we examine the power sector impacts of a massive expansion of decentralized heat
+[111x546]pumps in Germany in 2030, combined with buffer heat storage of different sizes. Assuming that the addi-
+[111x535]tional electricity used by heat pumps has to be fully covered by renewable energies in a yearly balance, we
+[111x524]quantify the required additional investments in renewable energy sources. If wind power expansion po-
+[111x513]tentials are limited, the roll-out of heat pumps can also be accompanied by solar PV with little additional
+[111x502]costs, making use of the European interconnection. The need for additional firm capacity and electricity
+[111x491]storage generally remains limited even in the case of temporally inflexible heat pumps. We further find that
+[111x480]relatively small heat storage capacities of 2 to 6 hours can substantially reduce the need for short- and long-
+[111x469]duration electricity storage and other generation capacities, as well as power sector costs. We further show
+[111x458]that 5.8 million additional heat pumps save around 120 TWh of natural gas and 24 million tonnes of CO
+[111x458]2
+[111x447]emissions per year.
+[86x403]1 Introduction
+[86x373]In light of the climate crisis, heat pumps are regarded as a central technology to reduce greenhouse gas emissions
+[86x353]in the heating sector \[10\]. When powered with electricity from renewable energy sources (RES), heat pumps
+[86x333]can displace traditional heating technologies such as oil- and gas-fired heating and thus mitigate greenhouse
+[86x313]gas emissions. In addition, the Russian invasion of Ukraine has led to a further political push in Europe, but
+[86x293]especially Germany, to reduce the dependence on Russian natural gas imports. In Germany, natural gas is, at
+[86x273]the moment, still the principal source of residential heating. The electrification of heating can therefore be seen
+[86x253]as a critical measure to reduce the use of natural gas.
+[101x234]In Germany, policymakers aim for an accelerated roll-out of decentralized heat pumps, with a declared
+[86x214]target of six million installed heat pumps by the year 2030 \[15\]. Given the current stock of around 1.5 million
+[86x194]heat pumps, such a transition implies an increase in the electricity demand. So far, it is not yet understood
+[86x174]how an increased heat pump stock affects the power sector in detail, considering that the electricity needs
+[86x154]for mobility, hydrogen production, and other energy services will also increase. One common concern is that
+[86x134]heat pumps constitute an additional burden on the power sector if they are operated in an inflexible manner.
+[86x114]Given that electricity load profiles often coincide with heat demand profiles, inflexible heat pumps could add to
+[86x94]existing load peaks and thus increase the need for firm generation capacity or electricity storage. Therefore, we
+[295x57]1

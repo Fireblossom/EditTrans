@@ -1,0 +1,95 @@
+Page dimensions: 612.0x792.0
+[49x128]vary significantly when non-FL baseload is co-running with
+[49x140]also observe that while samples per second (Figure 1b) doesn't
+[49x176]sample and samples per second values when there is no non-
+[49x200]confidence intervals for each powermode, based on 10 repeated
+[49x372]WLAN power socket switch
+[49x384]nario. For the energy consumption measurement, we utilized
+[49x396]doesn't affect the CPU time of baseload in co-running sce-
+[49x408]kernel priority to baseload process to ensure the FL training
+[49x455]framework
+[49x455]3
+[49x467]of threads/CPU cores. For the FL training we utilized Flower
+[49x348]modes and CPU core baseloads.
+[49x443]4
+[52x224]Energy per sample values were calculated using Eq. 1.
+[59x212]Figure 1a illustrates the mean energy per sample and 95%
+[60x76]https://www.delock.com/produkt/11826/merkmale.html
+[60x85]https://www.cs.toronto.edu/ kriz/cifar.html
+[60x95]https://flower.dev
+[68x288]:
+[68x288]EPS
+[71x273]P
+[74x258]P
+[77x272]total
+[77x272]:
+[81x257]BL
+[81x243]:
+[81x243]N
+[93x258]Power consumption due to Baseload
+[93x273]Total power consumption (FL and Baseload)
+[93x288]Energy per Sample
+[Image 111x650 to 238x741]
+[Image 111x532 to 238x624]
+[128x327]EPS
+[128x327]=
+[133x637](a) Energy Per Sample
+[171x332]−
+[174x372]. We report mean energy per
+[188x320](1)
+[207x332]BL
+[312x104]\[8\] B. Rupprecht, D. Hujo, and B. V ogel-Heuser, "Performance evaluation
+[312x185]\[5\] Y . G. Kim and C.-J. Wu, "Autofl: Enabling heterogeneity-aware energy
+[312x212]\[4\] C. W. Zaw, S. R. Pandey, K. Kim, and C. S. Hong, "Energy-aware re-
+[312x293]\[1\] H. B. McMahan, E. Moore, D. Ramage, S. Hampson, and B. A. y Arcas,
+[312x568]possibilities could be explored further,
+[312x604]as different power modes and non-FL baseloads at CPU cores
+[312x616]how energy per sample values under real-world scenarios such
+[312x628]models for underlying FL clients. In this work, we showed that
+[312x640]most of the research assumes simplistic energy consumption
+[312x652]carbon-efficient FL scheduling and client selection. However,
+[312x697]combinations.
+[312x709]of samples compared to other baseload and samples per second
+[312x721]has an optimum energy usage when calculating same number
+[312x733]For our experiments, ondemand mode with baseload cores 3
+[322x363]What's the impact of hardware accelerated edge devices
+[322x363]•
+[322x447]•
+[322x447]How often do we need to measure before we can be
+[322x507]How can we predict the power-performance character-
+[322x555]How do current FL systems communicate FL clients'
+[322x555]•
+[322x664]Recent research studies have focused on energy-efficient and
+[326x77](CASE)
+[326x86]International Conference on Automation Science and Engineering
+[326x113]hoc, and Wireless Networks (WiOpt)
+[326x122]International Symposium on Modeling and Optimization in Mobile, Ad
+[326x122]in
+[326x149]"Fedzero: Leveraging renewable excess energy in federated learning,"
+[326x167]Microarchitecture (MICRO)
+[326x176]IEEE/ACM International Symposium on
+[326x194]systems,"
+[326x257]"A first look into the carbon footprint of federated learning,"
+[326x257]CoRR
+[326x275]AISTATS
+[326x275]data," in
+[326x284]"Communication-efficient learning of deep networks from decentralized
+[332x327]running scenarios?
+[332x339]the energy efficiency opportunities in FL and non-FL co-
+[332x375]behavior patterns of FL clients.
+[332x411]times due to data distribution drifts and hyperparameter
+[332x471]of edge devices, can we build predictive models for
+[332x483]about real-world impact factors affecting energy footprint
+[332x495]istics, what are the relevant metrics? With more data
+[332x531]sample, throughput per second and uncertainty related
+[351x77], pp. 2132–2139, IEEE, 2022.
+[355x679]ONCLUSION AND
+[385x275], 2016.
+[401x194], vol. 9, pp. 34938–34950, 2021.
+[410x307]R
+[417x167], pp. 183–198, 2021.
+[417x307]EFERENCES
+[445x113], IEEE, 2021.
+[461x679]W
+[502x679]ORK
+[561x257],

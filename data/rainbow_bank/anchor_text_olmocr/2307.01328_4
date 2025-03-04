@@ -1,0 +1,108 @@
+Page dimensions: 612.0x792.0
+[86x749]A MAXIMAL INEQUALITY FOR LOCAL EMPIRICAL PROCESSES UNDER WEAK DEPENDENCE 5
+[69x725]Our rate explicitly accomodates for function classes of increasing complexity. If the sequence
+[57x707]of functions has finite (albeit possibly increasing) VC dimension, then Theorem 2.6.7 of van der
+[57x689]Vaart and Wellner (1996) shows that the
+[57x689]v
+[275x687]n
+[275x687]and
+[285x689]C
+[316x687]n
+[316x687]may be taken such that
+[325x689]C
+[459x695]1
+[463x695]/v
+[471x694]n
+[458x688]n
+[458x688]is bounded. In
+[57x671]this case, the complexity of the function class only affects the rate through the
+[57x671]√
+[478x671]v
+[484x669]n
+[484x669]term, where
+[57x653]v
+[62x651]n
+[62x651]scales linearly with the VC dimension.
+[69x631]Finally, we consider the problem of kernel density estimation. In this case, the function class is
+[57x613]the same for every
+[57x613]n
+[155x613]∈
+[165x613]N
+[185x613]. If the bandwidths are taken such that
+[185x613]a
+[398x611]n
+[398x611]≍
+[407x613]b
+[424x611]n
+[430x613], then our rate simplifies
+[57x595]to:
+[222x559]p
+[234x548]−
+[245x548]log(
+[265x548]a
+[271x547]n
+[277x548])
+[281x559]p
+[293x548]log(
+[313x548]n
+[320x548])
+[320x548]∨ −
+[349x548]log(
+[369x548]a
+[375x547]n
+[380x548])
+[380x548].
+[69x499]In contrast, Remark 2 in Einmahl and Mason (2005) shows that, in the iid setting, one can
+[57x481]achieve the rate:
+[243x445]p
+[255x434]log log(
+[292x434]n
+[299x434])
+[299x434]∨ −
+[328x434]log(
+[347x434]a
+[354x433]n
+[359x434])
+[359x434],
+[61x407]which coincides with our rate except for logarithmic factors. Note that, if we consider, as it is
+[57x389]usually done in practice, polynomial bandwidths, i.e
+[57x389]a
+[331x387]n
+[331x387]=
+[340x389]Cn
+[369x393]−
+[376x393]α
+[376x393]for
+[385x389]α >
+[426x389]0, then our rate simplifies
+[57x370]to log(
+[91x370]n
+[98x370]), whereas
+[98x370]?
+[160x370]'s collapses to
+[234x381]p
+[246x370]log(
+[266x370]n
+[273x370]).
+[236x325]4.
+[236x325]Concluding remarks
+[69x296]In this paper, we introduced a maximal inequality for the uniform estimation error of a local
+[57x278]empirical process under strongly mixing data, where uniformity holds simultaneously over the
+[57x260]function class, bandwidth and evaluation point. Our nonasymptotic bounds accomodate function
+[57x242]classes with increasing complexity, which is a useful feature for "high-dimensional" statistical
+[57x223]analyses. As an application, we computed our bounds to function classes that exhibit polynomial
+[57x205]decay in their uniform entropy. When specialized to the kernel density estimation problem, these
+[57x187]results show that our bound leads to the same optimal rates derived by Einmahl and Mason (2005)
+[57x169]in the iid setting.
+[69x147]More generally, we view our results as a first step in the development of rigorous uniform in-
+[57x129]ference tools in local estimation problems under weak dependence and data-driven bandwidths.
+[57x111]Specifically, one may combine our results with couplings in the weakly dependent setting (e.g.
+[57x111]?
+[552x111],
+[57x93]2022) to devise test statistics that control size uniformly over the evaluation point
+[57x93]x
+[495x93]. An exam-
+[57x75]ple is the construction of uniform-in-
+[57x75]x
+[249x75]confidence bands for local polynomial quantile regression
+[57x57]estimators with time series data. We intend to study such procedures in future research.

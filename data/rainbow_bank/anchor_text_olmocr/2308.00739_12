@@ -1,0 +1,262 @@
+Page dimensions: 595.3x841.9
+[87x746]On the brane
+[159x746]Q
+[169x746], it becomes
+[240x719]y
+[246x724]2
+[238x703]R
+[247x707]2
+[257x700]Q
+[267x711]= sin
+[319x724]2
+[319x724]η
+[281x702](cos
+[281x702]t
+[303x702]+ cos
+[340x702]η
+[346x702])
+[350x708]2
+[350x708].
+[356x711](3.13)
+[87x676]When
+[87x676]t
+[121x676]= 0
+[147x676], it simplifies to
+[192x650]y
+[198x654]2
+[191x634]R
+[200x637]2
+[210x630]Q
+[220x642]= 1
+[238x650]−
+[247x650]cos
+[275x654]2
+[275x654]η
+[234x632](1 + cos
+[276x632]η
+[283x632])
+[287x638]2
+[287x638]= 1
+[310x650]−
+[319x650]cos
+[330x650]η
+[310x634]1 + cos
+[348x634]η
+[348x634]= tan
+[388x647]2
+[388x647]η
+[396x634]2
+[404x642].
+[404x642](3.14)
+[104x597]We conclude by presenting a useful geometric property concerning
+[451x597]η
+[458x597]. Consider
+[83x581]a geodesic that is symmetric around
+[274x581]θ
+[274x581]= 0
+[301x581], and its intersection with
+[438x581]Q
+[447x581], as depicted
+[83x565]in Fig. 5. When the geodesic extends from
+[302x565]x
+[302x565]=
+[312x565]−
+[334x565]L
+[334x565]to
+[345x565]L
+[359x565]in the Poincare coordinates,
+[83x549]the value of
+[149x549]y
+[149x549]at the intersection of the brane and the geodesic is given by
+[477x549]y
+[477x549]=
+[487x549]L
+[509x549].
+[83x533]From (3.13), the corresponding value of
+[290x533]η
+[290x533]=
+[300x533]η
+[318x533](
+[323x533]L
+[331x533])
+[331x533]satisfies
+[235x506]L
+[243x510]2
+[235x490]R
+[244x493]2
+[244x493]= sin
+[304x511]2
+[304x511]η
+[317x506](
+[322x506]L
+[330x506])
+[266x488](cos
+[266x488]t
+[289x488]+ cos
+[325x488]η
+[331x488](
+[336x488]L
+[344x488]))
+[353x494]2
+[353x494].
+[359x498](3.15)
+[87x462]On the other hand, the
+[210x462]θ
+[210x462]coordinate
+[219x462]θ
+[283x462](
+[287x462]L
+[295x462]) =
+[295x462]±
+[325x462]ϕ
+[325x462]at the asymptotic boundary corre-
+[83x447]sponding to
+[147x447]x
+[147x447]=
+[157x447]±
+[179x447]L
+[179x447]satisfies
+[152x420]sin
+[166x425]2
+[166x425]θ
+[179x420](
+[183x420]L
+[191x420])
+[129x404](cos
+[129x404]t
+[151x404]+ cos
+[187x404]θ
+[193x404](
+[197x404]L
+[205x404]))
+[214x407]2
+[214x407]= (
+[264x420]r
+[264x420]sin
+[272x420]θ
+[294x420](
+[299x420]L
+[307x420]))
+[316x425]2
+[237x404](
+[242x404]r
+[242x404]cos
+[249x404]t
+[267x404]+
+[274x404]r
+[286x404]cos
+[293x404]θ
+[317x404](
+[321x404]L
+[329x404]))
+[338x407]2
+[338x407]=
+[348x412]x
+[370x425]2
+[363x404]R
+[372x407]2
+[381x400]r
+[385x400]→∞
+[406x412]=
+[406x412]L
+[428x425]2
+[420x404]R
+[429x407]2
+[429x407],
+[435x412](3.16)
+[88x376]where we used
+[169x376]r
+[169x376]∼
+[194x385]√
+[204x376]R
+[213x379]2
+[213x379]+
+[220x376]r
+[237x379]2
+[237x379]at the asymptotic boundary
+[398x376]r
+[398x376]→ ∞
+[442x376]in the second
+[83x360]equality. Equating (3.15) and (3.16), we obtain
+[233x331]η
+[239x331](
+[244x331]L
+[252x331]) =
+[252x331]−
+[282x331]ϕ
+[282x331]=
+[292x331]θ
+[310x331](
+[315x331]x
+[315x331]=
+[325x331]−
+[346x331]L
+[354x331])
+[359x331],
+[359x331](3.17)
+[87x302]where the sign is fixed from that of the tension.
+[83x272]3.2 Holographic quantum task between brane and boundary
+[83x249]Let us consider the same scattering process as Section 2, but with the ETW brane
+[83x233]Q
+[93x233], where the scattering happens at the center of pure AdS (Fig. 6 (a)). This requires
+[83x217]T >
+[83x217]0
+[115x217]. We fix the input point
+[245x217]c
+[250x215]2
+[250x215]and output point
+[351x217]r
+[357x215]2
+[357x215]on the asymptotic boundary
+[83x201]Σ
+[92x201]. The output point
+[197x201]r
+[202x199]1
+[202x199]is placed on the edge of the brane
+[393x201]η
+[393x201]= 0
+[423x201]. The location of
+[83x185]the input point
+[165x185]c
+[170x184]1
+[170x184]on
+[179x185]Q
+[195x185]is given by the intersection of
+[194x169]
+[194x158]
+[194x126]
+[204x156]θ
+[204x156]=
+[360x156]−
+[381x156]π/
+[394x156]2
+[204x137]r
+[204x137]sin
+[212x137]θ
+[228x137]=
+[360x137]−
+[381x137]λR,
+[204x113]−
+[214x113](
+[218x113]r
+[224x118]2
+[224x118]+
+[231x113]R
+[252x118]2
+[257x113])
+[261x113]dt
+[271x118]2
+[271x118]+
+[279x113]R
+[313x126]2
+[292x105]r
+[297x109]2
+[297x109]+
+[305x105]R
+[326x109]2
+[326x109]dr
+[343x118]2
+[343x118]= 0
+[378x113].
+[482x134](3.18)
+[282x51]– 12 –

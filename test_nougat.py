@@ -70,10 +70,10 @@ def test(args):
     filter_config.pretrained_model_path = 'Norm/ERNIE-Layout-Pytorch'
     set_config_for_extrapolation(filter_config)
 
-    pretrained_model = EditTransNougat(filter_config)
-    pretrained_model = move_to_device(pretrained_model)
+    edit_model = EditTransNougat(filter_config)
+    edit_model = move_to_device(edit_model)
 
-    pretrained_model.eval()
+    edit_model.eval()
 
     metrics = defaultdict(list)
     metrics_nougat = defaultdict(list)
@@ -108,11 +108,11 @@ def test(args):
             with open(tgt_path/(uid+'.mmd')) as tgt_mmd:
                 ground_truth.append(tgt_mmd.read())
 
-        # ground_truth = pretrained_model.tokenizer.batch_decode(
+        # ground_truth = edit_model.tokenizer.batch_decode(
         #     decoder_input_ids, skip_special_tokens=True
         # )
         
-        nougat_inputs = pretrained_model.processor([Image.open(img_path/img) for img in sample['uid']],
+        nougat_inputs = edit_model.processor([Image.open(img_path/img) for img in sample['uid']],
                                                     return_tensors="pt")
         start_nougat = time.time()
         outputs_nougat = model.generate(
@@ -127,18 +127,18 @@ def test(args):
         print('baseline:', nougat_time, step_nougat)
         times['nougat'].append(nougat_time)
 
-        outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = pretrained_model.generate(
+        outputs, steps, filter_time, edit_time, generation_time, generation_steps, build_time = edit_model.generate(
             filter_inputs=sample,
             nougat_inputs=nougat_inputs,
         )
-        outputs_text = pretrained_model.processor.batch_decode(
+        outputs_text = edit_model.processor.batch_decode(
             outputs, skip_special_tokens=True
         )
-        outputs_text = pretrained_model.processor.post_process_generation(outputs_text, fix_markdown=True)
+        outputs_text = edit_model.processor.post_process_generation(outputs_text, fix_markdown=True)
         #text, math, table = split_text(outputs_text)
 
         ground_truth_text = [ground_truth[i][:len(text)] for i, text in enumerate(outputs_text)] # keep lengths same for too long generation
-        ground_truth_text = pretrained_model.processor.post_process_generation(ground_truth_text, fix_markdown=True)
+        ground_truth_text = edit_model.processor.post_process_generation(ground_truth_text, fix_markdown=True)
         #text_gt, math_gt, table_gt = split_text(ground_truth_text)
 
         print('editTrans:',filter_time, build_time, sum(edit_time), sum(generation_time), sum(generation_steps))
@@ -147,10 +147,10 @@ def test(args):
         times['edit'].append(sum(edit_time))
         times['generation'].append(sum(generation_time))
 
-        outputs_text_nougat = pretrained_model.processor.batch_decode(
+        outputs_text_nougat = edit_model.processor.batch_decode(
             outputs_nougat, skip_special_tokens=True
         )
-        outputs_text_nougat = pretrained_model.processor.post_process_generation(outputs_text_nougat, fix_markdown=True)
+        outputs_text_nougat = edit_model.processor.post_process_generation(outputs_text_nougat, fix_markdown=True)
         #text_nougat, math_nougat, table_nougat = split_text(outputs_text_nougat)
 
         with Pool(args.batch_size) as p:

@@ -1,0 +1,69 @@
+Page dimensions: 612.0x792.0
+[79x686]worker. On the other hand, when motivating effort is more important, other promotion
+[79x669]systems, such as the classic winner-take-all promotion contest of Lazear and Rosen (1981)
+[79x652]or the cyclical egalitarian contest proposed by Ely et al. (2021) may be better, and, hence,
+[79x634]more common. Intuitively, these promotion systems are very good at incentivizing effort
+[79x617]but less so at ensuring that the promoted worker's potential is high. The
+[466x617]index contest
+[79x600]guarantees that the non-routine task runs smoothly after the promotion decision is made.
+[79x582]It balances incentives provision and selection.
+[79x544]2.4 Features of the index contest
+[79x519]No commitment:
+[79x519]Often, one may want to assume little commitment within an or-
+[79x502]ganization: most of the day-to-day activities are not governed by formal contracts, it is
+[79x484]unlikely that the performance of a worker is verifiable...In my setting, the principal does
+[79x467]not need any commitment power, as Proposition 2.3 shows. The
+[418x467]index contest
+[489x467]is imple-
+[79x450]mentable even if the principal cannot commit to the delegation rule, delegation time, or
+[79x432]promotion decision. Maybe even more interestingly, it does not require sophisticated co-
+[79x415]ordinated punishments. It is implementable in a (weak) Perfect Bayesian equilibrium by
+[79x398]"grim trigger" strategies. Moreover, each worker's strategy only depends on his current
+[79x380]type, the running minimum of his type process, and whether the principal has promoted
+[79x363]a worker yet.
+[79x329]Fast track:
+[79x329]In the
+[189x329]index contest
+[267x329], the promotion thresholds are decreasing over time
+[79x312](as increasing functions of the running minimums of the workers' types). So a worker's
+[79x294]potential upon promotion decreases with time:
+[79x267]Proposition 2.5
+[79x267](Speed and accuracy)
+[288x267].
+[288x267]If
+[297x267]π
+[317x271]i
+[320x267](
+[325x267]·
+[328x267]) =
+[328x267]π
+[359x267](
+[363x267]·
+[366x267])
+[366x267]for all
+[376x267]i
+[413x267]∈ {
+[440x267]1
+[446x267], . . . , N
+[483x267]}
+[483x267]and the
+[79x250]processes
+[79x250]X
+[141x254]i
+[144x250]'s have the same law, then the promoted worker's type and the principal's
+[79x232]continuation value upon promotion are nonincreasing over time
+[408x232]P
+[415x232]-a.s..
+[97x205]Proposition 2.5 follows from the fact that the promotion threshold is
+[464x205]P
+[471x205]-a.s. nonin-
+[79x188]creasing over time. The proof is omitted.
+[97x170]Pushing the interpretation beyond the model, the above proposition suggests that fast
+[79x153]tracks
+[110x157]21
+[110x157]should not be surprising. When a worker is promoted quickly, his type upon
+[79x136]promotion is high. So, when entering a potential new contest for further promotion at the
+[92x109]21
+[100x106]I.e., that a quickly promoted worker often gets another promotion soon after. See Baker et al. (1994)
+[79x94]and Ariga et al. (1999).
+[300x64]29

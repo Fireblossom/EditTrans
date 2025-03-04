@@ -1,0 +1,263 @@
+Page dimensions: 595.3x841.9
+[0x0]voters
+[0x0]candidates
+[0x1]<
+[0x1]1
+[3x1]/h
+[11x1]/h
+[91x166]Proof.
+[91x248]for all
+[91x261]total number of such maps is
+[91x308]◀
+[91x308]the proof of Lemma 29.
+[91x334]σ
+[91x347]d
+[91x372]Moreover, let
+[91x411]only add a candidate to
+[91x450]l
+[91x515]Consider a failing set
+[91x548]regions). In this example, since only five cells are nonempty, we have at most
+[91x560]points in a smaller cell is
+[91x583]lines (and the region inside them is a cell). The shaded (green) region is the boundary region. Inside
+[91x772]C. Sonar, S. Suri and J. Xue 23:23
+[94x187]˜
+[95x422]to
+[96x347](
+[96x332]0
+[98x274]:
+[99x185]f
+[101x334]((
+[101x235]l
+[102x200]Given
+[104x187](
+[106x287]Based on the above observation, we solve the problem as follows. We enumerate all maps
+[106x463]We construct the set
+[113x118]distinct failing cells (see Figure 4). For each of these failing sets (say
+[114x184]χ
+[115x190]∗
+[120x187])
+[120x248]a
+[123x334]\
+[124x347]⩽
+[127x424]). We know that such a candidate
+[131x274]0
+[132x347]d
+[136x187]σ
+[141x334])
+[142x594]The figure shows a cell in the shifted grid. The solid lines around the sides are the grid
+[146x274]4
+[147x437]T
+[149x347](
+[151x489]∪
+[151x489])
+[153x248], we construct a fault-tolerant committee
+[154x441]∗
+[154x372]V
+[156x776]< 2/h\n1/h\n1/h\nvoters\ncandidates
+[157x184]χ
+[158x190]∗
+[160x371]⊆
+[162x502]such that
+[162x502]R
+[163x337]∗
+[165x489]R
+[166x187]|
+[167x480]∗
+[172x187]2
+[172x436]a
+[174x385]c
+[178x274]}
+[179x384]1
+[183x385],c
+[186x274]where
+[190x332]0
+[192x384]2
+[192x560]2
+[193x197]χ
+[194x153]σ
+[194x203]∗
+[195x480]∗
+[197x153]˜
+[197x235]l
+[198x411]R
+[198x187].
+[198x436]∈
+[200x151]f
+[200x233]a
+[200x233]for all
+[202x334]T
+[202x347]/h
+[205x153](
+[205x415]∗
+[208x222]σ
+[209x153]T
+[209x398]σ
+[210x385]l
+[212x735]voters
+[212x679]1/h
+[214x463]as follows: Consider a cell
+[214x150]χ
+[215x515]J
+[215x397]0
+[216x502]|
+[216x560]. All candidates in smaller cells are identical (i.e., candidates in blue
+[218x261]h
+[218x385]d
+[219x222](
+[220x398]((
+[220x153]within an absolute error of
+[222x437], then we replace
+[223x264]O
+[225x334]∪
+[225x359]T
+[229x220]χ
+[229x385](
+[230x264](
+[232x274])
+[233x385]c
+[235x402]∗
+[235x515]C
+[235x502]J
+[238x235]a
+[240x410]a
+[241x450]l
+[241x264])
+[241x398]\
+[242x502])
+[242x502]∪
+[244x476]|
+[244x359]J
+[247x476]R
+[250x359])
+[250x359]∪
+[251x384]2
+[251x450]=
+[251x450]∅
+[254x334]2
+[255x402]∗
+[258x235]h
+[264x239]4
+[268x235]and including them in
+[268x235]\]
+[268x571]1
+[270x502]|
+[273x571]×
+[274x515]T
+[278x476]J
+[280x489]=
+[281x334].
+[282x422]a
+[282x402]∗
+[284x127]h
+[287x398]−
+[294x476]and
+[294x571]1
+[296x502]and
+[297x437]c
+[299x571]/h
+[303x398]σ
+[305x411]∩
+[313x398]((
+[313x166], we know
+[315x493]∗
+[317x410]a
+[320x489]. Then we will show that there exists a
+[325x222]σ
+[326x200]σ
+[331x221]f
+[332x198]f
+[332x462]∈
+[337x200](
+[338x248]T
+[338x321]including
+[340x222]T
+[341x502]\
+[341x200]T
+[343x476]\
+[344x245]χ
+[344x398]∪
+[346x502]J
+[348x476]J
+[349x153]/h
+[349x463]L
+[353x248]V
+[354x424]l
+[356x467]′
+[359x476])
+[362x153]compared to the actual value,
+[364x166](
+[364x476]∪
+[367x398])
+[367x166]c
+[368x261]χ
+[372x164]i
+[373x424]((
+[373x398]2
+[374x246]i,j
+[375x502]⩽
+[375x166],c
+[379x480]∗
+[380x424]T
+[381x502]σ
+[382x385]C
+[383x239]∗
+[384x164]j
+[384x411]|
+[387x203]h
+[387x437]c
+[388x166]⩽
+[388x166])
+[388x476]−
+[389x398]/h
+[389x384]a
+[389x450]T
+[391x435]a
+[391x441]′
+[392x424]J
+[394x415]∗
+[399x200]n
+[399x411]|
+[399x424]∪
+[399x424])
+[400x398]. Observe that for a
+[401x450]. Let
+[402x347]l
+[402x475]0
+[403x552]5
+[405x411]|
+[405x345]a
+[411x463]((
+[411x436]a
+[412x384]a
+[412x371]as their closest
+[414x424]R
+[418x502]L
+[421x166]. Since we want
+[424x415]∗
+[424x347]L
+[425x437]J
+[425x437](i.e., we add
+[429x411]|
+[431x449]a
+[431x449]be the only
+[432x411].
+[434x347]. Therefore,
+[434x259]a
+[436x385]T
+[436x385]\
+[439x261]⩽
+[439x261])
+[443x424]. Since we
+[449x506]′
+[457x114]C
+[459x261]C
+[460x385]∪
+[461x476]2
+[464x463]̸
+[468x261]∩
+[470x502]l
+[471x463]=
+[476x476]/h
+[480x259]a
+[486x463],
+[492x68]CVIT 2016

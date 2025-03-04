@@ -1,0 +1,245 @@
+Page dimensions: 595.3x841.9
+[89x449]When
+[89x449]f
+[89x152]−
+[89x166]D
+[89x166]Since the lower bounds of Θ
+[89x180]show that duality results in Section 3 simplify the evaluation of Θ
+[89x195]and Θ(
+[89x266]I
+[89x294]D
+[89x294]deviations from Assumption 2.4 can be examined via Θ
+[89x309]of treatment effects under Assumption 2.4, see Fan et al. (2017). Sensitivity to
+[89x405]our duality results in Section 3 to evaluate and compare Θ
+[89x420]for non-overlapping and overlapping marginals respectively. This allows us to apply
+[89x434]sets Θ
+[89x471]6.1.1 Characterization of the Identified Sets
+[89x501]functions
+[89x501]c
+[89x613]identified set for
+[89x613]θ
+[89x627]In addition to characterizing Θ(
+[89x627]δ
+[89x698]In this section, we apply the results in Sections 3-5 to the examples introduced in
+[89x726]6 Motivating Examples Revisited
+[93x323]Proposition 4.1 establishes robust versions of existing results on the identified sets
+[93x557]where
+[95x516]K
+[95x516]in which
+[95x280]. For example, when
+[95x280]f
+[96x264]D
+[96x351]D
+[103x266](
+[103x353](
+[107x209]For a general function
+[107x209]f
+[107x391]I
+[107x391]Let
+[107x266]δ
+[107x353]δ
+[113x266]R
+[113x353]) = sup
+[121x432]D
+[122x449]is continuous and conditions in Proposition 4.1 are satisfied, the identified
+[126x195]δ
+[128x434](
+[132x537]Σ
+[132x195]f
+[132x195]) need to be computed numerically. When
+[132x434]δ
+[133x342]γ
+[134x389]D
+[140x535]D
+[141x391](
+[145x499]Y
+[146x391]δ
+[150x498]1
+[150x498]and
+[152x537]δ
+[152x391]) and
+[152x391]I
+[156x342](
+[157x537]{
+[157x537]) =
+[158x514]Y
+[158x501]c
+[159x342]δ
+[163x513]and
+[163x513]1
+[163x342])
+[167x585]Θ
+[168x369]Z
+[173x516]K
+[175x342]Y
+[181x341]1
+[182x611]Do
+[182x611]=
+[183x434]δ
+[183x585](
+[184x537]∈ P
+[184x537]γ
+[185x342]×Y
+[186x499]Y
+[188x434]) are both closed intervals with upper limits given by W-DMR
+[189x237]δ
+[189x245]lim
+[191x391](
+[191x498]2
+[193x237]→
+[193x585]) :=
+[196x501], respectively.
+[197x613]E
+[197x341]2
+[200x152]f
+[201x391]) denote the upper bounds of Θ
+[201x237]0
+[204x353]f
+[205x280]satisfies assumptions in Theorems 5.1 and 5.2,
+[207x152](
+[208x245]I
+[210x514]Y
+[211x353](
+[214x537](
+[215x245](
+[215x513]are the optimal transport costs associated with cost
+[215x513]2
+[215x353]y
+[216x280]I
+[217x611]o
+[218x150]1
+[221x351]1
+[222x613]\[
+[222x152], y
+[224x263]+
+[224x270]2
+[225x245]) =
+[225x245]I
+[225x613]f
+[226x353], y
+[227x535]× Y
+[227x535]1
+[228x209]D
+[232x574]Y
+[232x613](
+[233x150]2
+[237x613]Y
+[238x152]), we omit details for the lower bounds.
+[241x353]dγ
+[241x353])
+[242x574]×Y
+[244x611]1
+[244x166](
+[248x613], Y
+[249x166]δ
+[253x245](0) and lim
+[254x535]2
+[254x573]2
+[254x166]) and Θ(
+[259x537]) :
+[260x611]2
+[261x353](
+[265x613])\] without using the covariate information:
+[265x353]y
+[268x585](
+[271x351]1
+[272x585]y
+[278x583]1
+[283x585], y
+[286x535]Y
+[287x351]2
+[291x534]1
+[291x353]I
+[292x122]25
+[294x583]2
+[295x537](
+[298x585])
+[298x585]dγ
+[300x166]δ
+[300x537]µ
+[305x166]) can be computed in a similar way by
+[307x535]Y
+[312x237]δ
+[316x237]→
+[316x537], γ
+[318x585](
+[325x237]0
+[328x535]1
+[328x583]1
+[331x245]I
+[332x537]≤
+[332x537])
+[333x585], y
+[335x353]δ
+[337x243]D
+[340x353]) = sup
+[340x537]δ
+[344x583]2
+[344x245](
+[348x585]) :
+[348x585]γ
+[349x245]δ
+[354x245]I
+[358x195]is additively separable, we
+[358x535]1
+[361x342]γ
+[363x537],
+[363x537]K
+[363x585]∈
+[371x342]Σ(
+[373x585]Σ
+[377x391]δ
+[380x342]δ
+[380x535]Y
+[381x243]D
+[382x391]) and Θ(
+[384x342])
+[385x534]1
+[387x294]δ
+[388x245](0)
+[390x369]Z
+[390x537](
+[393x294]) and Θ(
+[393x583]D
+[395x537]µ
+[396x342]S
+[397x405](
+[400x585](
+[402x405]δ
+[404x585]δ
+[407x534]2
+[407x405]) and Θ(
+[412x353](
+[422x351]1
+[423x535]2
+[427x353], y
+[427x537])
+[427x391]δ
+[433x391]), respectively,
+[435x537]δ
+[438x351]2
+[438x294]δ
+[439x180](
+[442x353])
+[442x353]dγ
+[444x180]δ
+[449x180]) and Θ(
+[452x405]δ
+[453x535]2
+[458x537]}
+[458x405]).
+[462x353](
+[466x353]y
+[468x280](
+[472x351]1
+[473x280]δ
+[477x353], y
+[478x280]) and
+[492x353], x
+[493x209](
+[495x180]δ
+[497x209]δ
+[500x180]).
+[503x209])
+[504x353])
+[509x353].

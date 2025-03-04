@@ -1,0 +1,219 @@
+Page dimensions: 595.3x841.9
+[72x219]operators have upper bounds of the form given in section II, we need ansatz functions of the
+[72x260]cussed in section 6.2 of \[7\].
+[72x281]spoils the rotational symmetry of the modified position and momentum operators, as dis-
+[72x386]∂
+[72x492]to the ansatz functions,
+[72x492]G
+[72x323]G
+[72x344]as the tanh term in the modified momentum operator. Note that condition (4) becomes
+[72x365]cosh
+[72x407]p
+[72x407]direction of
+[72x428]would have a low momentum limit of ˆ
+[72x513]X
+[72x513]→
+[72x534]spatial dimensions. The modified operators must now become three-vector operators –
+[72x590]III. GENERALIZING TO THREE DIMENSIONS
+[72x634]short distance nature of observables.
+[72x655]variables in calculations. The algebra of operators is per se irrelevant to discriminate the
+[72x676]capped operators have only a mathematical meaning, although can be used as auxiliary
+[72x697]are capped or not. Physical operators must display ultraviolet convergence/finiteness. Un-
+[72x718]finds a non-zero minimum distance. In conclusion, the crux of the question is if operators
+[72x760]∆
+[72x449]which gives a modified momentum of the form ˆ
+[75x516]ˆ
+[78x384]p
+[82x760]X
+[82x383]i
+[83x337]
+[86x386]G
+[86x386], and the ansatz function becomes
+[86x513]ˆ
+[87x471]For the hyperbolic ansatz functions of (5), one could try letting
+[87x240]In order to preserve rotational symmetry and still retain the feature that the momentum
+[87x555]In this section, we generalize the above construction from one spatial dimension to three
+[87x302]G
+[92x319]p
+[92x760]∆
+[94x328]p
+[94x370]term for the modified position operator has to have the same functional dependence
+[94x370]2
+[96x318]M
+[102x760]P
+[102x760]≥
+[112x511]and ˆ
+[112x511]i
+[114x323]∂
+[117x760]ℏ
+[120x321]p
+[125x320]i
+[130x337]h
+[132x135]
+[132x135]|
+[133x756]2
+[133x756]. One might think recovering the standard commutator (3) would not lead
+[136x323]p
+[139x177]G
+[142x321]j
+[142x110]p
+[143x513]→
+[143x513]P
+[143x407]. The vector character of the modified position operator arises through
+[143x407]∂
+[147x126]⃗ p
+[148x108]M
+[150x194]
+[150x194]|
+[153x126]|
+[156x513]ˆ
+[159x337]
+[165x185]⃗ p
+[167x319]p
+[169x329]p
+[171x118]=
+[171x185]|
+[171x513]P
+[171x318]M
+[174x328]j
+[177x194]
+[181x337]i
+[182x513]i
+[183x138]"
+[189x177]= cosh
+[190x118]1 +
+[197x492]and
+[197x323]=
+[197x323]δ
+[210x492]H
+[210x135]
+[214x321]in this three dimensional case.
+[214x321]ij
+[220x110]2
+[224x182]2
+[224x513]= 1
+[226x110]p
+[228x126]|
+[230x194]|
+[230x194]
+[232x126]⃗ p
+[232x108]M
+[237x126]|
+[240x169]p
+[243x135]
+[245x185]⃗ p
+[246x167]M
+[250x513]2
+[250x513],
+[251x185]|
+[252x132]2
+[256x138]#
+[257x194]
+[261x513]3. This can be done by applying different conditions
+[261x513],
+[273x428]P
+[281x426]i
+[281x426]≈
+[281x118]H
+[281x118]and
+[282x399]
+[283x177]H
+[289x428]p
+[290x382]p
+[293x391]p
+[296x77]6
+[304x399]
+[309x426]i
+[312x428]p
+[312x428], and a high momentum limit of
+[316x386]= cosh
+[327x449]P
+[328x135]|
+[328x135]
+[334x447]i
+[338x110]p
+[340x169]p
+[343x126]⃗ p
+[344x449]p
+[344x108]M
+[345x185]⃗ p
+[346x167]M
+[349x126]|
+[352x391]2
+[354x135]
+[357x194]
+[357x302]and
+[367x382]p
+[368x449]H
+[369x177]=
+[369x177]p
+[370x391]p
+[370x302]H
+[374x390]i
+[381x462]
+[381x739]P
+[381x399]
+[381x110]π
+[384x169]|
+[386x126]p
+[387x169]⃗ p
+[388x386]. In order to satisfy (4), the
+[389x445]p
+[390x739], and therefore ∆
+[390x739]P
+[392x124]M
+[393x454]p
+[393x443]M
+[393x169]|
+[397x110]arctan
+[397x110]|
+[402x462]
+[406x471]H
+[408x302]p
+[415x449]p
+[415x449]=
+[419x485]
+[427x194]|
+[427x194]
+[432x466]M
+[436x447]tanh
+[437x169]p
+[439x135]
+[441x485]
+[441x185]⃗ p
+[442x167]M
+[447x185]|
+[449x110]2
+[450x126]π
+[451x471]=
+[451x471]p
+[453x194]
+[455x110]p
+[457x126]|
+[460x126]⃗ p
+[461x108]M
+[466x126]|
+[468x467]p
+[469x475]M
+[472x135]
+[472x466]i
+[473x462]
+[482x445]p
+[484x454]p
+[486x443]M
+[486x118].
+[486x118](8)
+[488x453]i
+[489x739], one still
+[493x426]in the
+[493x426]M
+[495x462]
+[498x301]i
+[501x302], which
+[506x485]
+[514x467]p
+[517x477]p
+[518x405]p
+[518x405]→
+[519x466]M
+[535x471],

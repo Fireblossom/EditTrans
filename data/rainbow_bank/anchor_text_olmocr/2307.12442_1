@@ -1,0 +1,41 @@
+Page dimensions: 595.3x841.9
+[3x93](a)
+[3x378](b)
+[358x203]Office
+[146x505]Auditorium
+[0x0]Movie Theater
+[158x528](a)\n(b)\nOffice\nAuditorium Movie Theater
+[65x511]Figure 1: Demonstrations of inter-class similarity and intra-class variation. a) Images from the auditorium and movie theater
+[65x502]classes have a high degree of similarity (inter-class similarity). b) Images of the office demonstrate a considerable degree of
+[65x492]intra-class diversity, suggesting a wide spectrum of visual features within the category.
+[65x460]scenes (though they have similar objects such as computers, chairs, or tables, as shown in Figure 1(b)), which
+[65x448]may confuse the recognition system. Furthermore, constructing a scene representation that captures crucial
+[65x436]semantic information reflecting the complexity of the data is challenging, particularly when dealing with a
+[65x424]large number of categories
+[79x412]Research in scene recognition frameworks can be categorized into ones that are based on hand-crafted
+[65x400]engineering and methods that employ automatic feature extraction without human intervention. Hand-
+[65x388]engineered features are based on manually designing and selecting features utilizing different techniques
+[65x376]to capture spatial characteristics, local features, object-based concepts, and holistic representations of
+[65x364]scenes \[6, 7, 8, 9\]. However, hand-crafted features require notable domain expertise and significant human
+[65x352]effort, resulting in inefficiency. Consequently, Deep Convolutional Neural Networks (DCNNs) have largely
+[65x340]replaced them due to their superior representation learning ability \[10, 11, 12\]. They have demonstrated
+[65x328]that they attain superior classification performance when trained on extensive datasets. After AlexNet's \[13\]
+[65x316]introduction, deep convolutional neural networks, such as VGG \[14\], Inception \[15\], ResNet \[16\], and
+[65x304]DenseNet \[17\], impressively advanced the field of image classification due to their great ability of capturing
+[65x292]locally correlated image values \[18, 19, 20\] and learning features that enhance efficiency compared to hand-
+[65x280]crafted methods. Utilizing deep convolutional neural networks can enhance scene recognition performance, but
+[65x268]it remains challenging due to the intricate spatial layout, intra-class variation, and inter-class similarity, which
+[64x256]weaken discriminability among scenes \[21, 22\]. In addition, due to the rise of extensive scene-centric datasets,
+[65x244]a simple CNN-generated representation model is inadequate to accurately discriminate large-scale scenes \[23\].
+[64x232]As a result, research has shifted its focus to developing more representative features by incorporating
+[65x220]contextual information, such as objects, or proposing strategies to effectively extract features that facilitate
+[65x209]decision-making boundaries. Furthermore, several studies have employed ensemble learning strategies to
+[65x197]leverage the complementary strengths of multiple feature levels or recognition models \[24, 25, 26\].
+[79x185]Besides improving accuracy, recognition systems based on deep neural networks face the challenge of
+[65x173]ambiguity in the reasoning behind the model's predictions\[27, 28, 29\]. This boils down to the black-box
+[65x161]nature of deep neural networks, which induces a lack of trust and ethical concerns regarding the model's
+[65x149]decisions, especially in high-stakes applications such as medical analysis and self-driving vehicles \[30, 31, 32\].
+[64x137]Along this direction, numerous efforts have been made to help understand how a model solves a problem and
+[65x125]makes decisions. Typically, an explanation should help us get the answers to the following questions: Why
+[65x113]did the model predict this category? Is the prediction of the model reliable? Which parts of the input led
+[295x93]2

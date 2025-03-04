@@ -1,0 +1,66 @@
+Page dimensions: 612.0x792.0
+[0x0]liu20, yzwang20, dkyang20, fd
+[50x81]in \[15, 14\], visual RL generalization refers to the ability
+[50x93]dimensional image observations as inputs. As depicted
+[50x105]sion Process (POMDP) \[33\], and the agent receives high-
+[50x117]ally formulate it as a Partially Observable Markov Deci-
+[50x153]forcement Learning (RL) has achieved impressive success
+[50x165]tasks \[28, 26, 25, 27, 7, 6, 38, 40, 39, 24\], visual Rein-
+[50x197]1. Introduction
+[50x262]strate that CG2A significantly improves the generalization
+[50x286]tudes, and introduces a Soft Gradient Surgery strategy to al-
+[50x298]Solver to adaptively balance the varying gradient magni-
+[50x310]bias. In particular, CG2A develops a Gradient Agreement
+[50x322]tion into visual RL algorithms to address the generalization
+[50x334]tation (CG2A), and better integrate augmentation combina-
+[50x345]work, named Conflict-aware Gradient Agreement Augmen-
+[50x357]we propose a general policy gradient optimization frame-
+[50x369]various augmentation methods. To alleviate these issues,
+[50x393]analysis and illuminate the main causes: (i) high-variance
+[50x417]the training efficiency, suffering from serve performance
+[50x429]naively applying it to visual RL algorithms may damage
+[50x453]inforcement learning. Despite the success of augmenta-
+[50x465]environments remains challenging but critical in visual re-
+[61x563]saliu20, zhaoyuchen20, yang
+[61x619]Siao Liu Zhaoyu Chen Yang Liu Yuzheng Wang Dingkang Yang Zhile Zhao
+[62x177]With the development of deep learning in various
+[64x477]Learning a policy with great generalization to unseen
+[97x605]Ziqing Zhou Xie Yi Wei Li Wenqiang Zhang Zhongxue Gan
+[101x675]Improving Generalization in Visual Reinforcement Learning via
+[146x503]Abstract
+[161x544]{
+[166x544]zhilezhao21, ziqingzhou21, yixie22
+[180x577]Academy for Engineering & Technology, Fudan University
+[309x105]duct numerous qualitative analysis to illustrate the causes
+[309x130]cannot benefit from AC as much as supervised learning.
+[309x142]fore, it is necessary to rethink why visual RL algorithms
+[309x154]mance degradation and training sample inefficiency. There-
+[309x166]quite sensitive to excessive variations, resulting in perfor-
+[309x190]tation combination can effectively improve generalization
+[309x202]in incorporating AC into visual RL. Although data augmen-
+[309x214]pre-processing solution. Unfortunately, there is a dilemma
+[309x225]alleviate the generalization bias, which is a more promising
+[309x249]Combination (AC) \[16\] integrates multiple data augmenta-
+[309x274]mentation technique, which is so-called generalization bias.
+[309x286]ability heavily relies on the selection of specific data aug-
+[309x310]trained with such augmentation still hard to cope with in-
+[309x322]ferred choice for addressing color variations, but agents
+[309x334]mented images. For instance, ColorJitter \[23\] is the pre-
+[309x346]environments with observations varying far from the aug-
+[309x358]eralization capability, resulting in a poor performance in the
+[309x370]select a single augmentation technique to improve the gen-
+[309x382]improvements. However, recent methods \[14, 3, 44\] mostly
+[309x394]training environments, yielding considerable performance
+[309x406]tation methods to generate synthetic data and diversify the
+[309x418]learning. Numerous studies \[22, 13\] utilize data augmen-
+[309x430]tion \[29\] is a widely adopted technique in reinforcement
+[309x455]visual RL generalization challenging.
+[309x467]cant semantic shifts in the visual observations, which makes
+[309x479]minor perturbations in the environment can result in signifi-
+[309x491]ments. Due to the dynamic nature of the real world, even
+[309x503]of a pretrained RL agent to perform well in unseen environ-
+[321x117]From the perspective of gradient optimization, we con-
+[321x442]To improve generalization performance, data augmenta-
+[353x544]@m.fudan.edu.cn
+[514x563]}
+[518x563]@fudan.edu.cn

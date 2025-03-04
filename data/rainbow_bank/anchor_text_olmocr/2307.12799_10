@@ -1,0 +1,126 @@
+Page dimensions: 612.0x792.0
+[19x110]Outage Probability
+[25x110]Outage Probability
+[26x88]10-2
+[26x178]10-1
+[29x269]100
+[31x40]0.3
+[31x110]0.5
+[31x146]0.6
+[31x216]0.8
+[31x251]0.9
+[43x287]1
+[49x314]Fig. 6. Outage probability versus the number of antennas for UA V
+[49x761]IEEE INTERNET OF THINGS JOURNAL 11
+[49x71]which introduces more interference from more UA Vs to the
+[49x84]larger coverage area of the main-lobe beam on certain tiers,
+[49x96]case. The reason is as follows. The higher height implies the
+[49x109]to a larger outage probability under the imperfect alignment
+[49x121]Fig. 6(a) shows that the higher deployment of UA Vs will lead
+[49x151]C. Effect of UAV Deployment Height
+[49x196]not necessary to equip the UA V with too many antennas since
+[49x209]implies that from the perspective such as hardware cost, it is
+[49x221]and the trend of decreasing gradually slows down. This figure
+[49x234]of antennas becomes large, the outage probability decreases,
+[49x246]beam alignment case, Fig. 6(b) shows that, as the number
+[51x27]14 9 1 6 2 5 3 6
+[100x9]Number of Transmitting Antennas
+[100x9]Number of Transmitting Antennas
+[246x56]H
+[246x73]H
+[246x140]H
+[248x244]H
+[248x261]H
+[248x278]H
+[253x68]1
+[253x86]1
+[253x102]1
+[253x119]1
+[254x206]1
+[254x223]1
+[254x273]1
+[257x56]=
+[257x73]=
+[257x106]=
+[257x124]=
+[259x210]=
+[259x227]=
+[259x244]=
+[259x278]=
+[263x56]250 m,
+[263x73]200 m,
+[263x140]150 m,
+[265x210]200 m,
+[265x244]250 m,
+[265x278]150 m,
+[275x314]v
+[294x56]H
+[294x90]H
+[296x210]H
+[296x227]H
+[301x52]2
+[301x86]2
+[301x119]2
+[302x189]2
+[302x223]2
+[302x273]2
+[305x90]=
+[305x106]=
+[305x140]=
+[307x194]=
+[307x210]=
+[307x244]=
+[307x261]=
+[307x278]=
+[311x73]250 m; CDAS
+[311x90]200 m; CDAS
+[311x124]250 m; MAPAS
+[312x59]signal strength from the serving UA V . Increasing the density of
+[312x84]density is very sparse, the closest UA V (i.e., the serving UA V)
+[312x96]antennas is large. The reason is as follows. When the UA V
+[312x147]scenario, for the MAPAS, sparse UA Vs lead to a lower outage
+[312x184]the signal strength from the serving UA V due to the beam
+[312x197]Note that it cannot be too narrow, because this can degrade
+[312x209]this can be achieved by narrowing the main-lobe beamwidth.
+[312x260]preferred. However, when the interfering UA Vs are very dense,
+[312x272]lobe beamwidth (equivalently, a smaller number of antennas) is
+[312x322]falling into the region covered by the main-lobe beam of the
+[312x335]UA V density is very sparse, the number of interfering UA Vs
+[312x347]λ
+[312x360]λ
+[312x360]is 4 for
+[312x398]probability performance. Besides that, Fig. 7(a) shows that
+[312x460]imperfect and perfect alignment cases. Under the imperfect
+[312x473]antennas for UA V under different UA V densities for both
+[312x501]D. Effect of UAV Density
+[312x527]outage performance.
+[312x577]and their link can be either LoS or NLoS. As mentioned
+[312x589]because of the fact the UE is associated with the closest UA V
+[312x627]explanation is the same as before. However, in terms of the
+[312x640]of MAPAS is smaller for the lower height of UA Vs. The
+[312x652]from Fig. 6(b), it can be seen that the outage probability
+[312x677]is non-negligible, the lower deployment of UA Vs is preferred
+[312x715]that the transmission link is more likely to be LoS, which
+[312x728]that, for the same projection point, the higher height indicates
+[313x194]300 m; CDAS
+[313x210]250 m; CDAS
+[313x227]200 m; CDAS
+[313x261]250 m; MAPAS
+[313x278]200 m; MAPAS
+[318x346]= 5
+[318x9]N
+[318x9]N
+[322x485]Fig. 7 plots the outage probability versus the number of
+[328x2]v
+[328x2]v
+[348x347]10
+[357x358]k
+[357x358]= 0
+[375x351]5
+[381x1002]14 9 1 6 2 5 3 6\nNumber of Transmitting Antennas Nv\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1\nOutage Probability\nH1=150 m, ... H2=250 m; MAPAS\nH1=250 m, H2=300 m; MAPAS\nH1=150 m, H2=200 m; CDAS\nH1=200 m, H2=250 m; CDAS\nH1=250 m, H2=300 m; CDAS
+[393x351]−
+[399x360]10
+[399x351]2
+[403x347]. The reason is as follows. When the
+[426x364]m
+[451x364]2

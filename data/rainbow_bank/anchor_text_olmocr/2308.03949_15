@@ -1,0 +1,144 @@
+Page dimensions: 595.3x841.9
+[0x0]16 of 55
+[35x781]Version May 31, 2024 submitted to
+[35x781]Entropy
+[166x80]P
+[166x435](classical) version of it in the next section, Section 4. In the Section 3.1 next, we define the
+[166x625](
+[166x247]p
+[166x92]θ
+[166x92]Section 2.2, through Eqs. (2) and (6). For Bloch embedding, the
+[166x172]P
+[166x172]of
+[166x272]existing embedding can be found in Appendix B.
+[166x284]application. The process of data embedding is an active field of research, more details on
+[166x297]and the pros and cons of each technique have to be weighted in the context of a specific
+[166x309]called
+[166x322]into quantum states. This process of encoding classical data into quantum states is also
+[166x372]Section 3.3 discusses the complexity and scalability of the algorithm.
+[166x385]estimation. Section 3.2 defines the quantum algorithm in terms of Definitions 1 to 3, and
+[166x410]how these states are manipulated so that we obtain an output that can be used to perform
+[166x423]method to convert the classical data into quantum states. In what follows, we describe
+[166x448]using the stereographic embedding. We demonstrate an equivalent quantum-inspired
+[166x523]as explained in more detail in Appendix C.2, is the fact that changing the distance of the plane from
+[166x536]Derivations and further observations can be found in Appendix C. Of particular note,
+[166x536]Remark 2.
+[166x560]clusters as defined in Eq. (22).
+[166x573]centroids
+[166x573]¯ c
+[166x637]Definition 6.
+[166x637]\[3D Stereographic Classical kNN (3DSC-kNN)\] Let s
+[166x662]defined in Definition 4. This produces the following algorithm.
+[166x674]and then perform classical clustering on the 3D data, namely perform 3DEC-kNN as
+[166x687]transformation between classical kNN algorithms. Indeed, we can stereographically project
+[166x712]unique quantum state through the Bloch sphere. Still, the inverse stereographic projection
+[169x129]which is simply the pure state obtained using
+[171x625]D
+[176x172]as the quantum state
+[179x625]¯ c
+[187x625]R
+[187x625],
+[188x105]To actually obtain
+[188x105]ψ
+[188x184]Let
+[188x259]Here, we propose the
+[188x334]For quantum algorithms to work on classical data, the classical data must be converted
+[188x460]In this section, we propose and describe the quantum
+[188x460]k
+[188x585]Here we apply
+[188x725]This information, particularly Eq. (51), will allow us to associate each point in
+[188x725]R
+[191x625]2
+[197x247]∈
+[203x184]∈
+[204x625],
+[212x184]R
+[213x623]e
+[215x247]2
+[217x573]and
+[217x573]s
+[218x625]be a clustering state (recall, D is the dataset and
+[218x625])
+[222x184]3
+[224x250]into quantum state using the stereographic projection. We can split stereo-
+[234x184]Bloch embedded quantum state
+[237x309]. The process of embedding classical data into quantum states is not unique,
+[241x577]−
+[256x573]D
+[258x583]elementwise and thus
+[264x573]) =
+[265x589]1
+[278x103]the state can be encoded as explained in the preliminaries in
+[278x103]P
+[285x259]as an improved embedding of classical
+[290x573]s
+[294x570]r
+[294x570](
+[294x577]−
+[301x577]1
+[309x573]p
+[312x154]ψ
+[319x152]:
+[323x573]p
+[328x573]∈
+[329x154]=
+[337x573]C
+[341x147]2
+[348x168]
+[364x80]respectively. We now define the quantum
+[365x129]∥
+[370x129]P
+[373x583](
+[373x589]−
+[375x147]∥
+[377x129]as Bloch vector.
+[379x589]1
+[380x147]P
+[389x585]¯ c
+[393x585]) = (
+[398x154]⃗
+[406x168]
+[415x585]s
+[416x607](
+[416x607]r
+[419x583](
+[419x589]−
+[422x614]1
+[425x625]are the initial centroids). We then
+[425x589]1
+[431x610]D
+[431x184]Bloch embedding
+[434x585]c
+[439x584]1
+[439x610])
+[443x585])
+[443x610], s
+[447x92]and
+[447x585], ...,
+[452x607](
+[454x92]ϕ
+[463x585]s
+[467x635]be an ISP , and let
+[467x635]r
+[467x641]−
+[467x583](
+[467x589]−
+[468x610]¯ c
+[472x610])
+[473x589]1
+[474x92]of Eqs. (2) and (6)
+[476x610]R
+[476x610],
+[482x585]c
+[487x583]k
+[491x585]))
+[494x610], d
+[508x610],
+[508x610]c
+[517x608])
+[517x615]update
+[524x571]j
+[524x571]are the
+[528x725]2
+[536x728]to a
+[544x154](52)

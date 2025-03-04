@@ -1,0 +1,144 @@
+Page dimensions: 595.3x841.9
+[66x772]23:8 Fault Tolerance in Euclidean Committee Selection
+[107x408]Optimal Fault-Tolerant Committee) are NP-hard, in any dimension
+[107x395]norm, where size of the committee
+[107x563]with (widely studied) single-peaked preferences \[2, 26\] to compute an optimal fault-tolerant
+[108x733]i
+[108x114]orthogonal embedding, we now give its properties as stated in \[33\]:
+[108x127]segments in the orthogonal embedding are
+[108x140]modification (See figure 2b for intuition). The intersection points of vertical and horizontal
+[108x153]to work with called
+[108x179]such vertical segment is disjoint from all the rectangles except the two it connects.
+[108x205]negative) clauses lie above (resp., below) the
+[108x218]for the variables are drawn along the
+[108x231]so this is called a
+[108x244]the formula
+[108x270]modifications and a new proof of correctness.
+[108x283]preferences, but generalizing the proof to
+[108x309]PM-3SAT, our reduction constructs a 2-dimensional Euclidean election. The general outline
+[108x322]graph has a planar embedding which is given as a part of the input. Given an instance
+[108x335]either three positive literals or three negative literals, and whose variable-clause incidence
+[108x348]\[7\]. An input to this problem is a
+[108x361]uses a reduction from the NP-complete problem
+[108x421]Theorem 11
+[108x421]▶
+[108x441]3.1 Hardness Results
+[108x470]out that the seemingly simpler variants ORP and FTS are also intractable.
+[108x550]Chamberlin-Courant committee.
+[108x576]d
+[108x589]C
+[108x602]Remark 10.
+[108x602]▶
+[108x624]for one-dimensional Euclidean elections.
+[108x707]j <k
+[108x637]Theorem 9.
+[110x520]3 Fault-Tolerant Committees in Multidimensional Space
+[110x720]T
+[114x658]-tolerant hitting set of size at most
+[114x733]j
+[119x602]Our dynamic programming algorithm works as long as either the set
+[119x637]Optimal Fault-Tolerant Committee can be solved in time
+[123x166]The rectangular embedding of
+[123x257]For ease of referencing, we adapt the terminologies from \[32\]. In the planar embedding of
+[123x374]We will use a single construction to show NP-hardness all three problems. Our proof
+[123x671]We use binary search to find the smallest
+[123x589]is embedded in
+[124x720]∩
+[131x706]t
+[134x707]. In this case,
+[150x720]|
+[156x720]does not decrease after the modification, and is thus at least
+[161x244]φ
+[167x244], each variable/clause is drawn as an (axis-parallel) rectangle in the plane, and
+[178x421](
+[182x421]⋆
+[187x231]rectangular embedding
+[187x421])
+[191x421].
+[197x707]T
+[197x707]∩
+[201x589](i.e., has a linear ordering), while the other set can have an arbitrary
+[201x589]R
+[206x694]|
+[215x707]C
+[216x698]∗
+[223x706]=
+[223x706]i,j
+[223x694]∩
+[235x707]{
+[239x693]i,j
+[248x694]|
+[253x694]⩾
+[259x166]φ
+[259x348]3-CNF formula
+[260x395]k
+[268x693]i,j
+[269x658]k
+[275x658]. Therefore, the following theorem holds.
+[278x694](
+[279x218]x
+[282x694]f
+[285x218]-axis, while the rectangles for the positive (resp.,
+[288x694])
+[292x694]◀
+[295x153]. We refer the reader to \[33\] for details of the
+[295x127]connection points
+[302x705]}∩
+[302x705]1
+[311x205]x
+[317x205]-axis. If a clause contains a variable, then
+[319x671]such that the reduced instance has an
+[319x671]r
+[322x707]C
+[330x706]⊆
+[350x733]|
+[359x711]∗
+[366x707]∩
+[366x733]∩
+[371x127]. To build the intuition for the
+[375x707]C
+[375x733]C
+[376x348]φ
+[382x706]i,j
+[383x395]f
+[383x395]are part of the input.
+[392x707]|
+[392x707]. Since
+[392x733]|
+[394x408]d
+[397x733]δ
+[397x733]⩾
+[397x283]requires several technical
+[402x408]⩾
+[412x732]i,j
+[413x408]under the Euclidean
+[422x733](
+[423x637]O
+[425x720]δ
+[425x733]f
+[427x707]∩
+[429x719]i,j
+[431x733])
+[431x637](
+[435x733]j
+[438x720](
+[446x707]C
+[448x720])
+[452x720]. So assume
+[452x733]⩾
+[453x706]i,j
+[454x361](PM-3SAT)
+[459x637]f
+[460x733]k
+[467x637]log(
+[468x602]V
+[468x602]or the
+[468x707]⩾
+[468x707]δ
+[476x732]t
+[479x733], then
+[483x706]i,j
+[483x637]nm
+[492x707](
+[498x637]))
+[502x707])

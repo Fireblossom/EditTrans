@@ -1,0 +1,188 @@
+Page dimensions: 595.3x841.9
+[57x632]non-trivial solutions to this equation, we require
+[57x632]M
+[57x692]R
+[57x706]is shown that this solution preserves 16 Supercharges in an interesting way: the anti-commutator of
+[57x719]in this paper. For the un-fibered background in eq.(2.1) we refer the reader to \[12\], \[19\], where it
+[57x759]A.2 Checking SUSY for the Fibered Background
+[57x605]we can write the gravitino variation as a covariant derivative, for which we define the connection
+[57x665]where we only have
+[57x665]H
+[57x678]background in eq.(2.3). We perform all the analysis in the S-dual system, in terms of NS5 branes,
+[57x384]tions. We need to make sure that det(Θ
+[57x384]µν
+[57x289]eq.(2.3) reads
+[57x322]gravitino variation to solve the dependence of the spinor on the spacetime coordinates.
+[57x225]eters of the background
+[57x151]components its reduced to 4. The solution for the spinor is
+[57x164]tion shows that these components are not independents, and in fact, the total number of independent
+[57x178]equations shows that the spinor has 8 independent components. Then, solving for the gravitino varia-
+[58x574]W
+[60x238]In order to have non-trivial solutions we need to impose the following BPS conditions on the param-
+[60x541]then we can write the gravitino variation as
+[61x191]With this conditions it is possible to check that det(Θ
+[61x191]µν
+[61x335]constrain the number of independent components of the spinor. After this procedure we use the
+[68x573]= 1
+[68x573]µ
+[74x733]Here we aim to compute how many supercharges are preserved by the the backgrounds presented
+[74x646]Mε
+[74x646]First, note that the dilatino variation is a matrix equation of the form
+[74x397]µν
+[74x397]Each of the components of Θ
+[74x302]Specialising to our background, the determinant of the Dilatino variation for the background in
+[74x469]We can get rid of the partial derivative of the spinor by acting with
+[74x469]D
+[90x567]4
+[96x574]ω
+[96x574]ab
+[103x572]µ
+[103x572]Γ
+[124x573]ab
+[124x573]+ 1
+[139x263]det(
+[147x567]4
+[155x567]2!
+[159x263]M
+[162x663]flux.
+[162x663]3
+[170x263])
+[170x263]∼
+[179x573]µνλ
+[184x441]D ∧ D
+[189x272]
+[194x263]4(
+[194x574]Γ
+[201x579]νλ
+[204x263]e
+[209x261]B
+[211x574]σ
+[213x396]defines a matrix equation, giving a total of 45 independent equa-
+[214x441]ε
+[214x441]= (
+[216x263]Q
+[218x509]δψ
+[218x579]3
+[218x579]+
+[225x261]A
+[225x261]−
+[225x574]e
+[234x211]e
+[234x263]e
+[236x509]dx
+[237x441]+
+[237x441]dW
+[239x210]A
+[240x567]8
+[242x586]Φ
+[246x211]Q
+[248x513]= (
+[248x513]µ
+[248x360]= 0
+[248x360]Mε
+[250x261]A
+[252x590]
+[255x210]=
+[255x210]B
+[257x263]Q
+[257x441]W
+[259x384]) = 0 for each of the components. The equations
+[265x211]±
+[266x261]B
+[267x573]µ
+[268x441]∧
+[272x509]∂
+[273x574]Γ
+[273x263])
+[277x267]+
+[277x267]2
+[278x507]µ
+[279x579]µ
+[283x441]W
+[283x126]ε
+[283x509]ε
+[283x509]+
+[284x263]m
+[285x360]Θ
+[285x360],
+[285x211]e
+[285x574](
+[288x125]=
+[288x125]1
+[289x632]to be non-invertible, for which we need to impose
+[289x574]iσ
+[290x210]B
+[292x97]31
+[296x126]⃗
+[297x211]Q
+[299x573]2
+[304x574]) + 1
+[304x441]ε
+[305x267]2
+[306x210]A
+[307x126]0 (A.16)
+[309x358]µν
+[310x441]= 1
+[312x507]µ
+[313x211], m
+[315x269]
+[315x269]8
+[318x509]ε
+[319x360]= 0
+[319x360]ε
+[323x509]dx
+[323x509])
+[323x567]3!
+[326x263]4(
+[331x434]2Θ
+[331x191]) = 0 is also satisfied. Solving these matrix
+[332x574]F
+[336x263]e
+[339x573]µνλ
+[341x513]µ
+[341x513]≡ D
+[341x261]B
+[344x360](A.13)
+[344x360],
+[346x439]µν
+[348x263]Q
+[355x574]Γ
+[356x441]dx
+[357x261]A
+[357x261]+
+[358x211].
+[358x211](A.15)
+[361x579]µνλ
+[366x263]e
+[368x446]∧
+[368x446]µ
+[370x509](A.11)
+[377x574]σ
+[383x579]1
+[383x579]+ 1
+[389x263]Q
+[397x261]B
+[398x446]ν
+[401x469]a second time
+[403x567]·
+[403x567]2
+[403x441](A.12)
+[403x441]ε.
+[405x263])
+[409x267]2
+[409x267]+
+[410x567]5!
+[415x646]= 0. In order to have
+[416x263]m
+[426x574]F
+[433x573]µνλρσ
+[433x573]Γ
+[437x267]2
+[441x272]
+[464x579](
+[464x579]µνλρσ
+[493x574]iσ
+[508x574])
+[508x555](A.10)
+[522x574]Γ
+[534x574],

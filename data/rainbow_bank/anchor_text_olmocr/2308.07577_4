@@ -1,0 +1,45 @@
+Page dimensions: 612.0x792.0
+[72x708]regularly put forward but whose analysis has been neglected thus far. To properly cap-
+[72x692]ture the nonlinear dynamics of the competitive storage model, we follow the approach of
+[72x676]Koop et al. (1996) who define the IRFs as state-and-history-dependent random variables.
+[72x660]The simulated IRFs show that prices immediately decline after a positive interest rate
+[72x644]shock and converge slowly to their long-run value. Moreover, an interest rate increase
+[72x629]depresses storage and increases price volatility. Inventories decrease immediately with
+[72x613]the shock but reach their lowest value after a long time, and convergence to the long-run
+[72x597]average is even slower compared with price. Price volatility mostly follows stock dynam-
+[72x581]ics: a larger response in inventory causes an oppositely larger response in price volatility.
+[72x565]Finally, the magnitude and overall pattern of the IRFs depend substantially on the market
+[72x549]supply and interest rate regimes.
+[245x553]8
+[72x526]Our work joins a large literature on the relationship between interest rates and commod-
+[72x510]ity prices. Jeffrey Frankel made numerous empirical and theoretical contributions on the
+[72x494]topic, with an emphasis on how commodity prices overshoot their long-run target fol-
+[72x478]lowing a shock because of their inherent price flexibility (Frankel and Hardouvelis, 1985;
+[72x462]Frankel, 1986, 2008, 2014). This literature has tended to find a negative effect of inter-
+[72x446]est rate hikes on commodity prices in the short (Rosa, 2014; Basistha and Kurov, 2015;
+[72x430]Scrimgeour, 2015) and medium run (Akram, 2009; Anzuini et al., 2013; Harvey et al.,
+[72x414]2017), with the exception of Kilian and Zhou (2022) who find no effect of real interest
+[72x398]rate movements on oil prices. The negative relationship of interest rates and commodity
+[72x383]prices has also been detected by Christiano et al. (1999) and Bernanke et al. (2005) in other
+[72x367]contexts. In addition, interest rates not only affect commodity price levels, but also their
+[72x351]cross-correlation and their volatility as shown by Gruber and Vigfusson (2018). Com-
+[72x335]pared with these studies, the method developed here allows for a systematic analysis of
+[72x319]the transmission mechanisms. In particular, our quantitative analysis clarifies the role of
+[72x303]the speculative channel in the observed negative relationship.
+[72x279]Our work contributes also to the studies of the theoretical and empirical properties of
+[72x264]the competitive storage model. Theoretically, we derive new results on the existence
+[72x248]and uniqueness of a rational expectations equilibrium in a general competitive storage
+[72x232]model with state-dependent and time-varying discount factors, which extend the results
+[72x216]of Scheinkman and Schechtman (1983), Deaton and Laroque (1992), Cafiero et al. (2015)
+[72x200]and is crucial for studying the dynamic causal effect of these factors on commodity price
+[72x184]fluctuations.
+[138x188]9
+[138x188]In addition, we provide a sharp characterization of the analytical proper-
+[72x168]ties of the equilibrium solution, based on which we develop a suitable endogenous grid
+[86x149]8
+[90x145]These results suggest that postulating an invariant effect of monetary shocks under different market
+[72x132]supply and interest rate regimes may cause biases in empirical analysis.
+[86x123]9
+[90x119]See also Basak and Pavlova (2016) for another storage model with stochastic discount factor but which
+[72x106]abstracts from the non-negative constraint on storage.
+[303x72]5

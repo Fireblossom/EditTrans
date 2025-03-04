@@ -1,0 +1,102 @@
+Page dimensions: 612.0x792.0
+[49x76]at each step of the MDP, we consider a computationally
+[49x135]initially, we show that it is possible for an agent to learn about
+[49x159]the reward feedback the agent receives from the environment.
+[49x171]network. The coodinates are continuously updated based upon
+[49x183]relative location of miners with respect to each other in the
+[49x207]environment \[19\]. In this model, miners are assigned real-
+[49x231]ing rewards. A key contribution of our work is a network
+[49x243]connections based on past experience to gain the most min-
+[49x255]candidate connection configurations, and gradually adapts its
+[49x339]unknown to miners. We thus model the problem of optimizing
+[49x351]We assume that the global topology of the p2p network is
+[49x374]simplified setting where only a single node chooses its con-
+[49x386]decentralized policy for optimizing reward. We consider a
+[49x398]problem as a game between miners and present Cobalt, a
+[49x470]ensuring that the connectivity between other miners do not
+[49x494]there is an inherent tension for a miner in increasing her own
+[49x542]star topology and any arbitrary node in the complete graph
+[49x554]to other nodes in the two cases (i.e., the central node in the
+[49x578]with unit delay links and uniform compute power as before, all
+[49x590]blockchain. On the other hand, on a complete graph topology
+[49x602]compared to the leaf nodes by including more blocks on the
+[49x614]power across nodes, the central node receives a higher reward
+[49x637]between other miners. For example, if miners are arranged as
+[49x649]relative
+[49x661]is important for a miner to have paths to other miners that are,
+[49x697]creates efficient, low latency paths for other miners by acting
+[49x733]shown that the dependence of mining rewards on propagation
+[59x111]To enable the deployment of MAB algorithm, we have
+[59x291]We derive the optimal neighbor selection policy using
+[174x649]to the delays of paths
+[312x97]v
+[312x97]reach
+[312x157]H
+[312x157]denote the hash rate vector
+[312x109]the protocol. The time take for a message sent from
+[312x109]v
+[312x121]v
+[312x133]The directed edge represents that node
+[312x193]V
+[312x277]the other hand, prior works have considered various network
+[312x337]e.g., sparse spanner construction \[10\], \[13\], \[16\], \[21\].
+[312x349]finite metrics (i.e., over finite graphs) for various applications,
+[312x373]learn them \[19\], \[32\], \[36\]. More recently, a number of theo-
+[312x385]the turn of the millenium, including distributed approaches to
+[312x397]prominently explored in the network systems literature since
+[312x421]geographic distances.
+[312x445]overlay for efficient block broadcast, and relay networks such
+[312x493]translates to higher mining rewards earned, the competitive
+[312x505]these works generally suggest that better network connectivity
+[312x517]on mining \[12\], \[26\], \[28\], \[37\], \[40\], \[47\], \[48\]. While
+[312x565]not model the game-theoretic competition between miners.
+[312x577]propagation latency in the network. However, Perigee does
+[312x673]other miners. Experimentally we show Cobalt outperforms or
+[312x697]on how small the shortest path lengths between the agent and
+[320x78]1
+[322x325]Game theory of blockchains, especially at the consen-
+[322x625]P2P network design for optimizing mining rewards has
+[323x76]We assume if
+[334x143]2
+[339x145])
+[339x193]is the set of nodes and
+[342x96]along the link
+[363x145]v
+[374x76]v
+[374x221]III. P
+[378x74]1
+[382x76], v
+[390x74]2
+[395x641]ELATED
+[395x641]II. R
+[399x221]F
+[416x76]then
+[416x97]v
+[417x641]W
+[419x169]is denoted by
+[425x97], v
+[435x96]2
+[444x76], v
+[452x74]1
+[455x120]as and when required by
+[459x157]H
+[463x641]ORK
+[467x155]v
+[472x157])
+[477x76]for all
+[480x155]∈V
+[501x169]H
+[501x169]. We use
+[510x97](
+[514x97]v
+[519x96]1
+[532x96]2
+[537x97]≥
+[537x76].
+[538x143]1
+[543x145], v
+[544x97]0
+[546x108]to
+[546x108]1
+[557x205])
+[561x205],

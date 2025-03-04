@@ -1,0 +1,44 @@
+Page dimensions: 612.0x792.0
+[139x657]zz0 = cell(1, N);
+[139x645]for i = 1 : N-1
+[155x633]zz0(i) = {\[initial_position(:, i); initial_position(:, i + 1)\]};
+[139x621]end
+[139x609]zz0(N) = {\[initial_position(:, N); initial_position(:, 1)\]};
+[134x597]end
+[149x578]Such that the overall problem can be set up with the following function:
+[134x558]function \[sProb \] = setupSolver(N, sigma)
+[134x546]n = 4;
+[134x534]d = 2;
+[139x522]y = sym('y%d%d', \[N n\], 'real');
+[139x510]y = y';
+[139x498]\[eta, eta_bar\] = getEta(N, d, sigma);
+[139x486]F = getObjective(N, y, eta, eta_bar, sigma);
+[139x474]H = getInequalityConstr(N, y, eta_bar);
+[139x462]AA = getCouplingMatrix(N, n);
+[139x450]zz0 = getStartValue(N, sigma);
+[134x438]sProb.llbx = cell(1, N);
+[134x426]sProb.uubx = cell(1, N);
+[134x414]for i = 1 : N
+[155x402]sProb.llbx(i) = mat2cell(\[-inf; -inf; -inf; -inf\], 4, 1);
+[155x390]sProb.uubx(i) = mat2cell(\[ inf; inf; inf; inf\], 4, 1);
+[134x378]end
+[134x366]sProb.locFuns.ffi = cell(1, N);
+[134x354]sProb.locFuns.hhi = cell(1, N);
+[134x342]for i = 1 : N
+[155x330]sProb.locFuns.ffi(i) = {matlabFunction(F(i), 'Vars', {y(:, i)})} ;
+[155x319]sProb.locFuns.hhi(i) = {matlabFunction(H(i), 'Vars', {y(:, i)})} ;
+[134x307]end
+[134x295]sProb.AA = AA;
+[134x283]sProb.zz0 = zz0;
+[134x257]12.2.4 Runtime Analysis
+[134x238]For the runtime analysis, the idea is to ´ run the sensor network localization
+[134x226]problem with varying number of sensors both with a decentral and a central
+[134x214]optimization step. To do so, firstly a vector with a number of sensors is needed
+[134x202]and secondly a vector with variances. Then, the time needed for the decentral
+[134x191]and the central optimization is measured and can be plotted.
+[134x169]N = \[5, 10, 15 , 20, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100\];
+[134x157]sigma = \[0.5, 1, 1.5, 2, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5\];
+[134x145]time = zeros(2, length(N));
+[134x133]for i = 1 : length(N)
+[155x121]sProb = setupSolver(N(i), sigma(i));
+[301x89]22

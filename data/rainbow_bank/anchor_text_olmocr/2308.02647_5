@@ -1,0 +1,83 @@
+Page dimensions: 612.0x792.0
+[557x756]6
+[54x534]FIG. 3. Convergence of the estimated ground state energy
+[54x534]H
+[315x533]RNN
+[315x533]for 1D and 2D RNN wavefunctions trained in a purely
+[54x524]Hamiltonian-driven setting (blue), a purely data-driven setting (orange), and in the hybrid data- then Hamiltonian-driven
+[54x513]setting (green). The target state is deep in the checkerboard phase (
+[54x513]δ/
+[343x513]Ω = 3
+[367x513].
+[370x513]173), meaning it is highly ordered. The ground
+[54x503]state energy given by quantum Monte Carlo is marked by the black dashed line. For hybrid training, the transition from
+[54x492]data-driven to Hamiltonian-driven training is marked by the red dashed line.
+[54x343]FIG. 4. (a) The absolute error between the best estimated ground state energy achieved by trained 1D RNN wavefunctions
+[54x333]H
+[62x332]RNN
+[62x332]and the ground state energy given by quantum Monte Carlo simulations
+[370x333]H
+[378x332]QMC
+[395x333]. (b) Convergence time
+[395x333]t
+[493x332]conv
+[493x332]as a function
+[54x322]of the transition point
+[54x322]t
+[151x321]trans
+[151x321]in the hybrid training of 2D RNN wavefunction. The convergence time has been rescaled by the
+[54x312]time it takes for the RNN to be trained purely variationally
+[54x312]t
+[296x311]VMC
+[314x312], showing the relative speedup provided by data-enhancement.
+[54x302]This is because
+[54x302]t
+[122x301]conv
+[122x301]and
+[140x302]t
+[161x301]VMC
+[161x301]depend on the value of
+[182x302]δ/
+[286x302]Ω.
+[54x277]least partly due to both the limited and the imperfect
+[54x266]nature of the experimental data. Fig. 3 illustrates these
+[54x254]training dynamics for the case where we are learning a
+[54x243]ground state in the ordered checkerboard phase, but we
+[54x232]observe that these trends also hold more broadly across
+[54x220]the phase transition. Fig. 4a and Fig. 4b illustrate the
+[54x209]outcomes of data-enhanced VMC for both the 1D RNNs
+[54x197]and 2D RNNs for a variety of detuning values on either
+[54x186]side of the critical coupling
+[54x186]δ
+[180x184]c
+[184x186]/
+[189x186]Ω.
+[64x174]Fig. 4a shows that, in some cases, the energies achieved
+[54x162]by the 1D RNN are improved by over an order of mag-
+[54x151]nitude when data-enhanced VMC is used as the train-
+[54x139]ing procedure, particularly in the ordered checkerboard
+[54x128]regime. A similar effect was not observed in Ref. \[22\]
+[54x116]because the method was tested at only one point in the
+[54x105]phase diagram, close to a phase transition. The results
+[54x93]here are consistent, in that the performance of variational
+[54x82]optimization and data-enhanced VMC are comparable in
+[54x70]the disordered phase and around the phase transition,
+[317x277]with data-enhancement still providing a speedup in con-
+[317x266]vergence time in these regimes. In addition to the accu-
+[317x254]racy improvements seen in the ground state energy esti-
+[317x243]mates in the ordered regime (Fig. 4a), we find that the
+[317x232]use of data allows the 1D RNN wavefunction to capture
+[317x220]the 2D ordering of the checkerboard phase, which it is
+[317x209]unable to do when trained using the Hamiltonian alone.
+[317x197]This might be understood since the data set, which is
+[317x186]a set of projective measurement outcomes that are ex-
+[317x174]emplary of the ground state or states close to it, con-
+[317x163]tains a more explicit representation of the correlations
+[317x151]between atoms in the array. Using this data in the ear-
+[317x140]liest epochs of training optimizes the model to directly
+[317x128]reflect this information. This early-phase training seems
+[317x117]to be crucial in moving the gradient descent algorithm
+[317x106]into a smaller subspace that can more easily be opti-
+[317x94]mized by later-phase variational training. More details
+[317x83]and discussion can be found in Appendix D.
+[327x70]Fig. 4b shows that for the 2D RNN wavefunctions,

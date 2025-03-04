@@ -1,0 +1,234 @@
+Page dimensions: 595.3x841.9
+[0x0]covariate noise by time
+[71x118]out with respect to thetotal
+[71x260]an action
+[71x605](or
+[71x605]adaptive
+[72x98]q
+[72x145]correlated. To circumvent this, we apply the trivial bound
+[72x159]and
+[72x172]noise ratio,
+[72x274]Definition 3.5
+[72x337]our results. The signal to noise ratio provides a measure of how strongly the true covariates
+[72x371]3.3 Signal to noise ratio
+[72x427]algorithms. This added stability from regularization allows us to exploit the online regression
+[72x468]PCR "denoises" the observed covariates by projecting them onto the subspace given by their
+[72x554]V
+[72x569]ρ
+[72x583]Definition 3.4
+[72x619]b
+[72x646]noisy covariate matrix matrix to be
+[72x660]our results leverage the fact that
+[72x702]the corresponding projection onto the top
+[72x718]Z
+[72x759]decomposition, we can define the projection matrix onto the subspace spanned by the top
+[76x211]where
+[83x85]log
+[84x554](
+[85x619]P
+[89x186]The price we pay for adaptivity is encoded directly into the definition of the signal to
+[89x481]Setting
+[89x481]ρ
+[89x732]n
+[89x732]For
+[93x617]n
+[94x554]) :=
+[98x687], we leverage the simplified notation
+[105x90]1
+[105x82]δ
+[105x157]n
+[111x159](
+[112x569]≥
+[114x605]online
+[115x159]a
+[116x554]Z
+[117x209]n
+[120x260]a
+[120x260]∈
+[123x553]n
+[128x260]\[
+[129x554](
+[131x85]n
+[131x157]op
+[133x554]a
+[134x481]recovers the version of PCR used in Agarwal et al.\[7\]. In words, (unregularized)
+[138x732]a
+[139x554])
+[140x159]∥E
+[140x159], bounding
+[143x558]T
+[145x732]∈
+[150x85]factor is the price we pay for having high probability control of
+[150x554]Z
+[150x260]at round
+[150x172](
+[154x172]a
+[156x583]Adaptive Principal Component Regression
+[163x554](
+[163x745]P
+[170x732]A
+[172x744]k
+[172x744]∈
+[172x718](
+[180x633]" is defined equivalently to quantities with "
+[181x732]Z
+[181x732], and
+[182x718]as
+[190x554]ρ
+[190x718]Z
+[195x554]P
+[201x260]n
+[204x553]n,k
+[209x749]given by
+[212x717]n,k
+[213x159](
+[221x554]a
+[223x159])
+[224x732](
+[226x554])
+[227x660]P
+[230x554]. Regularized principal component regression estimates
+[233x157]op
+[233x308](which we will measure through the relevant high probability
+[233x308]n
+[234x732]as defined above, we write the
+[235x718]b
+[236x658]n
+[240x569]∈
+[240x569]k
+[242x528]a
+[246x660]a
+[256x718]U
+[265x241](
+[267x569], for
+[269x646]a
+[269x744]k
+[275x646]) :=
+[275x646]Z
+[275x241]) :=
+[275x241]σ
+[278x702]k
+[278x702]right singular vectors of
+[282x718]a
+[282x528](
+[284x685]n
+[291x569]∈
+[294x687]a
+[295x42]5
+[300x569]\[
+[302x744]k
+[303x533]b
+[306x105]E
+[307x644]n
+[312x646](
+[313x248]X
+[315x350], which will be integral in stating and proving
+[316x527]n
+[316x742].
+[316x646]a
+[321x569]\]
+[322x118]n
+[322x646])
+[322x246]n
+[323x717]1
+[325x528]a
+[328x718](
+[328x649]b
+[328x248](
+[328x569]n
+[331x685]n,r
+[337x101]op
+[341x322]r
+[345x527]n
+[346x718](
+[347x209]=
+[349x569]≥
+[350x323]X
+[354x172](
+[355x646], and define
+[355x211]O
+[356x718]))
+[357x687]. (Recall
+[359x172]a
+[361x528])
+[364x718], . . . , σ
+[365x323](
+[370x145])
+[371x105]+
+[371x105]d
+[374x145]∥
+[379x144]op
+[379x144]≤ ∥E
+[379x569]b
+[380x105]√
+[381x400]=
+[393x211]+
+[394x677]∗
+[394x583])
+[395x569]Z
+[395x717]k
+[398x633]", except with
+[399x583]Given
+[399x673]. While
+[399x673]P
+[399x717]∧
+[400x105]n
+[401x732]-truncated singular value
+[402x568]n
+[403x687]= dim(
+[406x702]Z
+[407x583]regularization pa-
+[408x569](
+[410x717]∧
+[412x569]a
+[414x144]n
+[415x159]E
+[418x569]Z
+[418x569]) :=
+[420x157]n
+[421x718](
+[424x702]a
+[425x718]Z
+[426x159](
+[430x702]as
+[432x646](
+[439x718](
+[441x223]q
+[447x568]n
+[451x702]P
+[453x569](
+[456x84]n
+[457x569]a
+[460x700]n,k
+[461x118]U
+[461x85]∥
+[462x687])
+[462x718]V
+[463x646](
+[464x619]\[
+[466x687]P
+[467x84]uniformly
+[468x117]n
+[471x145]the price of
+[473x646])
+[474x215]1
+[474x207]log(
+[474x633]in place
+[475x172]σ
+[482x171]r
+[482x702])
+[484x718](
+[487x702]. When
+[488x718]a
+[490x172]X
+[492x554](
+[492x759]k
+[492x759]right
+[492x569]a
+[496x554]a
+[498x569])
+[506x172](
+[506x211])
+[510x219]
+[516x172]))
+[522x211].

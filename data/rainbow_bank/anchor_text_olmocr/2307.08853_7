@@ -1,0 +1,145 @@
+Page dimensions: 595.3x841.9
+[0x0]8
+[35x785]Forecasting
+[35x785]2023
+[91x785],
+[91x785]1
+[166x519]Table 3.
+[166x695]x
+[166x695]point
+[166x78]k
+[166x91]lowest value for almost all indices and subperiods except for the entire period results. The
+[166x104]financial market assets. According to the MAPE metric, the ETS-ANN model had the
+[166x129]across each examined subperiod. Based on all accuracy metrics, it can be observed that
+[166x154]error (RMSE), and the mean absolute percentage error (MAPE).
+[166x166]is evaluated based on the following metrics: mean absolute error (MAE), root mean square
+[166x191]namely, ARIMA, ETS-ANN, and
+[166x191]k
+[166x219]4. Discussion
+[166x242]methods.
+[166x300]as a benchmark:
+[166x313]from the study are indicative, we employed AvgRelMAE, considering the ARIMA model
+[166x325]fore, to assess the reviewed forecasting techniques and verify that the conclusions drawn
+[166x338]in generating undefined or infinite outcomes for actual zero or near-zero values \[38\]. There-
+[166x350]lute percentage error (MAPE) has attracted criticism as it exhibits significant shortcomings
+[166x375]j
+[166x531]the root mean square error (RMSE). The results for each accuracy measure are reported in
+[166x544]forecasting results for the following loss functions: the mean absolute error (MAE) and
+[166x556]error (MAPE), despite its widespread application in forecasting literature, we present
+[166x585]3.2.5. Forecasting Performance Measures
+[166x607]edge weights is performed \[37\].
+[166x620]initial step entails the creation of an adjacency matrix and, subsequently, the estimation of
+[166x632]distance metric \[ 36\]. The methodology involves two distinct procedures, whereby the
+[166x645]metric, thereby rendering the efficacy of classifiers significantly reliant on the integrated
+[166x657]form. Up to this juncture, the degree of similarity is contingent upon a specific distance
+[166x670]most observed data points among the k-nearest neighbors is assigned
+[166x682]determine the
+[166x682]k
+[166x707]involves searching the entire volume of points in the training dataset. Given a specific
+[166x720]items. The algorithm's methodology is based on the square root of the N technique, which
+[166x732]enables the algorithm to efficiently navigate the space and identify the most comparable
+[169x388]where ˆ
+[170x254]N
+[170x254]where
+[188x141]The findings indicate that the ranking of the models' performance remains consistent
+[188x569]We report on a number of robustness tests. In addition to the mean absolute percentage
+[199x693]0
+[199x388]y
+[202x254]represents the total number of series used for the evaluation of forecasting
+[207x386]+
+[213x386]j
+[213x386]refers to the model's forecast at time
+[218x388]t
+[238x682]x
+[258x281]=
+[258x281]AvgRelMAE
+[293x375]is the number of historical observations.
+[294x457]RMSE
+[294x457]=
+[304x416]MAPE
+[304x416]=
+[305x500]MAE
+[305x500]=
+[315x191]NN, for different SSMI financial market assets, i.e., BTC-
+[316x281]exp
+[331x500]1
+[336x477]vuut
+[336x416]1
+[344x493]h
+[348x464]1
+[348x450]h
+[348x409]h
+[352x489]j
+[353x275]N
+[356x446]j
+[356x511]h
+[357x455]∑
+[357x414]∑
+[358x446]=
+[359x405]=
+[360x468]h
+[360x489]1
+[361x427]h
+[364x271]i
+[364x446]1
+[365x279]∑
+[366x271]=
+[367x292]N
+[368x500]y
+[368x465]
+[372x424]y
+[373x271]1
+[373x498]t
+[373x457]y
+[376x498]+
+[377x422]t
+[378x281]ln
+[378x455]t
+[380x422]+
+[381x681]0
+[381x455]+
+[382x498]−
+[383x388]y
+[383x388].
+[385x682]. According to \[35\], the sample with the
+[386x422]j
+[386x409]y
+[387x295]MAE
+[387x295]
+[387x500]ˆ
+[388x455]−
+[388x455]j
+[391x424]ˆ
+[392x457]ˆ
+[394x386]t
+[394x408]+
+[396x275]MAE
+[397x386]+
+[397x500]y
+[401x408]j
+[401x424]y
+[403x498]t
+[403x457]y
+[403x386]j
+[403x386]is the associated actual values,
+[405x498]+
+[406x422]t
+[408x455]t
+[409x388]h
+[409x422]+
+[411x455]+
+[412x498]j
+[416x422]j
+[417x455]j
+[420x416], (7)
+[420x273]ARIMA,
+[420x465]
+[421x286]Model ,
+[425x463]2
+[429x457], (6)
+[452x295]!
+[466x670]x
+[471x668]in the classification
+[471x668]0
+[545x388]is
+[549x281](8)

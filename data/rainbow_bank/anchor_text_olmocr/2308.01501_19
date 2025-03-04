@@ -1,0 +1,68 @@
+Page dimensions: 612.0x792.0
+[54x493]would like to thank Dominic Berry for useful feedback.
+[54x504]design Center for Quantum Advantage (C2QA) under contract number DE-SC0012704 (PNNL FWP 76274). We
+[54x516]by the U.S. Department of Energy, Office of Science, National Quantum Information Science Research Centers, Co-
+[54x614]matrices. In essence, this paper represents a significant progression in the QSP/QSVT framework. The exploration
+[54x660]for synthesizing circulant matrices and performing convolution operations.
+[54x672]tion. We proposed methods for calculating phase functions, such as the square root, and unveiled new methodologies
+[54x707]approaches via the state-of-the-art techniques of \[14\].
+[54x719]4
+[54x719]computational efficiency when compared to the 10
+[54x730]7
+[54x112]\[17\] Dominic W. Berry, Andrew M. Childs, Richard Cleve, Robin Kothari, and Rolando D. Somma. Exponential improvement
+[54x133]\[16\] Zane M Rossi, Victor M Bastidas, William J Munro, and Isaac L Chuang. Quantum signal processing with continuous
+[54x70]\[19\] Ryan Babbush, Craig Gidney, Dominic W Berry, Nathan Wiebe, Jarrod McClean, Alexandru Paler, Austin Fowler, and
+[54x81]Quantum
+[54x81]\[18\] Jeongwan Haah. Product decomposition of periodic functions in quantum signal processing.
+[54x154]\[15\] Zane M Rossi and Isaac L Chuang. Multivariable quantum signal processing (m-qsp): prophecies of the two-headed oracle.
+[54x175]\[14\] Yulong Dong, Xiang Meng, K Birgitta Whaley, and Lin Lin. Efficient phase-factor evaluation in quantum signal processing.
+[54x217]Phys. Rev.
+[54x196]\[13\] Yulong Dong, Lin Lin, and Yu Tong. Ground-state preparation and energy estimation on early fault-tolerant quantum
+[54x248]\[11\] Andr´ as Gily´ en, Yuan Su, Guang Hao Low, and Nathan Wiebe. Quantum singular value transformation and beyond:
+[59x311]\[8\] P.W. Shor. Algorithms for quantum computation: discrete logarithms and factoring. In
+[59x311]Proceedings 35th Annual Sympo-
+[59x332]\[7\] Fr´ e d´ eric Magniez, Ashwin Nayak, J´ er´ emie Roland, and Miklos Santha. Search via quantum walk.
+[59x290]45th Annual IEEE Symposium on Foundations of
+[59x290]\[9\] M. Szegedy. Quantum speed-up of markov chain based algorithms. In
+[59x342]\[6\] Lov K. Grover. Fixed-point quantum search.
+[59x342]Phys. Rev. Lett.
+[59x363]\[5\] Theodore J. Yoder, Guang Hao Low, and Isaac L. Chuang. Fixed-point quantum search with an optimal number of queries.
+[59x384]\[4\] Andrew M. Childs and Nathan Wiebe. Hamiltonian simulation using linear combinations of unitary operations.
+[59x384]Quantum
+[59x416]\[2\] Guang Hao Low and Isaac L. Chuang. Optimal hamiltonian simulation by quantum signal processing.
+[59x416]Physical Review
+[64x527]NW would like to acknowledge funding for this work from Google Inc. This material is based upon work supported
+[64x648]As we look forward, our work reveals several potential areas for further exploration. A primary question is how
+[72x321]Computing
+[72x102]in precision for simulating sparse hamiltonians. In
+[72x91]computing
+[72x123]variables.
+[72x144]Quantum
+[72x165]Physical Review A
+[72x280]Computer Science
+[72x301], pages 124–134, 1994.
+[72x301]sium on Foundations of Computer Science
+[72x353]Physical Review Letters
+[72x426]parameters. In
+[72x227], STOC 2019, page 193–204, New York, NY, USA, 2019. Association for Computing Machinery.
+[72x186]PRX Quantum
+[72x186]computers via quantum eigenvalue transformation of unitary matrices.
+[72x206]Lett.
+[72x238]Exponential improvements for quantum matrix arithmetics. In
+[72x259]Quantum
+[91x206], 103:150502, Oct 2009.
+[100x405], 118(1), jan 2017.
+[110x144], 6:811, 2022.
+[113x91]. ACM, may 2014.
+[114x123], 2023.
+[116x321], 40(1):142–164, jan 2011.
+[124x374], 12:901–924, 2012.
+[135x426], pages 792–809. IEEE, 2015.
+[145x280], pages 32–41, 2004.
+[146x165], 103(4):042419, 2021.
+[167x353], 113(21), nov 2014.
+[249x553]ACKNOWLEDGMENTS
+[432x395], 3:163, 2019.
+[486x81], 3:190, 2019.
+[490x332]SIAM Journal on
+[552x756]20

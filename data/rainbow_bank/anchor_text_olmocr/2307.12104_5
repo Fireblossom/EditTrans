@@ -1,0 +1,61 @@
+Page dimensions: 612.0x792.0
+[72x708]information disclosure and whether hidden equal-sharing or public winner-take-all contests
+[72x689]result in a higher probability of breakthrough for the principal, not on whether the outcome
+[72x670]is necessarily socially efficient. Instead, this paper focuses on payoff characterizations that
+[72x652]result in social efficiency, rather than maximizing total effort, which was the principal's
+[72x633]objective in Halac et al. (2017).
+[90x614]This paper is also related to the literature on efficient dynamic mechanism design. This
+[72x595]literature primarily focuses on the social choice setting. Bergemann & V¨ alim¨ aki (2002) study
+[72x577]the incentives for agents to acquire information about their own types in a static social
+[72x558]choice setting, and Bergemann & V¨ alim¨ aki (2010) formulates a dynamic pivot mechanism.
+[72x539]More relatedly, Athey & Segal (2013) propose a VCG-like mechanism for social choice in
+[72x520]a dynamic environment that is also budget-balanced. This paper differs from these other
+[72x501]papers in that these other papers require an assumption of private values, which fails when
+[72x483]there are explicit payoff externalities resulting from experimentation. Although the Athey
+[72x464]& Segal (2013) model can capture informational externalities via the evolution of the belief
+[72x445]stochastic process, the payoff externalities in this paper fail the assumption of private values
+[72x426]because they introduce interdependence in the instantaneous incentives.
+[90x408]Indeed, in the presence of payoff interdependence, Jehiel & Moldovanu (2001) show that
+[72x389]even in a static setting, efficiency may not attain. In such environments, Mezzetti (2004)
+[72x370]shows that requiring transfers after uncertainty resolution can restore efficiency. However,
+[72x351]those insights do not apply to the dynamic experimentation setting; because experimentation
+[72x332]stops with positive probability, there are outcomes where the state of the world never fully
+[72x314]realizes to the agents.
+[72x267]2 Game Structure
+[72x237]I first formally lay out the baseline structure of the research game.
+[72x201]Exposition
+[72x201]There are
+[146x201]N
+[200x201]agents
+[215x201]i
+[251x201]∈ {
+[276x201]1
+[282x201],
+[282x201]2
+[293x201], . . . N
+[324x201]}
+[324x201]investigating a potential research break-
+[72x182]through. The research idea is good or bad, which is drawn by Nature prior to the start of
+[72x163]the game and unobserved by the agents. Formally, the quality of the research idea is the
+[72x145]state of the world,
+[72x145]ω
+[171x145]∈
+[183x145]Ω :=
+[195x145]{
+[230x145]good
+[254x145],
+[254x145]bad
+[279x145]}
+[284x145]. Nature draws the state of the world to be good
+[72x126]with probability
+[72x126]p
+[163x126](0), which is the initial prior belief shared by the agents on the state of the
+[72x107]world. Time is continuous,
+[72x107]t
+[215x107]∈
+[223x107]\[0
+[244x107],
+[244x107]∞
+[261x107]), and at every instant of time, each agent is endowed
+[72x88]with a unit measure of a resource (effort) that it allocates over two projects, the status quo
+[303x42]6

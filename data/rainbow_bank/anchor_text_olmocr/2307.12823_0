@@ -1,0 +1,72 @@
+Page dimensions: 612.0x792.0
+[54x69]experiments. This problem becomes even more signif-
+[54x80]and provable accuracy is highly important for ongoing
+[54x92]off between the computational efficiency of the method
+[54x126]rigorous methods (however, their estimations are typi-
+[54x161]solving this problem encounter an obstacle of combining
+[54x172]tablished rigorously \[21, 23–25\]. Existing approaches for
+[54x206]the existing practical techniques for estimating the ac-
+[54x229]raphy protocols with efficient methods for the estima-
+[54x252]representation for tomographic reconstruction \[9–13\].
+[54x287]proving the performance of quantum tomography proto-
+[54x298]quantum technologies \[5\]. A number of methods for im-
+[54x310]and complex quantum systems, which are required for
+[54x321]quantum tomography, which becomes unwieldy for large
+[54x332]challenges. The first issue related to the efficiency of
+[54x344]the various benefits, this method encounters a number of
+[54x355]trapped-ion quantum simulators \[4\]. However, along with
+[54x367]ious nature, ranging from quantum-optical states \[3\] to
+[54x390]gold standard in quantum physics experiments, quantum
+[54x413]quantum tomography that uses the measurement statis-
+[54x424]processes. The art of solving this problem is known as
+[54x458]ference between the states that are actually prepared
+[54x470]this regard, one of crucial tasks is to estimate the dif-
+[54x481]prepare quantum states with desired properties \[1\]. In
+[64x241]Another important issue is supplying quantum tomog-
+[64x493]Quantum technologies strongly require the ability to
+[69x730]Reliable confidence regions for quantum tomography using distribution moments
+[109x550]scheme for complete characterization of quantum systems of various nature.
+[109x581]calculating its moments. We also present a generalization of this approach for quantum process
+[109x591]distance between the target state and the estimation, which is given by the linear inversion, by
+[109x623]difference between prepared and target quantum states with relivable confidence intervals. In this
+[118x644]Quantum tomography is a widely applicable method for reconstructing unknown quantum states
+[124x519]I. INTRODUCTION
+[138x685]2
+[143x682]National University of Science and Technology "MISIS", Moscow 119049, Russia
+[180x696]1
+[182x706]D.O. Norkin,
+[182x706]1, 2
+[184x692]Russian Quantum Center, Skolkovo, Moscow 143025, Russia
+[257x706]1, 2
+[317x80]H
+[317x174]teleportation channel for the QPT setting. We conclude
+[317x197]states, in particular, 3-qubit GHZ state, for the QST, and
+[317x209]analysis of our approach, where we use several quantum
+[317x220]value of observable. In Sec. VI, we present a performance
+[317x243]describe a method of computing confidence intervals in
+[317x266]In Sec. IV, we present a generalization of the method
+[317x278]Sec. III, we discuss rigorous confidence regions for QST.
+[317x301]a short description of the general quantum state tomog-
+[317x324]processes.
+[317x335]justified approach for quantum tomography of states and
+[317x346]provide a computationally efficient and still rigorously
+[317x392]quantum tomography protocols for states and processes
+[317x404]moments. We benchmark our approach for a number of
+[317x415]linear inversion, can be approximated by calculating its
+[317x427]prepared state and the estimation, which is given by the
+[317x438]Hilbert-Schmidt distance between the experimentally
+[317x461]best performance among existing rigorous approaches.
+[317x473]proach for solving this problem, which demonstrates the
+[317x496]of operations performed by quantum devices \[29, 30\].
+[317x519]icant for quantum process tomography (QPT) \[24–28\],
+[317x69]space
+[317x69]L
+[324x710]and A.K. Fedorov
+[327x103]Let us first briefly consider a standard QST protocol.
+[327x312]Our work is organized as follows. In Sec. II, we provide
+[339x129]II. QUANTUM STATE TOMOGRAPHY
+[341x706]1, 2
+[351x69](
+[355x69]H
+[364x69]H
+[507x69]. The quan-

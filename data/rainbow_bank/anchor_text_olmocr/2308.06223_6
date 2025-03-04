@@ -1,0 +1,230 @@
+Page dimensions: 612.0x792.0
+[111x293]For
+[111x293]T
+[111x315]be the same.
+[111x329]D
+[111x329]must ensure that the judgement sections of
+[111x344]such that it holds
+[111x344]D
+[111x358]When constructing the CIM of ∆
+[111x358]i
+[111x144]\[1\] Wolfgang Weimer-Jehle. Cross-impact balances: A system-theoretical
+[111x165]References
+[111x380]sets, we call it as a
+[111x380]combinatorial
+[111x394]combinatorial consistent scenario
+[111x394]called a
+[111x409]scenario set
+[111x409]between the sub-descriptor sets, which
+[111x212]scenario in the scenario space of ∆, and for all such combinatorial
+[111x212]ξ
+[111x423]{{
+[111x438]tency algorithm, we acquire each
+[111x438]consistent scenario set
+[111x452]CIM corresponding to the sub-descriptor set, then, by applying the consis-
+[111x466]For all the sub-descriptor set split from the descriptor set, we construct all the
+[111x488]for short.
+[111x503]to the sub-descriptor set as the CIM corresponding to the sub-descriptor set
+[111x517]subsystems, we call the CIM corresponding to the subsystem corresponding
+[111x553]with each other.
+[111x568]descriptors in non-overlapped sub-descriptor set do not have direct impact
+[111x582]∆
+[111x596]| · |
+[111x596]Use
+[111x654]there exists a ∆
+[111x654]j
+[111x611]=
+[111x611]T
+[111x625]subsystem
+[111x640]of ∆, moreover, the sub-descriptor set and the states of
+[117x227]ξ
+[117x227]then we say that combinatorial
+[117x198]z
+[121x580]i
+[122x196]1
+[123x423]z
+[123x611]{
+[127x198], z
+[127x582]∆
+[128x421]1
+[129x129]approach to cross-impact analysis.
+[129x129]Technological Forecasting and Social
+[132x293]and Ξ, if
+[133x423], z
+[138x196]2
+[142x611]D
+[142x198],
+[142x198]···
+[144x421]2
+[144x293]ξ
+[148x198], z
+[148x580]=
+[148x423]···
+[148x423],
+[151x609]t
+[153x596]to denote the number of elements of a set. We suppose that for all
+[154x423], z
+[155x611]|
+[157x582]∅
+[158x611]D
+[168x609]∈
+[168x609]t
+[175x611]∆
+[176x196]X
+[180x582], for each
+[180x582]D
+[184x198]} ∈
+[185x625]corresponding to the sub-descriptor set. Denote
+[186x409]ξ
+[190x423]}|
+[193x293]=
+[196x609]∩
+[196x609]i
+[196x652]∈
+[200x423]z
+[202x611]∆
+[205x198]z
+[205x198]Ξ, the consistent scenarios of ∆ is
+[205x421]∈
+[205x421]i
+[206x654]¯∆, such that ∆
+[210x251]1
+[212x380]for short.
+[212x423]S
+[214x251]⩽
+[215x342]i
+[219x344], D
+[219x654]i
+[220x251]i,j
+[220x293]z
+[223x609]j
+[226x291]1
+[227x611], i, j
+[227x276]\[
+[229x251]⩽
+[230x293], z
+[232x421]i
+[234x342]∈
+[235x251]X,i
+[241x291]2
+[242x344]∆
+[243x580]∈
+[243x580]i
+[246x293]···
+[246x293],
+[248x251]=
+[248x251]̸
+[248x423]= 1
+[251x611]= 1
+[251x293], z
+[251x582]∆
+[254x251]j
+[258x265](
+[263x265]z
+[263x342]m
+[263x342]and
+[267x423]2
+[267x423],
+[268x263]∩
+[268x263]i
+[269x611]2
+[269x611],
+[274x580]i
+[275x344]D
+[277x582], D
+[278x423],
+[278x423]···
+[280x291]X
+[280x611]···
+[280x611],
+[284x423]X
+[288x293]} ∈
+[288x358]D
+[289x227]can be
+[290x263]j
+[292x580]j
+[292x580]∈
+[295x265]|
+[295x265]) =
+[301x227]aggregated
+[301x582]∆
+[302x652]∩
+[302x90]7
+[308x342]i
+[308x293]Ξ meets
+[309x654]∆
+[310x423]as the
+[310x423]}
+[311x344], D
+[318x265]T
+[319x611]as
+[319x611]}
+[321x423]combinatorial consistent
+[323x580]j
+[326x342]∈
+[326x342]j
+[327x265]|
+[328x582], we have
+[328x582]D
+[329x611]transitional descriptor set
+[330x652]j
+[330x652]̸
+[330x265],
+[330x265]which
+[334x344]∆
+[339x265]z
+[340x654]=
+[342x227]into a consistent
+[346x327]ij
+[346x327]in the CIM of ∆
+[355x342]n
+[355x342]at the same time, then we
+[357x329]m
+[359x394]between the sub-descriptor
+[361x356]i
+[363x654]. We call ∆
+[364x358], D
+[377x263]i
+[379x356]∈
+[379x356]j
+[383x198]=
+[384x265]ξ
+[388x358]T
+[391x580]=
+[391x580]ij
+[392x198]S
+[394x409]=
+[403x582]O
+[405x409]{
+[414x194]i
+[414x203]X
+[417x194]z
+[417x194]=1
+[419x438]S
+[426x409]z
+[426x582], it means the
+[427x436]i
+[429x652]as the
+[431x407]1
+[436x409], z
+[436x196]i
+[438x654]sub-
+[440x198].
+[445x356]m
+[447x407]2
+[450x329],
+[450x329]∆
+[451x409],
+[451x409]···
+[453x358]∆
+[453x358],
+[457x409], z
+[465x327]must
+[465x327]n
+[468x356]n
+[468x356]∈
+[478x358]∆
+[478x212]=
+[485x407]X
+[493x409]}
+[496x611].

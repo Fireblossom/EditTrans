@@ -1,0 +1,181 @@
+Page dimensions: 595.3x841.9
+[72x768]20 Jacqueline Harding
+[72x742]Proof.
+[72x742]Let a proxy vote profile (
+[103x742]P
+[228x742],
+[228x742]S
+[239x742],
+[239x742]D
+[254x742]) be arbitrary. Pick some bijection
+[72x731]ψ
+[72x731]:
+[82x731]N
+[87x731]→
+[99x731]N
+[121x731]. Then we must have
+[94x705]f
+[100x705](
+[104x705]ψ
+[111x705](
+[115x705]P
+[124x705])
+[128x704]π
+[133x704],ψ
+[141x704](
+[144x704]S
+[150x704])
+[153x704],ψ
+[161x704](
+[164x704]D
+[172x704])
+[175x705]) =
+[175x705]f
+[198x705](
+[202x705]ψ
+[209x705](
+[213x705]P
+[222x704]π
+[228x704],
+[230x704]S
+[236x704],
+[238x704]D
+[246x705])) (since
+[246x705]g
+[305x705]is anonymous)
+[182x690]=
+[182x690]f
+[198x690](
+[202x690]P
+[211x689]π
+[217x689],
+[219x689]S
+[225x689],
+[227x689]D
+[235x690]) (since
+[235x690]f
+[304x690]is anonymous)
+[72x641]Lemma 3
+[72x641]If
+[123x641]f
+[135x641]is neutral and
+[145x641]g
+[212x641]is proxy mechanism neutral, then
+[222x641](
+[378x641]f, g
+[393x641])
+[393x641]is
+[72x629]proxy vote neutral.
+[72x605]Proof.
+[72x605]Let a proxy vote profile (
+[103x605]P
+[228x605],
+[228x605]S
+[239x605],
+[239x605]D
+[254x605]) be arbitrary. Pick some bijection
+[72x593]ψ
+[72x593]:
+[82x593]A
+[87x593]→
+[97x593]A
+[118x593]. Then we must have
+[104x567]f
+[110x567](
+[114x567]ψ
+[121x567](
+[125x567]P
+[134x567])
+[137x566]π
+[143x566],
+[146x566]S
+[151x566],ψ
+[159x566](
+[162x566]D
+[170x566])
+[173x567]) =
+[173x567]f
+[197x567](
+[200x567]ψ
+[207x567](
+[211x567]P
+[220x566]π
+[226x566],
+[228x566]S
+[234x566],
+[236x566]D
+[244x567])) (since
+[244x567]g
+[313x567]is neutral)
+[180x553]=
+[180x553]ψ
+[197x553](
+[201x553]f
+[207x553](
+[211x553]P
+[220x551]π
+[226x551],
+[228x551]S
+[234x551],
+[236x551]D
+[244x553])) (since
+[244x553]f
+[312x553]is neutral)
+[72x501]Note that, in general, the other direction of Lemmas 2 and 3 won't hold.
+[72x460]5.3 A Proxy Vote Analogue of May's Theorem
+[72x436]When
+[72x436]|
+[103x436]A
+[111x436]|
+[111x436]= 2, the
+[116x436]majority rule
+[153x436]selects the alternative which receives the most
+[72x424]first choice votes. When
+[176x424]|
+[178x424]N
+[187x424]|
+[187x424]is odd (meaning the majority rule is resolute), May
+[72x412](May 1952) shows that we can characterise the majority rule as the unique
+[72x400]rule satisfying anonymity, neutrality and weak monotonicity.
+[87x387]We can use the proxy vote analogues of these properties to achieve the same
+[72x375]characterisation result. The key point is that setting
+[72x375]|
+[303x375]A
+[311x375]|
+[311x375]= 2 fully specifies the
+[72x363]proxy mechanism
+[72x363]g
+[158x363], by the definition of a proxy mechanism (since either a
+[72x352]voter submits an empty order, meaning she is allowed to delegate to any other
+[72x340]voter, or she submits a linear order, meaning she casts her vote directly).
+[72x328]In effect, we are close to a classical vote; the only voters who delegate their
+[72x316]votes are the voters who submit empty orders. So it is unsurprising that the
+[72x304]following result holds irrespective of the choice of
+[72x304]g
+[295x304].
+[72x279]Theorem 2
+[72x279]Suppose
+[131x279]|
+[172x279]A
+[180x279]|
+[180x279]= 2
+[185x279]and
+[204x279]|
+[226x279]N
+[235x279]|
+[235x279]is odd. Then a pair
+[242x279](
+[333x279]f, g
+[348x279])
+[348x279]satisfies
+[76x259]–
+[76x259]Proxy Vote Anonymity
+[76x247]–
+[76x247]Proxy Vote Neutrality
+[76x235]–
+[76x235]Proxy Vote Addition Monotonicity (PVAM), and
+[76x223]–
+[76x223]Proxy Vote Deletion Monotonicity (PVDM)
+[72x203]iff
+[72x203]f
+[85x203]is the majority rule.

@@ -1,0 +1,179 @@
+Page dimensions: 612.0x792.0
+[54x82]Schr¨ odinger equation in the presence of a static Fermi
+[54x105]perfluid state, we first examine the associated Cooper
+[54x213]suring the absence or presence of time-reversal symmetry
+[54x224]tected by an enlarged symmetry. Experimentally, mea-
+[54x236]case discussed in Ref. \[36\], where the degeneracy is pro-
+[54x293]that even low pressures do not correspond to a weak cou-
+[54x305]able instead. This mismatch with observations indicates
+[54x316]fined system, which predicts the planar phase to be favor-
+[54x328]to incorporate order parameter fluctuations in the con-
+[54x385]oretical approaches. First, we use the best available
+[54x431]other minima are related to these two via a symmetry
+[54x477]tensor order \[37, 38\]. Remarkably, we find that in the
+[54x489]ity in 3D \[34, 35\], triple-point fermions \[36\], or complex
+[54x512]ground states at the mean-field level is common in simi-
+[54x523]broken or not at the transition. This degeneracy of
+[54x592]cerns the question of which particular matrix is chosen
+[54x603]described by matrix order parameters in general, con-
+[54x638]higher transition temperature and is thus the only rele-
+[54x650]×
+[54x719]and Cooper pairs in the
+[54x661]ters with different transition temperatures: a 3
+[54x696]densation. In Sec. II, we confirm this perspective within
+[64x116]To illuminate the effect of confinement on the su-
+[64x408]To resolve the question of whether the A-phase or the
+[99x650]×
+[145x420]G
+[200x717]y
+[317x154]V
+[317x154](
+[317x166]nant angular momentum channel is
+[317x166]l
+[317x177]is the interaction matrix element. In He-3, the domi-
+[317x139]Y
+[317x661]experience a two-dimensional FS are interacting attrac-
+[317x128]l
+[317x82]q
+[317x93]q
+[317x189]V
+[317x270]n
+[317x305]different quantization condition arising from the differ-
+[317x339]= (
+[317x376]expand the wavefunction in basis functions that are
+[317x433]The Schr¨ odinger equation is then solved with Dirichlet
+[317x444]= 70 nm of the bulk 3D system, whereas
+[317x467]z
+[317x467]rection. The system is confined in the
+[317x479]L
+[317x502]function is assumed to be a triplet state and has been
+[317x513]two-particle wavefunction. The spin part of the wave-
+[317x525]ψ
+[317x536]µ
+[320x559]where
+[320x559]R
+[321x280]x,y
+[325x444]L
+[327x673]In the original Cooper problem, two atoms in 3D that
+[327x387]In order to solve Eq. (1), it is convenient to
+[328x600]−
+[329x154]k
+[336x353],
+[336x353]r
+[337x593]4
+[340x316]L
+[346x410]X, Y, Z
+[346x536]is the chemical potential, and
+[347x315]z
+[347x315]is the system volume. The wavevector
+[349x559]= (
+[350x339], q
+[355x199]=
+[356x536]V
+[358x154]πg
+[361x231]−
+[375x559]X, Y, Z
+[376x200]±
+[378x350],
+[379x270]and
+[379x270]m
+[381x343]T
+[381x343]and
+[381x593]∇
+[383x154]P
+[384x200]q
+[385x233](
+[386x610]2
+[394x280]x,y
+[395x233])
+[396x410],
+[400x604]2
+[405x410]ψ
+[406x559])
+[407x600]2
+[408x351]z
+[409x339]= (
+[409x269]x,y
+[410x563]and
+[410x563]T
+[414x151]=
+[420x199]=
+[420x199]k
+[422x600]µ
+[424x353]e
+[426x221]k
+[426x151]Y
+[428x269]∈
+[429x200]ℏ
+[431x223]′
+[432x339]k
+[437x280]x,y,z
+[437x338]x
+[438x152]1
+[438x355]x
+[438x233]V
+[438x233](
+[439x559]= (
+[441x70]0
+[442x525]) is the orbital part of the
+[442x339], k
+[443x356]X
+[449x200]k
+[450x70], π/L
+[450x233]k
+[452x338]y
+[452x600]r
+[452x270]Z
+[459x200]/
+[459x355]y
+[460x154])
+[461x559]x, y, z
+[463x154]Y
+[463x154]∗
+[464x200](2
+[466x477]in the
+[468x410]=
+[471x339])
+[472x139]k
+[472x69]z
+[473x200]m
+[473x166]= 1, and we choose
+[473x151]m
+[473x479]i
+[477x70]). This breaks the
+[478x139]Y
+[478x356]i
+[481x154]( ˆ
+[485x154]k
+[487x600],
+[493x233](
+[494x154]), where
+[496x600]) =
+[496x600]Eψ
+[500x410]) = 0, and pe-
+[500x536]r
+[507x138]lm
+[508x353]k
+[512x189]re
+[517x280]x,y,z
+[517x139](
+[519x292]whereas
+[522x444], L
+[526x138]k
+[527x193]i
+[531x139], ϕ
+[532x600]R
+[534x128]. The
+[535x154]0
+[537x232]q
+[537x193]r
+[540x600],
+[543x233](
+[544x328]=
+[546x139]) is
+[549x581](1)
+[550x600])
+[553x600],
+[557x756]2
+[559x421],
+[559x444].

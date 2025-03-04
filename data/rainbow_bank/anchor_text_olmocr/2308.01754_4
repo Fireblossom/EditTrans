@@ -1,0 +1,220 @@
+Page dimensions: 612.0x792.0
+[0x0]<
+[0x0]δ
+[0x0]< d
+[0x0]d
+[0x0]d
+[72x145]ψ
+[72x160](2.1)
+[72x160]under the flow of
+[72x190]≥
+[72x323]δ
+[72x338]equations. One identifies the following reduced slow manifold comprised of solutions of the algebraic
+[72x175]−
+[72x522]We express (1.5) as a dynamical system in the variable
+[72x522]x
+[72x548]2.1 Reduction of existence problem
+[72x580]2 Regularization via geometric singular perturbation theory
+[72x620]δ
+[72x620]The appendix contains the construction and properties of traveling fronts at
+[72x635]compare the expansions obtained in Theorem 1.2 to those obtained using numerical continuation.
+[72x649]stability of these fronts thus justifying the pushed and pulled terminology. In Section 6, we briefly
+[72x664]and pushed front profiles as well as the transition curve. Section 5 establishes marginal spectral
+[72x679]problem using functional-analytic methods, using methods developed in \[2, 4, 3\] to find pulled
+[72x694]eigenvalue problem in Section 2. In Section 4, we study the resulting regularized traveling wave
+[72x709]Outline.
+[72x255]eigenvalues
+[72x255]±
+[72x224]implies that
+[72x239]and therefore the reduced manifold is normally hyperbolic. Fenichel's Persistence Theorem \[5\]
+[72x205](Reduction for existence problem)
+[72x205]Proposition 2.1
+[73x512]V
+[73x512]−
+[76x394]where
+[77x272]The linearization of (2.1) at any such fixed point has two zero eigenvalues and two hyperbolic
+[77x352]When
+[79x503]δ
+[79x143]Z
+[82x190]2
+[83x506]2
+[84x171]2
+[84x171]< U < M
+[86x145](
+[86x178]1
+[87x512]U
+[90x145]U, W
+[99x190]. There exists a
+[110x507]δH
+[111x352]= 0 the system (2.1) reduces to two algebraic equations coupled to two differential
+[114x145]δ
+[114x145];
+[124x145])
+[129x145]}
+[137x267]q
+[143x124]H
+[143x124]=
+[144x175]|
+[145x106]Z
+[145x106]=
+[146x222]0
+[146x222]persists as an invariant manifold
+[148x255]1 +
+[148x255]U
+[154x224]M
+[156x106]ψ
+[156x124]ψ
+[161x297]M
+[163x205].
+[168x175]W
+[168x251]d
+[172x250]1
+[174x296]0
+[174x296]=
+[175x105]Z
+[175x123]H
+[177x160]M
+[177x160], and may be written as a graph
+[177x373]Γ(
+[179x175]| ≤
+[181x255]for
+[181x255]U
+[183x124](
+[186x106]U, W
+[187x124]U, W
+[188x373]U, W, H, Z
+[197x175]lie in a slow manifold
+[198x255]≥
+[201x297](
+[202x190]such that all trajectories of
+[202x190]0
+[205x297]U, W, H, Z
+[210x106];
+[210x106]δ
+[210x255]0. The eigenspaces of the non-zero eigenvalues are traverse to
+[211x124];
+[211x124]δ
+[212x175]M
+[212x190](2.1)
+[220x106]δψ
+[222x255]M
+[232x323]= 0,
+[238x440]δH
+[238x373]) =
+[238x373]cW
+[239x417]δZ
+[241x464]W
+[244x487]U
+[247x122]H
+[248x129]0
+[251x104]Z
+[252x111]1
+[253x468]′
+[253x491]′
+[253x491]=
+[253x422]=
+[253x422]′
+[253x445]′
+[253x445]=
+[255x297]|
+[255x297])
+[255x124](
+[257x373]+
+[258x106](
+[259x464]−
+[259x487]W
+[259x417]H
+[259x440]Z
+[262x106]U, W
+[265x297]Z
+[270x417]+ 1
+[271x297]= 0
+[276x373]W
+[280x456]d
+[284x124]δψ
+[286x455]1
+[295x410]d
+[298x378]2
+[299x297], H
+[300x408]1
+[303x464]U, W, H, Z
+[303x72]5
+[306x373]δW Z
+[314x122]H
+[314x129]1
+[317x106]δ
+[317x417]U, W, H, Z
+[322x124](
+[322x111]2
+[326x124]U, W
+[326x222]with the following properties.
+[327x106])
+[330x205]Fix
+[331x106](2.4)
+[333x175], which is normally hyperbolic and invariant
+[337x522]by choosing coordinates
+[339x205]0
+[341x158]δ
+[342x305]+
+[342x305]cW
+[344x373]+
+[346x190]with
+[349x160]{
+[350x124]) +
+[350x124]δ
+[352x464])
+[355x373]+
+[360x205]< d
+[361x305]W
+[366x160](
+[370x160]U, W, H, Z
+[373x190]|
+[373x129]2
+[376x373]U
+[378x124]ψ
+[379x288]+
+[384x309]2
+[384x309]+
+[385x129]2
+[386x290]U
+[391x305]U
+[393x124](
+[396x373](1
+[396x373]−
+[397x124]U, W
+[402x305]−
+[405x190]<
+[405x190]|
+[408x373]U
+[413x305]U
+[415x205],
+[415x205]M >
+[420x160]H
+[421x124]) + O(
+[423x205]1
+[427x373])
+[430x190]d
+[430x190],
+[432x373].
+[432x373](2.2)
+[433x309]2
+[433x160]=
+[448x297].
+[448x297](2.3)
+[451x124]δ
+[457x129]4
+[460x205], and an integer
+[461x124])
+[465x188]1
+[465x188]<
+[477x160]U, W
+[485x190]satisfying
+[491x522]U
+[491x522]=
+[501x160]δ
+[501x160];
+[511x160])
+[514x522], H
+[515x160], Z
+[532x160]=
+[535x253]0

@@ -1,0 +1,255 @@
+Page dimensions: 612.0x792.0
+[72x709]ii)
+[72x709]M
+[72x556]τ >
+[72x589]with
+[72x589]S
+[72x670]and
+[72x649]E
+[72x319]interest rates and oil prices should be included in
+[72x335]time effects, seasonal dummies, and other common variables like index stock returns, central bank
+[72x351]f
+[72x384]et al. (2022). Applied research typically finds a small number of factors in the error term, see e.g.
+[72x401]This assumption is standard in the CCE literature and appears in Pesaran (2006) and in Karavias
+[72x417]and states that the number of factors must be smaller or at most equal to the number of regressors.
+[72x434]which excludes non-stationary factors and trends. Assumption A.2 is the so-called rank condition
+[72x154]uniform mixing, yet stronger than strong mixing. This assumption also implies that
+[72x171]structure. The
+[72x203]Assumption A.4 is similar to Assumption 2 of Pesaran (2006) and states that the series must
+[72x286]Kaddoura (2022) and assume that
+[72x302]m
+[72x302]towards the dimension
+[72x472]limsup
+[72x72]independent with respect to both future and past
+[75x575]˜
+[82x571]i
+[86x572](
+[89x253]Assumption A.3 states that the heterogeneous coefficients are randomly distributed across units
+[91x88], q
+[101x572]for any
+[101x87]i,t
+[102x687]NT
+[103x695]⋆
+[105x667](
+[105x667]NT
+[106x587]i
+[106x470]N,T
+[109x589](
+[110x88]D
+[119x589]>
+[119x589])
+[124x524]P
+[129x654]P
+[129x654]1
+[131x487]N,T
+[133x539]
+[136x556]0
+[139x626](
+[141x556]T
+[141x556], as
+[144x589],
+[146x709](
+[146x674]2
+[146x687](
+[147x646]i
+[147x516]∈
+[148x695]⋆
+[150x646]=1
+[150x646]X
+[151x670]) =
+[151x488])
+[155x476]P
+[156x709])
+[157x572], γ
+[161x524]λ
+[163x629])
+[169x576]∈
+[169x589]γ
+[171x629]0
+[172x648]i
+[173x469]i
+[173x477]N
+[173x492]−
+[175x709]for all
+[175x589]) = ˜
+[176x469]E
+[179x649]γ
+[180x492]P
+[182x629]for all
+[184x709]i
+[190x653]′
+[192x516]T
+[193x649]M
+[193x572]N
+[201x485]=1
+[201x691]0
+[203x532]
+[203x670]NT
+[203x648]X
+[205x589](
+[209x476]′
+[209x589]γ
+[215x691]for all
+[217x709]and
+[219x593]˜
+[219x593]′
+[220x302]. When it comes to the factor loadings, we follow Westerlund and
+[222x524](
+[222x589]W
+[223x470]3
+[223x488]||
+[223x649](
+[227x470]i
+[229x488]( ˜
+[232x587]i
+[233x524])
+[233x524]− S
+[234x629]Γ
+[236x589](
+[238x662]
+[244x488](
+[245x284]i
+[246x593]0
+[251x629], where
+[251x629]M
+[251x589], γ
+[253x667]X
+[254x488])
+[255x576]−
+[258x350]t
+[258x350]may be observable. Observed factors such as the intercept,
+[259x492]′
+[261x522]i
+[262x589])
+[266x589],
+[269x524]γ
+[272x709]M
+[273x691], γ
+[275x524])
+[275x668]i
+[277x472]γ
+[277x488]S
+[279x569]i
+[279x587]3
+[281x284]i
+[282x524]S
+[282x569]=1
+[282x569]||
+[282x670]γ
+[284x695]∈
+[284x695]2
+[287x589](
+[287x476]′
+[293x520]i
+[296x528]1
+[300x488]γ
+[301x633]⋆⋆
+[301x572]δ
+[303x42]8
+[304x477]1
+[306x488]) ˜
+[306x569]i
+[307x576]0
+[317x576]>
+[318x629]γ
+[321x488](
+[323x70]i,t
+[323x472]S
+[324x629]E
+[326x522]i
+[330x524](
+[332x488])
+[332x72], q
+[337x709]γ
+[338x472](
+[339x488]e
+[340x524])
+[341x593]0
+[341x674]2
+[342x70]conditional on
+[342x472]γ
+[342x572]N
+[344x532]
+[345x589], γ
+[347x488]<
+[348x472]))
+[350x682]
+[351x627]D
+[357x472]δ
+[358x524]τmin
+[359x488]∞
+[361x593]′
+[361x593]˜
+[363x589]W
+[365x472]||
+[365x687]=
+[365x629](
+[370x707]D
+[374x472]∞
+[377x589](
+[379x718]
+[384x488], uniformly for
+[384x709]T
+[385x691]E
+[385x472]uniformly for
+[388x593]0
+[397x532]
+[398x634]1
+[400x472]γ
+[406x689]D
+[408x589]˜
+[408x88]ξ
+[414x703]
+[416x524]γ
+[416x524]−
+[416x709]M
+[416x626]i
+[416x634]N
+[419x626]X
+[420x691](
+[425x691])
+[426x707]F
+[431x670]γ
+[434x572]; ii) There exists some
+[434x589]W
+[442x633]′
+[443x707]i
+[445x587]i
+[446x709](
+[448x589](
+[449x532]
+[455x627]X
+[456x105]θ
+[461x317]does not count
+[461x317]i
+[461x103]i
+[463x589], γ
+[464x605]γ
+[465x524]1; (12)
+[465x524]→
+[470x605]) = ˜
+[471x627]i
+[471x687]i
+[474x687]X
+[479x589]) = ˜
+[485x629])
+[486x153]=
+[490x87]i,t
+[490x87]is mean
+[494x472].
+[496x688]i
+[498x674]⋆
+[500x691]M
+[504x72]ξ
+[511x605])
+[511x689]F
+[512x589](
+[515x670]γ
+[518x605]Z
+[521x670]) =
+[522x154]ρ
+[525x603]i
+[527x589])
+[531x70]j,t
+[532x589]−
+[539x605])

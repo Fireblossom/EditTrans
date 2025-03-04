@@ -1,0 +1,163 @@
+Page dimensions: 612.0x792.0
+[72x88]π
+[72x88]demand function
+[72x123]the average effect of a price change on the demand for a product.
+[72x141]market shares or log shares. In this context, researchers are often interested in estimating
+[72x231]Escanciano, et al. (2022) applies.
+[72x249]in this section if ˆ
+[72x708]there exists suitable
+[72x708]ρ
+[72x159]y
+[72x159]acteristics and
+[72x177]p
+[72x267]γ
+[72x267]have to account for an additional first-stage estimator ˆ
+[72x285]difference between our setup and existing automatic debiased machine learning is that we
+[72x303]et al. (2022); Chernozhukov, Newey, Quintas-Martinez, et al. (2021), and others. The only
+[72x321]and Newey (2022); Chernozhukov, Newey, and R. Singh (2022); Chernozhukov, Escanciano,
+[72x339]recent advances in automatic debiased machine learning as shown in the works of Ichimura
+[72x357]strate how to construct valid confidence intervals for it. This will be done by leveraging the
+[72x374]In this section, we will provide example of one such important economic object and demon-
+[72x195](
+[72x392]π
+[72x410]intervals directly on the estimated ˆ
+[72x428]slower rate compared to parametric regressions it is often infeasible to construct confidence
+[72x464]However, often in social science contexts, one is also interested in conducting inference over
+[72x482]The aim of this paper is to estimate choice functions flexibly using non-parametric estimators.
+[72x508]3.3 Inference
+[72x547]product observable characteristics simply as an additional set of features.
+[72x565]strates that endogeneity can be addressed by using the residuals from Equation 5 along with
+[72x582]j
+[72x582]invariant under any permutation applied to competitors of product
+[72x600]the unobservable component ˜
+[77x195]p
+[78x175]∈
+[78x175]jt
+[82x193]jt
+[90x106]The average effect of a price change can be expressed as the difference between the
+[90x213]Average Effect of Price Change
+[90x213]: Let
+[90x618]The result follows straightforwardly from the observation that after controlling for
+[90x195], x
+[91x177]C
+[102x193]jt
+[105x177]denotes the observed prices,
+[109x195],
+[109x195]{
+[118x177]x
+[120x195]p
+[126x193]kt
+[134x195], x
+[146x193]kt
+[155x195]}
+[157x158]∈
+[157x158]jt
+[160x672]π
+[161x193]k
+[162x249]γ
+[162x249]is estimable at a fast enough rate the same analysis of Chernozhukov,
+[165x193]=
+[165x193]̸
+[167x670]=
+[167x670]jt
+[168x86]jt
+[170x159]R
+[172x193]j
+[176x88](
+[176x195]) represent the variables associated with product
+[176x195]j
+[178x672]ρ
+[180x88]·
+[183x159]refers to the observed demand for product
+[184x88]γ
+[184x708]ϕ
+[184x708],
+[195x88]p
+[195x88]) evaluated at the original price
+[196x672](
+[196x159]j
+[198x706]1
+[198x706]and
+[201x672]ϕ
+[207x708]ϕ
+[208x670]1
+[212x672](
+[217x672]X
+[222x600]is exogenous. This implies the aggregate demand function is
+[222x600]ε
+[227x670]jt
+[236x706]such that
+[236x706]2
+[245x670]jt
+[246x410]π
+[253x672], µ
+[253x410]. Fortunately, it is generally possible to perform inference
+[265x670]jt
+[272x672](
+[277x672]γ
+[278x175]∈
+[278x175]jt
+[283x670]0
+[288x672])) +
+[291x177]C
+[303x42]8
+[311x658]k
+[313x182]represents other exogenous product char-
+[313x182]d
+[316x658]=
+[316x658]̸
+[323x658]j,k
+[326x211]= (
+[326x211]jt
+[333x658]∈S
+[339x213]y
+[346x672]ϕ
+[353x670]2
+[358x672](
+[362x672]X
+[365x211]jt
+[366x86]and at the price incremented by
+[366x86]jt
+[367x267]. However, as we will show later
+[372x670]kt
+[372x213], p
+[380x672], p
+[383x211]jt
+[391x213], x
+[391x670]jt
+[399x672], µ
+[403x211]jt
+[410x213],
+[410x213]{
+[411x670]kt
+[419x672](
+[421x213]p
+[424x159]in market
+[424x672]γ
+[427x211]kt
+[430x670]0
+[433x582]. The result demon-
+[434x195]in market
+[434x159]t
+[435x672])))
+[436x213], x
+[444x195]t
+[447x211]kt
+[448x672].
+[456x213]}
+[462x211]k
+[466x211]̸
+[466x211]=
+[473x211]j
+[477x213]) and
+[477x213]z
+[494x159], such as
+[501x618](
+[501x618]CF
+[503x195]. Here,
+[517x211]=
+[517x211]jt
+[524x618]µ
+[531x617]jt
+[537x392].
+[539x618])

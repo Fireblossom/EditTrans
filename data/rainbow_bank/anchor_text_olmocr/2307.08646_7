@@ -1,0 +1,214 @@
+Page dimensions: 595.3x841.9
+[65x197]observations
+[65x354]V
+[65x367]the probabilities gradually converge to certain values as
+[65x221]lihood. Unlike most of the previous adaptive (plan-action) path choice models, the proposed model can be estimated
+[65x292]perception of the global utility increases, they still locally maximize their utilities whose uncertainty is characterized
+[65x304]a
+[65x185]last element
+[65x315]a
+[65x327]V
+[65x342]max
+[65x379]µ
+[65x379]values of
+[65x451]a
+[65x451]link
+[65x463]sink node of link
+[65x475]a
+[65x475]travelers taking an action to travel link
+[65x486]they originally planned their paths according to the same path probabilities as case 1, resulting in more than half of
+[65x498]x
+[65x606]Case
+[65x606]P
+[65x692]Case
+[65x692]x
+[65x715]Table 1: Three tested cases. The columns for
+[65x715]x
+[65x706]utility function. The resultant global and local utilities
+[65x706]v
+[68x123]µ
+[69x302]1
+[69x314]gets larger according to the increase in
+[70x590]0.183 0.183 0.498 0.067 0.067
+[70x675]−
+[70x567]0.099 0.268 0.040 0.160 0.434
+[70x567]3
+[70x579]0.192 0.521 0.026 0.070 0.192
+[74x533]=
+[74x533]2
+[76x304]a
+[79x510]In contrast, in case 3, travelers could not obtain information about the additional travel times before the trip, and
+[87x340]∈
+[87x449]3
+[88x111]β
+[89x153]LL
+[91x340]A
+[92x451]. This local adaption was also observed when travelers move from
+[92x451]a
+[95x109]L
+[100x340]k
+[103x340])
+[107x342]{
+[110x153];
+[110x342]v
+[111x377]where
+[111x377]G
+[111x427]P
+[115x340]G
+[115x534]), followed by paths 1 and 5 (
+[116x111],
+[119x153]) =
+[120x183]J
+[120x280].
+[121x196]= \[
+[122x182]corresponds to its destination
+[125x342]a
+[129x185]d
+[130x342]|
+[132x111]are the parameters to be estimated.
+[137x141]n
+[141x141]=
+[143x463]a
+[147x141]1
+[152x197]...
+[152x197],
+[153x167]J
+[158x427]). This result implies that travelers cannot take the globally optimal path when some attributes
+[161x346]d
+[162x605]1
+[162x605]P
+[163x141]1
+[164x167]1
+[180x194]\]
+[181x690]1
+[181x690]x
+[181x437]=
+[183x379]are both fixed to one, thereby
+[184x342]describing the deterministic maximum path utility from link
+[187x197]n
+[188x439]0.434
+[189x156]n
+[189x156](
+[194x675]1
+[194x675]-
+[194x653]1
+[194x664]1
+[198x153]a
+[203x151]j
+[211x151]1
+[212x197]1,
+[218x153]a
+[219x714]1
+[219x714]and
+[222x439]), followed by path 2 (
+[224x473]that is the first elemental link of path 3 (and paths 4 and 5). However, at the
+[226x153]) =
+[240x532]1
+[240x532]=
+[243x705]G
+[243x714]indicate whether the attributes are global or local variables and their coefficients in the
+[244x141]n
+[247x534]P
+[248x166]N
+[248x141]=
+[248x706]v
+[249x197], where an observed path
+[249x197]r
+[252x605]2
+[254x141]1
+[255x705]for each case are shown in the fourth and fifth columns.
+[255x705]L
+[262x141]j
+[264x141]=
+[270x141]1
+[277x174]
+[283x153]v
+[295x93]8
+[296x153]|
+[297x675]−
+[298x690]v
+[299x365]grows. This is because, when
+[303x153]) +
+[305x302]2
+[308x367]µ
+[310x653]−
+[310x439]P
+[312x664]1
+[312x664]−
+[316x437]=
+[316x437]2
+[317x391]µ
+[319x153]V
+[324x439]0.268
+[324x389]G
+[325x379]µ
+[327x157]d
+[331x377]=
+[331x153](
+[340x153]−
+[340x153])
+[342x605]P
+[352x532]4
+[355x196]n
+[357x439]), path 4 (
+[359x534]0.070
+[365x140]a
+[367x449]4
+[368x143]′
+[371x377]G
+[373x497]1
+[373x497]when they departed from the origin
+[375x140]A
+[380x498]o
+[381x461]and switched their paths, moving to
+[392x153]e
+[393x534]) and path 3 (
+[394x451]a
+[394x451], instead of
+[396x439]P
+[396x157]v
+[402x437]=
+[403x157]a
+[404x664](
+[405x327](
+[407x160]′
+[407x664]x
+[409x439]0.160
+[409x327]a
+[409x157]|
+[411x157]k
+[411x663]+
+[416x653]x
+[416x675]x
+[416x664]x
+[416x690]G
+[416x690]v
+[420x651]−
+[420x651]1
+[420x674]1
+[420x674]0
+[428x342]to
+[428x663]2
+[432x605]4
+[433x157](
+[438x365]G
+[442x439]), path 1 (
+[442x157])
+[446x174]
+[449x331]d
+[462x326]2
+[466x327]of links
+[466x327])
+[473x123]to be one, and
+[487x437]=
+[487x437]4
+[492x196]n
+[494x439]0.099
+[497x197], and the
+[503x358]d
+[507x354](
+[512x153](4.1)
+[516x354])
+[522x605]5
+[523x653]x
+[528x498],

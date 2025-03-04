@@ -1,0 +1,78 @@
+Page dimensions: 612.0x792.0
+[0x0]Difficult
+[0x0]Difficult
+[0x0]0.7427 0.8022 0.5206
+[0x0]0.8001 0.8586 0.6312
+[0x0]0.9490 0.9604 0.9164
+[0x0]0.9704 0.9769 0.9550
+[0x0]Normal
+[0x0]0.8394 0.8918 0.7064
+[0x0]IoU MCC NMM
+[0x0]0.8738 0.9143 0.7744
+[0x0]0.9693 0.9764 0.9488
+[0x0]0.9752 0.9808 0.9602
+[0x0]0.9210 0.9486 0.8583
+[0x0]0.9379 0.9605 0.8937
+[0x0]IoU MCC NMM
+[0x0]0.7009 0.7644 0.4400
+[0x0]IoU MCC NMM
+[0x0]IoU MCC NMM
+[0x0]0.9788 0.9838 0.9646
+[53x118]with unified pipeline performs better than the separate pipeline.
+[53x287]Attention modules in stage i.
+[53x107]After introducing the multi-scale projection mechanism to achieve
+[54x128]TAF-separate model and the TAF model, we can see that the TAF
+[54x161]Target-Aware Attention module only implements cross-attention
+[54x85]showed improvements in localization performance. The MSTAF
+[54x96]multi-scale attention, the MSTAF-separate and MSTAF models both
+[54x139]lation study, the results are shown in Table 4. By comparing the
+[54x172]of all Target-Aware Attention modules in the front, while the last
+[54x183]tecture as TAF. It implements self-attention for both two heads
+[54x194]for comparison. The TAF-separate model adopts the same archi-
+[54x205]tiveness of the unified pipeline, we built a separate pipeline model
+[54x216]pipeline used by existing methods. In order to evaluate the effec-
+[54x227]tention Framework (TAF), which is different from the separate
+[54x309]represents the token we selected to present attention maps.
+[54x320]Figure 8: Visualization of attention maps. The blue point
+[54x725]MM '23, October 29-November 3, 2023, Ottawa, ON, Canada Yuxuan Tan et al.
+[Image 66x339 to 282x516]
+[117x642]MSTAF-separate
+[123x653]TAF-separate
+[134x620]MSTAF
+[136x564]Model
+[136x670]Model
+[140x547]TAF
+[140x631]TAF
+[177x558]IoU MCC NMM
+[194x664]IoU MCC NMM
+[218x699]Table 4: Ablation study on the Synthetic set
+[227x593]Table 5: Ablation study on the Scale set
+[318x506]with unified pipeline design and multi-scale attention mechanism
+[318x107]Applied Basic Research Foundation under Grant 2022A1515010645;
+[318x96]in part by the Foundation for Science and Technology Innovation
+[318x118]of China under Grant 62001304; in part by the Guangdong Basic and
+[318x142]ACKNOWLEDGMENTS
+[318x164]forms state-of-the-art methods.
+[318x175]demonstrate that our model is robust against scaling and outper-
+[318x186]the robustness against scale transformation. Experiment results
+[318x196]between image patches of different scales, which further improves
+[318x218]enhancing the matching performance of the model. We further
+[318x229]and correlation matching to mutually promote each other, thereby
+[318x240]ing simultaneously. This unified design enables feature extraction
+[318x251]for feature extraction and cross-attention for correlation match-
+[318x262]simplify the pipeline of existing methods. It adopts self-attention
+[318x273]In this work, we propose a Multi-scale Target-Aware Framework to
+[318x287]5 CONCLUSION
+[318x319]more robust against scale transformation. The visual comparison
+[318x341]advantage in dealing with various scale transformation samples.
+[318x363]achieves much better localization performance than TAF on the
+[318x385]region between the two images tends to be more consistent. We can
+[318x396]degrees. On the contrary, in the Easy subset, the size of the spliced
+[318x407]subset and Normal subset, there are more samples with larger scale
+[318x418]equally divided into Difficult, Normal, Easy subsets. In the Difficult
+[318x440]spliced region is only processed with scale transformation of differ-
+[318x451]ate our models and the result as shown in Tab 5. In the Scale set, the
+[318x462]the multi-scale attention mechanism. We also use Scale set to evalu-
+[318x473]against scale transformation. To further verify the effectiveness of
+[318x495]presents the best localization performance on all three subsets.
+[328x484]In \[16\], they use the Scale set to analyze the model's robustness

@@ -1,0 +1,68 @@
+Page dimensions: 612.0x792.0
+[72x83]As a result of this work, finding optimized parameters for some QAOA instances will become quick and efficient,
+[72x170]P S
+[72x170]will be critical for the applicability of
+[72x203]p >
+[72x203]Another future direction is to determine whether the effects of parity of a graph hold for
+[72x263]wish to explore the idea of generating a large database of donor graphs and, together with a graph-embedding technique,
+[72x274]will require advanced subgraph exploration algorithms and will be addressed in our following work. In particular, we
+[72x405]A remarkable demonstration of random graphs that generalizes the proposed approach is the transferability of the
+[72x154]This work was enabled by the very fast and efficient tensor network simulator QTensor developed at Argonne National
+[72x72]removing this major bottleneck in the QAOA approach and potentially removing the optimization step altogether in
+[72x99]possible because of the prohibitive memory requirements for storing the state vector.
+[72x110]execution on a personal computer. With state vector simulators, however, even such calculations would not have been
+[72x121]computed QAOA energy for 64-node graphs with
+[72x132]p
+[72x132]instances with
+[72x143]Laboratory \[Lykov et al., 2021\]. Unlike state vector simulators, QTensor can perform energy calculations for most
+[72x181]p >
+[72x181]seen whether parameters concentrate for
+[72x192]that the parity of a graph affects the distribution of optimal parameters, as shown in Figs. 11 and 18. It remains to be
+[72x219]for donor graph determination is still an open question.
+[72x230]approach has been used to determine optimal QAOA parameters \[Khairy et al., 2020\], but a study of machine learning
+[72x241]be able to apply our technique to various sets of graphs and extend our approach to larger depths. A machine learning
+[72x252]obtain optimal QAOA parameters for transferability. We hope that by training a good graph-embedding model, we will
+[72x285]p
+[72x285]ability is straightforward. However, our preliminary work suggests that this technique will also work for larger
+[72x296]One may notice that we studied parameter transferability only for
+[72x296]p
+[72x312]donor-acceptor subgraphs.
+[72x323]good donor candidates, since subgraph similarities involve overhead calculations of QAOA energies for each pair of
+[72x345]donor-acceptor graph pairs by exploiting their similarity based on parity. We see a good correlation between subgraph
+[72x356]Following the subgraph decomposition approach, we showed that one can determine good transferability between
+[72x372]increase the size of the donor graph to achieve high transferability, even for acceptor graphs with 256 nodes.
+[72x383]approximation ratio loss of only 1–2% was observed in all three cases. Furthermore, we demonstrated that one need not
+[72x394]parameters from 6-node random graphs (at the subgraph level) to 64-node random graphs, as shown in Figure 6. The
+[72x439]the case with subgraph transferability, we see that this does not depend on the number of nodes of the donor graph.
+[72x450]Figure 16: For an increasing number of donor graph nodes, we see that parity can determine good transferability. For
+[111x748]Similarity-Based Parameter Transferability in the Quantum Approximate Optimization Algorithm
+[139x132]3
+[144x132],
+[144x132]d
+[Image 154x468 to 456x720]
+[155x132]6
+[155x132]and graphs with
+[163x132]N
+[233x132]∼
+[241x170]for
+[241x170]p >
+[246x132]1
+[252x181]1
+[252x181]and, if so, how parity affects their distribution. Analysis of these trends
+[261x132]000
+[261x132],
+[265x132]nodes very quickly, usually within seconds. For this work we
+[273x170]1
+[274x121]d
+[278x170].
+[280x121]at
+[280x121]5
+[287x121]p
+[297x121]= 1
+[301x42]17
+[320x121], a calculation that took a fraction of a second per each
+[338x296]= 1
+[361x296], where the subgraphs are small and transfer-
+[439x203]1
+[444x203]. In particular, we found
+[511x285], which

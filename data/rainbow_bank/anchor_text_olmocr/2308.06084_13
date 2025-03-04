@@ -1,0 +1,212 @@
+Page dimensions: 612.0x792.0
+[67x297]8. A
+[67x399]7. Each
+[67x399]k
+[67x187]k
+[67x187]9. A
+[79x77]orbits that remain within
+[79x330]are orthogonal with respect to the Hilbert-Schmidt
+[79x342]operators with trace of 1. The states in the cycle
+[79x365]and satisfies
+[79x100]S
+[79x125]the set
+[79x125]{
+[79x376]nel. The orbit has initial condition
+[79x140]S
+[79x153]The invariant subspace is the set of density matri-
+[79x164]E
+[79x209]trace is 1 and it is a mixture of pure states.
+[79x433]nel, the generalized eigenvectors in the
+[79x627]L
+[79x616]as these all have modulus 1.
+[79x662]L
+[79x536]L
+[79x548]channel has more right-eigenvectors or/and gener-
+[79x559]sets into collections of smaller sets. The resulting
+[79x571]nel can be constructed by dividing one or more
+[79x513]these eigenvalues and eigenvectors arise.) We give
+[79x445]0 eigenvalues. When split to become the
+[79x445]D
+[85x179]k
+[88x357]j
+[94x175]x
+[96x353]x
+[99x388]x
+[99x388]) =
+[99x175]x
+[100x99]contains the fixed point
+[100x99]x
+[102x353])
+[112x140]{
+[114x254]ρ
+[117x353]f
+[117x125]a
+[122x388]k
+[122x388], generates a
+[123x123]j
+[123x660]are either roots of unity or zero. For
+[123x660]E
+[127x353](
+[131x163]S
+[137x353])
+[137x89]∈
+[138x140]ρ
+[140x356]for
+[142x163]) in the space of density matrices.
+[145x247]k
+[146x89]S
+[152x365]ρ
+[154x264]X
+[154x243]j
+[158x365]) =
+[159x110](
+[163x87]x
+[164x466]2
+[168x466]b
+[176x297]generates a fixed point of
+[176x112])
+[176x112]∈
+[178x137]j
+[178x626]with non-zero eigenvalues
+[179x258]j
+[182x89]=
+[184x388]-periodic orbit of the chan-
+[184x500]2
+[187x353]0
+[188x500]channel has 5 non-zero
+[188x145]1
+[199x110]x
+[200x138]j
+[204x77].
+[206x122]j
+[208x254]f
+[210x122]a
+[215x143]j
+[217x99]∗
+[218x254](
+[219x140](
+[221x99],k
+[221x99]defined in equa-
+[222x254]x
+[223x140]x
+[227x592]j
+[227x254])
+[228x123]= 1. The sub-
+[244x140]f
+[246x112]∈
+[248x376]=
+[249x187], satisfying
+[254x112]S
+[256x489]3
+[258x140]x
+[259x376]|
+[263x140])
+[270x110]x
+[270x140]}
+[275x112], The
+[317x70]map because its computation only requires addition and
+[317x82]is essentially a classical operation. We used the logistic
+[317x116]quantum channel that exhibits much of the phenomenol-
+[317x151]tum register. The channel makes it possible to iterate
+[325x730]10. Each
+[325x597]11. Orbits of the channel either decay to zero, to a fixed
+[325x326]x, y
+[342x719]eigenvectors (of
+[342x719]L
+[342x574]states. This follows from the possible eigenvalues.
+[342x618]value of eigenvector
+[342x437]eigenvectors associated with zero eigenvalues.
+[342x462]of the channel is at most
+[342x473]range of the function. In the matrix basis, the range
+[342x280]E
+[342x292]In other words if we take
+[342x404]subset
+[342x303]a superposition in the subspace spanned by
+[342x382]H
+[342x315]S
+[342x370]m
+[342x258]havior is described in more detail in section III C 3
+[342x359]tion is equivalent to a cyclic permutation of the
+[345x269]w
+[347x641]and
+[348x313]j
+[348x313]∈
+[349x200]IV. SUMMARY AND DISCUSSION
+[355x315]S
+[358x484]|
+[361x269]w
+[374x730], satisfying
+[383x404], i. e.,
+[383x404]f
+[384x484]Z
+[385x641]e
+[390x483]N
+[394x370]1
+[395x652](
+[401x527]defined in equation 7). For how this
+[402x269]w
+[402x484]|
+[404x644]πi/k
+[406x695]X
+[406x674]j
+[409x269]=
+[410x674]=0
+[411x698]k
+[412x652]ω
+[417x269]a
+[418x408]m
+[421x641]. These eigenvectors have eigen-
+[422x686]ω
+[430x404]x
+[431x370]−
+[433x445]f
+[435x404])
+[435x416]f
+[442x404]S
+[443x730]x
+[444x382]generated via
+[445x686]f
+[447x462]n
+[449x730]x
+[453x459]. This implies that there
+[453x459]f
+[453x465]2
+[454x651]m
+[455x686](
+[456x382]{|
+[457x269]+
+[457x403]j
+[459x686]x
+[462x652], with
+[467x292]⟩
+[475x292]a
+[476x416]are members of a
+[477x730]k
+[477x730], generates
+[483x269]f
+[484x690]j
+[488x686](
+[489x269](
+[492x686]x
+[502x269]⟩
+[502x292]⟩
+[506x269]. This is be-
+[506x686],
+[507x404],
+[507x404]1
+[515x326]∈
+[516x280](
+[519x292]|
+[520x280]|
+[528x292]y
+[531x325]j
+[537x292]a, b
+[537x280]v
+[540x382](
+[543x280]|
+[544x382]x
+[544x404]1,
+[545x280]) =
+[550x303]y
+[552x756]14
+[559x303].

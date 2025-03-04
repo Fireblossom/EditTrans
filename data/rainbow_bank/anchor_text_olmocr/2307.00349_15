@@ -1,0 +1,171 @@
+Page dimensions: 595.3x841.9
+[90x740]equilibrium is unique by Proposition 3, under the conditions in Theorem 1, there
+[90x722]are no equilibria in which the land price equals its fundamental value.
+[108x704]Theorem 1 has three important implications. First, it clarifies the role of un-
+[90x686]balanced growth and elasticity of substitution for generating land overvaluation,
+[90x668]which was previously overlooked. Regarding the assumption of elasticity of sub-
+[90x650]stitution between land and non-land exceeding 1, we justify it on empirical and
+[90x632]theoretical grounds as discussed in Section 3.2.
+[108x614]Second, we can derive a new insight on the long-run behavior of land prices
+[90x597]in a modern economy. The conventional view is that on the long-run trend, the
+[90x579]land price should reflect its fundamental value, even if it may deviate from the
+[90x561]fundamental value temporarily. In sharp contrast with this widely-held view, The-
+[90x543]orem 1 implies that during the process of economic development characterized by
+[90x525]unbalanced productivity growth, land overvaluation will naturally and necessarily
+[90x507]arise.
+[117x511]6
+[108x489]Before discussing the third implication in Section 3.4, we show that all exam-
+[90x471]ples in Section 2 are special cases of Theorem 1.
+[90x443]Corollary 2.
+[90x443]Proposition 2 is true.
+[90x415]Proof.
+[90x415]Define the aggregate production function by
+[195x382]F
+[203x381]t
+[206x382](
+[211x382]H, X
+[237x382]) =
+[237x382]A
+[266x381]1
+[270x381]t
+[273x382]H
+[283x381]1
+[288x382]H
+[288x382]+
+[301x382]A
+[322x381]2
+[326x381]t
+[329x382](
+[334x382]H
+[344x381]2
+[348x382]H
+[359x382])
+[364x387]α
+[370x382]X
+[380x387]1
+[384x387]−
+[391x387]α
+[397x382],
+[94x350]where
+[94x350]H
+[137x348]1
+[142x350], H
+[157x348]2
+[157x348]>
+[165x350]0 are constants. Define
+[221x317]F
+[230x317](
+[235x317]H, X
+[261x317]) =
+[261x317]H
+[291x315]2
+[295x317]H
+[295x317]+
+[309x317]H
+[331x322]α
+[330x314]2
+[330x314]H
+[348x322]α
+[354x317]X
+[364x322]1
+[368x322]−
+[375x322]α
+[381x317],
+[211x296](
+[216x296]A
+[224x294]Ht
+[236x296], A
+[250x294]Xt
+[261x296]) = (
+[286x296]A
+[294x294]1
+[299x294]t
+[302x296],
+[302x296](
+[312x296]A
+[321x294]2
+[325x294]t
+[328x296]/A
+[342x301]α
+[342x293]1
+[347x293]t
+[350x296])
+[361x305]1
+[356x298]1
+[360x298]−
+[365x298]α
+[365x298])
+[376x296].
+[94x263]Then clearly
+[94x263]F
+[169x261]t
+[173x263](
+[178x263]H, X
+[203x263]) =
+[203x263]F
+[233x263](
+[238x263]A
+[246x261]Ht
+[257x263]H, A
+[281x261]Xt
+[293x263]X
+[303x263]) and Assumption 1 holds. Assumption
+[90x245]2 holds by Example 3. If
+[90x245]A
+[230x244]jt
+[230x244]=
+[241x245]G
+[262x250]t
+[262x242]j
+[262x242]with
+[271x245]G
+[307x244]1
+[307x244]> G
+[336x244]2
+[341x245], then
+[195x213]A
+[204x211]Ht
+[215x213]/A
+[229x211]Xt
+[229x211]= (
+[261x213]A
+[270x211]1
+[274x211]t
+[277x213]/A
+[291x211]2
+[296x211]t
+[299x213])
+[310x221]1
+[305x215]1
+[309x215]−
+[314x215]α
+[314x215]= (
+[341x213]G
+[350x211]1
+[355x213]/G
+[370x211]2
+[375x213])
+[386x221]t
+[381x215]1
+[384x215]−
+[390x215]α
+[390x215],
+[94x180]so (3.7) holds.
+[90x152]Corollary 3.
+[90x152]Land is overvalued in Example 1 if
+[165x152]G
+[357x150]1
+[357x150]> G
+[387x150]2
+[392x152].
+[103x136]6
+[108x133]Of course, if
+[108x133]G
+[173x131]H
+[173x131]=
+[183x133]G
+[202x131]X
+[202x131]holds in the long run, which is often assumed to ensure a balanced
+[90x121]growth path in the growth literature, there will be no overvaluation in land prices but this is
+[90x109]obviously a knife-edge case.
+[292x60]16

@@ -1,0 +1,60 @@
+Page dimensions: 612.0x792.0
+[Image 312x409 to 566x573]
+[Image 312x108 to 565x341]
+[49x733]Database (NVD) by inferring new classes, enriching relations,
+[49x718]and expanding conceptual coverage. The ontology is used
+[49x702]to search for and query social media threads that contain
+[49x686]cybersecurity-related information, and natural language pro-
+[49x671]cessing techniques are used to relate unstructured information
+[49x655]to concepts in the ontology. The paper highlights the advan-
+[49x640]tages of Semantic Web technologies in integrating information
+[49x624]from multiple and often heterogeneous sources, without human
+[49x609]intervention. Rosa et.al. \[8\] presented a novel ontology-based
+[49x593]approach to utilize ontology to identify and map threats to
+[49x578]assets. With the support of formally sound approaches, this
+[49x562]process can be streamlined and made more efficient. From
+[49x547]an ontology perspective, the authors introduced ThreMA,
+[49x531]an ontology-based approach for automating threat modeling
+[49x516]in ICT infrastructures. ThreMA provides a standard meta-
+[49x500]model that describes the infrastructure and a set of rules for
+[49x484]threat modeling. The meta-model consists of three ontolo-
+[49x469]gies modules: ICT ontology for modeling the infrastructure,
+[49x453]Data Flow ontology for representing data flow diagrams, and
+[49x438]threat ontology for characterizing threats. The use of ontology
+[49x422]and inference rules allows for a syntactical representation
+[49x407]of the problem, mimicking expert thinking. This approach
+[49x391]enhances extensibility, maintainability, and integration in a
+[49x376]rapidly changing context. The paper emphasizes the impor-
+[49x360]tance of using ontologies to address the lack of context and
+[49x345]low accuracy in threat modeling. Overall, ThreMA offers a
+[49x329]comprehensive ontology-based solution for automating threat
+[49x313]modeling in ICT infrastructures.
+[130x291]III. M
+[130x291]ETHODOLOGY
+[59x272]This work presents an ontology for representing various data
+[49x257]sources about cloud computing and security. This ontology
+[49x241]enables a knowledge presentation framework for all cloud
+[49x226]computing and its relationships. The ontology consists of sev-
+[49x210]eral modules: Cloud Computing and services, Cloud Service
+[49x194]underlying components, and CVE module.
+[49x172]A. Cloud Computing Stack and Services Ontology Module
+[59x153]This section represents our proposed ontology module that
+[49x138]covers the cloud computing stack and services. Our extension
+[49x122]ontology is provided as a separate ontology, which is an
+[49x107]important design criteria in ontology engine engineering \[13,
+[49x91]14\]. This ontology can be used to unify and provide a primary
+[49x76]baseline for cloud computing stack, threat understanding, and
+[312x733]system diagram presentations. Firstly, we start by creating
+[312x718]the ontology of the cloud computing stack. Figure 2 depicts
+[312x702]the ontology of the three cloud stack: Software as a Service
+[312x686](SaaS), Platform as a Service (PaaS), Infrastructure as a
+[312x671]Service (IaaS), Function as a Service (FaaS), Communication
+[312x655]as a service (CaaS), and Desktop as a service (DaaS). Figure 1
+[312x640]depicts the cloud service model. Cloud service has nine layers,
+[312x624]green colored layers mean these layers are managed by the
+[312x609]client while the other color refers to layers managed by the
+[312x593]cloud providers.
+[312x391]Fig. 1. Cloud computing stack. The green color depicts the layers managed by
+[312x382]the used user. While the orange-colored boxes represent the layers managed
+[312x373]by the cloud provider.
+[370x90]Fig. 2. Cloud computing stack ontology.

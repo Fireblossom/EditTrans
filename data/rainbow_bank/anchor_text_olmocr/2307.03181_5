@@ -1,0 +1,224 @@
+Page dimensions: 612.0x792.0
+[72x99]As a step towards describing the models of endogenous historical information held by the receivers,
+[72x86]we next analyze the induced dynamics under a signaling mechanism to characterize its invariant
+[72x72]distribution. Suppose the sender chooses a signaling mechanism
+[72x121]3.3 Invariant Distribution
+[72x153]Φ
+[72x166]since the mechanism that recommends the receivers' preferred action at each state is persuasive for
+[72x221]utility with the action
+[72x234]action
+[72x320]belief
+[72x347]and the state is
+[72x479]develop our concepts, we will initially consider the receiver's prior beliefs as exogenously specified.
+[72x506]endogenously on how much information they have about the past. We capture this endogenous level
+[72x555]3.2 Beliefs and Persuasiveness
+[72x587]Σ
+[72x614]if the (slice of) history is
+[72x628]h
+[72x655]let
+[72x655]X
+[72x668]h
+[72x695]t
+[72x736]6 Krishnamurthy Iyer Haifeng Xu You Zu
+[75x361]Here,
+[76x248]∂u
+[76x695], and
+[78x632]∈ X
+[78x632]k
+[78x666]t
+[89x641]A signaling mechanism is a mapping
+[97x659]denote the singleton set consisting of the unique (empty) slice of history of length zero.
+[97x659]0
+[102x668]x
+[104x695]p
+[105x234]∈
+[108x359]t
+[110x695](
+[114x695]ω
+[116x361]h
+[123x668], . . . ,
+[124x695]|
+[124x234]over action
+[124x153].
+[128x679]t
+[133x695]with
+[136x628]∈
+[139x361])
+[141x695]x
+[146x628]Ω
+[150x347]ω
+[153x667]t
+[157x667]−
+[157x346]t
+[157x346]=
+[163x667]1
+[164x248]u
+[166x628], the probability
+[170x425]ω
+[177x423]t
+[177x423]=
+[180x221]is higher than that with
+[180x221]a
+[181x207]Φ
+[182x194]Φ
+[182x347]. The receiver then chooses an action that maximizes their expected utility
+[183x425]ω
+[184x682]describes the sequence of states-action pairs in the past
+[184x682]k
+[186x248]ω, a
+[191x207]{
+[192x695]ω, a
+[192x234]a
+[195x425]can be found using Bayes' rule as
+[195x614]h
+[195x617]¯
+[196x393]F
+[198x238]∈
+[201x611]t
+[201x618]k
+[203x437]t
+[204x248])
+[204x248]−
+[205x393](
+[205x282]F
+[210x695]stands for
+[212x334](
+[214x282](
+[214x234]at state
+[216x393]|
+[219x393]a
+[221x207]t
+[222x334]a
+[225x393];
+[225x393]ϕ
+[225x282]|
+[227x207]∈
+[228x334];
+[228x334]ϕ
+[232x248]ω, a
+[234x282];
+[234x207]Z
+[235x709])
+[236x392]t
+[240x393], σ
+[250x252]′
+[253x319]=
+[253x248]denotes the incremental payoff for the receiver for choosing
+[253x248])
+[255x194]Φ
+[259x334]. We say the signaling mechanism
+[259x320]a
+[259x180]ϕ
+[262x194]of persuasive signaling mechanisms contains all signaling
+[262x194])
+[266x178]t
+[266x234]∈
+[266x234]ω
+[270x641]:
+[270x641]X
+[271x320]is optimal for the receiver, i.e., the following inequality
+[273x632]k
+[275x695](
+[278x628], ω
+[281x282](
+[285x409]P
+[289x695]|
+[292x695]ω, a
+[296x234]. The inequality states that the receiver's expected
+[297x398]h
+[302x400]ϕ
+[302x400]k
+[307x221]a
+[310x695])
+[310x385]ϕ
+[313x225]when action
+[313x287]′
+[316x282])
+[316x282]≥
+[318x401](
+[319x180]Z
+[323x384]t
+[329x405]k
+[332x450]and the current state
+[332x450]t
+[341x282],
+[343x641]A
+[347x465]σ
+[350x401]σ
+[351x641](for some
+[351x641])
+[353x614]ω
+[354x614]¯
+[356x668]X
+[357x465]Σ
+[357x401](
+[360x612]=
+[361x401]a
+[361x386]σ
+[363x709]denotes the state-action pair at time
+[365x672]k
+[366x614]ω
+[370x401]h
+[372x386]a
+[374x668]h
+[375x464]for some
+[378x386]|
+[381x386]h
+[385x614]. We let
+[387x389]k
+[388x601]k
+[389x695]k
+[394x601], and let
+[394x72]Pers
+[395x672]k
+[397x287]′
+[407x386])
+[419x668]x
+[422x334]σ
+[422x334]is persuasive w.r.t. the
+[425x667]−
+[428x72]Φ
+[432x667]k
+[432x641]) that specifies for each
+[435x612]k
+[435x72])
+[437x668], . . . , x
+[437x601]=
+[442x452]ω
+[443x438]s
+[444x438]¯
+[448x450]t
+[449x437]=
+[453x465]. Fix a time
+[455x438]a
+[457x361]k
+[457x361]is
+[460x70]k
+[465x180]Φ
+[467x667]−
+[468x682]k
+[468x599]k
+[472x180])
+[472x438], the receiver's
+[473x599]≥
+[474x667]1
+[479x668])
+[480x599]0
+[481x358]t
+[481x358]=
+[481x365]k
+[483x668]. Finally, we
+[489x361]h
+[490x628]¯
+[493x599]k
+[495x626]=
+[495x626]t
+[501x628]a
+[504x695], a
+[507x365]∈ X
+[514x72]k
+[515x207]t
+[515x207]∈
+[522x207]Z
+[523x72]0
+[539x207].

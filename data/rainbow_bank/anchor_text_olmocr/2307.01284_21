@@ -1,0 +1,42 @@
+Page dimensions: 612.0x792.0
+[211x695]Table 5:
+[211x695]Normal model, censoring only
+[344x667]Outcome
+[265x654]Emp. p10 p25 p50 p90
+[144x634]Panel A: Baseline
+[161x621]Mean causal effect 0.000 0.022 0.002 0.000 0.000
+[161x607]Effective min. wage 0.000 0.025 0.002 0.000 -0.000
+[261x594](0.000) (0.019) (0.010) (0.000) (0.019)
+[144x580]Panel B: Reduction in average dispersion
+[161x567]Mean causal effect 0.000 0.025 0.001 0.000 0.000
+[161x553]Effective min. wage 0.000 0.016 0.001 0.000 -0.000
+[261x539](0.000) (0.018) (0.010) (0.000) (0.019)
+[144x526]Panel C: Dispersion changes correlated with location changes
+[161x512]Mean causal effect 0.000 0.019 0.001 0.000 0.000
+[161x499]Effective min. wage 0.000 0.076 0.034 0.000 -0.064
+[261x485](0.000) (0.016) (0.009) (0.000) (0.016)
+[144x472]Panel D: Dispersion changes correlated with initial location
+[161x458]Mean causal effect 0.000 0.019 0.001 0.000 0.000
+[161x445]Effective min. wage 0.000 0.011 -0.006 0.000 0.014
+[261x431](0.000) (0.019) (0.010) (0.000) (0.019)
+[144x418]Panel E: Regional variation in location is small
+[161x404]Mean causal effect 0.000 0.008 0.000 0.000 0.000
+[161x390]Effective min. wage 0.000 0.012 0.000 0.000 -0.000
+[261x377](0.000) (0.037) (0.021) (0.000) (0.039)
+[86x362]Notes:
+[86x362]See the text for a description of each panel. Each panel displays average results for 5,000 simulations,
+[86x350]each with 50 regions.
+[86x316]Table 3 adds regional differences in the initial location parameter, as well as dispersion pa-
+[86x298]rameters. That generates some bias. Finally, Panel E makes regions more similar in terms of
+[86x280]their location parameters. That leads to large biases.
+[86x255]The fundamental problem is similar to that in the case of the fraction affected design: the
+[86x237]treatment intensity variable used in the regression does not neatly map into the thought ex-
+[86x219]periment that intuitively identifies the causal effect of interest. Random shocks to location,
+[86x201]uncorrelated with dispersion parameters, provide good variation because they closely corre-
+[86x183]spond to what would happen if all regions where the same, but subject to random changes
+[86x165]in minimum wage bindingness. But suppose that regions differ exclusively in their initial
+[86x147]dispersion parameters and are subject to a national increase in the minimum wage. One can
+[86x129]show that the effective minimum wages changes differentially across regions, and so do out-
+[86x112]comes such as employment and wages. However, that scenario does not correspond to the
+[86x94]thought experiment of interest. Correspondingly, the estimated effects of the minimum wage
+[300x57]21

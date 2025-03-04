@@ -1,0 +1,239 @@
+Page dimensions: 612.0x792.0
+[54x254]cally justified that linear prediction with a single coef-
+[54x265]f
+[54x265]the plane wave function
+[54x277]nusoidal functions \[16\]. For instance, when considering
+[54x526]derivative of
+[54x526]S
+[54x208]f
+[54x219]△
+[54x460]φ
+[54x460]ting
+[54x70]for non-analytic periodic functions \[17\] such as square
+[54x93]real part of the complex function values.
+[54x105]tion results depicted in red. The figures only display the
+[54x116]for the algorithm shown in blue, and the output estima-
+[54x128]at the black vertical line, with the input function values
+[54x139]quencies, serving as examples. The extrapolation starts
+[54x151]diction results for plane wave functions with varying fre-
+[54x162]achieve perfect estimation. Fig. 1 illustrates linear pre-
+[54x174]quency necessitates an extra prediction coefficient to
+[54x449]it becomes
+[54x707]the errors for
+[54x661]array
+[54x673]data sets, we modified the derivation. For a complex
+[54x696]excluded from the squared errors.
+[54x719]rithm provides an estimation is
+[54x719]f
+[54x730]previous
+[54x730]m
+[56x537]To minimize the sum of squared errors, we set the partial
+[57x370]Once we obtain
+[57x409]The linear prediction coefficients are solved as
+[58x472]We can express Eq. (3) with matrices and vectors, set-
+[60x208](
+[62x219]is the spacing between
+[64x300]Linear prediction exhibits excellent performance on pe-
+[64x82]However, linear prediction's performance diminishes
+[64x684]To generalize the approach to handle complex-valued
+[70x208]produces the same result as evaluating
+[72x492]∂d
+[78x208]f
+[81x626]S
+[81x626]=
+[82x459]j
+[82x459]=
+[83x491]j
+[85x660]1
+[89x661], ..., y
+[89x460]∑
+[91x499]=
+[97x616]i
+[99x499]−
+[101x565]+
+[103x595]∑
+[103x625]∑
+[104x586]m
+[104x616]m
+[106x636]n
+[107x490]i
+[109x556]i
+[109x458]=
+[109x490]=
+[111x660]n
+[111x586]+
+[111x616]+
+[112x556]=
+[113x498]∑
+[114x458]m
+[115x565]∑
+[116x586]1
+[116x616]1
+[116x556]m
+[116x231]represents a constant phase
+[118x576]n
+[120x596]∣
+[120x626]∣
+[121x458]+
+[121x490]+
+[121x526]d
+[122x596]y
+[122x626]y
+[123x556]+
+[124x231]e
+[125x458]1
+[125x490]1
+[127x707], ..., y
+[127x594]i
+[127x625]i
+[128x556]1
+[132x368]j
+[132x600]2
+[133x556]j
+[134x565]∑
+[135x576]m
+[136x497]y
+[136x370], we can estimate subsequent function
+[136x457]y
+[136x464]∗
+[137x556]=
+[139x429]−
+[140x616]j
+[141x625]∑
+[141x556]1
+[142x389]d
+[144x616]=
+[145x429]φ
+[146x498]i
+[146x459]i
+[146x556]k
+[147x660]∈
+[147x660]i
+[148x616]1
+[148x706]m
+[149x459]−
+[149x576]m
+[152x427]+
+[153x595]∑
+[153x498]+
+[153x498]j
+[153x626]y
+[153x459]j
+[155x556]1
+[156x606]n
+[158x625]i
+[159x661]C
+[161x625]−
+[162x389](
+[165x586]1
+[166x429]M
+[166x625]j
+[166x661], the squared error is given by:
+[167x389]M
+[167x490]i
+[170x626]d
+[170x265](
+[173x498]∑
+[175x586]=
+[175x265]x
+[175x625]j
+[176x510]n
+[176x387]φ
+[177x394]−
+[179x586]1
+[180x265])
+[180x265]=
+[181x630]2
+[184x219]d
+[184x429]d
+[186x490]1
+[187x596]y
+[189x426]=
+[189x426]k
+[189x433]∗
+[191x489]k
+[191x459]=
+[192x498]∑
+[193x388]j
+[194x565]d
+[195x524]to 0:
+[196x489]=
+[199x564]j
+[200x489]1
+[200x719](
+[202x394].
+[203x565]d
+[204x460]∑
+[204x429].
+[205x719]x
+[205x499]y
+[209x563].
+[210x594]j
+[211x429](4)
+[213x498]−
+[214x596]d
+[214x265], it can be analyti-
+[218x717]+
+[219x594]j
+[219x594]−
+[221x458]i
+[221x465]n
+[222x499]y
+[222x717]1
+[227x719])
+[227x497]i
+[234x497]k
+[235x458]+
+[239x458]1
+[241x596]y
+[244x497]k
+[244x497]=
+[244x503]∗
+[246x600]∗
+[249x593]−
+[250x459]i
+[253x459]−
+[253x593]j
+[254x208](
+[257x235]△
+[258x596]d
+[259x208]+△
+[259x499].
+[259x499]0
+[263x593])
+[263x593]j
+[263x235]x
+[267x457]i
+[267x464]∗
+[282x208]x
+[292x208].
+[317x117](b).
+[317x117]f
+[317x129]f
+[317x140]FIG. 1: Estimation results of plane wave functions with
+[323x105](
+[333x105]=
+[333x105])
+[343x117](
+[348x105]x
+[354x117]=
+[363x105]+
+[363x318](c)
+[391x117]e
+[393x113]√
+[395x121]2
+[399x121]ix
+[399x121]estimated with
+[407x105]estimated with
+[410x117]m
+[416x105]m
+[422x129](
+[446x129]e
+[451x133]estimated with
+[462x129]m
+[484x105]=
+[498x117]2. (c).
+[503x105]4.
+[530x129]=
+[549x129]1.
+[557x756]2

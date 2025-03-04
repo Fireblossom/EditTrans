@@ -1,0 +1,66 @@
+Page dimensions: 612.0x792.0
+[319x583]ˆ
+[320x580]l
+[-0x0]a
+[339x570]3
+[217x471]a
+[224x470]2
+[202x583]a
+[208x582]1
+[304x626]ℓ
+[309x624]2
+[367x563]ℓ
+[372x562]1
+[158x435]Figure 3: Agent-optimal information structure in Example 1
+[128x401]The above example illustrates the agent's power the choice of the information
+[111x383]structure provides. By choosing the aforementioned information structure, not
+[111x365]only the agent is able to implement
+[111x365]e
+[295x363]3
+[300x365], i.e., the efficient level of effort, but also
+[111x347]she is able to capture the entire surplus. In what follows, we show that under
+[111x329]some conditions on the performance technology, this is always possible.
+[111x284]5 Efficient Surplus Extraction
+[111x254]In this section, we provide sufficient conditions on the performance technology
+[111x236]f
+[111x236](
+[124x236]·|·
+[134x236])
+[134x236]and cost function
+[142x236]c
+[229x236](
+[241x236]·
+[244x236])
+[244x236]so that the agent is able to implement the first-best
+[111x218]effort and extract the entire surplus.
+[128x200]Let
+[128x200]e
+[152x205]∗
+[152x205]be the first-best level of effort that satisfies
+[222x168]e
+[228x173]∗
+[228x173]∈
+[236x168]arg max
+[268x160]e
+[272x160]∈
+[278x160]E
+[299x168]E
+[309x168]\[
+[313x168]g
+[319x168](
+[323x168]x
+[330x168])
+[334x168]|
+[338x168]e
+[343x168]\]
+[343x168]−
+[349x168]c
+[361x168](
+[373x168]e
+[378x168])
+[378x168].
+[114x135]Suppose that the agent wishes to implement
+[114x135]e
+[343x139]∗
+[343x139]and capture the entire surplus
+[300x90]28

@@ -1,0 +1,98 @@
+Page dimensions: 612.0x792.0
+[74x671]ongoing efforts are being made to enhance this practice. A notable example of these
+[74x650]initiatives is led by Doctors Without Borders, also known as M´ edecins Sans Fronti` eres
+[74x628](Barel et al., 2020).
+[74x584]4.2 Results-based payments without screening
+[74x555]In this subsection, the principal is restricted to using payments that can only depend on
+[74x533]the realized posterior. Following the terminology in Yoder (2022), we define a
+[74x533]results-
+[74x511]based contract
+[150x511]as a contingent payment function
+[150x511]t
+[328x511]: ∆ (Ω)
+[337x511]→
+[378x511]R
+[403x511]. We say that (
+[403x511]X
+[496x511], t
+[505x511]) is
+[74x490]incentive-compatible if
+[149x450]E
+[157x448]p
+[161x448]∼X
+[175x448](
+[178x448]θ
+[183x448])
+[186x450]\[
+[190x450]t
+[194x450](
+[198x450]p
+[204x450])\]
+[204x450]−
+[215x450]θ
+[233x450]C
+[240x450](
+[244x450]X
+[254x450](
+[259x450]θ
+[265x450]))
+[265x450]≥
+[277x450]E
+[298x448]p
+[302x448]∼
+[309x448]τ
+[309x448]\[
+[317x450]t
+[321x450](
+[326x450]p
+[332x450])\]
+[332x450]−
+[342x450]θ
+[360x450]C
+[367x450](
+[371x450]τ
+[378x450])
+[378x450]∀
+[401x450]θ
+[406x450]Θ
+[416x450],
+[416x450]∀
+[427x450]τX.
+[427x450](6)
+[92x389]Because the principal cannot price discriminate according to different reports, a
+[74x367]results-based contract must provide incentives for all researcher types.
+[92x346]We aim to investigate whether (
+[92x346]X
+[272x350]∗
+[276x346], T
+[290x350]∗
+[295x346]) can be implemented using a results-based
+[74x324]contract. In the case of two states, Yoder (2022) demonstrates that the optimal choice
+[74x302]function
+[74x302]X
+[130x307]∗
+[130x307]must be Blackwell-monotone. In such a case, a binary, Blackwell-monotone
+[74x281]choice function is implementable by a results-based contract that induces the payment
+[74x259]rule
+[74x259]T
+[105x263]∗
+[110x259]. However, as shown in Example 1, this may not be the case when there are more
+[74x237]than two states, as the optimal choice function need not be Blackwell-monotone. Thus,
+[74x216]it is important to understand how Blackwell monotonicity relates to implementability in
+[74x194]a broader context.
+[92x172]We will introduce an additional assumption on
+[92x172]X
+[357x177]∗
+[357x177]going forward to simplify the
+[74x151]analysis. This assumption requires that every experiment has the same number of pos-
+[74x129]teriors as
+[74x129]|
+[128x129]Ω
+[137x129]|
+[140x129]. While this assumption is restrictive, it allows for a clear characterization
+[74x107]of implementable experiment choice functions.
+[74x107]3
+[87x89]3
+[92x86]It rules out cases where the number of posteriors in the support of the desired experiment is strictly
+[74x74]less than the number of states. Without this assumption, comprehending the outcome-equivalence result
+[292x41]17

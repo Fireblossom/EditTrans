@@ -1,0 +1,241 @@
+Page dimensions: 612.0x792.0
+[72x619]captures the jump-sizes and has conditional density
+[72x619]ν
+[72x652]µ
+[72x652]where
+[72x236]x
+[72x236]risk–neutral measure with the first component,
+[72x268]r
+[72x351]problem of interest. For example, with
+[72x219]the short-term interest rate equals the constant
+[72x252]t
+[72x334]δ
+[72x334](
+[72x384]of semi–group theory in econometrics and finance, see A¨ ıt-Sahalia et al. (2010).
+[72x417]constitutes a so–called semi–group of linear operators; for an overview of the general theory of semi–
+[72x433]t
+[72x709]Consider a
+[72x709]d
+[72x693]equation (SDE):
+[72x128]some given
+[72x477]where
+[72x553]time–inhomogenous case can be found in Appendix B.
+[72x570]case meaning that none of the functions entering the model depend on
+[72x586]and so are known to us. To keep notation simple, we restrict ourselves to the time–homogenous
+[72x603]and
+[72x603]ν
+[72x80]u
+[72x186]of
+[72x203]option but now allowing for a stochastic short–term interest rate, which is the second component
+[77x79]T
+[83x79]−
+[83x334]x
+[84x153]1
+[88x79](
+[89x150]t
+[89x170]u
+[89x170]In most cases, an analytic expression of (2.2) is not available and
+[89x367]The functions
+[89x367]r
+[90x334]) is Dirac's Delta function,
+[90x334]u
+[91x185]t
+[93x603](
+[94x186].
+[98x80]x
+[103x80]), where
+[103x80]u
+[106x652](
+[111x603]x
+[117x603]) are chosen by the researcher according to the dynamic problem that is being considered
+[119x91]≤
+[124x652]σ
+[128x91]T
+[136x709]x
+[136x709]-dimensional process,
+[145x79]was defined in (2.2).
+[145x79]t
+[150x91]u
+[158x652](
+[158x367](
+[169x367]x
+[170x652]x
+[172x460]t, f
+[175x367]) and
+[177x652]) are the so-called drift and diffusion functions, respectively,
+[177x652]W
+[178x267](
+[178x267]t
+[187x460]7→
+[187x460])
+[187x268]x
+[194x268]r >
+[194x268]) =
+[194x460]E
+[196x303]Pr
+[204x367](
+[205x111]u
+[206x111]˜
+[211x110]τ
+[211x110](
+[216x458]t
+[219x676]dx
+[220x460](
+[220x460]f
+[221x111]x
+[222x301]t
+[222x301]∈ A|
+[223x367]) entering (2.2)–(2.3) are chosen by the researcher according to the
+[226x111]) =
+[231x675]t
+[232x460]x
+[235x268]f
+[239x460])
+[243x334]) =
+[246x460]E
+[249x124]
+[250x707]t
+[250x707]∈ X ⊆
+[255x111]exp
+[259x351](
+[262x676]x
+[265x303]x
+[267x333](
+[267x333]t
+[268x675]t
+[271x124]
+[272x676]dt
+[273x460]exp
+[274x505]t
+[274x505](
+[275x634]t
+[278x111]−
+[278x676]+
+[278x268]x
+[282x334]|
+[284x507]x
+[285x268]) = (exp (
+[285x334]x
+[286x123]T
+[286x123]Z
+[290x676]σ
+[290x507]E
+[291x103]τ
+[292x334]p
+[292x334]), where
+[292x475]
+[293x709]R
+[293x252]when the state variables
+[300x460]−
+[301x252]x
+[301x713]d
+[302x317]Z
+[303x111](
+[303x36]4
+[304x234]1
+[308x293]A
+[308x234],t
+[310x475]Z
+[312x111]x
+[316x450]0
+[317x303]p
+[317x505]t
+[318x110]s
+[321x507]f
+[321x507](
+[322x619](
+[322x301](
+[323x676]dW
+[326x351](
+[326x460](
+[326x460]r
+[332x268]x
+[332x303]y
+[333x507]x
+[334x619]·|
+[338x303]|
+[338x351]x
+[340x507]) (2.2)
+[340x333]is the transition density of
+[340x619]x
+[340x111]f
+[340x111](
+[341x303]x
+[343x268]−
+[343x268])
+[344x458]s
+[344x351]δ
+[345x675]t
+[345x675]+
+[346x219](
+[346x617]t
+[349x268]K
+[350x619]). The precise form of
+[351x676]J
+[353x303]A ⊆ X
+[356x110]T
+[363x219]x
+[363x219]) =
+[365x475]
+[370x111]x
+[372x676]dN
+[374x351]−
+[374x351]y
+[374x274]then
+[375x460]f
+[375x460](
+[375x110]τ
+[375x110]=
+[383x351]x
+[383x111]x
+[386x675]t
+[387x150]measures the time distance between
+[388x460]x
+[388x218]2
+[390x676](2.1)
+[390x676],
+[394x458]t
+[397x460])
+[398x124]
+[400x351]) for some fixed
+[400x351]y
+[404x111],
+[406x218](
+[407x460]x
+[413x458]=
+[413x458]0
+[417x267](
+[417x267]t
+[419x168]t
+[419x168](
+[421x460]x
+[422x219]) is the price of the same
+[426x250]satisfy (2.1) under the
+[427x268]x
+[432x570]; the extension to the
+[433x268]) becomes the price of
+[435x170]) has to be computed
+[439x475]
+[451x388]1
+[458x619](
+[476x635](
+[477x619]σ
+[477x619]),
+[477x351]∈ X
+[483x333]t
+[486x334],
+[487x619](
+[489x635]x
+[495x634]t
+[499x635]), and
+[506x351], where
+[506x619]λ
+[506x619]),
+[506x652]d
+[517x619](
+[518x460](2.3)
+[519x433]0,
+[520x91]x
+[536x619])
+[536x652]-
+[536x634]t

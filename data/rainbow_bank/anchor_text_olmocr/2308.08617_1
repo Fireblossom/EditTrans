@@ -1,0 +1,82 @@
+Page dimensions: 595.3x841.9
+[72x72]E
+[72x84]x
+[72x96]centroid of cell
+[72x96]E
+[72x144]a wave, whose dynamics is given by Eq. (1), with constant speed
+[72x144]a
+[72x108]Each cell is composed of
+[72x120]continuous counterpart into multiple cells
+[72x132]main subject of interest to the FR approach. The discrete domain can be constructed by dividing its
+[72x156]t
+[72x247]next section.
+[72x259]regarding the inner workings of the FR approach before performing the Fourier stability analysis in the
+[72x271]struction of high-order schemes. The intention is to give the reader sufficient background knowledge
+[72x305]2 NUMERICAL FORMULATION
+[72x341]one of them.
+[72x353]the stability and accuracy of the resulting schemes are obtained by performing a Fourier analysis on each
+[72x364]tained by using a forth-order Runge-Kutta time-marching procedure (RK4). Further insights regarding
+[72x376]Observations are done regarding the effects of the artificial dissipation over the transient solution, ob-
+[72x400]this analysis by using the FR framework with 5 different correction functions and using cells with up
+[72x412]by Huynh \[10\] and documented for a limited number of scheme orders. The present paper aims to expand
+[72x472]the function(s) used, different high-order schemes are achieved. For instance, schemes such as the nodal
+[72x484]terms is performed by using a special set of functions, called "correction functions", and, depending on
+[72x508]integrated by using an appropriate time-march scheme selected by the user.
+[72x520]the time-derivatives of the solution properties can be evaluated by using the corrected fluxes and, then,
+[72x532]within a cell, in such a way that the previously defined common interface values are respected. Finally,
+[72x544]fluxes of the immediate adjacent cells. A corrected, continuous, flux function can, then, be reconstructed
+[72x556]terms, the common fluxes are taken to be, in its most general case, a weighted average between the
+[72x568]in an upwind manner, with the Roe flux \[12\] being a popular procedure to be used. For the diffusion
+[72x580]if needed) across a cell interface. For the advection terms, the interface fluxes are usually reconstructed
+[72x616]between two adjacent cells. Therefore, if nothing else is done, there is no interaction between nearby
+[72x628]solution will be continuous only within a cell, usually displaying discontinuities across the interfaces
+[72x640]by performing an interpolation using a basis of Lagrange polynomials. In general, the overall resulting
+[72x652]as nodes, within a discrete domain element: a cell. A continuous solution is reconstructed within the cell
+[72x700]compact high-order schemes for solving partial differential equations. Special focus was given to the
+[72x712]literature: the Flux Reconstruction \[10\], also referred to as FR. This framework is capable of creating
+[72x736]are the Discontinuous Galerkin \[6, 7\], the Spectral Differences \[8\] and the Spectral Volumes \[9\] class of
+[78x82]j,k
+[87x496]An interesting characteristic of the FR framework is that the continuous reconstruction of the flux
+[87x664]In the Flux Reconstruction approach, the solution is known at multiple discrete points, also known
+[87x760]In the context of high-order schemes, mathematical frameworks have been developed in order to
+[88x84]x
+[97x209](
+[101x156]is the time coordinate,
+[106x203]∂u
+[111x185](
+[128x185])
+[130x196]= 0
+[130x196]∂x
+[132x185]|
+[135x183]t
+[138x183]=
+[138x183]=0
+[157x96]x
+[159x199],
+[167x183]0
+[176x185]x
+[181x185]) (1)
+[199x108]u
+[206x199]=
+[215x199]au
+[225x96]k
+[225x96], and the coordinate of the
+[295x42]2
+[353x156]) is the property being transported by
+[354x96]j
+[354x96]-th node of the
+[365x144]f
+[400x82]j,k
+[400x82]is defined as
+[403x108](
+[407x108]x, t
+[409x144]is the flux term and the
+[415x84]u
+[421x108]), is evaluated at. The
+[429x96]-th cell is denoted by
+[434x120]h
+[462x71]j
+[480x82]j,k
+[498x71]j
+[502x71]is
+[521x120].

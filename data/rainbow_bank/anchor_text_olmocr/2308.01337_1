@@ -1,0 +1,126 @@
+Page dimensions: 612.0x792.0
+[16x646]b)
+[16x1409]a)
+[54x70]a Type-II SPDC source in Sagnac configuration (Fig. 1
+[54x99]acterization of the entanglement distribution.
+[54x110]on the final two-qubit state, allowing for a complete char-
+[54x156]polarization-entangled photon-pair sources. (2) Time-
+[54x167]three reasons: (1) We can make use of well established
+[54x190]nally, we convert the time-bin qubit back into a polariza-
+[54x299]0
+[54x310]nodeless fiber (DNANF) lowers the propagation loss to
+[54x322]have shown that a so-called double nested antiresonant
+[54x333]com SMF28 fiber. Nevertheless, recent advancements
+[54x368]gether (see Fig. 1c). The average propagation loss of
+[54x379](NANF 1) and
+[54x379]4
+[54x391]posed of two individual HCFs, measuring
+[54x402]was previously investigated in Ref. \[16\]. It is com-
+[54x459]which are subsequently spliced together to form the resulting
+[54x459]7
+[54x490]Figure 1.
+[54x490]Experimental Apparatus: a)
+[59x775]Sagnac SPDC-source
+[62x299]174
+[62x299]dB/km \[25\], which is approximately equal to that
+[64x82]To generate entangled photon pairs at
+[64x248]Our experimental setup is illustrated in Fig. 1. In
+[64x425]We study a
+[64x425]7
+[74x345].
+[77x345]82
+[77x345]dB/km, which exceeds that of standard tele-
+[125x425].
+[128x425]7
+[128x379].
+[133x425]-km-long hollow-core nested antireso-
+[143x628]Circulator\nU-bench HCF / SMF28\nTime Tagging\nModuleSNSPD\n50:50\n Mirror\nCollimator\nTranslation\nstage\nPBS 50:50 ... pol. controller\nPump\nLaser\nSagnac SPDC-source\nPBS\n30 µm\n30 µm\nNANF 1 - 3.38 km\nNANF 2 - 4.34 km\nc)\nPBS\nPBS
+[191x356]nm is estimated to
+[193x469]displays a scanning electron microscope image of the cross sections of the two NANFs,
+[208x490]A schematic of the full experimental setup. Panel
+[208x490]b)
+[269x391]km
+[308x459].
+[311x459]km HCF \[16\].
+[311x459]72
+[317x70]time-bin qubit in the upper output mode of the BS. Pho-
+[317x93]our picosecond time-bin spacings this would require GHz
+[317x116]circulator shown in the blue section of Fig. 1. While this
+[317x128]ton 2 exits in the lower arm of the BS using the optical
+[317x151]Then the two paths are recombined using a fiber 50/50
+[317x162]|
+[317x368]when expressed as a standard deviation). Initially,
+[317x402]∆
+[317x413]half maximum (FWHM) bandwidth of the source is
+[317x185]ton is horizontally (vertically) polarized, it is transmitted
+[317x196]this, the photon is first sent to a PBS so that if the pho-
+[317x219]sion interferometer" (Fig. 1 red area), which converts the
+[317x379]τ
+[317x379]tons to be
+[317x391]sian pulses, we calculate the coherence time of the pho-
+[317x251]tection efficiency of
+[317x251]87%
+[317x262]have an average detector jitter of
+[317x262]≈
+[317x274]from Single Quantum (Fig. 1 yellow area). Our detectors
+[317x285]conducting nanowire single-photon detectors (SNSPDs)
+[317x319]stage consisting of a quarter- (QWP), a half-waveplate
+[317x331]rectly coupled to a quantum state tomography (QST)
+[320x345]Ψ
+[325x402]λ
+[327x231]Meanwhile, "Photon 2" is coupled to a "qubit conver-
+[328x348]−
+[334x402]0
+[334x345]⟩
+[334x345]=
+[341x480]. See the main text for a detailed explanation of each
+[356x402]859
+[362x346]√
+[369x340]|
+[369x340]2
+[376x378]c
+[376x378]≈
+[378x345]HV
+[386x379]4
+[419x379]τ
+[420x251], and a dark count rate
+[424x345]VH
+[442x345]⟩
+[445x342]12
+[445x342]\[27\]. "Photon 1" is di-
+[465x294]PBS 50:50 PBS50:50
+[467x1309]Pump
+[472x262]ps, an average de-
+[472x262]21
+[504x378]≈
+[518x162]V
+[520x251]<
+[526x162]⟩
+[530x251]100
+[530x251]Hz.
+[532x162]to
+[542x379]ps
+[545x177]◦
+[545x177]in
+[546x162]H
+[555x162]⟩
+[557x756]2
+[559x162].
+[649x192]V   H
+[818x1443]Translation
+[855x186]H-Polarizer
+[867x1403]stage
+[1092x264]SL
+[1154x765]SNSPD
+[1346x315]fiber spool
+[1402x146]H   V
+[1451x821]Time Tagging
+[1566x1415]U-bench HCF / SMF28
+[1610x1172]Circulator
+[2308x1340]Mirror
+[2322x528]PBS
+[2492x1409]c)
+[2709x685]NANF 2 - 4.34 km
+[2709x1421]NANF 1 - 3.38 km
+[3060x54]30 µm
+[3060x783]30 µm

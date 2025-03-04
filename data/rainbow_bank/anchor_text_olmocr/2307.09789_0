@@ -1,0 +1,79 @@
+Page dimensions: 612.0x792.0
+[54x115]connected to the average photon number of the laser.
+[54x403]search algorithm, Boson sampling,
+[54x437]tum imaging \[9\] and quantum machine learning \[10–13\].
+[54x449]tum simulation \[5\], quantum communication \[6–8\], quan-
+[54x460]applications also subsume quantum sensing \[1–4\], quan-
+[54x483]which rely on its peculiar properties, such as the su-
+[54x506]domains of information processing, computation, and
+[54x185]resource state,
+[54x208]algorithm, where a harmonic oscillator coherent state,
+[54x265]an established candidate for several quantum information
+[54x288]tion, and processing tasks \[25, 26\]. On the other hand,
+[54x300]perform various computational, information communica-
+[54x311]photon as information carrier is implemented \[23, 24\] to
+[54x323]\[19, 22\]. Integrated photonic quantum chips with single
+[54x345]siders light as a quantum state for information carrier
+[54x368]plored for implementing the algorithms \[17–21\], among
+[54x380]tional speedup \[14–16\]. Various platforms have been ex-
+[54x391]exploiting quantum computation and also offer computa-
+[55x75]∗
+[59x126]α
+[73x730]Quantum Optics based Algorithm for Measuring the Similarity between Images
+[99x126]C
+[109x574]model. Our quantum algorithm has wider applicability also in supervised machine learning tasks.
+[109x585]outcome. The image distortion-sensitivity analysis of the metric establishes the further merit of the
+[109x595]images by adding consecutive layers of noises. The results are in good agreement with the expected
+[109x616]quantum superposition in the similarity measurement protocol enables us to encode multiple input
+[111x126]is a complex coherent state parameter,
+[120x668]We report an algorithm, based on quantum optics formulation, where a coherent state is used
+[122x156]|
+[128x185]n
+[131x156]⟩
+[134x185]⟩}
+[138x156]e
+[143x185]:
+[154x163]−|
+[169x165]2
+[171x696]Indian Institute of Technology Patna, Bihta, Patna 801103, India
+[176x144]n
+[180x168]∞
+[181x144]=0
+[202x148]n
+[208x403]are structured by
+[208x148]!
+[209x706]Vivek Mehta, Sonali Jana, and Utpal Roy
+[209x706]∗
+[214x156]|
+[217x156]n
+[262x685](Dated: May 30, 2024)
+[317x69]of images and their distortion-sensitivity, which is fol-
+[317x80]measurement algorithm for objective quality assessment
+[317x92]Section V deals with the demonstration of our similarity
+[317x103]image and an image database is described in Sec. IV.
+[317x115]similarity measurement algorithm between a single test
+[317x126]on indistinguishability and quantum uncertainty. The
+[317x138]ent state amplitude for optimal retrieval scheme, relying
+[317x172]coherent state where the architecture is based on linear
+[317x211]weighted by a cosine nonlinear function.
+[317x222]sity transformations and similarity measurement metric
+[317x256]where a large number of interconnected qubits are usu-
+[317x268]a single resource state, unlike the qubit-based models,
+[317x279]tum states is challenging \[52\], we overcome it by using
+[317x291]While the image retrieval scheme from the output quan-
+[317x325]tic gate operations and measurements. This also makes
+[317x337]deterministic
+[317x337]our protocol is
+[317x348]representation (NEQR) \[49–52\]. We also emphasize that
+[317x394]ment \[41–43\], image matching \[44–46\], watermarking \[47\]
+[317x405]towards edge detector \[36–40\], image similarity measure-
+[317x417]dealt with by the QIP, which has numerous applications
+[317x428]and processing of images with quantum computation is
+[317x440]imize computational power. Such integration of storage
+[317x451]tions and superposition to minimize storage and to max-
+[317x463]ware is the future solution, which uses quantum correla-
+[317x509]task. When the resolution of the acquired images is grad-
+[317x520]gorithm to perform a quantum image processing (QIP)
+[327x543]Motivated from the fact that, digital image process-
+[329x383]. Various models for QIP also exist \[48\], some of those
+[443x337], comprising of determinis-

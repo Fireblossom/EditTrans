@@ -1,0 +1,210 @@
+Page dimensions: 612.0x792.0
+[127x645](60)
+[127x527]the time of the input channel. We assume the machine response
+[127x527]R
+[127x539]transmission of signals requires some time, the output must be at a time later than
+[127x550]works, we need to specify the outputs as a function of the inputs. Since the
+[127x550]M
+[127x468]machine at previous time,
+[127x515]S
+[127x515]of
+[127x562]output channel(s)
+[127x562]R
+[127x574]E
+[127x401]defined by \[
+[127x384](63)
+[127x451](62)
+[127x327]R
+[127x339]of the system. The connection between 63, 64 and 61, 62 is achieved by assigning
+[127x369](64)
+[127x315]t
+[127x94]is sufficient to take just one oscillator within the chain and study its change in
+[127x154]S
+[127x154]system. In other words, it provides some stimulus
+[127x166]action of a single harmonic oscillator with other oscillators would affect the whole
+[127x283]second-order differential equation of the form \[
+[127x178]N
+[127x178]Consider a chain of
+[127x190]interactions with the environment are needed to define a computational model.
+[127x202]A single harmonic oscillator does not define a computational model by itself, some
+[127x106]displacement
+[127x130]as the changing of some measurable quantities in this chain due to the interaction
+[127x142]R
+[130x214]A
+[130x214]where
+[130x480]M
+[131x351]where
+[134x327](
+[138x327]t
+[138x327]+ 1) =
+[145x586]The computational model consists of a computing machine
+[145x413]4.1. Memristive systems.
+[145x413]The memristive systems are dynamical systems
+[145x295]The harmonic oscillator satisfy a
+[145x295]4.2. Chain of harmonic oscillators.
+[145x515](
+[149x515]t
+[152x515]) to depend on the state of the machine
+[152x515]Q
+[160x351]and
+[170x214]B
+[170x351]y
+[174x645](
+[174x645]If
+[178x401]0
+[181x327](
+[183x401]\]
+[185x327]+ 1),
+[185x327]t
+[189x214]are constants.
+[190x351]are the input and output of the system, and
+[190x327]Q
+[192x574]. At each time
+[193x105]n
+[193x105]of the
+[193x644]1
+[198x645], z
+[199x351]x
+[203x106]n
+[207x644]2
+[207x690]COMPLEX ANALYSIS OF INTELLIGENT SYSTEMS 9
+[211x645]z
+[211x645]) =
+[215x562](
+[215x178]identical harmonic oscillators as the machine
+[222x562]) (for response) \[
+[222x327](
+[226x327]t
+[227x178]M
+[230x639]2
+[233x231]x
+[235x639]πi
+[239x231](
+[239x604]4. Models of Computation
+[239x106]Q
+[239x106]th oscillator defines the new state of the system
+[241x451]Q
+[243x497]R
+[243x231]t
+[246x231]) =
+[246x231]A
+[247x659]I
+[249x451](
+[250x497](
+[253x636]Γ
+[253x451]+ 1) =
+[253x451]t
+[254x497]t
+[254x497]+ 1) =
+[257x635]1
+[258x480]depend on the stimulus
+[259x451]G
+[260x497]F
+[264x231]sin(
+[264x369]y
+[264x574]S
+[264x574], we have input channel(s)
+[265x652]f
+[267x384]x
+[267x384]=
+[268x639]ξ
+[269x384]˙
+[269x327](
+[270x266]x
+[270x266]+
+[270x266]¨
+[271x652](
+[272x637]−
+[272x637]1
+[272x369]g
+[273x327]+ 1), and
+[275x652]ξ
+[275x384]f
+[278x266]ω
+[279x327]u
+[279x639]z
+[279x651]1
+[283x652], z
+[288x369](
+[292x369]x, u, t
+[292x384](
+[292x651]2
+[293x637]1
+[294x270]2
+[295x562]0
+[296x384]x, u, t
+[297x652])
+[299x266]x
+[299x266]= 0 (65)
+[299x451](
+[299x231]) +
+[299x231]B
+[300x497](
+[302x645]dξ
+[303x451]Q
+[304x497]Q
+[310x451](
+[311x644]+
+[311x644]1
+[312x497](
+[314x451]t
+[315x231]cos(
+[316x369])
+[316x497]t
+[318x451])
+[319x497])
+[319x369]u,
+[320x384])
+[322x451], S
+[323x497], S
+[323x384],
+[329x639]2
+[331x327]S
+[333x451](
+[334x497](
+[336x283]\]
+[337x651]2
+[337x451]t
+[337x515](
+[338x497]t
+[340x451]))
+[341x515]t
+[342x497])) (61)
+[342x231]ωt
+[342x154]to the whole system, regardless
+[344x515]) \[
+[347x659]I
+[348x451].
+[352x231])
+[352x636]Γ
+[356x327]). Therefore, for each value of
+[356x231],
+[357x635]2
+[360x515]\]
+[364x652]f
+[367x639]ξ
+[370x652](
+[372x637]−
+[372x637]2
+[374x652]z
+[378x639]z
+[379x651]1
+[383x652], ξ
+[385x480](
+[388x480]t
+[391x574](
+[392x480]) and the state of the
+[393x637]2
+[393x142]could be described
+[395x574]t
+[397x652])
+[398x574]) (for stimulus) and
+[400x351]denotes the state
+[402x645]dξ
+[403x586]connected to an
+[411x644]2
+[418x527](
+[422x527]+ 1) because
+[422x527]r
+[438x178], the inter-
+[468x106]. It

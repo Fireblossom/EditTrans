@@ -1,0 +1,104 @@
+Page dimensions: 595.3x841.9
+[103x715]ENDOWMENTS, PATIENCE TYPES, AND UNIQUENESS IN
+[159x701]TWO-GOOD HARA UTILITY ECONOMIES
+[207x671]ANDREA LOI AND STEFANO MATTA
+[107x642]Abstract.
+[107x642]This paper establishes a link between endowments, patience types, and the
+[107x630]parameters of the HARA Bernoulli utility function that ensure equilibrium uniqueness in
+[107x618]an economy with two goods and two impatience types with additive separable preferences.
+[107x606]We provide sufficient conditions that guarantee uniqueness of equilibrium for any possible
+[107x590]value of
+[107x590]γ
+[145x590]in the HARA utility function
+[154x590]γ
+[288x587]1
+[292x587]−
+[298x587]γ
+[306x601]
+[312x590]b
+[312x590]+
+[318x590]a
+[329x587]γ
+[329x587]x
+[341x601]
+[347x599]1
+[351x599]−
+[357x599]γ
+[362x590]. The analysis contributes to
+[107x576]the literature on uniqueness in pure exchange economies with two-goods and two agent
+[107x564]types and extends the result in \[4\].
+[71x504]Keywords:
+[71x504]Uniqueness; Excess demand function; Additive separable preferences; HARA
+[71x490]utility; Polynomial approximation.
+[71x454]JEL Classification:
+[71x454]C62, D51, D58.
+[250x404]1.
+[250x404]Introduction
+[83x385]The relationship between risk aversion, the number of consumer types
+[436x385]I
+[436x385]and the unique-
+[71x371]ness of the equilibrium price has been analysed in a recent article \[4\]. More precisely,
+[71x357]in an economy with two goods and an arbitrary number
+[71x357]I
+[373x357]of impatience types, where
+[71x343]each type has additive separable preferences with a HARA Bernoulli utility function
+[71x324]u
+[78x322]H
+[86x324](
+[90x324]x
+[97x324]) :=
+[97x324]γ
+[124x320]1
+[129x320]−
+[135x320]γ
+[143x337]
+[150x324]b
+[150x324]+
+[158x324]a
+[171x320]γ
+[171x320]x
+[184x337]
+[191x335]1
+[195x335]−
+[202x335]γ
+[207x324], it has been shown that the equilibrium is unique if the pa-
+[71x305]rameter
+[71x305]γ
+[114x305]is in the range
+[203x315]
+[208x305]1
+[214x305],
+[214x305]I
+[220x301]I
+[225x301]−
+[231x301]1
+[237x315]
+[242x305].
+[83x290]While it is well known \[2, 5, 6\] the effect on uniqueness when
+[83x290]γ
+[402x290]takes a value between
+[71x276]0 and 1 (in the case
+[71x276]γ
+[185x276]= 1 the function becomes logarithmic), it is not known what
+[71x262]conditions ensure uniqueness when
+[71x262]γ
+[255x262]is greater than 2. In this perspective, \[4\] analysed
+[71x248]only the particular case when
+[71x248]γ
+[222x248]= 3 and
+[232x248]I
+[276x248]= 2, and found sufficient conditions that ensure
+[71x234]uniqueness.
+[83x221]It is a natural question to ask whether a similar result can be found outside the above
+[71x207]interval. More specifically, this would mean finding sufficient conditions that guaran-
+[71x193]tee uniqueness of the equilibrium for any value of the
+[71x193]γ
+[360x193]parameter. This is related to
+[71x179]\[1\]'s remarks on the difficulty of finding a sufficient condition, expressible in closed form,
+[71x165]that would allow, for DARA-type utilities, the introduction of more heterogeneity among
+[71x151]agents in order to overcome the restrictive assumption of identical endowments to ensure
+[71x137]uniqueness (see \[1, Proposition 2\]).
+[83x109]The first author was supported by INdAM. GNSAGA - Gruppo Nazionale per le Strutture Algebriche,
+[71x97]Geometriche e le loro Applicazioni and by KASBA, funded by Regione Autonoma della Sardegna. Both
+[71x85]authors were supported by STAGE, funded by Fondazione di Sardegna.
+[295x73]1

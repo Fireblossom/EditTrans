@@ -1,0 +1,209 @@
+Page dimensions: 612.0x792.0
+[6x40]⟨
+[6x43]n
+[6x58](
+[6x94])
+[6x164]⟨
+[6x167]n
+[6x183](
+[6x186]n
+[6x199]n
+[8x48]T
+[8x48]/
+[8x67]T
+[8x173]T
+[8x191]T
+[8x212]S
+[11x80]0
+[11x108]0
+[12x163]0
+[15x39].
+[15x66].
+[15x80].
+[15x94].
+[16x163].
+[17x25]0
+[17x39]1
+[17x53]2
+[17x66]3
+[17x80]4
+[17x94]5
+[17x122]7
+[19x163]2
+[19x183]4
+[19x202]6
+[19x241]1
+[24x137]0 20 40 60 80 100 120 140
+[24x12]0 0
+[32x231](a)
+[41x111](d)
+[54x139]L
+[54x93]L, θ
+[54x128]= 300 + 150. In this way, we exclude the data at very
+[54x217]sites
+[54x228]basis configurations, which limits the maximal number of
+[54x240]our implementation relies on 128-bit integers to represent
+[54x309]ber of cycles. On the other hand, the diagonal ensemble
+[54x332]simulations become computationally more expensive as
+[54x365]system size for a translation invariant initial configuration with
+[54x151]n
+[54x183]ficing some of the computation efficiency.
+[54x194]flexible encoding of the basis states, at the cost of sacri-
+[54x205]principle, the latter restriction can be lifted using a more
+[54x407]over 150 cycles and obtained using TEBD with bond dimension
+[54x417]N
+[54x428]L
+[54x438]N
+[54x449]Figure 7. (a)-(c): Dynamics of the bound state probability (BSP) with
+[62x438]=5 (c), at fixed system size
+[65x12]1 0
+[65x12].
+[78x-179]L
+[78x-3]TEBD
+[85x82]→ ∞
+[86x130]n
+[87x217]128, irrespective of the photon number
+[87x376]N
+[91x129]c
+[95x219]= 300 + 150
+[95x228]N
+[95x228]= 3
+[102x12].
+[102x12]2 0
+[115x5]′
+[118x2]/π
+[131x110]= 300 + 150
+[131x110]L
+[139x12]3 0
+[139x12].
+[151x97]′
+[153x61]N
+[153x61]= 3
+[154x93]) =
+[154x93]α
+[158x137]0 20 40 60 80 100 120 140
+[172x-74]6
+[177x151]n
+[185x438]χ
+[191x376]L
+[192x-195]3
+[192x-149]12
+[205x91]N
+[216x376]=14+7 (dim=20348);
+[220x130]n
+[225x129]c
+[227x36]⟨
+[227x55](
+[227x71]n
+[227x90])
+[228x45]/
+[228x63]T
+[228x85]S
+[229x219]L
+[229x139]= 20 + 10 to
+[231x39]0
+[231x94]0
+[231x122]0
+[235x92]∞
+[235x92]we extrapo-
+[235x39].
+[235x53].
+[235x108].
+[238x25]0
+[238x66]3
+[245x12].
+[245x12]0 0
+[251x149]= 120 for
+[262x111](e)
+[292x137]0 20 40 60 80 100 120 140
+[299x-91]L
+[299x-3]ED
+[316x376]=6,
+[316x376]L
+[317x407]= 320 for 3
+[317x212]n
+[317x93]are robust for a finite range of
+[317x93]θ
+[317x128]t
+[317x128]the infinite time limit
+[317x155]bound states continue to be robust.
+[317x178]the BSP(
+[317x224]N
+[317x235]N/L
+[317x274]decreases as the size of the bound states increases.
+[317x70]the integrability breaking that are comparable to the on-
+[317x82]N
+[317x286]θ
+[317x297]and our results are averaged over both. We find that
+[317x309]in Sec. II, there are two such inequivalent configurations
+[317x320]Eq. (7), which is not translation-invariant. As discussed
+[317x332]N
+[322x12]2 0
+[322x386]N
+[326x332]. In each case, the initial state was chosen according to
+[327x139]The diagonal ensemble results, which directly access
+[327x258]We also address how the robustness changes as the
+[331x386]=3,
+[331x386]L
+[331x2]θ
+[338x2]/π
+[352x449]=
+[353x130]n
+[358x129]c
+[359x449]π/
+[359x12]3 0
+[359x12].
+[362x219]= 300 + 150
+[369x449]6,
+[378x178]) curves are starting to converge for larger
+[379x-84]k
+[385x407]⩽
+[388x-73]6
+[388x-10]5
+[388x54]4
+[395x417]L
+[396x12].
+[397x449]π/
+[405x211]c
+[406x407]θ
+[413x212]N, θ
+[421x407]=
+[425x128]of the BSP, can be seen
+[425x128]→∞
+[429x407]π/
+[433x229]0
+[433x192]0
+[433x180]0
+[433x168]0
+[433x144]0
+[433x156]0
+[437x241].
+[437x229].
+[437x205].
+[437x180].
+[437x156].
+[440x229]35
+[440x217]3
+[440x205]25
+[440x192]2
+[440x180]15
+[440x156]05
+[440x449]=3 photons (a),
+[449x407]ϕ
+[449x407]6,
+[454x190]′
+[457x186]θ
+[457x193]/π
+[458x438]=256 and open boundary
+[469x97]′
+[471x93]. In particular, the
+[485x201]= 300 + 150 are
+[493x407]3 and varying
+[504x224]N
+[517x449]=4 (b) and
+[531x289]which
+[542x224]=
+[553x216]′
+[557x756]9
+[560x407].
+[667x1298]0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0 0 .1 0 .2 0 .3 0 .4 0 .5\n(d)\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0 0 .1 0 .2 ... 3\nL = 300 + 150\nnc\nN = 4\nL = 300 + 150\nnc\n0\n0.05\n0.1\n0.15\n0.2\n0.25\n0.3\n0.35\n0.4\nθ′/π\nN = 5\nL = 300 + 150

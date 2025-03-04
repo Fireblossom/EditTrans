@@ -1,0 +1,39 @@
+Page dimensions: 612.0x792.0
+[72x709]into the potential outcomes model. Our distinct goal is to provide statistical methods to credibly
+[72x687]inferheterogeneoustreatmenteffects(HTEs)usingexperimentalnetworkdatasets. Theknowledge
+[72x665]of HTEs is useful in the design of welfare-maximizing policies as it allows for the targeting of
+[72x643]specificsubgroupsthatwouldbenefitthemostfromaparticularintervention. Forinstance,astudy
+[72x621]by Viviano (2019) demonstrates how to use HTE estimates to improve a weather insurance policy
+[72x599]take-upamongricefarmersinruralChina. Similarly,Hanetal.(2022)useHTEestimatestodesign
+[72x578]multinomialsuccessrulesinpopulationswhereinteractionsoccurwithinnon-overlappinggroups.
+[72x556]To achieve our goal, we develop randomization testing methods that are valid asymptotically for
+[72x534]three useful notions of HTEs in the presence of network interference: (i) the null hypothesis
+[72x512]of constant treatment effects across the population; (ii) heterogeneous treatment effects across
+[72x490]network exposure values only; and (iii) heterogeneous treatment effects across network exposure
+[72x468]values and covariate-defined discrete groups only.
+[89x446]Our reliance on a randomization-based testing method for HTEs in the current paper is mo-
+[72x424]tivated by two main reasons. First, since units are linked through social networks, we cannot
+[72x402]assume that the variables of units are independent. Therefore, the traditional asymptotic-based
+[72x380]inferentialmethodsarenotdirectlyapplicable. Thesecondadvantageoftherandomization-based
+[72x358]testing method is that it is fully parametric and provides exact p-values without imposing restric-
+[72x336]tive conditions on the data generating process (DGP) for
+[345x336]sharp
+[345x336]null hypotheses.
+[451x336]1
+[451x336]Moreover, recent
+[72x314]studies show that even for non-sharp null hypotheses, there are conditional randomization-based
+[72x293]methods that can generate exact conditional p-values without any assumptions on the DGP.
+[89x271]The null hypotheses we consider in this paper are
+[330x271]not
+[347x271]sharp due to two reasons. First, our null
+[72x249]hypotheses contain nuisance parameters which are unknown values in the science tables one will
+[72x227]constructunderthenull. Hence,onecanonlypartiallyimputethepotentialoutcomesthatdepend
+[72x205]on these nuisance parameters under the null hypotheses. The problem of nuisance parameters in
+[72x183]nullhypothesesisnotexclusivetonetworkinterference,buttheremaybemoreoftheseparameters
+[72x161]presentinthissetting. (SeeDingetal.(2016)forahypothesisofconstanttreatmenteffectsunderno
+[72x139]interference). Second, under network interference, the number of potential outcomes depends on
+[72x117]the exposure mapping one imposes. Therefore, without additional restrictions on the underlying
+[72x95]DGP, we cannot impute all missing potential outcomes under the null hypotheses. As a result
+[85x74]1
+[88x74]Under a sharp null hypothesis, all potential outcomes for each unit can be imputed.
+[303x42]3

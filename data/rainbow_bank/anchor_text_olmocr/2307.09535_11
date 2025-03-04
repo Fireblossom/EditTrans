@@ -1,0 +1,254 @@
+Page dimensions: 595.3x841.9
+[102x238]M
+[102x484]ω
+[102x484]it has been shown in \[0\], that in the case
+[102x512]in (2.17) and (2.16), respectively.
+[102x568]3.2.
+[102x568]Energy.
+[102x590]analysis of the series appearing on the right hand side of (3.21).
+[102x313]microscopic mechanical energy density equals
+[102x341]ponent of the energy. Again, assume that the force is given by (3.3). It turns
+[102x355]In what follows we consider the behavior of the mechanical com-
+[102x355]cillating force.
+[102x369]Formula for the total mechanical energy functional for a single mode os-
+[102x369]3.2.1.
+[102x391]n
+[102x526]and the mechanical one
+[102x526]E
+[102x554](3.3). The time average of the expectation of the total energy energy of the chain
+[102x656]formed by the force can be determined from the formula:
+[102x738]3.1.3.
+[102x738]The case of a general periodic force.
+[102x456]and (42)\] give
+[102x724]θ
+[103x466]2
+[103x466](
+[103x475]1
+[105x405]for some constants
+[105x405]C
+[105x604]Therefore its behavior, as
+[107x670]∑
+[107x670]whose real valued Fourier coefficients satisfy
+[109x391], as
+[111x540](
+[114x470]T
+[114x498]Considering the behavior of the thermal energy functional, defined in (2.15),
+[116x540]ω, n
+[118x238](
+[121x468]+
+[121x468]−
+[124x238]ω, n
+[126x568]As in Section 3.1 we assume that the periodic force
+[130x391]→
+[136x540]breaks up into the sum of thermal component
+[136x540])
+[143x238])
+[143x238]=
+[145x468]+
+[146x540]E
+[151x470]for all
+[151x470])
+[153x391]+∞
+[155x261]ω, n
+[156x724]-periodic force of the form
+[161x470]x
+[170x235]x
+[170x242]1
+[174x431]⟨⟨
+[175x238](
+[180x238]ω, n
+[183x431]e
+[188x435]th
+[189x698]F
+[196x470]=
+[197x431]=
+[200x238])
+[202x405]>
+[204x698]t
+[205x242]2
+[206x470]1
+[208x698]/
+[213x698]θ
+[215x238]ω
+[219x698]=
+[219x422]2
+[222x470], . . . , n
+[223x242]2
+[226x431](
+[228x238]+
+[231x431]T
+[236x631](
+[236x710]+∞
+[236x697]∑
+[237x524]mech
+[238x604]gets large, can be determined from the term by term
+[238x429]+
+[238x429]−
+[240x687]=
+[241x631]n
+[242x235]0
+[244x687]1
+[247x238])
+[248x631]=
+[248x631])
+[251x698]F
+[252x238]+
+[254x405]1 independent of
+[254x405]n
+[256x285]x
+[256x285]⟩⟩
+[257x526](
+[257x470]−
+[258x696]ℓ
+[259x238](
+[262x526]ω, n
+[262x429]+
+[265x238]∇
+[265x643]+∞
+[266x630]∑
+[267x470]1. If
+[268x431])(
+[269x619]=
+[273x242]⋆
+[278x431]1
+[278x431]+
+[279x238]G
+[280x698](
+[280x631](
+[282x526])
+[285x698]ω
+[285x631]ω
+[288x242]1
+[288x287]F
+[291x526]∑
+[293x698](
+[293x238])(
+[296x431]o
+[298x631]ℓ
+[301x429]x
+[303x698])
+[303x208]12
+[303x631])
+[303x238]ω, n
+[307x431])
+[308x299]2
+[308x698]t
+[310x523]x
+[312x431],
+[312x698])
+[315x523]∈
+[316x287]M
+[316x629]ℓ
+[317x698],
+[317x698]where
+[319x523]I
+[320x631])
+[321x470]γ
+[322x738]Finally, we remark that in the general
+[323x238])
+[325x279]D
+[325x638]N
+[325x638]2
+[328x242]2
+[329x431]∣
+[332x622]D
+[336x526]e
+[338x484]0 and
+[338x295](
+[340x238](
+[342x622](
+[342x523]x
+[342x523]⟩⟩
+[342x530]mech
+[342x638](
+[344x295]ω, n
+[345x238]2
+[348x405]. As a result we have
+[348x405]E
+[349x484]γ
+[351x238]ωγ
+[354x668]ℓ
+[354x676]+∞
+[355x638](
+[357x668]=
+[360x622]ℓ
+[360x279],
+[362x668]1
+[362x668](
+[363x295])
+[365x622])
+[365x431]o
+[370x287](3.22)
+[370x638], n
+[370x526]e
+[370x238])
+[371x429]x
+[373x670]ℓF
+[376x698](
+[376x242]2
+[376x431]∣
+[376x431]⩽
+[380x238]\[
+[381x698]ℓ
+[381x431]C
+[385x669]ℓ
+[385x238]G
+[386x698])
+[386x698]∶
+[386x468]+
+[389x631].
+[389x482]−
+[389x482]=
+[389x670])
+[392x470], then \[0, formulas (38)
+[392x422]g
+[392x236]x
+[394x674]2
+[396x698]=
+[397x238](
+[398x426]x
+[398x484]γ
+[401x538]th
+[404x670]+∞
+[409x540](
+[411x523]and
+[411x523]x
+[411x530]th
+[411x426]n
+[413x706]πℓ
+[413x690]θ
+[413x690](3.20)
+[415x482]+
+[415x482]we have
+[417x426]+
+[422x426]1
+[426x426]−
+[428x242]2
+[431x426]x
+[432x238]+
+[434x540]=
+[436x426])
+[439x238](
+[443x568](
+[444x540]∑
+[445x238]∇
+[452x568]is given by
+[453x523]x
+[453x523]defined
+[453x242]⋆
+[459x238]G
+[474x405](
+[475x536]n
+[475x536]⟨⟨
+[479x405]ω, n
+[481x238]ω, n
+[485x481]⟩⟩
+[485x488]th
+[493x484]=
+[495x537]⟩⟩
+[495x537]x
+[498x405]∼
+[498x405])
+[501x238])
+[511x238]\]
+[516x238],

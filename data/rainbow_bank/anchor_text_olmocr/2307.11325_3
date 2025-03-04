@@ -1,0 +1,93 @@
+Page dimensions: 612.0x792.0
+[53x549]weather station, (2) Matching timestamps with the queried data, and
+[53x603]weather stations proximate to the study site. The historical data
+[53x373]AM306 (See Figure 1) from the Kruger dataset, we found that the
+[54x85]analysis due to the mismatched timestamps. Hence, an appropriate
+[54x96]that this technique may also introduce some uncertainty into the
+[54x118]igate data loss when aligning data from different sources or with
+[54x139]the ith timestamp in the ordered sequence. This fuzzy matching
+[54x234]tamps
+[54x245]𝑡
+[54x256]process could be described as follows:
+[54x278]half of the median of the difference of timestamps in the dataset.
+[54x311]advanced data processing technique that matches timestamps not
+[54x322]Fuzzy timestamp matching is an
+[54x351]anced locations of interest within the larger clusters identified by
+[54x384]lack temperature data. Based on our experiment with elephant
+[54x417]data and the station data. This correlation, combined with the per-
+[54x450]station data and Kruger temperature data was evaluated using the
+[54x472]meteostat, to ensure a higher temporal granularity that matches the
+[54x483]and interpolating the time series data from the station, provided by
+[54x505]elephant's movement data was computed, which was then used
+[54x614]sources. Using the meteostat python package and API, we identified
+[54x625]explored methods to approximate temperature data from other data
+[54x636]al. \[23\]; Wall et al. \[24\]) lack a temperature feature. Therefore, we
+[54x647]able. Certain studies concerning elephant movement (Tsalyuk et
+[54x658]perature analysis is only feasible when temperature data is avail-
+[54x669]3.3.1 Obtaining Historical Temperature Data.
+[54x687]algorithm's efficiency in identifying locations of interest.
+[54x725]COMPASS '23, August 16–19, 2023, Cape Town, South Africa Hines et al.
+[56x198]where
+[64x516]For the first step, the median latitude and longitude of the given
+[64x560]The procedure entailed three key steps: (1) Identifying a nearby
+[81x187]and
+[81x234]and
+[87x169]𝛿
+[87x169]=
+[88x187]𝑡
+[88x234]𝑡
+[106x169].
+[107x187]2
+[107x234]are said to match if:
+[108x198]|
+[108x169]∗
+[111x187]𝛿
+[111x187]. In this case,
+[142x245]and
+[142x245]1
+[152x216]|
+[153x216]𝑡
+[157x216]−
+[158x169]\[
+[160x187]is calculated as:
+[161x169]𝑖
+[171x216]𝑡
+[171x245]𝛿
+[174x216]2
+[179x216]|
+[184x216]⩽
+[190x169]𝑡
+[197x169]𝑖
+[200x169]\]|)
+[209x169],
+[213x169]∀
+[217x169]1
+[223x169]𝑡𝑜 𝑁
+[257x169]1
+[318x438]𝛿
+[318x522]Xs represent centroids calculated with temperature included
+[318x85]ditional matches, achieved through fuzzy matching, are proximal
+[318x96]fuzzy matching, this percentage rose to 74.50%. Notably, these ad-
+[318x118]case of AG191 from Etosha, conventional timestamp matching re-
+[318x128]matched data can be substantially increased. For example, in the
+[318x161]half the median of the differences between all sequential pairs of
+[318x172]as |t1 - t2|, does not exceed
+[318x172]𝛿
+[318x183]are said to match if the absolute difference between them, denoted
+[318x194]a tolerance level (or fuzzy threshold)
+[318x339]pre-defined threshold for the discrepancy between two timestamps
+[318x350]teria of a match beyond exact timestamp equality, incorporating a
+[318x361]utilized "fuzzy" timestamp matching. This method extends the cri-
+[318x372]of data, which undermines the analysis. To address this issue, we
+[318x394]in the case of AM189 from Etosha, a mere 19.662% of timestamps
+[318x449]balance between data retention and accuracy should be maintained
+[318x500]of clusters calculated solely on location data. Parameters:
+[318x533]perature on elephant AM306 from the Kruger dataset. Black
+[Image 318x563 to 570x708]
+[328x139]By employing fuzzy timestamp matching, the percentage of
+[349x246]% of timestamps found 61.6%
+[349x259]Offset (study – station) 9.840106696689293
+[349x290]Metric Value
+[378x231]Table 1: Statistics for Figure 2
+[423x438].
+[498x172]is calculated as

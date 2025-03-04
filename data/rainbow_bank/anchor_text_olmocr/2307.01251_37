@@ -1,0 +1,134 @@
+Page dimensions: 595.3x841.9
+[65x509]states GHZ
+[65x550]over subsystems with
+[65x562]in the sense that the probability
+[65x562]P
+[65x598]tends to infinity.
+[65x634]the number of settings increases, so does the chance of finding suitable pairs of settings. Secondly, new inequalities
+[65x646]five settings,
+[65x646]P
+[65x658]creases rapidly with the number of measurement settings per party. For the GHZ state, already for two parties and
+[65x405]setting Bell inequalities (in practice only realisable via the numerical method discussed in Sec. 5.3) it turns out that
+[65x417]More generally, if we are not restricted to any particular type of inequality and consider the full set of possible two-
+[65x670]Dependence on number of measurement settings.—
+[65x694]typicality of non-locality.
+[65x721]5.4. Properties of the probability of violation
+[65x357]One commonly used measure of non-locality, namely the robust-
+[65x441]Maximal probability of violation.—
+[65x297]the value is maximised by the maximally entangled states and the anomaly disappears at least for
+[65x309]white noise while remaining non-local than the maximally entangled states. For the probability of violation, however,
+[65x190]Typicality of non-locality.—
+[65x214]criteria can also be formulated. However, so far they are only based on numerics, see, e.g. Ref. \[279\].
+[65x250]Witness for genuine multipartite entanglement.—
+[65x250]The probability of violation can also serve as a witness of genuine
+[65x273]correlation Bell inequalities is an entanglement monotone.
+[65x321]d
+[65x321]lation by the
+[65x333]is the discrepancy between the maximal violation of the two-setting
+[65x333]d
+[65x345]ness to white noise, was already introduced in Eq. (5.2). However, it has many disadvantages. One flagship example
+[65x381]P
+[65x381]to explicitly find the state which maximises
+[65x166]n
+[65x178]non-locality is not only under variation of observables but also of states. In Ref. \[274\], it was shown that the typical
+[65x154]any choice of observables (
+[67x521]This immediately hints at the increase of
+[69x166]-qubit states present in many quantum information problems for
+[69x166]n
+[79x706]In the following, we briefly present the most important properties of the probability of violation and the notion of
+[116x321]ˆ
+[120x513]n
+[124x509]. Using the result
+[124x509]P
+[124x645]is close to 100%. This fact can be explained in two ways. Firstly, from a statistical point of view, as
+[124x645]V
+[133x321]d
+[140x487]P
+[174x154]P
+[178x190]The notion of probability of violation also allows to address the question how typical
+[179x485]2
+[181x152]V
+[183x491]b
+[194x495]˘
+[200x561]"
+[201x154]99
+[201x487]"
+[202x507]p
+[206x441]It was shown that the
+[206x441]n
+[210x154].
+[211x465].
+[211x487]1
+[213x509]GHZ
+[213x154]99%). In Ref. \[268\], through a sampling of the whole state space of pure states
+[224x562]1
+[224x562]´
+[229x487]P
+[236x537]BL
+[236x392]V
+[240x574]The probability of violation is not additive, but rather multiplicative \[274\],
+[240x519]V
+[242x562]P
+[245x539]p
+[247x495]`
+[247x380].
+[247x380]V
+[248x521]n
+[249x539]ϱ
+[254x537]1
+[254x509]2
+[259x130].
+[262x130]99%.
+[263x509]π
+[271x509]´
+[272x485]2
+[275x537]2
+[279x539]q"
+[279x539]P
+[282x491]n
+[286x509]q
+[286x238]P
+[286x238]3 and two settings per party,
+[293x93]38
+[293x487]"
+[298x441]-particle GHZ state maximises the probability of violation
+[303x537]BL
+[304x487]´p
+[304x487]1
+[313x539]p
+[317x539]ϱ
+[321x429]n
+[321x537]1
+[325x539]q
+[326x166]ě
+[326x429]-particle correlation functions when
+[326x429]n
+[331x539]P
+[342x333]-outcome CGLMP inequality \[277\] and its vio-
+[347x487]GHZ
+[347x539]p
+[351x539]ϱ
+[356x537]2
+[360x539]q
+[364x539](92)
+[364x539].
+[371x487]qq
+[379x492]"
+[379x492]n
+[396x487]1
+[396x487]´p
+[409x236]V
+[409x236]ą
+[417x487]´
+[434x238]p
+[437x238]π
+[439x487]π
+[445x487]q
+[448x491]n
+[452x487],
+[455x238]3
+[461x297]ď
+[461x521]two-qubit GHZ
+[481x297]10 \[278\]. In
+[508x393]ffi
+[516x393]cult

@@ -1,0 +1,67 @@
+Page dimensions: 612.0x792.0
+[53x413]we construct a special ridge stream which utilizes this unique fin-
+[54x260]features, our method can avoid overfitting to certain frequency
+[54x293]typical CNNs can learn certain frequency information from the
+[54x315]features extracted from the ridges and generation artifacts in the fi-
+[54x326]from the FFT frequency spectrum. To simultaneously utilize the
+[54x348]simple yet effective convolutional neural network to learn more
+[54x359]alyze the generation artifacts in these spectrum, and construct a
+[54x370]the input fingerprint image into different frequency domains, an-
+[54x392]by \[13\], which discovers the obvious generation artifacts in the
+[54x402]gerprint characteristic. In the generation artifact stream, inspired
+[54x446]exploiting the unique features of the fingerprint images and gen-
+[54x457]construct a lightweight yet robust two-stream neural network, by
+[54x501]forensic method \[ 11\], in this paper, we propose a
+[54x512]gerprint images with decent robustness against the existing anti-
+[54x545]ness detection methods can hardly be directly applied to detect the
+[54x567]processing operations in GANs and does not exist in the captured
+[54x600]the fake fingerprint images are generated without the defects of
+[54x633]i.e.
+[54x644]odor, finger elasticity,
+[54x655]detection methods usually rely on collecting the pulse rate, skin
+[54x665]ferences between the artificial and real fingers, existing liveness
+[54x687]tation attacks, which construct artificial fingers \[34\] to circumvent
+[54x698]detection methods \[9, 15, 29, 37\] only focus on coping with presen-
+[54x725]Conference'17, July 2017, Washington, DC, USA Hui Miao, Yuanfang Guo, and Yunhong Wang
+[59x490]D
+[64x523]To efficiently and effectively identify the GAN-generated fin-
+[70x142]•
+[70x196]•
+[78x87]and thus improves the overall robustness.
+[78x131]construct a ridge stream, which exploits the grayscale varia-
+[78x153]robustness and efficiency of the proposed work.
+[78x174]unique 1D ridge features and 2D generation artifact features
+[78x185]GAN-generated fingerprint images, by jointly exploiting the
+[91x490]etection method
+[130x501]R
+[151x490]GAN-generated
+[253x501]obust deep
+[257x633], replacing
+[318x85]aware features and merge them with the extracted spatial domain
+[318x96]Spatial-Phase Shallow Learning method. \[26\] captures frequency-
+[318x107]and phase spectrums to emphasize the artifacts and proposes a
+[318x139]architectures, and these artifacts can be utilized for forgery detec-
+[318x172]the robustness of face forgery detection. \[13\] observes that GAN-
+[318x280]firstly uses traditional methods (
+[318x301]photorealistic fingerprint images. \[44\] also proposes a CycleGAN-
+[318x312]synthesize the fingerprint skeletons and CycleGAN \[46\] to generate
+[318x334]attempts to employ conventional rotation instead of the deep learn-
+[318x345]GAN-based methods (
+[318x356]final impression (fingerprint) generation approach. \[12\] utilizes the
+[318x411]and different contact regions between the finger and the fingerprint
+[318x433]defines a ridge structure and represents a new identity. After non-
+[318x444]ods \[12, 17, 39, 44\] firstly synthesize a binary masterprint which
+[318x455]tiple impressions for a virtual identity, many multi-staged meth-
+[318x488]techniques can be considered as single-staged architectures, whose
+[318x510]and generate DeepMasterPrints which are synthetic fingerprints
+[318x532]a GAN-based pipeline followed by a stochastic search algorithm
+[318x543]based method (
+[318x605]2 RELATED WORK
+[328x466]To make the synthetic results more realistic and obtain mul-
+[334x698]•
+[342x655]Comprehensive experiments demonstrate that our method
+[342x665]network, to extract frequency-domain inconsistencies.
+[342x698]We analyze the frequency spectrum of the real and generated
+[401x345]e.g.
+[439x676], a shallow convolutional neural
+[453x280], Anguli \[1\], Gabor filter) to

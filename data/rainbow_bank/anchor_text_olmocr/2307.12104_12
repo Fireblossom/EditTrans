@@ -1,0 +1,188 @@
+Page dimensions: 612.0x792.0
+[72x210]k
+[72x210]derive the HJB equation characterizing best-response
+[72x228]left-continuous and finite piecewise Lipschitz by assumption. Using standard arguments, I
+[72x247]p
+[72x266]{
+[72x266]That is, suppose that the strategies of all other agents are exogenously fixed at
+[72x285]problem of a single agent reacting to a given profile of Markov strategies of the other agents.
+[72x303]Since I am interested in Markov perfect equilibria, I start by considering the best response
+[72x330]4.2 Best Response Problem
+[72x370]concerned with these details may skip the next subsection and proceed to Section 5.
+[72x408]or help the other agents.
+[72x426]Thus, the source of any potential inefficiency is the extent to which the externalities harm
+[72x464]the relative benefits of winning versus the status quo in an efficient manner; however, they do
+[72x483]dependence). Hence, in the noncooperative game, agents are intuitively already trading off
+[72x501]benefit of winning versus the status quo project (and in fact,
+[72x501]b
+[72x520]i
+[72x520]the effort of the other agents. Instead, the effort choice for agent
+[72x689]λ
+[72x689]Changing
+[72x708]difference in belief between the cutoff belief for the first-best and the cutoff in any MPE).
+[72x670]also has no impact on efficiency.
+[72x539]K
+[72x539]agents
+[72x558]i
+[72x558]consider the best-response problem of agent
+[72x595]in the noncooperative game to experiment more but also induces more experimentation in the
+[72x614]R
+[72x614]incremental increase in
+[72x633]for efficiency does not depend on what the winner receives. To understand this, consider an
+[72x172]u
+[72x172]equation characterizing
+[72x191]i
+[72x191]denote the value function of agent
+[76x100]where
+[78x136]u
+[85x136](
+[90x389]The next subsection outlines the technical steps to prove Theorem 2. A reader less
+[90x652]R
+[90x652]More notably, the efficiency condition is independent of
+[95x136]) =
+[95x136]π
+[122x134]s
+[122x134]+
+[124x689]scales the noncooperative game and the first-best solution identically and hence
+[125x537]i
+[125x537]brings about a "loss" event at a rate of
+[133x539]λK
+[138x136]K
+[148x134]−
+[155x134]i
+[158x136](
+[163x136]p
+[169x136])
+[175x153]
+[184x136]pλR
+[195x172]is given by
+[197x81]b
+[201x612]w
+[202x79]I
+[206x134]l
+[206x134]+
+[206x81](
+[211x81]p, u, u
+[212x136]b
+[212x614]π
+[228x134]I
+[233x612]w
+[233x136](
+[238x136]p, u, u
+[239x614]R
+[239x614], fixing
+[241x86]′
+[243x81]) =
+[243x81]pλ
+[252x191]'s best-response Markov decision process. Then the HJB
+[267x141]′
+[270x136])
+[270x136]−
+[271x73]r
+[277x136]pλ
+[283x81]π
+[287x612]and
+[290x79]w
+[290x79]−
+[294x614]π
+[297x128](
+[297x128]r
+[299x81]u
+[300x42]13
+[309x136]π
+[309x558]i
+[309x558]. For agent
+[316x134]−
+[318x81](
+[323x81]p
+[323x612]l
+[325x136]π
+[326x614]. Any incremental increase induces agents
+[329x81]−
+[329x81])
+[336x81](1
+[339x247]is
+[344x134]l
+[347x136])
+[348x81]−
+[349x247]K
+[351x153]
+[354x208]i
+[354x208]given the function
+[360x537]−
+[361x81]p
+[361x210]K
+[362x136]+max
+[367x537]i
+[370x539]i
+[370x539], but agent
+[371x245]−
+[378x245]i
+[378x558], the cumulative effort of other
+[379x81])
+[379x128]k
+[381x247](
+[382x650]and
+[382x650]w
+[383x81]u
+[390x86]′
+[392x652]π
+[392x247]) =
+[392x247]P
+[393x81](
+[396x136]\[
+[399x136]k
+[403x81]))
+[405x134](
+[405x134]i
+[412x81],
+[412x81](6)
+[415x500]I
+[415x500]and
+[415x136]b
+[420x134]I
+[425x136](
+[425x244]j
+[425x501]c
+[427x652]; that is, the condition
+[429x244]=
+[429x244]̸
+[430x136]p, u, u
+[432x520]weighs the relative
+[433x539]has no agency over
+[436x244]i
+[436x244]σ
+[448x245]j
+[452x247](
+[455x500]I
+[455x500]have no
+[457x247]p
+[459x141]′
+[462x136]−
+[462x136])
+[463x247]), which is also
+[466x501]R
+[467x208]−
+[473x208]i
+[477x210](
+[481x266]σ
+[481x210]p
+[486x134]I
+[487x210]). Let
+[487x210]u
+[491x136](
+[492x266]}
+[498x264]j
+[501x136],
+[501x136]))\]
+[502x264]̸
+[502x264]=
+[508x264]i
+[512x266]. The
+[516x136](5)
+[522x500]l
+[525x501], π
+[528x210](
+[532x210]·
+[535x210])
+[537x500]l

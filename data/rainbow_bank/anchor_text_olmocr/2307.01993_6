@@ -1,0 +1,131 @@
+Page dimensions: 612.0x792.0
+[54x555]n
+[54x567]n
+[54x567]at the critical
+[54x578]the filling, which serves as an order parameter for the transition. This order parameter changes from zero to nonzero
+[54x590]can similarly consider the fraction of frozen sites averaged over all configurations in a symmetry sector as a function of
+[54x498]restricted to a specific symmetry sector, as shown in Fig. 8.
+[54x521]length itself diverges as
+[54x521]ξ
+[54x601]random initial state. At the critical point,
+[54x601]D
+[54x613]ratio approaches order one, indicating weak fragmentation, and the system thermalizes with high probability from a
+[54x532]P
+[54x532]We find that the distribution of the sizes of the thermal bubble again obeys
+[54x75]about the red line (orange paths in the right pannel).
+[54x85]can count the number of disallowed paths by mapping such paths to those connecting the origin and the mirror-reflected point
+[54x106]n
+[54x117]FIG. 5. Computing the size of the largest Krylov sector by mapping to the combinatorial problem of counting the number of
+[54x624]The ratio decays exponentially with
+[54x624]L
+[54x636]vanishingly small fraction of the full symmetry sector in the thermodynamic limit, indicative of strong fragmentation.
+[54x647]n
+[54x659]r
+[54x659]algorithm outlined in the main text, which works independent of the range
+[54x670]analytic expressions for the size of the largest Krylov sector as in the case of
+[54x670]r
+[54x96]y
+[54x96]restricted within the yellow shaded region, i.e., they cannot touch or cross the red dashed line
+[54x693]essential physics discussed in the main text is independent of the range
+[54x693]r
+[64x510]Finally, we confirm that charge transport is diffusive in the thermal phase by computing the autocorrelation function
+[64x544]We also consider the process of thermal inclusion in this case, for which numerical results are summarized in Fig. 7.
+[64x681]We start by showing our diagnostics for the phase transition in Fig. 6. Notice that in this case, we do not have
+[64x704]In this section, we present additional numerical results for the East model with range
+[64x704]r
+[122x327](b)
+[123x565]c
+[123x688](a)
+[127x567], as shown in Fig. 6(d). Notice that the position of the critical point is again in excellent agreement
+[129x316]<latexit ... L  N  1 ,N + 1)\n(a)\n(b)
+[159x521]∼
+[167x521](
+[181x521]n
+[182x554]c
+[182x554]=
+[187x520]c
+[187x520]−
+[189x555]1
+[193x521]n
+[201x552]r
+[205x552]+1
+[209x521])
+[213x525]−
+[215x730]Appendix B: Numerical results for
+[216x555]/
+[219x525]ν
+[219x525]with
+[221x624]upon increasing system size in this regime \[Fig. 6(b)\]. For
+[226x106]= 0
+[233x624]n > n
+[240x646]c
+[240x646]≈
+[249x106].
+[250x521]≈
+[251x600]max
+[251x106]n >
+[251x106]5; (b)
+[259x521]2.
+[266x647].
+[266x601]/D
+[268x647]n < n
+[268x647]33 \[Fig. 6(a)\]. For
+[279x600]sum
+[279x600]again shows a power-law decay with system size as
+[296x106]0
+[297x601]L
+[309x555]3 for
+[309x555]r
+[330x234](
+[333x555]= 2.
+[338x234]N,L
+[373x693].
+[380x730]r
+[380x730]= 2
+[384x646]c
+[385x654](
+[388x647], the largest Krylov sector constitute a
+[393x654]N,N
+[393x532]l
+[396x670]= 1. So we implement the recursive
+[396x532])
+[396x532]∼
+[403x532]l
+[404x234]N
+[405x659]. The ratio
+[405x659]D
+[417x536]−
+[423x536]3
+[423x234])
+[427x536]/
+[431x536]for
+[431x536]2
+[438x532]l < ξ
+[443x704]= 2. We will see that the
+[465x96]+ 1 (left pannel). We
+[471x657]max
+[474x532], and the correlation
+[499x657]exhibits a
+[499x657]sum
+[530x605]−
+[536x605]1
+[536x623]c
+[540x624], the
+[541x601]. We
+[557x756]7
+[588x329](
+[589x345]<latexit ... iWD6VkgGWGCidExzW2w74M44rXP5fh7+T5rFglkunN2WstXLJKEU2AcHIAdMUAFVcA3qoAEICMEjeALPxoPxYrwab7PWBSOZ2QNzMN6/ADx9l3w=</latexit>
+[596x329]L
+[615x329]
+[636x329]N
+[644x691](
+[646x705]<latexit ... E4QF1bdCPEACYaUzmtviuiHzxjmdi72Ywl/SPDftS/PitlSoXqUJZcEBOARFYIMyqIIbUAcNgEEAnsAzeDEejVfjzXiftWaMdGYfzMH4+AbEvZa7</latexit>
+[652x691]N
+[659x329]
+[673x691]
+[680x329]1
+[690x329],N
+[691x691]1
+[701x691],N
+[723x329]+ 1)
+[730x691]+ 1)

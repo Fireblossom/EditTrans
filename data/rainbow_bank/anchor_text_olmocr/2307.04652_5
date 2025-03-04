@@ -1,0 +1,140 @@
+Page dimensions: 612.0x792.0
+[202x514]Figure 3: Construction of
+[202x514]d
+[327x514]BQ
+[345x514](
+[349x514]ℓ,
+[349x514]2
+[364x514]k
+[364x514]−
+[372x514]1).
+[182x362]Figure 4:
+[182x362]d
+[229x362]BQ
+[247x362](2
+[256x362],
+[256x362]3), presented two different ways.
+[44x327]Proposition 2.
+[44x327]Given integers
+[127x327]l
+[201x327]and
+[209x327]k
+[231x327]where
+[241x327]l, k
+[291x327]≥
+[291x327]2
+[309x327], the shortest negative cycle of
+[462x330]d
+[462x327]BQ
+[479x327](
+[483x327]ℓ,
+[483x327]2
+[498x327]k
+[498x327]−
+[507x327]1)
+[518x327]is of
+[44x314]length
+[44x314]min
+[94x314]{
+[99x314]2
+[105x314]l,
+[105x314]2
+[119x314]k
+[125x314]}
+[130x314].
+[44x283]Proof.
+[44x283]We first present two natural choices for a negative cycle, one of length 2
+[78x283]k
+[425x283]and another of length 2
+[434x283]l
+[551x283].
+[44x269]The first is a negative cycle on the first two layers. Take a positive edge and connect its two ends with one
+[44x256]of the two paths using only the negative edges that connect the two layers. This would result in a negative
+[44x242]cycle of length 2
+[44x242]k
+[128x242]. The second negative cycle we consider is by taking a positive edge and connecting each
+[44x229]of its ends to the vertex
+[44x229]u
+[165x229]by a shortest path (all edges negative). One of these paths will be of length
+[175x229]l
+[44x215]and the other would be of length
+[44x215]l
+[203x215]−
+[219x215]1. Together with the first chosen edge itself then, they form a negative
+[44x202]cycle of length 2
+[44x202]l
+[125x202].
+[44x179]It remains to show that the shortest of these two types of cycles gives us the negative girth. To that end,
+[44x166]we will first show that a shortest negative cycle can only use one positive edge of
+[44x166]d
+[439x166]BQ
+[457x166](
+[461x166]ℓ,
+[461x166]2
+[476x166]k
+[476x166]−
+[484x166]1). Towards
+[44x152]a contradiction, let
+[44x152]C
+[138x152]be a negative cycle with more than two positive edges. We aim to present a negative
+[44x139]cycle
+[44x139]C
+[79x143]′
+[79x143]whose length is at most
+[86x139]|
+[207x139]C
+[215x139]| −
+[232x139]2. We take two positive edges of
+[232x139]C
+[392x139]that come consecutively on the
+[44x125]cyclic order. Assume
+[44x125]xy
+[148x125]and
+[164x125]x
+[192x129]′
+[195x125]y
+[200x129]′
+[200x129]are these two edges and that
+[207x125]x
+[356x129]′
+[356x129]is followed by
+[363x125]y
+[432x125]in the cyclic order of
+[441x125]C
+[44x112](that is to say, there is no positive edge in the
+[44x112]x
+[282x116]′
+[282x116]−
+[288x112]y
+[300x112]path in
+[310x112]C
+[358x112]). We remove the two positive edges
+[358x112]xy
+[44x98]and
+[44x98]x
+[71x102]′
+[74x98]y
+[80x102]′
+[80x102]and the
+[87x98]x
+[133x102]′
+[136x98]y
+[136x98]path connecting them in
+[146x98]C
+[276x98], but then we add a
+[276x98]xy
+[388x102]′
+[388x102]copy of this path (which also has
+[44x85]no positive edge). The result is a closed walk whose sign is the same as that of
+[44x85]C
+[449x85], and whose length is
+[44x71]|
+[47x71]C
+[55x71]| −
+[71x71]2. But then this closed walk must contain a negative cycle, whose length then is also at most
+[71x71]|
+[521x71]C
+[530x71]| −
+[545x71]2,
+[44x58]a contradiction.
+[296x15]6

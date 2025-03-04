@@ -1,0 +1,222 @@
+Page dimensions: 612.0x792.0
+[71x510]store during the last seven days; and
+[71x474]Importantly, the stochastic demand shock
+[71x631]expected demand and variance:
+[71x74]one day. Delivery lags exceeding three days were described as extremely rare.
+[71x432]Step (iii)
+[71x456]at the beginning of the day when she makes her ordering decision.
+[71x673]set
+[71x673]Y ≡ {
+[71x691]become available to consumers.
+[71x709]decision. More specifically, it takes one day for an order to be delivered to the store and
+[71x251]substitute the product within the store. On the other hand, if
+[71x269]stockout can be smaller than the revenue loss from excess demand because some consumers
+[71x197]γ
+[71x197]at the store. Parameter
+[71x215]γ
+[71x179]placing an order, and
+[71x161]from the warehouse to the store. The variable
+[71x125]are i.i.d. with a Extreme Value type 1 distribution. Parameter
+[71x107]deviation of the shocks in ordering costs.
+[74x305]c
+[74x305]where
+[74x546]η
+[75x370]The store generates flow profits
+[77x337]Π
+[80x90]13
+[86x336]= (
+[89x86]Based on the interviews we conducted with store managers, the most common delivery lag reported is
+[96x337]p
+[112x303]is the wholesale price, and
+[115x543]0
+[120x546]η
+[120x546],
+[120x673]0
+[120x649]. Demand
+[120x649]d
+[125x336]−
+[125x336]t
+[126x673]1
+[126x673],
+[132x219]·
+[133x544]p
+[137x673], ..., J
+[137x546],
+[137x546]η
+[148x336]t
+[152x337]) min
+[152x337]{
+[154x213]represents the storage cost associated with holding
+[154x213]t
+[157x546], and
+[165x673]}
+[168x492]F
+[169x287]γ
+[171x673].
+[176x291]>
+[179x603]
+[180x489]t
+[180x489]to represent the distribution of
+[183x179]γ
+[183x648]t
+[184x287]0
+[186x546]α
+[190x337]d
+[196x598]ln
+[199x337], k
+[202x287], the term
+[205x577]σ
+[206x432]q
+[211x430]units of inventory, which is the minimum of supply and demand:
+[211x430]t
+[212x574]t
+[212x574]=
+[213x595]t
+[213x595]=
+[213x603]e
+[214x337]}
+[214x337]+
+[223x337]γ
+[224x577]d
+[225x598]η
+[231x696]13
+[231x696]The ordered amount
+[240x370]Π
+[246x337]{
+[246x337]1
+[247x574](1 +
+[249x368]t
+[249x595]0
+[249x595]seas
+[249x603]′
+[252x370]. The profit function has the following form:
+[252x305]γ
+[257x577]α d
+[258x510]α
+[258x510]denotes the over-dispersion parameter in the Negative
+[258x394]t
+[258x394]= min
+[259x337]d
+[259x309]z
+[261x528]Q
+[263x291]·
+[263x291]z
+[264x305],
+[265x336]> k
+[265x336]t
+[269x396]{
+[270x525]is the average daily sales of the product in the
+[270x525]t
+[270x534]\[
+[273x534]−
+[274x287]{
+[274x287]1
+[277x309]h
+[281x596]t
+[281x596]+
+[282x305]γ
+[282x305],
+[283x534],
+[286x534]−
+[287x287]d
+[287x474]u
+[290x336]t
+[293x285]t
+[294x337]} −
+[294x471]t
+[299x574]t
+[299x574])
+[299x581]e
+[299x305],
+[299x305]γ
+[300x41]21
+[303x544]is a vector of seasonal dummies (i.e., weekend
+[303x544]t
+[305x596]ln
+[307x396]d
+[312x161]ε
+[313x309]f
+[313x309], and
+[315x474]d
+[317x159]t
+[319x285]t
+[321x342]h
+[322x287]captures the situation where the cost of a
+[322x287]}
+[323x394], k
+[325x161]y
+[331x159]t
+[333x472]t
+[333x472]−
+[333x596]t
+[335x161]corresponds to a stochastic shock with
+[335x161])
+[336x336]−
+[336x336]t
+[342x337]γ
+[346x394]}
+[346x305]σ
+[349x474]ln
+[352x492]d
+[353x303]are store-product-specific structural
+[354x691]y
+[357x596]Q
+[358x490]conditional on
+[358x490]t
+[360x689]t
+[360x689]is a discrete variable with support
+[361x342]y
+[367x471]is unknown to the store manager
+[367x478]e
+[370x598]Q
+[380x337]γ
+[385x251]γ
+[391x596]t
+[391x604]\[
+[392x255]<
+[392x255]z
+[393x604]−
+[399x342]f
+[399x342]1
+[404x125]σ
+[411x124]ε
+[411x124]represents the standard
+[413x604]1\]
+[418x251], this term can represent
+[427x336]t
+[427x336]>
+[434x337]0
+[440x213]units of inventory
+[441x141]t
+[444x492](
+[444x143](0)
+[448x492]p
+[452x337]}
+[454x490]t
+[458x492], Q
+[459x143],
+[459x143]ε
+[460x337]σ
+[472x489]t
+[472x141]t
+[476x143](1)
+[479x336]ε
+[481x498]7
+[485x498],
+[488x498]−
+[491x143], ...,
+[492x336]t
+[494x498]1\]
+[496x337](
+[497x233]?
+[501x337]y
+[501x492]seas
+[506x336]t
+[510x337](13)
+[520x589](11)
+[524x143](
+[529x143]J
+[530x490]t
+[533x492])
+[537x143])
+[538x492].

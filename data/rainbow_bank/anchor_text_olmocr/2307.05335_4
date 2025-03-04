@@ -1,0 +1,185 @@
+Page dimensions: 612.0x792.0
+[92x374]total variation distance are presented in Section 5.
+[92x390]including the statement of residual dependence. Two auxiliary technical results related to calculations of the
+[92x405]been able to locate in the literature, are given in Section 4. The proof of Theorem 1.1 is given in Section 3,
+[92x421]the corresponding results in Section 2 below. The proofs of these local limit theorems, which we have not
+[92x436]also for the total number of positive spins
+[92x436]P
+[92x523]µ
+[92x523]for example, in \[17, Section 5.2\] and \[2\]. In particular, an explicit representation of
+[92x656]under the Gibbs measure. The reason for the non-zero limit is the fact that the distribution of
+[92x656]P
+[92x671]the right-hand side is non-zero, which suggests that there is a residual dependence between the
+[92x671]k
+[92x238]Assume that h
+[92x238]Proposition 2.1.
+[92x262]Nm
+[92x492]chaos principle stating that the distribution of
+[92x507]Bernoulli measures (valid for each fixed
+[92x507]N
+[92x538]1.2
+[92x538]Remark
+[92x563]measure.
+[92x578]P
+[92x609]Gibbs measure. The distance between these normal distributions appears on the right-hand side of (13).
+[92x625]P
+[92x640]the corresponding binomial distribution satisfy central limit theorems with different variances, the variance
+[94x193]and the following local limit theorem holds true:
+[95x278]δ
+[95x278]Put
+[104x325]N
+[104x325]Denote by
+[104x687]Let us now informally discuss the case when
+[104x687]α
+[104x452]The paper is organized as follows. Our proof relies on local limit theorems for the magnetization
+[105x576](
+[108x576]N
+[113x623]k
+[114x576])
+[114x576]under
+[115x262]N
+[117x623](
+[117x276]N
+[117x276]:
+[119x623]N
+[125x623]being strictly larger, which comes from the fact that the spins are positively correlated under the
+[125x623])
+[139x538].
+[139x538]The exchangeability of the measure
+[142x278]−
+[142x278]1
+[147x538]µ
+[147x325](
+[151x577]N
+[151x577]. In some sense, this describes the residual dependence between the spins under the Gibbs
+[158x278](
+[162x278]−
+[164x325]m
+[166x159]N
+[169x325],
+[171x165]lim
+[171x159]− →
+[173x325]v
+[175x278])
+[178x711]WHEN DOES THE CHAOS IN THE CURIE-WEISS MODEL STOP TO PROPAGATE? 5
+[178x329]2
+[179x282]N
+[182x325])
+[182x325]a Gaussian distribution with mean
+[189x278]/
+[189x325]m
+[190x174]√
+[191x214]N
+[192x347]2. L
+[192x347]OCAL LIMIT THEOREM FOR THE MAGNETIZATION
+[194x278]2. This correction term appears below in the local limit theorems for
+[194x278]m
+[198x227]
+[198x165]N
+[198x165]sup
+[207x156]ℓ
+[210x156]∈
+[212x216]N
+[215x302]N
+[221x238]0
+[223x216]m
+[225x165]µ
+[230x214]N
+[230x214]−
+[231x164]N
+[231x302]m
+[231x238]or
+[236x302],
+[238x179]
+[239x238]0
+[240x302]v
+[242x262].
+[246x172]Nm
+[248x594]binomial distribution which approximates the distribution of
+[250x238]<
+[252x216](
+[256x216]β
+[257x302]A
+[260x170]+
+[260x170]N
+[262x216],
+[264x302]) =
+[264x158]2
+[265x507]) can be found in \[17, Theorem 5.6\]. A general propagation of
+[266x216]h
+[267x238]<
+[271x216]∈ ·
+[276x238]1
+[277x435]N
+[277x172]δ
+[280x315]Z
+[280x492]entries in a finite exchangeable vector of length
+[282x170]N
+[286x436]µ
+[288x492]n
+[291x238]. Then
+[293x227]
+[293x687]>
+[298x302](
+[301x302]t
+[303x687]0. For simplicity, we consider (13). The limit on
+[303x216]=
+[305x302];
+[308x302]m
+[309x216]N
+[309x216]⇒
+[314x302],
+[314x165]−
+[318x302]v
+[318x435]N
+[318x435]. In some regimes those are known. We collect
+[323x306]2
+[323x165]ϕ
+[327x325]and variance
+[331x302]d
+[335x325]v
+[338x227]
+[339x302]A
+[343x165];
+[344x216]0
+[349x216],
+[352x216]v
+[353x302]∈
+[358x213]β
+[358x220]2
+[360x172](
+[363x213],
+[363x158],
+[364x172]β
+[365x213]h
+[375x172]h
+[376x216],
+[376x216]N
+[379x302](
+[383x302]R
+[390x216]−→
+[390x174]N
+[390x302])
+[393x329]2
+[394x302].
+[397x325], so
+[399x158]4
+[402x171]β
+[402x178]2
+[409x171]h
+[415x182]!
+[417x216]∞
+[423x159]=
+[425x216],
+[448x521]as a mixture of
+[448x521]N
+[482x671](
+[485x492]can be
+[486x671]N
+[488x654]k
+[488x276], since
+[488x276]N
+[493x671])
+[494x654]N
+[498x450]N
+[499x654])

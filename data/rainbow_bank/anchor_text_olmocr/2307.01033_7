@@ -1,0 +1,218 @@
+Page dimensions: 595.3x841.9
+[72x598]⌈
+[72x620]Condition R.
+[72x649]condition is also weaker than imposing the sub-Weibull property of Wong et al. (2020).
+[72x671]the random variables
+[72x693]restrictive. Condition MOM may be rewritten to allow for different order of moment bounds on
+[72x715]errors may be heavy-tailed, such that the sub-Gaussianity or sub-exponentiality property is
+[72x737]sub-exponential random variables. In financial settings, the state variables and idiosyncratic
+[72x291]X
+[72x291]R.3 is the standard exponential rate imposed in the LASSO problem if
+[72x269]i, j
+[72x379]X
+[72x401]not be imposed for iid data. Condition R.2 reflects the polynomial tail part in the Fuk-Nagaev
+[72x423]∥
+[72x160]µ
+[72x160]low. The value of
+[72x182]µ
+[72x182]Moreover, the parameter
+[72x247]R.4 requires that the estimation error in the auxiliary conditional variable converges to zero in
+[72x313]moment conditions, Condition R.2 becomes less restrictive on the rates of
+[72x94]d
+[72x94]the parameters. The convergence rate improves for large
+[72x116]between the convergence rates of the estimator and predictions (see Lemma 1) and the rates of
+[72x335]we observe that, if the value of
+[72x335]q
+[72x357]i, j
+[72x357]not sub-Gaussian or sub-exponential random variables, for any
+[72x72]µ
+[72x72]choose
+[72x138]to
+[76x598]T
+[77x423]−
+[77x423]Y
+[78x426]ˆ
+[85x568]pd
+[85x568]1.
+[85x538]s
+[85x474]4.
+[85x474]∥
+[85x505]s
+[85x505]3.
+[88x602]/(
+[89x759]Condition MOM is imposed to allow for
+[89x204]a
+[89x445]s
+[89x445]Finally, Condition R imposes rates on the parameters
+[96x602]1
+[97x423]∥
+[97x423]Y
+[97x138]λ
+[104x474]Y
+[104x536]0
+[104x503]0
+[110x605]′
+[110x543](
+[110x566]T
+[110x566]a
+[110x427]2
+[113x76]′
+[113x76]large. On the other hand, Condition R.1 restricts
+[114x543]pa
+[115x474]˜
+[115x423]/
+[117x535](
+[120x535]q
+[120x423]T
+[120x72]p
+[123x564]T
+[123x564]=
+[123x573]−
+[123x542])
+[123x542]T
+[123x535]−
+[125x598]d
+[127x535]1
+[128x423]. Conditions R.1 is a consequence of the time-series features of the data and need
+[128x573]µ
+[129x500]d
+[131x535])/
+[133x511]pa
+[134x498]T
+[136x546]/
+[137x535]q
+[137x478]2
+[142x509]T
+[142x509])
+[142x474]/
+[145x568]o
+[147x474]=
+[147x538]=
+[150x568](
+[152x596]T
+[152x596]=
+[155x568]1
+[155x505]=
+[160x568]if
+[160x568])
+[161x538](
+[164x505]o
+[166x474]o
+[168x164]may be chosen close to
+[168x164]′
+[169x568]B
+[169x505](
+[170x598]⌊
+[171x473]P
+[171x473](
+[171x538])
+[174x505]1
+[174x598]T
+[175x160]µ
+[176x538];
+[178x620](
+[182x598]/(
+[183x620]k
+[183x474]1
+[184x505];
+[186x670]i
+[188x474])
+[189x670]1
+[193x474].
+[193x671]ε
+[197x598]a
+[198x620]Bk
+[199x568]0;
+[202x596])⌋
+[207x671]X
+[209x598]for some
+[233x335]increases, such that the random variables satisfy stricter
+[234x620]B
+[238x670]i
+[245x671]X
+[254x670]j
+[263x671],
+[263x671]i, j
+[267x202]and
+[267x202]T
+[272x602]′
+[272x602]∈
+[278x759]X
+[278x204]d
+[286x671]∈
+[286x671]\[
+[290x757]1
+[295x759]ε
+[295x42]8
+[296x598], µ
+[297x160]d
+[300x757]1
+[304x671]\]
+[307x202], which depend on
+[308x759]X
+[308x671], at the cost of more involved notation. This
+[312x598]. Finally,
+[313x204]T
+[337x757]i
+[345x759]X
+[351x620]0 and
+[354x757]j
+[357x757]1
+[358x158]T
+[358x158]may be set approximately equal
+[361x94]a
+[361x72]more for small
+[362x759],
+[362x759]i, j
+[363x443]0
+[368x445]p
+[368x445],
+[371x72]d
+[381x445],
+[381x445]T
+[384x759]∈
+[387x357]∈
+[390x138]below, there is a trade-off
+[395x357]\[
+[396x759]p
+[397x445], and the prediction error
+[399x357]p
+[402x759]\]
+[402x269]∈
+[404x620]2. Moreover, let
+[404x357]\]
+[406x759], to not be sub-Gaussian,
+[409x357]. From Condition MOM
+[415x620]a
+[415x269]p
+[416x92]T
+[420x269]\]
+[425x269]. Finally, Condition
+[426x377]i
+[427x290]i
+[429x377]1
+[433x312]and
+[434x379]ε
+[439x377]1
+[439x377]and
+[440x290]and
+[440x290]1
+[441x313]p
+[448x379]X
+[449x70]and large
+[460x72]a
+[479x290]i
+[482x290]1
+[487x379]X
+[487x291]X
+[496x377]j
+[496x290]j
+[500x377]1
+[500x290]1
+[500x290]are
+[506x618]T
+[506x618]=
+[514x70],
+[514x70]T
+[517x208]′
+[520x204].

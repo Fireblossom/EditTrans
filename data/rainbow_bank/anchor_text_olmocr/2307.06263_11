@@ -1,0 +1,32 @@
+Page dimensions: 595.3x841.9
+[140x706]To simplify the analysis, a narrow frequency band was selected between 24
+[125x694]and 61 Hz, with the fourth and fifth bending modes of the blades dominating
+[125x682]the response in this band. Although other modes appear to have a small influ-
+[125x670]ence in this band, a 2DOF assumption was imposed. (This assumption results
+[125x658]in smoothing of the FRF over the band, and might result in some loss of inter-
+[125x646]pretability, but is acceptable for these preliminary analyses). The real part was
+[125x634]modelled as a probabilistic FRF, using the FRF estimate from Eq. (13) as the
+[125x622]mean of the likelihood function, as described in Case 1, presented in Section 6
+[125x610]of this paper. The real parts of the averaged FRFs for each blade, at the second
+[125x599]accelerometer from the blade root (corresponding to the drive-point location),
+[125x587]are shown in Figures 5a and 5b. Figure 5a shows the full measured bandwidth,
+[125x575]and Figure 5b shows the FRF in the bandwidth of interest, between 24 and 61
+[125x563]Hz.
+[190x416]Figure 3: Helicopter blade in a substantiated wall mount.
+[201x305]Figure 4: Sensor locations on the helicopter blades.
+[140x288]Figures 5a and 5b show increasing variability with respect to frequency,
+[125x276]which is an expected result, given that higher-frequency modes are more sen-
+[125x264]sitive to small physical changes than lower-frequency modes. For modes less
+[125x252]than 80 Hz, the maximum frequency difference among the blades was approxi-
+[125x240]mately 2.5 Hz; for modes greater than 80 Hz, the maximum frequency difference
+[125x228]was approximately 6.3 Hz. Note the grouping visible at several of the peaks,
+[125x216]where Blades 1 and 2 appear closely aligned in frequency while Blades 3 and
+[125x204]4 appear closely aligned. These results are quite relevant for PBSHM. All of
+[125x192]the helicopter blades are healthy, and represent a normal-condition state of the
+[125x180]population. Consider a situation where only FRFs from one of the groupings
+[125x168]are available for training a model (or FRFs from the other groups are missing
+[125x156]data). The normal condition could be heavily biased towards the training set,
+[125x144]and incoming FRFs could be flagged as damaged, even if they are healthy. Fur-
+[125x132]ther details regarding the data collection and processing for these tests can be
+[125x120]found in \[27\].
+[292x90]12

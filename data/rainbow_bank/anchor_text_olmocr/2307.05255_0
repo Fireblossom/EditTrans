@@ -1,0 +1,86 @@
+Page dimensions: 612.0x792.0
+[54x107]based sensing schemes utilizing nitrogen-vacancy (NV)
+[54x118]schemes. Specifically, we present quantum response-
+[54x130]approach to the conventional interference-based sensing
+[54x141]response for quantum sensing, offering a complementary
+[54x153]cases the potential of utilizing the mechanism of dynamic
+[54x164]fied \[17\]. Building upon these findings, our study show-
+[54x187]sponse of physical observables to slow quenches, irrespec-
+[54x221]sponse has been proposed as a means to detect geomet-
+[54x256]schemes, driving rapid developments in the field of quan-
+[54x267]novel mechanisms to realize innovative quantum sensing
+[54x290]formation encoding in the interference-based scheme \[11\].
+[54x302]it impractical to accumulate the necessary phase for in-
+[54x313]to be detected exhibits a short period of viability, making
+[54x347]ference schemes, there are situations where implementing
+[54x370]nanoscale signals that surpass the capabilities of classi-
+[54x382]quantum systems, hold promise for detecting weak or
+[54x405]8\] have attracted significant attention in recent years.
+[55x75]xgwang@zstu.edu.cn
+[55x75]∗
+[64x233]In recent studies \[17–21\], the concept of dynamical re-
+[64x416]Quantum metrology \[1–6\] and quantum sensing \[7,
+[76x730]Quantum dynamic response-based NV-diamond magnetometry: Robustness to
+[85x716]decoherence and applications in motion detection of magnetic nanoparticles
+[109x473]is nearly adiabatic.
+[109x494]to conventional Ramsey-based schemes. In comparison to Ramsey-based sensing schemes, our pro-
+[109x515]simulations that it is robust to decoherence. Intriguingly, we have observed that a vanishing nuclear
+[109x525]the feasibility of our sensing scheme in the presence of decoherence and show through numerical
+[109x557]Berry curvature corresponding to NV centers and design quenching protocols to extract the Berry
+[109x567]with conventional interference-based sensors. To achieve this, we derive the closed exact form of the
+[109x578]more, we suggest a method for detecting the motion of magnetic nanoparticles, which is challenging
+[109x588]center in diamond to realize both scalar and vector magnetometry via quantum response. Further-
+[109x598]observables to quenches in quantum systems. Specifically, we use the nitrogen-vacancy (NV) color
+[124x442]I. INTRODUCTION
+[144x682]1
+[159x636]Huazhong University of Science and Technology, Wuhan 430074, China
+[160x657]MOE Key Laboratory of Fundamental Physical Quantities Measurement,
+[169x672]2
+[171x647]National Precise Gravity Measurement Facility, School of Physics,
+[173x668]Department of Physics, Xiamen University, 361005 Fujian, China
+[218x696]Xingyu Zhang,
+[218x696]1
+[227x692]2
+[262x626](Dated: May 30, 2024)
+[292x696]Jing Liu,
+[317x69]M
+[317x80]ized force along the
+[317x80]µ
+[317x92]in the experiment, often referred to as the general-
+[317x155]response can be derived as follows (see Appendix A for
+[317x167]turbation theory \[18\], the general formula for quantum
+[317x178]response theory \[17, 20\]. By employing adiabatic per-
+[317x213]applications in the field of bioimaging.
+[317x236]through quantum dynamic response to sense the motion
+[317x247]study, we propose a novel approach using NV centers
+[317x270]quantum property under ambient condition, NV sensors
+[317x293]roscope \[35, 36\] and magnetometer \[37\]. Furthermore,
+[317x316]in NV centers has been investigated \[33, 34\] and pro-
+[317x385]ture \[24, 25\]. Consequently, extensive theoretical and ex-
+[317x396]atively long coherence time, even at ambient tempera-
+[317x442]color centers in diamond \[22, 23\]. The NV center in
+[323x103]Here,
+[341x67]µ
+[341x67]≡ −⟨
+[341x696]and Xiaoguang Wang
+[350x692]1,
+[381x121]µ
+[389x69]t
+[393x67]f
+[393x67])
+[405x69]∂
+[410x67]µ
+[423x80]-direction. It can be defined
+[427x69]ψ
+[438x69]t
+[440x121]λ
+[441x67])
+[452x119]µλ
+[454x69], with
+[454x69]∂
+[463x128])
+[496x120]λ
+[496x127]2
+[499x69]H
+[514x69]∂H/∂µ
+[559x69].

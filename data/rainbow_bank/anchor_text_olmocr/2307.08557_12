@@ -1,0 +1,198 @@
+Page dimensions: 612.0x792.0
+[72x708]shortly) coordination on
+[0x0]a
+[199x708]whenever
+[209x708]x >
+[283x708]˜
+[282x708]x
+[289x708], where ˜
+[329x708]x
+[329x708]∈
+[339x708]R
+[351x708]is the
+[363x708]critical state
+[395x708]which she – the
+[72x684]planner – chooses. The planner faces two constraints. First, she cannot condition her policy
+[72x660]on the realization of
+[72x660]x
+[176x660]or players' signals thereof. One interpretation is that the planner must
+[72x636]commit to her policy before Nature draws a true
+[72x636]x
+[325x636]and cannot change her policy afterward.
+[90x612]The second constraint upon the planner's problem has to do with the kinds of policies she
+[72x589]can use. We assume that the planner cannot coordinate players on her preferred equilibrium
+[72x565]in a multiple equilibria setting. Instead, she has to rely on simple subsidies (or taxes) to
+[72x541]create the appropriate incentives. The focus on simple instruments also means that policies
+[72x517]cannot condition directly upon other players' actions. These are standard assumptions in the
+[72x493]literature on policy or contract design for coordination problems (Segal, 2003; Winter, 2004;
+[72x469]Bernstein and Winter, 2012; Sakovics and Steiner, 2012; Halac et al., 2020).
+[90x445]To streamline the narrative, we henceforth focus on subsidies as the planner's policy
+[72x421]instrument. Let
+[72x421]s
+[162x419]i
+[162x419]denote the subsidy paid to a player
+[169x421]i
+[352x421]who chooses
+[360x421]a
+[432x419]i
+[432x419]= 1. Conditional on
+[72x397]the subsidy
+[72x397]s
+[140x395]i
+[143x397], player
+[143x397]i
+[189x397]'s incentive to choose 1 becomes
+[166x354]u
+[172x352]i
+[176x354](
+[180x354]a
+[187x352]−
+[193x352]i
+[193x352]|
+[200x354]x, s
+[224x352]i
+[227x354]) =
+[227x354]u
+[254x352]i
+[258x354](
+[262x354]a
+[268x352]−
+[275x352]i
+[275x352]|
+[282x354]x
+[295x354]) +
+[295x354]s
+[319x352]i
+[319x352]=
+[326x354]x
+[339x354]+
+[348x354]w
+[368x352]i
+[371x354](
+[376x354]a
+[382x352]−
+[389x352]i
+[392x354])
+[392x354]−
+[399x354]c
+[416x352]i
+[416x352]+
+[422x354]s
+[440x352]i
+[443x354],
+[76x310]and the expected incentive, given the signal
+[76x310]x
+[311x314]ε
+[311x307]i
+[311x307]and a strategy vector
+[319x310]p
+[438x308]−
+[444x308]i
+[448x310], is
+[160x269]u
+[167x274]ε
+[167x266]i
+[167x266](
+[176x269]p
+[181x268]−
+[188x268]i
+[188x268]|
+[195x269]x
+[208x274]ε
+[208x266]i
+[208x266], s
+[223x268]i
+[227x269]) =
+[247x286]Z
+[261x269]u
+[267x268]i
+[271x269](
+[275x269]p
+[281x268]−
+[288x268]i
+[291x269](
+[296x269]x
+[302x274]ε
+[302x266]−
+[309x266]i
+[312x269])
+[312x269]|
+[320x269]x, s
+[344x268]i
+[348x269]) d
+[361x269]F
+[370x274]ε
+[368x266]i
+[368x266](
+[379x269]x, x
+[397x274]ε
+[397x266]−
+[404x266]i
+[404x266]|
+[411x269]x
+[424x274]ε
+[424x266]i
+[424x266])
+[234x238]=
+[247x255]Z
+[266x238]u
+[272x237]i
+[276x238](
+[280x238]p
+[286x237]−
+[293x237]i
+[296x238](
+[301x238]x
+[307x243]ε
+[307x235]−
+[314x235]i
+[317x238])
+[317x238]|
+[325x238]x
+[339x238]) +
+[339x238]s
+[363x237]i
+[366x248]
+[373x238]d
+[380x238]F
+[389x243]ε
+[387x235]i
+[387x235](
+[398x238]x, x
+[417x243]ε
+[417x235]−
+[423x235]i
+[423x235]|
+[430x238]x
+[443x243]ε
+[443x235]i
+[443x235])
+[234x207]=
+[234x207]u
+[253x212]ε
+[253x204]i
+[253x204](
+[262x207]p
+[268x206]−
+[275x206]i
+[275x206]|
+[282x207]x
+[295x212]ε
+[295x204]i
+[295x204]) +
+[299x207]s
+[324x206]i
+[327x207].
+[526x240](4)
+[76x170]It is clear that a tax equal to
+[76x170]s
+[230x169]i
+[230x169]on playing 0 has the same effect on incentives. Note that (4)
+[72x147]assumes observability of
+[72x147]a
+[206x145]i
+[209x147]; this assumption is maintained throughout most of the analysis.
+[72x123]Section 6.1 considers principal-agent problems in which the vector of actions
+[72x123]a
+[461x123]is unobserved.
+[300x42]13

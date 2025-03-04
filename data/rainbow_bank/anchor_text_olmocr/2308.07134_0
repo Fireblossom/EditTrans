@@ -1,0 +1,63 @@
+Page dimensions: 612.0x792.0
+[108x139]Transformers have demonstrated remarkable performance on various modalities, such as images \[20\]
+[108x52]Preprint. Preliminary work.
+[108x79]a significant trend worth attention. T5 \[15\] established a text-to-text framework, unifying all NLP
+[108x90]Besides model architecture, the unification of processing method in handling multimodal data is also
+[108x106]multimodal tasks \[25\]. There has even been Transformers capable of handling twelve modalities \[26\].
+[108x117]machine learning \[23\], decision sequences in reinforcement learning \[24\], and visual-text pairs in
+[108x128]and videos \[21\] in computer vision, text in natural language processing \[22\], structured data in graph
+[108x150]trend towards unification in model architectures across different domains. Specifically, pre-trained
+[108x161]pursuit of possible Artificial General Intelligence (AGI) \[ 19\]. Under this background, there is a
+[108x172]Large Language Models (LLMs) \[ 14–18\], which are driving huge advancements and lead to the
+[108x183]In recent years, the AI community has witnessed the emergence of numerous powerful pre-trained
+[108x199]making them a preferred choice in the field of graph learning for a long time \[11–13\].
+[108x210]in capturing topological information by employing message passing and aggregation mechanisms,
+[108x221]sequential data such as natural language \[9\] and audio \[10\]. Graph Neural Networks (GNNs) excel
+[108x232]tasks \[4, 5\]. Memory-enhanced models like RNNs \[6\] and LSTM \[7, 8\] were widely used for handling
+[108x243]considerations for spatial invariance in images, leading to superior performance in computer vision
+[108x254]biases had diverse foundational model architectures. For instance, CNNs \[2, 3\] were designed with
+[108x282]1 Introduction
+[129x622]ruosong.ye@rutgers.edu
+[147x632]Rutgers University
+[147x479]with the data that exists relatively independently such as images, videos or texts,
+[148x391](
+[148x315]graph machine learning.
+[148x326]sheds light on generative large language models as the foundation model for
+[148x337]and PubMed datasets, which demonstrates the effectiveness of our method and
+[148x348]manner. Our method exceeds all competitive GNN baselines on ogbn-arxiv, Cora
+[148x359]tuning an LLM to perform learning and inference on graphs in a generative
+[148x370]to describe the geometric structure and node features of the graph for instruction
+[148x381]scalable prompts based on natural language instructions, and use natural language
+[148x402]InstructGLM
+[148x413]grow, it becomes essential to explore whether LLMs can also replace GNNs
+[148x424]mains very limited. As the importance of large language models continues to
+[148x435]graph learning problems into the generative language modeling framework re-
+[148x446]in describing complex structures. However, existing work on incorporating
+[148x457]Meanwhile, natural language, as one of the most expressive mediums, excels
+[148x468]graph is a type of data that contains rich structural and relational information.
+[148x490]to unify fields of computer vision and natural language processing. Compared
+[148x501]based large language models (LLMs) have gradually replaced CNNs and RNNs
+[148x511]has revolutionized various research fields in artificial intelligence. Transformers-
+[151x391]Instruct
+[157x642]Ruosong Ye
+[163x575]shuyuan.xu@rutgers.edu
+[181x585]Rutgers University
+[185x691]Natural Language is All a Graph Needs
+[186x391]G
+[186x391]ion-finetuned
+[188x594]Shuyuan Xu
+[250x391]raph
+[250x391]L
+[259x632]University of Cambridge
+[268x622]cz391@cam.ac.uk
+[277x642]Caiqi Zhang
+[277x391]anguage
+[277x391]M
+[284x541]Abstract
+[323x391]odel), systematically design highly
+[327x575]yongfeng.zhang@rutgers.edu
+[353x594]Yongfeng Zhang
+[354x585]Rutgers University
+[375x622]runhui.wang@rutgers.edu
+[395x632]Rutgers University
+[399x642]Runhui Wang

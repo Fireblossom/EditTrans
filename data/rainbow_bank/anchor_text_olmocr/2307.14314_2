@@ -1,0 +1,156 @@
+Page dimensions: 612.0x792.0
+[54x139]state. The matrix representing the unitary operator
+[54x174]be less efficient if the matrix is dense enough.
+[54x197]stored in memory.
+[54x268]concepts about the matrices:
+[54x128]a dense representation we would need memory resources that scale as
+[54x426]register, we use the oracle
+[54x426]Q
+[54x617]quantum walk \[12\]:
+[54x651]first register encodes the position in the graph, and the second register encodes the coin state \[23\]. However, the
+[54x70]matrices, like regular lattices, so that the unitary operator has
+[54x82]the ones used for the quantum PageRank algorithm \[9\]. However, there are graphs with very sparse transition
+[54x105]O
+[54x105]the unitary matrices, the resources requirements would improve to
+[54x116]matrix
+[54x493]the operator
+[54x528]simulate them classically.
+[54x539]the reflection
+[54x551]U
+[54x551]to two steps of the coined version
+[54x562]R
+[54x562]version of these. Thus, we can identify
+[57x574]where
+[57x341]U
+[57x341]Examples of modified operators used in the literature are
+[57x383]Q
+[57x383]whereas to mark them in the second register, we use
+[57x686]|
+[58x438]which inverts the sign of the vectors
+[58x438]|
+[64x151]The naive method for simulating Szegedy's quantum walk is creating the unitary matrix and applying it to a vector
+[64x185]-Sparse representation: in this case only the non-null elements are stored in memory. However, this method can
+[64x209]-Dense representation: this is the naive representation, so that all the elements, including those that are 0, are
+[64x244]-Sparse matrix: it is a matrix where most elements are 0.
+[64x256]-Dense matrix: it is a matrix where most elements are different from 0.
+[64x279]In order to understand the complexity of the different simulation algorithms, we need to clarify the following
+[64x662]The Szegedy's quantum walk described in this manner can be understood as a coined quantum walk where the
+[64x505]Finally, the unitary operator can be modified introducing oracles in the context of quantum search. Let us define
+[93x572]is a reflection over the subspace spanned by the
+[94x116]N
+[95x686]is a generic initial quantum state in
+[102x574]|
+[111x493]as follows:
+[115x539]and swap
+[127x539]S
+[172x539]operators to construct any of the unitary operator presented above, and moreover, to
+[178x425]defined as:
+[178x425]1
+[179x305]III. MEMORY-SAVING CLASSICAL SIMULATION
+[219x551], i.e.,
+[219x551]W
+[225x438]k
+[231x438]⟩
+[231x438]given a set
+[232x561]A
+[232x561]=
+[239x438]M
+[241x562]R
+[246x709]\[
+[247x551]=
+[249x709]\[
+[252x562]and
+[252x707]2
+[256x470]=
+[256x470]Q
+[257x709]\]
+[259x709]p
+[262x686]=
+[262x562]R
+[262x551]U
+[264x707]q
+[266x470]1
+[269x709](
+[273x709]t
+[276x709])\]
+[277x470]N
+[277x362]Q
+[280x595]=
+[283x554]2
+[283x705]i
+[283x705]=
+[283x468]−
+[285x361]2
+[285x403]=
+[285x403]1
+[287x551]. Therefore, w.l.o.g. we can use the formulation in terms of
+[289x561]=
+[290x438]of nodes to mark. In order to mark the nodes in the first
+[291x689]⊗
+[291x689]N
+[292x362]1
+[292x405]Q
+[293x470]2
+[294x595]R
+[297x382]2
+[299x562]SRS
+[302x383]:
+[303x362]N
+[306x709]\[
+[309x361]⊗
+[309x458]k
+[311x341]=
+[312x479]X
+[312x594]B
+[313x405]1
+[314x458]∈M
+[314x709]\]
+[316x709]⟨
+[318x689]N
+[318x362]Q.
+[320x572]i
+[321x341]SQ
+[323x405]N
+[323x574]⟩
+[323x574]states, and
+[324x709]|
+[328x709]U
+[328x362](13)
+[329x403],
+[330x562], so that the original unitary operator
+[330x562]W
+[333x470]k
+[333x595](10)
+[333x595],
+[336x713]|
+[336x405](12)
+[339x70](
+[343x70]N
+[344x709]φ
+[351x709]⟩
+[351x341]\[14\], or
+[352x70]) non-null elements and can be efficiently stored
+[353x470]|
+[355x105]N
+[358x470](11)
+[358x470],
+[361x715]2
+[364x108]3
+[367x709],
+[367x709](9)
+[369x105]). This scaling is still so much prohibitive, so
+[376x128](
+[380x128]N
+[381x143]2
+[381x143]×
+[388x572]over the space formed by the swapped
+[388x572]B
+[389x139]N
+[389x131]4
+[393x128]). Nevertheless, for a dense transition
+[408x143]2
+[427x339]B
+[434x341]R
+[456x339]1
+[456x339]\[15\].
+[557x756]3

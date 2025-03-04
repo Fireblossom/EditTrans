@@ -1,0 +1,85 @@
+Page dimensions: 612.0x792.0
+[17x467]C:
+[18x1053]A: Multi
+[49x166]heavy multi-stage training process into a single stage \[9\]–
+[49x178]segmentation (E2E-WSSS) methods arose to simplify the
+[49x214]training the segmentation network with the pseudo annota-
+[49x250]training stages,
+[49x261]shown in Fig. 1
+[49x285]appears and attracts extensive attention, which adopts only
+[49x403]tion, Object Localization
+[49x46]the localization seed with online spatial propagation \[11\]–\[13\]
+[49x58]classification branch to provide better supervision by refining
+[49x82]pseudo annotations for supervising the segmentation branch.
+[49x94]fication branch cannot stably provide seed to derive accurate
+[49x130]tion branch supervised by image-level annotation can online
+[49x142]branch network in only a single stage, where the classifica-
+[49x344]S
+[49x439]each other. Experiments indicate our work outperforms existing
+[49x469]to the classification branch to enhance the quality of localization
+[49x478]branches. Thus, the segmentation branch can also give feedback
+[49x488]to force the consistency between the outputs of these two
+[49x498]this purpose, a bidirectional supervision mechanism is elaborated
+[49x508]their supervision and operation to achieve mutual promotion. For
+[49x528]these two branches equally by viewing them as diverse ways
+[49x558]However, this strategy makes the classification branch dominate
+[49x598]tation aims at optimizing a segmentation model in a single-
+[51x719]Input Image
+[52x181]Input Image
+[54x467]E2E
+[59x413]Index Terms
+[66x345]to annotate pixels in an image as target objects or back-
+[90x608]— End-to-end weakly supervised semantic segmen-
+[96x762]A
+[99x761]TEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2021 1
+[99x664]Lei Zhu, Hangzhou He, Xinliang Zhang, Qian Chen, Shuang Zeng, Qiushi Ren, Yanye Lu*
+[106x413]— Weakly Supervised Learning, Image Segmenta-
+[108x467]-
+[126x250], tuning a classification network with image
+[127x261], WSSS methods usually require multiple
+[129x1053]Stage WSSS
+[134x687]Supervised Semantic Segmentation
+[203x969]Stage 1
+[207x467]with our
+[262x787]2
+[280x969]Classification
+[281x600]Segmentation
+[295x212]Extractor
+[303x246]Sharing
+[308x752]Network
+[312x372]classification branch.
+[312x381]the segmentation branch with pseudo annotations online provided by the
+[312x46]of input images. Thus, as shown in Fig. 1
+[312x58]to achieve the same goal, generating the segmentation map
+[312x82]by existing methods. Based on this perspective, our work treats
+[312x118]segmentation branch can also assist the concurrently-trained
+[312x130]optimized during training. From another perspective, the
+[312x190]network but cannot stably provide pseudo annotations for the
+[312x202]verge to a similar optimum as the offline trained classification
+[312x214]visualized in Fig. 2. Thus, the classification branch will con-
+[312x237]classification branch will dominate the whole training process,
+[312x261]the prediction of the classification branch, without considering
+[312x273]unidirectionally supervise the segmentation branch based on
+[312x321]or determining reliable regions on the pseudo annotations \[9\],
+[312x354]promotion.
+[312x390]B
+[312x398]A
+[312x398]Fig. 1. Comparison of WSSS strategies:
+[321x425]Classification\nBranch\nSegmentation\nBranch\nC: E2E-WSSS with our Branches Mutual Promotion Strategy\n: Feed Forward\n: ... WSSS B: E2E-WSSS with Unidirectional Supervision\nSharing\nExtractor\nSharing\nExtractor\nSegmentation Map\nInput Image
+[322x154]Actually, in the E2E-WSSS setting, these two branches
+[391x372]. Our proposed E2E-WSSS strategy interacts both
+[400x390]. Existing E2E-WSSS unidirectionally supervises
+[548x367]Classification
+[617x299]Interactions
+[747x717]Input Image
+[790x1053]WSSS
+[937x971]Classification
+[937x600]Segmentation
+[943x1053]Unidirectional Supervision
+[962x753]Extractor
+[973x566]Branch
+[974x937]Branch
+[1148x719]Pseudo Annotation
+[1165x384]Legend
+[1178x147]: Supervise
+[1180x302]: Image Label

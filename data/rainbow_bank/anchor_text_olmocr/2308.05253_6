@@ -1,0 +1,235 @@
+Page dimensions: 612.0x792.0
+[71x491](i.e., takes smaller values of
+[72x548]ℓ
+[72x112]n
+[72x250]In contrast with the expansion in Eq. (33), this series
+[72x388]degree of universality which suggests that the con-
+[72x411]model was proposed in Refs. \[ 39, 56\] and further
+[72x457]a continuum limit.
+[72x480]cations must be taken. However, it was shown in
+[72x514]In order to successfully approximate the theory, as
+[72x525]ℓ
+[72x537]shown in Ref. \[55\] that the
+[72x595]for
+[75x193]ϵ
+[75x262]T
+[77x99]i
+[79x191]ijk
+[80x308]j
+[80x308]+ 1) matrices. The (one-site) wave functions can
+[82x445]σ
+[82x687]As mentioned above one can try to qubitize this
+[87x595](3) gauge theories and leads to similar results.
+[89x124]4
+[99x548]≤
+[100x331]indexes irreps of
+[101x193]T
+[102x124]j
+[107x548]ℓ
+[109x260]k
+[110x124]1
+[111x668]2
+[111x203]= \[
+[118x262]j
+[122x547]max
+[128x79]n
+[130x445]-model regularization that we consider
+[133x239](3) rotations act as:
+[136x221]Ψ
+[136x79],
+[138x548]:
+[138x548]ψ
+[139x203]k
+[148x124]1, all states in the Hilbert space
+[149x537]σ
+[150x79]\] = 1
+[154x204]T
+[157x548]n
+[160x279]1 +
+[161x525]g
+[163x548]) =
+[167x162]p
+[168x226]†
+[172x221]Ψ
+[177x71]j
+[180x221]=
+[182x71](
+[182x331](2):
+[186x71]+ 1)
+[191x221]e
+[193x553]ℓ
+[195x277]k
+[197x545]=0
+[197x545]ψ
+[197x552]max
+[202x279]O
+[206x226]i
+[208x226]θ
+[211x491]), larger
+[213x161]T
+[213x226]·T
+[219x160]k
+[220x279](
+[224x279]T
+[230x221],
+[231x283]2
+[231x79]n
+[235x262]SU
+[235x547]ℓm
+[239x279](37)
+[240x331]1
+[240x331],
+[241x79].
+[241x79](40)
+[246x548](
+[250x548]n
+[251x111]j
+[255x112]\] = 0, the
+[256x548]). It was
+[260x331], ...
+[261x319]+ 1)
+[266x342]+ 1)
+[268x204], T
+[279x203]j
+[280x139]=
+[280x139]2
+[283x204]\] =
+[291x346]2
+[296x342],
+[314x267]1
+[315x356]P
+[315x469]is
+[315x83]fuzzy model, due to its ability to build on existing
+[315x106]shall see that this basis is convenient for demonstrat-
+[315x118]this picture yields a comb structure. Moreover, we
+[315x129]b
+[315x141](
+[315x141]T
+[315x164]every site. Specifically, the neighbor operators in
+[315x164]V
+[315x187]fuzzy chain is seen to be equivalent to the Heisenberg
+[315x256]dimensional state. (Notably, this feature is not guar-
+[315x588]the fuzzy model has a continuum limit that matches
+[315x611]recovers the original lattice
+[315x611]σ
+[315x623]\[58, 59\]. In the limit
+[317x657]where the neighbor operator is chosen to act on states
+[318x491]and expand the (one-site) wave function in this basis:
+[318x710]The Hamiltonian is
+[320x267]/
+[321x279]|
+[322x360]Meanwhile, since the neighbor operator
+[322x360]V ∝
+[324x383]T
+[325x267]2 Heisenberg chain, while
+[325x345]x
+[327x141]x
+[328x688]H
+[328x688]=
+[330x381]k
+[337x348](
+[339x688]ηg
+[342x479]ab
+[347x348])
+[348x300]ψ
+[350x480]E
+[353x348]n
+[356x279]n
+[356x141]x
+[357x479]ab
+[360x692]X
+[360x692]2
+[362x279]⟩
+[362x141]) couples the
+[364x348](
+[364x381]k
+[365x315]n
+[365x480]n
+[367x415]k
+[368x348]x
+[369x383]Ψ\] =
+[369x523]e
+[371x677]x
+[371x444]n
+[374x521]1
+[382x688](
+[382x688]T
+[386x298]1
+[387x577]-model. We focus on
+[390x315]χ
+[390x299]···
+[394x688]x
+[396x315]⟩
+[397x299]a
+[397x152]spins, while the kinetic operator
+[399x530]1
+[400x688])
+[401x298]χ
+[404x692]2
+[404x540]!
+[406x383]T
+[410x688]η
+[412x381]k
+[416x623]→ ∞
+[424x141]and
+[427x684]2
+[427x299]b
+[428x442]k
+[429x383]ψ
+[430x298]E
+[432x552]= e
+[433x444])
+[433x141]b
+[436x221]sees an "
+[439x381]a
+[439x677]x
+[445x444]′
+[446x381]b
+[446x298]1
+[448x266]b
+[450x623]σ
+[450x623], the fuzzy
+[450x299]b
+[452x265]1
+[452x383]ψ
+[453x141]spins at each site,
+[454x298]⊗ ··· ⊗
+[455x688](
+[456x266]···
+[458x552]⊗
+[459x688]x
+[459x444]′
+[462x442]b
+[463x266]b
+[465x554]e
+[466x264]N
+[466x264]can be any 2
+[468x516]1
+[468x530]0
+[468x381]ab
+[471x688]n
+[473x540]!
+[479x552]b
+[481x444](43)
+[483x523](42)
+[483x523],
+[483x554], with
+[483x221]a
+[483x383]T
+[485x688]x
+[485x688]+ 1) (41)
+[501x383]′
+[504x381]b
+[505x298]N
+[506x221]b
+[507x577]2 in the
+[508x198]= 1
+[509x129]spins;
+[510x221]") spin
+[513x298]N
+[523x175]2 at
+[523x371](44)
+[530x198]/
+[535x736]7
+[535x198]2
+[539x600],

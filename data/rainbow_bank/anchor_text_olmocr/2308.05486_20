@@ -1,0 +1,27 @@
+Page dimensions: 595.3x841.9
+[76x740]5 Conclusion
+[76x704]We proposed an innovative framework for examining the impact of money growth on
+[76x680]inflation and its disaggregate measures in the US and the Euro area. Our framework
+[76x656]focuses on quantile dependence, providing a novel approach to analyze the distributional
+[76x632]effects. This aspect of the relationship between money growth and inflation has not been
+[76x609]previously explored in the existing literature.
+[93x585]Through empirical analysis of both economies, we found evidence that variations in
+[76x561]the upper quantile of the money growth distribution significantly influence the distri-
+[76x537]bution of inflation and its disaggregate measures, affecting both its level and skewness.
+[76x513]On the other hand, the lower and median quantiles of the money growth distribution
+[76x489]exhibit a relatively negligible effect on the distribution of inflation.
+[93x465]Our proposed framework is versatile and can be applied to investigate various other
+[76x441]macroeconomic or financial phenomena. For instance, it can be extended to explore the
+[76x417]relationship between oil prices and stock returns or a growth-at-risk scenario.
+[76x363]References
+[76x327]Benati, L. (2009). Long run evidence on money growth and inflation. Technical report,
+[87x303]ECB working paper.
+[76x269]Borio, C., B. Hofmann, and E. Zakrajšek (2023). Does money growth help explain the
+[87x246]recent inflation surge? Technical report, Bank for International Settlements.
+[76x212]Chavleishvili, S. and S. Manganelli (2021). Forecasting and Stress Testing with Quantile
+[87x188]Vector Autoregression. Technical Report 2330, ECB Working Paper.
+[76x154]Chernozhukov, V. and C. Hansen (2008). Instrumental variable quantile regression: A
+[87x130]robust inference approach.
+[228x130]Journal of Econometrics 142
+[378x130](1), 379–398.
+[292x60]21

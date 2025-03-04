@@ -1,0 +1,42 @@
+Page dimensions: 612.0x792.0
+[127x657]Robust Impulse Responses using External
+[147x631]Instruments: the Role of Information
+[147x631]∗
+[99x592]Davide
+[99x592]Brignone
+[214x597]†
+[214x597]Alessandro
+[244x592]Franconi
+[382x597]‡
+[382x597]Marco
+[412x592]Mazzali
+[513x597]§
+[222x563]This version: May 30, 2024
+[282x491]Abstract
+[101x441]External-instrument identification leads to biased responses when the shock is not in-
+[101x428]vertible and the measurement error is present. We propose to use this identification
+[101x414]strategy in a structural Dynamic Factor Model, which we call Proxy DFM. In a sim-
+[101x400]ulation analysis, we show that the Proxy DFM always successfully retrieves the true
+[101x387]impulse responses, while the Proxy SVAR systematically fails to do so when the model
+[101x373]is either misspecified, does not include all relevant information, or the measurement
+[101x360]error is present. In an application to US monetary policy, the Proxy DFM shows that
+[101x346]a tightening shock is unequivocally contractionary, with deteriorations in domestic de-
+[101x333]mand, labor, credit, housing, exchange, and financial markets. This holds true for all
+[101x319]raw instruments available in the literature. The variance decomposition analysis high-
+[101x306]lights the importance of monetary policy shocks in explaining economic fluctuations,
+[101x292]albeit at different horizons.
+[101x265]Keywords
+[156x265]: Proxy Dynamic Factor Model, Monetary Policy, Fundamentalness, Im-
+[101x251]pulse Response Functions, Variance Decomposition.
+[101x238]JEL codes
+[158x238]: C32, C38, E52.
+[85x121]∗
+[90x117]This paper has benefited from discussions with Mario Forni and participants at the UEA Time Series
+[72x105]Workshop, the Workshop in Empirical and Theoretical Macroeconomics and various research seminars.
+[86x97]†
+[90x93]Universit` a di Roma Tor Vergata, email: davide.brignone@uniroma2.it.
+[86x85]‡
+[90x81]Universit` a di Pavia, email: alessandro.franconi@unipv.it
+[86x73]§
+[90x69]Universit` a di Bologna, email: marco.mazzali5@unibo.it.
+[303x39]1

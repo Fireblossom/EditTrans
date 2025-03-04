@@ -1,0 +1,130 @@
+Page dimensions: 612.0x792.0
+[54x297]the Bloch geometry stabilizes a lasing state
+[54x345]non-Hermitian context, however, one needs to specify
+[54x368]BECs \[6, 9\], it is natural to consider lasing in flat band
+[54x393]has been pointed out.
+[54x429]structure of the Bloch states, not ascribable to a trivial
+[54x465]and the consequent experimental observation of super-
+[54x477]discovery of flat bands in twisted bilayer graphene \[1\]
+[54x489]quantum Hall effect, and pioneering, in recent years, the
+[54x536]where correlation effects and interactions dominate over
+[54x68]goliubov method. We then go beyond Bogoliubov intro-
+[54x80]mode and the collective modes, calculated by the Bo-
+[54x92]of the Bloch states determines the steady-state lasing
+[54x116]ing equations on the diamond chain and a real space pro-
+[54x141]without quantum geometry.
+[54x153]tional to the bandwidth in the case of a dispersive band
+[54x165]band. Indeed, the KPZ nonlinearity is typically propor-
+[54x177]Kardar-Parisi-Zhang (KPZ) physics \[13–16\] in a flat
+[54x213]in their real and imaginary parts.
+[54x225]words, weconsidersingle-particlebandsthatareflatboth
+[54x237]gain or quality factor
+[54x273]goes beyond a number of recent results in topological
+[64x380]In analogy to the case of weakly interacting atomic
+[64x548]Introduction.
+[64x201]Moreover, a question specific to non-equilibrium one-
+[101x730]Lasing, quantum geometry and coherence in non-Hermitian flat bands
+[109x590]the relevance of Kardar-Parisi-Zhang universality in one-dimensional geometries, we focus our study
+[109x611]involving gain, losses and interactions. Then, we analytically show that the phase dynamics display
+[120x653]Weshowthatlasinginflatbandlatticescanbestabilizedbymeansofthegeometricalpropertiesof
+[135x285], as due to gain competition. This
+[149x237]already at the linear level
+[188x695]1
+[192x692]Center for Nonlinear Phenomena and Complex Systems,
+[224x706]Ivan Amelio
+[251x297]in a purely
+[257x237]. In other
+[262x671](Dated: May 31, 2024)
+[279x709]1
+[317x176]our analytical results to hold for other models and in-
+[317x188]mond (also known as rhombic) chain \[25\], but we expect
+[317x200]for KPZ physics, we will be mainly dealing with the dia-
+[317x224]single particle Hamiltonian
+[317x248]form along the system,
+[317x260]respectively gain and losses, which we assume to be uni-
+[317x381]ties \[11, 17, 22, 23\], here we assume that the adiabatic
+[317x393]dynamics can in practice give rise to further instabili-
+[317x417]of microring laser resonators \[19\], polariton micropil-
+[317x429]classical framework, particularly adequate for lattices
+[317x453]bands \[12, 17, 18\] and outline future directions.
+[317x489]able conclusion, we perform numerical simulations that
+[317x501]to a Bloch geometric constant. To check this remark-
+[317x536]tuations. Adiabatically eliminating density fluctuations
+[317x68]interference, since a flux
+[317x345]complex Ginzburg Landau equation (CGLE) \[24\]
+[320x92]σ
+[324x79]xB
+[327x441]Model and projection.
+[327x441]We consider lasing in a semi-
+[330x121]=
+[335x80], c
+[339x321]ψ
+[343x299]+
+[346x80]ψ
+[348x272]is the refractive index nonlinearity,
+[349x92]runs over
+[353x313]
+[356x122]J
+[360x299]g
+[364x132]X
+[365x299]|
+[368x299]ψ
+[368x110]=1
+[374x297]xσ
+[381x357], ..., N
+[381x320]0
+[382x122]c
+[385x321]ψ
+[387x126]†
+[392x122]a
+[394x299]i
+[396x320]xσ
+[402x122]−
+[406x356]σ
+[406x321]+
+[411x122]b
+[413x313]
+[415x120]x
+[415x126]†
+[418x299]P
+[420x248]n
+[420x122]a
+[425x68]π
+[426x247]S
+[426x247]is the saturation density that
+[427x313]
+[431x122]+
+[435x299]− |
+[435x299]1
+[440x224]H
+[444x357]x
+[449x223]0
+[449x223]encodes the hopping on
+[452x119]+1
+[456x305]ψ
+[462x304]xσ
+[466x290]S
+[467x121]x
+[472x122]+
+[475x309]2
+[481x122]ia
+[481x313]
+[489x127]†
+[490x368]xσ
+[490x299]γ
+[494x119]+1
+[499x369](
+[504x122]c
+[507x92]a
+[509x121]x
+[510x272]P
+[510x272]and
+[514x122])+
+[526x122]h.c.
+[527x297]xσ
+[537x299],
+[540x272]are
+[542x122],
+[542x122](2)
+[543x92], b
+[554x92]≡

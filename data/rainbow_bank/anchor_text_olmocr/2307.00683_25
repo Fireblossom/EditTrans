@@ -1,0 +1,197 @@
+Page dimensions: 612.0x792.0
+[71x532]𝑑
+[72x72]configuration
+[72x99]to a collection
+[72x126]Proof of Lemma 4.12.
+[72x126]Let
+[72x171]as part of a block in any step of the block dynamics.
+[72x113]choose
+[72x184]𝑀
+[72x294]𝑃
+[72x344]follows from Theorem 4.3.
+[72x344]□
+[72x668]a vertex
+[72x682]2
+[72x682]and
+[72x695]𝛼,𝛾,𝐿
+[72x709]We say a spin system
+[72x600]in that
+[72x600]Λ
+[72x505]model is mixing in
+[72x559]𝛽
+[72x573]squares). Nevertheless, it follows from \[CP21,MOS94,Ale98,BDC12\] that for the ferromagnetic Ising model,
+[72x415]𝜂
+[72x478]model on
+[72x478]Z
+[72x371]Assume a monotone spin system satisfies SSM condition. Then the spin system
+[72x371]Proof of Corollary 1.9.
+[72x429]For a spin system on a
+[72x451]eralizes beyond monotone systems and may be of independent interests.
+[72x198]Lemma 4.13
+[72x233]shows that spectral independence follows from the existence of a contractive coupling with respect to a
+[72x86]B
+[75x635]𝑑𝑖𝑠𝑡
+[75x247]where
+[75x247]𝑑
+[78x532]-dimensional cubes
+[83x86]{
+[83x86]be the set of blocks
+[89x149]With this lemma on hand, we can now prove Lemma 4.12.
+[89x393]*
+[89x464]Our proof of Corollary 1.9 relies on Lemma 4.12 that is restated below. Remarkably, Lemma 4.12 gen-
+[96x682]𝐿
+[104x600]has been restricted to "regular enough" rectangles. In particular, our variant of SSM is easier to
+[108x294]𝑋
+[111x247](·
+[116x668], we have
+[116x357]𝜂
+[116x357]-spectral independence, where
+[123x482]2
+[127x415](
+[130x635],
+[131x415]1
+[132x247]denotes the Hamming distance of two configurations. The following lemma from \[BCC
+[140x415].
+[141x695]>
+[142x70]𝑡
+[144x635]denotes graph distance.
+[150x70]1
+[150x99]𝑑
+[152x709]𝜇
+[153x293]0
+[154x113]be a
+[162x202]+
+[166x478]2
+[167x198]22\])
+[168x99]-dimensional rectangles in
+[168x126]𝐿
+[169x184]𝐷
+[171x695]0
+[173x505]𝑛
+[182x478].
+[183x695]such that for every
+[183x113]𝑑
+[184x294]Ω
+[184x478]538
+[185x126]be a sufficiently large constant so that the SSM condition is satisfied; we will
+[190x113]-dimensional cube of
+[192x294], there exists a coupling of step of
+[194x536]𝑑
+[200x478], which is the best known condition for ensuring SSM \[SSSY17, RST
+[200x532], SSM implies that the mixing time of any systematic scan
+[201x505]Z
+[207x86]}
+[207x491]𝑂
+[207x655]∥
+[213x655]𝜇
+[216x491](
+[218x652]𝐵
+[224x655](·)−
+[225x198]-contractive with respect to a block dynamics, then
+[239x270]\[
+[248x491]mixing time for any systematic scan dynamics
+[249x270](
+[250x429]-dimensional cube
+[250x429]𝑉
+[252x659]𝜏
+[253x270]𝑋
+[256x357]=
+[257x662]′
+[258x709]Z
+[258x709]on
+[264x270],𝑌
+[266x357]𝑂
+[273x269]1
+[278x713]𝑑
+[278x713]satisfies the
+[283x682]𝜏,𝜏
+[286x709]strong spatial mixing (SSM)
+[289x357]1
+[290x509]2
+[290x117]𝑑
+[296x113]. We define a heat-bath block dynamics
+[297x99]𝑆
+[297x99]. Precisely, let
+[298x269]0
+[300x682])
+[301x42]25
+[301x655]𝛾
+[302x357]by Lemma 4.12. By noting that
+[302x357]Δ
+[307x682]of boundary configurations on
+[313x184]is the maximum probability of a vertex being selected
+[316x270]𝜅𝑑
+[325x545]-marginally bounded monotone spin system on
+[325x505]<
+[333x429]⊆
+[336x505]𝛽
+[341x709]condition if there
+[342x655]𝛼
+[343x294]so that
+[349x270]𝑋
+[356x655]𝑑𝑖𝑠𝑡
+[356x269]0
+[359x429]Z
+[362x308]𝜅
+[362x505]2
+[369x97]𝑣
+[369x97]:
+[370x269]0
+[370x429]𝜂
+[374x270])
+[375x559](
+[377x308]-contractive
+[378x655]𝑢,𝐵
+[380x559]2
+[385x559])
+[391x695]⊂
+[392x559]=
+[392x559]ln
+[394x99]𝑤
+[394x99]∈
+[395x655]))
+[403x655],
+[409x321]𝜅
+[411x559](
+[415x559]+
+[415x321]-contractive coupling which
+[417x99]Z
+[420x699]𝑑
+[420x699]of side length between
+[423x103]𝑑
+[429x695]𝐿
+[433x99]𝑑
+[438x559]2
+[439x429]-spectral independence,
+[444x559])
+[447x357]=
+[448x198]is
+[450x559]Z
+[450x559]on
+[452x682]Λ
+[452x682]that only differ at
+[452x99](
+[455x491]𝑃
+[456x198](
+[458x357]2
+[460x490]for the hardcore
+[466x530]is
+[472x202]2
+[473x99])
+[474x361]𝑑
+[475x532]𝑂
+[475x559].
+[477x111]B
+[478x194]−
+[482x99]𝐿
+[483x194])
+[483x194]𝜅
+[485x113]with respect
+[493x532](
+[500x482]+
+[500x86]obtains a
+[505x478]13\].
+[518x532])
+[521x251]+
+[522x532]. As
+[526x247]22\]

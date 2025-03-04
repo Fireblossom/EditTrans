@@ -1,0 +1,64 @@
+Page dimensions: 595.3x841.9
+[82x757]C Empirical data
+[82x735]We observe the changes of activity over time of the empirical networks for the four data sets (Figure
+[82x723]11). The
+[82x723]US school
+[123x723]presents periodic patterns, varying from low contact periods when the students
+[82x712]are in class to high contact periods when there is a recreational time. The
+[82x712]US flight
+[405x712]and
+[447x712]Conference
+[82x700]networks have circadian patterns as there are respectively less flights and less contacts at night.
+[82x688]Finally, the
+[82x688]Resistance game
+[135x688]does not present any periodic change in its activity as every player of
+[82x676]the game is looking at someone else at each time step.
+[162x1013]a
+[1064x1013]b
+[162x482]c
+[1064x482]d
+[100x571]a b\nc d
+[82x401]Figure 11:
+[82x401]Number of events as a function of time for the four data sets: the
+[136x401]US school
+[414x401](panel a), the
+[82x390]US flight
+[82x390](panel b), the
+[121x390]Conference
+[181x390](panel c) and the
+[229x390]Resistance game
+[304x390](panel d). The
+[373x390]US school
+[438x390]network
+[82x379]contains high activity periods during recreational moments of the students' day, while the
+[82x379]US flight
+[459x379]and
+[82x368]the
+[82x368]Conference
+[97x368]networks present circadian patterns. The Resistance game network does not have particular
+[82x357]periodic activity changes.
+[82x311]References
+[87x289]\[1\] Petter Holme and Jari Saram¨ aki. Temporal networks.
+[87x289]Physics reports
+[407x289], 519(3):97–125, 2012.
+[87x269]\[2\] Petter Holme. Modern temporal network theory: a colloquium.
+[87x269]The European Physical Journal
+[102x257]B
+[109x257], 88:1–30, 2015.
+[87x237]\[3\] Naoki Masuda and Renaud Lambiotte.
+[87x237]A guide to temporal networks
+[276x237]. World Scientific, 2016.
+[87x217]\[4\] Alain Barrat and Ciro Cattuto. Temporal networks of face-to-face human interactions.
+[474x217]Temporal
+[102x206]networks
+[140x206], pages 191–216, 2013.
+[87x186]\[5\] Sune Lehmann. Fundamental structures in temporal communication networks.
+[87x186]Temporal Net-
+[102x174]work Theory
+[157x174], pages 25–48, 2019.
+[87x154]\[6\] Mohammed Saqr and Sonsoles L´ opez-Pernas. The why, the what and the how to model a
+[102x142]dynamic relational learning process with temporal networks. In
+[102x142]Proceedings of the NetSciLA22
+[102x130]workshop
+[142x130], 2022.
+[293x82]16

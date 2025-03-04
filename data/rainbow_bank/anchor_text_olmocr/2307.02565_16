@@ -1,0 +1,159 @@
+Page dimensions: 595.3x792.0
+[53x615]⃗b
+[54x347]b
+[54x265]must be deterministic. It is given by
+[54x276]that describes the newly defined locally diagonal process
+[54x301]more) different values of
+[54x313]S
+[54x393]the instrument (2) produces the outcome
+[54x393]x
+[54x404]a
+[54x404]cal instrument (2) together with
+[54x427]outcomes
+[54x427]b
+[54x416]a fixed
+[54x416]⃗ a
+[54x649]instruments (1) and (3), is deterministic,
+[54x661]matrix
+[54x661]W
+[54x673]a
+[54x719]lent to a channel from the output systems of the parties
+[54x70]tically/probabilistically consistent correlations cannot do
+[54x370]f
+[54x450]that the outcome
+[54x532]S
+[54x544]true by construction in our procedure for replacing the
+[54x144]lowing inclusion relations:
+[54x381]when applied on inputs
+[54x381]a
+[54x461]a priori
+[54x487]the supports of the states
+[54x521]erations of the other parties. Although we proved that if
+[54x555]instrument (1) would be deterministic given
+[54x555]⃗ a
+[54x567]we still have to argue that the outcome
+[54x601]have already seen that when the parties output a specific
+[54x626]their (classical) output systems, they receive a specific
+[57x214]This completes the proof of Theorem 4.
+[59x670]k
+[59x676]′
+[59x593]=
+[59x593]′
+[60x286]k
+[60x471]k
+[64x156]The sets of correlations we have defined admit the fol-
+[68x288]a
+[84x671]k
+[84x671]obtained when we compose the original process
+[87x661]with the local circuit fragments involving the
+[93x416]produce the same
+[126x125]⊊
+[134x243](
+[135x181]2. Strict inclusions
+[137x246]⃗b
+[142x357]k
+[142x357]such that
+[142x243]|
+[144x243]⃗ a
+[145x125]PC
+[153x105]⊊
+[153x243]) =
+[165x380]and
+[166x300]that would produce the same
+[173x125]QP
+[173x485]⃗ a
+[174x231]k
+[176x414]when inserted in the classi-
+[183x125]⊊
+[185x243]δ
+[185x368]k
+[185x368]̸
+[194x370]b
+[197x380]k
+[197x241],g
+[201x381], and by definition the
+[202x125]qC
+[202x356]k
+[203x362]′
+[203x240]k
+[206x404]. But by construction
+[207x358](
+[210x241]⃗ a
+[210x311]to receive two (or
+[210x311]k
+[210x367]there would be at
+[210x373]′
+[211x358]a
+[214x461]conceivable
+[215x243]′
+[216x357]k
+[218x241])
+[219x477]b
+[221x358], b
+[221x243](56)
+[221x243].
+[223x475]when we replace
+[223x475]k
+[235x358])
+[240x391]=
+[240x391]k
+[243x358]f
+[245x649], for every
+[247x393]f
+[254x555]. This was
+[268x393](
+[277x391]k
+[277x291]to
+[288x362]′
+[290x391]k
+[292x358]).
+[315x104]Later (Corollary 4), we will provide examples of provably un-
+[315x104]29
+[317x283]PC
+[317x283]until later (see Theorem 5).
+[317x719]we have
+[317x594]QP
+[317x594]ferent strategy to prove the strict inclusion
+[317x606]finite-dimensional process matrices. Here we adopt a dif-
+[317x628]bipartite 'Guess Your Neighbour's Input' (GYNI) game
+[317x640]A of Ref. \[16\]: namely, that the binary input/output
+[317x651]inclusion
+[317x664]sion relations are specific to the bipartite case. The strict
+[317x326]sion
+[317x337]allows, via Theorem 4, to demonstrate the strict inclu-
+[317x406]partite GYNI game \[18\] perfectly, which is deterministic
+[317x417]noncausal correlations,
+[317x429]bipartite process functions cannot achieve deterministic
+[317x471]QP
+[317x483]strictly contained within the set of quasi-consistent cor-
+[317x514]the general case.
+[317x537]in the bipartite case and, indeed, all deterministic non-
+[320x675]where we use the superscript to denote that these inclu-
+[321x249]3. Sufficient condition for antinomicity of vertices in any
+[325x73]used in proving Corollary 1.
+[325x83]partite process functions: in principle, any such example can be
+[325x92]achievable deterministic noncausal correlations in the case of tri-
+[327x294]DC
+[327x294]We defer a formal proof of the strict inclusion
+[327x360]Indeed,
+[327x360]any
+[339x326]⊊
+[360x326]qC
+[368x697]DC
+[375x656](2)
+[381x471]⊊
+[383x701](2)
+[383x701]=
+[385x326]. Examples of such correlations in the
+[389x651]qC
+[389x517]29
+[397x697]PC
+[399x471]qC
+[412x656]already follows from Appendix
+[423x701]⊊
+[462x701]⊊
+[462x701](2)
+[476x697]qC
+[535x594]qC
+[552x756]17
+[559x594]:

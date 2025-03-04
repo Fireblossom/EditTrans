@@ -1,0 +1,124 @@
+Page dimensions: 612.0x792.0
+[2x168](a)
+[10x125]initialization
+[14x12]downconversion
+[14x22]quantum frequency
+[18x44]pump
+[18x93]cavity
+[20x100]lter
+[41x137]AOM
+[53x32]amplifier
+[54x143]P
+[54x154]efficiency is dependent on the pump power in the waveg-
+[54x200]the converted light is sent through a fine filter setup com-
+[54x212]with a pinhole after 40 cm of propagation length. Finally,
+[54x269]uide modes of the PPLN, where an on-chip wavelength
+[54x303]ciency characterization, or from the output of our SiV
+[54x315]and a 737 nm signal, either from a laser for QFC effi-
+[54x326]a pump laser at 1623 nm amplified by a fiber amplifier
+[54x338]vice (see Supplemental Material). Our input fields are
+[54x349]O-band using a custom-fabricated PPLN waveguide de-
+[54x82]η
+[54x70]version efficiency of the PPLN, and
+[54x372]η
+[54x406]a repetition rate of 670 kHz. A Fabry-P´ erot filter re-
+[54x450]and dark counts of our SNSPDs.
+[54x460]the PPLN waveguide. The noise shown here is calculated for the output of the conversion setup, accounting for the efficiency
+[54x471]efficiency (green) measured using a classical 737 nm input, and pump-induced noise (blue) as a function of pump power inside
+[54x481]prism, and ultimately a 50 GHz filter formed by a circulator and fiber Bragg grating (FBG). (b) Total external conversion
+[54x491]conversion occurs. The converted output is collected and filtered by a 25-nm-bandwidth bandpass filter (BPF), a Pellin-Broca
+[54x523]a frequency downconversion setup. A pump laser at 1623 nm is amplified by a fiber amplifier (BKtel photonics) then coupled
+[54x533]overcoupled nanophotonic cavity then filtered from the driving fields with a free-space Fabry-P´ erot cavity before being sent to
+[57x93]where
+[57x93]η
+[59x40]fiber
+[76x143]and the length of the interaction region
+[88x143]L
+[91x92]is the combined efficiency of all optical com-
+[94x372]= 5
+[111x113]η
+[116x159]init contr
+[120x372]0
+[122x44]/4
+[122x36]/2
+[127x142]in
+[128x13]DM PPLN BPF
+[130x113]η
+[134x372]0
+[135x138]99:1
+[139x372].
+[145x112]opt
+[162x112]int
+[162x112]sin
+[186x117]2
+[198x113]L
+[205x122]p
+[208x66]FBG
+[212x28]Pellin-Broca
+[215x113]η
+[217x69]is the normalized
+[220x99]1350 nm
+[222x21]prism
+[223x92]output
+[240x113](1)
+[262x168](b)
+[277x45]0.02
+[277x89]0.06
+[285x23]0
+[290x16]0 20 40 60 80 100 120 140 160
+[317x70]diamond defect centers \[29\] and indicates the ultimate
+[317x82]which compares favorably to other systems designed for
+[317x93]ρ
+[317x93]tral density at maximum conversion
+[317x116]is at its maximum. Due to the broadband nature of this
+[317x162]linear dependency of 6
+[317x174]SNSPD detection efficiency. The noise profile fits to a
+[317x234]efficiency.
+[317x246]proved by further optimization of our coupling and device
+[317x257]to existing demonstrations \[17, 26–28\], and could be im-
+[317x280]L
+[317x315]consistent with the losses described above. This con-
+[317x338]and fitting the 1350 nm output power to Eq. 1 shows
+[317x349]ciency
+[317x360]the input 737 nm signal, we estimate an internal effi-
+[317x372]filter (59%). By measuring the maximum depletion of
+[317x383]mode and optical fiber (32% total) and the fiber Bragg
+[317x395]limited by coupling losses between the crystal waveguide
+[317x418]internal efficiency, which is determined by the nonlinear
+[338x8]Pump Power (mW)
+[352x347]≈
+[352x347]int
+[360x269]10
+[380x128].
+[380x272]W
+[380x272]4
+[388x128]±
+[397x128]0
+[398x272]−
+[402x128].
+[404x272]1
+[408x36]Noise
+[408x43]Efficiency
+[417x272]−
+[419x162]±
+[426x162]0
+[428x269]. These figures are comparable
+[441x162].
+[443x53]400
+[443x68]600
+[443x82]800
+[443x112]1200
+[443x127]1400
+[443x157]1800
+[444x162]9 Hz/mW of noise photons
+[466x70]Noise Counts (Hz)
+[482x325]= 12
+[482x325]ext
+[513x405]opt
+[518x326].
+[521x326]±
+[521x326]2
+[528x326]0
+[543x326].
+[546x326]1%,
+[630x1320]filter\ncavity\nsingle\nphoton\n0 20 40 60 80 100 120 140 160\nPump Power ... PPLN BPF\n/2\n1350 nm\noutput\npump\ncontrol\ninitialization overcoupled\nSiV-nanocavity0.1 K\n(b)

@@ -1,0 +1,38 @@
+Page dimensions: 439.4x666.1
+[138x658]Springer Nature 2021 L
+[237x660]A
+[242x658]TEX template
+[69x536]Unique continuation for an elliptic interface
+[72x514]problem using unfitted isoparametric finite
+[190x491]elements
+[169x457]Erik
+[191x461]1
+[191x461]and Janosch
+[262x461]1*
+[65x440]1
+[69x436]Department of Mathematics, University College London, Gower
+[108x423]Street, London, WC1E 6BT, United Kingdom.
+[84x385]*Corresponding author(s). E-mail(s): j.preuss@ucl.ac.uk;
+[117x372]Contributing authors: e.burman@ucl.ac.uk;
+[199x337]Abstract
+[75x323]We study unique continuation over an interface using a stabilized unfitted
+[75x312]finite element method tailored to the conditional stability of the problem.
+[75x301]The interface is approximated using an isoparametric transformation of
+[75x290]the background mesh and the corresponding geometrical error is included
+[75x279]in our error analysis. To counter possible destabilizing effects caused by
+[75x268]non-conformity of the discretization and cope with the interface condi-
+[75x257]tions, we introduce adapted regularization terms. This allows to derive
+[75x246]error estimates based on conditional stability. Numerical experiments
+[75x235]suggest that the presence of an interface seems to be of minor impor-
+[75x224]tance for the continuation of the solution beyond the data domain. On
+[75x213]the other hand, certain convexity properties of the geometry are crucial
+[75x202]as has already been observed for many other problems without interfaces.
+[75x182]Keywords:
+[75x182]unfitted finite element method, unique continuation, interface
+[75x173]problems, isoparametric finite element method, geometry errors, conditional
+[75x163]H¨ older stability
+[75x144]MSC Classification:
+[75x144]35J15 , 65N12 , 65N20 , 65N30 , 86-08
+[51x92]1 Introduction
+[51x69]1.1 Motivation
+[217x32]1

@@ -1,0 +1,56 @@
+Page dimensions: 612.0x792.0
+[79x686]strongly Markovian, a likely candidate for the promotion time is the first hitting time of
+[79x669]a threshold as high as possible. In particular, if the cost of effort is zero, the principal
+[79x652]promotes the worker when his type reaches the upper boundary of
+[431x652]X
+[441x656]i
+[445x652]. However, when
+[79x634]effort is costly, this threshold is too high. So, the principal chooses the highest threshold
+[79x617]for which the worker is willing to exert effort instead. If the agent's type increases, the
+[79x600]promotion threshold stays constant: the principal needs to keep her promises. On the
+[79x582]other hand, when the worker's type decreases, the worker becomes more pessimistic about
+[79x565]his promotion chances. The principal then has to lower the promotion threshold to moti-
+[79x548]vate the worker. The logic is the same as in McClellan (2017): the promotion threshold
+[79x530]becomes laxer when the participation constraint binds.
+[360x535]26
+[360x535]Because of the monotonicity of
+[79x513]the problem, this constraint binds precisely when the worker's type decreases.
+[97x496]Formally, the proof of Theorem 4.2 is based on the idea of the proof of Theorem 1 in
+[79x478]McClellan (2017). It follows from the five steps below:
+[97x451]•
+[97x451]First consider a relaxation of problem (RP
+[329x455]i
+[332x451]) for which the constraint (DPC
+[499x455]i
+[502x451]) only
+[108x434]needs to hold for on a finite set of (stopping) times.
+[97x406]•
+[97x406]Lemma 1.5 derives the Lagrangian associated with the relaxed problem as an ap-
+[108x389]plication of Theorem 1 in Balzer and Janßen (2002).
+[97x362]•
+[97x362]In the third step, useful properties of the solution of the relaxed problem introduced
+[108x345]in step 1 are established.
+[97x317]•
+[97x317]The fourth step identifies a promotion contest that guarantees the principal a payoff
+[108x300]of at least the value of the relaxed problem introduced in the first step. It is enough
+[108x283]to focus on promotion contests that promote worker
+[381x283]i
+[381x283]after good performances (as
+[108x265]X
+[119x270]i
+[119x270]crosses an upper threshold from bellow) and take the outside option after bad
+[108x248]outcomes (when
+[195x248]X
+[206x252]i
+[206x252]crosses a lower threshold from above).
+[97x221]•
+[97x221]Putting everything together and letting the set of times at which (DPC
+[467x225]i
+[471x221]) holds grow
+[108x203]dense yields Theorem 4.2.
+[79x176]Steps 1, 2, and 5 are essentially the same as in the proof of Theorem 1 in McClellan
+[79x159](2017). Steps 3 and 4 are new and specific to our setting. The details are in Appendix
+[79x141]1.6.1. Supporting Lemmas are in Appendix 1.6.2.
+[92x97]26
+[100x94]See also Harris and Holmstrom (1982), Thomas and Worrall (1988), or Grochulski and Zhang (2011).
+[300x64]39

@@ -1,0 +1,240 @@
+Page dimensions: 612.0x792.0
+[72x140]estimator ˆ
+[72x178](2022).
+[72x195]in, for instance, a model of supply in demand: see, for example, the model estimated in Casaburi and Reed
+[72x211]Beyond these examples, certain treatment effect contrasts could also be related to the structural parameters
+[72x227]combining the moment functions from Examples 2.3 and 2.4 would result in a weighted LATE parameter.
+[72x495]a
+[72x511]Example 2.5.
+[72x710]for the
+[72x710]i
+[72x363]follows from Assumption 2.1 that
+[72x363]θ
+[72x479]0
+[72x630]m
+[72x535]randomized controlled trials.
+[72x551]treatment effects considered in Bugni et al. (2022) and Bai et al. (2023c) in the context of cluster-level
+[75x567]θ
+[75x379]with logit(
+[75x289]where expit(
+[76x646]for some known function
+[76x646]ω
+[77x72]Note that ˆ
+[77x479]}
+[77x479]<
+[78x273](
+[82x273]s, t
+[87x156]Throughout the rest of the paper we consider the asymptotic properties of the method of moments
+[87x243]Additional examples could be obtained by considering combinations of Examples 2.1–2.5. For instance,
+[94x273]) =
+[94x273]t
+[108x710]a
+[108x710]th unit under treatment
+[116x140]θ
+[119x479]∈ {
+[121x379]z
+[121x138]n
+[121x138]for
+[125x72]θ
+[125x566]0
+[125x566]defined in this way can accommodate the (cluster) size-weighted and equally-weighted average
+[126x379]z
+[126x379]) = log(
+[129x71]n
+[130x140]θ
+[135x289]exp(
+[135x289]) =
+[139x72]θ
+[141x479]0
+[146x479],
+[150x138]0
+[150x138]which is constructed as a solution to the sample analogue of (3):
+[156x479]}
+[161x479], and let
+[161x376]1
+[165x376]−
+[170x495]∈ {
+[171x376]z
+[171x376]), so that
+[175x630](
+[177x379]θ
+[179x294])
+[179x630]·
+[179x599]m
+[180x286]z
+[180x328]m
+[184x286]. The log-odds ratio can then be defined as
+[184x286])
+[188x599](
+[188x289]h
+[192x599]X
+[194x495]0
+[199x495]1
+[199x495],
+[199x646]R
+[201x326]i
+[203x599], A
+[205x477]0
+[205x477]= (
+[209x495]}
+[211x403]θ
+[214x495], and let
+[214x495]Y
+[214x650]d
+[215x597]i
+[215x402]0
+[216x710]∈ {
+[216x326]i
+[218x599], R
+[219x649]→
+[219x649]x
+[220x328], R
+[220x403](2) = logit(
+[226x362]0
+[226x362]solves the moment condition in (3) with
+[226x677]0
+[227x479]θ
+[227x646]R
+[229x379](2) denotes the log-odds ratio of treatment 1 relative to treatment 0. It
+[230x597]i
+[231x477]0
+[232x326]i
+[233x679]E
+[234x363]m
+[234x599], θ
+[236x479](1)
+[239x710]0
+[241x117]1
+[243x599]ω
+[244x710]1
+[244x328]) =
+[245x510]i
+[249x479], θ
+[249x98]1
+[250x646]. It then follows from Assumption 2.1 that
+[250x646]θ
+[251x677]Q
+[251x449]θ
+[252x511]a
+[253x98]⩽
+[254x120]X
+[257x511]R
+[258x477]0
+[258x710], and let
+[259x693]
+[259x693]ω
+[260x98]i
+[261x493]=
+[261x493]i
+[266x672]E
+[267x599](
+[269x98]n
+[269x403]E
+[269x335]1
+[269x335]−
+[271x599]X
+[273x670]Q
+[275x110]m
+[276x402]Q
+[279x482]′
+[279x597]i
+[280x672]\[
+[282x479], where
+[282x599])
+[282x685](
+[283x672]ω
+[283x403]\[
+[284x110](
+[286x317]i
+[286x403]Y
+[286x685]X
+[286x511](
+[288x110]X
+[288x493]denote the observed outcome. Suppose 0
+[288x493]i
+[290x511]a
+[293x672]X
+[294x333]i
+[295x403](1)\])
+[295x403]−
+[295x495]< P
+[295x511]∈ {
+[296x605]Y
+[297x345]!
+[301x670]i
+[302x604]i
+[304x42]5
+[307x328](
+[310x710]R
+[311x328]Y
+[311x109]i
+[313x604]i
+[317x326]−
+[317x326]i
+[317x403]logit(
+[317x448]Q
+[317x511]0
+[318x679]Y
+[320x599]Y
+[322x511],
+[322x511]1
+[322x328]expit(
+[324x449]\[
+[326x449]Y
+[327x109]i
+[327x679]−
+[328x709]i
+[330x110],
+[331x511]denote a binary potential outcome for the
+[331x511]}
+[332x448]i
+[335x449](0)\])
+[335x449],
+[336x604]i
+[339x109]n
+[340x605]−
+[340x605](1
+[340x511]i
+[342x679]Y
+[349x592]η
+[350x403]E
+[351x605]A
+[358x328]θ
+[358x677]i
+[363x328]θ
+[363x328](1) +
+[364x403]\[
+[367x403]Y
+[368x604]i
+[370x110](6)
+[372x605])
+[373x402]i
+[376x403](0)\])
+[376x403],
+[386x599]ω
+[386x599]−
+[388x679],
+[393x328](2)
+[401x289]) where
+[405x328]A
+[407x599]X
+[413x326]i
+[415x597]i
+[416x328],
+[420x363](
+[422x599]θ .
+[424x363]·
+[427x363]) given by
+[446x289]R
+[450x645]solves the moment
+[450x645]0
+[460x293]2
+[468x289]R
+[481x289]is given by
+[487x71]0
+[501x495]{
+[506x495]Y
+[512x493]i
+[515x495](
+[524x495]) =
+[531x511]th

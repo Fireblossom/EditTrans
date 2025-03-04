@@ -1,0 +1,106 @@
+Page dimensions: 612.0x792.0
+[59x710]III.C.2.
+[59x710]Application of a Unitary Transformation:
+[351x710]In this part of the circuit, a series of
+[102x689]Quantum gates are applied to the initial states.
+[102x668]Let
+[102x668]G
+[133x666]i
+[133x666]∈ {
+[159x668]I, X, Y, Z, H, S, T, R
+[261x666]X
+[269x668], R
+[284x666]Y
+[284x666], R
+[305x666]Z
+[312x668],
+[312x668]CNOT
+[352x668],
+[352x668]SWAP
+[391x668], . . .
+[410x668]}
+[410x668]be Quantum gates, for
+[102x647]1
+[102x647]⩽
+[111x647]i
+[124x647]⩽
+[131x647]m
+[154x647], and then we apply a series of Quantum gates on the initial state. We can
+[102x626]be sure that no matter what combination of these Quantum gates we have, they form
+[102x605]a unitary operator, i.e.
+[222x605]U
+[222x605]=
+[235x605]N
+[261x611]m
+[261x602]i
+[264x602]=1
+[264x602]G
+[286x604]i
+[289x605]. Mathematically, this part of the circuit is given
+[102x585]by
+[102x585]U
+[118x585]|
+[133x585]Ψ
+[142x583]0
+[146x585](
+[151x585]θ
+[158x585])
+[163x585]⟩ ≡ |
+[187x585]Ψ(
+[200x585]θ
+[207x585])
+[212x585]⟩
+[217x585].
+[59x554]III.C.3.
+[59x554]Measurement:
+[102x554]Measurement is performed on the result
+[409x554]U
+[419x554](
+[423x554]θ
+[430x554])
+[430x554]in order to extract
+[102x533]information from the Quantum states.
+[72x504]Steps III.C.2. and III.C.3. are repeated in order to minimise the loss function,
+[488x504]J
+[495x504](
+[500x504]θ
+[507x504])
+[512x504], and
+[72x483]the process is stopped once an acceptance criterion is met.
+[78x350]Data
+[74x340]Points
+[163x353]Features
+[85x306]1
+[85x291]2
+[112x417](Preprocessed)
+[115x401]Classical Data
+[119x306]0.965
+[119x291]0.772
+[119x241]0.231
+[148x306]1.992
+[148x291]2.437
+[148x241]1.930
+[241x306]0.21
+[268x353]Labels
+[241x291]0.93
+[241x241]0.54
+[279x306]0
+[279x291]1
+[279x241]1
+[606x407]Unitary Operator:
+[774x410]Measurement
+[375x299]Feature Map
+[356x37]Optimisation:
+[108x473]Data\nPoints\nFeatures\n1\n2\n(Preprocessed)\nClassical Data\n0.965\n0.772\n0.231\n1.992\n2.437\n1.930\n0.21\nLabels\n0.93\n0.54\n0\n1\n1\nUnitary Operator: Measurement\nFeature Map\nOptimisation:
+[160x207]FIG. 5:
+[160x207]Architecture of the Variational Quantum Classifier.
+[87x155]D. Estimator Quantum Neural Networks
+[87x120]The
+[87x120]Estimator Quantum Neural Network
+[300x120](EQNN) is a hybrid Classical-Quantum neural
+[72x99]Network architecture whereby the Quantum component is known as the
+[454x99]feature map
+[519x99]and
+[72x78]converts the classical data into Quantum states. As shown in Fig 6, the EQNN operates as
+[72x57]follows:
+[293x27]14

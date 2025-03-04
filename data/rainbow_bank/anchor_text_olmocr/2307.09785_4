@@ -1,0 +1,201 @@
+Page dimensions: 612.0x792.0
+[0x0]Gibbs sampling
+[0x0]3.49
+[0x0]3.64
+[0x0]2.46
+[0x0]Three-parameter
+[0x0]2.31
+[0x0]One-and-all-bias
+[0x0]2.13
+[0x0]3.88
+[56x136]We found that the increased number of internal parameters improved sample quality. To determine the reason, Fig. 3 presents
+[57x64]β
+[57x64]data were identical to the previous experiment. The number of times for updating
+[57x88]imperfections of qubits. We consider many internal parameters that can be calibrated to improve sample quality.
+[57x112]E
+[57x124]E
+[57x147]the Boltzmann distribution. Therefore, results close to those obtained by Gibbs sampling can be considered more accurate.
+[57x159]empirical distributions approach the original distribution. In theory, Gibbs sampling can accurately obtain samples following
+[57x171]scheme. Table 1 shows the results of KL divergence. The increase in the size of samples decreased KL divergence because the
+[57x195]to prior studies
+[57x207]RBM comprising 32 visible nodes and 8 hidden nodes in advance using the coarse-grained MNIST training dataset, similar
+[57x219]First, we validated the proposed estimation scheme for the internal parameters without training. The CD algorithm trained an
+[57x236]Experiments
+[57x275]v
+[57x287]is an online estimation scheme, an increase in internal parameters leads to an increase in estimation time. If we introduce a
+[57x299]respectively. The estimation of many internal parameters requires a large number of samples. Because the proposed method
+[57x311]Eq. 14. These patterns of internal parameters are hereinafter referred as one-parameter, three-parameter, and one-and-all-bias,
+[59x323]The same algorithm can be applied by replacing line 8 in ESTIMATE_BETA of Fig. 2 with corresponding update rules in
+[63x110]and
+[73x112]E
+[82x495]δβ
+[82x556]P
+[82x362]δβ
+[88x556](
+[88x611](
+[92x556]v
+[92x611]v
+[93x493]vh
+[93x493]=
+[93x453]=
+[93x453]v
+[93x413]h
+[93x383]=
+[93x361]=
+[95x556],
+[95x611],
+[97x110]v
+[99x611]h
+[99x455]η
+[100x415]η
+[103x495]η
+[103x362]η
+[103x112]E
+[104x556]|
+[107x611]θ
+[115x695]1000000
+[115x707]100000
+[115x719]Number of samples
+[117x611]β
+[117x199]42
+[118x417]
+[118x435]
+[121x497]
+[123x554]vh
+[130x512]*
+[130x611],
+[134x611]β
+[134x453]∑
+[137x384]v
+[138x493]∑
+[138x445]i
+[139x485]i
+[139x555]v
+[139x610]v
+[140x362]h
+[141x383]i
+[141x485]j
+[141x485],
+[143x555]1
+[143x384]⟩
+[145x455]b
+[146x415]c
+[146x361]j
+[147x556], . . . ,
+[147x611]β
+[147x381]−⟨
+[147x381]S
+[149x495]w
+[150x453]i
+[152x609]h
+[153x455]v
+[153x358]S
+[154x415]h
+[163x432]+
+[163x672]KL divergence between empirical distributions of samples and the original RBM.
+[166x384]b
+[168x442]S
+[171x402]S
+[172x555]vn
+[173x455]−
+[174x493]j
+[176x415]−
+[178x383]i
+[180x384]⟩
+[185x381]χ
+[185x482]S
+[185x432]*
+[187x361]j
+[188x554]h
+[189x627]
+[190x395]
+[190x453]∑
+[192x554]1
+[193x413]∑
+[194x619]β
+[195x358]χ
+[196x556], . . . ,
+[198x405]j
+[200x373]
+[200x512]*
+[202x455]b
+[207x362].
+[209x455]v
+[209x485]i
+[213x415]h
+[215x617]i
+[216x472]+
+[217x617]j
+[217x617],
+[219x414]j
+[219x495]w
+[220x617]w
+[221x554]hm
+[222x432]+
+[225x442]χ
+[230x475]
+[231x556]) =
+[232x495]v
+[232x275]h
+[235x417]
+[235x435]
+[236x493]i
+[236x619]v
+[238x274]j
+[239x495]h
+[239x455],
+[241x617]i
+[245x493]j
+[248x512]+
+[248x564]exp
+[250x617]j
+[250x617]+
+[251x604]Z
+[254x619]β
+[261x601]vh
+[261x515]
+[263x572]
+[266x601],
+[268x564]β
+[268x601]v
+[272x601]h
+[273x562]∑
+[273x562]vh
+[280x617]i
+[289x562]i
+[291x562],
+[291x562]j
+[291x619]v
+[296x617]+
+[310x564]v
+[314x617]h
+[315x562]i
+[317x564]h
+[323x562]j
+[325x549]Z
+[328x564]∑
+[340x619]h
+[342x546]vi
+[344x562]β
+[346x617]j
+[346x546],
+[349x627]
+[353x562]vi
+[355x611](12)
+[371x562]i
+[375x564]∑
+[379x64]in each epoch was set to five. The increase
+[392x562]β
+[392x562]j
+[393x110]of the three-parameter case and
+[393x110]v
+[417x564]h
+[422x275]and
+[423x562]j
+[426x572]
+[429x275]m
+[432x556].
+[433x124], the samples' distributions of
+[454x275], which may significantly
+[538x34]5/10
+[539x425](14)

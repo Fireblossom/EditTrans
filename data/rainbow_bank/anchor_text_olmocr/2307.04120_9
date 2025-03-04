@@ -1,0 +1,122 @@
+Page dimensions: 612.0x792.0
+[Image 89x370 to 523x741]
+[177x755]Xie L.
+[195x755], et al. Sci. China-Phys. Mech. Astron.
+[195x755]04 (2023) V ol. xx No. x
+[315x755]000000-10
+[150x350]Figure 4
+[150x350]Stellar mass estimates as for Fig. 3 but using the GaZNet morphoto-metric redshifts.
+[52x324]corresponding statistical estimators. In this case, we also use the LP
+[52x324]/
+[326x324]B03
+[343x324]/
+[346x324]ExD model from the spec-
+[451x324]z
+[451x324]as reference to check the
+[52x311]impact of the GaZNet redshift in terms of accuracy and scatter. Basically, the results show that, for the same correlations seen
+[52x298]in Fig. 3, the relative bias of the di
+[188x298]ff
+[194x298]erent configurations is not worsened, meaning that the accuracy of the mass estimates is not
+[52x285]a
+[56x285]ff
+[62x285]ected by the use of the morphoto-
+[194x285]z
+[198x285]. This is eventually a consequence of the good accuracy of these latter as seen in Fig. 2. On
+[52x271]the other hand, we register an evident increase of the NMAD as a consequence of the morphoto-
+[435x271]z
+[435x271]intrinsic statistical errors and
+[52x258]outlier fractions, which is also mirrored by the scatter of the residual, at the bottom of the 1-to-1 relations, which is now of the
+[52x245]order of 0.23 dex, for log
+[52x245]M
+[164x243]∗
+[168x245]/
+[173x245]M
+[181x243]⊙
+[181x243]>
+[189x245]9, and 0.49 dex for log
+[199x245]M
+[301x243]∗
+[305x245]/
+[309x245]M
+[318x243]⊙
+[318x243]<
+[326x245]9, on average. These large scatter at low stellar masses
+[52x231]are mainly caused by the trend we see that below log
+[52x231]M
+[283x230]∗
+[286x231]/
+[291x231]M
+[299x230]⊙
+[299x230]=
+[308x231]8
+[324x231].
+[327x231]5, where stellar masses are systematically overestimated
+[52x218]compared to those obtained with the spec-
+[221x218]z
+[225x218]. This is not an e
+[225x218]ff
+[298x218]ect that comes from the particular set-up of the fitting procedure,
+[52x205]as shown by the comparison of the LP
+[52x205]/
+[211x205]B03
+[227x205]/
+[230x205]ExD
+[248x205]/
+[251x205]morphoto-
+[293x205]z
+[293x205]against the same set-up with spec-
+[300x205]z
+[439x205](bottom
+[477x205]/
+[480x205]left plot in Fig. 4).
+[52x192]Even in this latter case, we see that below log
+[52x192]M
+[246x190]∗
+[250x192]/
+[254x192]M
+[263x190]⊙
+[263x190]=
+[271x192]8
+[286x192].
+[288x192]5 the positive bias is similar to the ones of all other configurations.
+[52x178]We track the motivation of this systematics to some bias of the GaZNet redshifts for a group of objects at very low redshifts
+[52x165](
+[55x165]z
+[55x165]<
+[63x165]0
+[79x165].
+[81x165]05 see Fig. 2), which turn-out to have also low masses. This can be due to some residual contamination from stars,
+[52x152]not picked in the spectra classification, or just a failure of the GaZNet predictions at very low-
+[427x152]z
+[431x152], which clearly impact the mass
+[52x139]predictions. We will come back to this on Sect. 4. However, still looking at the LP
+[52x139]/
+[397x139]B03
+[413x139]/
+[416x139]ExD
+[434x139]/
+[437x139]morphoto-
+[479x139]z
+[479x139]vs. spec-
+[486x139]z
+[527x139], above
+[52x125]log
+[52x125]M
+[75x124]∗
+[79x125]/
+[83x125]M
+[92x124]⊙
+[92x124]=
+[100x125]8
+[114x125].
+[116x125]5, the bias is almost absent and the only relevant e
+[317x125]ff
+[323x125]ect is the GaZNet redshift scatter that, from the NMAD, is
+[52x112]quantified in 0.09. This is confirmed by noticing that the general increase of the NMAD from the spectroscopic sample to the
+[52x99]morphoto-metric sample, in Table 2, is compatible with the sum in quadrature of the NMAD of the former with 0
+[52x99].
+[514x99]09 coming
+[52x85]from the latter, consistently with some pseudo-Gaussian distributions. This is consistent with a log-normal distribution of the
+[52x72]uncertainties of the stellar masses, which are confirmed by the outlier fractions that are all of the order of 5-6% above 2
+[525x72]σ
+[534x72]of the

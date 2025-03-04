@@ -1,0 +1,177 @@
+Page dimensions: 612.0x792.0
+[72x736]8 Krishnamurthy Iyer Haifeng Xu You Zu
+[75x466]3.
+[75x627]No-history information model:
+[76x87]Such stale information about the process could plausibly arise from the receivers having interacted with the process
+[76x120]In certain cases, this modeling assumption can be established formally. For instance, if time periods denote the
+[83x72]in the past; however, we do not consider such repeated interactions in our model.
+[89x480]and call it the
+[89x136]into the problem's fundamental difficulty.
+[89x163]ℓ
+[89x176]settings where the receivers only have limited, but arbitrary, information about states and action
+[89x190]that the sender's payoff under the information model
+[89x231]information model
+[89x245]it the
+[89x285]the subsequent
+[89x371]ℓ
+[89x384]Specifically, for a fixed
+[89x412]paper, we focus on a particular sequence of information models to capture realistic scenarios
+[89x425]¯
+[89x452]of information models where receivers possess partial information about the process history. In
+[89x494]setting where the preceding condition holds, we denote the belief sequence
+[89x507]and the state
+[89x600]must be independent of the realized history. A natural approach, motivated by the requirement
+[89x641]{
+[89x655]recommendations.) When the preceding condition holds, we denote the resulting belief sequence
+[89x668]together with the underlying Markovian dynamics, assuming that the receivers adopt the sender's
+[89x695]encodes the fact that the receivers' belief about
+[92x521]Inv
+[92x521]Here,
+[93x299]Here,
+[93x299]e
+[94x641]ϕ
+[99x682]·|
+[101x640]t
+[105x682]x
+[111x680]−
+[114x641]∈
+[118x680]1
+[119x245]partial-history information model with lag
+[127x707]h
+[127x707]is the distribution that puts all its weight on
+[127x682]P
+[127x682]. (Here,
+[131x296]−
+[133x424]t
+[136x425]. Although a comprehensive analysis of all such models is beyond the scope of this
+[138x641]}
+[140x329]P
+[145x521]⊗
+[145x521])
+[147x641]Φ
+[149x333]σ
+[154x341]
+[155x573]t
+[155x573]∈
+[157x507]ω
+[158x591]2
+[158x591]is to let each belief
+[161x521]encodes the distribution of
+[162x573]Z
+[164x506]t
+[164x556]
+[165x285]transitions of the process, i.e., the distribution of
+[167x327]t
+[169x547]ϕ
+[169x640]full
+[169x640]and call it the
+[174x329]e
+[176x545]=
+[178x686]denotes the probability measure induced by the signaling mechanism
+[179x573],
+[195x326]−
+[196x272], and finally, the kernel
+[200x384]≥
+[208x384]0
+[218x547])
+[225x384], consider the setting where the receivers observe the process with
+[225x326]σ
+[227x333]ℓ
+[233x329]P
+[238x357]ℓ
+[246x550]¯
+[254x547]h
+[255x332]¯
+[255x641]full-history information model
+[259x627]At the other extreme, consider the case where the receivers
+[260x545]t
+[262x329]h
+[268x327]=
+[269x585]equal the invariant distribution
+[269x585]t
+[275x329]h,
+[278x547]¯
+[295x215]ℓ
+[296x545]=
+[299x521](¯
+[300x371]t
+[303x521]h
+[304x327]t
+[309x272]P
+[309x272]captures the subsequent distribution of the
+[311x329]ω
+[312x695]ω
+[313x521],
+[314x215]of information models is that they serve as a
+[323x245]ℓ
+[325x519]t
+[327x245]We note that
+[328x521]where the history
+[328x521])
+[330x437]would have a complex dependence on the
+[330x437]t
+[338x709]h
+[340x329]= 1
+[347x547],
+[351x188]acts as a lower-bound on her payoff in
+[357x329]for all
+[357x329],
+[384x547]∈ X
+[389x707]−
+[394x329]∈ X
+[400x709], x
+[401x245]Φ
+[409x243]0
+[412x258]{
+[416x285](¯
+[418x707]1
+[419x521]h
+[420x524]¯
+[420x285]x
+[423x709])
+[423x333]and
+[424x256]t
+[426x519]is distributed as
+[426x519]t
+[427x614]t
+[429x402]3
+[430x283]−
+[430x299]h
+[439x297]−
+[440x285], . . . ,
+[444x258]Z
+[446x297]=
+[446x297]ℓ
+[447x547]∈
+[449x713]∞
+[450x587]σ
+[450x494]{
+[453x299]h
+[456x329]∈
+[458x709], and
+[461x587]. Specifically, we
+[462x258]}
+[462x492]t
+[464x374]¯
+[465x285]¯
+[469x494]t
+[470x297]−
+[474x284]−
+[481x299],
+[481x299]P
+[484x709]e
+[485x285])
+[485x285]under the
+[489x707]h
+[489x507]P
+[495x296]σ
+[495x709]⊗
+[496x303]ℓ
+[514x709]·|
+[526x707]−
+[529x272]ω
+[531x492]no
+[533x682]σ
+[534x521])
+[536x612]t
+[539x272].

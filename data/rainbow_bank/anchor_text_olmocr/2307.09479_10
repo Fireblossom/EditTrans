@@ -1,0 +1,89 @@
+Page dimensions: 595.3x841.9
+[72x759]the final assignment. The prescribed collusive ranking model in this article demonstrates that if the
+[72x739]platform acts as an agent and redefines a new assignment, the final assignment will be changed to a
+[72x718]collusive or joint profit-maximizing assignment based on the criteria. It demonstrates that if any of
+[72x698]the following criteria are proposed, namely
+[72x698]products related to this item
+[267x698],
+[392x698]more to consider from made
+[72x678]for Amazon
+[124x678],
+[127x678]compare with similar items
+[127x678],
+[252x678]customers who viewed this item also viewed
+[252x678], etc... then the
+[72x657]allocation will be collusive. By minimizing the customer's mismatch problem, the next level ranking
+[72x637]or shortlisting vendors is to be done out of the first level shortlisting vendors. This mismatch can be
+[72x617]reduced by updating online reviews with a Bayesian approach. Because online reviews are nothing
+[72x596]more than sequential voting, they contain a history of customer preferences. As a result, relying solely
+[72x576]on the current review comments is insufficient to assess the object's quality. This information must also
+[72x556]be updated to determine the quality of future services.
+[72x519]3.2 Model Setup: Problem Formulation
+[72x491]Imitation of third-party products and self-preferencing are important tools used to direct customers to
+[72x471]the platform's products\[Hagiu et al., 2022\]. As a result, it should maintain equal access from both sides,
+[72x450]namely the customer and the firms. On E-Commerce platforms, there are currently two types of seller
+[72x430]ranking. The first is sponsored, while the second is not. Sellers who chose the sponsored ranking
+[72x410]mechanism must participate in the auction bidding process to win the slot. The remainder is managed
+[72x390]by manipulating keywords, review ratings, review comments, and so on. Furthermore, platforms have
+[72x369]some hidden mechanisms in place to push their products. The current article proposes a general model
+[72x349]for retrieving the query so that every seller can benefit concerning their strength, particularly those
+[72x329]who do not participate in the sponsored ranking mechanism. The proposed model is the development
+[72x308]of an algorithm that solves the preceding two problems so that the search algorithm is not collusive.
+[72x288]Otherwise, the search algorithm will be collusive, and the platform will have the power to control the
+[72x268]market in favor of certain interest groups.
+[72x231]3.2.1 Analysis: Assortment Planning and the Revenue Maximization Problem
+[72x204]We consider a marketplace (platform) where a set of
+[72x204]K
+[309x204]substitutable goods or services offered by the
+[72x183]K
+[72x183]individual vendors, henceforth, called the
+[85x183]products
+[307x183]-are offered to a market of customers who decide
+[72x163]whether to buy one of them or to choose a no-purchase option. Let
+[72x163]\[
+[368x163]k
+[374x163]\]
+[374x163]≜
+[381x163]{
+[397x163]1
+[403x163], ..., k
+[428x163]}
+[428x163]denote the universal
+[72x143]set of products. The online platform (he) chooses an assortment
+[72x143]S
+[361x143]⊂
+[373x143]\[
+[388x143]k
+[394x143]\]
+[394x143]to display and rank them in
+[72x122]order within
+[72x122]M
+[129x122]slots. This has to be done in tow stage process;
+[143x122]S
+[359x121]1
+[363x122]&
+[372x122]S
+[379x121]2
+[383x122](=
+[383x122]S
+[407x122])
+[411x122]. First
+[411x122]S
+[447x121]1
+[447x121]⊂
+[455x122]\[
+[470x122]k
+[476x122]\]
+[476x122]thereafter
+[72x102]S
+[79x100]2
+[83x102](=
+[83x102]S
+[109x102])
+[109x102]⊆
+[118x102]S
+[138x100]1
+[143x102]. The platform sells this single product over a horizon of length
+[143x102]T
+[438x102]and each vendor
+[72x82]is holding more than one product. It will be convenient to think of this planning horizon in terms of

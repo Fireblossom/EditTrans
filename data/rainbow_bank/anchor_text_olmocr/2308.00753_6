@@ -1,0 +1,276 @@
+Page dimensions: 595.3x841.9
+[54x231]The subgraph
+[54x120](
+[54x615]{
+[54x626]a so-called frustration graph
+[54x745]contextuality and joint expectation values.
+[54x768]torization of matrices, Theorem 8 and Theorem 11 give
+[54x341]into four groups
+[54x353](
+[54x512]and
+[58x353]i
+[61x119]0
+[61x351]0
+[64x672]The set of operators, where any pair either commutes
+[66x120], j
+[70x275]•
+[70x198]•
+[70x253]i
+[70x253]•
+[70x153]otherwise,
+[70x153]•
+[74x351]0
+[79x153]i
+[79x176]i
+[79x187]have
+[79x297]̸∼
+[79x320]̸∼
+[80x466])
+[80x466]is the set of all SAURs of
+[83x615]}
+[83x615]= 0
+[85x176]j
+[97x510]j
+[99x318]0
+[99x318]and
+[100x709]IV. SELFADJOINT UNITARY
+[101x512]if
+[101x512]\] = 0
+[102x220](
+[107x253]i
+[107x297]i
+[109x187]j
+[109x218]0
+[114x783]2
+[118x231]G
+[124x698]REPRESENTATIONS
+[126x153]∼
+[126x132]For a given graph
+[126x364]For a given graph
+[126x320]̸∼
+[126x197]k
+[129x512]i
+[130x220]-induced subgraph of
+[132x153]j
+[132x231]G
+[132x297]j
+[140x580](
+[140x580]q
+[143x153]in
+[144x231]with vertices in
+[147x251]0
+[147x318]0
+[147x512]j
+[151x153]G
+[152x341], V
+[162x477]β
+[164x512]. This representation is called
+[165x454]β
+[166x580]}
+[166x196]2
+[168x477](
+[170x157]if and only if
+[171x580]) =
+[174x198]k
+[177x340]3
+[178x120](
+[184x626]G
+[184x626]\[11, 12\], where
+[186x119]0
+[189x253]i
+[189x253]∈
+[189x275]i
+[189x297]∈
+[189x320]i
+[190x351]0
+[190x351]and
+[190x120], j
+[192x477]) =
+[193x615], S
+[194x191]if and only if
+[194x191]′
+[195x320]V
+[197x636]i
+[199x353]j
+[204x132]and one of its edges
+[204x364]G
+[208x454](
+[208x197]1
+[208x197]̸
+[209x523]S
+[210x580].
+[210x477](
+[210x251]3
+[212x454]G
+[215x443]> α
+[220x454])
+[221x757]ϑ
+[223x351]0
+[225x220]G
+[227x476]ac
+[227x757](
+[229x522]j
+[233x235]4
+[235x535]{
+[236x477](
+[236x153]∼
+[239x757]in quantum
+[240x477]G
+[244x443]G
+[247x231]V
+[247x477])
+[249x535]of selfad-
+[251x477], w
+[252x230]is said to
+[256x443]. To con-
+[258x198]2
+[263x477])
+[265x626]∼
+[267x477], where
+[267x198],
+[272x546]G
+[273x626]j
+[274x523]∼
+[284x626]if
+[317x780]G
+[317x664]G
+[317x664]induced subgraph
+[317x337]Theorem 16.
+[317x399]O
+[317x641]tex
+[317x304]From the convexity of
+[317x324]where
+[317x433]Definition 15.
+[317x464]information of the symmetry in the graph. To reflect the
+[317x495]is a set of commuting selfadjoint unitaries.
+[317x530]Theorem 14
+[317x507]SAUR
+[320x281]ψ
+[320x196]p
+[320x706]G
+[325x397]=
+[327x281]⟩⟨
+[327x687]If we take the pentagon
+[333x387], otherwise,
+[336x606]= 1
+[337x399]X
+[341x630], G
+[343x594]X
+[344x725]k
+[347x409]i
+[347x399]if
+[349x258]D
+[349x750]3
+[351x268]i
+[353x410]⊗
+[354x194]≥
+[354x507]S
+[354x270]'s are diagonal matrices. Denote
+[356x509]¯
+[357x549]X
+[357x257]i
+[360x630]G
+[360x324]is a SAUR of
+[360x324]}
+[360x196]0
+[360x505]i
+[363x594]id
+[364x518]of
+[368x399]is the start of
+[370x606]=
+[378x608]Y, S
+[379x161]⟩
+[380x409]E
+[382x422], the set of selfadjoint operators
+[385x133]=
+[386x675](1
+[388x549]⊗
+[392x735]i
+[393x227]|
+[394x409]e,i
+[394x409]is called the edge SAUR of
+[395x675],
+[395x675]3)
+[395x518], there is a unitary
+[396x143]X
+[396x227]ψ
+[399x549]id
+[401x736]i
+[401x121]k
+[403x227]=
+[403x736]∈
+[405x606]4
+[405x606]=
+[406x612]′
+[409x193]p
+[410x668]is a triangle. Continually, the
+[412x167]√
+[412x608]X, S
+[417x132]k
+[419x194]= 1
+[420x237]X
+[422x133]⟨
+[425x159]i
+[427x239]2
+[429x324]G
+[434x159]j
+[434x505]i
+[436x234]√
+[438x161]⟨
+[438x737]X
+[439x780]S
+[443x706]id
+[444x768]G
+[445x510]= ¯
+[447x736]i
+[448x780]}
+[449x735]⊗
+[449x735]0
+[454x706]1
+[456x227]ϕ
+[456x737]id
+[459x608](22)
+[461x159]i
+[464x399]O
+[465x161]|
+[466x706]to all its vertices.
+[469x592]4
+[469x592]=
+[470x303]i
+[472x397]e,i
+[473x159]l
+[474x641]{
+[474x324]}
+[478x308]2
+[482x304], we know that we
+[484x227]i
+[485x638]}
+[485x736]j
+[489x735]⊗
+[490x161]|
+[490x337]{
+[491x227](24)
+[496x641],
+[501x270]d
+[507x161]l
+[510x161]⟩
+[511x368], their joint
+[514x592]=
+[515x641]and
+[515x641]}
+[515x530]and one
+[522x594]ZZ,
+[523x641]{
+[531x410], where
+[533x422]A
+[537x675](1
+[543x337]S
+[544x582](23)
+[545x675],
+[546x507]D
+[552x419]=1
+[554x640]i
+[557x641]}
+[557x507]}
+[557x806]7
+[559x675]-

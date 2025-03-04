@@ -1,0 +1,74 @@
+Page dimensions: 609.4x841.9
+[69x503]mixed states, e.g. the depolarized Toffoli state (see Section 6 for more details).
+[69x517]obtain new (closed-form) upper bounds for transformations involving specific two and three-qubit
+[69x531]transformation than the one previously known, which used the generalized robustness. Moreover, we
+[69x544]for asymptotic state transformation. In this way, we obtain much tighter bounds for one-shot state
+[69x558]operations. Moreover, the results on the relative entropy of magic allow us to derive upper bounds
+[69x571]ticular, we can obtain upper bounds for the ratio
+[69x571]m/k
+[69x598]resource just equals the sum of the one of each state, which is computable.
+[69x612]problem for tensor products of low-dimensional multi-qubit states. In this case, the total magic
+[69x626]we are limited to just five-qubit states \[19, 32\]. The additivity property allows us to overcome this
+[69x639]stabilizer states scales super-exponentially with the number of qubits. For numerical experiments,
+[69x653]unfeasible for multi-qubit states as the number of qubits grows. This is because the number of pure
+[69x666]the 'whole' to just the sum of one of the 'parts'. The computation of these monotones becomes soon
+[69x707]tensor products, and if not, under which conditions they become additive. However, very little is
+[69x720]problem is whether the magic monotones based on a quantum relative entropy are additive under
+[69x761]take place before a magic state becomes a stabilizer state \[21, 32\]. The relative entropy of magic,
+[84x585]The additivity property allows us to compute upper bounds for state transformations. In par-
+[88x152]In Section 7, we give closed-form expressions for the stabilizer fidelity and the generalized
+[88x152]•
+[88x203]•
+[88x203]In Section 6 we discuss in detail the implication of the above additivity results to magic
+[88x387]•
+[88x387]In Section 4, we prove that the relative entropy of magic is additive for single-qubit states if all
+[88x466]•
+[88x466]In Section 3, we prove that the stabilizer fidelity is multiplicative for tensor products of any
+[99x255]α
+[99x279]counterexample.
+[99x292]relative entropy of magic is not additive for general two multi-qubit states by providing a
+[99x306]this result to all the
+[99x320]stabilizer twirling, from which one aims to distill a better pure magic state \[7, 8\]. We extend
+[99x347]noise. These are the states involved in the standard magic state distillation scenario where
+[99x98]tent \[32, Theorem 3\]. In Section 8 we give a closed-form expression for all the
+[99x98]α
+[99x112]generalized robustness of magic is equal to the dyadic negativity and the mixed-state ex-
+[99x125]posed classical simulators (see \[32\] for more details). Moreover, for single-qubit states, the
+[99x139]robustness of magic for single-qubit states. The latter monotone benchmarks several pro-
+[99x190]state transformation. This allows us to obtain upper bounds on magic state distillation and
+[99x71]depolarizing noise.
+[99x84]T, H, F
+[99x228]class includes the Toffoli, Hoggar, and
+[99x241]and three-qubit states that belong to a specific class. In Section 8, we show that the latter
+[99x360]Section 8, we show that the latter class includes the
+[99x411]of magic for all single-qubit states established in \[32\].
+[99x439]monotones, namely all the
+[213x306]z
+[213x306]R´ enyi relative entropies of magic. Finally, we also show that the
+[238x439]z
+[238x439]R´ enyi relative entropies of magic in the range
+[273x255]-
+[277x255]R´ enyi relative entropies of magic are additive for two
+[277x84], Toffoli, Hoggar, and
+[277x84]CS
+[304x571]in the transformation
+[351x360],
+[354x360]H
+[364x360], and
+[364x360]F
+[381x84]magic states subject to global
+[391x360]states subject to depolarizing
+[439x575]⊗
+[446x575]→
+[446x575]k
+[470x439](1
+[474x575]⊗
+[481x575]m
+[481x575]under free
+[492x439]α
+[499x98]-
+[502x98]z
+[503x439]/z
+[514x439]|
+[514x439]= 1.
+[535x796]2

@@ -1,0 +1,209 @@
+Page dimensions: 612.0x792.0
+[54x617]each time
+[54x628]L
+[54x504]sipator which corresponds to traceless Lindblad opera-
+[54x515]D
+[54x424]given by
+[54x312]pends on the system state
+[54x209]a finite subspace, it remains a minor short-coming of an
+[54x266]traceless Lindblad operators is only established for finite
+[54x301]plied without knowledge about the environment. In addi-
+[54x719]L
+[54x730]the requirement of Hermiticity and trace preservation fol-
+[54x70]it has been considered in various variations in quantum
+[54x128]implications for a simple model and three types of inter-
+[54x696]sipator with generalized Lindblad structure
+[58x538]{
+[64x82]This is a standard example in quantum optics and
+[64x139]To compare these different approaches we study the
+[73x404]∆
+[75x372]δQ
+[81x404]U
+[85x165]III. APPLICATION TO EXAMPLES
+[86x586]L
+[89x567]S
+[89x567]7−→
+[94x404](
+[98x388]t
+[101x388]D
+[101x372]D
+[106x468]S
+[108x355]D
+[108x355]=
+[109x670]\] =
+[125x567]S
+[125x567]+
+[136x386]int
+[147x372](
+[150x401](
+[151x386])
+[155x355]0
+[155x556]k
+[157x584]k
+[157x684]
+[157x467]. Note, that the minimization
+[158x473]D
+[160x392]t
+[160x376]t
+[162x586]I
+[163x355]d
+[165x404])
+[169x388]t
+[169x372]t
+[169x355]t
+[169x668]k
+[172x392]′
+[172x376]Tr(
+[172x359]′
+[173x561]i
+[175x707].
+[175x707]\[
+[181x404](
+[184x707]−
+[185x404]t
+[187x667]k
+[189x404]−
+[189x567]k
+[191x388]H
+[194x670]1
+[194x568]L
+[199x385](
+[199x369](
+[199x369]S
+[199x353]S
+[200x359]D
+[201x538]α
+[208x537]k
+[210x355]t
+[211x670]{
+[211x707]\[
+[212x538](
+[214x392]′
+[214x707]K
+[217x372]) ˙
+[217x355])
+[223x706]S
+[224x538]}
+[224x566]k
+[227x370]S
+[232x408]D
+[233x538]β
+[233x388](
+[233x372](
+[237x372]t
+[238x404]ρ
+[241x376]′
+[241x568]β
+[241x568]) +
+[243x372])) (29)
+[249x717]=
+[264x404](0))(27)
+[266x538]) leaves
+[267x567](26)
+[274x717]+
+[317x661]are available, that can be exploited for a comparison with
+[317x673]be treated analytically. Further, semi-classical analogues
+[317x719]analogue to a steam engine with a working medium (gas,
+[317x730]thermodynamics. It is also frequently encountered as an
+[317x378]by the Jaynes-Cummings model:
+[317x448]for this setup is detailed in Appendix A.
+[317x460]blad operators with corresponding rates. The procedure
+[317x627]ω
+[317x302]−
+[317x313]\[
+[317x604]and field, respectively.
+[317x255]Hamiltonian equals the bare Hamiltonian in A:
+[317x208]net work flux ˙
+[317x221]Eq. (11) and Eq. (12). Only on resonance we obtain zero
+[317x232]tification, Eq. (1). The work and heat fluxes are given by
+[317x243]H
+[317x174]Hamiltonian, provided correlations are built up. In the
+[317x105]ence between the quantities increases, because it arises
+[322x509]−
+[323x336]with interaction parameter
+[323x283]†
+[323x625]S
+[323x126]= 0). For large interaction strengths
+[325x302]gω
+[327x638]H
+[327x638]The free Hamiltonian is
+[327x494]For the minimal dissipation approach we have to deter-
+[327x291]H
+[327x82]The identification of work and heat in the decompo-
+[328x509]βω
+[328x312], H
+[329x627]σ
+[331x243]U
+[336x279]⟩
+[340x279]H
+[347x302]σa
+[353x509]−
+[356x92]and the development of correlations.
+[358x306]†
+[359x313]\] =
+[359x509]βH
+[370x276]S,b
+[370x276]which does not commute with
+[371x283]′
+[377x208]W
+[385x302]a
+[387x206]S
+[388x195], H
+[388x615]and
+[390x302]).
+[394x242]corresponds to the conventional iden-
+[394x242]S
+[395x357]H
+[403x356]SE
+[403x356]=
+[404x208]W
+[404x581]ρ
+[410x185]H
+[412x195]+
+[412x195]S
+[413x206]= 0 and heat flux ˙
+[418x615]the lowering operators of atom
+[418x182]contributes to the effective local
+[423x317]−
+[423x317]†
+[428x559]
+[433x357](
+[436x539]p
+[437x357]σa
+[438x627]ω
+[439x195]E
+[441x543]⋆
+[441x581]⊗
+[441x581](0)
+[446x637]0
+[449x361]†
+[449x361]+
+[456x336].
+[456x581]ρ
+[457x506].
+[471x580]E
+[471x361]†
+[472x625]and
+[472x625]S
+[483x638]H
+[502x637]E
+[502x288]S
+[503x294]′
+[506x516]E
+[507x625]E
+[509x312]SE
+[509x312], H
+[510x206]+ ˙
+[510x206]S
+[526x291](
+[526x208]Q
+[534x206]= 0,
+[535x278]S
+[535x278](see
+[540x291]a
+[541x313]\] =
+[543x252]=
+[543x259]A
+[544x637]=
+[549x291]⟩
+[557x756]5

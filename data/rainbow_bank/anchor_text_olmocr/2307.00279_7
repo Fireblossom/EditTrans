@@ -1,0 +1,84 @@
+Page dimensions: 595.3x841.9
+[71x495]The method used to transmit the feedback to the
+[71x71]more concrete set of nine emergent categories for
+[71x98]back content under two different forms: a set of 10
+[71x125]analysis of the
+[71x139]must be given. In this section, we expand on our
+[71x152]the task, the error types) to the actual feedback that
+[71x179]sion specifically for LLMs (i.e., FELT) that con-
+[71x193]plex ecosystem of feedback, including an expan-
+[71x206]In Section 4, we presented an overview of the com-
+[71x227]5 Feedback Content Taxonomy
+[71x265]sively explores the different types of information
+[71x279]language feedback. Section 5 therefore comprehen-
+[71x333]put) or a ranking (how well a given output did in
+[71x360]either scalar feedback (a single number encoding
+[71x373]rating feedback. Typically, the training relies upon
+[71x387]influence how the model is processing and incorpo-
+[71x401]et al., 2020). The training objective will necessarily
+[71x414]sider feedback use in in-context learning (Brown
+[71x428]forcement learning. In addition to this, we also con-
+[71x441]tation learning, joint-feedback modeling, and rein-
+[71x468]Fernandes et al. (2023) identify three common feed-
+[71x482]model influences how it is subsequently processed.
+[71x513]4.3 Feedback Integration
+[71x536]psychology of education research.
+[71x549]framework directly derived from pedagogical and
+[71x576]the error space and identifying the mistakes made
+[71x590]reflections of differing understandings. Exploring
+[71x617]ones the learner is likely in. For example, guessing
+[71x644]learner is failing, requiring an understanding of the
+[71x658]may communicate information on where the
+[71x671]Finally, effective feedback
+[71x706]encourages a model to incorporate feedback can
+[71x733]can take, such as outputting "I don't know." (Zhou
+[71x760]instructions given in the prompt. Past research has
+[71x112]FELT. Specifically, we present a taxonomy of feed-
+[139x125]dimension of feedback in
+[306x71]to token-level feedback.
+[306x81]specific, to paragraph-level, to sentence-level, to word-level,
+[306x91]from global learning meta-feedback, to global but task-
+[306x589]5.1 General Taxonomy
+[306x611]systematic study of feedback content.
+[306x625]fies the feedback space, allowing a deliberate and
+[306x652]gorize its content, leaving a conceptual gap about
+[306x665]a suitable response). However, they do not cate-
+[306x679]useful is the feedback for guiding a model toward
+[306x692]itly formulate feedback solely for
+[306x706]current approaches to textual feedback that implic-
+[306x733]and the mapping between them.
+[306x747]the two different presentations of this taxonomy,
+[306x760]feedback topic. Figure 4 presents an overview of
+[315x160]information novelty
+[315x160]6.
+[315x233]5.
+[315x332]answer coverage
+[315x332]4.
+[315x405]3.
+[315x491]granularity
+[315x536]1.
+[315x536]length
+[317x719]We motivate this taxonomy to finely categorize
+[322x101]For an open-answer example task, feedback might range
+[328x147]which learner already had access to the in-
+[328x378]well as how applicable those instructions are
+[328x477]with which the feedback addresses the original
+[328x119]from all information being previously known
+[328x133]formation provided in the feedback, ranging
+[328x178]not being evaluated),
+[328x219]being evaluated on: global evaluation, specific
+[328x251]the complete answer into consideration,
+[328x265]ticular mistake), or the feedback might take
+[328x292]be independent of the answer, or only relate
+[328x351]and approach to solving the task,
+[328x364]for the learner and their current understanding
+[328x423]considered,
+[328x450]of the answer is being considered, but rather
+[328x464]answer — it is not a measure of how much
+[328x509]by counting its number of tokens,
+[328x523]back feedback is given, possibly measured
+[360x233], denoting which criteria the answer is
+[378x427]8
+[378x491], a measure of the level of detail
+[450x405], expressing both
+[457x692](i.e.,how

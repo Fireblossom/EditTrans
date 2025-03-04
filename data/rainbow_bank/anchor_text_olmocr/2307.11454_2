@@ -1,0 +1,164 @@
+Page dimensions: 612.0x792.0
+[0x0]Median F1 Median ROC AUC
+[0x0]1870 (938)
+[0x0]143 (72)
+[0x0]27.29 0.696
+[0x0]421 (212)
+[0x0]1393 (692)
+[0x0]414 (207)
+[0x0]696 (347)
+[0x0]2545 (1270)
+[0x0]346 (172)
+[0x0]411 (206)
+[0x0]129 (64)
+[0x0]test
+[0x0]0 (0)
+[0x0]414 (208)
+[0x0]960 (479)
+[0x0]506 (254)
+[0x0]708 (353)
+[0x0]P2
+[0x0]26.61 0.678
+[0x0]train
+[0x0]120 (60)
+[0x0]343 (171)
+[0x0]145 (73)
+[0x0]train
+[0x0]21.45 0.730
+[0x0]596 (296)
+[0x0]572 (284)
+[0x0]2853 (1421)
+[0x0]410 (205)
+[0x0]399 (200)
+[0x0]664 (330)
+[0x0]397 (200)
+[0x0]2195 (1089)
+[0x0]769 (383)
+[0x0]131 (66)
+[54x234]with pruning at operator nodes. Pruning makes a graph
+[54x112]To answer the rest of research questions, we trained and
+[54x246]The experiments also showed that the model performs better
+[54x330]The model performs slightly better without including AST
+[54x390]The model without SMOTE and RL achieves the worst perfor-
+[54x88]𝑃
+[54x100]tested the model on different parts of the Java dataset (1):
+[54x127]4 Experiments with Java data
+[54x150]score negatively since it turns off SMOTE.
+[54x162]think that a rough balancing of the train part impacts the
+[54x174]the train set by downsampling non-vulnerable methods. We
+[54x261]3.3 Pruning
+[54x294]likely to overfit to irrelevant features in the input and fail to
+[54x306]information or too many nodes. The model becomes more
+[54x345]3.2 AST edges
+[54x560]into train, validation, and test parts anew. The results can be
+[54x572]of training the model. In each trial, the dataset was split
+[54x624]ing, we obtained the following statistics of the input graphs:
+[54x686]maximum patience of
+[54x698]10000
+[54x710]graph embedding size
+[54x710]200
+[54x737]Dissecting Code Vulnerabilities: Insights from C++ and Java Vulnerability Analysis with ReVeal Model Conference'17, July 2017, Washington, DC, USA
+[54x405]3.1 Excluding SMOTE and RL
+[59x467]Majority downsampling
+[62x503]Without SMOTE & RL
+[63x88], and
+[63x88]𝑃
+[63x76]. Then, we plotted the resulting ROC AUC scores against
+[64x584]To test each dimension of RQ 1, we performed 10 trials
+[68x491]Without AST edges
+[80x479]With pruning
+[94x88]𝑘
+[94x88]. In particular, we varied
+[121x698], number of gradient accumulation steps
+[145x686]for C++ data and
+[157x710]128
+[204x88]1
+[228x686]for Java data.
+[289x99]1
+[293x100],
+[318x76]𝑘
+[318x76]increases. This might indicate the increasing amount of
+[318x283]𝑁
+[318x283]where
+[318x88]𝑃
+[318x112]red and blue lines on Figures 2 and 3.
+[318x124]𝑃
+[318x124]and
+[318x148]𝑃
+[318x184]or
+[318x184]𝑃
+[318x196]combinations of sets
+[318x208]In this research question, we investigate training on different
+[318x295]𝑘
+[318x526]ods after stratification by
+[318x526]𝑘
+[318x550]in the training data from the test data.
+[318x562]of the parts
+[318x562]𝑃
+[318x586]𝑃
+[318x638]of
+[318x638]𝑃
+[318x650]parts involved in training and testing, we restricted the size
+[318x662]function was changed. Also, in order to balance different
+[318x674]that remained unchanged in the commits where only one
+[318x686]the complement of
+[323x572]∪
+[323x572]1
+[328x598]During the data cleaning phase, we ensured that in each
+[334x183]1
+[334x183]∪
+[336x574]𝑃
+[338x638]:
+[339x333]13
+[340x123]3
+[340x123]contribute the most to the prediction, as seen by the
+[341x381]9
+[341x392]8
+[341x416]6
+[341x428]5
+[341x476]1
+[342x572]2
+[349x184]𝑃
+[352x282]1
+[356x307]Statistics of collected Java methods after stratifi-
+[358x184], which is a stricter test. The results can be found
+[367x295]𝑁
+[372x584]3
+[372x584]did not contain functions that are contained in
+[372x560]1
+[376x562],𝑃
+[378x697]3
+[383x148]𝑃
+[385x560]2
+[392x501]P1
+[406x625]|
+[407x685]1
+[408x625]𝑃
+[410x196]𝑃
+[410x196],
+[411x686]. That is,
+[416x560]3
+[423x625]|
+[423x196], and
+[434x625]𝑃
+[439x623]|+|
+[439x623]1
+[453x196], and testing on
+[464x623]2
+[464x623]|
+[479x87]2
+[482x698], we fixed it to be
+[495x88]𝑃
+[500x87](red line) as
+[508x282]is the num-
+[508x282]2
+[515x196]𝑃
+[520x194]1
+[520x194]∪
+[532x196]𝑃
+[534x294](
+[537x194]∪
+[537x194]2
+[542x295]𝑁
+[549x196]𝑃
+[557x295],

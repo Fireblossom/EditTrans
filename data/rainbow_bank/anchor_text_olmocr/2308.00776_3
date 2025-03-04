@@ -1,0 +1,232 @@
+Page dimensions: 595.3x841.9
+[0x0]0
+[0x0]29
+[0x0](c)
+[0x0]29
+[0x0](b)
+[0x0]2
+[15x256](a)
+[22x125]Im(
+[22x154]E
+[22x170])
+[39x55]0
+[39x236]0
+[47x236].
+[52x145]0
+[52x236]2
+[64x33]−
+[76x33]2
+[85x234]x
+[85x234]at
+[85x429]given by:
+[85x474]details in App. A.
+[85x487]energy for which the modulus of the wave component at the impurity is the smallest. Plot
+[85x221]the components at the impurity site Ψ
+[85x360]than 1 for any energy that lies within the limits of the PBC spectrum. This means that
+[85x501]|
+[85x306](
+[85x120]λ
+[85x120]rity. We also calculate
+[85x134]system accumulate at the impurity for a large enough hopping asymmetry at the impu-
+[85x147]ratio can be made arbitrarily large \[Fig. 2 (b)\], indicating that all of the modes of the
+[85x555]t
+[85x542]|
+[85x582]Hermitian impurity, model Eq. (4). (a) The modulus of the largest eigenvalue of
+[85x582]T
+[85x596]Figure 2: Breakdown of bulk-edge correspondence in a system with an amplifying non-
+[85x619]−2 0 2\nRe(E)\n−0.2\n0\n0.2\nIm(E)\n0.905\n1\n|λB(E)|\n2 29\nximp\n0\n249himp\n−400\n−200\n0\n200\n400\nlog(minn(|Ψ n(ximp)|2/|Ψ n(x0)|2))\n2 29\nximp\n0\n249himp\n0\n200\n400\nlog(minn(|Ψ n(ximp)|2/|Ψ n(x0)|2))\n(a) (b) (c)
+[85x80]λ
+[85x80]the impurity, by plotting
+[85x93]the threshold where the eigenvector most localized at the edge starts to shift towards
+[85x66]old aligns with min
+[88x501]λ
+[88x373]As shown in Fig. 2 (a), the modulus of the largest eigenvalue of
+[88x373]T
+[89x174]belongs to the eigenstate of the system that is the most localized at the boundary. With
+[89x514]t
+[93x513]R
+[93x513]= 0
+[94x497]B
+[94x497](
+[99x506]imp
+[101x306]x
+[107x553]= 0
+[107x553]R
+[107x303]imp)
+[111x506]−
+[117x506]2
+[117x15]Re(
+[119x234], and extract the components of all the eigenvectors at the boundary Ψ
+[120x514].
+[123x514]0003 and
+[126x501]E
+[135x501])
+[136x555].
+[138x306](
+[139x501]λ
+[139x555]t
+[139x555]9 and
+[142x306]x
+[146x15]E
+[146x542]x
+[148x304]imp
+[164x501]E
+[167x542])
+[169x304]1
+[172x542]|
+[174x513]L
+[174x513]= 2980) and (c) Hermitian systems (
+[175x546]and the eigenvector components at the left boundary
+[175x553]L
+[177x501]|
+[182x310]T
+[182x310]to (
+[184x66]|
+[201x276]T
+[201x66](
+[205x555].
+[207x125]imp
+[207x274]imp
+[212x64]imp
+[217x306](
+[217x76]B
+[217x86]x
+[220x126]−
+[221x306]x
+[222x85]imp
+[226x66])
+[226x276]E
+[226x126]2
+[230x66]|
+[232x402]T
+[233x70]2
+[235x86]−
+[235x276]) =
+[236x199]min
+[238x66]/
+[242x304]−
+[244x120])
+[245x235]1
+[246x402](
+[248x120]λ
+[248x304]1
+[253x56].
+[253x306])
+[254x291]
+[254x526]and impurity position
+[255x119]imp
+[255x64]n
+[257x56]905
+[259x402]) =
+[263x80]λ
+[267x197]n
+[269x120](
+[270x78]imp
+[270x306](
+[273x528]x
+[273x199](
+[274x120]E
+[276x148](
+[276x155]E
+[276x170])
+[276x177]|
+[277x199]x
+[278x417]
+[279x136]B
+[279x221]x
+[280x304]imp
+[283x269]1 0
+[283x197]imp
+[283x70]= 1, where the most localized eigenstate is
+[283x70]2
+[284x80](
+[286x219]imp
+[286x408]E/t
+[288x80]E
+[295x395]1 0
+[297x80]) = 1. As shown in Fig. 2 (b), this thresh-
+[301x304]2
+[302x199]|
+[303x281]L
+[303x281]−
+[304x407]−
+[305x203]2
+[306x306]))
+[310x199]/
+[314x310]T
+[314x310]is:
+[315x199]|
+[325x120]is the energy for which the modulus
+[327x197]n
+[328x408]t
+[331x317]̸
+[337x199]x
+[339x408]/t
+[342x134]h
+[343x245]249
+[345x145]imp
+[348x199])
+[355x283]t
+[359x281]R
+[363x513]= 1 and
+[363x513]R
+[366x283]/t
+[373x514]t
+[381x291]
+[396x372]B
+[403x373](
+[407x373]E
+[416x373]) \[Eq. (6)\] is smaller
+[419x513]= 1). The bound
+[433x13]x
+[463x542]x
+[469x234](
+[474x542])
+[478x542]|
+[480x233]0
+[481x546]2
+[481x546]as a
+[485x234]) and
+[496x402](6)
+[503x581]B
+[553x56]−
+[553x99]−
+[553x142]0
+[553x185]200
+[553x229]400
+[565x56]400
+[565x99]200
+[599x238]2
+[605x47]log(min
+[605x103](
+[605x109]|
+[605x113]n
+[605x113]Ψ
+[605x137]x
+[605x169]|
+[605x178]/
+[605x186]|
+[605x190]Ψ
+[605x190]n
+[605x208](
+[605x243]))
+[607x145]imp
+[648x134]h
+[649x245]249
+[651x145]imp
+[676x33]2
+[739x13]x
+[859x207]400
+[893x173]2
+[893x238]2
+[899x47]log(min
+[899x109]|
+[899x163])
+[899x186]|
+[899x190]n
+[899x190]Ψ
+[899x214]x
+[899x228])
+[899x243]))
+[901x96]n
+[901x222]0

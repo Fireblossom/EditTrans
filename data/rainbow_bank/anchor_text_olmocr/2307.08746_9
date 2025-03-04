@@ -1,0 +1,154 @@
+Page dimensions: 595.3x782.4
+[42x28]MNRAS
+[42x188]a power-law slope of
+[42x221]scales, while at higher density there is a power-law increase of the
+[42x243]tribution is rather flat at low density, in agreement with the idea that
+[42x265]6
+[42x353]shallower scaling compared to the weak field limit (
+[42x364]the forming structures. It is therefore not unexpected that we find a
+[42x375]elongated, and magnetic fields clearly help to deform the shape of
+[42x287]In this case, we compare the
+[42x331]super-Alfvénic regime, there is clearly a trend that higher Alfvénic
+[42x166]consistent with
+[42x73]Ifthe
+[42x73]3
+[42x122]etal.(2019)findsimilarlythelackofasharptransitiondensity.Auddy
+[42x133]byLietal.(2015),Moczetal.(2017),Girichidisetal.(2018),Zhang
+[42x50]structures have the same underlying density distribution.
+[42x60]wecannotrejectthenullhypothesisthatthesub-Alfvénicandsuper-Alfvénic
+[42x408]1
+[42x516]Figure 6.
+[42x516]Relation between the root-mean-square magnetic field and
+[Image 42x542 to 290x729]
+[42x744]10
+[42x496]Mach number
+[42x466]𝜌
+[47x465]>
+[49x408]1
+[50x70]𝑝
+[51x254]Crutcher et al. (2010) found that the observed magnetic field dis-
+[53x274]>
+[63x276]1
+[64x408]10
+[64x466]1
+[66x268]−
+[71x466]1
+[73x411]−
+[74x70]-valueislargerthanacertainvalue(typically0.05),thismeansthat
+[78x411]21
+[84x28], 1–21 (2022)
+[90x496]M
+[104x496]. The dash-dotted line represents the B
+[109x274]𝐴
+[112x411]3
+[119x276]1
+[121x469]−
+[122x505]evol
+[125x469]3
+[128x166], and the lower-density end clearly shows a
+[130x265].
+[132x265]2
+[134x276]. We find the
+[152x397]∝
+[155x287]𝜌
+[159x285]thr
+[161x397]𝜌
+[168x287]-distributions of structures with
+[172x400]5
+[179x408]=
+[189x276]𝑝
+[200x408].
+[219x279]to be very low:
+[222x408]0
+[229x408]is consistent
+[232x486]∝
+[242x353]0
+[247x353].
+[249x486]𝜌
+[254x489]0
+[259x489]power
+[263x419]𝜌
+[267x417]>
+[267x417]thr
+[305x61]gas,themagneticenergyiseithercomparabletoormuchlargerthan
+[305x105]definitionof
+[305x127]The side panels to the right and top of each plot show the marginal
+[305x138]surface cells touching the edge of the analysis box, see Section 3).
+[305x148]includethe"unclassified"structures(i.e.structureswith>5%oftheir
+[305x170]Thecoloursofthepointsrepresenttheirmorphologies.Here,forthe
+[305x192]both plots, the
+[305x465]therangeofouranalysistoincludethedynamicsoflower-densitygas
+[305x520]respect to potentially star-forming structures. For this purpose, we
+[305x531]netic fields over different length scales in the MCs, especially with
+[305x542]We are also interested in assessing the energetic relevance of mag-
+[305x203]respectively, for all MHD cloud structures at
+[305x214]to potential and kinetic energy in the left and right panel of Fig. 7,
+[305x599]power of
+[305x637]structures(correspondingtobluishandreddishpointsinFig.6,respectively)
+[305x647]low for both 2 and 3.5 Myr, suggesting that sub-Alfvénic and super-Alfvénic
+[305x369]relation:
+[305x380]the structure. The kinetic energy is computed using the following
+[305x350]𝐸
+[305x279]𝐸
+[311x410]B
+[311x348]KE
+[311x277]=
+[314x433]The magnetic energy of a given structure is computed as
+[314x322]v
+[314x322]Here,
+[324x350]1
+[327x424]∫
+[327x698]thr
+[330x279]−
+[333x344]2
+[340x362]∫
+[341x405]8
+[342x320]0
+[342x320]is the centre of mass velocity computed from Eq. 17.
+[348x698]>
+[350x458]−
+[351x597]𝐴
+[354x667]-values of the 2-sample KS test for the density distribution of
+[354x412]B
+[355x458]and 10
+[356x103](Eq.14)doesnotcontainunclassifiedstructures,the
+[360x192]𝑥
+[362x350]v
+[364x291]∫
+[365x192]-axis represents the density threshold
+[370x271]𝑉
+[370x114]𝑥
+[373x180]B
+[375x116]/
+[375x412](21)
+[376x350]v
+[378x181]/|
+[384x273]|
+[384x285](
+[386x273]r
+[391x458]−
+[392x285])
+[392x350]d
+[396x458]g cm
+[397x354]3
+[401x350]𝑟.
+[404x236]direct computation.
+[404x275]′
+[404x285]r
+[408x698]𝐴
+[420x283]3
+[423x699]1
+[430x458]3
+[434x454]low-den
+[437x279]𝑟
+[439x454]dendrogram analysis,
+[444x279],
+[444x279](23)
+[444x180]B
+[450x181]/|
+[456x689]5
+[495x699]×
+[508x699]10
+[522x692]15
+[531x391]𝑉
+[531x391]of

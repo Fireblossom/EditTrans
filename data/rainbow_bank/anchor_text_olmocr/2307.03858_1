@@ -1,0 +1,153 @@
+Page dimensions: 612.0x792.0
+[92x155]respectively. When
+[92x155]L
+[92x167]Lindbladian
+[92x167]the
+[92x664]measurement time-lapse ∆
+[92x676]by simulating the QME (1). An important consequence is that the dependence of accuracy on the
+[92x687]we formulate a
+[92x687]trajectory-based
+[92x583]by
+[92x583]M
+[92x607]side of Eq. (1).
+[92x618]\[12, 13\], our optimization problem does not require the expectations associated with the right hand
+[92x630]of the QME (1) in between. Another advantage is that, unlike the equation-based approaches
+[92x386]some error analysis and results from some numerical experiments.
+[92x397]and how it is integrated with the optimization procedure. In Section II E and Section III, we present
+[92x408]existing works in Section II B. Section II C and Section II D present the specific simulation method
+[92x420]of a nonlinear least squares problem in Section II A, and explain the difference and connections to
+[92x444]identification.
+[92x455]simulation and the statistical error from the measurements affect the performance of the parameter
+[92x467]assumptions on the fitting error, we will show how the approximation error from the numerical
+[92x490]of our numerical approximation, the calculation of the gradient is streamlined. This allows us to
+[92x514]Schr¨ odinger equation \[14\], followed by a stochastic expansion \[17\].
+[92x560]This makes it more robust in practice than the second-order method in Breuer and Petruccione
+[92x571]algorithm, which is stable even when the coherent term in the QME (1) has large coefficients.
+[92x272]terms in the QME (1). To indicate the role of the parameters, we first rewrite Eq. (1) as follows,
+[94x178]We can combine the parameters by writing
+[102x143]y
+[102x143]We assume that the measurement data is a time series
+[102x594]To enable such a simulation-assisted approach, we propose a simulation algorithm, denoted here
+[102x431]The rest of the paper is organized as follows: We present a general learning framework in the form
+[102x501]Another practical aspect of our approach is efficient optimization. With the Kraus representation
+[102x283]In practice, the unknown parameter can appear in both the Hamiltonian and the dissipative
+[129x583]t
+[133x583]δt
+[133x583]), that has global error
+[158x212]H
+[160x167]. We refer to the two sets of parameters as Hamiltonian and dissipative parameters,
+[165x213](
+[168x310]A. A Least Squares Formulation of the Learning Problem
+[169x213]θ
+[182x213])
+[185x154]= 0, the problem is reduced to a Hamiltonian learning problem.
+[186x213]=
+[194x213]−
+[200x641]t
+[200x641]is large, the numerical simulations fill the gap by generating the solution
+[206x664]is replaced by the dependence on the time step
+[212x213]i
+[216x213]\[
+[218x213]H, ρ
+[229x249]d
+[235x687]A
+[236x213]\]
+[237x242]=
+[239x213]L
+[239x213],
+[245x242]L
+[252x583], in that
+[259x212]D
+[262x241]H
+[264x336]LINDBLADIANS
+[266x213](
+[270x213]θ
+[274x242]θ
+[276x212]D
+[280x178]θ
+[283x213])
+[287x213]=
+[287x213]ρ
+[287x242])
+[291x242]ρ
+[291x242]+
+[298x586]L
+[298x242]L
+[303x586]− M
+[303x586]t
+[305x201]j
+[306x226]N
+[306x178]θ
+[309x201]=1
+[312x177]H
+[315x241]D
+[319x178],
+[319x178]θ
+[321x227]
+[322x242](
+[328x213]V
+[329x177]D
+[331x581]δt
+[334x212]j
+[337x178]);
+[338x213]ρV
+[338x213]†
+[339x242])
+[339x583](
+[343x242]ρ,
+[343x583]t
+[346x583]) =
+[346x583]O
+[349x141]k,n
+[349x210]j
+[349x210]−
+[353x178](
+[357x178]θ
+[358x213]1
+[361x143], n
+[363x178]) :=
+[369x206]2
+[375x143]= 1
+[375x213]V
+[375x213]†
+[381x210]j
+[381x210]V
+[388x586]2
+[390x177]H
+[393x591]
+[393x212]j
+[397x178](
+[398x213]ρ
+[398x213]−
+[399x583].
+[399x583]We choose a semi-implicit
+[400x143]···
+[400x143],
+[401x178]θ
+[403x687](
+[404x143], N
+[405x213]1
+[407x177]H
+[407x687]t
+[411x687]) = tr
+[412x664]δt
+[412x664]of the simulation. This
+[416x206]2
+[422x213]†
+[422x213]ρV
+[432x141]T
+[432x141],
+[433x210]V
+[433x210]j
+[434x177]D
+[438x143]which correspond
+[440x695]
+[441x178](
+[445x687]Ae
+[445x212]j
+[450x227]
+[457x691]t
+[458x178]) will be called
+[484x695]
+[507x225](2)
+[515x713]2

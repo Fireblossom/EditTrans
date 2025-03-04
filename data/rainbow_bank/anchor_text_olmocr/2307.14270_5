@@ -1,0 +1,232 @@
+Page dimensions: 612.0x792.0
+[54x131]G
+[54x165]ρ
+[54x176]homogeneous state becomes unstable. To do so, we consider
+[54x292]non-local MF dynamics, ensuring a convergence towards local
+[54x315]the very specific case where
+[54x327]the total density
+[54x361]the phase densities in the steady state of coarse-grained field
+[54x384](MF) to the Monte Carlo (MC) simulations. Let us also men-
+[54x154]ρ
+[54x545]a noiseless hydrodynamic equation, in our case:
+[54x556]equation for the occupation probability then takes the form of
+[54x625]venience, we take the continuous time and continuous space
+[54x568]⟨
+[54x709]⟨
+[54x730]ize, one obtains
+[56x430]where
+[58x637]where
+[64x188]In the general case, we would like to understand how the
+[64x338]Integrating Eq. (15) over space, one immediately sees that
+[67x154]ρ
+[68x520]ρ
+[74x520](
+[76x88]∂
+[77x520]x, t
+[81x129]1
+[83x449](\[
+[86x131]. A Taylor expansion of Eq. (15) combined with mass
+[87x154](
+[90x88](
+[91x154]x, t
+[91x520]−
+[91x568]˜
+[92x634]m
+[96x449]\]
+[97x568]is described by the field
+[108x494]−
+[109x154]ρ
+[112x634]m
+[117x707]m
+[121x335]R
+[122x214]B. Linear stability analysis
+[125x707]r,s
+[126x449]ωf
+[126x449]) =
+[132x637]u
+[137x88]ρ
+[141x74]f
+[142x709]− ⟨
+[142x87]0
+[143x449]\[
+[144x118]1
+[146x88](1
+[147x74](0)
+[148x520])\]
+[157x88]ρ
+[158x494]d
+[159x74]ρ
+[161x679]m
+[165x72]1
+[165x635]m
+[165x449](
+[170x494]−
+[172x87]0
+[173x74]x, t
+[177x88])
+[177x315]φ
+[180x449]x, t
+[184x315]is linear in
+[184x668]m
+[186x520](
+[186x637]⟩
+[187x92]′
+[189x469]explicitly given by
+[189x88](0)
+[190x591]n
+[190x74],
+[192x668]r
+[195x141]+
+[195x670]′
+[199x494]y, t
+[202x88]u
+[205x709])
+[207x520]w
+[210x697]m
+[211x88](
+[212x494])\]
+[213x119]D
+[214x637](
+[214x520](\[
+[215x88]ρ
+[218x697]r
+[218x637]⟨
+[219x718]X
+[219x494]w
+[223x449]φ
+[224x697]̸
+[224x697]=
+[224x88])
+[225x142](
+[228x88]φ
+[229x566]σ
+[229x566]∗
+[229x142]x, t
+[235x87]1
+[236x568]ρ
+[238x697]r
+[239x88](
+[240x494]\]
+[241x680]n
+[243x142])
+[246x142]φ
+[253x637]. For con-
+[254x679]r
+[257x88])
+[259x449](16)
+[259x707]r
+[261x679],s
+[263x709]′
+[266x707],s
+[267x165](
+[270x494])
+[281x141]≡
+[282x709](
+[290x678]m
+[290x684]s
+[291x706]m
+[291x713]s
+[302x708]′
+[317x678]r
+[317x623]ble if there exists a mode
+[317x623]k
+[317x70]the continuous line in Fig. 5(a). These MF phase densities are
+[317x139]is marked with the diamonds, which agrees with the MF pre-
+[317x151]cleation event to converge to the separated state. This frontier
+[317x174]T
+[317x196]we start in the MC simulations from a uniformly distributed
+[317x219]geneous state, see Eq. (21). The spinodal is the dashed line in
+[317x265]dent of both
+[317x288]the following, we shall take the limit
+[317x288]L
+[317x438]f
+[317x370]the phase-separated state.
+[317x560](
+[317x549]G
+[317x536]one has
+[317x536]ˆ
+[317x513]k
+[317x524]stability of the homogeneous state is given by the stability of
+[320x572]The manifold for which the inequality becomes an equality
+[321x680]′
+[327x242]The first analytical prediction of the MF description is the
+[328x680],
+[329x674]Λ(
+[329x696]∂
+[337x696]ρ
+[338x174]= 0
+[339x277]0
+[341x730]the full domain size. Defining the Fourier transform
+[345x513]→
+[352x208])
+[353x513]0
+[355x337]C. Confronting to microscopic simulations
+[357x534]σ
+[363x536]>
+[363x536](0)
+[364x599]2
+[365x174].
+[369x674]f
+[370x265]and
+[376x717]ˆ
+[378x536]|
+[378x174]0
+[378x174],
+[379x599]−
+[380x477]2
+[390x475]0
+[391x536]G
+[393x717](
+[396x674]2
+[401x174]0
+[402x696]ρ
+[402x717]) =
+[411x696](
+[413x438](0)
+[415x696]k, t
+[416x592]f
+[419x725]R
+[420x475]0
+[421x592](0)
+[421x592]u
+[425x627]such that
+[425x477])
+[429x438]f
+[433x696](18)
+[433x696],
+[437x470](0)
+[437x673]0
+[439x483](0)
+[442x674])
+[443x603]′
+[446x599](
+[448x667]f
+[454x667](0)
+[458x481]′
+[463x599]G
+[465x477]ρ
+[469x288]→ ∞
+[471x597]σ
+[473x717]x
+[475x477]) = 1
+[479x717])
+[482x674]ρ
+[483x717], one obtains
+[486x603]⋆
+[487x673]0
+[491x674]) ˆ
+[495x674]G
+[497x599]1
+[497x560])
+[503x288],
+[503x288]σ
+[503x549]|
+[508x674](
+[512x599](20)
+[512x599].
+[514x549]∈
+[518x674]−
+[548x674].
+[556x549])
+[557x756]6
+[560x549],

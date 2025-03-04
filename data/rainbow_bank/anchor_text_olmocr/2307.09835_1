@@ -1,0 +1,102 @@
+Page dimensions: 612.0x792.0
+[85x91]to this more general setting are discussed.
+[85x519]identified and mathematically justified recently. This includes the seminal work of A.
+[85x519]Barron
+[85x543]the CoD.
+[85x555]X
+[85x579]Quantification (see, e.g., \[48\] and the references there), or in so-called digital twins of complex, physical
+[85x591]emerge for example as parameter-to-solution mappings for parametric PDEs within the field of Uncertainty
+[85x647]dimensionality" (CoD for short). This is particularly relevant for approximating maps
+[85x659]in practice was the apparent insensitivity of the DNN approximation quality to the so-called "curse of
+[85x683]\[5\] and the references there for some of the algorithmic developments. A particular feature of numeri-
+[85x448]holomorphic
+[85x448]Key in the proofs of these results is the
+[85x460]in the parameter dimension, and polynomially in the DNN expression accuracy (i.e., emulation fidelity).
+[85x472]G
+[85x472]emulation rates for approximating
+[85x496]polynomial chaos expansions
+[85x496](generalized)
+[85x507]Carlo path simulation
+[85x507]type arguments (e.g. \[20, 29\] and the references there), and the emulation of sparse
+[85x340]of the present paper is to obtain mean-square DNN expression rate bounds for
+[85x340]Operator Network
+[85x364]in many settings (particularly in elliptic and parabolic PDEs, e.g. \[27, 66, 31, 12, 23\]), there are broad
+[85x388]depth \[20, 29\], but the error bounds hold in a mean-square sense or only with high probability.
+[85x400]solutions of Kolmogorov PDEs in (jump-)diffusion models. These results used ReLU DNNs of moderate
+[85x412]G
+[85x424]sigmoidal or tanh(
+[85x436]emulation results were obtained with sparsely connected, deep feedforward NNs with ReLU or smooth (e.g.
+[85x174]G
+[85x174]in, for instance, \[25, 45, 24\]. It reduces the task of approximating
+[85x210]Operators "FNOs" \[35, 41\], UNet architectures combined with FNOs "U-FNOs" \[62\], encoders based on
+[85x234]efficient operator emulation, with distinct architectures tailored to the emulation of particular operators.
+[85x258]G
+[85x258]output map
+[85x288]1.1 Previous work for operator networks
+[85x316]separable Hilbert spaces.
+[85x328]emulations with architecture (2) below, of Lipschitz (and, more generally, H¨ older smooth) maps
+[85x162]G
+[85x162]countably-parametric maps
+[89x603]between (in general, infinite-dimensional) separable Hilbert spaces
+[89x603]1
+[96x113]1
+[100x531]Several (intrinsically different) mechanisms for overcoming the CoD in DNN emulations have been
+[100x484]x
+[100x376]While quantified, parametric holomorphy of solution families of parametric PDEs has been verified
+[100x186]In this paper, we discuss an architecture that belongs to the same general category as those proposed
+[100x110]G
+[100x110]More generally, separably-valued maps
+[104x150]D
+[111x412]between function spaces were obtained e.g. using the so-called Feynman-Kac representation of
+[144x496](e.g. \[2, 17\]) by DNNs (e.g. \[56, 51, 57\]).
+[147x149]:
+[156x150]ℓ
+[164x424]·
+[167x424])) activation. DNN emulation rate results that are free from the CoD for
+[167x424]low regularity
+[170x150](
+[174x150]N
+[182x150]→ Y
+[196x555]and
+[205x162]:
+[208x555]Y
+[208x150], the map
+[208x150]G
+[215x162]ℓ
+[227x555]in (1), efficient numerical approximations of maps
+[230x162](
+[234x162]N
+[239x555]G
+[241x162]→
+[246x472]. The construction used DNNs whose depth scales polylogarithmic
+[247x162]ℓ
+[250x110]into an otherwise nonseparable target space
+[255x448]dependence of
+[264x166]2
+[275x128]=
+[275x128]G
+[280x162]encoder
+[283x270]to emulate the possibly nonlinear input-
+[303x127]Y
+[305x625](1)
+[311x55]2
+[341x127].
+[341x127]X
+[345x101]and
+[370x174]to that of emulating (components of)
+[384x607]X
+[385x448]x
+[391x448]) on the input
+[406x603]Y
+[427x484]was used to prove DNN
+[429x340](ONet)
+[437x162]E
+[459x448]. The related DNN
+[460x519]\[3\],
+[461x555]are to overcome
+[488x162]X →
+[497x328]G
+[497x328]between
+[522x166]2
+[526x162](
+[537x162])

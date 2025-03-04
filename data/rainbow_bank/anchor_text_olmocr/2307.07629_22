@@ -1,0 +1,71 @@
+Page dimensions: 612.0x792.0
+[Image 141x215 to 455x472]
+[74x671]We will illustrate an application of Theorem 2 to Example 1 by showing that the optimal
+[74x650]experiment choice function is strongly
+[74x650]c
+[276x650]-monotone and then discussing how to construct
+[74x628]an outcome-equivalent results-based contract.
+[74x596]Example 1.
+[74x596](Continued.)
+[92x575]With two types, strong
+[92x575]c
+[222x575]-monotonicity reduces to a simple condition
+[222x575]S
+[462x573]2
+[462x573]⊆
+[472x575]U
+[493x573]1
+[498x575]. As
+[74x553]shown in the Figure 3, the vertices of the thick-lined triangle represent posteriors in
+[74x531]S
+[81x529]1
+[81x529]=
+[91x531]{
+[110x531]p
+[116x529]1
+[121x531], p
+[132x536]′
+[132x528]1
+[137x531], p
+[148x536]′′
+[148x528]1
+[153x531]}
+[153x531]for the less efficient type
+[164x531]θ
+[302x529]1
+[307x531]; the vertices of the dashed-lined triangle
+[74x510]are posteriors in
+[74x510]S
+[172x508]2
+[172x508]=
+[182x510]{
+[202x510]p
+[208x508]2
+[213x510], p
+[224x514]′
+[224x507]2
+[229x510], p
+[240x514]′′
+[240x507]2
+[245x510]}
+[245x510]for the more efficient type
+[256x510]θ
+[404x508]2
+[409x510]. The light grey area
+[74x488]represents set
+[74x488]D
+[157x486]1
+[162x488]; the dark grey area represents set
+[162x488]U
+[348x486]1
+[353x488]. We find
+[353x488]S
+[412x486]2
+[412x486]⊆
+[420x488]U
+[441x486]1
+[446x488].
+[110x191]Figure 3: The optimal experiment choice function is strongly
+[110x191]c
+[432x191]-monotone
+[292x41]23

@@ -1,0 +1,67 @@
+Page dimensions: 612.0x792.0
+[Image 81x576 to 297x720]
+[Image 315x576 to 531x720]
+[182x561](a)
+[0x0](b)
+[72x536]Figure 10: PNO++-basis
+[72x536]λ
+[213x535]1
+[213x535]amplitude deviations from
+[222x536]t
+[362x536]= 0 after (a) 50 a.u. and (b) 100
+[72x522]a.u. of time propagation. Each row contains the same four occupied orbital indices and a
+[72x508]subset of virtual indices as indicated by the x-axis labels.
+[72x471]due to this more efficient representation of the wave function amplitudes.
+[90x447]The virtual orbital spatial extent has been used previously
+[385x452]103,104
+[385x452]to estimate the ability of
+[72x423]locally correlated spaces to describe the diffuse regions of electron density that are important
+[72x400]for response properties. Fig. 11 shows the virtual MO energy
+[72x400]ϵ
+[401x398]a
+[401x398]and the PNO occupation
+[72x376]number
+[72x376]n
+[121x374]a
+[121x374]plotted against the orbital extent
+[130x376]⟨
+[307x376]r
+[313x380]2
+[318x376]⟩
+[318x376]in a.u. In the PNO basis, a unique virtual
+[72x352]space is prepared for every occupied pair, resulting in 10 unique spaces for the four occupied
+[72x328]spatial orbitals
+[72x328]i
+[159x328]. However, for transforming a single orbital index, we only require the
+[72x304]diagonal rotation matrices,
+[72x304]i.e.
+[234x304],
+[234x304]Q
+[252x302]ii
+[258x304]. There are four such spaces; however, by symmetry,
+[72x280]only two are unique, and both are included in Fig. 11.
+[90x256]Truncation of the PNO space begins from the bottom of Fig. 11, e.g. at an occupation
+[72x232]number cutoff of 1
+[72x232]×
+[172x232]10
+[197x237]−
+[203x237]9
+[203x237](indicated by a horizontal line), all orbitals below this line are
+[72x208]neglected in the PNO space. This results in the PNO space with a
+[72x208]T
+[431x207]2
+[431x207]ratio of 0.69. From
+[72x184]these data, it is clear that even modest truncation of the virtual space neglects the diffuse
+[72x160]regions of the wave function, which are important for excited-state properties in systems with
+[72x137]significantly delocalized characteristics, such as systems containing Rydberg-type excitations.
+[90x113]The same analysis can be performed for the PNO++ virtual spaces in Fig. 12. The
+[72x89]horizontal line indicates a cutoff of 1
+[72x89]×
+[270x89]10
+[294x93]−
+[301x93]8
+[305x89], corresponding to a
+[305x89]T
+[423x87]2
+[423x87]ratio of 0.74. Below
+[300x42]24

@@ -1,0 +1,47 @@
+Page dimensions: 612.0x792.0
+[Image 141x641 to 471x728]
+[Image 141x473 to 471x623]
+[227x628](a)
+[227x628]Signal of a person saying a short phrase.
+[213x459](b)
+[213x459]MFCC generated from the above speech signal.
+[195x437]Figure 6.
+[195x437]MFCCs generated from a short audio signal.
+[99x410]2.3 Metrics
+[99x398]Three metrics were widely used across the papers: accuracy, specificity, and sensitivity. The equations for
+[99x386]these four metrics can be seen below.
+[124x351]Accuracy
+[124x351]=
+[164x351]Correctly classified speech
+[187x344]Total speech samples (1)
+[124x294]Specificity
+[124x294]=
+[169x294]Correctly classified healthy speech
+[209x287]Total healthy speech (2)
+[124x238]Sensitivity
+[124x238]=
+[169x238]Correctly classified pathological speech
+[208x231]Total pathological speech (3)
+[114x205]Another metric was often used in the papers using multi-class classification - unweighted average
+[99x193]recall (UAR). This metric is calculated by averaging the recall value for each of the specific pathologies
+[99x181]included in the dataset. Equation 4 shows how it is calculated, where N is the number of pathologies in
+[99x169]the dataset and
+[99x169]R
+[167x167]i
+[167x167]is the recall of the ith pathology in the dataset.
+[124x131]UAR
+[124x131]=
+[147x131]∑
+[165x142]N
+[165x135]i
+[167x135]=
+[173x135]1
+[173x135]R
+[184x137]i
+[169x125]N
+[169x125](4)
+[99x88]2.4 Binary Classification Literature
+[99x76]?
+[99x76](2020) investigate the classification of cancer patients from healthy controls using six machine learning
+[99x64]algorithms. The dataset used includes recordings of the prolonged vowel /ah/ from 50 male laryngeal
+[495x34]8/19

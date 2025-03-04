@@ -1,0 +1,61 @@
+Page dimensions: 612.0x792.0
+[58x702]decline in activity on Stack Overflow.
+[87x677]We report the estimated effect of our difference-in-differences model in Table 1 and visualize the
+[58x661]weekly estimates of the relative change in the Stack Overflow activity in Figure 2. Table 1 indicates that
+[58x644]ChatGPT decreased posting activity on Stack Overflow by 15.6% (
+[380x644]1
+[380x644]−
+[388x644]e
+[404x648]−
+[411x648]0
+[415x648].
+[417x648]17
+[426x644]). These results are robust
+[58x628]to changes in the controls and starting point of the data time series. We also tested for heterogeneity in
+[58x611]subsets of the data: considering only questions (rather than counting both questions and answers) and
+[58x595]posts on weekdays. In both subsets our estimates did not deviate significantly from the main result: we
+[58x579]estimate a 12% relative decrease in questions and 14% relative decrease in posts on weekdays.
+[276x555](1) (2) (3)
+[244x541]Number of posts Number of questions Weekday posts
+[97x500]Stack Overflow
+[172x500]×
+[172x500]Post-GPT -0.170** -0.112+ -0.149*
+[264x486](0.0607) (0.0619) (0.0636)
+[97x459]Observations 1,150 1,150 1,150
+[97x446]R-squared 0.995 0.994 0.993
+[97x432]R-squared within 0.290 0.315 0.232
+[97x419]Outcome mean 16363 7273 13191
+[97x405]Outcome std. dev. 29088 12661 23685
+[58x383]Table 1: Results of a difference-in-differences model, estimating the change in activity observed weekly on Stack Overflow
+[58x372]following the release of ChatGPT, relative to activity on four other platforms less likely to have been impacted. All
+[58x361]regressions comprise platform fixed effects, week fixed effects, and platform-specific linear time-trends. The standard-error
+[58x350]of the estimate clustered on month is reported in parentheses. Significance codes: ***:
+[409x350]p <
+[426x350]0
+[431x350].
+[433x350]001
+[447x350], **:
+[447x350]p <
+[485x350]0
+[490x350].
+[493x350]01
+[502x350], *:
+[502x350]p <
+[535x350]0
+[540x350].
+[543x350]05
+[552x350],
+[58x339]+:
+[58x339]p <
+[88x339]0
+[93x339].
+[96x339]1
+[100x339].
+[87x310]Figure 2 shows that the impact of ChatGPT is increasing over time and is by the end of our study
+[58x293]greater in magnitude than the average post-ChatGPT effect estimated in Table 1. By the end of April
+[58x277]2023, the estimated effect stabilizes at around 25%. Interestingly, ChatGPT use, in general, peaked
+[58x260]around this time.
+[140x264]3
+[70x247]3
+[74x243]https://www.similarweb.com/blog/insights/ai-news/chatgpt-bard/
+[303x49]7

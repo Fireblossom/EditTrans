@@ -1,0 +1,233 @@
+Page dimensions: 612.0x792.0
+[79x638]gation game
+[79x652]Theorem 2.
+[79x652]There exists an algorithm
+[79x670]⃗
+[79x625]strong k-resilient mechanism), and a message input
+[79x526]straints induce a partial order over
+[79x540]that the mediator should suggest action 0 more often for some message inputs than others. These con-
+[79x209]m
+[79x598](resp., strong k-resilient truthful mechanism) for
+[79x485]time over the number of states and senders.
+[79x512]E
+[79x746]38
+[79x263]m
+[79x263]misreporting. Even though a mechanism is honest, the mediator's message function
+[79x683]the resilient truthful mechanism
+[79x710]n
+[79x182]wise, in
+[79x141]m
+[79x141]inequalities together imply that
+[85x132]∗
+[89x128](
+[92x209]) =
+[93x128]ω
+[96x222]Let
+[96x371]To understand the key idea, let us start with an example in which
+[107x165]d
+[109x209]0. If the honest mechanism determined by
+[109x209]m
+[113x317]ω
+[117x168]ω
+[122x226]∗
+[126x358]2 and 3 prefer action 0 in
+[131x277]ω
+[134x584]|
+[134x584]and
+[135x412],
+[138x638]= (
+[138x321]1
+[140x584]|
+[142x172]1
+[143x317],
+[146x412],
+[147x168],
+[151x412]Ω
+[151x168]ω
+[151x304]). However, since senders could in principle deviate, the mediator could receive, for
+[155x321]1
+[159x412]p
+[164x168],
+[168x168]ω
+[169x638],
+[169x412],
+[173x399]o
+[174x412]u
+[179x412])
+[181x168])
+[184x317](
+[186x412]|
+[188x608]defined by m
+[192x638]p
+[207x638]u
+[212x412]Ω
+[212x710]and
+[212x638])
+[213x168](
+[217x638]Γ
+[217x638], an outcome o for
+[217x697]Γ
+[218x290]ω
+[225x172]2
+[226x697]o
+[226x294]1
+[229x680]d
+[229x680]for
+[234x317]ω
+[234x168]ω
+[235x290]ω
+[236x97]d
+[236x104]∗
+[236x412]and
+[237x683]Γ
+[239x710]can compute this mechanism just because of the sheer size of the
+[241x100]m
+[241x100], in which
+[242x321]2
+[243x294]1
+[246x317],
+[247x168],
+[247x412]|
+[249x141],
+[251x512]in Theorem 1. It can be shown that, even though there may be
+[252x652]that receives as input the description of an information aggre-
+[252x683]that implements
+[254x141]ω
+[259x321]2
+[261x358],
+[262x145]1
+[262x611]⃗
+[264x317](where the
+[264x317])
+[264x168],
+[269x412]S
+[270x611]:
+[270x317]i
+[274x412]=
+[276x172]2
+[277x294]2
+[279x145]1
+[280x412]n
+[280x611]A
+[281x168])
+[285x168]. Moreover,
+[286x290]. This input could originate in two ways, either the true
+[288x141]ω
+[296x598]that implements o. Moreover,
+[296x412]E
+[296x412], there exists a system of equations
+[301x141]≤
+[304x638]implementable by a k-resilient mechanism (resp.,
+[308x625]m for the mediator, and
+[309x611],
+[312x99]1
+[313x670]m
+[315x358]ω
+[315x199]1
+[319x499], this partial order can be computed in polynomial
+[319x611],⃗
+[319x195],
+[320x385]o
+[320x670]. We state this as follows.
+[322x221]1
+[323x611]m
+[324x195]ω
+[325x389]∗
+[327x138]2
+[329x99]2
+[330x385](
+[331x222]m
+[331x141](
+[331x611]determines a k-resilient truthful mechanism
+[331x611])
+[332x199]1
+[333x100],
+[335x141]ω
+[340x683], we only need to be able to compute
+[345x99]3
+[347x385])
+[348x141],
+[350x100],
+[350x114]such that
+[351x385],...,
+[352x172]∗
+[352x141]ω
+[354x100]m
+[358x114]o
+[360x222],
+[361x145]2
+[363x128]o
+[366x199]2
+[371x195]than with
+[374x168],
+[376x222]to the probability that
+[378x389]∗
+[378x145]2
+[382x385](
+[382x141],
+[387x172]1
+[395x389]m
+[396x168]ω
+[399x141])
+[404x141], and therefore that
+[406x371]{
+[411x114](
+[414x625]outputs a value q
+[415x114]ω
+[418x281]and senders 1 and 2 are
+[418x281]2
+[423x118]1
+[424x625]∈
+[428x114]≤
+[431x375]1
+[433x168]m
+[436x199]2
+[439x598]runs in polynomial
+[440x371]ω
+[441x195],
+[445x195]ω
+[451x118]∗
+[452x165]d
+[452x172]∗
+[453x371]}
+[453x199]2
+[458x195],
+[458x371]S
+[462x168]ω
+[462x261]d
+[462x261]should still be
+[465x371]=
+[470x172]1
+[470x199]2
+[472x178]d
+[472x186]∗
+[473x371]{
+[475x195],
+[477x114], consider an
+[479x168]ω
+[487x172]1
+[487x385].
+[487x199]2
+[491x221]d
+[492x195])
+[496x145]∗
+[496x195]. Other-
+[500x371]2
+[504x172]1
+[505x371],
+[508x221]1
+[509x168],
+[509x371]3
+[512x680]d
+[512x687]∗
+[513x222],...,
+[513x168]ω
+[517x141])
+[517x141]≤
+[519x371]4
+[520x683]⃗
+[521x172]1
+[526x168])
+[530x625]\]
+[530x371],
+[530x168],

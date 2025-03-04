@@ -1,0 +1,164 @@
+Page dimensions: 612.0x792.0
+[54x105]VI.
+[54x117]shower age in the slice. We come back to this in Section
+[54x128]combination of the two that could serve as a proxy for
+[54x339]a parabola to each spectral parameter as a function of
+[54x360](GEO) and charge-excess (CE) components. These are then
+[54x370]compose the emission from every slice in the geomagnetic
+[54x381]functions from our simulation set. In every antenna, we de-
+[54x391]FIG. 3. Schematic overview of how we extract the spectral
+[54x174]r
+[54x174]of template synthesis
+[54x186]the antenna distance. Therefore in the current version
+[54x197]independently, indicated by the explicit dependency on
+[54x70]scatter for some slices, especially the very early and late
+[54x151]X
+[54x282]spectral functions
+[54x294]the spectral coefficients. We can fit this dependency of
+[57x208]in every slice. This procedure is applied to each antenna
+[64x93]X
+[130x260]a
+[132x539]Spectral coefficients
+[134x245](
+[134x231](
+[135x260](
+[137x600]frequency spectrum
+[137x481]X
+[138x245]r
+[138x231]r
+[138x549]function to spectra
+[142x673]Decompose trace
+[143x559]Fit parametrised
+[145x435]gree polynomial
+[145x480]max
+[146x502]Relate spectral
+[147x713]ulated showers
+[147x723]600 sliced sim-
+[148x662]into GEO/CE
+[149x492]coefficients to
+[154x231], X
+[155x445]Fit 2
+[155x260], X
+[159x173]ant
+[167x244]slice
+[174x449]nd
+[174x449]de-
+[182x231], X
+[183x260], X
+[191x690]shower
+[191x690]∀
+[192x633]slice
+[198x244]max
+[198x229]max
+[199x258]max
+[213x245],
+[237x173]slice
+[254x151]X
+[281x150]max
+[296x151],
+[297x339].
+[317x70]rected for the longitudinal evolution (particle number in
+[317x82]as is, but the origin amplitude frequency spectrum is cor-
+[317x116]functions.
+[317x128]f
+[317x139]spectral functions. As a result, in the following the fre-
+[317x151]tral coefficients, which are calculated using the fitted
+[317x162]spectrum ˜
+[317x288]as shown in Figure 4. Using the spectral functions with
+[317x615]antenna,
+[317x638]function describing the spectral parameter value as func-
+[317x661]it for the parabolic fit. All the other bins are then fed to
+[317x707]the mean value of the spectral parameter and the corre-
+[317x719]bin the data points by
+[317x300]ϕ
+[317x311]A
+[317x311]the amplitude frequency spectrum
+[317x323]spectral functions. From the origin shower we calculate
+[317x334]dure as the simulation set that was used to extract the
+[317x357]origin
+[317x380]profile.
+[317x392]emission from an air shower with arbitrary longitudinal
+[317x496]consideration. Generalising them to arbitrary geometries
+[318x194]ϕ
+[320x174]In this equation the parameterised amplitude frequency
+[323x193]template
+[324x232]template
+[327x595]a
+[327x562]c
+[327x426]The final ingredient of template synthesis, is the
+[327x426]tem-
+[327x530]In Figure 3 we present a schematic overview of how
+[327x105]The template thus contains a normalised version of the
+[332x595](
+[335x578]r
+[336x595]r
+[340x577]ant
+[342x276]max
+[350x128]is restricted to the range used to fit the spectral
+[351x578], X
+[352x595], X
+[361x162]A
+[361x452]C. Construction of the template
+[364x561]slice
+[365x593]slice
+[368x162](
+[376x234], f, X
+[376x194], f, X
+[378x162]) also depends on
+[379x578], X
+[379x562], X
+[380x595], X
+[395x577]max
+[395x561]max
+[398x193]slice
+[398x232]slice
+[400x298]in each antenna and every slice,
+[407x625]in a given slice, for a particular
+[410x578]) =
+[410x578]p
+[413x194]) =
+[432x576]0
+[432x576]+
+[432x583]b
+[432x560]0
+[432x560]+
+[432x567]c
+[433x592]+
+[433x592]0
+[433x599]a
+[438x232]origin
+[439x578]p
+[440x595]p
+[445x719]. In each bin we calculate
+[449x213]A
+[452x357]shower. The origin
+[454x583]b
+[454x567]c
+[455x592]·
+[455x592]1
+[455x599]a
+[458x234](
+[461x194]r
+[462x595]X
+[476x577]+
+[476x561]+
+[477x310]origin
+[477x310]and phase fre-
+[478x593]+
+[495x595]p
+[499x211]X
+[509x576]2
+[509x583]b
+[509x560]2
+[510x599]a
+[515x194])
+[515x578]X
+[516x234])
+[517x595]X
+[526x217]origin
+[531x560].
+[532x567]2
+[534x599]2
+[555x222]−
+[557x756]4
+[561x222]1

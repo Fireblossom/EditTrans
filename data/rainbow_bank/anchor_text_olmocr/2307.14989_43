@@ -1,0 +1,106 @@
+Page dimensions: 612.0x792.0
+[54x190]proven to be time-varying (Etxezarreta Martinez
+[54x202]noise experienced by superconducting qubits has been
+[54x214]et al.
+[54x238]sulting in a considerably improved performance of the
+[54x250]quantum turbo codes over channels with memory, re-
+[54x286]of dealing with such noise can be extrapolated to the
+[54x298](Tse and Viswanath, 2005), implying that many ideas
+[54x310]this quandary is not new for classical error correction
+[54x333]ture should improve the performance of the codes over
+[54x369]seems to be generally false. In this sense, studying the
+[54x381]of the errors in a real quantum processor is independent
+[54x393]examples of this. The fact that the actual distribution
+[54x417]considered for integration in real hardware. For example,
+[54x441]there are many other important subtleties in the nature
+[54x489]the qubits of the surface code experience. As seen for
+[54x501]struction point of view) to consider the actual noise that
+[54x106](Spitz
+[54x118]the noise should considerably improve the performance
+[54x130]certain time in order to follow such fluctuating nature of
+[54x142]can estimate the noise level (Wagner
+[54x154]dation. In this sense, studying adaptive decoders that
+[54x166]that the performance of the codes experiences a degra-
+[54x178]et al.
+[79x534]et al.
+[79x546]𝑍
+[79x546]the susceptibility of the code towards
+[79x570]iOlius
+[79x570]et al.
+[79x582]et al.
+[79x605]undergone a phase-flip
+[79x605]𝑍
+[79x617]is considered to not have undergone a bit-flip has
+[79x653]cific data qubit undergoes a phase-flip
+[79x641]𝑋
+[79x730]ing a
+[79x730]𝑍
+[90x629]𝑍
+[100x629]𝑋
+[100x629]=
+[103x582], 2023) or in a recursive manner (deMarti
+[105x106], 2018).
+[111x730]-error defined by:
+[123x665](
+[126x629])
+[129x707]𝑃
+[130x570], 2022a; Yuan, 2022). Moreover, it can
+[133x665]|
+[136x686](
+[136x707](
+[136x665]𝑋
+[140x707]𝑍
+[140x686]𝑍
+[150x707]=
+[150x707]𝑋
+[150x686]=
+[150x686]𝑋
+[158x534]et al.
+[158x534], 2022a; Higgott
+[162x665])
+[168x686]0
+[170x665]is the probability that a spe-
+[173x686])
+[180x707]𝑝
+[180x686]=
+[186x214], 2018). Additionally, the
+[189x605]. This can be done once
+[196x699]𝑋
+[200x686],
+[202x178], 2023), which implies
+[206x712]𝑌
+[212x700]𝑝
+[217x699]𝑌
+[246x653]given that
+[253x546]-noise (de-
+[277x641], and
+[296x190],
+[317x70]the QUANTUM ENIA project call - QUANTUM SPAIN
+[317x82]tal Transformation of the Spanish Government through
+[317x94]008251), by the Ministry of Economic Affairs and Digi-
+[317x130]Spanish Ministry of Science and Innovation through the
+[317x142]projects (Grant No. PID2022-137099NB-C44), by the
+[317x166]of Economy and Competitiveness through the ADELE
+[317x215]teleev, Christopher Chubb, David Tuckett, Michael New-
+[317x250]ACKNOWLEDGEMENTS
+[317x395]DATA AVAILABILITY
+[317x431]quest. We live in exciting times.
+[317x443]the field should contribute our share in this Herculean
+[317x455]forms. There is much work left to do, and each of us on
+[317x479]candidates, or new ones, are the best fit as a function
+[317x491]gated nowadays, it is possible that many of the exisitng
+[317x503]extense zoo of possible qubit technologies being investi-
+[317x515]academia and industry, are trying to resolve. Due to the
+[317x539]for an experimental implementation of a surface code is
+[317x551]rors accumulate. Hence, the selection of the best decoder
+[317x575]real-time decoding depends on many factors that go from
+[317x598]exists an important trade-off between accuracy and speed
+[317x610]nel error results to be too slow. As a result of this, there
+[317x622]accumulation of other errors if the estimation of the chan-
+[317x634]importance of the runtime of this algorithms due to the
+[317x658]of QEC methods as they are key elements in posing a
+[317x682]their high tolerance to quantum noise. As extensively
+[317x694]of planar instances, two-dimensional qubit placing) and
+[317x718]of codes to be implemented in the early post-NISQ era,
+[327x287]The authors declare no competing interests.
+[552x756]44

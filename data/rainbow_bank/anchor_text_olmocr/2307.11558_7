@@ -1,0 +1,123 @@
+Page dimensions: 612.0x792.0
+[23x82]in
+[23x116]servant
+[23x133]sunglasses
+[23x150]from
+[23x200]painted
+[23x217]Man
+[23x234]of
+[23x250]The
+[41x234]the
+[48x250]man
+[50x537]with the grounding results from four baseline methods.
+[50x81]called SK-VG, which requires models to reason over the
+[50x93]a step in this direction, we propose a new benchmark dataset
+[50x117]is only simple description texts, which can not evaluate the
+[50x129]jects. Yet, the language part of the existing VG benchmarks
+[50x153]attractive research direction, where the models are required
+[50x185]5. Concluding Remarks
+[50x223]baseline models can not perform accurate reasoning in some
+[50x235]treat the "
+[50x259]third case. In the last case, all the baselines can not ground
+[50x283]detect the target object even without knowledge, while it can
+[50x295]presented. In the second case, the finetuned LeViLM can
+[50x319]case, all the baselines can ground the "
+[50x319]cane
+[50x343]Figure 5 shows the grounding results of four baselines on
+[50x408]of the baselines is poor.
+[50x420]able to perform well on the hard task; (ii) The interpretability
+[50x432]achieve strong results on easy or medium tasks and are un-
+[50x444]future. The answer is that (i) The current baselines can only
+[50x456]can not be explainable, which can be further studied in the
+[50x468]predictions. Besides, the prediction process is black-box and
+[50x480]soning over the scene knowledge and producing accurate
+[50x492]is not capable of performing complicated (multi-hop) rea-
+[52x281]Scene
+[55x217]Bruce
+[58x82]hand
+[62x165]The visual grounding field has emerged as a prominent
+[62x367]To further investigate the effects of knowledge, we per-
+[66x234]image
+[70x200]on
+[71x166]in
+[72x150]him,
+[74x116]Tom
+[75x561]ThemanonthefarrightoftheimageisSpider-ManBruce.Aspiderispaintedonhisback.HisenemyBrandonisfloatingintheairacrossfromhim,we ... Brandon'sservant(Hard)Bruce'senemyBrandon(Hard)TheSpider-ManBruce(Medium)
+[77x250]on
+[80x99]holding
+[82x66]them
+[83x183]Brandon
+[83x133].
+[86x82].
+[86x166]the
+[89x200]his
+[90x235]Spider-Man
+[90x281]Knowledge
+[93x82]Bruce
+[95x250]the
+[107x234]is
+[108x166]air
+[108x133]Brandon's
+[108x116]is
+[111x200]back
+[113x66]today
+[114x217]spider
+[117x250]far
+[124x234]Spider
+[127x116]behind
+[127x99]a
+[130x82]comes
+[137x235]" as the "
+[138x250]right
+[139x99]cane
+[144x66].
+[161x234]-
+[174x235]enemy
+[181x271]" without knowledge in the
+[189x105]LeViLM
+[189x195]LeViLM
+[189x288]LeViLM
+[200x235]". This shows that the
+[217x72]+
+[225x89]+
+[227x178]Q
+[227x271]Q
+[228x319]" in the image
+[228x72]K
+[236x89]K
+[243x72]+
+[244x195](FT):
+[245x288](ZS):
+[250x89]/
+[254x72]S
+[309x317](NO. 61976250), in part by the Shenzhen Science
+[309x504](image, scene knowledge, query) triples to perform accu-
+[309x234]Tencent CCF Open Fund (NO. RBFR2022009).
+[309x258]oratory of Big Data Computing, The Chinese University of
+[309x270]22lgqb25 and in part by the Guangdong Provincial Key Lab-
+[309x293]NO. JCYJ20220818103001002), in part by the Fundamental
+[309x305]and Technology Program (NO. JCYJ20220530141211024,
+[309x329]by the National Natural Science Foundation of China
+[309x341]search Foundation (NO. 2020B1515020048), in part
+[309x353]by the Guangdong Basic and Applied Basic Re-
+[309x365]of Guangdong Province (2020B0101350001), in part
+[309x377]nese Key-Area Research and Development Program
+[309x408]Acknowledgement
+[309x432]for improvement, e.g., reasoning and interpretability.
+[309x444]approaches but also show that there is still substantial room
+[309x456]Experimental results confirm the validity of the proposed
+[309x468]tion and Linguistic-enhanced Vision-Language Matching.
+[309x492]rate reasoning. We propose two approaches to perform this
+[321x389]This work was supported in part by the Chi-
+[337x13](Easy)
+[342x30]in
+[356x30]Tom's
+[395x30]hand
+[461x29]The
+[497x12](Medium)
+[522x29]-
+[674x13](Hard)
+[703x30]servant
+[793x30]Bruce's
+[840x30]enemy
+[879x30]Brandon

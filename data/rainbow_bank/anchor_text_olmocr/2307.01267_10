@@ -1,0 +1,114 @@
+Page dimensions: 612.0x792.0
+[-5x372]5
+[0x0](b)
+[0x0](c)
+[0x1434]123\n4\n5
+[54x70]cage-net model which is obtained from a coupled layer
+[54x94]circuit of depth
+[54x106]smooth boundaries into a 3-torus, we need a sequential
+[54x129]diagonal (left of Fig. 11c) and by the gates shown (right
+[54x140]on the vertical edges with the same color and along the
+[54x186]Using these vertical qubits as control qubits, we do
+[54x209]|
+[54x220]vertical edges above the top smooth boundary in state
+[54x232]as shown in Fig. 11c. We add a layer of trivial qubits on
+[54x243]local gates at the top layer, we need a sequential circuit
+[54x255]L
+[54x266]model with smooth boundaries and then convert it to the
+[54x313]connect to the top orange layer. The entangling gates as
+[54x325]vertical direction and the orange layer at the bottom will
+[54x348]specific, under periodic boundary conditions, the layer
+[54x359]direction with fewer starting trivial qubits. To be
+[54x371]model with periodic boundary condition in the vertical
+[54x395]boundaries (Fig. 11b).
+[54x417]O
+[54x417]a sequential circuit of depth
+[54x470]dots on the vertical edges are not shown for clarity. In one step of the sequential circuit, all qubits on the vertical edges in the
+[54x491]|
+[54x501]the right. (c) Sequential circuit to convert X-cube model with smooth boundaries into an X-cube model on a torus. We add a
+[54x522]using arrows that go from control to target qubits. We first do these gates as shown in parallel on all the top layer vertical
+[54x543]|
+[54x543]directions and a layer of trivial qubits in state
+[54x554]the sides. Left: We start with
+[54x564]L
+[54x575]The X stabilizer term is associated with the cube and the Z stabilizer terms are associated with the vertices. (b) Sequential
+[54x585]FIG. 11. (a) Pauli stabilizer terms of the X-cube model. The model is defined on a cubic lattice and qubits live on the edges.
+[57x209]+
+[64x82]A generalization of the X-cube model is the Ising
+[64x278]L
+[64x278]However, if we first prepare the height
+[65x209]⟩
+[68x209]; these vertical edges now connect to the bottom
+[137x94]L
+[143x93]x
+[143x93]+
+[151x94]L
+[167x93]y
+[172x94]) (Fig. 11c).
+[178x406](
+[182x406]L
+[186x553]= 2 layers of Toric Code (shown in orange) with periodic boundary conditions in the layer
+[189x405]z
+[193x406]) cubes and with smooth
+[200x417]) to combine them into
+[204x563]= 2 cubes) with smooth boundaries at the top and bottom and periodic boundaries on
+[204x563]z
+[Image 205x615 to 374x699]
+[230x491]above the top smooth boundary (the top orange layer) such that we can join to
+[230x491]⟩
+[247x543]0
+[251x543]⟩
+[258x276]z
+[258x543]|
+[317x70]z >
+[317x70]to the double edges of the 3-foliated stack lattice for
+[317x82]Z
+[317x82]condensation. That is,
+[317x105]stacks of Toric Codes in
+[317x200]shaped logical operators \[32\].
+[317x211]such as the type-2 fracton models which have fractal-
+[317x222]sequential circuit maps for more general fracton models
+[317x245]depth for the Ising cage-net model is left as an open
+[317x280]O
+[317x291]O
+[317x303]L
+[317x314]can first be prepared with
+[317x314]O
+[317x326]L
+[317x326]in Ref. 25, a thin slab (of small
+[317x337]however, this is not possible. Using the scheme presented
+[317x349]increase the size of the X-cube model. For Ising Cage-net,
+[317x360]parallel before being inserted one by one into the bulk to
+[317x372]model, the resource Toric Code layers can be prepared in
+[317x417]construction of double-Ising string-net models instead of
+[366x511]z
+[401x301]can be increased one at a time, each
+[401x301]z
+[417x82]−
+[418x280](
+[421x664]123\n4\n5
+[422x280]L
+[429x284]2
+[433x280])) depth circuit is needed to
+[434x82]Z
+[443x74]3
+[444x314](
+[446x105]yz
+[455x313]+
+[461x93]has undergone p-string
+[462x314]L
+[462x543]+
+[465x105]zx
+[465x105], and
+[468x291](
+[469x543]on the vertical edges;
+[469x543]⟩
+[473x324]z
+[479x290]x
+[484x314]) steps. Then the
+[485x291]L
+[494x105]planes such
+[506x291]). Therefore,
+[552x756]11
+[797x64]2
+[1159x66]1

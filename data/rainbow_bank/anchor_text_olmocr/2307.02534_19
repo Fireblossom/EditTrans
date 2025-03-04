@@ -1,0 +1,250 @@
+Page dimensions: 612.0x792.0
+[74x718]3.1.2 Even
+[74x718]L
+[74x527]G
+[74x558]g
+[74x694]G
+[74x694]Let us introduce a
+[74x512]of (3.5), the translation operator now acts on the fermion fields as
+[74x605]G
+[74x605]and symmetry operators in the system with a
+[74x220]should multiply it by
+[74x574](1
+[74x574]moved to other links, e.g., to the link
+[74x590]our discussion the particular form of the Hamiltonian will not matter. Note that the defect can be
+[74x236]T
+[74x251]it to
+[74x251]T
+[74x267]normalization, and we will make an arbitrary choice below. Later, in Section 3.3, we will rescale
+[74x298]out of an even number of fermions, i.e., it is bosonic.
+[76x93]T
+[76x93](Note that in this forms,
+[77x384]In contrast to the case without the defect (3.7),now we have
+[77x314]SO
+[77x314]This means that the twisted translation operator is an
+[78x621](
+[78x621]where the defect is in the link connecting
+[84x151]22
+[84x558].
+[91x282]T
+[92x147]Alternatively, the translation operator for even
+[92x159]G
+[92x159]We do not write
+[103x249]NSNS
+[103x249]and compare it to the continuum operators. Its action in (3.22) means that we should
+[107x475]T
+[114x473]:
+[114x473]G
+[117x236]by an operator that maps
+[124x475]χ
+[128x236]χ
+[138x718]with a fermion parity defect
+[141x189]T
+[147x411]R
+[148x187]G
+[148x187]= (
+[156x411](
+[161x473]ℓ
+[161x473]→
+[162x281]G
+[163x694]defect. A concrete Hamiltonian to keep in mind is
+[165x158]because it is the same as
+[165x158]G
+[172x159]G
+[173x416]2
+[173x416]= 1
+[174x189]−
+[180x91]does not satisfy the locality condition (1.15).)
+[181x411], R
+[183x218]1
+[183x218]=
+[184x189]1)
+[187x527]as in (3.10), because it commutes with
+[191x473]G
+[194x119]T
+[194x194]g
+[194x194]N
+[197x475]χ
+[200x118]G
+[200x118]= (
+[204x473]ℓ
+[208x187]1
+[208x475]T
+[212x220]χ
+[213x189]= 1
+[213x189]T
+[215x471]=
+[217x480]−
+[220x218]2
+[223x110]2
+[223x480]1
+[224x126]−
+[224x220]χ
+[229x117]L
+[232x126]1)
+[232x411]T
+[232x218]3
+[232x218]···
+[232x658]H
+[234x117]−
+[239x220]χ
+[239x409]G
+[240x117]1
+[240x130]N
+[242x656]G
+[245x411])
+[245x186]L
+[249x119](
+[249x416]L
+[249x416]=
+[249x461]ℓ
+[250x186]−
+[251x180]2
+[251x658]i
+[253x463]′
+[253x119]χ
+[256x234]1
+[256x234]→ −
+[256x186]1
+[258x340]R
+[258x340]det
+[258x358]det
+[258x358]R
+[259x411]R
+[259x118]−
+[259x118]1
+[262x218]L
+[263x574],
+[263x189](1
+[263x189]−
+[263x475]R
+[265x650]2
+[266x119]χ
+[274x669]X
+[275x644]ℓ
+[276x189]χ
+[277x475]T
+[278x147]with a defect can be written as
+[278x147]L
+[278x574], by conjugating
+[279x644]=1
+[279x159].
+[280x673]−
+[280x411](
+[282x118]2
+[284x473]G
+[285x340](
+[285x358](
+[286x673]1
+[287x119])(
+[289x236]χ
+[291x621]L,
+[293x411], R
+[293x411])
+[293x658]χ
+[294x605]defect. However, we emphasize that for most of
+[294x119]χ
+[295x187]1
+[296x234]1
+[296x234]and leaves the other fermions unchanged, i.e., we
+[297x357]G
+[298x340])
+[299x411](
+[300x189]χ
+[300x63]19
+[300x656]ℓ
+[301x118]−
+[301x118]2
+[302x338]ℓ,ℓ
+[303x358])
+[304x475]′
+[304x656]+1
+[307x475]χ
+[307x187]2
+[307x119]χ
+[312x340]= +1
+[312x189])(1
+[312x189]−
+[314x473]ℓ
+[314x621]. We use the subscript
+[314x621]G
+[315x658]χ
+[317x359]′
+[317x359]= +1
+[318x475]′
+[318x475]=
+[318x340].
+[322x656]−
+[328x119]···
+[328x119])
+[329x658]i
+[329x189]χ
+[330x411]G
+[336x495](
+[338x411]R
+[338x411])
+[342x650]2
+[349x187]2
+[349x658]χ
+[353x411](
+[353x482]ℓ
+[356x314](
+[357x118]L
+[357x482]ℓ
+[357x482]+1
+[360x314]L
+[361x187]3
+[361x658]χ
+[362x118]−
+[363x463]1
+[363x463]ℓ
+[365x409]G
+[366x189]···
+[368x572]by a local
+[368x314])
+[368x314]transformation and is constructed
+[369x118]1
+[369x118]−
+[371x411]R
+[371x411]) =
+[375x119]χ
+[377x658](3.21)
+[377x574]G
+[380x465]=
+[380x483]= 1
+[387x224]22
+[388x465]L
+[391x118]L
+[397x119])
+[399x527].
+[400x411](
+[401x189]χ
+[401x119]χ
+[401x532]21
+[405x411]T
+[407x483],
+[407x483]2
+[407x118].
+[412x409]G
+[418x411]R
+[418x411])
+[418x483]···
+[418x483],
+[420x187]L
+[423x483], L
+[430x621]for the Hamiltonian
+[433x187]1
+[433x411](
+[437x574]χ
+[437x189]χ
+[438x411]G
+[445x187]L
+[446x411].
+[451x189])
+[451x189].
+[452x411](3.23)
+[457x483]1
+[457x483]−
+[458x189](3.26)
+[521x572]1
+[521x572]or

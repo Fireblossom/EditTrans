@@ -1,0 +1,93 @@
+Page dimensions: 612.0x792.0
+[54x151]type of VQE, where the intial state is given by
+[54x174]ground state is the optimal solution to the combinatorial
+[54x185]problem is encoded in an Ising type Hamiltonian whose
+[54x208]a hybrid quantum-classical approach, originally designed
+[54x314]sions the numerical algorithms are computationally chal-
+[54x337]cease to work for highly entangled scenarios such as out-
+[54x360]tent real-time dynamics. While TN are extremely suc-
+[54x394]physically relevant moderately entangled states \[10, 12\].
+[54x406]ans¨ atze providing an efficient parametrization of the
+[54x478]els and experimental analysis.
+[54x501]variational ansatz \[118\]. All the variational algorithms
+[54x512]ergy subspace by supplying orthogonal input states to the
+[54x523]pute excited states. This algorithm searches a low en-
+[54x546]for a low energy state that is orthogonal to all previous
+[54x581]VQE are barren plateaus (see Sec. IV B 2).
+[54x592]converge to a local minimum. Main limitations of the
+[54x615]for the ground state and its energy, provided the chosen
+[54x627]device until convergence, one obtains an approximation
+[54x650]to obtain a new set of parameters. Running the feedback
+[54x696]algorithm uses the quantum device to prepare an ansatz
+[54x707]for the ground state of a (quantum) system \[116\]. The
+[54x719]quantum-classical approach to obtain an approximation
+[54x93]followed by a mixing layer corresponding to
+[54x105]the exponential of the problem Hamiltonian, exp(
+[54x116]one containing a single real parameter. The first one is
+[54x139]the parametric ansatz circuit in its plain vanilla form con-
+[54x70]ers, QAOA can be interpreted as an adiabatic evolution
+[64x219]The quantum approximate optimization algorithm is
+[64x417]Tensor Networks are a family of entanglement-based
+[64x569]VQD is an extension of the VQE allowing for com-
+[64x730]The variational quantum eigensolver is a hybrid
+[151x245]3. QAOA
+[250x92]X
+[253x158]N
+[258x93](
+[266x151]|
+[267x105]−
+[267x92]i
+[269x151]+
+[275x105]iγ
+[277x151]and
+[277x151]⟩
+[292x105]),
+[317x538]k
+[317x638]advances such as warm-starts \[372\] and counteradiabatic
+[317x661]to implement on noisy hardware \[318, 371\]. However,
+[317x684]perform classical algorithms \[368–370\]. Furthermore, the
+[317x707]performance of QAOA is not entirely clear, it seems to
+[317x719]lem Hamiltonian. From a theoretical point of view the
+[317x730]of an eigenstate of the
+[317x730]X
+[317x515]k
+[317x515]machine learning algorithms. The number
+[317x82]delity quantum kernel \[200, 381\] and projected quantum
+[317x105]is function corresponds to an inner product of data states,
+[317x116]quantum states on a quantum computer. Formally, this
+[317x139]tures \[296, 379, 380\]. For a given input pair of inputs one
+[317x162]use an embedding (also called a quantum feature map)
+[317x196]output data pairs). For the latter, the input classical
+[317x331]GroverOptim
+[317x343]routines,
+[317x343]SwapTest
+[317x354]achieved through the introduction of two quantum sub-
+[317x503]must be known
+[317x377]the
+[317x377]k
+[317x412]of the algorithm, the time complexity is
+[317x423]distance. In the classical version, using Lloyd's version
+[317x435]consuming part of the algorithm is the calculation of the
+[317x446]current step to the centroid. The most time/resources
+[317x480]assigns at each step a training vector to the nearest cen-
+[317x492]of its application in HEP. The algorithm is iterative and
+[317x400]N
+[317x400]is the number of features and
+[327x549]k
+[327x549]The classical
+[327x242]Quantum kernels are a supervised quantum machine
+[331x400]M
+[340x377]−
+[360x343]and
+[383x538]clusters based on an unlabeled set of
+[385x503]which somewhat limits the range
+[389x271]5. Quantum Kernels
+[402x578]4. QKMEANS
+[405x343]DistCalc
+[414x730]operator to the one of the prob-
+[463x343], for the distance cal-
+[471x400]is the number of
+[492x331]to
+[508x515]of clusters
+[509x412]NM
+[552x756]28

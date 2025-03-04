@@ -1,0 +1,220 @@
+Page dimensions: 612.0x792.0
+[72x602]Table 1.
+[72x142]fluctuations from the mean-square speed (21) and the the rate of velocity decorrelation induced by the
+[72x154]standard deviation because it is cumbersome, and in any case is simply a compounding of the demographic
+[72x235]contribution from ˜
+[72x271]rigorous computation of the demographic mean is complicated. We therefore content ourselves with an
+[72x295]should typically be considerably smaller than the simpler terms presented in Eq. (26) for disclike geometries.
+[72x307]for completeness and consistency with the results presented for general geometries in Subsection 5.2, but
+[72x319]and constant rotational diffusion
+[72x331]thermal diffusivity
+[72x355]σ
+[72x698]assumption allows us to avoid tedious consideration of uninteresting cases:
+[72x614]Indeed, we find this condition satisfied by the parameters we inferred from experimental observations in
+[72x166]representable as a linear combination of
+[72x166]E
+[75x180]E
+[75x180]All component demographic averages have been reported above, other than
+[75x486]V
+[75x486]where
+[83x452]D
+[86x343]The first two terms of the expression in Eq. (26) are exactly the translational diffusion for a colony with
+[86x710]The above assumptions are fundamental to our approximate calculation, and a further mild technical
+[87x678]•
+[87x678]The time scales of relaxation of flagellar force and orientation are comparable:
+[92x450]t
+[92x450]≡
+[98x452]a
+[104x486]∗
+[106x376]is the effective rotational drift coefficient and
+[106x382]∗
+[106x412]+
+[115x445]γ
+[115x419]σ
+[115x405]γ
+[117x489]2
+[117x489]is the mean-square velocity coarse-grained over the flagellar time scale (19), and
+[120x443]γ
+[120x443]t
+[120x449]2
+[121x404]Θ
+[121x422]2
+[130x444]r
+[130x400]j,j
+[138x425]N
+[142x400]=1
+[145x443]r 2
+[145x448]∗
+[149x448]+
+[153x456]r
+[153x462]∗
+[154x412]F
+[156x445]D
+[161x409]j
+[161x409]F
+[161x234]t
+[163x329]t
+[166x331], moving at a constant speed
+[174x443]r 2
+[175x448]∗
+[179x409]j
+[180x417](0)
+[183x411](
+[183x411]′
+[184x445])
+[190x534]t
+[190x454]
+[190x472]
+[192x540]lim
+[193x534]→∞
+[193x209]\[
+[195x412]F
+[198x459]2
+[201x409]j
+[203x417](0)
+[203x459]σ
+[204x206]t
+[205x213]∗
+[205x411]cos(Θ
+[206x444]F
+[209x456]F
+[209x209]≈
+[215x209]E
+[222x461]X
+[224x550](c)
+[226x317]r
+[226x317]. As we shall shortly explain, the complicated terms in ˜
+[226x323]∗
+[226x464]N
+[232x209]\[
+[234x547](
+[235x209]V
+[238x547]t
+[240x409]j
+[240x417](0)
+[240x353]Θ
+[242x547]⊙
+[244x411])
+[244x411]′
+[247x213]2
+[248x449]j
+[248x449]inΘ
+[252x209]E
+[252x209]\]
+[252x533]t
+[256x166]\[
+[256x202]2(Var\[
+[258x166]⟨|
+[265x166]V
+[266x550](c)
+[273x409]j
+[273x409]cos(Θ
+[274x170](c)
+[275x417](0)
+[275x353].
+[275x353]F
+[277x547](
+[278x457](
+[281x547]t
+[281x457]0
+[281x451]cos
+[283x656]γ
+[283x202]D
+[284x547])
+[285x457])
+[287x170]2
+[288x655]F
+[291x199]r
+[291x199]\] + (
+[291x205]∗
+[294x331]∗
+[296x514]D
+[296x540]D
+[301x72]18
+[302x335]along an orientation with constant rotational drift Ω
+[305x466]
+[312x409]))
+[312x409]j
+[312x417](0)
+[313x452]Θ
+[315x513]t
+[315x538]I
+[315x202]E
+[315x544]∗
+[320x449]j
+[320x514]V
+[321x215]\[
+[321x457](
+[321x202]\[
+[322x540],
+[323x376]is the effective rotational diffusion coefficient
+[323x376]r
+[323x382]∗
+[324x457]0
+[324x202]D
+[327x166]\[(
+[328x457])
+[332x213]\]
+[332x219]∗
+[334x452]Θ
+[334x166]F
+[338x507]2
+[340x164])
+[340x164]j
+[341x426]
+[342x172](0)
+[344x525]2
+[349x412]Θ
+[352x656].
+[352x656](25)
+[355x451]+
+[355x451]′
+[356x409]j
+[356x409]−
+[359x457])
+[359x505]r 2
+[360x510]∗
+[360x417]0
+[361x166]\]. We do not report a demographic
+[364x510]+ Ω
+[364x452]2π
+[368x521]D
+[376x518]r
+[376x525]∗
+[386x199]r
+[387x409]j
+[388x417](
+[388x505]r 2
+[389x466]
+[391x417]0
+[391x411]+
+[393x510]+ ˜
+[395x417])
+[397x452]j
+[397x452]−
+[401x412]2π
+[410x514]D
+[415x180]\[
+[417x180]∗
+[419x513](26)
+[419x207]t
+[423x209](27)
+[423x209].
+[423x452]S
+[426x426]
+[430x184]2
+[433x412]−
+[440x412]j
+[441x457]−
+[441x457]j
+[451x445]l
+[454x416]′
+[454x416]+
+[459x412]S
+[463x457]j
+[467x459]′
+[471x466]
+[472x319]D
+[477x417]−
+[499x417]j
+[535x329]r

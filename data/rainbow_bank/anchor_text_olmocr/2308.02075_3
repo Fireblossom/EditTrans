@@ -1,0 +1,164 @@
+Page dimensions: 612.0x792.0
+[0x0]∈ {
+[72x106]Given a
+[72x138]L
+[72x698]sat
+[72x698]and verifying the sharpness of
+[72x662]rsb
+[72x662]the models which are predicted to belong to 1
+[72x650]their satisfiability threshold, as shown in \[KKKS98,AP04,COP16\] (random
+[72x602]graphs \[DSS16a\], random regular
+[72x579]densation threshold
+[72x579]α
+[72x590]q
+[72x614]k
+[72x555]where the results were further generalized to other models in \[COKPZ18\]. Similarly, \[BCO16\] identified
+[72x567]in \[BCOH
+[72x507]Namely, the number of solutions at exponential scale (free energy) \[SSZ22\], the concentration of the
+[72x519]k
+[72x399]bp
+[72x447]regular graph of any degree, which is conjectured to be tight. \[ACOG22\] also considers the sparse Erdos
+[72x483]other models in the condensation regime is left open.
+[72x495]\[NSS20, NSS21\], and the local weak limit \[SS23\] were established. Establishing the same quantities for
+[72x387]we use an interpolation bound, which gives an upper bound of the satisfiability threshold also for the (non-
+[72x363]k
+[72x257]sat
+[72x257]\[DSS15\] for large
+[72x269]k
+[72x351]addresses the uniqueness of
+[72x221]both the
+[72x221]d
+[72x150]≡
+[72x162]∈
+[72x162]a
+[76x209]d, k
+[80x293]rsb
+[81x674]\[DM02, DGM
+[82x531]α
+[82x531]2-times negative. Further, in the condensation regime
+[82x162]F
+[83x150]m
+[87x710]Many of the earlier mathematical works on r
+[87x626]csp
+[87x626]More recently, the satisfiability thresholds for r
+[87x305]We aim to rigorously establish the upper bound the satisfiability threshold predicted by the so-called
+[87x233]We first introduce the notations and mathematical framework that we use throughout the paper. For
+[91x209]V
+[97x146]n
+[100x138]0
+[102x162]) by
+[105x138],
+[118x221]k
+[121x638]nae-sat
+[123x146]k
+[123x567]16\]. They carried out a technically challenging analysis based on a clever "planting" technique,
+[125x184]j
+[129x186]e
+[130x126]L
+[133x363]nae-sat
+[135x126])
+[152x399]fixed point for any
+[155x375]model. It would be interesting to address the uniqueness of the
+[159x638]), and \[AN05,CO13,COV13,COEH16\] (random graph coloring).
+[162x162]∈
+[162x162]a
+[164x577]cond
+[168x399]k
+[173x162]F
+[174x363]k
+[180x174]) by the resulting bipartite graph. We denote the neighborhood of
+[182x678]+
+[189x674]10, PS16\], and random linear equations \[ACOGM20\]. On the other hand, for
+[190x126](
+[195x351]fixed point for various models.
+[196x375]bp
+[197x162]av
+[200x590]con-
+[200x590]-colorability threshold for the sparse Erdos Renyi graph is left open, the
+[204x126])
+[208x124]e
+[215x519]-
+[217x150]e
+[218x519]with large enough
+[220x162])
+[220x162]∈
+[224x126]) represents a
+[224x126]nae-sat
+[226x106]G
+[226x698]transitions. For models that are known not to exhibit
+[228x602]-
+[231x602]\[COP16\] and random
+[231x602]sat
+[246x91]Y
+[249x162](resp.
+[249x70]∈
+[253x186](
+[254x399]≥
+[257x208]1
+[257x186]e
+[258x698]rsb
+[259x519]k
+[261x209], . . . , v
+[262x186]a
+[269x82]((
+[275x662]class, intensive studies have been conducted to estimate
+[275x138](
+[277x82]x
+[282x80]v
+[284x138]a
+[284x614]\[DSS16b\], maximum independent set on
+[284x614]nae-sat
+[287x80](
+[288x208]n
+[290x80]e
+[293x80])
+[293x80]⊕
+[299x82]L
+[301x221]-
+[303x186](
+[306x363]3. We refer to \[ST03, MRSY19, YP22, GP23\] which
+[306x543]d/
+[307x186]e
+[314x686]\[CR92,BBC
+[323x106]L
+[325x614]d
+[325x531]∈
+[328x106]),
+[332x80]δa
+[335x257]nae-sat
+[335x257]\[SSZ16\], and the colorability threshold
+[335x531](
+[341x82]) = 1
+[345x579]becomes non-analytic, was settled
+[349x531]α
+[350x162]: (
+[354x602]-
+[358x602]\[DSS22\] for large
+[363x162]av
+[366x106],
+[366x106]1
+[371x531], α
+[378x626]have been rigorously determined
+[380x109]V
+[386x162]∈
+[412x650]sat
+[413x106]nae-sat
+[415x162]}
+[417x196]is included in the clause or
+[417x196]i
+[428x650]), \[AM06,COZ12,COP12\]
+[435x150]E
+[450x106]solution
+[450x106])
+[451x543]2-times positive and
+[455x686]in
+[456x602]and
+[457x106]if
+[465x602]d
+[467x686]k
+[478x375]fixed point
+[493x174]V
+[496x208]1
+[506x614]-regular
+[527x208]m
+[537x269]-

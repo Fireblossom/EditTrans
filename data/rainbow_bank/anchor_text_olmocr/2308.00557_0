@@ -1,0 +1,61 @@
+Page dimensions: 612.0x792.0
+[54x132]gram (SDP) model to give the lower bound of the secret
+[54x144]its security analysis theory is using the semidefinite pro-
+[54x167]QKD protocols (e.g.two-state and three-state protocols
+[54x178]rection \[29, 30\], the unconditional security of DM CV-
+[54x190]\[9, 27, 28\] and lower complexity of classical error cor-
+[54x212]are modulated discretely, has also been gaining a lot of
+[54x224]CV-QKD \[26\], where the quadratures of quantum states
+[54x247]states are modulated according to the Gaussian proba-
+[54x258]25\] is widely used, where the quadratures of quantum
+[54x281]? ?
+[54x293]requirement in metropolitan distances \[7–9\] which facili-
+[54x316]sical optical communication systems \[6\]. In addition, the
+[54x327]tion technology, which can be well compatible with clas-
+[54x350](CV-QKD) \[4, 5\]. Between them, CV-QKD uses coher-
+[54x361]variable QKD (DV-QKD) and continuous-variable QKD
+[54x373]the dimension of coding, it can be divided into discrete-
+[54x384]eavesdroppers in quantum channels \[2, 3\]. Depending on
+[54x396]conditionally secure keys despite the presence of potential
+[54x419]tum mechanical properties to ensure communication se-
+[55x75]zhangyc@bupt.edu.cn
+[55x75]∗
+[64x270]CV-QKD based on Gaussian-modulation (GM) \[15–
+[64x430]Quantum key distribution (QKD) \[1\] relies on quan-
+[75x730]Quantum hacking against discrete-modulated continuous-variable quantum key
+[109x487]and the important role of the proposed attack.
+[109x508]technology. Moreover, similar quantum hacking will also occur in practical local local oscillator sys-
+[109x518]local oscillator intensity in real time which places a higher demand on the accuracy of monitoring
+[109x529]tack introduced by random fluctuations of local oscillator can only be eliminated by monitoring the
+[109x539]parameters are always used for constraints of the semidefinite program modeling. The modified at-
+[109x560]manipulation of random fluctuations in LO intensity disturbs the parameter estimation in realistic
+[109x602]a practical discrete-modulated continuous-variable quantum key distribution system. Theoretical
+[120x644]The local oscillator in practical continuous-variable quantum key distribution system fluctuates
+[124x456]I. INTRODUCTION
+[148x682]State Key Laboratory of Information Photonics and Optical Communications,
+[161x692]Lu Fan, Yiming Bian, Mingze Wu, Yichen Zhang,
+[262x661](Dated: May 31, 2024)
+[317x69]pulses. The security of the practical DM CV-QKD sys-
+[317x80]a part of LO pulses while amplifying another part of LO
+[317x92]tensity to launch a more stealthy attack by attenuating
+[317x103]can exploit the random fluctuating properties of LO in-
+[317x115]intensity attack (LOIA) with random fluctuations. Eve
+[317x142]mentioned monitoring techniques will fail.
+[317x165]fluctuations in LO intensity with invariant mean value,
+[317x176]out on its overall mean. When Eve simulates random
+[317x188]manipulation and monitoring of LO intensity is carried
+[317x211]monitoring the LO intensity mean and optical power or
+[317x222]fended by commonly-used monitoring technology such as
+[317x234]overall using variable attenuators which can easily be de-
+[317x257]of LO intensity \[44\]. We note that in the previous stud-
+[317x280]mission of LO opens a security vulnerability which gives
+[317x302]fluctuation attack \[40\], wavelength attacks \[41, 42\], po-
+[317x325]hacking models aiming at practical LO, such as local os-
+[317x348]CV-QKD. Due to the imperfection of practical blocks
+[317x371]ent detection, whose non-ideality within practical envi-
+[317x398]quantum hacking.
+[317x410]system would leave Eve with vulnerabilities to perform
+[317x444]its practical system security has received increasing at-
+[317x456]theory and experiment of DM CV-QKD in recent years,
+[327x383]The local oscillator (LO) is required for stable coher-
+[388x696]and Song Yu

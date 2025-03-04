@@ -1,0 +1,186 @@
+Page dimensions: 612.0x792.0
+[54x70]ization, and approximately of order Log(
+[54x149]terion thus reads:
+[54x234]qualitative
+[54x173]of the same order of magnitude. Therefore
+[54x173]c
+[54x198]H
+[54x210]is a transition between a localized and a chaotic regime
+[54x222]chaotic systems. For this, it can be noted that if there
+[54x718]m
+[54x706]in our case
+[54x442]R
+[54x442]crostate is typically coupled to
+[54x598]iteration, the probability to further propagate into the
+[54x622]any sort of propagation in the Hilbert space either.
+[54x658]H
+[54x730]These microstates describe for each site
+[54x730]j
+[54x430]N
+[54x478]Anderson localization for example, each site is coupled
+[54x490]h
+[54x501]typical number of microstates that a typical microstate
+[54x358]for example ignores interference effects that may occur
+[54x370]H
+[54x394]R
+[54x394]system, assuming that at each step, there are
+[54x406]represents the number of states that are explored by the
+[57x513]where dim(
+[57x282]S
+[58x561]ψ
+[58x270]i.e.
+[58x270]all states are equally populated) in the microcanon-
+[59x94]l
+[59x94]where
+[62x368]C
+[64x280]is the entropy of the system at infinite temperature
+[64x573]We now state this article's main statement: a system
+[64x246]We will now make one simplification, in order to
+[64x670]d, c
+[64x560]0
+[82x561]) will be localized if and only if
+[88x466]sites by tunneling, where
+[88x718]q
+[90x645]D
+[90x645]and
+[99x303]2
+[105x300]c
+[106x116]Log(
+[106x513]H
+[109x317]2
+[111x705]=
+[115x513]R
+[119x706]q
+[119x303]l
+[127x645]are now dimensionless. As
+[130x658]H
+[130x535]R
+[131x706]P
+[137x116]l
+[138x548]
+[154x545]2
+[157x537]c
+[159x307]R
+[161x114]C
+[162x703]j
+[167x307])
+[167x706]H
+[167x539]loc
+[170x307]ℓ
+[175x307]Log(dim(
+[183x116]localized
+[185x705]C
+[187x535]dim(
+[205x442]O
+[215x307]H
+[220x535](4)
+[224x307])) =
+[225x442](
+[226x490]. In the case of
+[228x442]N
+[230x70]N
+[232x430]N
+[237x445]2
+[239x70]) for a generic
+[244x430]1)
+[246x582]d
+[249x197]and
+[253x170]d
+[254x582]+
+[258x307](5)
+[258x307].
+[260x198]H
+[261x657]+
+[261x170]+
+[264x180]2
+[264x430]/
+[264x394]times
+[268x645]D
+[269x430]2 pairs
+[271x172]is of
+[283x670]) of
+[289x197]D
+[296x198],
+[317x718]h
+[317x730]many-problem. Note that Eq. 6 implies that, for quan-
+[317x166]local energies
+[317x166]ϵ
+[317x178]ϵ
+[317x214]k
+[317x226]{
+[317x238]{
+[317x333]the Wannier states:
+[317x333]∀
+[317x551]pling from one lattice site to its neighbors. Each site
+[317x575]ture and easily recover well-known results. We consider
+[317x587]is to show that our approach can offer an intuitive pic-
+[317x599]derson localization using the Lanczos basis. Our goal
+[317x670]many-body physics.
+[317x706]k
+[317x706]and Γ
+[317x357]j
+[317x369]{
+[317x381]tially lying at the edge of a semi-infinite 1D lattice. We
+[317x130]is the typical number of microstates contained in
+[317x452]struction operator on site
+[317x464]and the second sum over all lattice sites.
+[317x70]we have performed numerical simulations to determine
+[317x118]general, the fluctuations of
+[320x476]where the first sum is performed over nearest neighbors,
+[329x637]EXAMPLE 1: ANDERSON LOCALIZATION
+[332x142]n
+[347x142]close to
+[350x507]H
+[356x142]k
+[372x369]the Wannier state describing a particle lo-
+[386x164]p,q
+[386x357]. The initial state of the system is
+[388x495]<i,j>
+[392x142]therefore scales as 1
+[396x164])
+[396x164]is assumed to be non-correlated, the
+[409x507](
+[416x333]|
+[416x333]j,
+[419x504]j
+[422x419]1D case
+[430x505]i
+[432x333]=
+[433x238]p, q
+[435x452].
+[440x333]{
+[443x106]. If this decrease is too fast
+[444x117]k
+[444x190],
+[451x504]a
+[451x504]i
+[451x511]+
+[457x333]j
+[459x176])
+[460x190], is therefore an average
+[462x333]}
+[462x706], in all three cases de-
+[462x202]p, q
+[463x505]j
+[466x226],
+[468x238]N
+[472x563]the tunneling cou-
+[475x241]2
+[480x238]. We assume that
+[487x202]p
+[499x538]such that:
+[499x538]i
+[499x507]ϵ
+[501x142]N
+[509x141]k
+[512x462]is the de-
+[512x462]i
+[513x511]†
+[517x507]a
+[522x505]j
+[536x130]k
+[549x357]0
+[554x357]}
+[557x756]4
+[557x717]k
+[559x357].

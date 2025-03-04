@@ -1,0 +1,53 @@
+Page dimensions: 612.0x792.0
+[87x180]As depositors withdraw their money, other depositors start to panic and also withdraw their funds,
+[Image 88x34 to 179x43]
+[88x58]confidence in the system, triggering a bank run. In contrast, systems with decentral managed
+[88x74]to maintain the system's stability and solvency. If the entity fails to do so, depositors may lose
+[88x89]contract—controls the monetary system. As a result, depositors must rely on this entity's ability
+[88x119]monetary system, causing a reduction in production
+[88x134]at a loss, which can lead to a chain reaction of other banks being affected and a disruption of the
+[88x150]being unable to meet its obligations. During a bank run, the bank may be forced to sell its assets
+[88x165]leading to a decline in the bank's reserves. In extreme cases, bank runs can result in the bank
+[88x195]requests. Bank runs are often triggered by rumors or fears of a bank's insolvency or bankruptcy.
+[88x241]dynamics.
+[88x256]endogenous/centrally managed stablecoins and the significance of collateral and fees in stablecoin
+[105x104]In a centralized managed collateral system, a single entity—such as a central bank or a smart
+[105x226]A bank run is where a large number of depositors withdraw their deposits
+[105x226]4.3. Bank runs—
+[105x271]These sensitivity analyses confirm the robustness of our results, emphasizing the instability of
+[113x501]• \[ 3\]
+[113x547]• \[ 2\]
+[122x304]model similarly to the other stablecoin types, we would expect to obtain comparable
+[122x319]collateral and the reference currency in the model. However, if we were to adjust the
+[122x349]lateral are directly backed by fiat money, which restricts our ability to analyze shocks
+[122x364]collateral. In our simulation, stablecoin types with exogenous/centrally managed col-
+[122x380]collateral, we observe a strong dependence of the stablecoin price on the price of the
+[122x395]lateral, endogenous/decentrally managed collateral, and endogenous/centrally managed
+[122x425]changes in fees can even result in a crash, independent of any external shocks.
+[122x440]price. Additionally, for stablecoin types with endogenous/centrally managed collateral,
+[122x456]managed collateral, adjusting the fees led to changes in both the demand and subsequent
+[122x471]blecoin types with exogenous/decentrally managed collateral or endogenous/decentrally
+[122x486]fees did not have a significant effect on either the demand or the price. However, for sta-
+[122x532]outcomes across the five sensitivity factors. While there is increased volatility in both
+[122x562]a higher magnitude of the demand shock.
+[122x577]factors of 1.25 and 1.5, we observed a crash, which intuitively occurred more rapidly with
+[122x592]0.5 and 0.75, this type was able to recover without crashing
+[122x608]if the magnitude of the demand shock is sufficiently large; i.e., for sensitivity factors of
+[122x623]However, for negative demand shocks, we observed that this type only experiences a crash
+[122x638]nous/centrally managed collateral, we observe similar results for positive demand shocks.
+[122x653]demand of these types were able to recover over time. For stablecoin types with endoge-
+[122x668]smaller or larger depending on the sensitivity factor. However, crucially, the price and
+[122x684]primary difference we observed was in the initial deviations of the price, which were
+[122x699]managed collateral, we observe consistent results across the five sensitivity factors. The
+[122x714]aged collateral, exogenous/decentrally managed collateral, and endogenous/decentrally
+[126x410]Price of collateral
+[126x547]Volatility of demand
+[159x501]: For stablecoin types with exogenous/centrally managed collateral, variations in
+[225x410]: For stablecoin types with exogenous/decentrally managed col-
+[234x740]LEDGER VOL X (20XX) X-X
+[300x28]10
+[325x123]37
+[334x119].
+[400x592]. Conversely, for sensitivity
+[401x29]DOI 10.5195/LEDGER.20XX.XXX
+[437x37]ISSN 2379-5980 (online)

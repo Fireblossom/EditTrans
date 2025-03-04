@@ -1,0 +1,58 @@
+Page dimensions: 612.0x792.0
+[Image 138x577 to 474x673]
+[108x710]4.3 Effectiveness of different features in the physical world
+[108x690]4.3.1 Color transfer and texture blurring
+[108x559]Figure 4: Patch with different feature changes. (left: original patch; middle: color transfer patch;
+[108x548]right: texture blurring patch)
+[108x525]In physical-world deployments, attack patches are often affected by color transfer due to lighting
+[108x514]conditions or blurring caused by camera focus or smudging. To analyze if these changes will affect the
+[108x503]performance of the attack patches, we compare the performance of an original patch, a color-adjusted
+[108x492]patch, and a local texture adjusted patch. The color-adjusted patch is applied by adding a value (
+[486x492]δ
+[491x492]) to
+[108x481]all values in RGB channels and making sure
+[108x481]δ
+[289x481]will not lead to an overflow. This color transfer will
+[108x470]not change the texture information of the patch. The local texture adjustment is applied by using a
+[108x459]3x3 Gaussian blur. Figure 4 demonstrates the two types of feature adjustments applying to a patch
+[108x448]with brightness range=0.24.
+[188x427]Table 1: Performance with color transfer and Gaussian blur
+[183x407]Brightness range Original Color transfer Gaussian blur
+[190x391]1
+[190x391](AdvPatch) 89.4% 90.8% 47.8%
+[207x380]0
+[212x380].
+[215x380]35
+[215x380]89.5% 87.9% 22.7%
+[207x370]0
+[212x370].
+[215x370]24
+[215x370]74.2% 75.3% 10.1%
+[108x342]The performances of different patches are shown in Table 1. Regardless of the lightness restriction,
+[108x331]the color transfer patch achieves almost the same success rate as the original patch. This performance
+[108x320]shows that the patch does not need to maintain a specific color to deceive the target network. On
+[108x310]the other hand, the blurred patch exhibits a significant decrease in success rate, suggesting that
+[108x299]local texture is the key feature in deceiving target networks. Using these findings, we can apply the
+[108x288]proposed hue mapping method to adjust the color of the patch and enhance its integration with the
+[108x277]target environment, resulting in further reduced visibility. This process does not require any learning
+[108x266]and can be quickly applied when deploying the patch in the physical world.
+[108x242]4.3.2 Random color variations
+[108x223]When printing an attack patch, it is important to consider that normal printers are not able to produce
+[108x212]a patch with precisely the same color as the digital version. Therefore, the patch's robustness to
+[108x201]random color variations must be evaluated.
+[108x185]To replicate the color drift that commonly occurs during printing, we generate random noise within a
+[108x174]restricted range that corresponds to a percentage of the original value. This approach allows us to
+[108x163]simulate different levels of drift, and the results are shown in Table 2.
+[213x142]Table 2: Performance with different color drift
+[175x123]Brightness range Original 10% drift 15% drift 20% drift
+[182x107]1
+[182x107](AdvPatch) 89.4% 87.6% 85.9% 83.3%
+[200x96]0
+[205x96].
+[208x96]35
+[208x96]89.5% 84.2% 77.6% 67.2%
+[200x85]0
+[205x85].
+[208x85]24
+[208x85]74.2% 68.6% 43.2% 27.3%
+[304x42]6

@@ -1,0 +1,182 @@
+Page dimensions: 612.0x792.0
+[0x0]0
+[0x0]0
+[0x0]0
+[0x0]0
+[0x0]0
+[0x0]0
+[0x0]0
+[0x0]0
+[0x0]0
+[0x0](
+[0x153]δ
+[11x138]R
+[13x34]0
+[13x78]0
+[13x123]0
+[13x167]0
+[13x211]0
+[13x256]0
+[13x150]t
+[13x154]−
+[13x162]1
+[18x41]0
+[18x66]0
+[18x92]0
+[18x118]0
+[18x143]1
+[18x169]1
+[18x194]1
+[18x220]1
+[18x246]1
+[21x34].
+[21x78].
+[21x167].
+[21x211].
+[21x256].
+[26x34]00
+[26x78]01
+[26x123]02
+[26x167]03
+[26x211]04
+[26x256]05
+[26x41].
+[26x66].
+[26x92].
+[26x118].
+[26x143].
+[26x169].
+[26x194].
+[26x220].
+[26x246].
+[30x41]980
+[30x66]985
+[30x92]990
+[30x118]995
+[30x143]000
+[30x169]005
+[30x194]010
+[30x220]015
+[30x246]020
+[67x24]0
+[72x207]expected standard deviation of price.
+[72x223]The right panels of Figure 5 displays the IRFs for price volatility, namely, the conditionally
+[72x247]stocks.
+[72x263]inventory depresses prices much more, limiting the incentives to sell too much from the
+[72x279]is explained by the fact that with a more inelastic demand, a small increase of sales from
+[72x295]variation in the opportunity costs. Stocks decrease less for a more inelastic demand. This
+[72x310]lower physical storage costs, stock levels are higher on average and more sensitive to
+[72x326]decrease more with an increase in interest rate when storage costs are lower, because for
+[72x342]Stock levels present a different sensitivity to storage costs and demand elasticity. Stocks
+[72x366]the only driver of stock increase is the convergence of interest rate to its long-run average.
+[72x382]overshooting is possible. After 4 years, prices have converged to their long-run values, so
+[72x398]example, prices converge to their long-run values from below without overshooting, but
+[72x414]gradually increases with lower interest rates. Since the stock accumulation is slow in our
+[72x429]than their long-run values with expectations of converging back. So stock accumulation
+[72x445]but they have decreased, easing the cost pressure to sell inventories, and prices are lower
+[72x482]various parameters and realized states
+[72x498]Figure 6: Contemporaneous IRFs (in percentage points) to a 25 bp interest rate shock for
+[72x144]higher interest rates imply higher price volatility.
+[72x176]A larger response in storage generates an oppositely larger response in price volatility.
+[72x192]dynamics with a peak attained after a year and an incomplete convergence after 4 years.
+[74x24].
+[79x24]3
+[79x21].
+[82x108]E
+[82x108]t
+[83x67]-2.0
+[84x21]05
+[90x121]Mathematically, the price volatility is defined here as the square root of the conditional variance:
+[93x106]−
+[103x108]f
+[103x108]\[
+[106x24].
+[108x108]∗
+[111x24]4
+[121x108]X
+[121x131]-1.0
+[131x702](
+[132x108]Z
+[132x108],
+[138x24].
+[143x24]5
+[143x106]t
+[143x700]t
+[146x700]−
+[146x108])\]
+[149x3]−
+[152x700]=
+[152x700]1
+[153x111]−
+[153x111]2
+[157x4]X
+[160x108]\[
+[160x702]¯
+[161x3]λ
+[170x24].
+[171x12]p
+[172x702]X
+[173x108]t
+[174x0]−
+[174x24]6
+[181x702]R
+[181x702],
+[182x0]1
+[183x106]−
+[186x138]1
+[190x106]f
+[194x138].
+[195x700]t
+[198x700]−
+[199x138]52
+[202x24].
+[203x21].
+[204x700]1
+[206x108](
+[206x24]7
+[208x21]15
+[211x108]X
+[212x702]µ
+[218x106]t
+[221x108],
+[221x108]Z
+[231x700]R
+[232x106]t
+[234x24].
+[235x108])\]
+[236x1001]0.05 0.10 0.15 0.20\n−λ\n0.00\n0.01\n0.02\n0.03\n0.04\n0.05\nδ\n-2.0\n-1.0\n-3.8\n-3.4\n-3.0\n-2.6\n-2.2\n-1.8\n-1.4\n-1.0\n-0.6\n-0.2
+[237x702])
+[238x24]8
+[242x111]2
+[247x108].
+[265x21].
+[266x24].
+[268x212]22
+[268x212]It shows that price volatility mostly follows stock
+[270x24]9
+[300x72]21
+[303x34]-3.8
+[303x58]-3.4
+[303x83]-3.0
+[303x108]-2.6
+[303x132]-2.2
+[303x157]-1.8
+[303x182]-1.4
+[303x206]-1.0
+[303x231]-0.6
+[303x256]-0.2
+[316x102]-1.60
+[316x124]-1.45
+[316x146]-1.30
+[316x169]-1.15
+[316x191]-1.00
+[316x213]-0.85
+[316x236]-0.70
+[316x258]-0.55
+[379x704]δ
+[384x704]λ
+[396x704]) = (
+[420x704]0.02,
+[420x704]−
+[453x704]0.06
+[631x1001]0.3 0.4 0.5 0.6 0.7 0.8 0.9\nXp\nt−1\n0.980\n0.985\n0.990\n0.995\n1.000\n1.005\n1.010\n1.015\n1.020\nRt−1\n−1.52\n-1.90\n-1.75\n-1.60\n-1.45\n-1.30\n-1.15\n-1.00\n-0.85\n-0.70\n-0.55

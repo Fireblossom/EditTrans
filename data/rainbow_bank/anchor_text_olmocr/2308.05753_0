@@ -1,0 +1,31 @@
+Page dimensions: 612.0x792.0
+[85x668]Amortized Neural Networks for Agent-Based Model Forecasting
+[527x674]∗
+[167x639]Denis Koshelev
+[245x644]†
+[245x639], Alexey Ponomarenko
+[360x644]‡
+[360x639], Sergei Seleznev
+[445x644]§
+[275x581]Abstract
+[72x550]In this paper, we propose a new procedure for unconditional and conditional forecasting in agent-based
+[72x538]models. The proposed algorithm is based on the application of amortized neural networks and consists of
+[72x526]two steps. The first step simulates artificial datasets from the model. In the second step, a neural network is
+[72x514]trained to predict the future values of the variables using the history of observations. The main advantage of
+[72x502]the proposed algorithm is its speed. This is due to the fact that, after the training procedure, it can be used
+[72x491]to yield predictions for almost any data without additional simulations or the re-estimation of the neural
+[72x479]network.
+[87x457]JEL-classification: C11, C15, C32, C45, C53, C63.
+[87x445]Keywords: agent-based models, amortized simulation-based inference, Bayesian models,
+[72x433]forecasting, neural networks.
+[83x123]∗
+[87x120]The views expressed herein are solely those of the authors. The content and results of this research should not be considered
+[72x111]or referred to in any publications as the Bank of Russia's official position, official policy, or decisions. Any errors in this document
+[72x101]are the responsibility of the authors.
+[83x94]†
+[87x92]Bank of Russia
+[83x85]‡
+[87x82]Bank of Russia
+[83x75]§
+[87x72]Bank of Russia
+[304x42]1

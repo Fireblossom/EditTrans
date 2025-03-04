@@ -1,0 +1,120 @@
+Page dimensions: 612.0x792.0
+[111x654]and identification of entanglement have profound significance. The identi-
+[111x640]fication of entangled states, in particular, presents a formidable challenge,
+[111x625]underscored by its classification as an NP-Hard problem in mathematical
+[111x611]terms \[12\]. Hence, the pursuit of viable techniques for detecting entangled
+[111x596]states takes on paramount importance.
+[111x568]Entangled states are referred to as states that are not separable, and sepa-
+[111x553]rable states refer to states that can be written as follows \[13\]:
+[234x527]ρ
+[234x527]=
+[256x538]X
+[275x527]p
+[281x525]i
+[284x527]|
+[287x527]ψ
+[295x525]i
+[298x527]⟩⟨
+[308x527]ψ
+[315x525]i
+[319x527]| ⊗ |
+[340x527]ϕ
+[347x525]i
+[350x527]⟩⟨
+[360x527]ϕ
+[366x525]i
+[370x527]|
+[373x527].
+[373x527](1)
+[116x501]Here,
+[116x501]|
+[152x501]ψ
+[160x499]i
+[163x501]⟩
+[163x501]and
+[173x501]|
+[200x501]ϕ
+[207x499]i
+[211x501]⟩
+[211x501]denote pure states, with 0
+[221x501]≤
+[366x501]p
+[387x499]i
+[387x499]≤
+[396x501]1 and
+[411x501]P
+[461x501]p
+[466x499]i
+[466x499]= 1.
+[111x486]One strategy for identifying entanglement involves investigating whether a
+[111x472]state can be expressed in the aforementioned form. This, however, poses a
+[111x457]formidable challenge. As a result, there is a pressing need for more effective
+[111x443]methodologies for the detection of entanglement. Over time, diverse tech-
+[111x428]niques have emerged for this purpose. Among these, entanglement witnesses
+[111x414](EW), introduced by the Horodecki family in 1996, have gained recognition
+[111x399]as one of the most useful and valuable approaches \[14\].
+[111x371]Entanglement witnesses (EWs) are defined as non-positive operators whose
+[111x356]expectation values remain non-negative on all separable states. Mathemati-
+[111x342]cally, this concept is encapsulated by the criterion that a Hermitian operator
+[111x327]W
+[111x327]qualifies as an EW if it satisfies the condition:
+[246x303]Tr(
+[262x303]W σ
+[282x303])
+[282x303]≥
+[290x303]0
+[309x303],
+[309x303]∀
+[332x303]σ
+[332x303]∈
+[343x303]S,
+[354x303](2)
+[115x279]in which
+[115x279]S
+[163x279]is the set of all separable states (see \[15\] for a recent review on
+[111x264]EWs). This equation means
+[111x264]W
+[259x264]is a block-positive operator, i.e.
+[219x240]⟨
+[223x240]ψ, ϕ
+[243x240]|
+[247x240]W
+[259x240]|
+[263x240]ψ, ϕ
+[283x240]⟩
+[288x240],
+[288x240]∀
+[303x240]ψ
+[303x240]∈
+[315x240]H
+[336x239]1
+[341x240],
+[341x240]∀
+[352x240]ϕ
+[352x240]∈
+[363x240]H
+[384x239]2
+[388x240].
+[115x216]However, constructing EWs is not a straightforward task, and appropriate
+[111x202]methods need to be proposed for this purpose.
+[111x173]One effective approach to constructing EW involves harnessing positive maps.
+[111x158]Positive maps have a direct correspondence with EWs, characterized by the
+[111x144]following relation \[14\]
+[235x120]W
+[248x120](
+[252x120]M
+[265x120]) = (
+[290x120]I
+[290x120]⊗
+[299x120]M
+[323x120])
+[328x120]|
+[331x120]ϕ
+[338x125]+
+[345x120]⟩⟨
+[354x120]ϕ
+[361x125]+
+[368x120]|
+[372x120],
+[372x120](3)
+[302x90]2

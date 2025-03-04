@@ -1,0 +1,181 @@
+Page dimensions: 612.0x792.0
+[115x707]Distributions
+[0x0]Inequality indices
+[0x0]Ranks based on
+[291x693]Ψ
+[301x691]1
+[301x691]Ψ
+[345x691]2
+[345x691]Ψ
+[390x691]3
+[0x0]Ψ
+[425x691]1
+[425x691]Ψ
+[459x691]2
+[459x691]Ψ
+[492x691]3
+[115x678]Uniform
+[159x678](0
+[169x678], θ
+[180x678])
+[0x0]0.5010 0.6936 0.6147
+[0x0]6 2 3-4
+[115x663]Exponential
+[176x663](0
+[186x663], θ
+[197x663])
+[0x0]0.5583 0.8327 0.7026
+[0x0]7 7 7
+[115x649]Gamma
+[156x649](
+[161x649]θ, α
+[182x649]= 0
+[201x649].
+[204x649]5)
+[0x0]0.6874 0.9378 0.8020
+[0x0]12 10 11
+[115x634]Gamma
+[156x634](
+[161x634]θ, α
+[182x634]= 2)
+[0x0]0.4360 0.6974 0.5956
+[0x0]3 3 2
+[115x620]Weibull
+[115x620](
+[160x620]θ, τ
+[180x620]= 0
+[199x620].
+[202x620]5)
+[0x0]0.7237 0.9681 0.8358
+[0x0]13 13 13
+[115x605]Weibull
+[115x605](
+[160x605]θ, τ
+[180x605]= 2)
+[0x0]0.3810 0.6022 0.5239
+[0x0]1 1 1
+[115x591]Lognormal
+[170x591](
+[174x591]µ, σ
+[197x591]= 1)
+[0x0]0.4779 0.7886 0.6648
+[0x0]4 5 5
+[115x576]Lognormal
+[170x576](
+[174x576]µ, σ
+[197x576]= 2)
+[0x0]0.6648 0.9527 0.8122
+[0x0]11 12 12
+[115x561]Log-Cauchy
+[175x561](
+[180x561]µ, σ
+[203x561]= 1)
+[0x0]0.6054 0.9382 0.7470
+[0x0]9 11 9
+[115x547]Log-Cauchy
+[175x547](
+[180x547]µ, σ
+[203x547]= 2)
+[0x0]0.7470 0.9935 0.8551
+[0x0]14 16 14
+[115x533]Pareto-II
+[164x533](
+[168x533]σ, α
+[191x533]= 1)
+[0x0]0.6147 0.9242 0.7736
+[0x0]10 9 10
+[115x518]Pareto-II
+[164x518](
+[168x518]σ, α
+[191x518]= 2)
+[0x0]0.5868 0.8863 0.7407
+[0x0]8 8 8
+[115x503]Pareto-III
+[168x503](
+[173x503]σ, γ
+[194x503]= 0
+[213x503].
+[216x503]5)
+[0x0]0.4302 0.7344 0.6147
+[0x0]2 4 3-4
+[115x489]Pareto-III
+[168x489](
+[173x489]σ, γ
+[194x489]= 2)
+[0x0]0.7736 0.9932 0.8795
+[0x0]16 15 16
+[115x474]Pareto-IV
+[168x474](
+[173x474]σ, α
+[195x474]= 0
+[213x474].
+[217x474]5
+[223x474], γ
+[238x474]= 0
+[256x474].
+[259x474]5)
+[0x0]0.4803 0.8288 0.6887
+[0x0]5 6 6
+[115x460]Pareto-IV
+[168x460](
+[173x460]σ, α
+[195x460]= 2
+[213x460], γ
+[229x460]= 2)
+[0x0]0.7495 0.9852 0.8598
+[0x0]15 14 15
+[72x436]Table 3.1: The inequality indices Ψ
+[72x436]k
+[256x434]for various parametric distributions and the rankings
+[72x421]of these distributions based on the indices.
+[90x390]In Table 3.1 we have four groups consisting of four distributions. The groups reflect the
+[72x371]fact that in Figures 3.1–3.3, the distributions are grouped into four rows each containing
+[72x352]four panels. The figures depict the three income-equality curves
+[72x352]ψ
+[425x350]k
+[425x350]for the distributions
+[72x333]specified in Table 3.1.
+[90x314]Since the curves are ratios of percentiles, the scale parameter of each distribution has no
+[72x296]effect on the inequality indices. The same is true for the log-location parameter (
+[72x296]e
+[496x300]µ
+[502x296]) of the
+[72x277]lognormal and log-Cauchy distributions. However, the shape (
+[72x277]α
+[404x277],
+[404x277]γ
+[419x277]) and the log-scale (
+[419x277]e
+[530x281]σ
+[535x277])
+[72x258]parameters are the primary drivers of the underlying inequality. To explore this effect, we
+[72x239]choose a couple of values of each of these parameters for plotting. In the plots of Figures 3.1–
+[72x221]3.3, the uniform distribution serves as a benchmark for comparing the curves. In each plot,
+[72x202]the dash-dotted line (invisible in the top left panels of the figures) marks the curve
+[72x202]ψ
+[502x200]k
+[502x200]in the
+[72x183]case of the uniform distribution. Numerical evaluations labeled 'area' represent the areas of
+[72x164]the corresponding shaded regions above the curves
+[72x164]ψ
+[339x162]k
+[344x164], which are the values of the inequality
+[72x145]indices.
+[90x127]From Table 3.1 and Figures 3.1–3.3 we observe several facts, which can also be verified
+[72x108]mathematically:
+[90x79]•
+[90x79]ψ
+[109x77]1
+[109x77]for
+[116x79]Pareto-III
+[186x79](
+[190x79]σ, γ
+[212x79]= 2) and
+[212x79]ψ
+[267x77]3
+[267x77]for
+[274x79]Pareto-II
+[339x79](
+[344x79]σ, α
+[366x79]= 1) coincide, thus giving identical
+[303x42]9

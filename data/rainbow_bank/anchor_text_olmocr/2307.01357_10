@@ -1,0 +1,230 @@
+Page dimensions: 595.3x841.9
+[71x543](
+[71x668]expected post-intervention outcome of unit
+[71x386]detailed in Appendix F. Further, assume that Assumptions 5.1 and 5.2 are satisfied, there is
+[71x267]unit
+[71x267]n
+[71x359]under Assumption 4.2 with probability at least
+[71x372]n
+[71x372]some
+[71x682]sumption 5.1 and Assumption 5.2, there exists slope vector
+[72x158]This is in contrast to
+[72x745]written as a linear combination of unit
+[72x73]bound also contains a term which scales as
+[72x89]a "slow"
+[72x118]\[8\] since their synthetic interventions framework of uses a vertical regression method, the two
+[72x131]methods in panel data settings. While we do not exactly match the bound of Agarwal et al.
+[72x172]for estimating
+[72x214]long as
+[72x228]in Appendix G. Observe that
+[72x559]of Section 4. Overloading the notation of Section 3, we let
+[72x571]estimation of causal effects over time may now be obtained by applying our online PCR results
+[72x583]pre- and post-intervention outcomes. Using this reformulation, adaptive guarantees for the
+[72x695]Lemma 5.4
+[72x718]the following lemma for completeness' sake.
+[75x462]Finally, we define quantities such as
+[79x526]= (
+[86x542],pre
+[89x595]θ
+[94x267]under intervention
+[94x595](
+[97x345]0
+[100x399],
+[101x543], . . . , Y
+[104x528]ξ
+[105x399]be an arbitrary confidence parameter and
+[107x371]≥
+[107x280]E
+[108x526]1
+[109x214]T
+[113x528], . . . , ξ
+[114x280]Y
+[114x280](
+[115x372]1
+[116x89]O
+[131x286])
+[134x695](
+[134x93]1
+[136x213]0
+[137x345]−
+[138x695]Reformulation of average expected post-intervention outcome
+[143x175]b
+[148x528])
+[150x172]Y
+[150x172](
+[151x175]¯
+[153x85])
+[153x85]0
+[155x94]−
+[156x547],
+[156x547]T
+[156x169]is known as a
+[159x314]E
+[160x317]b
+[161x94]1
+[162x543]ϵ
+[163x276]T
+[166x314]Y
+[169x276]−
+[170x94]4
+[173x311]−
+[175x89]term which does not appear in our analysis. (2) The non-adaptive SI
+[176x542]= (
+[183x320])
+[188x280]· ⟨
+[195x492]=
+[196x267]a
+[202x543]ϵ
+[213x280]a
+[214x228]E
+[215x231]b
+[217x314]Y
+[222x371]n
+[222x228]Y
+[223x487]−
+[223x231]¯
+[225x540]n,
+[227x369](
+[227x369]0
+[227x640]Y
+[227x640](
+[228x225]n,post
+[229x643]¯
+[229x320]a
+[232x540]1
+[233x637]= 1
+[235x500]1
+[236x372]a
+[237x543], . . . , ϵ
+[237x213]0
+[239x646]a
+[242x372]r
+[246x314]| ≤
+[251x172]horizontal
+[251x172]regression method in the panel data literature.
+[255x280]⟩
+[255x280]is the estimated average post-intervention outcome for
+[256x482]t
+[258x506]T
+[263x505]0
+[266x549](0)
+[266x317]e
+[271x228]Y
+[271x228](
+[272x462]a
+[272x372]snr
+[273x231]¯
+[274x745]pre
+[274x668]n
+[274x329]r
+[278x225]n,post
+[278x539]0
+[278x76]e
+[282x462],
+[282x462]X
+[284x307]T
+[287x547]T
+[287x547],
+[287x498]1
+[290x305]0
+[290x305]∧
+[290x74]√
+[292x42]11
+[294x543]E
+[297x359]−
+[297x359]1
+[297x68]T
+[298x84]√
+[300x745]-intervention outcomes. We note that similar
+[303x68]−
+[304x462](
+[305x359]O
+[305x78]n
+[307x307]+
+[308x542]= (
+[308x462]a
+[310x68]T
+[316x371]n
+[317x314]r
+[318x462]Y
+[319x543]ϵ
+[320x640]a
+[320x399]ρ >
+[321x228]with high probability as
+[321x228]0
+[324x359](
+[327x487]T
+[330x640],
+[332x372])
+[335x461]n
+[340x462](
+[342x359])
+[342x542]1
+[346x359], simultaneously for all interventions
+[347x542],pre
+[350x503]X
+[351x462])
+[352x306]n
+[355x559]X
+[362x682]θ
+[362x543], . . . , ϵ
+[363x372]n
+[365x557]= (
+[367x682](
+[368x640]⟩
+[372x491]n,t
+[373x640].
+[377x668]is expressible as
+[377x682])
+[384x314]√
+[385x682]R
+[387x499])
+[390x511]!
+[390x542]n,pre
+[398x510]T
+[401x158]units
+[404x686]T
+[406x494].
+[408x557],pre
+[409x685]0
+[409x685], such that the average
+[410x320]0
+[415x547]T
+[416x244]T
+[420x304]0
+[423x559], . . . ,
+[425x158]. See Shen et al.\[74\]
+[426x371]0
+[426x329]
+[431x372]. If
+[431x372]T
+[432x542]n
+[432x542]=
+[443x543]P
+[445x228]T, T
+[447x559]E
+[453x758](
+[454x761]¯
+[459x371]0
+[459x371]≤
+[465x695])
+[465x764]a
+[468x228], n
+[469x695]Under As-
+[469x548]T
+[472x540]=
+[478x540]T
+[481x559])
+[481x368]2
+[482x228]→ ∞
+[483x539]0
+[492x559]Z
+[495x372], then
+[496x413])
+[500x413]Let
+[500x413].
+[505x549](
+[505x540],
+[507x228], as
+[513x548]n
+[518x549])

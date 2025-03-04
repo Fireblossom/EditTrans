@@ -1,0 +1,177 @@
+Page dimensions: 612.0x792.0
+[54x730]for estimating
+[54x536]K
+[54x536]set
+[54x594]the
+[54x70]trates that the quantum parts of Q
+[54x82]k
+[54x105]k
+[54x116]with different colors and the result shows that the com-
+[54x151]k
+[54x272]jority voting, is similar to that of classical
+[54x283]k
+[54x295]presented the complexity analysis of the former three
+[54x419]algorithm are required to ensure
+[54x468]algorithm and replacement when
+[54x502]T
+[54x513]to find out
+[54x513]k
+[54x667]times of operator
+[54x139]speedup over classical
+[54x249]k
+[54x260]O
+[54x260]its complexity remains
+[54x306]tum
+[58x679]where
+[58x679]e
+[60x433]2
+[63x525], and the number of elements of set
+[66x582](
+[69x536]but are more similar to
+[72x594]operator needs to be performed at least
+[77x582])) to ensure that the error probability is less than or
+[81x306]-maximal finding is
+[81x306]O
+[81x433]O
+[81x433],
+[84x594]R
+[88x679]is the estimation of
+[92x368]
+[95x433](
+[98x571]. Therefore, the total complexity of similarity
+[99x445]q
+[101x390]k
+[105x548]be a set whose elements do not belong to
+[106x390](
+[110x406]r
+[110x437]M
+[111x185]k
+[111x185]NN and classical
+[112x228]O
+[113x429]t
+[115x479]O
+[116x491]= 0. Reference \[40\] shows that
+[120x228](
+[121x397]M
+[121x383]2
+[122x559](
+[124x228]M
+[126x559]M
+[129x151]NN algorithm could offer a significant
+[135x228]log
+[139x703]a
+[139x703]−
+[140x452](
+[142x667]. Obviously,
+[144x452]k
+[145x629]R
+[148x225]2
+[149x464]q
+[150x564]2
+[154x559]+
+[160x456]M
+[162x383]k
+[163x449]t
+[163x139]NN algorithm. To figure out
+[164x559]R
+[165x260](
+[169x260]k
+[169x605]a
+[169x605]−
+[172x249]NN is
+[175x260]). Therefore, the total com-
+[177x636]+ 1)
+[178x306](
+[179x696]+
+[182x559]). For quantum
+[182x315]√
+[183x623]δ ,
+[189x479](
+[190x349]i
+[190x703]π
+[192x373]2
+[194x679]R
+[194x679], and
+[196x185]NN. As can be seen in
+[196x373]k
+[197x383]k
+[201x667]needs to satisfy the
+[202x605]δ
+[202x162]NN, it illustrates that
+[206x390]...
+[208x713]2
+[209x699]2
+[218x70]NN are crucial for
+[219x228]k
+[224x390])
+[228x390], t >
+[233x525]t
+[234x228])
+[235x452]is reduced to
+[238x228](31)
+[245x82]NN. It illus-
+[254x360]k
+[258x559]-maximal
+[263x491]can be
+[264x594]times
+[281x375](30)
+[317x385]rics and have analyzed the complexity of Q
+[317x592]k
+[317x165]Eq. (32) can be rewritten as the following form
+[317x176]CVQKD. Due to the data processing is quite different,
+[317x211]fier for both legitimate users (Alice and Bob) and the
+[317x222]k
+[317x234]tween Eve and Bob. However, Eq. (32) does not con-
+[317x339]program (SDP) method \[41\], detailed calculations can be
+[317x351]curity proof for Q
+[317x374]rithm, both results have shown the advantages of our
+[317x489]CVQKD system \[31\]. In such a practical scenario, the
+[317x501]M
+[317x501]Actually,
+[317x524]show the respective trends, the scale of labeled data point
+[317x547]heavily affects the complexities of both classical
+[317x570]both algorithms are not sensitive to the hyper-parameter
+[317x581]apparently larger than that of Q
+[317x638]the increase of
+[317x650]the complexity of classical
+[317x673]to investigate the respective influence of each parameter
+[317x696]M
+[317x707]several parameters, i.e., the dimension
+[317x719]both Q
+[317x116]Q
+[317x82]between Alice and Bob. Second, term
+[317x93]Higher AUC value implies higher correlation of raw key
+[317x105]ered as it describes the efficiency of quantum classifier.
+[317x70]sents the Holevo quantity for Eve's maximum accessible
+[320x268]β
+[325x397]k
+[325x535]k
+[330x397]NN-based CVQKD in terms of machine learning met-
+[331x434]k
+[331x434]C. Security analysis of Q
+[348x719]k
+[353x719]NN and classical
+[375x146]K
+[383x144]=
+[394x351]k
+[399x351]NN-based CVQKD with semi-definite
+[420x638]k
+[421x146]Λ
+[433x719]NN algorithms are affected by
+[439x145]−
+[439x145]AB
+[442x478]k
+[442x478]NN and classical
+[443x285]AB
+[459x434]NN-based CVQKD
+[473x285]BE
+[484x287](32)
+[491x80]BE
+[495x266]is the Shan-
+[502x146](33)
+[523x547]k
+[527x478]NN will
+[529x547]NN and
+[547x638]NN
+[552x756]11
+[559x696].

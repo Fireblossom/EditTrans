@@ -1,0 +1,239 @@
+Page dimensions: 612.0x792.0
+[0x0](10)
+[0x0](17)
+[0x0]GT
+[0x0](16)
+[0x0](14)
+[50x581](
+[50x569]\[52\] downsample images, losing local structures and some
+[50x301]MLP(
+[50x313]LN(
+[50x313]\[35\],
+[50x593]windows
+[50x205]details, in which a SE block \[11\] is used to explore channel
+[50x217]in
+[50x229]we use a CNN module to model local pixel dependencies
+[50x241]in the second branch which is parallel with local attention,
+[50x277]linearity. In such a process, we adopt 1D learnable location
+[50x446]the pixels into a sequence of pixel embeddings
+[50x446]X
+[50x422]c
+[50x434]\[
+[53x101]We combine the features from both branches as:
+[53x153]F
+[56x337]Y
+[59x438]i,
+[60x152]is then split into
+[60x152]conv
+[68x216]l
+[71x173]= Conv(LN(
+[72x685]300 Adam\[17\] 8 4e-4 cosine 1e-7
+[72x685]0
+[73x581])
+[73x581]is the window resolution. SNR \[43\] and STAR
+[77x216]1
+[81x153]n
+[84x438]2
+[86x462]i
+[87x474]i,j
+[88x434]···
+[89x458]. With a linear projection, we then transform
+[91x313]·
+[94x313])
+[95x340]is the feature learned by the local Trans-
+[102x470]R
+[105x422]1
+[105x422]is the embedding dimension. For
+[105x377]Y
+[108x357]Y
+[113x490]P
+[113x629]F
+[115x85]1
+[117x362]=
+[117x362]i
+[119x81],
+[121x142]\]
+[122x122]i
+[123x377]X
+[126x173]F
+[127x142]R
+[128x118]\[
+[128x597]1
+[130x434]\]
+[132x474]1
+[133x593],
+[133x593]P
+[133x171]l
+[136x171]−
+[136x474]×
+[136x81],
+[141x81],
+[143x365]i
+[143x145]n
+[146x470]m
+[147x325]is the Multi-head Self-Attention
+[147x325])
+[148x122]i,
+[149x593],
+[153x494]1
+[153x470]=
+[154x593],
+[154x173],
+[156x81]C
+[157x490], p
+[159x153]Q
+[161x145]×
+[167x494]i,
+[167x122]i,
+[168x470]w
+[172x122]2
+[174x81]\]
+[174x438]i,j
+[174x438]∈
+[176x171]conv
+[176x490]···
+[176x490],
+[176x81]C
+[177x118]···
+[177x118],
+[178x301])
+[178x301]is multi-layer perceptron
+[181x118], q
+[181x597]n
+[183x142]Q
+[183x142], and each
+[187x593]∈
+[187x593]\]
+[189x434]R
+[196x173]F
+[197x709]Learning
+[199x85]i
+[199x85]=
+[205x494]i,m
+[205x122]i,m
+[205x81]Q
+[207x697]rate
+[210x381]i
+[212x438]is the
+[213x605]non-overlapping
+[214x377]))
+[214x365]′
+[214x365]i
+[218x490]\]
+[218x118]\]
+[218x628]l
+[220x434]j
+[224x85]+
+[227x628]1
+[228x357],
+[232x597]×
+[236x629]R
+[239x597]w
+[245x597]×
+[245x173]F
+[249x85]i
+[251x597]c
+[251x709]LR
+[252x434]-th pixel
+[252x180]′
+[255x173])
+[261x633]×
+[265x426]i
+[268x450]i
+[268x422], we
+[276x633]×
+[309x104]duce local color deviation:
+[309x116]ground truth and elaborately enhances illumination to re-
+[309x242]F
+[309x279]l
+[309x128]R
+[309x140]LGCM.
+[309x140]LGCM takes
+[309x159]Especially, the noise is well removed by our COMO-ViT.
+[309x171]mination is enhanced and image details are also recovered.
+[309x290]F
+[309x290]pendencies, obtaining the feature
+[309x452]Figure 4. We observe that
+[309x431]pixel-wise local gamma map.
+[309x442]Γ
+[312x314]where
+[Image 319x568 to 426x639]
+[321x254]The result of the second stage is obtained by decoding
+[321x183]We visually show
+[321x183]R
+[321x385]Global pixel dependencies are explored by calculating
+[323x709]Drop
+[324x697]path
+[330x267]F
+[331x685].
+[334x685]512
+[334x685]1 15 5 2 16
+[334x279],
+[342x265]l
+[344x279],
+[344x279]···
+[350x81]Γ
+[351x265]is the fused feature
+[352x140]R
+[357x79]=
+[358x342]1
+[359x314]·
+[364x471]R
+[370x697]dim Head
+[373x555]s
+[374x279]}
+[377x555]2
+[377x338],
+[377x338]···
+[379x279]L
+[380x81](Conv
+[381x338], u
+[397x217]s
+[401x452]R
+[401x279]is the COMO-ViT number. When
+[403x181]s
+[406x342]n
+[407x181]2
+[407x181]in Fig. 4, observing that the illu-
+[408x451]s
+[411x81](
+[412x451]3
+[412x451]keeps higher illumination than
+[415x338], u
+[415x338]i
+[419x139]as input, and learns local deep
+[423x79]s
+[427x79]2
+[Image 428x482 to 535x553]
+[Image 428x568 to 535x639]
+[434x242]D
+[439x81]R
+[439x81],
+[442x242](
+[453x242]):
+[453x217]L
+[455x289]l
+[459x219])
+[466x79]3
+[473x81]R
+[478x440]l
+[478x440]is corresponding
+[483x555]l
+[488x338]C
+[489x294]×
+[492x78]s
+[492x85]Γ
+[495x294]W
+[496x78].
+[496x78]2
+[496x342]i
+[500x338]))
+[510x294]c
+[510x709]Patch
+[514x697]size
+[521x127]and
+[521x127]2
+[527x452]R
+[535x451]s
+[539x451]2
+[543x452],

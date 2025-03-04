@@ -1,0 +1,16 @@
+Page dimensions: 612.0x792.0
+[Image 72x425 to 376x627]
+[Image 72x110 to 370x326]
+[72x748]An Initiative Case Study for PM-Gati-Shakti
+[72x710]Augmented-Dickey Fuller Test where the null hypothesis is "the time series contains a unit root and is non-stationary".
+[72x699]The results of the Augmented Dickey-Fuller Test for each of the Imputation datasets are given in the below sections.
+[72x657]4.1 Datasets Analysis and ADF test results
+[72x630]The Figure below gives a plot of the whole dataset without dividing into train and test.
+[72x409]The ADF test for no-imputation dataset test-statistic = -5.45 p-value = 2.55e-06 for no-imputation dataset for first
+[72x398]difference to try to change the time-series to stationary. test-statistic = -10.403 p-value = 1.88e-18 for Second Difference,
+[72x387]which is not suggested as the p-value is zero (over-differencing) test-statistic = -21.152 p-value = 0.0
+[72x343]This figure below depicts the Mean Imputation dataset Plot.
+[72x94]The ADF test for Mean imputation dataset test-statistic = -5.393 p-value = 3.49e-06 for first difference to try to change
+[72x83]the time-series to stationary. test-statistic = -10.073 p-value = 1.23e-17 for Second Difference, which is not suggested
+[72x72]as the p-value is zero (over-differencing) test-statistic = -21.617 p-value = 0.0
+[303x42]7

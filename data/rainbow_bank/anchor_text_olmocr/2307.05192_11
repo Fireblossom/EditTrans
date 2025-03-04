@@ -1,0 +1,181 @@
+Page dimensions: 595.3x841.9
+[54x602]state for this optimal transformation. Then the above ar-
+[54x734]η
+[54x780]χ
+[54x780]ous in
+[54x613]the
+[54x625]the maximum achievable fidelity from any state within
+[54x768]ϵ
+[54x338]δ
+[54x338]intersecting the
+[54x189]the initial state. That is, we set
+[54x269]these transformations collapses as the optimal fidelity is
+[54x281]seen that, in the bipartite setting, the hierarchy between
+[54x315]non-fully-entangled states, which is challenging by itself.
+[54x327]general cases, one must also consider transformations to
+[54x350]δ >
+[54x361]ϵ
+[54x408]formations seems unfeasible. To see this, consider for
+[54x442]identified five physically relevant types (
+[54x536]of SEP
+[54x536]1
+[54x166]T
+[54x166]formations, i.e.,
+[54x120](see Fig 2).
+[54x143]formations within an SLOCC class that are better than
+[54x155]that, unlike the bipartite case, there are ensemble trans-
+[57x648]which proves the result for
+[57x648]δ
+[59x734], and then
+[64x636]δ >
+[64x745]η >
+[64x745]Thus, for any
+[64x454]Having introduced approximate transformations and
+[64x559]As a final comment, we recall that LOCC
+[66x479]IV. APPROXIMATE TRANSFORMATIONS
+[72x350]0, there may be an infinite number of SLOCC classes
+[72x757](Λ
+[73x712]F
+[76x613]|
+[76x613]-vicinity. Let
+[83x761]ϵ,χ
+[95x780]F
+[98x757]ψ
+[109x768]∀
+[109x768], it holds that
+[110x361]-vicinity around
+[114x712])
+[114x712]−
+[115x757]F
+[120x712]F
+[131x755]av
+[132x171]0
+[132x392]det
+[134x400]δ,ϵ
+[134x698]F
+[135x673]+
+[135x673]′′
+[135x613]˜
+[136x171],ϵ
+[138x613]ψ
+[140x684]|
+[140x684]+
+[140x696]ens
+[142x669]ϵ
+[143x745]0, choose
+[143x745]ϵ, ϵ
+[143x163]−
+[144x395](
+[145x613]⟩
+[147x395]ψ, ϕ
+[149x163]and
+[151x761]ϵ
+[152x669]≤
+[153x684]F
+[153x698](
+[155x757](
+[156x717]ϵ,χ
+[157x698]ψ, ϕ
+[158x636]0 case, it is sufficient to consider
+[159x757]ψ
+[159x682]av
+[166x757])
+[169x757], ϕ
+[171x712]ψ
+[174x698]−
+[174x698])
+[177x648]= 0.
+[178x780](Λ
+[178x712]))
+[180x698]F
+[182x613]( ˜
+[183x684](
+[184x361]ϕ
+[187x372]|
+[189x783]ϵ,χ
+[194x361]. However, for any finite
+[197x696]av
+[197x768]0
+[197x749]′′
+[197x749]>
+[200x780](
+[200x757]ϵ
+[203x189]= 0. Here we start
+[204x761]′′
+[204x613]≥
+[206x698](Λ
+[207x163]det
+[208x684]−
+[209x757].
+[209x768]∃
+[211x613]1
+[212x171],ϵ
+[214x338]⟩
+[214x684]F
+[214x780], ϕ
+[217x702]ϵ
+[218x163]−
+[221x613]−
+[224x163]SLOCC
+[224x163]. We show
+[230x682]av
+[235x698], ϕ
+[236x440]ens
+[238x613]be the input
+[239x684](Λ
+[249x698]|
+[250x688]ϵ,χ
+[253x442]ψ, ϕ
+[272x684]))
+[272x372]⟩
+[279x745]ϵ
+[283x749]≤
+[283x749]′′
+[317x183]ϵ
+[317x183]sponding
+[317x195]with no deterministic transformation between the corre-
+[317x206]dence for the existence of an approximate transformation
+[317x229]δ
+[317x229]set
+[317x241]tic transformation? More precisely, in Section IV C, we
+[317x252]which are not in the vicinity of any exact, determinis-
+[317x275]mate transformations than deterministic transforma-
+[317x286]whether there are really significantly more approxi-
+[317x325]|
+[317x346]mation of
+[317x346]|
+[317x356]and
+[317x367]is not always deterministic. There are choices of states
+[317x367]|
+[317x509]ϵ
+[317x509]discuss the limiting case where
+[317x521]δ >
+[317x544]example where the optimal faithful transformation is de-
+[317x555]deterministic (see Fig. 3). We also present a multipartite
+[317x567]where the optimal approximate transformation is non-
+[317x590]and
+[317x602]T
+[317x647]an SLOCC class.
+[317x658]are more powerful than deterministic transformations within
+[317x668]FIG. 2: Approximate transformations within an SLOCC class
+[327x298]Finally, in Section IV C, we tackle the question of
+[327x614]From here, we move on to study general faithful trans-
+[329x325].
+[339x356]ϕ
+[342x587]det
+[344x356]and
+[347x594],ϵ
+[364x183]-vicinities around the initial and final states
+[368x229]0 – in effect, fixing a resolution, up to which
+[417x134]A. MES
+[454x336]⟩
+[455x509]→
+[460x336]ϵ
+[461x509]0.
+[498x336]-vicinity around
+[548x606]0
+[552x606],ϵ
+[552x806]12
+[552x367]ψ
+[559x367]⟩
+[559x602],

@@ -1,0 +1,27 @@
+Page dimensions: 612.0x792.0
+[166x480](a) Shallow classifiers
+[0x0](b) Fine-tuned models
+[111x459]Figure 4: Memory footprint of (a) the considered shallow classifiers based on different input
+[111x447]sizes (i.e., percentage of PCA explained variance), and (b) the fine-tuned deep learning
+[111x435]models. Please, consider that in (a) the overall memory footprint is given by taking into
+[111x423]account also the size of the deep embedding models to extract the input features from the
+[111x411]raw audio sample.
+[111x375]the input data dimension. Figure 4a shows the memory size (in MB) of the
+[111x361]4 shallow classifiers considered in our experiments, based on the input size in
+[111x346]terms of the percentage of PCA explained variance. As expected, the size of
+[111x332]most of the classifiers increases according to the input dimension, except for
+[111x317]Random Forest (RF), whose size remains nearly constant at around 1 MB
+[111x303](between 0.98 and 1.11). Logistic Regression (LR), the simplest classifier,
+[111x289]is also the one with the lowest memory footprint in all the experiments,
+[111x274]starting from less than 1 KB (i.e., 922 Bytes), up to 3.64 KB with 99% of
+[111x260]PCA explained variance. On the other hand, AdaBoost (AB) results to be
+[111x245]the most demanding model in terms of memory, with an overall size that
+[111x231]ranges from just 5.74 MB with 60% of PCA, up to 185.05 MB with the full
+[111x216]dimension of the input. Finally, SVM has an intermediate memory footprint
+[111x202]among the other classifiers, ranging from 42.6 KB up to 1.88 MB.
+[128x187]On the other hand, when the deep audio models are fine-tuned, the size
+[111x173]of the additional fully-connected layers should be considered to estimate the
+[111x159]overall memory footprint. Figure 4b shows the average size of the fine-tuned
+[111x144]models, highlighting both the size of the original pre-trained models, and the
+[111x130]size of the additional layers for classification. We can note that, in general,
+[299x90]24

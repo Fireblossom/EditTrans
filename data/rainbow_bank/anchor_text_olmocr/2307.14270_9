@@ -1,0 +1,178 @@
+Page dimensions: 612.0x792.0
+[0x0](b)
+[7x160](a)
+[54x70]a stationary phase separation (similar to classical demixing
+[54x93]cillations. However, these oscillations may stop when non-
+[54x105]population system, unstable modes can display temporal os-
+[54x116]the homogeneous state. As expected, in the frustrated two-
+[54x193]a priori
+[54x397]with
+[54x397]B
+[54x408]and
+[54x339]ulation problem is rather straightforward. Writing
+[54x362]eralized.
+[54x374]of utilities taken here may be restrictive and can be easily gen-
+[54x317]tion
+[54x317]x
+[54x328](resp.
+[54x489]u
+[56x139]where
+[57x420]c
+[57x269]∂
+[57x216]and, by symmetry, a similar equation for
+[57x216]B
+[62x268]t
+[64x128]In App. G, we perform the linear stability analysis of
+[64x351]The extension of the mean-field dynamics to this two pop-
+[70x305]x, t
+[71x268]A
+[71x665]• Second, each agent type may decide to settle among
+[74x441]u
+[75x407]2
+[75x407]>
+[77x269](
+[79x554]B
+[79x585]type.
+[79x619]A
+[79x619]ity of
+[79x730]of interaction will typically lead to homogeneous well-
+[79x531]expect non stationary patterns, stemming from the fact
+[80x439]B
+[80x455]A
+[81x317]t
+[81x269]x, t
+[82x408]0
+[83x397]s. The term
+[83x158]Z
+[87x457](
+[88x418]<
+[90x138]and
+[92x408]translates the fact that
+[94x608]−
+[95x269]−
+[96x160]φ
+[98x181]or
+[99x328]x, t
+[101x243]ρ
+[101x243]−
+[102x193]u
+[104x457]φ
+[107x385]populated areas. Of course, the specific shape
+[113x305]x, t
+[113x619]B
+[113x608]phase separation additionally displays some
+[115x138]can be agent dependent.
+[123x243](
+[125x441]\]) =
+[125x457]\]) =
+[125x457]−|
+[127x243]x, t
+[137x269](
+[154x554]agents, while
+[155x269])\]
+[156x243]−
+[156x441]φ
+[164x554]B
+[166x243]ρ
+[169x441](
+[172x159]Z
+[175x400]⋆
+[175x269]ρ
+[178x441]−
+[178x457])
+[178x457]−
+[179x397]|
+[180x268]A
+[181x243](
+[182x400]enjoins both populations to
+[196x543]. In this situation, we may
+[198x243])\]
+[200x445]⋆
+[204x269])
+[207x445]+
+[207x461]2
+[208x160]x
+[214x160]−
+[214x420]B
+[215x193](
+[219x193]x
+[220x160]u
+[224x328]B
+[224x193])
+[224x193]≡
+[227x269]φ
+[231x193]u
+[231x242]A,B
+[232x441]φ
+[235x159]Z
+[239x439]B
+[239x455]B
+[242x160](
+[246x160]y
+[246x457](
+[246x243]\]
+[251x160])\]
+[252x269], y, x, t
+[255x457](39)
+[255x457])
+[258x193]\[
+[259x441],
+[259x441](40)
+[261x328]) at loca-
+[271x317]x, t
+[271x193]φ
+[271x338]A
+[276x489]B
+[277x243]) d
+[278x339](
+[282x227](41)
+[284x317])
+[284x317]≡
+[292x193]\])
+[317x587]agents. Parameters:
+[317x587]B
+[317x619]FIG. 7. Snapshots of the system for two frustrated interaction pa-
+[317x70]strain agents' moves based on such budget, as done in \[67\] for
+[317x82]tems is to introduce an agent-dependent budget and to con-
+[317x140]is maximal, at odds with what we have observed in the con-
+[317x163]rightfully argue that a housing market is necessary to ensure
+[317x197]considered to be the mechanism through which the optimal
+[317x231]a significant factor in the decision making process of agents,
+[317x243]developed here is that, while the perceived density may be
+[317x317]our multi-population system.
+[317x340]a consequence, we expect that some results of the recent
+[317x351]cal dynamics ones (see results of Appendices G and H). As
+[317x363]yields exactly the same instability conditions as the nonlo-
+[317x374]as well, the linear stability analysis in the case of local jumps
+[317x420]analysis about the homogeneous solution.
+[317x478]give rise to propagating structures and waves when nonlinear-
+[317x489]cally, non-oscillating growing modes at the linear level may
+[317x535]online \[65\].
+[322x576]B
+[322x576]= 0
+[327x116]Incorporating pricing in the model is not trivial, however,
+[327x254]A common and reasonable criticism of the kind of model
+[332x577].
+[351x577]5
+[356x577],
+[356x577]= 10
+[388x555]=
+[411x586]1
+[425x555]= 0
+[429x545]=
+[429x545]x
+[440x587]2
+[465x598]phase still contains some
+[465x598]A
+[481x556],
+[490x555]A
+[497x587],
+[515x556]6
+[520x556],
+[520x587]ρ
+[525x556]ρ
+[552x756]10
+[555x556]2
+[555x587]2
+[560x556],
+[560x587],

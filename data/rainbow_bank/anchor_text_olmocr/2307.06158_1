@@ -1,0 +1,124 @@
+Page dimensions: 612.0x792.0
+[54x684]of a transient whose length depends on the concrete val-
+[54x719]and are applied alternatingly in the course of the LSD.
+[54x730]sites of the lattice involved in the reflection operations
+[54x638]n
+[54x650]strongly overlapping. A spectral analysis of the tight-
+[54x661]By construction, the local symmetries of this lattice are
+[54x178]we present our conclusions.
+[54x190]with varying coupling strength. Finally, in section VII
+[54x247]resonator model which offers a deeper understanding of
+[54x259]density of states. In section IV we develop the local
+[54x270]chains including the energy spacing distributions and
+[54x282]an analysis of the energy eigenvalue spectrum of scaled
+[54x293]and map it onto a TB Hamiltonian. Section III presents
+[54x304]introduce our LSD rule and the resulting scaled chain
+[54x351]peaks and finally, for smaller values of the coupling, we
+[54x363]sition from few to many isolated complete transmission
+[54x385]we investigate the energy-dependent transmission profile
+[54x408]calization properties of this scaled chain and in particular
+[54x443]branches. We develop a local resonator model which al-
+[54x466]and exhibit minigaps. A density of state analysis shows
+[54x489]off-diagonal coupling strength. The fluctuations of the
+[54x534]increased. We perform a detailed spectral analysis of a
+[54x546]to their lengths i.e. the number of sites is correspondingly
+[54x557]lattice but, in each step, they are stretched with respect
+[54x569]a consequence we have similar repeating units along the
+[54x580]odicity but leads to a scaling behavior of the chain. As
+[54x627]strated the control possibilities of the localization prop-
+[64x316]This work is structured as follows. In section II we
+[64x141]II. THE SCALED LSD CHAIN: SETUP AND
+[107x673]followed by a subsequent periodic behavior.
+[317x223]ϵ
+[317x258]N
+[317x258]a discrete chain of length
+[317x212]Our TB Hamiltonian reads therefore as follows
+[317x269]diagonal coupling
+[317x269]t
+[317x281]Hamiltonian \[21\]. We hereby assume a constant off-
+[317x116]the SC allover this work.
+[317x339]can be noted as 1
+[317x373]to a scaling behavior in the sense that we have alternating
+[317x385]k
+[317x385]sites to the left of its position. Obviously, our rule leads
+[317x696]an initial finite segment of a lattice. One important way
+[317x719]cept which allows us to generate lattices with local sym-
+[317x569](
+[317x592]overlapping symmetries.
+[317x615]is followed by a periodic behavior of the lattice. By con-
+[317x650]stand for the number of sites to be reflected alternatingly,
+[317x546]n
+[317x557]monotonically increasing sizes of the reflection domains.
+[317x511]reads as follows
+[317x523]the tenth generation of the application of this rule which
+[321x222]= 1
+[327x304]In order to explore the spectral and transmission prop-
+[327x128]Note that we are using open boundary conditions for
+[327x396]|
+[327x730]The local symmetry dynamics (LSD) represents a con-
+[327x580]Employing a symbolic code we focus here on the rule
+[328x431]12
+[328x534]AB
+[334x475]AB
+[336x459]7
+[336x432]|
+[336x432]BBBBBBAAAAAA
+[341x461]|
+[346x223].
+[354x223], ϵ
+[355x569],
+[356x447]|
+[359x445]10
+[362x222]B
+[362x222]= 2
+[363x569]n
+[370x569]+2)
+[380x168]=
+[380x475]ABB
+[386x362]B
+[387x223].
+[390x223]0 for the sites of type
+[395x569]n
+[398x459]8
+[399x269]between nearest neighbors
+[402x569]+3)
+[402x157]i
+[405x181]N
+[405x362]sites whose lengths increase with
+[408x269]⟨
+[411x475]BBAA
+[411x339]2
+[418x168]ϵ
+[425x168]|
+[428x168]i
+[429x339]A,
+[432x431]13
+[433x258]with sites
+[434x569]which represents an LSD with
+[439x168]i
+[442x168]|
+[445x474]5
+[445x339]B,
+[447x258]{
+[449x475]|
+[456x447]AAAAABBBBBB
+[458x178]X
+[461x661]:
+[463x339]6
+[475x327]= 1 + 2
+[476x661]rules, where
+[477x245]follow the LSD of
+[478x168]|
+[480x339]6
+[492x168]j
+[497x168](1)
+[498x258]i
+[501x258]|
+[504x258]i
+[520x339]2
+[522x327]n
+[528x258], ..., N
+[533x269]i, j
+[546x269]of
+[557x756]2
+[559x258].

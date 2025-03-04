@@ -1,0 +1,255 @@
+Page dimensions: 612.0x792.0
+[72x300]E
+[72x461]u
+[72x134]model,
+[72x283]model,
+[72x478]r
+[72x478]in the jump–diffusion case. We here focus on the special case of
+[72x494]This section provides details regarding the practical implementation of the proposed approximation
+[72x521]3 Implementation of expansion for jump-diffusion models
+[72x576]Mele (2011) which in turn contains as special cases the expansions of Yang et al. (2019) and Wan
+[72x150]where
+[72x210]the multivariate Brownian motion with drift model,
+[72x242]where
+[72x242]N
+[72x316]u
+[72x316]Following Kristensen and Mele (2011), a simple choice of
+[72x339]3.1 Choice of smoothing function for irregular moments
+[72x372]general case.
+[72x388]This is done to avoid overly complicated notation. Most of the ideas and arguments extend to the
+[72x676]E
+[72x676]case
+[72x693]s
+[72x693]the order of approximation can be chosen sufficiently large) then one can choose
+[72x226]u
+[78x460](
+[80x298]0
+[84x298],s
+[88x461]x
+[89x592]We show in Appendix A that (2.16) is a generalized version of the proposal of Kristensen and
+[89x709]However, if the approximation error is not a major concern (which is, for example, the case if
+[91x300]f
+[91x300](
+[94x461]E
+[94x461]) =
+[103x675]t
+[104x300]x
+[107x676](
+[107x676]f
+[110x300]E
+[110x300]) =
+[111x148]0
+[111x148]∈
+[114x241]0
+[118x241],t
+[118x241]is a Poisson process with jump intensity
+[119x676]x
+[120x150]R
+[121x460]t
+[124x461](
+[124x461]f
+[126x676]) =
+[126x676]e
+[130x242]λ
+[138x300]\[
+[140x154]d
+[140x154]and
+[141x300](
+[141x300]f
+[143x461]) =
+[149x680](
+[150x150]σ
+[153x680]B
+[153x300]x
+[159x680]−
+[160x298]0
+[164x298],s
+[166x680]∂
+[170x679]t
+[171x300]|
+[171x300])
+[171x461]\[
+[174x680])
+[174x461](
+[177x680]t
+[178x148]∈
+[178x148]0
+[180x300]x
+[181x676]u
+[186x298]0
+[187x461]x
+[187x675]0
+[187x150]R
+[190x298],
+[191x675](
+[191x675],t
+[192x298]=
+[192x298]0
+[193x460]t
+[197x461])
+[197x461]|
+[200x300]x
+[203x676]x
+[206x461]x
+[209x676]) and the following special case of (2.15) can be employed,
+[210x265]0
+[211x154]×
+[212x460]0
+[212x460]=
+[214x265]=
+[214x265],t
+[218x154]d
+[218x300]x
+[218x300]\] where
+[219x639]E
+[220x461]x
+[222x641]ˆ
+[223x267]µ
+[224x424]u
+[224x424]ˆ
+[227x637]t
+[230x422](
+[230x422]t
+[231x639](
+[231x639]f
+[231x117]dx
+[237x461]\] and
+[239x424]x
+[241x265]0
+[241x265](
+[243x116]0
+[243x639]x
+[246x424]) =
+[247x116]= (
+[247x116],t
+[250x639]) =
+[252x267]x
+[255x180]dx
+[258x265]0
+[262x298]0
+[263x265],t
+[265x411]m
+[266x434]X
+[267x298]is chosen as the solution to an auxiliary jump–diffusion
+[267x298],s
+[267x178]0
+[269x267])
+[269x267]dt
+[269x438]M
+[270x649]X
+[271x178]=
+[271x178],t
+[272x117]µ
+[272x411]=0
+[273x652]M
+[275x267]+
+[276x626]=0
+[278x116]0
+[280x180]µ
+[282x224]0
+[285x117]Ax
+[286x417]m
+[286x431]t
+[286x224](
+[286x224],t
+[287x267]σ
+[290x631]m
+[290x646]t
+[290x435]m
+[294x650]m
+[298x226]x
+[298x178]0
+[299x631]! (
+[303x180]dt
+[303x180]+
+[303x36]8
+[304x265](
+[304x265]0
+[304x226]) is available on closed form. One such model is
+[306x424]A
+[306x424]−
+[310x639]B
+[310x639]−
+[311x116]0
+[315x267]x
+[315x116]t
+[315x180]σ
+[316x424]∂
+[319x117])
+[319x117]dt
+[321x639]∂
+[321x265]0
+[325x117]+
+[325x265],t
+[331x267]dW
+[331x267])
+[332x178]0
+[333x422]t
+[337x424])
+[337x117]σ
+[337x180]dW
+[337x637]t
+[341x429]m
+[341x429]u
+[341x639])
+[343x241]0
+[343x241](
+[345x644]u
+[353x265]+
+[353x265]t
+[353x178](3.3)
+[353x178]t
+[354x116]0
+[354x242]x
+[357x422]0
+[359x117]dW
+[359x267]J
+[360x242]J
+[360x242]) and
+[361x422],t
+[361x422](
+[361x637]0
+[362x314]0
+[366x637](
+[366x637],t
+[367x314],s
+[367x314](
+[375x116]t
+[376x265]0
+[378x639]x
+[378x117],
+[379x424])
+[379x424].
+[379x316]x
+[380x478](
+[380x265],t
+[384x639])
+[385x424](3.1)
+[386x316]u
+[386x316]) that satisfies A.1 is
+[386x267]dN
+[390x639](2.16)
+[391x478]x
+[397x478]s
+[397x478]) = 0 and
+[399x241]0
+[401x265]0
+[403x241]has density
+[403x241],t
+[405x265],t
+[411x267](3.2)
+[411x267],
+[446x478]=
+[455x478]t
+[469x693]=
+[470x478], in which case
+[478x693]t
+[481x241](
+[481x241]0
+[491x693]in which
+[491x242]·|
+[504x314](
+[504x314],s
+[504x242]). The
+[516x316]x
+[523x316]) =

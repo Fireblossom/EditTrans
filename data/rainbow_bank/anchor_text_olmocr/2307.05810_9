@@ -1,0 +1,218 @@
+Page dimensions: 595.3x841.9
+[57x607]4 choices for each qubit leave us with 4
+[57x607]n
+[57x594]e
+[57x594]since
+[57x580]e
+[57x553]ones, then in the rest of each remaining row writing each permutation of
+[57x553]4
+[57x567]e
+[57x671]of the Pauli operator
+[57x725]n
+[57x746]3.3 The character table of the projective Pauli group
+[57x712]One-dimensional representations characters coincide since the trace leaves 1-by-1 matrices invariant.
+[57x467]inertia subgroups of the representations of the
+[57x467]n
+[57x685]e
+[57x431]Lemma 4.1.
+[57x454]Clifford group.
+[57x481]n
+[57x540]ones.
+[57x418]that
+[57x418]g
+[57x89]and
+[57x163]conjugation by elements of
+[57x395]We begin the proof by noticing that
+[57x191]conjugation by \[
+[57x191]H
+[57x299]−
+[60x621]e
+[60x312]So we have that conjugation of Pauli matrices by
+[61x103]σ
+[61x103]Our previous calculations for 1-qubit matrices tell us that any pair of nontrivial representations
+[61x204]S
+[69x685]P
+[74x150]We now turn our attention to 2-qubit operators. Consider the swap gate, if
+[74x150]A
+[77x683]n
+[78x89]of
+[83x594]P
+[86x685]±
+[87x299]H
+[91x592]is abelian and thus has only singleton conjugacy classes. Irreducible characters that disagree
+[95x65]|{
+[100x89]P
+[107x88]that have the same number of pairs of generators (\[
+[107x88]n
+[111x418]e
+[111x418]. In other words, all nontrivial irreducible representations of
+[114x725]-qubit projective Pauli group is abelian it has only degree one irreducible characters.
+[124x431]σ
+[126x65]1
+[137x685]e
+[137x685]1.
+[139x698]-qubit projective Pauli group have order at most 2. Thus, the character of an element
+[143x431]and
+[146x191]\]\[
+[149x619]n
+[151x685]P
+[153x431]ρ
+[159x683]n
+[160x671]acting on the
+[162x65]}
+[162x65]:
+[164x567]P
+[171x65]ρ
+[171x565]n
+[171x565]can be written by filling the first row and column of a 4
+[172x671]j
+[173x204]\] maps \[
+[173x431]be nontrivial irreducible representations of
+[175x191]Z
+[175x191]\] maps \[
+[181x567]n
+[182x431]e
+[183x65](\[
+[199x63]i
+[199x163].
+[202x65]ρ
+[202x65]\]) =
+[214x123]SW AP
+[223x204]\] to \[
+[223x204]Y
+[224x191]\] to \[
+[224x191]Y
+[230x65](\[
+[237x65]Z
+[237x647]A
+[244x675]qubit
+[244x611]choices for the whole group. There are 4
+[244x63]i
+[245x645]=
+[245x645]j
+[248x204]\] and vice versa while leaving \[
+[250x123])(
+[250x685]\[
+[253x685]X
+[259x299]\] to \[
+[262x264]SXS
+[262x683]1
+[262x354]−
+[263x228]SY S
+[264x246]SZS
+[264x246]−
+[267x685]\]
+[269x123]B
+[269x643]⊗
+[270x685]\[
+[270x685],
+[270x652]⊗
+[275x65]}|
+[280x652]−
+[283x467]n
+[283x467]-qubit projective Pauli group in the
+[285x683]1
+[287x233]−
+[287x65]|{
+[287x652]1
+[290x685]\]
+[290x341]−
+[290x299]\] and vice versa while leaving \[
+[292x27]10
+[293x685], . . . ,
+[293x233]1
+[293x251]1
+[293x268]=
+[297x341]1
+[297x358]1
+[297x358]=
+[297x376]=
+[297x376]1
+[297x123]SW AP
+[301x228]−
+[301x246]Z
+[301x264]Y
+[305x354]X
+[305x647]⊗
+[307x65]∈ {
+[310x481]-qubit Clifford quotient group, we examine the
+[312x312]X
+[316x647]I
+[320x685]X
+[321x228]X,
+[322x621]1 for \[
+[329x65]1
+[329x683]n
+[331x643].
+[333x123]B
+[333x123]) =
+[335x65], . . . , n
+[335x685]\]
+[338x685],
+[338x685]\[
+[339x652]n
+[344x652]−
+[346x685]Z
+[350x621]X
+[351x652]j
+[352x123]⊗
+[353x683]n
+[354x312]Z
+[359x619]i
+[359x685]\]
+[362x621]\] and \[
+[362x685]}
+[363x123]A.
+[365x65]:
+[365x65]}
+[374x65]σ
+[375x89]\]
+[378x89],
+[378x89]\[
+[384x431]P
+[387x65](\[
+[391x621]Z
+[392x430]n
+[394x88]i
+[394x65]X
+[397x89]\]) in their kernels, that is
+[399x619]i
+[403x418]P
+[403x63]i
+[406x65]σ
+[406x65]\]) =
+[410x416]n
+[410x416]are conjugate in
+[411x560]n
+[417x683]j
+[418x204]\] invariant. Furthermore
+[420x191]\] invariant. We see that
+[422x685]\] is the equivalence class
+[430x553]4
+[435x65](\[
+[437x299]\] invariant. We can
+[442x65]Z
+[447x611]=
+[448x621]∈ {
+[449x63]i
+[453x65]\]) =
+[453x65]−
+[454x150]and
+[456x607]|
+[460x467]-qubit projective
+[467x150]B
+[470x621]1
+[480x571]table with
+[480x571]n
+[484x607]characters
+[484x607]|
+[484x431]∈ C
+[488x549]2
+[488x549]negative
+[489x65]}|
+[489x560]n
+[497x65],
+[509x430]such
+[512x418].
+[512x621]. The
+[516x354](4.1)

@@ -1,0 +1,208 @@
+Page dimensions: 595.3x841.9
+[0x0]ˆ
+[0x0]q, p
+[85x565]case, assume the
+[85x577]bound the distance between the sample statistics and its corresponding population version. In our
+[85x589]Y
+[85x589]random variables
+[85x615]can define the Fr´ echet median \[FVJ09\] as arg min
+[85x480]not want to make the assumption that the diameter of the metric space sup
+[85x157]2.1 Properties
+[85x432]\[Cha+94\] for
+[85x444]τ
+[85x456]We emphasize that this is only possible with (3) and not with (8). Noteworthy examples of
+[85x300]T
+[85x318]1.4 Outline
+[85x185]We explore some properties of quadruple functions
+[85x185]τ
+[85x207]2 Quadruple Transformations
+[85x240]we discuss implications of the main results and open questions.
+[85x252]be found in appendix B and C. The proof of Theorem 3 can be found in appendix A. In section 5
+[85x264]of the proof and variations of the main result are presented in section 4. The technical details can
+[85x288]S
+[85x288]section 2. We continue with a discussion of the set
+[85x346]τ
+[85x346]mean) and the median (
+[85x601]\[Sch22\] as arg min
+[85x601]q
+[85x723]a, b
+[85x629]Fr´ echet mean is arg min
+[85x643]distance to the sample points. If
+[85x667]want to calculate a mean value of some sample points in a metric spaces. One candidate for this
+[85x697]1.3.5 Statistics
+[88x747]for all
+[88x747]τ
+[89x370]as well as
+[89x370]x
+[95x129](Constant functions)
+[95x129]Lemma 4
+[102x723]∈
+[116x747]∈ S
+[129x401]τ
+[133x723]a
+[133x723]) with
+[134x370]7→
+[138x109]∈
+[139x399],δ
+[140x745]0
+[143x370]ln(cosh(
+[144x747], where
+[145x735]τ
+[149x401]x
+[150x536]m
+[155x401]) :=
+[162x109], let
+[162x109]τ
+[166x565]-Fr´ echet mean is unique and define
+[169x599]E
+[169x599]∈Q
+[170x588]1
+[170x432]∞
+[170x432],
+[171x723]b
+[173x503]m
+[175x589], Y
+[175x418](
+[181x502]n
+[183x528]q
+[183x393]δ
+[184x404]x
+[184x404]2
+[185x432]),
+[185x588]2
+[185x747]\[
+[187x107]c
+[187x528]∈Q
+[188x747]·
+[189x589], . . .
+[190x601]\[
+[191x370]x
+[192x393]−
+[193x601]τ
+[194x626]∈Q
+[195x411]for
+[196x370])) \[Gre90\]. These functions are of great interest in robust statistics and
+[198x601](
+[200x393]1
+[200x444]=
+[202x601]Y, q
+[203x503]n
+[209x444]τ
+[209x536]E
+[211x109]x
+[211x390]2
+[211x390]δ
+[215x629]\[
+[215x536]\[
+[218x629]Y, q
+[218x601])\] for functions
+[218x601]τ
+[218x536]τ
+[219x109]c
+[221x393]x > δ , τ
+[223x442]α
+[227x536]Y, q
+[229x444]τ
+[229x444], are the Huber loss
+[236x129].
+[236x109]). Then
+[236x109]τ
+[238x629]E
+[238x629]\], where we assume
+[238x408]x
+[242x643]Q
+[243x536],
+[243x536])\]
+[251x536]ˆ
+[253x408]≤
+[261x655]barycenter
+[262x408]δ ,
+[271x503]. One can employ quadruple inequalities such as (3) to
+[278x107]c
+[282x723]+
+[282x723]a
+[289x601]: \[0
+[290x723]b
+[295x55]6
+[301x300], i.e., the set of quadruple transformations, see
+[304x723]τ
+[304x723]) +
+[305x109]with
+[305x109]L
+[305x655]. It is the (set of) minimizer(s) of the squared
+[309x601]∞
+[310x185]∈ T
+[311x612]E
+[311x612]∈Q
+[324x601]→
+[324x601])
+[324x288], i.e., nondecresing, convex functions with
+[325x442],δ
+[326x723](
+[328x535]:= arg min
+[330x723]−
+[331x399]pH
+[332x601]R
+[333x629]\[
+[335x106]= 0.
+[335x112]∗
+[335x629]Y, q
+[337x723]b
+[340x399],δ
+[347x589], a standard task in statistics is to
+[350x615]\], or a more general
+[350x615]τ
+[351x401]x
+[351x723])
+[351x723]≤
+[354x601]. Given a sequence of independent
+[355x629]\]
+[355x629]<
+[356x401]δ
+[356x401]) :=
+[358x723]2
+[361x528]∈Q
+[361x629]∞
+[373x629]for all
+[373x723]τ
+[375x468]τ
+[375x468]∈ S
+[379x723](
+[381x405]2
+[383x723]a
+[384x529]n
+[385x543]1
+[387x418]r
+[388x723]) + 2
+[393x546]X
+[394x524]i
+[397x524]=1
+[398x549]n
+[403x468](under some conditions).
+[405x401]1 +
+[409x723]τ
+[415x723](
+[416x629]∈ Q
+[423x723]).
+[428x536], q
+[429x397]2
+[429x397]−
+[429x411]2
+[434x747]∈ S
+[437x276]. The basic ideas
+[437x536].
+[449x480]is finite. With
+[458x745]0
+[460x735]∈ S
+[466x358]τ
+[475x358]-Fr´ echet
+[476x183]τ
+[476x183].
+[476x189]∗
+[477x643], d
+[484x733]0
+[486x456]∈ S
+[486x643]), the
+[489x735]. For
+[494x442]pH
+[503x442],δ

@@ -1,0 +1,105 @@
+Page dimensions: 612.0x792.0
+[6x77]2022
+[6x77]2022
+[6x77]Java, Python, C
+[6x77]Python, Java
+[6x77]-
+[6x77]582
+[6x77]GPUs
+[6x77]2021
+[6x77]Java, Python, C++, C#, C, PHP
+[6x77]Python, JavaScript, Ruby, GO
+[6x77]2021
+[6x77]-
+[6x77]Java
+[6x77]-
+[6x77]766
+[6x77]-
+[6x77]Ruby, JavaScript, Go, Python, Java, Php, C, C#
+[6x77]343
+[6x77]-
+[6x77]Java, PHP, C++, Python, JavaScript, C#, Ruby, Lua,
+[6x77]-
+[6x77]2021
+[6x77]2021
+[6x77]2,088
+[6x77]2020
+[6x77]-
+[6x77]30
+[6x77]4 NIVDIA A100s9 GPUs
+[6x77]2020
+[6x77]-
+[6x77]2021
+[6x77]10,610
+[6x77]TPUs
+[6x77]server/cluster: 16 NVIDIA A100 GPUs, 40 GB
+[49x88]75 bugs. White et al. \[56\] applied their program repair tool
+[49x123]than training \[40, 75, 76\]), but in particular, program repair
+[49x147]SE tasks. Usually, the reported tested times are lower than
+[49x197]V100 boxes, with 16 V100 GPUs each, resulting in 80 GPUs.
+[49x233]40, 43, 44, 49, 55, 63, 68, 75, 78–80, 87, 88\], sometimes in
+[49x268]are four publications that did not use any GPU for their
+[49x280]53\]. While it is common to perform training on GPUs, there
+[49x304]training time of 26 publications with such details ranges from
+[49x316]shared neither information (17 out of 52 publications). The
+[49x328](42%) and 26 out of 52 without training time (50%), 33%
+[49x352]for each publication. However, those are not always provided.
+[49x389]programming languages considered per publication.
+[49x401]considered four languages. This results in an average of 1.33
+[49x425]six publications considered two programming languages, one
+[52x496]DAMP \[111\] 2020 Java, C# - - -
+[52x511]ContraCode \[109\] 2021 JavaScript - - -
+[52x527]TSSA \[107\] 2020 Java 1 NVIDIA P100 GPU, 16 GB; 1 K80 GPU, 16GB memory - -
+[52x558]StructCoder \[8\] 2022 Java, Python, PHP, JavaScript 4 RTX 8000 GPUs, 48GB - -
+[52x651]Dobf \[93\] 2021 Java, Python 32 NVIDIA V100 GPUs 192 3,080
+[52x488]Obfuscated Code2Vec \[112\]
+[52x503]CodeTransformer \[110\]
+[52x535]CuBERT \[106\]
+[52x550]Codex \[10\]
+[52x566]Spt-code \[104\]
+[52x613]CodeTrans \[98\]
+[52x683]BLOOM \[13\]
+[52x695]Approach Year Language Hardware Time in hours kWh
+[52x589]code2vec \[101\] 2019 Java 1 NVIDIA Tesla K80 GPU 36 18
+[52x620]Graphcodebert \[97\] 2021 Ruby, JS, Go, Python, Java, PHP server: 32 NVIDIA Tesla V100 GPUs, 32 GB 83 667
+[59x183]While we focus on the training procedure and the energy
+[59x376]In addition to programming languages considered, we col-
+[68x724]RAINING DETAILS FOR TASK
+[140x488]2020
+[166x724]AGNOSTIC LANGUAGE MODELS
+[166x724]. F
+[166x715]kW h
+[288x733]TABLE III
+[304x35]6
+[312x342]†
+[312x378]online tools \[44, 49, 86\] or IDE extensions \[47, 48, 83, 85\].
+[312x390]access to \[51, 76\]. Moreover, there are approaches shared as
+[312x402]to the full trained models, some of which one needs to request
+[312x437]steps can also require considerable amounts of time and
+[312x94]the shortest duration is found for code2vec \[101\], which was
+[312x154]Among the 27 publications, 52% did not provide training time
+[312x166]we list details on hardware configuration and training times.
+[312x178]the programming languages it was trained on. If available,
+[312x190]Table III. For each publication, we list the model name and
+[312x213](text-to-code generation, documentation translation).
+[312x225]time ranges from 2 GPU hours (defect detection) to 60 hours
+[312x237]3
+[312x261]For example, Lu et al. \[108\] provided fine-tuning details for the
+[312x273]snippets to embeddings, which can be fine-tuned to SE tasks.
+[312x297]means of representing source code as embeddings, for a variety
+[318x715]IF THE INFORMATION IS AVAILABLE
+[320x78]https://microsoft.github.io/CodeXGLUE/
+[322x414]The majority of task-specific publications provided access
+[322x106]Among the publications that shared training time details,
+[323x715].
+[323x683]server: 384 NVIDIA A100 GPUs, 80 GB
+[361x324]ASK
+[361x324]V. T
+[381x324]-A
+[409x324]GNOSTIC
+[446x724]hours
+[457x324]M
+[490x241]The fine-tuning
+[503x345]symbol.
+[511x724]AND
+[538x683]433,196

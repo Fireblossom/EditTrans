@@ -1,0 +1,234 @@
+Page dimensions: 612.0x792.0
+[0x0]2
+[0x0]4
+[72x199]α
+[72x199]a given composition
+[72x292]A
+[72x292]coefficients of
+[72x403]Q
+[72x416](Gessel \[11\])
+[72x436]T
+[72x436]consider the SYT shown in Figure 2, then
+[72x449]define row
+[72x212]Let
+[72x212]Definition 2.6.
+[72x246]multiset.
+[72x259]a statistic-preserving bijection between the set and SYTs of shapes corresponding to a specific
+[72x72]symmetric if and only if
+[72x72]S
+[72x85]Lemma 2.8
+[72x85](Bloom and Sagan \[6, Lemma 2.2\])
+[72x119]sets as well.
+[72x152]Lemma 2.7.
+[72x152]A set
+[72x173]A
+[72x173]may write
+[72x628]λ
+[72x641]tableaux (SYT), is due to Gessel \[11\]. Let SYT(
+[72x667]all Schur coefficients are nonnegative integers.
+[72x710]Symmetric and Schur-positive sets
+[72x710]2.2.
+[72x734]6 SCHUR-POSITIVITY OF SHORT CHORDS IN MATCHINGS
+[76x589]For example, the descent set of the SYT in Figure 2 is
+[77x306]c
+[77x684]\[
+[80x684]N
+[84x272]This criterion implies that proving the Schur-positivity of a set is achievable by establishing
+[84x462]The entry in row
+[84x131]Note that only sets of permutations are considered in \[19\]. However, Lemma 2.7 applies to other
+[84x654]One of the fundamental constructions of Schur-positive sets, regarding sets of standard Young
+[84x693]As mentioned in Section 1, a set
+[84x693]A
+[94x684]if its generating function
+[109x628]. We draw tableaux in English notation, as in Figure 2. The
+[109x628]descent set
+[121x447]i
+[121x186]α
+[125x449](
+[129x449]T
+[130x85].
+[132x403](SYT(
+[133x152]A
+[136x173]α
+[137x449]) :=
+[137x449]{
+[143x212]A
+[144x173]) instead.
+[147x609]Des(
+[149x292]A
+[162x152]is symmetric if and only if
+[163x304]λ
+[165x449]T
+[169x306], where
+[169x306]t
+[169x609]T
+[171x462]and column
+[174x212]D
+[177x609]{
+[177x609]) :=
+[179x462]j
+[190x449]≤
+[191x72]= \[
+[195x416]For every
+[195x416].
+[197x401]λ
+[201x199]A
+[201x199], denoted
+[203x491]A SYT of shape
+[203x491]Figure 2.
+[203x403].
+[203x416]λ
+[204x609]∈
+[207x361].
+[207x361]A set
+[209x292]is Schur-positive if and only if
+[211x609]\[
+[211x449]≤
+[214x310]:=
+[215x361]A
+[216x72]−
+[216x72]N
+[221x292]c
+[224x609]−
+[224x609]N
+[225x306]Q
+[226x350]X
+[228x72]1\]
+[230x326]∈A
+[234x678]N,D
+[237x609]1\]
+[239x462]of a tableau
+[241x449]as the set of entries in the
+[241x449]}
+[244x361]is symmetric with respect to
+[246x693]is symmetric with respect to a statistic function
+[247x609]|
+[248x462]T
+[248x344]D
+[250x449]i
+[251x680](
+[252x302]j
+[252x72]S
+[252x416]⊢
+[255x680]A
+[255x302]∈
+[256x361]D
+[259x344]a
+[259x609]i
+[259x693]D
+[261x302]t
+[261x302]J
+[262x416]N
+[263x344])
+[263x344]=
+[264x680]) is a symmetric function. Moreover, it is Schur-positive if
+[265x609]+ 1 appears in a lower row than
+[266x199](
+[270x199]α
+[273x304]j
+[273x304]for
+[277x199]), consists of the elements
+[283x435]3
+[283x350]X
+[285x520]9
+[285x532]5
+[285x544]3
+[287x326]⊢
+[287x435],
+[289x435]2
+[293x72].
+[301x306]⊆
+[301x340]c
+[304x85]For every set
+[310x462]∈
+[312x212]:
+[312x85]S
+[313x306]\[
+[317x152](
+[322x462]SYT(
+[324x212]A →
+[326x350]X
+[328x152])
+[329x306]−
+[329x306]N
+[332x152]|
+[332x152]=
+[340x491]= (4
+[344x186]. When
+[345x326]λ
+[350x326])
+[350x589],
+[356x340]t
+[356x212]2
+[357x416])
+[359x462]λ
+[361x589],
+[361x215]\[
+[362x152](
+[363x306]c
+[363x306]. The coefficients
+[365x416]Des
+[366x462]T
+[366x152]β
+[371x589]8
+[371x589],
+[371x491]2
+[371x215]−
+[373x152])
+[373x436]) =
+[374x291]λ
+[377x344]T
+[377x152]|
+[377x152]for all
+[381x85]⊆
+[381x589]}
+[381x491],
+[383x292]N
+[384x449]-th row of
+[384x449]T
+[384x152]α
+[387x589].
+[392x491]1).
+[392x491],
+[393x85]\[
+[394x361]:
+[397x436]5
+[401x291]0
+[403x436],
+[403x436]8
+[405x199]∈ A
+[406x361]S
+[410x85]−
+[413x436]}
+[419x436].
+[422x361]2
+[423x85]1\]
+[427x152]β
+[439x152]⊨
+[442x365]\[
+[443x292]⊢
+[443x85]F
+[443x85], the function
+[444x365]N
+[448x152]N
+[455x628]T
+[456x609]}
+[457x462]. In addition, we
+[458x365]1\]
+[458x365]if and only if
+[460x304]are the Schur-
+[460x304]λ
+[462x609].
+[467x628]∈
+[468x152].
+[478x628]SYT(
+[496x693]:
+[505x199])
+[509x693]A →
+[515x628]λ
+[521x83]S
+[521x83]is
+[521x628]) is
+[531x197]α
+[537x416].
+[537x199],

@@ -1,0 +1,220 @@
+Page dimensions: 612.0x792.0
+[54x696]quantum field
+[54x719]model, both (16) and (17) are numerically intractable to
+[54x70]trivial part is deriving the equations of motion in the
+[54x673]Fock space. Even if we discretize the field to
+[54x684]field degree of freedom (i.e., mode) occupies a bosonic
+[54x591]D
+[54x638]the quantum state of the field lives in a
+[54x614]H
+[54x533]sian moments of the state, namely the mean
+[54x533]⟨
+[54x175]straightforwardly have
+[54x186]sive step due to ˆ
+[54x291]we perform all GSSF simulations using a GPU imple-
+[54x302]ear Gaussian-state SSF (GSSF) method
+[54x313]nonlin-
+[54x497]M
+[54x497]responding to an
+[54x417]transform (FFT) and massively parallel computation on
+[58x82]which can be analytically integrated. Thus, the non-
+[62x612]lin
+[64x730]Despite their superficial similarity to the classical
+[64x256]As in Sec. II, the key contribution of this work is to
+[65x101]i d
+[65x118]i d
+[70x602]M
+[78x371]M
+[86x118]ˆΨ
+[86x118]δ
+[99x98]k
+[99x116]k
+[104x101]δ
+[104x118]δ
+[116x116]k
+[121x101]′
+[121x101]⟩
+[121x118]′
+[124x101]=
+[135x156]D⟨
+[146x101]Ω(
+[149x497]M
+[149x186], but because (17b) is linear, we
+[153x508]ψ
+[155x572]1024
+[157x118]k
+[159x507]z
+[159x156]= Ω(
+[165x101])
+[165x101]−
+[165x118]) + Ω(
+[171x568]-dimensional problem!
+[192x101]k
+[198x101])
+[198x118])
+[202x109]
+[202x126]
+[202x158]ˆΨ
+[206x101]⟨
+[210x118]ˆΨ
+[218x508]ψ
+[218x474](
+[223x98]k
+[223x106]†
+[225x156](18)
+[225x506]z
+[228x101]ˆΨ
+[228x118]ˆΨ
+[230x508]ˆ
+[233x477]2
+[234x508]ψ
+[235x642]M
+[245x101]′
+[245x118]⟩
+[245x509]⟩
+[246x359](
+[248x508](each cor-
+[248x533]ˆ
+[250x359]M
+[253x101]d
+[259x101](19b)
+[259x118]t
+[259x118](19a)
+[261x363]2
+[261x363]log
+[263x625]and
+[317x93]assume a quadratic dispersion where Ω(
+[317x105]χ
+[317x174]ear perturbations that follow the classical solution. As
+[317x208]tween dynamics of the mean field and the quantum noise:
+[317x243]in quantum optics \[63–66\]. Conventionally, such stud-
+[317x288]stable waveform arising from the balance of linear dis-
+[317x311]propagation of a canonical Kerr soliton in a
+[317x311]χ
+[317x383](19), (20), and (21).
+[317x395]χ
+[317x430]cretizing of the continuum field following Appendix B.)
+[317x453]⟨
+[317x70]NLSE) supports the well known sech-soliton solution \[60\]
+[317x658]a modified version of the classical nonlinear step,
+[317x681]single-mode case, making sure to carefully track the mul-
+[317x717]cal in
+[317x730]nonlinear (or real-space) step, but because (17a) is lo-
+[317x590]to the covariances. Then the equations of motion for the
+[321x453]δ
+[321x480]⟨
+[327x323]As a first demonstration, we apply GSSF to study
+[327x418]To summarize, the GSSF equations of motion describ-
+[330x556]i ˙
+[332x450]z
+[344x453]ψ
+[348x521]ˆ
+[352x349]A. Example: Soliton noise dynamics
+[354x467]ψ
+[355x453]⟩
+[360x526]†
+[360x464]ˆ
+[362x453]δ
+[364x521]δ
+[364x556]δ
+[365x467]ψ
+[367x504]−
+[369x521]ψ
+[372x465]z
+[376x467]⟩
+[377x704]ψ
+[379x635]ψ
+[380x556]⟩
+[382x512]
+[382x547]
+[383x521]=
+[386x539]⟨
+[390x521]−⟨
+[390x635]⟩⟨
+[397x536]ˆ
+[397x508]†
+[397x467]ˆ
+[398x635]ψ
+[401x539]ψ
+[410x465]z
+[411x560]2
+[412x539]+
+[413x639]2
+[415x556]⟩⟨
+[418x519]z
+[418x519]⟩⟨
+[418x539]⟨
+[419x526]†
+[421x399]waveguides are given by (18),
+[421x704]z
+[422x470]2
+[422x526]2
+[423x556]ˆ
+[434x635]ˆ
+[435x560]†
+[439x521]ψ
+[443x538]ˆ
+[444x467]δ
+[445x634]z
+[446x504]ψ
+[446x539]ψ
+[450x521]ˆ
+[450x521]δ
+[452x537]z
+[454x556]⟩
+[455x470]†
+[457x505]′
+[457x539]⟩
+[457x635]ˆ
+[460x467]ˆ
+[464x547]
+[468x504]⟨
+[468x539]⟨
+[468x633]z
+[473x635]δ
+[473x635]ˆ
+[473x556]ˆ
+[477x504]ψ
+[477x556]ψ
+[478x635]ψ
+[484x560]2
+[488x504]ˆ
+[488x539]ˆ
+[488x555]′
+[489x635]⟩
+[489x635]+
+[489x521]ψ
+[493x504]ψ
+[493x539]ψ
+[498x480]ψ
+[498x93]1
+[499x503]z
+[503x505]′
+[503x505]⟩
+[503x539]⟩
+[504x477]z
+[510x554]z
+[510x521]δ
+[510x504],
+[511x467]δ
+[515x521]ψ
+[515x633]z
+[518x315](3)
+[518x315]nonlin-
+[518x90]ω
+[518x90]2
+[520x635]⟩⟨
+[527x467]δ
+[527x467]ˆ
+[528x635]δ
+[528x635]ˆ
+[530x555]′
+[532x635]ψ
+[535x93]k
+[538x526]†
+[539x478]z
+[539x471]†
+[540x97]2
+[543x480]⟩
+[544x635]⟩
+[557x756]5

@@ -1,0 +1,75 @@
+Page dimensions: 612.0x792.0
+[71x122]buoyancy-dominated and Lorentz-force-dominated regimes in quasistatic MC. We focus on Rayleigh–B´ enard
+[71x157]scaling relations in the buoyancy-dominated and Lorentz-force-dominated regimes themselves change with
+[71x169]in a coherent manner is exacerbated by non-universal scaling relations even within specific regimes – the
+[71x181]specific flow regime itself and transitions between distinct regimes. The considerable difficulty of doing so
+[71x193]results in the need, at least in principle, to derive separate heat transport scaling relations to describe each
+[71x205]the buoyancy forces dominate over the Lorentz forces in the system or vice versa. This inherent complexity
+[71x217]magnetic field and gravity, the geometry of the container and the boundary conditions (BCs), and on whether
+[71x229]the heat transport scaling relations also depend on the flow configuration, including the angle between the
+[71x241]system, represented in dimensionless form by the Nusselt number Nu, as a function of Ra and Ha. However,
+[71x265]the Rayleigh number Ra and Hartmann number Ha, respectively.
+[71x277]thermal driving and that of the external magnetic field, are encoded in independent dimensionless groups,
+[71x289]the heat transport in the system. The resulting main two control parameters, the strength of the imposed
+[71x301]this motion and distorts the global flow structure through the Lorentz force, which eventually influences
+[71x313]induce convective fluid motion due to thermal expansion and contraction, while the magnetic field affects
+[71x325]fluid that is subjected both to a magnetic field and an imposed temperature gradient. The buoyancy forces
+[71x349]\[12\], examples of the latter comprise liquid-metal batteries, induction heating, casting, liquid-metal cooling
+[71x395]1 Introduction
+[82x107]∗
+[82x88]‡
+[82x98]†
+[83x677]Andrei Teimurazov
+[86x134]The objective of this paper is to offer a unifying heat transport model for the transition between the
+[86x85]olga.shishkina@ds.mpg.de
+[86x95]moritz.linkmann@ed.ac.uk
+[86x105]A. Teimurazov and M. McCormack contributed equally.
+[88x645]2
+[92x641]School of Mathematics and Maxwell Institute for Mathematical Sciences, University of Edinburgh, UK
+[96x481]γ
+[96x481]The model suggests that the scaling exponents
+[96x492]fluid layer confined between two isothermal, a lower warmer and an upper colder, horizontal surfaces.
+[96x503]between these two regimes for the case of a quasistatic vertical magnetic field applied to a convective
+[96x514]electromagnetic forces (Hartmann number Ha). Here, we propose a theoretical model for the transition
+[96x525]of the global heat flux (Nusselt number Nu) versus the strength of buoyancy (Rayleigh number Ra) and
+[96x536]different heat transport properties in these regimes, reflected in distinct dimensionless scaling relations
+[96x547]in the global flow structures in the buoyancy-dominated and Lorentz-force-dominated regimes lead to
+[96x558]forces, which distort the convective flow structure in the presence of a magnetic field. The differences
+[96x569]buoyancy forces, which create the fluid motion due to thermal expansion and contraction, and Lorentz
+[96x470]∼
+[96x437]literature.
+[96x448]Simulations for 10
+[96x459]of the transition scales with Ha
+[96x459]−
+[112x653]Max Planck Institute for Dynamics and Self-Organization, 37077 G ˜A
+[176x448]Ha
+[181x681]1
+[185x677], Matthew McCormack
+[203x448]2000, Prandtl number Pr = 0
+[231x463]/γ
+[240x459]Ra. These theoretical results are supported by our Direct Numerical
+[273x470](Ha
+[276x617]August 3, 2023
+[286x594]Abstract
+[290x481]in the buoyancy-dominated regime, Nu
+[299x481]∼
+[299x474]−
+[304x55]1
+[305x474]2
+[311x677], Moritz Linkmann
+[311x681]∗
+[324x474]ξ
+[328x470]ξ
+[343x448]025 and Ra up to 10
+[397x653]ttingen, Germany
+[408x681]2,
+[415x677], and Olga Shishkina
+[415x681]†
+[421x470](1
+[421x470]−
+[431x452]and data from the
+[451x470]), and the onset
+[461x481]Ra
+[483x485]γ
+[487x481]ξ
+[529x681]‡

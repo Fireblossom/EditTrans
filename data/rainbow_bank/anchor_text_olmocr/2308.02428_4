@@ -1,0 +1,263 @@
+Page dimensions: 612.0x792.0
+[134x372]where
+[134x372]λ
+[134x384]the energy. Under the change of coordinates (see \[0\]), given by
+[134x457]In this section is consider the equation
+[134x476]3.1 Applications to the Schr¨ odinger equation
+[134x499]3 Examples of applications
+[134x645]of the Laguerre transform of order
+[134x396]defined in a one dimensional space, where
+[134x396]V
+[134x307]x
+[134x119]by using Laguerre polynomial properties found in \[0\] or in \[0\].
+[134x131]of the following transforms are known \[0\] or are obtained by direct calculation
+[134x155]determined according to the concrete examples to be solved below.
+[134x167]ν
+[137x657]where
+[137x594]it must be emphasize that the Laguerre transform is a sequence of numbers in
+[137x231]A
+[138x408]ℏ
+[138x319]where
+[138x179]y
+[139x167], and
+[139x167]α, β, ν
+[141x582]. The inverse Laguerre transform is defined by
+[149x219]To solve equation (15) it is proposed a solution of the form
+[149x294]In this way, equation (14) becomes
+[155x262]2
+[163x372]≥
+[164x262]2
+[168x179]=
+[170x656]nm
+[170x656]is the Kronecker delta symbol. Such relation leads to the definition
+[170x272]
+[170x272]d
+[171x372]0 has inverse length units, equation (13) becomes
+[173x230]±
+[177x179]P
+[178x345]λ
+[178x319](
+[180x231], A
+[182x319]x
+[184x349]2
+[187x319]V
+[187x319]) =
+[188x254]2
+[188x254]ψ
+[188x345]ξ
+[193x349]2
+[193x620]T
+[193x620]ν
+[196x231], a, b
+[199x359]
+[199x167]are dimensionless parameters, free for the moment, but to be
+[200x176]k
+[200x258](
+[204x258]x
+[205x338]dx
+[206x319](
+[206x620]\[
+[209x620]f
+[210x258]) +
+[213x356]2
+[215x620](
+[216x341]ψ
+[216x341]2
+[218x231]V
+[218x231]are real parameters determined in terms of
+[218x319]r
+[219x620]x
+[221x431]−
+[223x319]−
+[223x554](
+[225x620])\] =
+[226x179]L
+[226x269]
+[227x554]x
+[229x345](
+[230x438]1
+[230x424]2
+[232x183]ν
+[233x345]x
+[233x554]) = (
+[233x251]+
+[233x251]x
+[233x264]a
+[237x424]dr
+[237x179](
+[238x345]) + 1
+[240x438]d
+[241x179]x
+[242x258]b
+[245x634]Z
+[245x442]2
+[247x179]), and
+[247x179]L
+[247x427]2
+[247x427]ψ
+[248x307](
+[252x307]r
+[252x199]ψ
+[252x633]∞
+[254x554]ν
+[254x554]T
+[256x338]ξ
+[256x269]d
+[256x269]
+[257x307])
+[257x307]≥
+[258x611]0
+[260x431](
+[263x199]x
+[263x338]dx
+[263x352]dξ
+[263x307]0 and setting
+[264x431]r
+[267x554])
+[267x408]=M=1) is the steady state Sch¨ odinger equation
+[268x431])
+[269x199]x
+[271x559]−
+[272x620]e
+[274x307]1
+[274x431](
+[276x338]dxψ
+[277x624]−
+[277x559]1
+[279x352]d
+[281x554]\[
+[283x624]x
+[284x554]{
+[284x258](
+[285x177]n
+[285x183]ν
+[288x620]x
+[288x258]x
+[288x431]V
+[288x431](
+[289x554]c
+[290x179](
+[291x203]α
+[293x645]:
+[293x552]n
+[294x624]ν
+[294x179]x
+[295x345](
+[297x199]e
+[299x620]L
+[299x554]}
+[299x345]x
+[300x179]) are the Laguerre polynomials of order
+[300x431]r
+[302x203]−
+[303x89]5
+[304x554]\] =
+[305x345])
+[305x345]−
+[305x431]E
+[305x617]n
+[305x624]ν
+[308x203]βx
+[310x272]
+[311x345]2
+[311x620](
+[315x620]x
+[317x258]A
+[318x396](
+[320x542]k
+[320x564]X
+[320x620])
+[322x338]λ
+[323x199](
+[323x567]∞
+[324x542]=0
+[324x620]f
+[325x256]+
+[325x256]+
+[327x199]x
+[328x341]2
+[329x431])
+[330x396]r
+[330x620](
+[332x338]ξ
+[333x199])
+[333x431]ψ
+[333x258]A
+[334x620]x
+[335x396]E
+[336x304]ξ
+[336x554]c
+[336x199],
+[336x199](16)
+[337x341]W
+[340x431](
+[340x552]n
+[340x558]ν
+[342x304]dx
+[342x304]=
+[342x311]dξ
+[344x431]r
+[344x620]dx
+[347x251]x
+[352x263]−
+[352x254]−
+[352x552]n
+[352x558]ν
+[354x345](
+[355x307]a
+[357x345]x
+[358x554](
+[362x554]x
+[362x258]A
+[363x345])
+[365x620]=
+[365x620]{
+[366x304], leads to
+[366x304]x
+[367x345]ψ
+[367x554])
+[371x554](12)
+[371x554].
+[372x307]ξ
+[376x251]x
+[378x345]x
+[381x263]0
+[383x345])
+[385x617]n
+[385x624]ν
+[386x272]
+[387x359]
+[390x620]}
+[395x620](11)
+[395x620],
+[395x258]ψ
+[401x384]λ
+[402x258](
+[406x258]x
+[407x387]−
+[409x231](
+[411x345](14)
+[411x345],
+[412x258])
+[413x387]1
+[416x272]
+[417x384]ξ
+[422x384](
+[424x258]= 0
+[424x307]x
+[425x231]E
+[425x231]) and
+[426x384]x
+[430x307]x
+[430x307]) =
+[432x384]dx/dr
+[432x384]) =
+[439x258],
+[439x258](15)
+[452x311]a
+[457x307]e
+[460x396]is
+[460x231].
+[462x311]bx
+[470x307].
+[475x384],

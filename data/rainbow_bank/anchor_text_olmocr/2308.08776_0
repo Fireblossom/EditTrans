@@ -1,0 +1,72 @@
+Page dimensions: 612.0x792.0
+[54x131]Raj, and Seamans 2023). Nevertheless, countries differ in
+[54x142]Zhang 2023; Brynjolfsson, Li, and Raymond 2023; Felten,
+[54x153]larly U.S. (Eloundou et al. 2023; Peng et al. 2023; Noy and
+[54x164]tion on the labor market in developed economy, in particu-
+[54x175]emerging quickly, however, it predominantly focuses atten-
+[54x208]will have on the dynamics of labor market due to the influ-
+[54x219]in Generative AI and LLMs is the impact these technologies
+[54x230]One of the most significant questions surrounding advances
+[54x252]Zhao et al. 2023) has provoke many pressing questions about
+[54x262]AI and large language models (LLMs) (Bubeck et al. 2023;
+[54x273]The recent remarkable progress in the field of generative
+[64x318]ing adverse disruption risks.
+[64x328]on strategies for maximizing the benefits of AI while mitigat-
+[64x348]nomic modeling incorporating AI adoption and labor market
+[64x358]exposure analysis, industry aggregation approach, and eco-
+[64x378]ing the labor market impacts of increasingly capable AI sys-
+[64x398]productivity-employment trade-off from AI adoption. Over-
+[64x408]growth model incorporating industry exposure to quantify the
+[64x418]ments and economic intuitions. We also develop an economic
+[64x427]ware. The industry exposure scores align with expert assess-
+[64x437]face greater displacement risks from LLM-powered soft-
+[64x457]occupation exposure and wage levels/experience premiums,
+[64x467]scores. The results indicate a positive correlation between
+[64x487]et al. (2023)'s methodology. We then aggregate occupation
+[64x507]cupational exposure to LLM capabilities by incorporating hu-
+[64x517]models (LLMs) on the Chinese labor market. We analyze oc-
+[65x527]This paper explores the potential impacts of large language
+[66x103]*
+[70x90]Corresponding author.
+[70x101]These authors contributed equally.
+[126x683]Large Language Models at Work in China's Labor Market
+[141x288]Introduction
+[170x593]{
+[170x593]qinchen1986@hotmail.com,
+[188x583]xingcheng.xu18@gmail.com, yanqingyang@fudan.edu.cn
+[215x643]Xingcheng Xu
+[250x661]1*
+[260x657], Jinfeng Ge
+[298x643], Yanqing Yang
+[320x90]demand structure is likely to exacerbate the disruptive im-
+[320x123]construct an occupational vacancies index. We find a pos-
+[320x145]impact on labor demand. We utilize an online job postings
+[320x181]ance of demographic exposure of LLMs. Relatively LLMs
+[320x202]oped countries, that young and old cohort distribute highly
+[320x224]posure, while manufacturing, agriculture, mining, and con-
+[320x235]that the education and healthcare industries exhibit high ex-
+[320x246]in the future. We analyze exposure by industry and discover
+[320x257]implying a potential diminishing return of learning by doing
+[320x279]and occupational exposure, we also find a positive correla-
+[320x290]addition to the positive correlation between wage, education
+[320x301]white-collar occupations may be most exposed to LLMs. In
+[320x323]sults show a great heterogeneous exposure across occupa-
+[320x403]We also employ expert annotators to explore the impacts of
+[320x425]for each occupation contained in the general code of oc-
+[320x446]et al. 2022; Du et al. 2022) – as classifiers to determine
+[320x457]2023), InternLM (InternLM-Team 2023), and GLM (Zeng
+[320x468]we employ three large language models – GPT4 (OpenAI
+[320x479]most exposed to advances in LLMs in China. Specifically,
+[320x490]methodology to systematically assess which occupations are
+[320x512]tial impacts of LLMs on China's labor market. To construct
+[320x523]across countries. Therefore, this paper analyzes the poten-
+[320x534]composition or work content may show great discrepancies
+[321x661]2*
+[325x630]1
+[329x156]Our analysis also indicates that LLMs will have a greater
+[329x367]We then characterize the profile of occupational exposure
+[331x657], Huaqing Xie
+[378x593]}
+[383x593]@pjlab.org.cn,
+[390x619]2
+[412x657],

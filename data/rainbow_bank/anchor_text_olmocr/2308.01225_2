@@ -1,0 +1,173 @@
+Page dimensions: 612.0x792.0
+[134x657]each root subgroup may be expressed in terms of commutators of other root
+[134x645]subgroups. If some commutative unital ring
+[134x645]K
+[328x645]acts on the root subgroups in a
+[134x633]natural way, then the resulting odd form ring (
+[337x633]R,
+[337x633]∆) is an augmented odd form
+[134x621]K
+[143x621]-algebra and in the last claim of the theorem the maps of the root subgroups
+[134x609]are isomorphisms.
+[149x597]The Chevalley commutator formula is
+[242x574]\[
+[245x574]G
+[252x573]α
+[258x574], G
+[270x573]β
+[276x574]\]
+[276x574]≤
+[307x584]Y
+[296x562]iα
+[304x562]+
+[310x562]jβ
+[319x562]∈
+[324x562]Φ
+[292x555]i,j
+[301x555]∈{
+[310x555]1
+[314x555],
+[316x555]2
+[320x555],...
+[330x555]}
+[336x574]G
+[343x573]iα
+[351x573]+
+[358x573]jβ
+[358x573],
+[136x534]we also assume that
+[136x534]G
+[232x532]2
+[236x532]α
+[236x532]≤
+[244x534]G
+[262x532]α
+[262x532]are 2-step nilpotent filtrations for any ultrashort
+[134x522]root
+[134x522]α
+[161x522]. In other words,
+[161x522]G
+[236x522]is a group with
+[246x522]BC
+[325x520]ℓ
+[329x522]-commutator relations in the sense
+[134x510]of \[8\]. Alternatively, we may assume only that
+[134x510]G
+[339x510]contains groups indexed by a
+[134x498]root system of type
+[134x498]B
+[229x497]ℓ
+[229x497]and
+[246x475]\[
+[249x475]G
+[257x473]α
+[262x475], G
+[275x473]β
+[280x475]\]
+[280x475]≤
+[307x484]Y
+[296x463]iα
+[304x463]+
+[310x463]jβ
+[319x463]∈
+[324x463]Φ
+[300x456]i,j
+[309x456]∈
+[315x456]R
+[320x455]+
+[331x475]G
+[339x473]iα
+[347x473]+
+[353x473]jβ
+[353x473].
+[137x434]These formulas turn out to be equivalent (modulo other natural conditions) up
+[134x422]to a choice of the nilpotent filtrations
+[134x422]G
+[308x421]2
+[312x421]α
+[312x421]≤
+[321x422]G
+[339x421]α
+[345x422].
+[149x410]The paper is organized as follows. In section 2 we recall the definitions of
+[134x398]odd form rings and associated unitary groups. In sections 3 and 4 we list the
+[134x386]precise conditions on
+[225x386]G
+[225x386]and its subgroups. Namely, the conditions are (C1)–(C5)
+[134x374]without using a commutative unital ring
+[308x374]K
+[308x374]or (C1)–(C8) involving
+[420x374]K
+[429x374]. In section
+[134x363]4 we also discuss the case
+[134x363]ℓ
+[254x363]= 3: under additional "associativity conditions"
+[134x351](A1)–(A4) the main results still hold, otherwise there are counterexamples (e.g.
+[134x339]Chevalley groups of types
+[245x339]E
+[251x337]6
+[251x337]and
+[258x339]E
+[282x337]7
+[286x339]). These associativity conditions always hold
+[134x327]for
+[134x327]ℓ
+[149x327]≥
+[156x327]4 by theorem 1. Sections 5 and 6 contain the proof of the main theorem
+[134x315]2 for groups satisfying (C1)–(C8). In the last section 7 we prove theorem 3 for
+[134x303]groups satisfying only (C1)–(C5).
+[134x270]2 Odd form groups and odd form rings
+[134x248]In this paper we build a lot of 2-step nilpotent groups with various operations,
+[134x236]so it is useful to develop some technique to simplify such constructions. The
+[134x224]group operation of 2-step nilpotent groups is usually denoted by
+[134x224]∔
+[422x224]. All lemmas
+[134x212]in this section may be checked directly or using the machinery of polyquadratic
+[134x200]maps \[14,
+[134x200]§
+[183x200]1.3\].
+[149x188]We say that (
+[149x188]M, H
+[234x188]) is a
+[234x188]hermitian group
+[262x188]if
+[336x188]M
+[346x188]and
+[360x188]H
+[380x188]are abelian groups,
+[134x176]there is an automorphism
+[149x164](
+[153x164]−
+[160x164]):
+[160x164]H
+[171x164]→
+[183x164]H
+[196x164]of order at most 2, and there is a biadditive pairing
+[424x164]⟨−
+[436x164],
+[436x164]=
+[448x164]⟩
+[453x164]:
+[453x164]M
+[470x164]×
+[134x152]M
+[134x152]→
+[147x152]H
+[160x152]such that
+[149x140]⟨
+[153x140]m, m
+[175x143]′
+[177x140]⟩
+[149x128]=
+[149x128]⟨
+[164x128]m
+[172x132]′
+[175x128], m
+[188x128]⟩
+[188x128]for all
+[196x128]m, m
+[247x132]′
+[247x132]∈
+[252x128]M
+[272x128].
+[303x89]3

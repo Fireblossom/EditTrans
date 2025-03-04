@@ -1,0 +1,159 @@
+Page dimensions: 612.0x792.0
+[0x0](b)
+[0x0](c)
+[0x0](d)
+[54x116]variance matrix decreases by 1
+[54x492]Since we want to check the asymptotic behavior of the
+[54x527]an estimate and the red dot represents the true value of the parameter.
+[54x537]n
+[54x128]n
+[54x128]weighted trace are multiplied by
+[54x327]the true value.
+[54x350]initially widely scattered around the true value, but as
+[54x361]red dot representing the true value. The estimates are
+[54x70]that if the number of steps is large enough, we can es-
+[54x93]in Fig. 1. In each case, the solid curve approaches the
+[54x105]cate the ultimate limits of estimation precision displayed
+[54x139]θ
+[54x162]at each step. For the sake of comparison, Fig. 5b also
+[54x185]trix Tr
+[54x185]K
+[54x197]shows the weighted trace of the sample covariance ma-
+[54x209]V
+[54x209]trix
+[54x233]with a very high p-value for both tests.
+[54x245]a p-value of 0.9434. The null hypothesis was accepted
+[54x256]the Cram´ er–von Mises test in the same package yielded
+[54x268]mvnTest
+[54x268]package of R yielded a p-value of 0.9349, and
+[54x279]normal distribution. The Anderson–Darling test in the
+[54x291]under the null hypothesis that they follow a multivariate
+[54x373]θ
+[54x373]is
+[54x421]estimates.
+[54x432]1000 times, to obtain 1000 samples of the sequence of
+[54x444]θ
+[55x446]ˆ
+[Image 58x566 to 180x740]
+[59x138]= (
+[59x138]∗
+[64x456]We calculated a sequence of estimates ˆ
+[64x221]Finally, we check how the sample covariance ma-
+[64x409]First, we check the consistency (21). Fig. 4 plots the
+[69x139]θ
+[69x376]2
+[74x373], with the blue dots representing estimates and the
+[75x209]\[ˆ
+[78x444]Θ in each run of AQSE, and repeated such runs
+[86x209]θ
+[90x137]∗
+[94x183]θ
+[95x184]¯
+[95x139], θ
+[96x560](a)
+[96x560]n
+[99x396]θ
+[104x394]n
+[104x137]∗
+[105x143]2
+[109x139]) = (0
+[109x185]θ
+[109x560]= 1000
+[119x185]\], where
+[131x396]= 1000, 2000, 4000, and 8000. In
+[140x139]0
+[150x139].
+[153x139]1). Note that the values of the
+[166x183]θ
+[186x116]/n
+[197x116]. The dashed lines indi-
+[205x128], since the sample co-
+[218x174]θ
+[218x174]of the estimates
+[256x456]θ
+[265x456]ˆ
+[269x456]θ
+[274x455]2
+[278x302]θ
+[279x456], . . . ,
+[283x301]8000
+[Image 310x566 to 432x740]
+[317x225]θ
+[317x225]verge to
+[317x236]contour of the probability density function would con-
+[317x259]scenario by means of the following tentative evaluation:
+[317x284]covariance matrix.
+[317x295]ing a notable slowdown of the convergence of the sample
+[317x330]θ
+[317x341]scenario: when
+[317x352]These observations prompt us to envisage the following
+[317x190]θ
+[317x190]from the true parameter
+[317x202]θ
+[317x375]that, when
+[317x375]θ
+[317x387]closer to zero. We also find from the heatmaps in Fig. 6
+[317x93]ping wall, the time
+[317x105]ther that, after getting out of the influence of the trap-
+[317x116]tour that characterizes the trapping effect. Assume fur-
+[317x398]θ
+[317x398]and 5b, the convergence becomes much slower as
+[317x480]ously with the best accuracy theoretically possible.
+[317x492]θ
+[317x492]timate the centroid
+[320x128]where
+[320x128]C
+[327x270]Let us examine the validity of this "boundary effect"
+[331x537]when
+[339x537]θ
+[348x560]n
+[349x128]is a certain constant corresponding to the con-
+[353x437]D. Trapping phenomena near
+[353x437]θ
+[360x223]∗
+[361x70]+
+[368x536]∗
+[368x70]t
+[382x69]of convergence in distribution would be
+[382x159]∼
+[390x159]C
+[391x339]∗
+[391x339]is small, a good number of estimates
+[392x536]∗
+[392x541]1
+[402x159]√
+[405x536]∗
+[405x541]2
+[410x495]and the separation
+[410x495]1
+[410x152]τ
+[410x152]⇐⇒
+[418x225]1
+[418x492]θ
+[430x159]τ
+[431x189]∗
+[431x189]may be evaluated as
+[433x537]0
+[433x537],
+[Image 436x566 to 558x740]
+[438x232]√
+[447x225]n
+[453x225], so that the time
+[461x159]∼
+[464x367]= 0 for a long time.
+[469x159]C
+[472x202]d
+[473x560]n
+[482x152]d
+[483x333]2
+[487x155]2
+[487x560]= 8000
+[491x330]0 at an early
+[493x82]. Then the total
+[494x159](24)
+[505x441]= 0
+[509x495]simultane-
+[533x225]for a
+[537x396]∗
+[537x396]gets
+[557x756]6

@@ -1,0 +1,165 @@
+Page dimensions: 612.0x792.0
+[54x367]ground state wave function as
+[54x392]G
+[54x416]and their density-density interactions then enter as cor-
+[54x427]high hole doping. The hard-core nature of the fermions
+[54x439]tion of a Fermi surface similar to the one in graphene at
+[54x485]that local interactions play a subordinate role and the
+[54x519]for (b).
+[54x592]FIG. 3.
+[54x592]Fermi liquids and charge order at low filling.
+[Image 54x612 to 562x740]
+[54x70]S
+[54x93]taneous symmetry breaking as the root of this incom-
+[54x105]ters supporting this form of order strongly points at spon-
+[54x279]n
+[54x139]into either the
+[54x139]A
+[54x256]ϵ
+[54x256]the graphene dispersion
+[54x267]nitude is the quasiparticle residue,
+[54x581]a function of the graphene dispersion
+[54x581]ϵ
+[54x162]ν
+[54x162]interrupted by a charge ordered phase at filling
+[54x187]at
+[54x198]liquid appears to give way to a non-Fermi-liquid phase
+[54x221]uid. Increasing the fermion density leads to a gradual
+[54x233]ν
+[54x244]a step-like behavior for the occupation at lower fillings
+[54x550]extrapolation of the static charge structure factor peak at
+[58x302]For non-interacting fermions on the honeycomb lattice,
+[60x69]C
+[64x174]Interestingly, we find that the Fermi liquid regime is
+[66x187]≳
+[68x571]= 1
+[70x70]q
+[78x571]/
+[82x233].
+[84x233]2, consistent with the formation of a Fermi liq-
+[89x592](a) The momentum-space occupation number
+[90x187].
+[93x187]25.
+[98x571]6, the connected density-density correlation function relative to the site marked in green shows clear signatures
+[99x338]n
+[100x529]A
+[105x338](
+[107x529]/
+[109x338]k
+[110x279](
+[112x529]sublattice. The clusters used are
+[119x279]) should exhibit a clear step (whose mag-
+[121x529]u
+[133x331]N
+[144x139]sublattice. The expected six-fold
+[145x326]α
+[151x347]X
+[156x326]A,B
+[164x254]G
+[171x256](
+[173x347]X
+[181x256]). Fig. 3(a) clearly displays
+[191x397]α,β
+[196x342]k
+[201x342]·
+[206x342]r
+[210x341]i
+[213x342]−
+[219x342]r
+[220x267]) as a function of
+[221x581](
+[226x392]c
+[230x389]c
+[231x581]) exhibits a (softened) step at fillings
+[231x581]ν <
+[238x335]i,j
+[238x335].
+[238x342]α,α
+[246x389]α,i
+[258x528]= (1
+[258x528]1
+[259x379](
+[261x392], we ob-
+[263x162]= 1
+[281x550]=
+[282x529],
+[289x550]K
+[291x162]6,
+[294x529]u
+[304x528]2
+[317x485]sured density-density correlation function
+[317x363]relatively close to the ones obtained from ED (cf. Fig. 1
+[317x375]ν
+[317x386]tions, where the same type of symmetry breaking order
+[317x421]q
+[317x432]peaks. Indeed, as can be seen in Fig. 3(c), the peak at
+[317x134]ordered phases discussed in Sec. II, due to the supersym-
+[317x157]dictions of Ref. \[16\].
+[317x191]2
+[317x203]finite range of fillings. In fact, as illustrated in Fig. 4, we
+[317x214]exactly
+[317x318]potentially more general instability towards charge order
+[317x341]ν
+[317x341]= 1
+[319x95]For the two rational fillings accessible to us in
+[321x444]shown in Fig. 3(b), is expected to exhibit pronounced
+[325x73]but were unable to identify them in our study.
+[327x398]These ED results are corroborated by our HF simula-
+[327x237]Starting from
+[327x237]ν
+[327x146]In contrast to the finite-energy Fermi-liquid and charge
+[328x421]K
+[329x529]−
+[333x352]≤
+[340x529]4)
+[341x341]/
+[349x529], N
+[357x461]i
+[358x180]4
+[358x180]≤
+[361x352]/
+[364x529]= 48 for (a), and
+[364x375]= 1
+[365x180]ν
+[376x180]≲
+[384x180]0
+[391x237]= 1
+[393x375]6 and ground state energies per site are
+[400x180].
+[403x180]292 within our finite-size simulations.
+[407x461]n
+[407x468]α
+[412x263]/
+[413x581]/
+[417x263]≤
+[419x468]β
+[422x461]+
+[422x237]4, i.e. one fermion per two unit
+[428x461]a
+[431x529]u
+[433x464]⟩
+[434x263]≲
+[437x464]where
+[437x464],
+[437x528]1
+[441x263]0
+[447x329]2 unit cell. This suggests a
+[451x464]α
+[453x214]zero energy for a
+[458x263]292
+[462x529]3)
+[462x529],
+[474x529],
+[474x529]u
+[484x528]2
+[496x464]A, B,
+[503x92](0
+[508x592]) from ED as
+[509x529]−
+[520x529]6)
+[521x92]286
+[528x529], N
+[533x92],
+[543x529]= 54
+[544x92]292),
+[557x756]4

@@ -1,0 +1,258 @@
+Page dimensions: 612.0x792.0
+[72x659]both Poincar´ e invariant and ˆ
+[72x638]mass mixing. In this case, there will be a non-diagonal mass term of the from ˆ˜
+[72x617]A
+[72x617]where
+[72x596]have
+[72x271]scalar field with mass mixing term of the form ˆ
+[72x72]nent ˆ
+[72x250]it in matrix form, the non-diagonal mass mixing matrix is:
+[72x513]is just the
+[76x99]In the example, this is a parity matrix that reflects the intrinsic parities of a scalar compo-
+[76x534]n
+[76x534]For
+[76x175]The matrix
+[76x175]A
+[76x313]A
+[76x313]if only if
+[87x708]2. ˆ
+[87x679]In the case of non-interacting theories, the kinetic and diagonal mass terms ˆ˜
+[87x292]In Sect. 6, we study an example of this type of Lagrangian. We consider a two-component
+[87x374]However, the mixing term is ˆ
+[98x72]φ
+[103x565]ISO(1
+[104x534]n
+[104x534]-component scalars/pseudo-scalars, the
+[106x617]is a
+[106x76]1
+[106x76]and a pseudo-scalar component ˆ
+[108x708]-pseudo-Hermitian: ˆ
+[118x617]n
+[127x513]×
+[133x565]3)
+[133x565],
+[137x513]n
+[138x175]is Π-pseudo-Hermitian IFF
+[139x343]( ˆ˜
+[139x617]×
+[143x343]φ
+[149x570]: ˆ˜
+[149x570]↑
+[149x513]identity matrix, i.e.,
+[151x175]π
+[151x348]†
+[155x343](
+[159x617]non-diagonal matrix. Under the action of the proper Poincar´ e group, we
+[159x617]n
+[160x343]x
+[161x313]A
+[163x565]φ
+[166x348]η
+[169x313]Π
+[171x570]†
+[171x343])
+[175x565](
+[176x343]ˆ
+[176x343]A
+[180x565]x
+[185x343]φ
+[185x317]1
+[185x317]is Π-pseudo-Hermitian. This places restrictions on the matrix Π.
+[186x565])
+[188x454]D
+[191x565]A
+[191x565]ˆ
+[192x343](
+[197x343]x
+[198x454](Λ) =
+[200x565]φ
+[204x348]η
+[207x565](
+[209x343]))
+[211x708]L
+[212x565]x
+[218x348]†
+[218x565])
+[218x565]7→
+[223x659]-pseudo-Hermitian. More generally, however, we can include a
+[224x713]†
+[226x565]ˆ˜
+[228x708](
+[231x479]
+[231x500]
+[233x708]x
+[236x374]η
+[238x343]η
+[239x713]η
+[242x565]φ
+[242x485]D
+[242x374]-pseudo-Hermitian:
+[244x357]h
+[244x708]) = ˆ
+[249x570]†
+[250x343]φ
+[251x483]00
+[254x565](Λ
+[257x421]D
+[257x421]0
+[257x464]D
+[257x464]0
+[257x348]†
+[258x450]... ...
+[260x485](Λ) 0
+[260x485]···
+[261x343](
+[265x708]η
+[265x708]ˆ
+[266x137]Π
+[266x137]∝
+[266x212]A
+[266x212]=
+[266x343]x
+[266x570]−
+[271x708]L
+[273x570]1
+[279x72]φ
+[282x565]−
+[282x565]x
+[284x708](
+[286x348]−
+[287x76]in the two-component scalar field ˆ
+[288x708]x
+[290x215]0 1
+[290x236]
+[290x140]
+[290x161]
+[291x565]ε
+[293x348]1
+[293x462]00
+[293x27]23
+[295x708])ˆ
+[299x708]η
+[301x201]−
+[301x125]0
+[301x125]−
+[301x146]1 0
+[302x464](Λ)
+[302x173]=
+[306x713]−
+[306x348]†
+[308x271]L
+[309x565]))\[
+[310x201]1 0
+[310x343]Π ˆ
+[311x175]−
+[312x713]1
+[314x534]-dimensional proper Lorentz transformation
+[319x343]φ
+[320x271](
+[321x565]D
+[322x125]1
+[325x271]x
+[325x485]0
+[327x343](
+[328x215]
+[328x215].
+[328x236]
+[328x140].
+[331x570]−
+[331x343]x
+[332x271]) = ˆ˜
+[332x175]π
+[338x570]1
+[338x343])
+[339x173]1
+[341x212](5.27)
+[341x137](5.28)
+[343x565](Λ)
+[343x357]i
+[344x175], which restricts Π to the form:
+[348x343]η
+[349x343]ˆ
+[352x271]φ
+[354x348]−
+[357x420]00
+[360x268]1
+[360x276]†
+[360x565]AD
+[361x348]= ˆ
+[364x271](
+[366x421](Λ)
+[369x271]x
+[376x271]) ˆ
+[379x565](Λ)\] ˆ
+[380x271]φ
+[381x343]η
+[383x479]
+[383x500]
+[388x357]h
+[393x271](
+[393x343]φ
+[395x346]ˆ˜
+[397x454]=
+[397x271]x
+[399x565]φ
+[401x348]†
+[404x271])
+[407x565](Λ
+[409x454]n
+[410x271]ˆ˜
+[410x271]−
+[410x343]x
+[416x343])
+[419x570]−
+[420x271]φ
+[421x343]A
+[421x343]ˆ
+[426x570]1
+[428x268]2
+[428x276]†
+[430x343]φ
+[433x271](
+[435x565]−
+[437x271]x
+[437x343](
+[442x343]x
+[444x271]) ˆ
+[445x565]ε
+[448x271]φ
+[449x343])
+[453x357]i
+[456x275]1
+[459x343]η ,
+[459x343](5.26)
+[460x343]ˆ
+[462x565]))
+[462x565].
+[465x271]x
+[468x679]φ
+[470x72]φ
+[472x271]). If we write
+[474x565](5.24)
+[475x638]φ
+[476x684]†
+[480x679](
+[483x642]†
+[485x679]x
+[487x638](
+[492x679]) ˆ
+[493x74]
+[493x96]
+[496x679]φ
+[498x638])
+[503x638]A
+[504x679](
+[504x60]φ
+[504x81]φ
+[506x60]ˆ
+[506x81]ˆ
+[508x679]x
+[512x64]2
+[512x638]φ
+[515x679]) are
+[516x74]
+[516x96]
+[519x638](
+[524x638]x
+[527x72].
+[530x638]),

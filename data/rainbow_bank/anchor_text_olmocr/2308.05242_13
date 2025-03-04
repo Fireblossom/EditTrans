@@ -1,0 +1,59 @@
+Page dimensions: 612.0x792.0
+[Image 95x603 to 517x720]
+[Image 95x336 to 517x547]
+[72x588]Figure 15:
+[72x588]Smaller Network
+[190x588], Original Images (First Four), Reconstructed Images (Last Four)
+[190x588](a) Row 1
+[495x588]: codebook
+[72x577]size=8192, latent dimension size = 256, 65 images, without positional encoding.
+[72x577](b) Row 2
+[448x577]: codebook size=8192,
+[72x566]latent dimension size = 256, 65 images, with positional encoding. (Figure 16(b))
+[72x322]Figure 16:
+[72x322](a) Column 1
+[123x322]: codebook sizes = \[1024, 8192, 1024\], Latent dimensions = 256, image sizes
+[184x322]=
+[72x311]\[2700
+[95x311],
+[95x311]185
+[114x311],
+[114x311]2700\]
+[141x311], with, with and without positional encoding respectively. (refer Figure 12 & Figure 8)
+[141x311](b) Col-
+[72x300]umn 2
+[100x300]:
+[100x300]Smaller network
+[179x300], codebook size = 8192, latent dimension size = 256, image size = 65, without and with
+[72x289]positional encoding. (refer Figure 15)
+[72x252]3.9 Comparative Analysis of Smaller Dataset (65 Images) and Larger Dataset (2700 Images) using Principal
+[94x241]Component Analysis
+[72x219]We conducted an experiment using Principal Component Analysis (PCA) for image reconstruction with both smaller
+[72x208](65 images) and larger (2700 images) datasets, utilizing 50 principal components for representation. The explained
+[72x197]variance for the smaller dataset was approximately
+[72x197]98
+[282x197].
+[285x197]19%
+[303x197], while for the larger one it was roughly
+[303x197]98
+[469x197].
+[472x197]35%
+[472x197](Figure 18).
+[72x181]However, visual inspections revealed a marked degradation in quality between the two datasets(Figure 18). In the 65-
+[72x170]image dataset, the reconstructions showed anomalies like purplish lines in the background and bluish color distortions.
+[72x159]For the 2700-image dataset, the performance was even worse, with greenish horizontal lines appearing in the foreground
+[72x148]and failure in capturing essential details. Several factors may contribute to this unexpected result. The increased
+[72x137]complexity and variability within the larger dataset might have overwhelmed PCA's ability to represent finer details.
+[72x127]Since PCA relies on linear assumptions, it might have failed to handle the nonlinear structures and dependencies that
+[72x116]become more pronounced with the increase in data complexity. The
+[72x116]1
+[353x116].
+[355x116]5%
+[355x116]−
+[371x116]2%
+[381x116]unexplained variance might contain
+[72x105]critical information affecting the visual quality, especially in a larger, more intricate dataset. Moreover, the choice of 50
+[72x94]components might have been insufficient for capturing nuanced variations in the larger dataset, despite sufficing for the
+[72x83]smaller one. These observations highlight PCA's limitations in handling highly complex image data and emphasize that
+[72x72]capturing a high percentage of variance does not guarantee accurate or visually pleasing reconstruction.
+[301x42]14

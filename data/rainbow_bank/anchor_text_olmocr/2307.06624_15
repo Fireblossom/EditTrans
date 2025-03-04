@@ -1,0 +1,223 @@
+Page dimensions: 595.3x841.9
+[7x252]E
+[7x252]I
+[39x256]L
+[40x257]L
+[41x226]2
+[42x227]4
+[85x497]with
+[85x497]l
+[85x483]t
+[85x483]A difference we observe is that the values of mutual information for both
+[85x456]for the system to saturate to a steady state seems to exceed 100 time-steps.
+[85x470]are reduced and stronger fluctuations are present. Also, for larger systems, the time it takes
+[85x117]level, Fig.(14b).
+[85x131]of fermionic negativity with respect to
+[85x131]p
+[85x429]t
+[85x429]time it takes to achieve convergence is
+[85x90]steady state.
+[85x158]l
+[86x144]=
+[86x144]p
+[87x105]0
+[87x159]1
+[87x213]2
+[87x267]3
+[87x320]4
+[87x374]5
+[88x778]SciPost Physics Core Submission
+[88x140]10
+[88x204]10
+[88x268]10
+[88x333]10
+[88x155]=
+[88x155]A
+[94x144]0.25, 0.5, 0.75 measurement probabilities. As explained in Sec.(3.2), the peculiar growth
+[96x397]10
+[97x158]L
+[102x443]Considering these results, we conclude that for
+[102x443]p
+[102x171]In Fig.(14) we present the dynamics of the fermionic negativity for a single trajectory , for
+[102x222](a) (-195,140)(b)
+[102x575](a) (-195,140)(b)
+[106x540]and
+[106x540]r
+[106x554]Figure 13: The time-scaling of mutual information between
+[111x834]100\n101\n102\n103\nt\n10-8\n10-6\n10-4\n10-2\n100\nIL\n4\nt2 = 1.5, t12 = π/2\nL = 128\nL = 64\nL = 32\n100\n101\n102\n103\nt\n0\n2\n4\n6\n8\nIL\n4\nt2 = 5, t12 = π/2\nL = 128\nL = 64\nL = 32
+[112x495]=
+[114x70]10
+[116x158]/
+[122x158]L
+[122x158]2 bipartition. The results correspond to a single fixed system size of
+[124x153]-8
+[124x217]-6
+[124x345]-2
+[131x538]AB
+[132x409]0
+[134x495]=
+[134x495]B
+[138x201]A
+[138x201]Figure 14: The time-scaling of bipartite negativity of
+[144x377]100\n101\n102\n103\nt\n0\n1\n2\n3\n4\n5\nEL\n2\nt2 = 1.5, t12 = π/2\np = 0.75\np = 0.5\np = 0.25\n100\n101\n102\n103\nt\n0\n2\n4\n6\n8\n10\n12\nEL\n2\nt2 = 5, t12 = π/2\np = 0.75\np = 0.5\np = 0.25
+[149x83]0
+[155x70]10
+[159x497]/
+[160x540]/
+[165x497]4, is shown in Fig.(13). The picture is qualitatively the same as in Fig.(12).
+[166x540]2 distance between them.
+[174x416]>
+[174x416]L
+[191x83]0
+[193x416]64).
+[196x447]t
+[225x294]p
+[225x336]p
+[238x447]t
+[244x447]= 1
+[246x294]=
+[246x336]=
+[246x379]=
+[256x439]2
+[267x131]for
+[271x427]=
+[273x236](-420,140)
+[273x588](-420,140)
+[274x294]0.25
+[274x336]0.5
+[274x379]0.75
+[276x131]t
+[277x70]10
+[281x429]100 for small systems (
+[282x101]=
+[282x101]st
+[285x447]= 1
+[292x103]100 as the time when the system reaches the
+[292x429]L
+[297x128]2
+[305x131]5 is already evident on a single trajectory
+[313x83]1
+[316x447].
+[319x70]10
+[330x447]5
+[332x443]1, a safe estimate for the amount of
+[355x447],
+[358x447].
+[374x20]t
+[380x447]t
+[382x554]and
+[386x201], with
+[398x439]12
+[401x429]⩽
+[408x554], for
+[408x554]l
+[410x429]64) and
+[415x20]t
+[419x198]A
+[419x198]=
+[422x447]t
+[426x481]=
+[426x481]2
+[431x551]A
+[431x551]=
+[434x483]5 and
+[439x554]l
+[441x70]10
+[443x201]/
+[444x483]t
+[445x447]=
+[453x551]=
+[459x158]128 and
+[461x554]L
+[465x427]=
+[465x427]st
+[470x511]and
+[476x429]1000
+[477x83]2
+[478x481]=
+[478x481]2
+[478x554]/
+[480x511]B
+[483x554]4
+[485x483]1.5
+[487x447]=
+[493x447]π/
+[507x511],
+[518x83]2
+[534x447]π/
+[546x447]2
+[569x137]L
+[569x179]L
+[569x222]L
+[588x447]2
+[594x179]=
+[605x70]10
+[623x137]32
+[623x179]64
+[623x222]128
+[640x83]3
+[646x70]10
+[682x83]3
+[710x252]E
+[742x256]L
+[744x226]2
+[768x252]I
+[790x360]10
+[790x411]12
+[801x257]L
+[803x227]4
+[807x105]0
+[807x156]2
+[807x207]4
+[807x258]6
+[807x309]8
+[849x105]0
+[849x172]2
+[849x238]4
+[849x370]8
+[869x83]0
+[875x70]10
+[911x83]0
+[936x447]t
+[983x447]= 5
+[987x294]L
+[987x337]L
+[987x379]L
+[995x439]2
+[997x70]10
+[1012x294]=
+[1012x337]=
+[1025x447]= 5
+[1033x83]1
+[1039x70]10
+[1041x294]32
+[1041x337]64
+[1041x379]128
+[1056x447],
+[1074x83]1
+[1081x447]t
+[1094x20]t
+[1097x447],
+[1122x447]t
+[1135x20]t
+[1140x439]12
+[1146x447]=
+[1161x70]10
+[1187x447]=
+[1193x447]π/
+[1197x83]2
+[1203x70]10
+[1235x447]π/
+[1238x83]2
+[1245x222]p
+[1266x136]=
+[1266x179]=
+[1266x222]=
+[1288x447]2
+[1294x136]0.25
+[1294x179]0.5
+[1294x222]0.75
+[1325x70]10
+[1360x83]3
+[1366x70]10
+[1402x83]3

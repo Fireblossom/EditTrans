@@ -1,0 +1,39 @@
+Page dimensions: 612.0x792.0
+[536x755]2
+[72x716]to achieve with the exclusive exchange of classical information \[2\], \[3\]. Similar to a classical
+[72x695]computer network, a quantum network is a distributed system composed of quantum computers
+[72x674]and quantum repeaters that exchange quantum information across physical channels. Among
+[72x653]applications supported by quantum networks,
+[72x653]Distributed Quantum Computing
+[307x653](DQC) is of
+[72x633]particular interest as it leverages the power of interconnected quantum computers to create a
+[72x612]virtual quantum machine with processing capabilities that surpass its physical constituents alone
+[72x591]\[4\]–\[6\]. DQC is general as it encompasses any distributed architecture for quantum computing,
+[72x570]from the short-range interconnection of multiple
+[72x570]Quantum Processing Units
+[315x570](QPUs) inside the
+[72x549]same cooling device, to arbitrary-scale quantum data centers \[7\]. Furthermore, DQC offers a
+[72x529]practical way to scale quantum computers in the
+[72x529]Noise Intermediate Scale Quantum machines
+[72x508](NISQ) era \[6\]. Modular, distributed architectures facilitate the construction of large quantum
+[72x487]machines by replacing the complexity of building a monolithic QPU with a large number of
+[72x466]qubits with that of a machine consisting of an interconnection of simpler QPUs with fewer
+[72x445]qubits \[7\]–\[9\].
+[84x425]When the quantum network scenario is considered, the complexity of distributed quantum
+[72x404]computing extends in at least two dimensions. First, physical quantum channels have a well
+[72x383]known depletion effect in the exchange of quantum data, e.g., an exponential decrease in channel
+[72x362]entanglement rate with distance \[10\]. Second, there is a demand for a quantum network protocol
+[72x341]capable of performing desired distributed quantum operations while accounting for network
+[72x320]connectivity. Generic quantum computation with qubits in distinct quantum processors demands
+[72x300]either the application of remote controlled gates \[11\] or the continuous exchange of quantum
+[72x279]information. For both cases, a network protocol is necessary to orchestrate the communication
+[72x258]between nodes that are not directly connected with one another.
+[84x237]One challenge in the design of a control protocol is the need for it to be agnostic to hardware
+[72x216]implementations. There is a plethora of physical systems suited for quantum computation under
+[72x196]investigation, superconducting qubits \[12\], trapped ions \[13\], \[14\] and Silicon-vacancy color
+[72x175]centers in diamond \[15\], \[16\] to name a few. In addition, there is a diverse investigation in
+[72x154]the architectural description of quantum interconnecting devices capable of exchanging quantum
+[72x133]information encoded in distinct quantum physical quantities \[17\]. This diverse ecosystem of
+[72x112]quantum network technologies indicates that distributed quantum computing network protocols
+[72x92]need to abstract physical implementations of quantum switches and network connectivity while
+[72x71]maintaining universality requirements.

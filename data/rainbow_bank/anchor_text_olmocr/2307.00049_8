@@ -1,0 +1,149 @@
+Page dimensions: 595.3x841.9
+[39x72]0.4
+[39x132]0.6
+[39x192]0.8
+[39x223]0.9
+[85x192]impact parameters, Λ
+[85x192]∼
+[85x204]dynamical friction formula the cutoff Λ can be estimated as the ratio of maximum and minimum
+[85x216]the Eq. (3.20) involves an unknown Coulomb logarithm, log Λ, where in typical applications of the
+[85x228]to account for both the finite extent of the halo and the presence of large-scale structure. Indeed,
+[85x240]mass halos and the corresponding dynamical friction force. A more realistic calculation would have
+[85x251]Thus far we have determined the anisotropic clustering of massive neutrinos behind moving point
+[85x268]3.3 Limitations to the 1-halo approach
+[85x290]significant contributions from the clustering of nearby halos as we will see in Sec. 5.
+[85x302]This already suggests that the dynamical friction effect is quite small, although it can pick up some
+[85x325]velocity over the age of the Universe
+[85x313]a halo mass
+[85x495]z
+[85x495]choice of halo formation redshift of
+[85x506]of the cutoff Λ in the simple case of a halo subject to Hubble drag. The solid black curve corresponds to a
+[85x484]≈
+[85x484]might expect Λ
+[85x144]definition for the velocity coherence scale.
+[85x156]≳
+[85x156]λ
+[85x168]small scales and hence our analysis based on a single moving halo is expected to break down at scales
+[85x180]Mpc
+[85x405]F
+[85x405]terms of a quantity with dimension of inverse time. Since
+[85x429]dynamical friction force as a sum of individual contribution from different eigenstates.
+[85x441]eigenstate. We may then assume a single neutrino species for simplicity, or explicitly write the total
+[88x453]m
+[88x453]and scales like
+[88x349]which is the characteristic time scale for an order one fractional decrease in the halo velocity due to
+[94x156]λ
+[103x127]We should also impose a cutoff corresponding to the distance traveled by free-streaming neutrinos, which sets
+[104x183]−
+[106x417]In order to connect Eq. (3.19) with the results of future sections, it is convenient to rewrite it in
+[111x183]is the CDM velocity coherence scale. The CDM bulk flow is only coherent over sufficiently
+[111x183]1
+[111x154]coh
+[118x376]τ
+[119x41]5
+[124x380]−
+[124x517]. Suppression of Chandrasekhar's formula for the dynamical friction force
+[124x517]F/F
+[124x156].
+[126x159]3
+[126x159]This point will be made more clear in the next section, where we also provide a precise
+[130x380]1
+[130x380]=
+[138x538]5 10 50 100 500 1000\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9
+[140x313]= 10
+[145x41]10
+[149x484]λ
+[156x383]·
+[158x386]⃗F
+[159x370]Mv
+[159x370]2
+[161x450]such that the dynamical friction effect is dominated by the most massive neutrino
+[161x450]ν
+[161x456]4
+[165x483]coh
+[166x383]⃗ v
+[174x367]H
+[174x317]13
+[176x484]/R
+[176x382]H
+[183x192]b
+[188x483]≈
+[193x317]and individual neutrino mass
+[198x190]max
+[203x370]π
+[204x484]10
+[205x313]m
+[213x41]50
+[222x190]min
+[222x190]\[51\]. Here
+[225x484]1000 as we will see in Sec. 5.
+[234x376]G
+[235x494]= 1, and the dashed blue curve to
+[235x494]i
+[239x41]100
+[239x192]b
+[240x495]z
+[241x380]2
+[244x325]∼
+[246x376]Mm
+[265x374]= 3
+[265x380]4
+[284x325]. We obtain a numerical value of ∆
+[289x376].
+[290x336]= ∆
+[290x336]0
+[290x190]min
+[290x190]∼
+[291x376]4
+[291x376]×
+[293x63]– 8 –
+[299x376]10
+[307x41]500
+[318x337]v/v
+[319x380]−
+[325x380]5
+[325x380]log Λ
+[325x190]is the halo radius, and
+[330x370]log 100
+[333x41]1000
+[344x192]b
+[345x312]ν
+[345x312]= 0
+[350x405]Mdv
+[362x370]10
+[369x313].
+[372x313]1eV, when also assuming Λ = 100.
+[376x383]M
+[381x370]M
+[381x403]H
+[387x494]i
+[387x494]= 2. In realistic applications we
+[390x373]J
+[401x405], we can define:
+[403x387]
+[403x387]m
+[415x370].
+[417x370]1eV
+[435x387]
+[436x325]v/v
+[436x325]= 3
+[441x385]4
+[444x516]→∞
+[444x516]for finite values
+[448x376]H
+[450x190]max
+[450x190]∼
+[456x375],
+[456x375]0
+[462x376](3.20)
+[468x192]λ
+[470x325].
+[472x325]4
+[479x325]×
+[484x190]∼
+[488x325]10
+[498x329]−
+[500x192]0
+[504x329]for
+[504x329]5
+[518x192]1

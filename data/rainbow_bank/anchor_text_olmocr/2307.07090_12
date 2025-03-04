@@ -1,0 +1,270 @@
+Page dimensions: 612.0x792.0
+[72x708]Assumption
+[72x708]7
+[143x708].
+[143x708]m
+[162x708](
+[166x708]w, π
+[187x708]) is linear in
+[187x708]π
+[254x708]and there is
+[265x708]C >
+[354x708]0 such that
+[170x675]|
+[173x675]E
+[173x675]\[
+[188x675]m
+[198x675](
+[203x675]w, π
+[224x675])
+[224x675]−
+[231x675]θ
+[248x673]0
+[248x673]+
+[256x675]α
+[275x673]0
+[280x675](
+[284x675]z
+[290x675])(
+[299x675]y
+[299x675]−
+[308x675]π
+[327x675](
+[332x675]z
+[338x675];
+[338x675]γ
+[350x675]))\]
+[362x675]| ≤
+[381x675]C
+[381x675]∥
+[398x675]π
+[398x675]−
+[408x675]π
+[427x673]0
+[431x675]∥
+[437x681]2
+[72x610]Proposition 1.
+[72x610]If Assumptions 1-3 are satisfied then for
+[160x610]V
+[371x610]=
+[384x610]E
+[405x610]\[
+[409x610]{
+[415x610]m
+[425x610](
+[429x610]w, π
+[450x608]0
+[455x610](
+[459x610]z
+[465x610];
+[465x610]γ
+[477x608]0
+[481x610]))
+[481x610]−
+[493x610]θ
+[510x608]0
+[72x592]+
+[81x592]α
+[89x590]0
+[93x592](
+[98x592]z
+[104x592])(
+[113x592]y
+[113x592]−
+[122x592]π
+[140x590]0
+[145x592](
+[150x592]z
+[156x592];
+[156x592]γ
+[167x590]0
+[172x592]))
+[181x592]}
+[187x596]2
+[191x592]\]
+[195x592],
+[195x592]√
+[235x574]n
+[242x574](ˆ
+[247x574]θ
+[247x574]−
+[255x574]θ
+[273x572]0
+[277x574])
+[288x581]D
+[285x574]− →
+[302x574]N
+[313x574](0
+[323x574], V
+[338x574])
+[343x574],
+[343x574]ˆ
+[348x574]V
+[364x581]p
+[361x574]− →
+[376x574]V.
+[90x520]This result follows immediately following arguments in Chernozhukov, Escanciano, et al.
+[72x502](2022). The only point of difference is that we have to account for the first-stage estimator
+[72x484]ˆ
+[72x484]γ
+[79x484]. However, since it is estimable at a
+[79x484]n
+[272x488]−
+[279x488]1
+[283x488]/
+[287x488]2
+[287x488]rate, the analysis of Chernozhukov, Escanciano,
+[72x466]et al. (2022) still applies. We show the proof in Appendix 6.
+[72x427]3.4 Estimation Outline
+[90x402]•
+[90x402]Consider the dataset
+[101x402]{
+[218x402]y
+[224x400]t
+[227x402], z
+[238x400]t
+[242x402]}
+[248x406]n
+[248x399]t
+[251x399]=1
+[251x399]is independently and identically distributed. Now we
+[101x384]randomly split the data into L folds such that the data
+[101x384]D
+[411x382]l
+[411x382]:=
+[419x384]{
+[443x384]y
+[449x382]t
+[452x384], z
+[463x382]t
+[466x384]}
+[472x382]t
+[475x382]∈
+[481x382]I
+[485x380]l
+[485x380], where
+[488x384]I
+[537x382]l
+[101x366]denotes the
+[101x366]l
+[168x370]th
+[168x370]partition.
+[90x338]•
+[90x338]In the second stage for each fold
+[101x338]I
+[272x336]l
+[275x338], we estimate both the choice function and the Riesz
+[101x320]estimator on the left out data
+[101x320]D
+[267x318]l
+[270x320]c
+[270x320]:=
+[278x320]{
+[299x320]y
+[305x318]t
+[309x320], x
+[321x318]t
+[324x320]}
+[330x318]t/
+[333x318]∈
+[339x318]I
+[342x317]l
+[197x285]ˆ
+[196x285]π
+[203x283]l
+[203x283]= arg min
+[232x275]f
+[237x275]∈F
+[284x293]1
+[263x286]P
+[276x273]t
+[279x273]∈
+[284x273]D
+[291x272]lc
+[294x273]J
+[307x275]t
+[316x296]X
+[314x271]t
+[317x271]∈
+[323x271]D
+[329x269]lc
+[338x296]X
+[338x271]j
+[342x271]∈
+[348x271]J
+[352x270]t
+[356x285]\[(
+[363x285]y
+[369x283]jt
+[369x283]−
+[379x285]π
+[398x285](
+[403x285]z
+[408x283]jt
+[416x285];
+[416x285]γ
+[428x285]))
+[437x290]2
+[442x285]\] (8)
+[184x211]ˆ
+[183x211]α
+[191x210]l
+[191x210]= arg min
+[220x202]α
+[225x202]∈A
+[272x219]1
+[251x212]P
+[263x200]t
+[266x200]∈
+[272x200]D
+[279x198]lc
+[281x200]J
+[295x201]t
+[304x223]X
+[301x197]t
+[305x197]∈
+[310x197]D
+[317x196]lc
+[326x223]X
+[326x197]j
+[330x197]∈
+[335x197]J
+[340x196]t
+[345x221]
+[350x211]α
+[358x211](
+[362x211]z
+[368x210]jt
+[375x211])
+[380x216]2
+[380x216]−
+[387x211]2
+[405x211]m
+[415x211](
+[420x211]w
+[428x210]jt
+[436x211];
+[436x211]α
+[448x211])
+[453x221]
+[525x211](9)
+[90x158]•
+[90x158]Now for every
+[101x158]I
+[184x156]l
+[187x158], we will estimate ˆ
+[283x158]θ
+[289x156]l
+[289x156]by using the estimators estimated on
+[296x158]D
+[504x162]c
+[503x154]l
+[503x154]. And
+[101x140]finally, to estimate
+[101x140]θ
+[206x140], we average it out across all folds. Thus the estimator for
+[206x140]θ
+[513x138]0
+[513x138]and
+[101x122]its variance can be given as follows –
+[300x42]12

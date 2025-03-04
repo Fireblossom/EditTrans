@@ -1,0 +1,261 @@
+Page dimensions: 612.0x792.0
+[0x0]ν
+[0x0]ν
+[0x0]ν
+[0x0]ν
+[0x0]ν
+[82x226]oly/dictatorship that will trigger a forced early exit. Second, the monotone properties of
+[82x182]e
+[82x116]e
+[82x131]pletely determined by comparing this return rate Ψ(
+[82x131]t
+[82x144]return rate is independent of
+[82x144]x
+[82x157]miner's utility (from holding of coins,
+[82x573]\[36\]
+[82x647]then derive the optimal strategy
+[82x647]ν
+[82x698]14 WENPIN TANG
+[82x559]4.1 (i). Assume that
+[86x507]Then, the following results hold:
+[90x661]h
+[93x251]Several remarks are in order. First note that the condition in (4.12) is to guarantee
+[93x674]Now specialise to linear utility
+[94x331]e
+[98x413]e
+[98x413](ii) Suppose that
+[101x488]e
+[101x488](i) Suppose
+[116x115]β
+[117x661]. In this case we can derive a closed-form solution to the HJB equation in (4.10), and
+[121x318](a) If
+[121x318]P
+[121x400]P
+[122x364](c) If
+[126x116]t
+[130x116]t
+[135x196](
+[141x274]e
+[141x349]where
+[143x196]) being a constant in (i) makes the process
+[159x380]β
+[160x488]P
+[161x364]<
+[161x400](0)
+[161x475]⩾
+[161x475](0)
+[161x288](0)
+[161x318](0)
+[165x382](
+[165x443]T
+[167x486]β
+[168x116])
+[168x116]⩾
+[169x382]T
+[172x488](
+[173x443]< P
+[176x348]is the unique point of intersection of
+[176x348]0
+[177x488]t
+[177x382])
+[178x364]Ψ(0)
+[178x459]Ψ(
+[178x400]Ψ(0)
+[178x475]Ψ(0)
+[178x288]Ψ(0)
+[178x318]Ψ(0)
+[181x488]stays constant, i.e., for all
+[181x488])
+[181x573]ℓ
+[183x619]Ψ(
+[184x559]P
+[184x349]e
+[189x488]t
+[191x557]β
+[195x331](
+[195x413](
+[196x619]t
+[197x559](
+[199x331]t
+[199x413]t
+[199x619]) := 1
+[201x559]t
+[201x443]<
+[203x331])
+[203x413]is increasing in
+[205x559]satisfies the Lipschitz condition in
+[209x382]T
+[210x459])
+[211x116]. <
+[211x331]t
+[212x400]ν
+[212x400], then
+[212x475]ν
+[212x475], then
+[212x318], then the miner first sells, and may then buy, etc, always at full
+[213x559](4.9)
+[214x459]ν
+[215x573]ℓx
+[221x382]ν
+[225x116])
+[230x116]P
+[232x612](
+[237x612]t
+[237x674]ℓ
+[238x531]ν
+[241x612])
+[246x674]x
+[246x546]Z
+[247x116]t
+[249x473]∗
+[250x647](
+[252x674]) =
+[252x521]0
+[253x364]T
+[253x443], then
+[254x647]t
+[256x619]he
+[258x400]t
+[258x381]∗
+[258x647]e
+[261x364])
+[262x400]−
+[262x400]) =
+[262x382](
+[267x524]N
+[267x624]−
+[268x430]such that
+[271x382]) =
+[274x573](
+[278x573]x
+[281x524]t
+[284x674]h
+[285x573]hx
+[285x524]⩽
+[288x413]∈
+[289x400]ν
+[289x475]for all
+[289x459].
+[291x441]∗
+[293x531]x
+[295x413]\[0
+[295x331]\[0
+[295x382].
+[296x443](
+[296x619](
+[299x400]0
+[299x475]0
+[299x239]; that is, to exclude the possibility of monop-
+[300x443]t
+[300x619]T
+[300x364])
+[303x573]with
+[304x443]) =
+[304x364], then
+[304x364]ν
+[306x524]N
+[308x619]ℓ
+[319x573]ℓ, h >
+[319x531]N
+[321x674]hx
+[321x674]) =
+[323x443]for
+[325x274]P
+[326x647]P
+[329x413].
+[330x539]−
+[331x430](0) = Ψ(
+[332x272]β
+[332x634]T
+[332x634]Z
+[332x400]⩽
+[337x274](
+[338x609]t
+[340x144]. Thus, the trading strategy is com-
+[340x524]N .
+[340x400]t
+[340x475]t
+[341x363]∗
+[341x274]t
+[342x131]) with the miner's risk-adjusted coin
+[343x539]x
+[343x647]t
+[345x274])
+[345x304]and
+[345x304])
+[346x364](
+[347x647])). Let
+[351x619]e
+[352x475]⩽
+[352x674], for some given (positive) constants
+[354x274]Ψ(
+[354x364]) =
+[356x624]−
+[356x200]βt
+[359x443]t
+[359x400]T
+[359x475]T
+[361x531](4.12)
+[362x349]P
+[363x624]βs
+[365x196]P
+[369x348]β
+[372x619]N
+[374x196](
+[376x488](
+[376x428]0
+[377x186]−
+[378x573], and
+[378x400].
+[379x349]t
+[380x488]t
+[380x430]with
+[382x619](
+[383x349])
+[383x349]and
+[384x488]) =
+[384x186]βt
+[387x304]t
+[391x349]Ψ(
+[391x274]in
+[391x274])
+[391x304]in
+[393x182]P
+[396x619]ds
+[400x304]\[0
+[401x182](
+[402x559], and that
+[406x364]t
+[407x635]
+[409x182]) a sub-martingale or a
+[411x488](0) =
+[411x488]P
+[416x619](4.11)
+[416x619].
+[419x573]t
+[421x274], T
+[423x573])
+[427x364], and
+[429x349])
+[429x430]defined in
+[429x430])
+[437x349]\[0
+[437x430](4.11)
+[437x274].
+[437x304].
+[448x488](0)
+[461x349], T
+[463x364]ν
+[463x364]for
+[473x364]t > t
+[473x443]t
+[473x443], where
+[474x349]\]
+[477x349].
+[495x99]P
+[502x98]β
+[502x194]β
+[512x196]t
+[512x363]0
+[516x441]0
+[517x364],

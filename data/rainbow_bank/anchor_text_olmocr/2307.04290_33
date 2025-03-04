@@ -1,0 +1,181 @@
+Page dimensions: 612.0x792.0
+[72x708]exact in the large-
+[165x708]m
+[165x708]limit.
+[90x684]An important question is how many rotation gates of the form
+[429x684]e
+[434x688]iH
+[444x687]j
+[448x688]t/m
+[448x688]are needed to
+[72x660]perform time evolution up to time
+[256x660]t
+[256x660]with error
+[264x660]ϵ
+[321x660](in the trace distance), which we denote
+[72x636]N
+[81x635]gates
+[101x636](
+[105x636]t, ϵ
+[119x636])
+[124x636]. This question has been studied in detail. For the first-order Trotter formula the
+[72x612]number of required gates is
+[215x617]23
+[215x617]N
+[238x611]gates, 1
+[267x612](
+[272x612]t, ϵ
+[286x612]) =
+[286x612]O
+[318x612](
+[323x612]t
+[327x617]2
+[332x612]/ϵ
+[342x612])
+[342x612]while for the second-order formula
+[531x617]24
+[72x589]N
+[81x587]gates, 2
+[110x589](
+[115x589]t, ϵ
+[129x589]) =
+[129x589]O
+[159x589](
+[164x589]t
+[168x593]1
+[172x593].
+[174x593]5
+[179x589]/
+[185x597]√
+[195x589]ϵ
+[200x589])
+[204x589]. For a comparison of
+[317x589]N
+[327x587]gates
+[346x589](
+[351x589]t, ϵ
+[365x589])
+[365x589]for different simulation methods,
+[72x565]see Ref. 25.
+[90x541]Having discussed Trotterization for general Hamiltonians, we now consider the specific
+[72x517]case of H
+[119x515]2
+[124x517], taking the first-order Trotter expansion. Here we approximate
+[454x517]U
+[463x517](
+[467x517]t
+[472x517])
+[472x517]by
+[236x473]U
+[245x473](
+[249x473]t
+[254x473])
+[254x473]≈
+[274x486]
+[281x473]e
+[287x478]iZc
+[300x477]1
+[304x478]t/m
+[319x473]e
+[324x478]iXc
+[339x477]2
+[343x478]t/m
+[358x486]
+[365x484]m
+[373x473],
+[373x473](106)
+[77x429]so that each term is a Pauli rotation gate. In particular, the Pauli-Z rotation is defined
+[72x405]R
+[81x404]Z
+[88x405](
+[92x405]θ
+[98x405]) =
+[98x405]e
+[124x410]−
+[130x410]iZθ/
+[148x410]2
+[153x405], and the Pauli-X rotation is
+[302x405]R
+[311x404]X
+[319x405](
+[324x405]θ
+[330x405]) =
+[330x405]e
+[356x410]−
+[362x410]iXθ/
+[381x410]2
+[386x405]. Thus we have
+[207x362]U
+[217x362](
+[221x362]t
+[225x362])
+[225x362]≈
+[246x379]
+[254x362]R
+[263x360]Z
+[270x379]
+[280x370]−
+[289x370]2
+[295x370]c
+[300x368]1
+[305x370]t
+[289x354]m
+[310x379]
+[319x362]R
+[328x360]X
+[336x379]
+[346x370]−
+[355x370]2
+[361x370]c
+[366x368]2
+[371x370]t
+[355x354]m
+[376x379]
+[393x376]m
+[401x362].
+[401x362](107)
+[76x318]Lastly, note from Fig. 4 that the
+[248x318]U
+[248x318]operators must each be controlled on an ancilla qubit.
+[72x294]The circuit diagram for the controlled-
+[270x294]U
+[270x294]operation is shown in Figure 5.
+[138x248]ancilla
+[155x223]|
+[159x223]ψ
+[167x223]⟩
+[0x-0]U
+[203x223](
+[208x223]t
+[212x223])
+[250x235]≈
+[352x267]m
+[352x267]repeats
+[296x223]R
+[305x221]Z
+[312x223](
+[316x223]−
+[326x223]2
+[332x223]c
+[337x221]1
+[341x223]t/m
+[362x223])
+[-0x-0]R
+[397x221]X
+[405x223](
+[410x223]−
+[419x223]2
+[425x223]c
+[430x221]2
+[435x223]t/m
+[455x223])
+[72x186]Figure 5: First-order Trotter approximation to the controlled time evolution operator, for H
+[535x184]2
+[72x171]in a minimal basis. The Trotter expansion is repeated for
+[372x171]m
+[372x171]steps, with the approximation
+[72x157]becoming more accurate with larger
+[260x157]m
+[270x157].
+[72x94]4.6 Qubitisation
+[300x42]34

@@ -1,0 +1,65 @@
+Page dimensions: 612.0x792.0
+[72x708]to prove Bob wrong is obtaining an early success, Ann is willing to work harder on her idea
+[72x686]in the first period than she would do if Bob was like-minded. Clearly, the same holds for
+[72x665]Bob. From conditions 2 and ref 3, one can easily see that
+[72x665]e
+[381x669]A
+[381x669]=
+[391x665]e
+[410x669]B
+[410x669]=
+[421x665]e
+[440x669]H
+[447x665](1 +
+[447x665]βe
+[485x669]H
+[493x665])
+[493x665]> e
+[520x669]H
+[528x665].
+[531x669]15
+[72x643]Each player is eager to prove the other wrong, hoping that they will join forces to pursue
+[72x621]the most promising type of innovation in the future: disagreement makes the group work
+[72x600]harder in the first period, pushing Ann and Bob's average output above the level of Sam
+[72x578]and Tom.
+[121x582]16
+[90x556]Finally note that, in the last illustrative example, we also expect both Ann and Bob to
+[72x535]earn higher payoffs, throughout the game, than Tom or Sam. The reason is that disagreement
+[72x513]pushes players' first-period effort closer to
+[72x513]e
+[303x517]H
+[311x513](1 +
+[311x513]β
+[344x513]) the level of individual effort that is
+[72x491]efficient taking externalities into account. Hence, in this specific example, not only does
+[72x470]disagreement increase expected output, it also lead to a Pareto improvement in terms of
+[72x448]expected payoffs.
+[90x426]Our formal analysis, presented in sections 3-5 of this paper, generalizes, enriches and
+[72x405]qualifies the intuitions presented in the previous toy examples. We extend the analysis to
+[72x383]a wider class of utility functions, and consider any views
+[72x383]H
+[373x383]and
+[388x383]L
+[420x383], providing an intuitive
+[72x361]condition that ensures that disagreement will drive up the effort of a player holding view
+[521x361]H
+[521x361]–
+[72x340]as in the case of the views presented in table 1. We consider a more general model-switching
+[72x318]rule, which allows for changes in mind after non-zero probability events. We also discuss the
+[72x296]main assumption of our set-up and possible variations.
+[90x275]The remainder of the paper is organized as follows. In Section 2 we review the literature
+[72x253]on model change and disagreement. In section 3 we outline the general model. In section
+[72x231]4 we present the results for the single production technology case, while in section 5 we
+[72x210]discuss the multiple technology case. In section 6 we discuss the robustness of our findings
+[72x188]and changes of our key assumptions. Finally, in section 7 we draw the conclusions.
+[85x170]15
+[93x167]The reader might have noticed that the optimal level of effort is the same as the one obtained when
+[72x155]analyzing the single-technology case. In general, this will not always be the case.
+[85x146]16
+[93x143]In practice this conclusion does not require us (the analyst) to be convinced that Tom holds the correct
+[72x131]views: it is sufficient that both approaches work equally well, or that we believe that Ann and Bob are
+[72x119]correct each with probability
+[72x119]1
+[203x115]2
+[203x115], as we discuss in section 5.
+[300x42]12

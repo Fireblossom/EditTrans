@@ -1,0 +1,73 @@
+Page dimensions: 612.0x792.0
+[54x68]challenging to gain insights into how and why the in-
+[54x80]mized structure often lacks interpretability, making it
+[54x92]of the inverse-designed structure is unclear. The opti-
+[54x104]tion complexity. In addition, an intuitive understanding
+[54x116]outputchannelsareoftenoverlookedduetotheoptimiza-
+[54x128]cesses, and the coupling efficiencies for both input and
+[54x140]culties in generalization to multi-photon generation pro-
+[54x164]monic generation or optical switches based on the Kerr
+[54x188]Recently, the adjoint method has been generalized to op-
+[54x200]issues can be addressed by computational inverse design..
+[54x224]ferent positions in nonlinear materials can destructively
+[54x236]effectivephase-matching, thegeneratedphotonsfromdif-
+[54x284]at target frequencies can bolster the nonlinear process
+[54x296]is well-known that high-quality factor cavities designed
+[54x308]waveguides/cavities,, and photonic crystal cavities.. It
+[54x320]metamaterials,, microring resonators,, periodically poled
+[54x343]implement and enhance nonlinear photon generation pro-
+[54x379]on-chip frequency conversion and generate photon pairs
+[54x403]standing challenge due to materials' weak nonlinear re-
+[64x415]Enhancing nonlinear optical processes has been a long-
+[75x730]Interpretable inverse-designed cavity for on-chip nonlinear and quantum optics
+[77x706]Zhetao Jia,
+[97x609]5
+[101x605]Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA
+[109x473]communication and computing applications.
+[109x494]photon pairs at 1.1MHz with a coincidence to accidental ratio of 162. Our design method ac-
+[109x525]ciency of on-chip photon generation rate through nonlinear processes by controlling the effective
+[109x536]structures. We propose an inverse design method with interpretable results to enhance the effi-
+[109x546]nature of inverse design techniques has hindered the understanding of optimized inverse-designed
+[109x567]high-performance devices. To date, applications have mostly been limited to linear systems and it
+[114x620]4
+[118x616]Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA
+[120x578]Inverse design is a powerful tool in wave-physics and in particular in photonics for compact,
+[126x709]1
+[162x668]University of California at Berkeley, Berkeley, California 94720, USA
+[162x626]University of California at Berkeley, Berkeley, California 94720, USA
+[173x696]1
+[173x696]Scott Dhuey,
+[182x679]Department of Electrical Engineering and Computer Sciences,
+[203x658]Hewlett Packard Labs, Hewlett Packard Enterprise,
+[203x641]3
+[206x709]Jagang Park,
+[207x637]Applied Science and Technology Graduate Group,
+[238x696]4
+[271x709]Sean Hooten,
+[317x68]ple the pump/generated photons to/from the cavity. In
+[317x166]mization methods..
+[317x178]performance can be further improved using global opti-
+[317x190]for compact frequency-mixing devices on-chip, and the
+[317x238]effective potential method, and the approximate solution
+[317x250]shape of the proposed design can also be explained by an
+[317x274]ing and characterizing an optimized device that enables
+[317x298]waveguide mode considered in the design. We demon-
+[317x310]conditions, along with coupling between the cavity and
+[317x334]the confinement of light in high quality factor cavity reso-
+[317x358]adjoint method. The resulting efficiency enhancement
+[317x370]gradients with respect to the design parameters via the
+[317x393]the open-source package
+[317x405]ton pair generation. We implement this strategy using
+[317x429]To address these challenges, we put forth an inverse de-
+[327x104]The proposed multi-frequency co-optimization method
+[336x696]Eli Yablonovitch,
+[337x709]Difan Wen,
+[337x709]2
+[395x709]Yertay Zhiyenbayev,
+[395x709]1, 3
+[420x696]1
+[426x393]EmOpt
+[500x709]Matteo
+[500x709]1
+[518x696]1, 5,
+[535x696]∗

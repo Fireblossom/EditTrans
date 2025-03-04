@@ -1,0 +1,122 @@
+Page dimensions: 612.0x792.0
+[79x100]each consumer. \[26\] show that, in this case, a (pure) equilibrium may fail to exist.
+[79x123]price.
+[79x746]322
+[79x211]A
+[79x225]p
+[79x511]previous stage. This is the standard timing considered in the literature (see, e.g., \[33, 10, 9, 26, 8\]).
+[79x552]p
+[79x565]A
+[79x565]offer personalized prices. If firm
+[79x579]a consumer arrives to the market, the firms who know the consumer's specific location simultaneously
+[79x538]subsequently be offered a personalized price by firm
+[79x538]A
+[79x198]A
+[79x198]will thus strictly prefer purchasing from firm
+[79x184]µ
+[79x157]proposition:
+[79x171]such that that consumer will prefer to purchase from
+[79x238]µ
+[79x238]We begin by analyzing equilibria under no data-sharing. To this end, define
+[79x265]3 No Data-Sharing
+[79x304]no-sharing equilibrium.
+[79x318]prices. Hence, we will often describe mechanisms as being IR or Pareto-improving
+[79x331]general setting there may be multiple equilibria, even with no data-sharing, each with different uniform
+[79x359]sharing, and that (ii) either firm
+[79x359]A
+[79x373]every
+[79x414]individually rational (IR)
+[79x401]as without data sharing. A data-sharing mechanism should be IR if we expect firms to participate.
+[79x456]rium personalized prices for each consumer
+[79x456]θ
+[79x469]A
+[79x483]M
+[79x483]starts with data-sharing mechanism
+[91x115]5
+[91x137]4
+[93x648]3. A consumer arrives, and all firms who know the consumer's location
+[93x669]A
+[93x669]2. Firm
+[93x613]4. The consumer chooses a firm from which to buy, and payoffs are realized.
+[95x111]An alternative model that we do not analyze is one in which firms set uniform and personalized prices simultaneously, for
+[95x134]Note that firm
+[95x134]B
+[96x428]One important desideratum of data-sharing mechanisms (with corresponding equilibria) is that they
+[96x496]For any fixed mechanism
+[96x710]In our analysis, we consider the following order of events:
+[96x593]A
+[96x524]Importantly, when firms set personalized prices, they know the uniform price set by firm
+[96x524]A
+[101x211]at that price and purchasing from firm
+[107x634]p
+[107x634]consumer a personalized price,
+[111x211]B
+[117x469]followed by personalized prices for both firms. Once the uniform price is fixed, the equilib-
+[130x669]announces uniform price
+[136x442]that lead to equilibria with high firm-profits and high consumer-welfare.
+[149x134]knows all consumers' locations, and so personalizes prices to each. It therefore need not post a uniform
+[191x225], then the consumer located at
+[203x414]: That the expected utility of each firm with data sharing be at least as high
+[220x496], we will consider the pure subgame perfect equilibria of the game that
+[223x565]offers a consumer a personalized price, this offer subsumes the firm's
+[226x359]'s profits, firm
+[226x359]B
+[250x483]. Such equilibria always exists, and consist of a uniform price
+[251x633]A
+[257x667]A
+[260x634]θ
+[265x673]4
+[267x634])
+[274x634]p
+[279x456]are uniquely fixed. We will be interested in designing
+[284x211]at price 0. All consumers located to the left of
+[292x198]p
+[294x211]µ
+[296x359]'s profits, or total consumer welfare be strictly higher.
+[304x550]will apply only to those consumers who will not
+[304x634](
+[308x634]θ
+[311x373]consumer be at least as high as without data
+[312x171]than from
+[317x538].
+[320x634].
+[321x171]A
+[323x689]M
+[327x184](
+[332x688]B
+[332x184]p
+[335x196]A
+[335x196]than from firm
+[337x689],
+[338x182]A
+[342x689]r
+[342x225]p
+[343x184]there exists a nonnegative price of firm
+[343x184])
+[343x198]B
+[346x689])
+[347x223]A
+[351x184]B
+[353x225]is indifferent between purchasing from
+[392x386]Pareto-improving
+[412x198]at any nonnegative price.
+[413x648]simultaneously offer that
+[424x238](
+[429x238]p
+[434x237]A
+[438x318]relative to
+[440x238]) =
+[459x243]1
+[459x235]−
+[459x235]2
+[482x242]A
+[482x235]. If firm
+[482x235]t
+[484x318]a particular
+[487x238]A
+[497x524]in the
+[510x514]5
+[513x211](
+[518x211]p
+[523x210]A
+[529x211])

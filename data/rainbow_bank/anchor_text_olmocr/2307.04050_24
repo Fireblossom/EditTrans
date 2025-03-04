@@ -1,0 +1,45 @@
+Page dimensions: 612.0x792.0
+[71x697]7.3 Computational Performance of the Optimization Proxies
+[71x672]This section presents numerical experiments used to assess the performance of the proposed optimization
+[71x654]proxies (Proxies) against the optimization models (GDO) and the greedy heuristic (GH).
+[86x636]Optimality Gap:
+[86x618]Table 3 presents the optimality gaps of various approaches, including the results of Model (1) under
+[71x600]various time constraints. In the table, the columns under "Gap of Model (1)" denote the optimality gaps of
+[71x582]the model under various time limits. Similarly, columns
+[71x582]Gap
+[326x582]for GH and Proxies denote optimality gaps
+[71x564]for GH and the optimization proxies. In addition, columns
+[71x564]Time(s)
+[341x564]denote the solving times for GH and
+[71x547]Proxies.
+[184x527]Table 3:
+[184x527]Optimality Gap (%) with respect to the Total Trailer Cost
+[107x496]Instance Model (1) GH Proxies
+[162x485]1s 5s 10s 30s 60s 1800s Gap Time (s) Gap Time (s)
+[107x467]M
+[0x0]2.59 0.55 0.48 0.48 0.48 0.48 3.84 3.12 1.14 0.33
+[107x455]L
+[0x0]51.15 5.22 2.18 1.71 1.41 1.39 12.85 13.28 3.80 1.10
+[107x443]XL
+[0x0]77.35 14.02 10.41 2.93 2.07 0.93 17.01 121.55 5.21 2.49
+[86x408]Recall that Model (1) produces solutions that exhibit considerable variability when the total commodity
+[71x390]volume is perturbed as detailed in Table 4 and 5. As such, it is unlikely to be practical in scenarios with
+[71x372]planners in the loop. Hence, the table compares the optimization proxies and the heuristics GH with an
+[69x354]"idealized" benchmark. With this caveat in place, observe the performance of the optimization proxies
+[71x336]under tight time constraints. Proxies generate solutions with low optimality gaps and may be up to 10 to 50
+[71x318]times faster than GH, and around 10 times faster than Model (1) solved with Gurobi. Second, although
+[71x300]Model (1) efficiently produces solutions with low optimality gaps, closing the optimizality gap proves to
+[71x282]be a significant challenge due to the poor LP relaxation. The performance of GH is also impeded by the
+[71x264]inefficiencies of the LP relaxation, as it solves the LP relaxations over many iterations; it takes the GH
+[71x246]around 30 iterations for terminal M, 200 iterations for terminal L, and more than 1000 iterations for terminal
+[71x229]XL to generate a feasible solution.
+[86x211]Consistency:
+[86x193]Tables 4 and 5 report the consistency of solutions obtained from different models in terms of the
+[71x175]normalized distance to the reference load plan and the total variation of the generated solutions. As GDO
+[71x157]requires running Model (1) and Model (2) sequentially, these experiments set the same time limits for
+[71x139]the two stages. For example, if a time limit of 30 seconds is set, GDO runs Model (1) for 30 seconds and
+[71x121]subsequently runs Model (2) using the best upper bound obtained from Model (1) for another 30 seconds.
+[86x103]The high-level result is that proxies are ideally suited to produce consistent plans.
+[86x103]Table 4 shows that the proxies
+[71x85]accurately predict, in a few seconds, the results produced by GDO after an hour. Furthermore, Table 5
+[301x55]25

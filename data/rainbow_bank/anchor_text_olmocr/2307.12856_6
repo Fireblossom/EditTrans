@@ -1,0 +1,117 @@
+Page dimensions: 612.0x792.0
+[106x127]- 20% success). This result suggests that closed-loop planning grounded on HTML observations
+[108x192]Plan
+[108x192]with HTML-T5 for planning and summarization (
+[108x296]would mark as success.
+[108x307](3), (4), the score would be 60 (
+[108x483](11B parameters) even with 3B parameters. See Appendix H for the detailed results.
+[108x523]Table 4: Average success rate of MiniWoB++ with 56 tasks. We use 12K demonstrations \[42\], and compare
+[108x116]via finetuning of domain language models is much more suitable for open-ended web navigation
+[108x72]further improve WebAgent.
+[108x83]enhancing the planning ability to decompose the given instructions adaptively and robustly can help
+[108x94]achieves 50% success), where the longer planning horizon is needed to fulfill instructions. We guess
+[108x105]than open-loop planning with few-shot LLMs, which is remarkable in
+[108x105]real-estate
+[108x137]%
+[108x159]social-media
+[108x170]real-estate
+[108x170]on
+[108x181]"
+[108x203]them (
+[108x225]replacing HTML summarization from HTML-T5 with
+[108x236]shot open-loop planning from Flan-U-PaLM (
+[108x247]replacing closed-loop planning from HTML-T5 with few-
+[108x257]LLM prompting different examplers per role: WebAgent
+[108x268]sisting of partial plug-in language models and a single
+[108x279]Results
+[108x279]For comparison, we prepare three baselines, con-
+[108x317]oroville, ca
+[108x317]located in (5)
+[108x328]for instance (1)
+[108x328]apartments
+[108x339]evaluation. The score represents the percentage of required attributes covered during the episode \[81\];
+[108x367]estate website and 230 episodes on social media website (about 20/10 steps per episode respectively).
+[108x378]rally generating instructions from human curated templates. This results in 260 episodes on real
+[108x388]traces that are collected using scripted agents by procedu-
+[108x399]for the example workflow. We finetune HTML-T5 with
+[108x410]and then programming by Flan-U-PaLM. See Appendix C
+[108x421]site?
+[108x432]community filtered by Tutorial tag on social media web-
+[108x493]tuning. We also finetune HTML-T5 with 347K expert traces \[19\], which performs better than Flan-T5-XXL
+[108x513]HTML-T5 among supervised-finetuned baselines \[24, 28\]. HTML-T5-XL remarkably outperforms WebN-T5-
+[111x148]Plan
+[115x137]), and that with regular-expression retrieval (
+[115x137]Sum
+[115x181]Sum
+[115x181],
+[122x170]and 70% success and 85.8 score on
+[127x421]), and acts via planning, summarizing by HTML-T5,
+[131x148]%
+[131x148]:
+[134x203]Plan
+[141x181]:
+[141x181]"
+[144x148],
+[144x148]Sum
+[154x203]%
+[154x203]:
+[155x181]) achieves best 65% success and 87.6 score
+[167x203]Sum
+[167x203],
+[169x148]:
+[169x148]%
+[171x328]for (2)
+[182x148]), that with open-loop planning (
+[192x203]:
+[192x203]%
+[205x203]). Table 2 shows that WebAgent
+[209x317]. When the agents could search the housing satisfying (1), (2), (5) and not
+[212x555]Flan-T5-XXL \[19\] 79.0% –
+[212x540]79.4
+[212x540]HTML-T5-XL (ours) 347K
+[212x565]Flan-T5-XL \[19\] 347K 75.5% –
+[212x600]HTML-T5-Base (ours)
+[212x635]Flan-LongT5-Base
+[212x670]LongT5-Base
+[212x686]WebN-T5-XL \[24\] 12K 48.4% –
+[212x695]CC-Net \[28\] 2.4M 32.0% –
+[212x711]Models Data Success Diff.
+[212x580]63.3
+[212x580]HTML-T5-XL (ours)
+[212x590]HTML-T5-Large (ours) 60.8% +4.5
+[212x615]Flan-LongT5-XL 61.1% +0.7
+[212x625]Flan-LongT5-Large 56.1% -0.2
+[212x660]LongT5-Large 56.3% 0.0
+[218x328]corporate housing
+[231x307]= 100
+[247x328]with (3)
+[249x214]Sum
+[258x307]×
+[268x307]3
+[269x214]%
+[273x307]/
+[278x307]5
+[282x214]), and both of
+[283x307]). When the agents could achieve 100 score, that episode
+[304x42]7
+[314x590]12K
+[314x625]12K
+[314x660]12K
+[317x236]:
+[320x137]%
+[322x328]studio bedroom
+[331x236]),
+[334x148]:
+[334x192]:
+[334x137]) (most of those roughly achieve only 10
+[348x600]57.0% +3.2
+[348x635]54.1% +0.3
+[348x670]53.8% 0.0
+[356x328]and (4)
+[363x540]% –
+[363x580]% +2.9
+[388x105](even
+[421x328]1+ bathroom
+[448x105]Sum
+[491x105]:
+[491x105]%

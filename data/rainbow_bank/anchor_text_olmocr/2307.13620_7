@@ -1,0 +1,40 @@
+Page dimensions: 612.0x792.0
+[90x708]The datasets used in this study are collected by NYCTLC
+[90x708]2
+[374x708], which include both trip-level and
+[72x684]aggregated shift-level information. The trip-level data contain the daily average yellow/green taxi
+[72x660]trips, average trip duration, vendor ID, pickup and drop-off timestamps and locations (zonal level),
+[72x636]trip distance, number of passengers, trip fare, tip, extra surcharges
+[72x636]3
+[402x641]in rush hour or overnight,
+[72x612]improvement surcharge
+[72x612]4
+[193x612], tax, and tolls. Each valid trip is defined as at least one passenger in the
+[72x589]car with the value of trip duration, trip distance, and trip fare to be a positive number.
+[90x565]In the lack of individual shift-level data, we use the aggregated shift-level data in the study. The
+[72x541]aggregated shift-level data are monthly based and are processed from approximately 8.32 billion
+[72x517]yellow taxi trips, 0.73 billion green taxi trips, and 6.55 billion TNC trips over six years (January
+[72x493]2013 to December 2018). The data are obtained at the average individual-level and market-level.
+[72x469]The average individual-level data cover daily average work hours per yellow/green taxi driver,
+[72x445]daily average income per yellow/green driver, daily average yellow/green taxi medallions, monthly
+[72x421]average active days per medallion. The average market-level data include the daily average fare
+[72x397]of yellow/green taxis (include tips from credit card), monthly yellow/green taxi drivers, monthly
+[72x373]yellow/green taxi medallions, total monthly work hours of all yellow/green taxi medallions and
+[72x349]taxi drivers. We calculate the monthly income per driver by dividing the total fare per month by
+[72x326]the monthly number of drivers. The data applied in our analysis can be seen in Table 1.
+[72x284]4. Methodology
+[72x251]4.1. Hypotheses
+[90x224]The rapid growth of TNCs has significantly altered the landscape of the mobility-on-demand
+[72x200]market and leads to a great loss in the taxi industry. To quantify how much do TNCs impact the
+[72x176]overall labor supply and revenue of the taxi market, we propose the first hypothesis that
+[491x176]the rise of
+[86x145]2
+[90x141]In 2009, NYCTLC initiated the Taxi Passenger Enhancement Project, which mandated the use of upgraded me-
+[72x129]tering and information technology in all New York medallion cabs.
+[86x120]3
+[90x117]These are miscellaneous extras and surcharges, and currently include $0.50 and $1 rush hour and overnight
+[72x105]charges.
+[86x96]4
+[90x93]The improvement surcharge began being levied in 2015, and $0.30 improvement surcharge assessed trips at the
+[72x81]flag drop.
+[303x42]8

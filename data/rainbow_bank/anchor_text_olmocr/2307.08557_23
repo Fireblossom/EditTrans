@@ -1,0 +1,188 @@
+Page dimensions: 612.0x792.0
+[72x708]private so that agent
+[72x708]i
+[188x708]knows only his own bonus
+[197x708]v
+[346x706]i
+[346x706]but not those of his opponents. In
+[72x684]Halac et al. (2021), the private nature of bonus offers creates what these authors call
+[72x684]rank
+[71x660]uncertainty
+[130x660]. Specifically, let
+[130x660]t
+[224x658]i
+[224x658]denote the rank of agent
+[232x660]i
+[368x660], all
+[368x660]i
+[391x660]∈
+[399x660]N
+[410x660], and let
+[425x660]T
+[473x660]denote the
+[72x636]set of all permutations on the player set
+[72x636]N
+[283x636]. A ranking
+[298x636]t
+[362x636]= (
+[387x636]t
+[391x635]i
+[395x636])
+[395x636]∈
+[403x636]T
+[414x636]assigns a rank to each
+[72x612]agent
+[72x612]i
+[104x612]∈
+[111x612]N
+[122x612].
+[90x589]In a
+[90x589]ranking scheme
+[191x589], no two players are assigned the same rank and the bonus to agent
+[191x589]i
+[72x565]makes him indifferent between working and shirking is he believes that all agents
+[72x565]j
+[496x565]ranked
+[72x541]lower than
+[72x541]i
+[130x541]work while those ranked higher do not work. The expected payoff to work for
+[72x517]agent
+[72x517]i
+[104x517]with rank
+[111x517]t
+[169x515]i
+[169x515]offered a bonus
+[177x517]v
+[264x515]i
+[264x515]in a ranking scheme is
+[168x473]v
+[173x471]i
+[173x471]·
+[179x473]\[
+[189x473]q
+[189x473](
+[201x473]{
+[207x473]j
+[207x473]∈
+[216x473]N
+[227x473]:
+[245x473]t
+[256x471]j
+[256x471]≤
+[264x473]t
+[281x471]i
+[284x473]}
+[290x473])
+[290x473]−
+[297x473]q
+[309x473](
+[321x473]{
+[327x473]j
+[327x473]∈
+[336x473]N
+[347x473]:
+[366x473]t
+[376x471]j
+[376x471]< t
+[401x471]i
+[404x473]}
+[410x473])\]
+[410x473]−
+[421x473]c
+[438x471]i
+[441x473],
+[76x429]where
+[76x429]q
+[110x429](
+[122x429]{
+[128x429]J
+[136x429]}
+[142x429]) denotes the probability of project success when all agents
+[150x429]j
+[453x429]∈
+[462x429]J
+[473x429]⊆
+[484x429]N
+[496x429]work
+[72x405]while agents
+[72x405]j /
+[148x405]∈
+[148x405]J
+[159x405]do not work. Now let
+[171x405]µ
+[293x404]i
+[293x404]be agent
+[300x405]i
+[352x405]'s ranking belief, i.e. his distribution
+[72x382]on the rankings
+[72x382]t
+[157x382]∈
+[165x382]T
+[185x382]. Given his belief
+[185x382]µ
+[285x380]i
+[289x382], the bonus
+[289x382]v
+[357x380]i
+[357x380]that is necessary to make player
+[364x382]i
+[72x358]indifferent between working and not working is given by
+[147x314]v
+[152x312]i
+[152x312]=
+[159x314]c
+[318x320]i
+[173x315]P
+[185x302]t
+[188x302]∈
+[194x302]T
+[194x302]µ
+[210x304]i
+[213x306](
+[218x306]t
+[222x306]) \[
+[232x306]q
+[232x306](
+[244x306]{
+[250x306]j
+[250x306]∈
+[259x306]N
+[270x306]:
+[288x306]t
+[299x304]j
+[299x304]≤
+[307x306]t
+[323x304]i
+[327x306]}
+[333x306])
+[333x306]−
+[340x306]q
+[352x306](
+[364x306]{
+[370x306]j
+[370x306]∈
+[379x306]N
+[390x306]:
+[409x306]t
+[419x304]j
+[419x304]< t
+[444x304]i
+[447x306]}
+[453x306])\]
+[462x314].
+[76x270]The principal in Halac et al. (2021) tries to find those bonuses and ranking distribution
+[72x246]that induce work as the unique equilibrium of the game at minimal cost. They show that,
+[72x222]for symmetric agents, an optimal policy is a ranking scheme that induces uniform beliefs
+[72x199]over all possible rankings. This convergence to uniform beliefs bears interesting resemblance
+[72x175]to the policy derived in Proposition 1, which establishes that in a global game (with or
+[72x151]without symmetric agents) an optimal bonus makes agent
+[72x151]i
+[385x151]who observes signal
+[394x151]x
+[510x155]ε
+[510x148]i
+[510x148]= ˜
+[533x151]x
+[72x127]exactly indifferent between working and shirking under a uniform belief about the number of
+[72x103]agents that work.
+[300x42]24

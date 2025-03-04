@@ -1,0 +1,136 @@
+Page dimensions: 612.0x792.0
+[72x375]components.
+[72x402]whether the payment is associated with a reported or not reported claim. For simplicity, here
+[72x416]But Not Settled (IBNS), and it's usually decomposed into further subcomponents depending on
+[72x470]it may have paid only a partial amount of the associated claim size, rather than the entire amount.
+[72x484]τ
+[72x497]evolve, requiring additional payments until it is fully settled. Therefore, at a given valuation time
+[72x511]payments over time rather than as a lump sum. This is because the impact of an accident can
+[72x538]unreported claims. Furthermore, the complexity of the problem increases due to another delay in
+[72x551]τ
+[72x551]the insurance company only has information on the claims reported by
+[72x565]τ
+[72x592]the actuary. In general insurance, accidents are often not immediately reported to the insurance
+[72x606]times occur between
+[72x606]t
+[72x619]Suppose an insurance company is analyzing its total liabilities associated with claims whose accident
+[72x640]2.1 The claim reserving problem
+[72x682]of outstanding claims only. Section 3 will delve into the specific details of the methodology for the
+[72x695]general insurance, in this section we provide the overall idea of the methodology for the total reserve
+[72x709]tackled using inverse probability weighting methods. Since there are various types of reserves in
+[78x484], the insurance company is only aware of the claims that were reported on time, and for each one,
+[88x134]Let
+[88x134]•
+[88x196]•
+[88x271]•
+[88x271]Let
+[88x306]•
+[88x340]•
+[88x340]Let
+[89x362]That said, let's describe the payment process as follows:
+[89x457]As a result, the insurance company is interested in estimating the total claim amount of these
+[99x134]X
+[99x155]payments associated with the same claim.
+[99x107]of the payment itself.
+[99x120]ciated with the accident, the type of claim, the policyholder attributes, or the characteristics
+[99x169]of the associated payment delay time of each payment. Note that
+[99x169]U
+[99x182]V
+[99x182]with the claim underlying each payment, and
+[99x217]S
+[99x217]same for payments associated with the same claim, but the
+[99x196]U
+[99x244]S
+[99x230]T
+[99x257]R
+[99x257]underlying each payment; let
+[99x271]T
+[99x292]to the same claim/accident, but we will not make any distinction.
+[99x327]whose accident time is before the valuation time
+[99x327]τ
+[99x340]N
+[125x304]i
+[127x269]i
+[127x194]i
+[127x194]=
+[128x132]i
+[128x306],
+[129x90](
+[130x340](
+[130x271],
+[131x134]i
+[134x340]τ
+[134x306]= 1
+[135x196]R
+[138x134]= 1
+[139x271]= 1
+[140x340]) represent the total number of different payments associated with all the claims
+[140x86]τ
+[146x86]) the number of payments made by valuation time
+[156x194]i
+[156x194]−
+[158x306], . . . , N
+[162x196]T
+[163x134], . . . , N
+[180x194]i
+[183x196],
+[183x196]i
+[185x606]t
+[191x196]= 1
+[192x306](
+[197x306]τ
+[197x134](
+[202x242]i
+[202x271](
+[203x306]) denote the sequence payments. Note that some payments may belong
+[205x244],
+[205x244]i
+[206x271]τ
+[207x134]) be the sequence of information/attributes of relevance, that is asso-
+[212x271]) denote the sequence of accident times associated with the claim
+[232x606]=
+[241x606]τ
+[251x196](
+[260x606]τ
+[260x606], where
+[261x257],
+[261x257]i
+[262x196]) be the sequence of the reporting delay times associated
+[269x229]< R
+[269x229]i
+[269x257]= 1
+[270x244](
+[274x244]τ
+[296x229]i
+[296x229]< S
+[301x606]is the valuation time of analysis as defined by
+[303x42]4
+[321x229]i
+[321x229]and note that the values
+[327x180]i
+[327x180]=
+[328x230]T
+[333x257](
+[334x182]S
+[340x327].
+[343x257]) denote the sequence of the associated
+[352x180]−
+[352x180]i
+[358x182]R
+[377x180]i
+[381x182],
+[381x182]i
+[393x215]i
+[393x215]would differ.
+[394x86]out of the total
+[404x86]N
+[412x182], . . . , N
+[427x167]is the same for all the
+[446x182](
+[455x229]i
+[456x182]) be the sequence
+[471x229]would be the
+[492x86](
+[496x86]τ
+[502x86]) i.e the
+[537x565],

@@ -1,0 +1,184 @@
+Page dimensions: 612.0x792.0
+[72x601]standing claims and the IBNR reserve using the IPW framework as follows:
+[72x628]represents the full amount of the claim.
+[72x641]Alternatively, this can be viewed as if there was only one payment per claim, where that payment
+[72x203]π
+[72x217]In order to implement the IPW estimator, the key input required is the unknown inclusion proba-
+[72x241]4 Estimation of the model
+[72x655]ultimate value of the claim as based on the case estimates, which we will denote as
+[72x655]ˆ
+[72x668]that only the first stage is performed. This means that either a claim is reported or not, and the
+[72x695]reserve.
+[72x709]better estimation of the total liability and, consequently, a more accurate estimation of the IBNR
+[72x176]X
+[72x176]holder, denoted as
+[72x190]and settlement delays and depend on various attributes of the payment, the claim, and the policy-
+[72x396]the previous equation.
+[72x410]above as an HT estimator of the ultimate amount of the claim
+[72x410]ˆ
+[72x426]the previous section. Indeed, we can informally interpret the quantity
+[72x426]Y
+[72x453]τ
+[72x453]time
+[72x72]X
+[72x72]claim attributes
+[72x86]To estimate probabilities, it is common to assume that the reporting delay times, conditioned on
+[72x106]P
+[72x106]4.1 Estimation of the reporting delay times probabilities
+[72x135]one is estimated separately, so we discuss different strategies in Sections 4.1 and 4.2.
+[72x149]of two separate components: the probability of reporting and the probability of settlement. Each
+[72x162]approach to estimating these values. As explained in Section 2, the inclusion probabilities consist
+[89x614]Following this analogy, with this "single payment" per claim, we can estimate the total out-
+[89x682]In this case, within the two-stage sampling mechanism described in Section 2, we can assume
+[89x466]N
+[89x466]where in this case
+[89x439]The resulting estimator for the IBNR provides an intuitive interpretation of the estimator of
+[103x453], which coincides with just the number of reported claims.
+[113x201]i
+[117x203](
+[121x203]τ
+[127x203])
+[131x203]. These probabilities are associated with the evolution of a claim, including reporting
+[159x70]i
+[163x72], follow a common distribution function (see, for example, Verrall and W¨ uthrich
+[170x174]i
+[173x176], as well as the claim amount
+[191x470]P
+[191x470](
+[194x299]L
+[195x301]ˆ
+[201x303](
+[202x466]τ
+[208x466]denotes the number of these "single payments" made by valuation
+[208x466])
+[231x299]τ
+[232x503]L
+[233x506]ˆ
+[237x299]) = ˆ
+[239x508](
+[256x299]L
+[259x563]L
+[259x359]L
+[260x566]ˆ
+[261x362]ˆ
+[263x299](
+[267x563](
+[267x359](
+[267x299]τ
+[269x503]τ
+[271x359]τ
+[273x299]−
+[273x299])
+[275x503]) =
+[277x563]) =
+[277x359]) =
+[280x299]L
+[294x518]N
+[296x578]N
+[296x374]M
+[298x513]X
+[299x490]j
+[300x574]X
+[301x42]15
+[301x550]j
+[301x346]j
+[301x521](
+[301x521]P
+[303x490]=1
+[303x299](
+[303x581](
+[303x581]P
+[305x550]=1
+[305x346]=1
+[305x376]I
+[307x299]τ
+[309x374](
+[311x518]τ
+[311x176]Y
+[312x374]τ
+[313x578]τ
+[313x299]) =
+[315x518])
+[317x374])
+[317x578])
+[317x174]i
+[322x512]1
+[322x512]−
+[323x351]π
+[324x555]π
+[329x512]π
+[330x348](
+[330x348]j
+[330x552](
+[330x552]j
+[330x355]U
+[330x559]U
+[331x495]π
+[332x366]Y
+[332x313]M
+[332x571]Y
+[334x369]ˆ
+[334x574]ˆ
+[336x309]X
+[337x286]j
+[337x492](
+[337x492]j
+[338x365]j
+[339x569]j
+[341x286]=1
+[341x316]I
+[341x351]τ
+[341x555]τ
+[345x313](
+[347x509](
+[347x509]j
+[347x516]U
+[347x351])
+[347x555])
+[349x313]τ
+[349x495]τ
+[353x313])
+[355x495])
+[358x512]τ
+[360x307]1
+[360x307]−
+[364x512])
+[367x307]π
+[369x291]π
+[370x503]Y
+[371x506]ˆ
+[375x287]j
+[375x287](
+[376x294]U
+[376x501]j
+[379x410]Y
+[385x304](
+[385x304]j
+[385x311]U
+[386x408]j
+[387x291]τ
+[390x410], so leading to the estimator in
+[393x291])
+[396x307]τ
+[402x307])
+[408x299]Y
+[409x301]ˆ
+[414x297]j
+[424x424]j
+[428x426]/π
+[431x106]U
+[439x104]j
+[440x423]j
+[440x423](
+[440x430]V
+[444x106]τ
+[444x106]−
+[452x426]τ
+[453x106]T
+[458x426])
+[458x426]in the equation
+[469x655]Y
+[472x104]j
+[475x653]i
+[476x106])
+[478x655], is observed.

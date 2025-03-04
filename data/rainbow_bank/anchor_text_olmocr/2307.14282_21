@@ -1,0 +1,218 @@
+Page dimensions: 612.0x792.0
+[72x374]average of average outcomes from two different groups: first, individuals with
+[72x374]Q
+[72x391]individuals near cutoff
+[72x391]c
+[72x325]bound on the fraction of individuals in the
+[72x325]Q
+[72x342]overall average is identified but not the average in each of the groups. A strictly positive lower
+[72x358]interest us for the identification of treatment effects; and second, individuals with
+[72x571]that the model assumptions utilized to construct
+[72x571]Q
+[72x152]is a lower bound on
+[72x152]δ
+[72x169]the data, and Proposition 4 bounds the numerator. All we need for identification of treatment effects
+[72x185]pair (Definition 5) and sharpness of
+[72x588](Model's Falsification Test)
+[72x610]be less than or equal to one.
+[72x627]Proposition 4. Thus the same sum applied to the right-hand sides of the inequalities above must
+[72x120]δ
+[72x136]P
+[72x136]infimum over all probability values for
+[72x643]0
+[72x643]J
+[72x660]bound for a probability mass function if the model assumptions are correct. For any partition
+[72x660]A
+[72x676]relies on the fact that the right-hand sides of the inequalities in Proposition 4 must provide a lower
+[72x693]on these implications to aid researchers to screen out assumptions rejected by the data. The test
+[72x709]implications for the observed data. It is therefore useful to characterize a falsification test based
+[89x292]Start with all individuals above and near cutoff
+[89x292]c
+[108x647]0
+[113x532]X
+[113x643]P
+[113x643], we must have
+[117x508]∈A
+[118x276]j, k
+[132x540](
+[134x276])
+[134x276]∈ P
+[150x521]I
+[152x460]+
+[152x460]I
+[152x490]+
+[152x490]I
+[160x276]. The fraction of those individuals that have
+[160x276]Q
+[163x521]A
+[163x521]∈
+[169x472]n
+[174x521]Λ
+[176x460]A
+[176x460]∈
+[176x490]∈
+[177x149]j,k
+[177x157]+
+[186x389]j
+[187x490]Λ
+[188x152], which comes from a lower bound on its numerator. Let
+[188x152]p
+[193x518]∩
+[193x526]∪
+[194x391]Q
+[198x640]A
+[206x457]j
+[206x457]\
+[206x464]∪−
+[206x495]∪
+[208x521]Λ
+[212x495]+
+[222x460]Λ
+[223x239]j,k
+[223x81]j,k
+[223x81]=
+[223x90]+
+[223x247]+
+[227x518]j
+[227x526]∪−
+[231x643]Q
+[237x243]P
+[238x457]j
+[238x464]∪
+[238x487]j
+[238x495]∪−
+[239x642]j
+[247x643]A
+[250x74]P
+[251x389]j
+[251x389]= (
+[251x472]o
+[251x502]o
+[253x183](Assumption 6). The denominator of
+[253x183]j
+[258x243]h
+[258x86]h
+[260x460]P
+[260x490]P
+[263x231]Q
+[263x74]Q
+[265x136]\[
+[265x643]|
+[268x136]Q
+[268x643]S
+[269x472]h
+[269x502]h
+[271x533]n
+[271x588].
+[271x588]Assume the setup of Proposition 4, which presupposes
+[273x229]∩ {
+[273x229]j
+[273x71]∩ {
+[274x460]Q
+[274x391]j, k
+[275x642]=
+[275x642]j
+[276x250]\[
+[276x134]j
+[282x521]P
+[283x323]j
+[283x457]⊆
+[283x487]j
+[283x487]⊆
+[288x249]j
+[288x249]= (
+[289x391]). The average outcome near the cutoff is a weighted
+[290x533]h
+[291x490]A
+[295x231](
+[295x74](
+[296x521]Q
+[299x642]j
+[299x231]j, k
+[299x74]j, k
+[299x136]j, k
+[301x42]22
+[305x519]⊆
+[305x519]j
+[308x116]equals to
+[308x124]+
+[309x569]j
+[310x460]|
+[311x250]j, k
+[312x96]p
+[312x521]A
+[313x460]S
+[314x231])
+[315x136])
+[317x571]A
+[319x231]} ̸
+[320x458]j
+[320x458]=
+[320x488]j
+[321x325]) group allows us to construct lower and upper
+[326x250])
+[327x231]∅|
+[327x74]∅|
+[327x74]=
+[327x490]c
+[329x134]j
+[330x291]j
+[331x250]|
+[332x521]|
+[334x250]S
+[336x136]c
+[339x292]Q
+[340x249]=
+[342x520]=
+[344x457]j
+[344x464]−
+[344x487]j
+[344x495]+
+[348x250]c
+[349x521]c
+[354x230]=
+[354x230]j
+[354x72]=
+[357x136]\] that belong to the partially identified
+[361x74]c
+[364x249]j
+[365x518]j
+[373x533]i
+[377x228]j
+[377x236]+
+[378x78]+
+[379x460]1
+[381x290]contain the comparable pair of
+[383x521]P
+[383x521];
+[384x274]j
+[384x243]i
+[385x86]i
+[391x243],
+[406x521]Q
+[408x276]j, k
+[415x519]j
+[415x519]⊆
+[425x202]j, k
+[440x202]) being a comparable
+[442x521]|
+[446x182]is identified from
+[446x182]j,k
+[446x190]+
+[452x520]j
+[452x520]=
+[459x521]c
+[471x356]̸
+[471x356]j
+[474x148]denote the
+[476x374]j, k
+[476x526]−
+[478x358]= (
+[483x533]i o
+[488x571]J
+[494x358]j, k
+[500x571]0
+[509x358]). The
+[510x575]×J
+[516x571]0
+[519x660]of

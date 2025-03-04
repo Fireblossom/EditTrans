@@ -1,0 +1,241 @@
+Page dimensions: 612.0x792.0
+[72x112]others (
+[72x130]and the assumption that all individuals have a common marginal preference for compliance by
+[72x148]identical across all individuals
+[72x166]r
+[72x166]—
+[72x668]EU
+[72x94]are not homogeneous — they each know their own types.
+[72x708]following conditional expected payoff function for any given individual
+[72x184]δ
+[72x184]Corollary 1 shows that, for any given
+[72x559]Proposition 5.
+[72x559]If
+[72x586]defined.
+[72x541]concave in rewards,
+[72x541]r
+[72x414]respectively) are of the form:
+[72x432]The optimal
+[72x459]choosing to not comply).
+[72x477]conditional on
+[72x477]i
+[72x523]between all reward levels.
+[75x348]k
+[75x348]with the values
+[82x76]14
+[89x667](
+[89x667]V
+[90x605]The following proposition establishes that each individual's maximization problem is well-
+[90x495]The following corollary presents the two potentially optimal rewards for any individual
+[90x495]i
+[90x72]Equation (9) is derived in Appendix B (Equations (20) and (21)).
+[93x163]0
+[93x163]or
+[101x668]r
+[107x668]|
+[109x112]t
+[109x112]is common to all). That said, what is especially surprising about this is that individuals
+[110x668]γ
+[116x667]i
+[119x163]1
+[119x163]— for any given individual
+[120x668], δ, t, F, ϕ
+[120x170]∗
+[128x166]i
+[139x432]r
+[146x477]subsequently choosing to comply, and the other conditional on
+[149x559]δ
+[155x477]i
+[156x345]0
+[160x559]is not null, then conditional on behavior
+[161x348](
+[165x668]) =
+[165x348]t, F
+[170x559]β
+[181x541], and maximized at an interior
+[181x541]r
+[184x348])
+[184x348]and
+[185x661]
+[185x682]
+[185x693]
+[192x348]k
+[195x678]−
+[195x656]−
+[205x678]γ
+[205x656]r
+[205x656]·
+[206x429]1
+[206x429]and
+[206x436]∗
+[207x381]r
+[211x676]+
+[211x676]i
+[212x378]β
+[212x386]∗
+[213x656]ρ
+[214x432]r
+[217x377]i
+[217x678]r
+[219x345]1
+[219x353]∗
+[220x381](
+[221x148]. This is the combined result of the assumption of budget balance
+[221x259]k
+[224x348](
+[225x381]|
+[225x381]δ
+[225x656](
+[227x298]0
+[227x256]1
+[227x306]∗
+[227x264]∗
+[228x348]t, F
+[229x678]·
+[230x656]δ, ϕ
+[232x259](
+[232x301](
+[234x381]t, F, ϕ
+[237x259]t, F
+[237x301]t, F
+[237x678]ρ
+[241x429](rewards for individuals choosing to comply and not comply
+[241x429]0
+[241x436]∗
+[247x656])
+[247x348]defined implicitly as follows:
+[247x348])
+[249x678](
+[253x678]δ, ϕ
+[255x259]) =
+[255x259]t
+[255x301]) =
+[255x301]t
+[261x656](
+[265x656]·
+[265x656]r
+[266x166]these two possible ideal reward levels are
+[266x166]. Furthermore,
+[266x184],
+[266x184]t
+[270x381]) =
+[270x381]k
+[271x678]−
+[271x678])(1
+[273x656]ρ
+[278x184]F
+[278x184],
+[285x656](
+[288x678]F
+[289x259]+ 1
+[289x301]−
+[290x656]δ, ϕ
+[295x184], and
+[295x184]ϕ
+[295x373]ρ
+[296x301]F
+[298x387]j
+[298x387](
+[298x394]∗
+[300x42]19
+[301x373](
+[306x373]δ, ϕ
+[307x656])) +
+[307x656]t
+[307x390]t, F
+[309x678](
+[310x293]f
+[314x678]r
+[314x678]·
+[317x293](
+[317x267]F
+[318x309](
+[320x251]f
+[322x293]k
+[322x678]ρ
+[323x373])
+[323x373]∀
+[323x309]k
+[326x390])
+[327x251](
+[328x290]0
+[328x297]∗
+[329x306]0
+[329x313]∗
+[330x184], there are only two possible ideal rewards
+[331x656]·
+[332x251]k
+[333x293](
+[334x309](
+[334x678](
+[337x656]F
+[337x293]t, F
+[338x248]1
+[338x255]∗
+[338x267](
+[339x309]t, F
+[339x678]δ, ϕ
+[343x541]δ
+[343x541]. If
+[343x251](
+[343x267]k
+[348x251]t, F
+[348x381]β
+[349x264]1
+[350x271]∗
+[353x656](
+[354x267](
+[355x379]i
+[356x678]))) +
+[356x678]t
+[356x293]))
+[356x293],
+[357x656]·
+[357x656]r
+[357x309]))
+[365x656]ρ
+[366x541]is null, each voter
+[366x251].
+[366x251]))
+[376x541]i
+[377x557]i
+[377x656](
+[377x267]))
+[379x381]0
+[380x559], voter payoffs are strictly quasi-
+[382x656]δ, ϕ
+[385x381],
+[385x381]1
+[391x678]F
+[396x381]}
+[399x656]otherwise.
+[399x656]))
+[402x381],
+[402x381](10)
+[406x678](
+[411x678]·
+[411x678]r
+[417x708]∈
+[417x708]i
+[419x678]ρ
+[425x708]N
+[431x678](
+[435x678]δ, ϕ
+[446x708]:
+[450x712]14
+[453x678]if
+[453x678]))
+[469x477]subsequently
+[470x541]is indifferent
+[471x678]γ
+[487x676]i
+[487x676]≤
+[494x678]r
+[506x678]·
+[512x495](one
+[515x678]ρ
+[526x641](9)
+[527x678](
+[531x678]δ, ϕ
+[548x678])
+[553x678],

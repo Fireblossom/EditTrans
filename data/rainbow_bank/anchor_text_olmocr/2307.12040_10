@@ -1,0 +1,59 @@
+Page dimensions: 612.0x792.0
+[56x280]Agency. G.P. would like to thank B. Bitsch and E. Gaidos for fruitful discussions and P. Hausschildt for
+[56x452](
+[56x667](
+[56x681](PI: Th. Henning) with number 66 and will become public on 2 August 2023 on the MAST database
+[56x382]The MINDS team would like to thank the entire MIRI European and US instrument team. Support
+[56x524]The slab model used in this work is a private code developed by B.T. and collaborators. It can be ob-
+[56x595]The optical constants of the dust species considered in the fitting procedure for the dust continuum can be
+[56x696]The original data analysed in this work are part of the Guaranteed Time Observation (GTO) program 1282
+[56x64]743029 EASY . D.B. has been funded by Spanish MCIN/AEI/10.13039/501100011033 grants PID2019-
+[57x401]Acknowledgements
+[57x78]through the Center of Excellence "InterCat" (DNRF150). T.P.R acknowledges support from ERC grant
+[57x93]support from the ERC grant 101019751 MOLDISK and the Danish National Research Foundation
+[57x107]funding from H2020-MSCA-ITN-2019, grant no. 860470 (CHAMELEON). E.F.v.D. acknowledges
+[57x122]from grant TOP-1614.001.751 from the Dutch Research Council (NWO). I.K. and J.K. acknowledge
+[57x136]their support in the framework of the PRODEX Programme. I.K., A.M.A., and E.v.D. acknowledge support
+[57x150]I.A. thank the European Space Agency (ESA) and the Belgian Federal Science Policy Office (BELSPO) for
+[57x165]Research Foundation Flanders for co-financing the present research (grant number V435622N). D.G. and
+[57x179]Interstellaire' (PCMI) of CNRS/INSU with INC/INP cofunded by CNES. D.G. would like to thank the
+[57x194]No. 945298. B.T. acknowledges support from the Programme National 'Physique et Chimie du Milieu
+[57x208]under the Horizon 2020 innovation framework program and Marie Sklodowska-Curie grant agreement
+[57x223]Region fellowship program, which is supported by the Ile-de-France Region and has received funding
+[57x237]2020 Framework Program via the ERC Advanced Grant Origins 83 24 28. B.T. is a Laureate of the Paris
+[57x252]FNRS. Th.H., R.F. and K.S. acknowledge support from the European Research Council under the Horizon
+[57x266]kindly providing the model atmosphere. V .C. and O.A. acknowledge funding from the Belgian F.R.S.-
+[57x309]School for Astronomy (NOV A); Netherlands Organisation for Scientific Research (NWO); Science and
+[57x324]Raumfahrt (DLR); Enterprise Ireland; Ministerio De Economiá y Competividad; Netherlands Research
+[57x338]Nationale d'Etudes Spatiales (CNES); Danish National Space Centre; Deutsches Zentrum fur Lüft- und
+[57x353]and supported the MIRI development: NASA; ESA; Belgian Science Policy Office (BELSPO); Centre
+[57x367]from STScI is also appreciated. The following National and International Funding Agencies funded
+[57x438]https://matplotlib.org/
+[57x466]rithm (
+[57x481]fitting procedure for the dust continuum uses the publicly available MultiNest Bayesian fitting algo-
+[57x495]the slabspec code, which can be found at
+[57x495]https://doi.org/10.5281/zenodo.4037306
+[57x510]tained from B.T. upon request. The synthetic spectra presented in this work can be reproduced using
+[57x580]downloaded from the HJPDOC database (
+[57x609]using private codes
+[57x638]from the HITRAN database (
+[57x652]at
+[57x652]https://zenodo.org/record/7991022
+[57x716]Data Availability
+[57x544]Code Availability
+[60x452]https://github.com/JohannesBuchner/PyMultiNest
+[90x466]https://github.com/JohannesBuchner/MultiNest
+[149x613]56, 64
+[174x609]https://zenodo.org/record/7991022
+[198x638]https://hitran.org
+[218x667]). The portion of the spectrum presented in Fig. 3 is available on Zenodo
+[258x580]https://www2.mpia-hd.mpg.de/HJPDOC
+[305x652]. The spectroscopic data for water can be downloaded
+[327x638]). The Spitzer-IRS spectrum plotted in Fig. 1 is
+[390x452]). Figures were made with Mat-
+[406x466]) and the PyMultiNest package
+[474x438].
+[502x580]).
+[528x34]11/21
+[530x495]. The
+[554x609].

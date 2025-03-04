@@ -1,0 +1,136 @@
+Page dimensions: 612.0x792.0
+[72x436]We proposed a new class of asymptotically entropy-preserving fluxes for the discretization of the convective terms in
+[72x266]The second-order accurate two-point fluxes presented in this article can be extended to higher-order formulations
+[72x354]These results suggest that AEC fluxes could be good candidate for the discretization of compressible flow equations
+[72x710]The initial conditions for the Taylor-Green vortex are
+[72x222]w
+[72x111]derivative formulas, for which
+[72x168]X
+[72x200]flux is smooth, symmetrical (i.e.
+[72x233]F
+[72x233]FD terms as follows. We consider a numerical flux
+[72x244]equations. The main result of interest for us is that contained in Theorem 3.1 of \[ 7\], which can be reformulated in
+[72x255]by using the approach proposed by Ranocha \[7\] in the context of Discontinuous Galerkin discretization of the Euler
+[72x291]A High-order extension
+[72x333]based on the logarithmic mean, while retaining many important properties. In fact, they guarantee the KEP and PEP
+[72x344]in high performance solvers. Due to the their algebraic form, they are less computationally expensive than the fluxes
+[72x382]able to numerically maintain pressure equilibrium and demonstrating good entropy-conservation property. It was also
+[72x393]preservation property. The theoretical predictions are confirmed on two test cases, verifying that the new schemes are
+[72x414]existing entropy-preserving scheme based on the logarithmic mean, and it consists of economical algebraic fluxes based
+[72x425]the compressible Euler equations with interesting properties. It provides a consistent asymptotic approximation of an
+[72x503]the density and temperature fluctuations do not have an unbound growth (not shown). This is the desired behaviour,
+[72x525]closely achieve a constant value for the entropy integral. Information about the reliability of the scheme can be obtained
+[72x548]to
+[72x548]Aρ
+[72x559]Aρ
+[72x570]shown in Fig. 2 and it is in agreement with the previous results. In this test, since the pressure is not constant,
+[75x122]a
+[92x188]i
+[95x548]-
+[96x189]w
+[96x189],
+[99x548]Ap
+[99x548]and
+[136x189](
+[144x548]-
+[147x548]Ae
+[147x548]and this result is found for both fourth-order and six-order accurate fluxes. An improvement
+[155x189]. Under these hypotheses, by following the steps of the proof to Theorem 3.1 in \[7\], we can show
+[176x748]AEC and KEP numerical fluxes for compressible Euler equations
+[176x748]A P
+[191x662]v
+[191x690]ρ
+[191x627]p
+[193x222]in the nodal points
+[196x676](
+[196x662](
+[197x559]; in this case we have better performances from
+[200x676]x, y, z
+[200x648]x, y, z
+[204x222]i
+[208x111]−
+[219x592]32
+[220x200]w
+[221x68]k
+[221x89]X
+[225x690]) = 1
+[225x627]) = 10 +(cos(2
+[225x648]) = 0
+[225x68]=1
+[228x199]i
+[232x200]w
+[237x109]k
+[240x592]32
+[242x111]F
+[245x199]i
+[247x79](
+[250x592]nodes. The chosen CFL value is sufficiently small that linear invariants
+[251x662]cos(
+[258x80]F
+[260x200]) =
+[269x662]x
+[272x211]is the set of variables
+[274x662]) sin(
+[278x150]2
+[279x200]F
+[281x222]and
+[282x80]w
+[287x676]y
+[289x149]k
+[291x200]w
+[291x633]x
+[294x177]i
+[294x177]≃
+[297x633]) + cos(2
+[299x199]i
+[300x602]≈
+[301x662]) cos(
+[303x42]7
+[304x222]+
+[305x79]k
+[305x150]w
+[308x233]w
+[308x233],
+[309x199]k
+[310x222]k
+[310x80])
+[314x149]i
+[321x232]i
+[322x176]k
+[324x662]z
+[328x199]i
+[330x149]i
+[331x232]k
+[332x602]26
+[334x80](
+[335x200]f
+[335x200]) and consistent with the continuous flux
+[336x233])
+[339x620]16
+[341x149]k
+[341x602]2
+[341x602]. The triperiodic domain has side length
+[346x150])
+[350x79]−
+[354x177]k
+[354x177]then an approximation of the derivative
+[357x79]k
+[359x540]and AEP
+[361x179]∂f
+[362x80],
+[362x80]w
+[374x633]x
+[379x80].
+[380x633]) + 2)
+[390x222]can be any of the numerical fluxes
+[396x211])
+[400x211]. We will assume that the numerical
+[406x559]-
+[407x633]−
+[410x540](1)
+[445x233], which depends on the
+[460x559]Ge
+[504x200]so that
+[511x602]π
+[514x570]-
+[519x179]is

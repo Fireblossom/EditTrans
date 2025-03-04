@@ -1,0 +1,34 @@
+Page dimensions: 612.0x792.0
+[536x755]3
+[72x716]encoded as qubits. Therefore, the quantum source node can transmit information to the quantum
+[72x695]destination node using entangled pairs. When the source node and the destination node are distant
+[72x674]from each other, remote entanglement connections are established according to the assigned rout-
+[72x653]ing. Intermediate quantum nodes, known as quantum repeaters, connect source and destination
+[72x633]nodes using entanglement swapping, which involves joint Bell state measurements, to create a
+[72x612]remote entanglement connection \[6\]. Therefore, a critical challenge for constructing quantum
+[72x591]networks at a large scale is the efficient utilization of entangled pairs and the identification of
+[72x570]optimal routing strategies for managing massive entanglement connections.
+[84x549]Meanwhile, maintaining Entanglement fidelity is crucial to ensure high-quality remote en-
+[72x529]tanglement connections, as the noise in the system \[8\] may prevent quantum repeaters from
+[72x508]producing entangled pairs with the desired fidelity. Low-fidelity entangled pairs can adversely
+[72x487]impact the quality of services offered by quantum applications \[10\]. For example, when the
+[72x466]fidelity of entangled pairs falls below the quantum bit error rate (BER) in quantum cryptographic
+[72x445]protocols, it can lead to the degradation of the security of key distribution \[11\]. Fortunately, the
+[72x425]entanglement purification techniques \[12\]–\[14\] can improve the fidelity of entangled pairs by
+[72x404]using additional entangled pairs. These techniques utilize multiple entangled pairs to combine
+[72x383]them in various ways to increase the fidelity of the final purified entangled pair, such as
+[72x362]entanglement distillation, quantum error correction, and decoherence-free subspaces. However,
+[72x341]determining the optimal number of additional entangled pairs required by the entanglement
+[72x320]purification technique to meet the uncertain requirements of fidelity values needed by quantum
+[72x300]applications is challenging and has been overlooked in the literature.
+[84x279]To overcome the challenges discussed above, in this paper, we propose an entangled pair
+[72x258]and qubit resource management model in QCC. We focus on entangled pair resource allocation
+[72x237]and fidelity-guaranteed entanglement routing in quantum networks, together with qubit resource
+[72x216]allocation for quantum applications on quantum computers of the QCC providers. Specifically,
+[72x196]we formulate the two-stage stochastic programming model to determine the optimal number
+[72x175]of entangled pairs and the optimal number of qubits that can fulfill all requests from multiple
+[72x154]quantum source nodes (i.e., users) and quantum destination nodes (i.e., providers). In the opti-
+[72x133]mization problem, the uncertainties of fidelity requirements, the number of qubits, and the waiting
+[72x112]time for quantum applications are taken into consideration. In addition, we apply the Benders
+[72x92]decomposition algorithm to reduce both the complexity and execution time of the problem. The
+[72x71]goal of the proposed model is to make optimal decisions for quantum applications in minimizing

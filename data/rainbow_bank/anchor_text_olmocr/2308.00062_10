@@ -1,0 +1,245 @@
+Page dimensions: 612.0x792.0
+[72x531]a game with strategic complements, because payoff of each player satisfies increasing differences:
+[72x531]u
+[72x549]increasing function with
+[72x441]w
+[72x495]φ
+[72x567]u
+[72x136]Intuitively, this normalization fixes miscoordination cost at some baseline value
+[72x208]of
+[72x208]b
+[72x118]b
+[72x369]p
+[72x628]P
+[72x298]1 strictly dominant for player
+[72x172]c
+[72x190]b
+[72x674]i
+[72x674]of the network (not including
+[72x692]profile
+[78x565]i
+[79x493]i
+[79x386]is (weakly) increasing, the threshold (weighted) fraction of neighbors who play 1 before
+[79x386]i
+[80x154]b
+[81x82](0
+[83x617]j
+[84x208]and
+[86x387]i
+[86x495]a
+[87x423]With heterogeneous local and global effects, 1
+[87x423]is a best response of player
+[87x585]network coordination game with local and global effects
+[87x244]When
+[87x244]φ
+[87x316]q
+[87x316]To ensure that the threshold fraction
+[87x710]We extend the network coordination game to include global effects as follows. Given player
+[87x710]i
+[91x493]−
+[92x208]c
+[97x493]i
+[98x616]w
+[98x616]i
+[100x511]−
+[100x81]−
+[101x495]p
+[101x495]), without composing with
+[106x404]i
+[106x81]i
+[109x513]a
+[109x405]≥
+[109x405])
+[109x567]P
+[109x82]) can be written equivalently as
+[109x82]s
+[110x619]ˆ
+[120x620]u
+[120x208]φ
+[123x692]p
+[123x242]i
+[125x619]i
+[129x620](1
+[133x441]j
+[136x369]. In other words, with global effects, a smaller fraction of a given player's neighbors need to
+[137x405](0
+[138x620], a
+[147x619]j
+[151x620]) +
+[156x563]w
+[162x404]i
+[165x405])
+[166x637]i
+[167x226]as in the earlier literature. With global effects, there is an additional contribution
+[168x565]i,j
+[174x638],
+[174x601]−
+[176x619]i
+[178x567]u
+[179x620](
+[181x601]i
+[181x601]in
+[182x118]is measured relative to baseline cost.
+[183x565]i
+[187x602]p
+[188x619]i
+[188x638]1\]
+[193x172]. Without loss of generality, we adopt a normalization to address this by fixing
+[193x638]→
+[195x620]a
+[195x567], a
+[205x565]j
+[207x619]i
+[208x298]φ
+[209x567]φ
+[209x567]) +
+[211x602]a
+[211x674]or neighbors of
+[216x601]−
+[223x601]i
+[223x493]i
+[226x637]+
+[226x637]such that payoff to player
+[227x495](
+[231x495]a
+[233x565]i
+[234x511]−
+[236x493]−
+[237x638]i
+[242x493]i
+[244x513]. Indeed, this holds for a (weakly) increasing function of the form
+[245x495]), and our results hold for this generalization. We use
+[246x565]i
+[248x441]i
+[250x316]−
+[253x567]a
+[256x316]φ
+[258x565]−
+[260x86]i
+[262x441].
+[264x565]i
+[266x87]a
+[268x567])), and
+[268x567]u
+[270x86]−
+[273x311]i
+[276x240]w
+[279x320](
+[279x87])
+[281x247]i
+[282x312]+
+[286x319]i
+[289x244]φ
+[289x244]+
+[289x320])
+[296x674]i
+[300x240]w
+[301x42]10
+[303x86]i
+[306x239]i
+[306x87](
+[309x565]i
+[309x87]p
+[309x240](
+[310x278]in terms of continuity, differentiability, concavity,
+[310x278]i
+[313x86]i
+[314x402]w
+[315x249]p
+[316x240]+
+[317x204]w
+[318x408]i
+[319x248]i
+[319x401]i
+[320x87]a
+[321x79]c
+[321x567], a
+[322x240]c
+[323x203]i
+[324x86]−
+[325x212]i
+[326x240]≥
+[326x204](
+[327x405]q
+[327x405]≥
+[329x204]b
+[332x87]))
+[333x204]+
+[333x244]q
+[336x212]i
+[337x565]i
+[340x82]≥
+[340x567]) = 0, where
+[340x567]φ
+[342x204])
+[346x405]φ
+[347x208]q
+[349x82]q
+[349x244], specializes to
+[356x691]i
+[357x638]from playing 1 is given by
+[360x82]and further as
+[365x638]u
+[367x409]i
+[371x296]i
+[373x410]p
+[375x298](
+[377x409]i
+[378x298]p
+[382x689]I
+[383x402])
+[387x298]≤
+[387x298])
+[388x405]s
+[391x585]i
+[395x619]i
+[399x689]−
+[405x674]gets some additional benefit
+[410x565]i
+[412x700]P
+[418x567],
+[418x240]w
+[423x689]j
+[426x689]̸∈
+[429x404]i
+[432x244]q
+[432x244]≥
+[443x136]0 (for example,
+[447x78]i
+[448x244], and with equal and
+[451x689]i
+[454x689]}
+[460x86]i
+[466x87]a
+[468x79]p
+[471x565]is a (weakly)
+[471x565]+
+[478x79]a
+[479x87])
+[483x78]−
+[487x154]q
+[491x79]−
+[491x79]))
+[493x637]i
+[496x529]i
+[496x638](1
+[498x493]−
+[499x100]u
+[501x82]q
+[504x493]i
+[505x638], a
+[508x495]) to aid
+[512x82]≥
+[513x136]= 1)
+[515x637]−
+[521x82]0.
+[523x151]b
+[524x529]i
+[524x638]) =
+[526x99]−
+[526x151]+
+[527x531])
+[532x531]−
+[532x151]c
+[536x100]≥
+[537x154].
