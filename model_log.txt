@@ -1,0 +1,803 @@
+2025-02-19 11:52:45,464,464 root INFO "batch_size":            48
+"box_level":             segment
+"ckpt_path":             None
+"data_dir":              data/rainbow_bank
+"do_predict":            False
+"do_test":               False
+"do_train":              True
+"dropout":               0.1
+"edit_label":            True
+"enable_aug":            False
+"gpus":                  1
+"learning_rate":         4e-05
+"log_every_n_steps":     10
+"max_epochs":            10
+"max_length":            1024
+"max_steps":             40000
+"ner_labels":            ClassLabel(names=['DELETE', 'INSERT_LEFT', 'KEEP', '[DUMMY]'], id=None)
+"norm_bbox_height":      1000
+"norm_bbox_width":       1000
+"num_nodes":             1
+"num_samples":           162102
+"patience":              50
+"precision":             16
+"preprocess_workers":    16
+"pretrained_model_path": Norm/ERNIE-Layout-Pytorch
+"save_model_dir":        ./lightning_logs_ernie_edit
+"seed":                  42
+"strategy":              None
+"test_dataset_name":     test.txt
+"train_dataset_name":    train.txt
+"use_image":             True
+"val_test_batch_size":   48
+"valid_dataset_name":    test.txt
+"warmup_ratio":          0.01
+"weight_decay":          1e-05
+2025-02-19 11:52:45,522,522 root INFO - num_samples is: 162102
+2025-02-19 11:52:45,522,522 root INFO - max_epochs is: 10
+2025-02-19 11:52:45,522,522 root INFO - total_steps is: 33780
+2025-02-19 11:52:45,522,522 root INFO - batch size (1 gpu) is: 48
+2025-02-19 11:52:45,522,522 root INFO - accumulate_grad_batches is: 1
+2025-02-19 11:52:51,672,672 root INFO **Validation** , Epoch: 0/10, GlobalSteps: 0, val_micro_f1: 0.29533, val_micro_f1_seg: 0.00000
+2025-02-19 11:53:52,952,952 root INFO Epoch: 0/10, Steps: 49, Learning Rate 0.0000058, Train Loss: 1.15132
+2025-02-19 11:54:50,199,199 root INFO Epoch: 0/10, Steps: 99, Learning Rate 0.0000118, Train Loss: 0.95877
+2025-02-19 11:55:47,362,362 root INFO Epoch: 0/10, Steps: 149, Learning Rate 0.0000177, Train Loss: 0.90576
+2025-02-19 11:56:15,658,658 nougat.dataset.code_doc_dataset ERROR data/rainbow_bankjson/2307.14129_25.png.json
+2025-02-19 11:56:15,659,659 nougat.dataset.code_doc_dataset ERROR Unable to create tensor, you should probably activate padding with 'padding=True' to have batched tensors with the same length.
+2025-02-19 11:56:33,289,289 root INFO "batch_size":            48
+"box_level":             segment
+"ckpt_path":             None
+"data_dir":              data/rainbow_bank
+"do_predict":            False
+"do_test":               False
+"do_train":              True
+"dropout":               0.1
+"edit_label":            True
+"enable_aug":            False
+"gpus":                  1
+"learning_rate":         4e-05
+"log_every_n_steps":     10
+"max_epochs":            10
+"max_length":            1024
+"max_steps":             40000
+"ner_labels":            ClassLabel(names=['DELETE', 'INSERT_LEFT', 'KEEP', '[DUMMY]'], id=None)
+"norm_bbox_height":      1000
+"norm_bbox_width":       1000
+"num_nodes":             1
+"num_samples":           162102
+"patience":              50
+"precision":             16
+"preprocess_workers":    16
+"pretrained_model_path": Norm/ERNIE-Layout-Pytorch
+"save_model_dir":        ./lightning_logs_ernie_edit
+"seed":                  42
+"strategy":              None
+"test_dataset_name":     test.txt
+"train_dataset_name":    train.txt
+"use_image":             True
+"val_test_batch_size":   48
+"valid_dataset_name":    test.txt
+"warmup_ratio":          0.01
+"weight_decay":          1e-05
+2025-02-19 11:56:33,349,349 root INFO - num_samples is: 162102
+2025-02-19 11:56:33,350,350 root INFO - max_epochs is: 10
+2025-02-19 11:56:33,350,350 root INFO - total_steps is: 33780
+2025-02-19 11:56:33,350,350 root INFO - batch size (1 gpu) is: 48
+2025-02-19 11:56:33,350,350 root INFO - accumulate_grad_batches is: 1
+2025-02-19 11:56:40,118,118 root INFO **Validation** , Epoch: 0/10, GlobalSteps: 0, val_micro_f1: 0.29533, val_micro_f1_seg: 0.00000
+2025-02-19 11:57:37,883,883 root INFO Epoch: 0/10, Steps: 49, Learning Rate 0.0000058, Train Loss: 1.15369
+2025-02-19 11:58:31,448,448 root INFO Epoch: 0/10, Steps: 99, Learning Rate 0.0000118, Train Loss: 0.96015
+2025-02-19 11:59:24,999,999 root INFO Epoch: 0/10, Steps: 149, Learning Rate 0.0000177, Train Loss: 0.90580
+2025-02-19 12:00:18,552,552 root INFO Epoch: 0/10, Steps: 199, Learning Rate 0.0000236, Train Loss: 0.83021
+2025-02-19 12:01:12,115,115 root INFO Epoch: 0/10, Steps: 249, Learning Rate 0.0000296, Train Loss: 0.65750
+2025-02-19 12:02:05,654,654 root INFO Epoch: 0/10, Steps: 299, Learning Rate 0.0000355, Train Loss: 0.54562
+2025-02-19 12:02:59,219,219 root INFO Epoch: 0/10, Steps: 349, Learning Rate 0.0000400, Train Loss: 0.68754
+2025-02-19 12:03:52,802,802 root INFO Epoch: 0/10, Steps: 399, Learning Rate 0.0000399, Train Loss: 0.53034
+2025-02-19 12:04:46,378,378 root INFO Epoch: 0/10, Steps: 449, Learning Rate 0.0000399, Train Loss: 0.53610
+2025-02-19 12:05:39,928,928 root INFO Epoch: 0/10, Steps: 499, Learning Rate 0.0000398, Train Loss: 0.51363
+2025-02-19 12:06:33,478,478 root INFO Epoch: 0/10, Steps: 549, Learning Rate 0.0000397, Train Loss: 0.47615
+2025-02-19 12:07:27,045,45 root INFO Epoch: 0/10, Steps: 599, Learning Rate 0.0000397, Train Loss: 0.44040
+2025-02-19 12:08:20,613,613 root INFO Epoch: 0/10, Steps: 649, Learning Rate 0.0000396, Train Loss: 0.48771
+2025-02-19 12:09:14,199,199 root INFO Epoch: 0/10, Steps: 699, Learning Rate 0.0000396, Train Loss: 0.59128
+2025-02-19 12:10:07,779,779 root INFO Epoch: 0/10, Steps: 749, Learning Rate 0.0000395, Train Loss: 0.43919
+2025-02-19 12:11:01,356,356 root INFO Epoch: 0/10, Steps: 799, Learning Rate 0.0000394, Train Loss: 0.39100
+2025-02-19 12:11:54,919,919 root INFO Epoch: 0/10, Steps: 849, Learning Rate 0.0000394, Train Loss: 0.43591
+2025-02-19 12:12:48,484,484 root INFO Epoch: 0/10, Steps: 899, Learning Rate 0.0000393, Train Loss: 0.41969
+2025-02-19 12:13:42,061,61 root INFO Epoch: 0/10, Steps: 949, Learning Rate 0.0000393, Train Loss: 0.35552
+2025-02-19 12:14:35,686,686 root INFO Epoch: 0/10, Steps: 999, Learning Rate 0.0000392, Train Loss: 0.52818
+2025-02-19 12:15:29,276,276 root INFO Epoch: 0/10, Steps: 1049, Learning Rate 0.0000391, Train Loss: 0.43907
+2025-02-19 12:16:22,859,859 root INFO Epoch: 0/10, Steps: 1099, Learning Rate 0.0000391, Train Loss: 0.37187
+2025-02-19 12:17:16,448,448 root INFO Epoch: 0/10, Steps: 1149, Learning Rate 0.0000390, Train Loss: 0.46078
+2025-02-19 12:18:10,015,15 root INFO Epoch: 0/10, Steps: 1199, Learning Rate 0.0000390, Train Loss: 0.40943
+2025-02-19 12:19:03,590,590 root INFO Epoch: 0/10, Steps: 1249, Learning Rate 0.0000389, Train Loss: 0.35366
+2025-02-19 12:19:57,151,151 root INFO Epoch: 0/10, Steps: 1299, Learning Rate 0.0000388, Train Loss: 0.40097
+2025-02-19 12:20:50,728,728 root INFO Epoch: 0/10, Steps: 1349, Learning Rate 0.0000388, Train Loss: 0.33278
+2025-02-19 12:21:44,266,266 root INFO Epoch: 0/10, Steps: 1399, Learning Rate 0.0000387, Train Loss: 0.36284
+2025-02-19 12:22:37,869,869 root INFO Epoch: 0/10, Steps: 1449, Learning Rate 0.0000387, Train Loss: 0.27252
+2025-02-19 12:23:31,443,443 root INFO Epoch: 0/10, Steps: 1499, Learning Rate 0.0000386, Train Loss: 0.40794
+2025-02-19 12:24:25,018,18 root INFO Epoch: 0/10, Steps: 1549, Learning Rate 0.0000386, Train Loss: 0.36364
+2025-02-19 12:25:18,567,567 root INFO Epoch: 0/10, Steps: 1599, Learning Rate 0.0000385, Train Loss: 0.31105
+2025-02-19 12:26:12,105,105 root INFO Epoch: 0/10, Steps: 1649, Learning Rate 0.0000384, Train Loss: 0.37933
+2025-02-19 12:27:05,661,661 root INFO Epoch: 0/10, Steps: 1699, Learning Rate 0.0000384, Train Loss: 0.31049
+2025-02-19 12:27:59,172,172 root INFO Epoch: 0/10, Steps: 1749, Learning Rate 0.0000383, Train Loss: 0.27101
+2025-02-19 12:28:52,700,700 root INFO Epoch: 0/10, Steps: 1799, Learning Rate 0.0000383, Train Loss: 0.28721
+2025-02-19 12:29:46,187,187 root INFO Epoch: 0/10, Steps: 1849, Learning Rate 0.0000382, Train Loss: 0.26726
+2025-02-19 12:30:39,725,725 root INFO Epoch: 0/10, Steps: 1899, Learning Rate 0.0000381, Train Loss: 0.24473
+2025-02-19 12:31:33,262,262 root INFO Epoch: 0/10, Steps: 1949, Learning Rate 0.0000381, Train Loss: 0.37990
+2025-02-19 12:32:26,810,810 root INFO Epoch: 0/10, Steps: 1999, Learning Rate 0.0000380, Train Loss: 0.26135
+2025-02-19 12:33:20,353,353 root INFO Epoch: 0/10, Steps: 2049, Learning Rate 0.0000380, Train Loss: 0.28364
+2025-02-19 12:34:13,894,894 root INFO Epoch: 0/10, Steps: 2099, Learning Rate 0.0000379, Train Loss: 0.21924
+2025-02-19 12:35:07,422,422 root INFO Epoch: 0/10, Steps: 2149, Learning Rate 0.0000378, Train Loss: 0.37793
+2025-02-19 12:36:00,935,935 root INFO Epoch: 0/10, Steps: 2199, Learning Rate 0.0000378, Train Loss: 0.28126
+2025-02-19 12:36:54,445,445 root INFO Epoch: 0/10, Steps: 2249, Learning Rate 0.0000377, Train Loss: 0.27031
+2025-02-19 12:37:47,961,961 root INFO Epoch: 0/10, Steps: 2299, Learning Rate 0.0000377, Train Loss: 0.25957
+2025-02-19 12:38:41,474,474 root INFO Epoch: 0/10, Steps: 2349, Learning Rate 0.0000376, Train Loss: 0.27129
+2025-02-19 12:39:35,098,98 root INFO Epoch: 0/10, Steps: 2399, Learning Rate 0.0000375, Train Loss: 0.25467
+2025-02-19 12:40:28,651,651 root INFO Epoch: 0/10, Steps: 2449, Learning Rate 0.0000375, Train Loss: 0.27092
+2025-02-19 12:41:22,171,171 root INFO Epoch: 0/10, Steps: 2499, Learning Rate 0.0000374, Train Loss: 0.22909
+2025-02-19 12:42:15,724,724 root INFO Epoch: 0/10, Steps: 2549, Learning Rate 0.0000374, Train Loss: 0.26095
+2025-02-19 12:43:09,326,326 root INFO Epoch: 0/10, Steps: 2599, Learning Rate 0.0000373, Train Loss: 0.28541
+2025-02-19 12:44:02,869,869 root INFO Epoch: 0/10, Steps: 2649, Learning Rate 0.0000372, Train Loss: 0.29070
+2025-02-19 12:44:56,381,381 root INFO Epoch: 0/10, Steps: 2699, Learning Rate 0.0000372, Train Loss: 0.26842
+2025-02-19 12:45:49,938,938 root INFO Epoch: 0/10, Steps: 2749, Learning Rate 0.0000371, Train Loss: 0.23540
+2025-02-19 12:46:43,461,461 root INFO Epoch: 0/10, Steps: 2799, Learning Rate 0.0000371, Train Loss: 0.22414
+2025-02-19 12:47:37,003,3 root INFO Epoch: 0/10, Steps: 2849, Learning Rate 0.0000370, Train Loss: 0.27246
+2025-02-19 12:48:30,548,548 root INFO Epoch: 0/10, Steps: 2899, Learning Rate 0.0000369, Train Loss: 0.28503
+2025-02-19 12:49:24,123,123 root INFO Epoch: 0/10, Steps: 2949, Learning Rate 0.0000369, Train Loss: 0.29523
+2025-02-19 12:50:17,694,694 root INFO Epoch: 0/10, Steps: 2999, Learning Rate 0.0000368, Train Loss: 0.26974
+2025-02-19 12:51:11,278,278 root INFO Epoch: 0/10, Steps: 3049, Learning Rate 0.0000368, Train Loss: 0.24039
+2025-02-19 12:52:04,857,857 root INFO Epoch: 0/10, Steps: 3099, Learning Rate 0.0000367, Train Loss: 0.25584
+2025-02-19 12:52:58,430,430 root INFO Epoch: 0/10, Steps: 3149, Learning Rate 0.0000366, Train Loss: 0.22004
+2025-02-19 12:53:51,957,957 root INFO Epoch: 0/10, Steps: 3199, Learning Rate 0.0000366, Train Loss: 0.21565
+2025-02-19 12:54:45,485,485 root INFO Epoch: 0/10, Steps: 3249, Learning Rate 0.0000365, Train Loss: 0.24056
+2025-02-19 12:55:39,027,27 root INFO Epoch: 0/10, Steps: 3299, Learning Rate 0.0000365, Train Loss: 0.19949
+2025-02-19 12:56:32,575,575 root INFO Epoch: 0/10, Steps: 3349, Learning Rate 0.0000364, Train Loss: 0.31491
+2025-02-19 13:00:54,696,696 root INFO **Validation** , Epoch: 0/10, GlobalSteps: 3378, val_micro_f1: 0.91236, val_micro_f1_seg: 0.00000
+2025-02-19 13:01:56,200,200 root INFO Epoch: 1/10, Steps: 49, Learning Rate 0.0000363, Train Loss: 0.24981
+2025-02-19 13:02:49,796,796 root INFO Epoch: 1/10, Steps: 99, Learning Rate 0.0000362, Train Loss: 0.21865
+2025-02-19 13:03:43,428,428 root INFO Epoch: 1/10, Steps: 149, Learning Rate 0.0000362, Train Loss: 0.26794
+2025-02-19 13:04:37,049,49 root INFO Epoch: 1/10, Steps: 199, Learning Rate 0.0000361, Train Loss: 0.20777
+2025-02-19 13:05:30,675,675 root INFO Epoch: 1/10, Steps: 249, Learning Rate 0.0000361, Train Loss: 0.20352
+2025-02-19 13:06:24,284,284 root INFO Epoch: 1/10, Steps: 299, Learning Rate 0.0000360, Train Loss: 0.23372
+2025-02-19 13:07:17,920,920 root INFO Epoch: 1/10, Steps: 349, Learning Rate 0.0000359, Train Loss: 0.26164
+2025-02-19 13:08:11,526,526 root INFO Epoch: 1/10, Steps: 399, Learning Rate 0.0000359, Train Loss: 0.27218
+2025-02-19 13:09:05,118,118 root INFO Epoch: 1/10, Steps: 449, Learning Rate 0.0000358, Train Loss: 0.24316
+2025-02-19 13:09:58,710,710 root INFO Epoch: 1/10, Steps: 499, Learning Rate 0.0000358, Train Loss: 0.15210
+2025-02-19 13:10:52,327,327 root INFO Epoch: 1/10, Steps: 549, Learning Rate 0.0000357, Train Loss: 0.21481
+2025-02-19 13:11:45,918,918 root INFO Epoch: 1/10, Steps: 599, Learning Rate 0.0000356, Train Loss: 0.19517
+2025-02-19 13:12:39,521,521 root INFO Epoch: 1/10, Steps: 649, Learning Rate 0.0000356, Train Loss: 0.20108
+2025-02-19 13:13:33,116,116 root INFO Epoch: 1/10, Steps: 699, Learning Rate 0.0000355, Train Loss: 0.18636
+2025-02-19 13:14:26,702,702 root INFO Epoch: 1/10, Steps: 749, Learning Rate 0.0000355, Train Loss: 0.25550
+2025-02-19 13:15:20,314,314 root INFO Epoch: 1/10, Steps: 799, Learning Rate 0.0000354, Train Loss: 0.20104
+2025-02-19 13:16:13,945,945 root INFO Epoch: 1/10, Steps: 849, Learning Rate 0.0000353, Train Loss: 0.17840
+2025-02-19 13:17:07,543,543 root INFO Epoch: 1/10, Steps: 899, Learning Rate 0.0000353, Train Loss: 0.28354
+2025-02-19 13:18:01,151,151 root INFO Epoch: 1/10, Steps: 949, Learning Rate 0.0000352, Train Loss: 0.35854
+2025-02-19 13:19:48,339,339 root INFO Epoch: 1/10, Steps: 1049, Learning Rate 0.0000351, Train Loss: 0.21632
+2025-02-19 13:20:41,876,876 root INFO Epoch: 1/10, Steps: 1099, Learning Rate 0.0000350, Train Loss: 0.19003
+2025-02-19 13:21:35,432,432 root INFO Epoch: 1/10, Steps: 1149, Learning Rate 0.0000350, Train Loss: 0.24242
+2025-02-19 13:22:29,027,27 root INFO Epoch: 1/10, Steps: 1199, Learning Rate 0.0000349, Train Loss: 0.18544
+2025-02-19 13:22:57,045,45 root INFO **Test** , test_micro_f1_token_level: 0.91236, test_micro_f1_segment_level: 0.89068
+2025-02-19 13:23:22,621,621 root INFO Epoch: 1/10, Steps: 1249, Learning Rate 0.0000349, Train Loss: 0.24880
+2025-02-19 13:24:16,214,214 root INFO Epoch: 1/10, Steps: 1299, Learning Rate 0.0000348, Train Loss: 0.15615
+2025-02-19 13:25:09,813,813 root INFO Epoch: 1/10, Steps: 1349, Learning Rate 0.0000347, Train Loss: 0.15680
+2025-02-19 13:26:03,390,390 root INFO Epoch: 1/10, Steps: 1399, Learning Rate 0.0000347, Train Loss: 0.19880
+2025-02-19 13:26:56,950,950 root INFO Epoch: 1/10, Steps: 1449, Learning Rate 0.0000346, Train Loss: 0.21362
+2025-02-19 13:27:50,524,524 root INFO Epoch: 1/10, Steps: 1499, Learning Rate 0.0000346, Train Loss: 0.18386
+2025-02-19 13:28:44,077,77 root INFO Epoch: 1/10, Steps: 1549, Learning Rate 0.0000345, Train Loss: 0.18743
+2025-02-19 13:29:37,631,631 root INFO Epoch: 1/10, Steps: 1599, Learning Rate 0.0000345, Train Loss: 0.19903
+2025-02-19 13:30:31,189,189 root INFO Epoch: 1/10, Steps: 1649, Learning Rate 0.0000344, Train Loss: 0.25730
+2025-02-19 13:31:24,761,761 root INFO Epoch: 1/10, Steps: 1699, Learning Rate 0.0000343, Train Loss: 0.21081
+2025-02-19 13:32:18,332,332 root INFO Epoch: 1/10, Steps: 1749, Learning Rate 0.0000343, Train Loss: 0.16713
+2025-02-19 13:33:11,906,906 root INFO Epoch: 1/10, Steps: 1799, Learning Rate 0.0000342, Train Loss: 0.17998
+2025-02-19 13:34:05,471,471 root INFO Epoch: 1/10, Steps: 1849, Learning Rate 0.0000342, Train Loss: 0.19674
+2025-02-19 13:34:59,040,40 root INFO Epoch: 1/10, Steps: 1899, Learning Rate 0.0000341, Train Loss: 0.18557
+2025-02-19 13:35:52,668,668 root INFO Epoch: 1/10, Steps: 1949, Learning Rate 0.0000340, Train Loss: 0.18950
+2025-02-19 13:36:46,194,194 root INFO Epoch: 1/10, Steps: 1999, Learning Rate 0.0000340, Train Loss: 0.27453
+2025-02-19 13:37:39,735,735 root INFO Epoch: 1/10, Steps: 2049, Learning Rate 0.0000339, Train Loss: 0.22043
+2025-02-19 13:38:33,276,276 root INFO Epoch: 1/10, Steps: 2099, Learning Rate 0.0000339, Train Loss: 0.16375
+2025-02-19 13:39:26,849,849 root INFO Epoch: 1/10, Steps: 2149, Learning Rate 0.0000338, Train Loss: 0.22517
+2025-02-19 13:40:20,462,462 root INFO Epoch: 1/10, Steps: 2199, Learning Rate 0.0000337, Train Loss: 0.20614
+2025-02-19 13:41:14,003,3 root INFO Epoch: 1/10, Steps: 2249, Learning Rate 0.0000337, Train Loss: 0.16257
+2025-02-19 13:42:07,560,560 root INFO Epoch: 1/10, Steps: 2299, Learning Rate 0.0000336, Train Loss: 0.17210
+2025-02-19 13:43:01,128,128 root INFO Epoch: 1/10, Steps: 2349, Learning Rate 0.0000336, Train Loss: 0.18988
+2025-02-19 13:43:54,675,675 root INFO Epoch: 1/10, Steps: 2399, Learning Rate 0.0000335, Train Loss: 0.29332
+2025-02-19 13:44:48,207,207 root INFO Epoch: 1/10, Steps: 2449, Learning Rate 0.0000334, Train Loss: 0.17622
+2025-02-19 13:45:41,730,730 root INFO Epoch: 1/10, Steps: 2499, Learning Rate 0.0000334, Train Loss: 0.21680
+2025-02-19 13:46:35,275,275 root INFO Epoch: 1/10, Steps: 2549, Learning Rate 0.0000333, Train Loss: 0.14251
+2025-02-19 13:47:28,822,822 root INFO Epoch: 1/10, Steps: 2599, Learning Rate 0.0000333, Train Loss: 0.13722
+2025-02-19 13:48:22,392,392 root INFO Epoch: 1/10, Steps: 2649, Learning Rate 0.0000332, Train Loss: 0.16497
+2025-02-19 13:49:15,960,960 root INFO Epoch: 1/10, Steps: 2699, Learning Rate 0.0000331, Train Loss: 0.18279
+2025-02-19 13:50:09,532,532 root INFO Epoch: 1/10, Steps: 2749, Learning Rate 0.0000331, Train Loss: 0.13874
+2025-02-19 13:51:03,122,122 root INFO Epoch: 1/10, Steps: 2799, Learning Rate 0.0000330, Train Loss: 0.23299
+2025-02-19 13:51:56,689,689 root INFO Epoch: 1/10, Steps: 2849, Learning Rate 0.0000330, Train Loss: 0.16607
+2025-02-19 13:52:50,248,248 root INFO Epoch: 1/10, Steps: 2899, Learning Rate 0.0000329, Train Loss: 0.16083
+2025-02-19 13:53:43,827,827 root INFO Epoch: 1/10, Steps: 2949, Learning Rate 0.0000328, Train Loss: 0.17613
+2025-02-19 13:54:37,400,400 root INFO Epoch: 1/10, Steps: 2999, Learning Rate 0.0000328, Train Loss: 0.20163
+2025-02-19 13:55:30,968,968 root INFO Epoch: 1/10, Steps: 3049, Learning Rate 0.0000327, Train Loss: 0.15923
+2025-02-19 13:56:24,521,521 root INFO Epoch: 1/10, Steps: 3099, Learning Rate 0.0000327, Train Loss: 0.11470
+2025-02-19 13:57:18,125,125 root INFO Epoch: 1/10, Steps: 3149, Learning Rate 0.0000326, Train Loss: 0.18745
+2025-02-19 13:58:11,690,690 root INFO Epoch: 1/10, Steps: 3199, Learning Rate 0.0000325, Train Loss: 0.13409
+2025-02-19 13:59:05,266,266 root INFO Epoch: 1/10, Steps: 3249, Learning Rate 0.0000325, Train Loss: 0.18973
+2025-02-19 13:59:58,826,826 root INFO Epoch: 1/10, Steps: 3299, Learning Rate 0.0000324, Train Loss: 0.20369
+2025-02-19 14:00:52,383,383 root INFO Epoch: 1/10, Steps: 3349, Learning Rate 0.0000324, Train Loss: 0.12807
+2025-02-19 14:05:14,236,236 root INFO **Validation** , Epoch: 1/10, GlobalSteps: 6756, val_micro_f1: 0.93922, val_micro_f1_seg: 0.00000
+2025-02-19 14:06:15,918,918 root INFO Epoch: 2/10, Steps: 49, Learning Rate 0.0000323, Train Loss: 0.17815
+2025-02-19 14:07:09,472,472 root INFO Epoch: 2/10, Steps: 99, Learning Rate 0.0000322, Train Loss: 0.16403
+2025-02-19 14:08:03,031,31 root INFO Epoch: 2/10, Steps: 149, Learning Rate 0.0000321, Train Loss: 0.14753
+2025-02-19 14:08:56,590,590 root INFO Epoch: 2/10, Steps: 199, Learning Rate 0.0000321, Train Loss: 0.20071
+2025-02-19 14:09:50,179,179 root INFO Epoch: 2/10, Steps: 249, Learning Rate 0.0000320, Train Loss: 0.17918
+2025-02-19 14:10:43,768,768 root INFO Epoch: 2/10, Steps: 299, Learning Rate 0.0000320, Train Loss: 0.15857
+2025-02-19 14:11:37,354,354 root INFO Epoch: 2/10, Steps: 349, Learning Rate 0.0000319, Train Loss: 0.30146
+2025-02-19 14:12:30,921,921 root INFO Epoch: 2/10, Steps: 399, Learning Rate 0.0000318, Train Loss: 0.16659
+2025-02-19 14:13:24,564,564 root INFO Epoch: 2/10, Steps: 449, Learning Rate 0.0000318, Train Loss: 0.22172
+2025-02-19 14:14:18,130,130 root INFO Epoch: 2/10, Steps: 499, Learning Rate 0.0000317, Train Loss: 0.15711
+2025-02-19 14:15:11,683,683 root INFO Epoch: 2/10, Steps: 549, Learning Rate 0.0000317, Train Loss: 0.17295
+2025-02-19 14:16:05,300,300 root INFO Epoch: 2/10, Steps: 599, Learning Rate 0.0000316, Train Loss: 0.29317
+2025-02-19 14:16:58,979,979 root INFO Epoch: 2/10, Steps: 649, Learning Rate 0.0000315, Train Loss: 0.15587
+2025-02-19 14:17:52,572,572 root INFO Epoch: 2/10, Steps: 699, Learning Rate 0.0000315, Train Loss: 0.17569
+2025-02-19 14:18:46,164,164 root INFO Epoch: 2/10, Steps: 749, Learning Rate 0.0000314, Train Loss: 0.18664
+2025-02-19 14:19:39,725,725 root INFO Epoch: 2/10, Steps: 799, Learning Rate 0.0000314, Train Loss: 0.13881
+2025-02-19 14:20:33,363,363 root INFO Epoch: 2/10, Steps: 849, Learning Rate 0.0000313, Train Loss: 0.16602
+2025-02-19 14:21:27,025,25 root INFO Epoch: 2/10, Steps: 899, Learning Rate 0.0000312, Train Loss: 0.15030
+2025-02-19 14:22:20,547,547 root INFO Epoch: 2/10, Steps: 949, Learning Rate 0.0000312, Train Loss: 0.16249
+2025-02-19 14:23:14,135,135 root INFO Epoch: 2/10, Steps: 999, Learning Rate 0.0000311, Train Loss: 0.14091
+2025-02-19 14:24:07,709,709 root INFO Epoch: 2/10, Steps: 1049, Learning Rate 0.0000311, Train Loss: 0.23764
+2025-02-19 14:25:01,322,322 root INFO Epoch: 2/10, Steps: 1099, Learning Rate 0.0000310, Train Loss: 0.13093
+2025-02-19 14:25:54,863,863 root INFO Epoch: 2/10, Steps: 1149, Learning Rate 0.0000309, Train Loss: 0.18359
+2025-02-19 14:26:48,435,435 root INFO Epoch: 2/10, Steps: 1199, Learning Rate 0.0000309, Train Loss: 0.15026
+2025-02-19 14:27:42,019,19 root INFO Epoch: 2/10, Steps: 1249, Learning Rate 0.0000308, Train Loss: 0.27539
+2025-02-19 14:28:35,597,597 root INFO Epoch: 2/10, Steps: 1299, Learning Rate 0.0000308, Train Loss: 0.17123
+2025-02-19 14:29:29,143,143 root INFO Epoch: 2/10, Steps: 1349, Learning Rate 0.0000307, Train Loss: 0.19494
+2025-02-19 14:30:22,645,645 root INFO Epoch: 2/10, Steps: 1399, Learning Rate 0.0000306, Train Loss: 0.12473
+2025-02-19 14:31:16,169,169 root INFO Epoch: 2/10, Steps: 1449, Learning Rate 0.0000306, Train Loss: 0.13188
+2025-02-19 14:32:09,643,643 root INFO Epoch: 2/10, Steps: 1499, Learning Rate 0.0000305, Train Loss: 0.13146
+2025-02-19 14:33:03,088,88 root INFO Epoch: 2/10, Steps: 1549, Learning Rate 0.0000305, Train Loss: 0.28497
+2025-02-19 14:33:56,657,657 root INFO Epoch: 2/10, Steps: 1599, Learning Rate 0.0000304, Train Loss: 0.16071
+2025-02-19 14:34:50,241,241 root INFO Epoch: 2/10, Steps: 1649, Learning Rate 0.0000304, Train Loss: 0.11136
+2025-02-19 14:35:43,828,828 root INFO Epoch: 2/10, Steps: 1699, Learning Rate 0.0000303, Train Loss: 0.21773
+2025-02-19 14:36:37,397,397 root INFO Epoch: 2/10, Steps: 1749, Learning Rate 0.0000302, Train Loss: 0.21432
+2025-02-19 14:37:30,997,997 root INFO Epoch: 2/10, Steps: 1799, Learning Rate 0.0000302, Train Loss: 0.10920
+2025-02-19 14:38:24,556,556 root INFO Epoch: 2/10, Steps: 1849, Learning Rate 0.0000301, Train Loss: 0.13227
+2025-02-19 14:39:18,138,138 root INFO Epoch: 2/10, Steps: 1899, Learning Rate 0.0000301, Train Loss: 0.34729
+2025-02-19 14:40:11,697,697 root INFO Epoch: 2/10, Steps: 1949, Learning Rate 0.0000300, Train Loss: 0.15810
+2025-02-19 14:41:05,232,232 root INFO Epoch: 2/10, Steps: 1999, Learning Rate 0.0000299, Train Loss: 0.11566
+2025-02-19 14:41:58,831,831 root INFO Epoch: 2/10, Steps: 2049, Learning Rate 0.0000299, Train Loss: 0.20211
+2025-02-19 14:42:52,394,394 root INFO Epoch: 2/10, Steps: 2099, Learning Rate 0.0000298, Train Loss: 0.16852
+2025-02-19 14:43:45,955,955 root INFO Epoch: 2/10, Steps: 2149, Learning Rate 0.0000298, Train Loss: 0.15577
+2025-02-19 14:44:39,606,606 root INFO Epoch: 2/10, Steps: 2199, Learning Rate 0.0000297, Train Loss: 0.14175
+2025-02-19 14:45:33,144,144 root INFO Epoch: 2/10, Steps: 2249, Learning Rate 0.0000296, Train Loss: 0.22998
+2025-02-19 14:46:26,696,696 root INFO Epoch: 2/10, Steps: 2299, Learning Rate 0.0000296, Train Loss: 0.14955
+2025-02-19 14:47:20,242,242 root INFO Epoch: 2/10, Steps: 2349, Learning Rate 0.0000295, Train Loss: 0.13554
+2025-02-19 14:48:13,839,839 root INFO Epoch: 2/10, Steps: 2399, Learning Rate 0.0000295, Train Loss: 0.16134
+2025-02-19 14:49:07,385,385 root INFO Epoch: 2/10, Steps: 2449, Learning Rate 0.0000294, Train Loss: 0.12360
+2025-02-19 14:50:00,971,971 root INFO Epoch: 2/10, Steps: 2499, Learning Rate 0.0000293, Train Loss: 0.16004
+2025-02-19 14:50:54,557,557 root INFO Epoch: 2/10, Steps: 2549, Learning Rate 0.0000293, Train Loss: 0.12416
+2025-02-19 14:51:48,068,68 root INFO Epoch: 2/10, Steps: 2599, Learning Rate 0.0000292, Train Loss: 0.17001
+2025-02-19 14:52:41,673,673 root INFO Epoch: 2/10, Steps: 2649, Learning Rate 0.0000292, Train Loss: 0.12367
+2025-02-19 14:53:35,187,187 root INFO Epoch: 2/10, Steps: 2699, Learning Rate 0.0000291, Train Loss: 0.13024
+2025-02-19 14:54:28,727,727 root INFO Epoch: 2/10, Steps: 2749, Learning Rate 0.0000290, Train Loss: 0.15894
+2025-02-19 14:55:22,314,314 root INFO Epoch: 2/10, Steps: 2799, Learning Rate 0.0000290, Train Loss: 0.11583
+2025-02-19 14:56:15,873,873 root INFO Epoch: 2/10, Steps: 2849, Learning Rate 0.0000289, Train Loss: 0.09211
+2025-02-19 14:57:09,450,450 root INFO Epoch: 2/10, Steps: 2899, Learning Rate 0.0000289, Train Loss: 0.11704
+2025-02-19 14:58:02,967,967 root INFO Epoch: 2/10, Steps: 2949, Learning Rate 0.0000288, Train Loss: 0.17351
+2025-02-19 14:58:56,538,538 root INFO Epoch: 2/10, Steps: 2999, Learning Rate 0.0000287, Train Loss: 0.11314
+2025-02-19 14:59:50,104,104 root INFO Epoch: 2/10, Steps: 3049, Learning Rate 0.0000287, Train Loss: 0.13555
+2025-02-19 15:00:43,680,680 root INFO Epoch: 2/10, Steps: 3099, Learning Rate 0.0000286, Train Loss: 0.17374
+2025-02-19 15:01:37,275,275 root INFO Epoch: 2/10, Steps: 3149, Learning Rate 0.0000286, Train Loss: 0.16628
+2025-02-19 15:02:30,837,837 root INFO Epoch: 2/10, Steps: 3199, Learning Rate 0.0000285, Train Loss: 0.10242
+2025-02-19 15:03:24,400,400 root INFO Epoch: 2/10, Steps: 3249, Learning Rate 0.0000284, Train Loss: 0.18283
+2025-02-19 15:04:17,979,979 root INFO Epoch: 2/10, Steps: 3299, Learning Rate 0.0000284, Train Loss: 0.13404
+2025-02-19 15:05:11,560,560 root INFO Epoch: 2/10, Steps: 3349, Learning Rate 0.0000283, Train Loss: 0.12902
+2025-02-19 15:09:32,926,926 root INFO **Validation** , Epoch: 2/10, GlobalSteps: 10134, val_micro_f1: 0.94880, val_micro_f1_seg: 0.00000
+2025-02-19 15:10:34,625,625 root INFO Epoch: 3/10, Steps: 49, Learning Rate 0.0000282, Train Loss: 0.12068
+2025-02-19 15:11:28,192,192 root INFO Epoch: 3/10, Steps: 99, Learning Rate 0.0000282, Train Loss: 0.10641
+2025-02-19 15:12:21,817,817 root INFO Epoch: 3/10, Steps: 149, Learning Rate 0.0000281, Train Loss: 0.20363
+2025-02-19 15:13:15,409,409 root INFO Epoch: 3/10, Steps: 199, Learning Rate 0.0000280, Train Loss: 0.12087
+2025-02-19 15:14:09,006,6 root INFO Epoch: 3/10, Steps: 249, Learning Rate 0.0000280, Train Loss: 0.17952
+2025-02-19 15:15:02,629,629 root INFO Epoch: 3/10, Steps: 299, Learning Rate 0.0000279, Train Loss: 0.12631
+2025-02-19 15:15:56,225,225 root INFO Epoch: 3/10, Steps: 349, Learning Rate 0.0000279, Train Loss: 0.10972
+2025-02-19 15:16:49,804,804 root INFO Epoch: 3/10, Steps: 399, Learning Rate 0.0000278, Train Loss: 0.15172
+2025-02-19 15:17:43,404,404 root INFO Epoch: 3/10, Steps: 449, Learning Rate 0.0000277, Train Loss: 0.17236
+2025-02-19 15:18:36,975,975 root INFO Epoch: 3/10, Steps: 499, Learning Rate 0.0000277, Train Loss: 0.19504
+2025-02-19 15:19:30,584,584 root INFO Epoch: 3/10, Steps: 549, Learning Rate 0.0000276, Train Loss: 0.12460
+2025-02-19 15:20:24,128,128 root INFO Epoch: 3/10, Steps: 599, Learning Rate 0.0000276, Train Loss: 0.06826
+2025-02-19 15:21:17,726,726 root INFO Epoch: 3/10, Steps: 649, Learning Rate 0.0000275, Train Loss: 0.16336
+2025-02-19 15:22:11,310,310 root INFO Epoch: 3/10, Steps: 699, Learning Rate 0.0000274, Train Loss: 0.14622
+2025-02-19 15:23:04,933,933 root INFO Epoch: 3/10, Steps: 749, Learning Rate 0.0000274, Train Loss: 0.13142
+2025-02-19 15:23:58,513,513 root INFO Epoch: 3/10, Steps: 799, Learning Rate 0.0000273, Train Loss: 0.11111
+2025-02-19 15:24:52,144,144 root INFO Epoch: 3/10, Steps: 849, Learning Rate 0.0000273, Train Loss: 0.15074
+2025-02-19 15:25:45,756,756 root INFO Epoch: 3/10, Steps: 899, Learning Rate 0.0000272, Train Loss: 0.16142
+2025-02-19 15:26:39,344,344 root INFO Epoch: 3/10, Steps: 949, Learning Rate 0.0000271, Train Loss: 0.11747
+2025-02-19 15:27:32,970,970 root INFO Epoch: 3/10, Steps: 999, Learning Rate 0.0000271, Train Loss: 0.15752
+2025-02-19 15:28:26,570,570 root INFO Epoch: 3/10, Steps: 1049, Learning Rate 0.0000270, Train Loss: 0.14215
+2025-02-19 15:29:20,157,157 root INFO Epoch: 3/10, Steps: 1099, Learning Rate 0.0000270, Train Loss: 0.10049
+2025-02-19 15:30:13,744,744 root INFO Epoch: 3/10, Steps: 1149, Learning Rate 0.0000269, Train Loss: 0.12965
+2025-02-19 15:31:07,320,320 root INFO Epoch: 3/10, Steps: 1199, Learning Rate 0.0000268, Train Loss: 0.15128
+2025-02-19 15:32:00,868,868 root INFO Epoch: 3/10, Steps: 1249, Learning Rate 0.0000268, Train Loss: 0.17708
+2025-02-19 15:32:54,406,406 root INFO Epoch: 3/10, Steps: 1299, Learning Rate 0.0000267, Train Loss: 0.28083
+2025-02-19 15:33:47,960,960 root INFO Epoch: 3/10, Steps: 1349, Learning Rate 0.0000267, Train Loss: 0.14524
+2025-02-19 15:34:41,487,487 root INFO Epoch: 3/10, Steps: 1399, Learning Rate 0.0000266, Train Loss: 0.16646
+2025-02-19 15:35:35,053,53 root INFO Epoch: 3/10, Steps: 1449, Learning Rate 0.0000265, Train Loss: 0.12147
+2025-02-19 15:36:28,626,626 root INFO Epoch: 3/10, Steps: 1499, Learning Rate 0.0000265, Train Loss: 0.11376
+2025-02-19 15:37:22,173,173 root INFO Epoch: 3/10, Steps: 1549, Learning Rate 0.0000264, Train Loss: 0.12489
+2025-02-19 15:38:15,751,751 root INFO Epoch: 3/10, Steps: 1599, Learning Rate 0.0000264, Train Loss: 0.11845
+2025-02-19 15:39:09,282,282 root INFO Epoch: 3/10, Steps: 1649, Learning Rate 0.0000263, Train Loss: 0.21829
+2025-02-19 15:40:02,826,826 root INFO Epoch: 3/10, Steps: 1699, Learning Rate 0.0000263, Train Loss: 0.15829
+2025-02-19 15:40:56,366,366 root INFO Epoch: 3/10, Steps: 1749, Learning Rate 0.0000262, Train Loss: 0.10472
+2025-02-19 15:41:49,866,866 root INFO Epoch: 3/10, Steps: 1799, Learning Rate 0.0000261, Train Loss: 0.18425
+2025-02-19 15:42:43,401,401 root INFO Epoch: 3/10, Steps: 1849, Learning Rate 0.0000261, Train Loss: 0.20227
+2025-02-19 15:43:36,964,964 root INFO Epoch: 3/10, Steps: 1899, Learning Rate 0.0000260, Train Loss: 0.14527
+2025-02-19 15:44:30,501,501 root INFO Epoch: 3/10, Steps: 1949, Learning Rate 0.0000260, Train Loss: 0.14092
+2025-02-19 15:45:24,050,50 root INFO Epoch: 3/10, Steps: 1999, Learning Rate 0.0000259, Train Loss: 0.11046
+2025-02-19 15:46:17,559,559 root INFO Epoch: 3/10, Steps: 2049, Learning Rate 0.0000258, Train Loss: 0.13146
+2025-02-19 15:47:11,111,111 root INFO Epoch: 3/10, Steps: 2099, Learning Rate 0.0000258, Train Loss: 0.17739
+2025-02-19 15:48:04,641,641 root INFO Epoch: 3/10, Steps: 2149, Learning Rate 0.0000257, Train Loss: 0.13271
+2025-02-19 15:48:58,191,191 root INFO Epoch: 3/10, Steps: 2199, Learning Rate 0.0000257, Train Loss: 0.17293
+2025-02-19 15:49:51,773,773 root INFO Epoch: 3/10, Steps: 2249, Learning Rate 0.0000256, Train Loss: 0.15848
+2025-02-19 15:50:45,350,350 root INFO Epoch: 3/10, Steps: 2299, Learning Rate 0.0000255, Train Loss: 0.18969
+2025-02-19 15:51:38,916,916 root INFO Epoch: 3/10, Steps: 2349, Learning Rate 0.0000255, Train Loss: 0.15523
+2025-02-19 15:52:32,476,476 root INFO Epoch: 3/10, Steps: 2399, Learning Rate 0.0000254, Train Loss: 0.11594
+2025-02-19 15:53:26,040,40 root INFO Epoch: 3/10, Steps: 2449, Learning Rate 0.0000254, Train Loss: 0.14272
+2025-02-19 15:54:19,579,579 root INFO Epoch: 3/10, Steps: 2499, Learning Rate 0.0000253, Train Loss: 0.13172
+2025-02-19 15:55:13,158,158 root INFO Epoch: 3/10, Steps: 2549, Learning Rate 0.0000252, Train Loss: 0.10941
+2025-02-19 15:56:06,737,737 root INFO Epoch: 3/10, Steps: 2599, Learning Rate 0.0000252, Train Loss: 0.13393
+2025-02-19 15:57:00,275,275 root INFO Epoch: 3/10, Steps: 2649, Learning Rate 0.0000251, Train Loss: 0.13962
+2025-02-19 15:57:53,870,870 root INFO Epoch: 3/10, Steps: 2699, Learning Rate 0.0000251, Train Loss: 0.21633
+2025-02-19 15:58:47,477,477 root INFO Epoch: 3/10, Steps: 2749, Learning Rate 0.0000250, Train Loss: 0.14419
+2025-02-19 15:59:41,073,73 root INFO Epoch: 3/10, Steps: 2799, Learning Rate 0.0000249, Train Loss: 0.11591
+2025-02-19 16:00:34,617,617 root INFO Epoch: 3/10, Steps: 2849, Learning Rate 0.0000249, Train Loss: 0.16171
+2025-02-19 16:01:28,210,210 root INFO Epoch: 3/10, Steps: 2899, Learning Rate 0.0000248, Train Loss: 0.12079
+2025-02-19 16:02:21,778,778 root INFO Epoch: 3/10, Steps: 2949, Learning Rate 0.0000248, Train Loss: 0.13876
+2025-02-19 16:03:15,352,352 root INFO Epoch: 3/10, Steps: 2999, Learning Rate 0.0000247, Train Loss: 0.13384
+2025-02-19 16:04:08,949,949 root INFO Epoch: 3/10, Steps: 3049, Learning Rate 0.0000246, Train Loss: 0.11700
+2025-02-19 16:05:02,528,528 root INFO Epoch: 3/10, Steps: 3099, Learning Rate 0.0000246, Train Loss: 0.14934
+2025-02-19 16:05:56,104,104 root INFO Epoch: 3/10, Steps: 3149, Learning Rate 0.0000245, Train Loss: 0.10588
+2025-02-19 16:06:49,669,669 root INFO Epoch: 3/10, Steps: 3199, Learning Rate 0.0000245, Train Loss: 0.14052
+2025-02-19 16:07:43,208,208 root INFO Epoch: 3/10, Steps: 3249, Learning Rate 0.0000244, Train Loss: 0.14888
+2025-02-19 16:08:36,749,749 root INFO Epoch: 3/10, Steps: 3299, Learning Rate 0.0000243, Train Loss: 0.11879
+2025-02-19 16:09:30,345,345 root INFO Epoch: 3/10, Steps: 3349, Learning Rate 0.0000243, Train Loss: 0.13540
+2025-02-19 16:13:51,790,790 root INFO **Validation** , Epoch: 3/10, GlobalSteps: 13512, val_micro_f1: 0.95376, val_micro_f1_seg: 0.00000
+2025-02-19 16:14:53,636,636 root INFO Epoch: 4/10, Steps: 49, Learning Rate 0.0000242, Train Loss: 0.10137
+2025-02-19 16:15:47,273,273 root INFO Epoch: 4/10, Steps: 99, Learning Rate 0.0000241, Train Loss: 0.12675
+2025-02-19 16:16:40,850,850 root INFO Epoch: 4/10, Steps: 149, Learning Rate 0.0000241, Train Loss: 0.10876
+2025-02-19 16:17:34,439,439 root INFO Epoch: 4/10, Steps: 199, Learning Rate 0.0000240, Train Loss: 0.12057
+2025-02-19 16:18:28,048,48 root INFO Epoch: 4/10, Steps: 249, Learning Rate 0.0000239, Train Loss: 0.12527
+2025-02-19 16:19:21,658,658 root INFO Epoch: 4/10, Steps: 299, Learning Rate 0.0000239, Train Loss: 0.09472
+2025-02-19 16:20:15,319,319 root INFO Epoch: 4/10, Steps: 349, Learning Rate 0.0000238, Train Loss: 0.27190
+2025-02-19 16:21:08,924,924 root INFO Epoch: 4/10, Steps: 399, Learning Rate 0.0000238, Train Loss: 0.17705
+2025-02-19 16:22:02,522,522 root INFO Epoch: 4/10, Steps: 449, Learning Rate 0.0000237, Train Loss: 0.11408
+2025-02-19 16:22:56,148,148 root INFO Epoch: 4/10, Steps: 499, Learning Rate 0.0000236, Train Loss: 0.13135
+2025-02-19 16:23:49,763,763 root INFO Epoch: 4/10, Steps: 549, Learning Rate 0.0000236, Train Loss: 0.11340
+2025-02-19 16:24:43,366,366 root INFO Epoch: 4/10, Steps: 599, Learning Rate 0.0000235, Train Loss: 0.11077
+2025-02-19 16:25:36,980,980 root INFO Epoch: 4/10, Steps: 649, Learning Rate 0.0000235, Train Loss: 0.13424
+2025-02-19 16:26:30,566,566 root INFO Epoch: 4/10, Steps: 699, Learning Rate 0.0000234, Train Loss: 0.11289
+2025-02-19 16:27:24,139,139 root INFO Epoch: 4/10, Steps: 749, Learning Rate 0.0000233, Train Loss: 0.12215
+2025-02-19 16:28:17,773,773 root INFO Epoch: 4/10, Steps: 799, Learning Rate 0.0000233, Train Loss: 0.12954
+2025-02-19 16:29:11,354,354 root INFO Epoch: 4/10, Steps: 849, Learning Rate 0.0000232, Train Loss: 0.14694
+2025-02-19 16:30:04,911,911 root INFO Epoch: 4/10, Steps: 899, Learning Rate 0.0000232, Train Loss: 0.21805
+2025-02-19 16:30:58,507,507 root INFO Epoch: 4/10, Steps: 949, Learning Rate 0.0000231, Train Loss: 0.11700
+2025-02-19 16:31:52,083,83 root INFO Epoch: 4/10, Steps: 999, Learning Rate 0.0000230, Train Loss: 0.15372
+2025-02-19 16:32:45,663,663 root INFO Epoch: 4/10, Steps: 1049, Learning Rate 0.0000230, Train Loss: 0.11572
+2025-02-19 16:33:39,267,267 root INFO Epoch: 4/10, Steps: 1099, Learning Rate 0.0000229, Train Loss: 0.12407
+2025-02-19 16:34:32,862,862 root INFO Epoch: 4/10, Steps: 1149, Learning Rate 0.0000229, Train Loss: 0.09851
+2025-02-19 16:35:26,426,426 root INFO Epoch: 4/10, Steps: 1199, Learning Rate 0.0000228, Train Loss: 0.11040
+2025-02-19 16:36:19,992,992 root INFO Epoch: 4/10, Steps: 1249, Learning Rate 0.0000227, Train Loss: 0.16608
+2025-02-19 16:37:13,563,563 root INFO Epoch: 4/10, Steps: 1299, Learning Rate 0.0000227, Train Loss: 0.13880
+2025-02-19 16:38:07,145,145 root INFO Epoch: 4/10, Steps: 1349, Learning Rate 0.0000226, Train Loss: 0.13265
+2025-02-19 16:39:00,699,699 root INFO Epoch: 4/10, Steps: 1399, Learning Rate 0.0000226, Train Loss: 0.17530
+2025-02-19 16:39:54,216,216 root INFO Epoch: 4/10, Steps: 1449, Learning Rate 0.0000225, Train Loss: 0.09560
+2025-02-19 16:40:47,813,813 root INFO Epoch: 4/10, Steps: 1499, Learning Rate 0.0000224, Train Loss: 0.10194
+2025-02-19 16:41:41,357,357 root INFO Epoch: 4/10, Steps: 1549, Learning Rate 0.0000224, Train Loss: 0.13113
+2025-02-19 16:42:34,883,883 root INFO Epoch: 4/10, Steps: 1599, Learning Rate 0.0000223, Train Loss: 0.10811
+2025-02-19 16:43:28,418,418 root INFO Epoch: 4/10, Steps: 1649, Learning Rate 0.0000223, Train Loss: 0.11885
+2025-02-19 16:44:21,954,954 root INFO Epoch: 4/10, Steps: 1699, Learning Rate 0.0000222, Train Loss: 0.13171
+2025-02-19 16:45:15,515,515 root INFO Epoch: 4/10, Steps: 1749, Learning Rate 0.0000221, Train Loss: 0.13767
+2025-02-19 16:46:09,016,16 root INFO Epoch: 4/10, Steps: 1799, Learning Rate 0.0000221, Train Loss: 0.09901
+2025-02-19 16:47:02,527,527 root INFO Epoch: 4/10, Steps: 1849, Learning Rate 0.0000220, Train Loss: 0.12117
+2025-02-19 16:47:56,069,69 root INFO Epoch: 4/10, Steps: 1899, Learning Rate 0.0000220, Train Loss: 0.11602
+2025-02-19 16:48:49,668,668 root INFO Epoch: 4/10, Steps: 1949, Learning Rate 0.0000219, Train Loss: 0.09757
+2025-02-19 16:49:43,226,226 root INFO Epoch: 4/10, Steps: 1999, Learning Rate 0.0000219, Train Loss: 0.13246
+2025-02-19 16:50:36,787,787 root INFO Epoch: 4/10, Steps: 2049, Learning Rate 0.0000218, Train Loss: 0.11127
+2025-02-19 16:51:30,318,318 root INFO Epoch: 4/10, Steps: 2099, Learning Rate 0.0000217, Train Loss: 0.16040
+2025-02-19 16:52:23,853,853 root INFO Epoch: 4/10, Steps: 2149, Learning Rate 0.0000217, Train Loss: 0.09180
+2025-02-19 16:53:17,383,383 root INFO Epoch: 4/10, Steps: 2199, Learning Rate 0.0000216, Train Loss: 0.17970
+2025-02-19 16:54:10,959,959 root INFO Epoch: 4/10, Steps: 2249, Learning Rate 0.0000216, Train Loss: 0.10751
+2025-02-19 16:55:04,525,525 root INFO Epoch: 4/10, Steps: 2299, Learning Rate 0.0000215, Train Loss: 0.11273
+2025-02-19 16:55:58,063,63 root INFO Epoch: 4/10, Steps: 2349, Learning Rate 0.0000214, Train Loss: 0.11209
+2025-02-19 16:56:51,616,616 root INFO Epoch: 4/10, Steps: 2399, Learning Rate 0.0000214, Train Loss: 0.13346
+2025-02-19 16:57:45,208,208 root INFO Epoch: 4/10, Steps: 2449, Learning Rate 0.0000213, Train Loss: 0.15490
+2025-02-19 16:58:38,764,764 root INFO Epoch: 4/10, Steps: 2499, Learning Rate 0.0000213, Train Loss: 0.10239
+2025-02-19 16:59:32,326,326 root INFO Epoch: 4/10, Steps: 2549, Learning Rate 0.0000212, Train Loss: 0.11828
+2025-02-19 17:00:25,905,905 root INFO Epoch: 4/10, Steps: 2599, Learning Rate 0.0000211, Train Loss: 0.10560
+2025-02-19 17:01:19,570,570 root INFO Epoch: 4/10, Steps: 2649, Learning Rate 0.0000211, Train Loss: 0.12392
+2025-02-19 17:02:13,203,203 root INFO Epoch: 4/10, Steps: 2699, Learning Rate 0.0000210, Train Loss: 0.13339
+2025-02-19 17:03:06,789,789 root INFO Epoch: 4/10, Steps: 2749, Learning Rate 0.0000210, Train Loss: 0.11832
+2025-02-19 17:04:00,349,349 root INFO Epoch: 4/10, Steps: 2799, Learning Rate 0.0000209, Train Loss: 0.10559
+2025-02-19 17:04:53,935,935 root INFO Epoch: 4/10, Steps: 2849, Learning Rate 0.0000208, Train Loss: 0.11043
+2025-02-19 17:05:47,487,487 root INFO Epoch: 4/10, Steps: 2899, Learning Rate 0.0000208, Train Loss: 0.09020
+2025-02-19 17:06:41,067,67 root INFO Epoch: 4/10, Steps: 2949, Learning Rate 0.0000207, Train Loss: 0.08494
+2025-02-19 17:07:34,690,690 root INFO Epoch: 4/10, Steps: 2999, Learning Rate 0.0000207, Train Loss: 0.18948
+2025-02-19 17:08:28,286,286 root INFO Epoch: 4/10, Steps: 3049, Learning Rate 0.0000206, Train Loss: 0.19071
+2025-02-19 17:09:21,883,883 root INFO Epoch: 4/10, Steps: 3099, Learning Rate 0.0000205, Train Loss: 0.19188
+2025-02-19 17:10:15,507,507 root INFO Epoch: 4/10, Steps: 3149, Learning Rate 0.0000205, Train Loss: 0.18024
+2025-02-19 17:11:09,118,118 root INFO Epoch: 4/10, Steps: 3199, Learning Rate 0.0000204, Train Loss: 0.09459
+2025-02-19 17:12:02,698,698 root INFO Epoch: 4/10, Steps: 3249, Learning Rate 0.0000204, Train Loss: 0.11298
+2025-02-19 17:12:56,263,263 root INFO Epoch: 4/10, Steps: 3299, Learning Rate 0.0000203, Train Loss: 0.09473
+2025-02-19 17:13:49,871,871 root INFO Epoch: 4/10, Steps: 3349, Learning Rate 0.0000202, Train Loss: 0.12912
+2025-02-19 17:18:11,427,427 root INFO **Validation** , Epoch: 4/10, GlobalSteps: 16890, val_micro_f1: 0.95560, val_micro_f1_seg: 0.00000
+2025-02-19 17:19:13,669,669 root INFO Epoch: 5/10, Steps: 49, Learning Rate 0.0000201, Train Loss: 0.17792
+2025-02-19 17:20:07,206,206 root INFO Epoch: 5/10, Steps: 99, Learning Rate 0.0000201, Train Loss: 0.12799
+2025-02-19 17:21:00,772,772 root INFO Epoch: 5/10, Steps: 149, Learning Rate 0.0000200, Train Loss: 0.13437
+2025-02-19 17:21:54,381,381 root INFO Epoch: 5/10, Steps: 199, Learning Rate 0.0000200, Train Loss: 0.11763
+2025-02-19 17:22:47,987,987 root INFO Epoch: 5/10, Steps: 249, Learning Rate 0.0000199, Train Loss: 0.15307
+2025-02-19 17:23:41,610,610 root INFO Epoch: 5/10, Steps: 299, Learning Rate 0.0000198, Train Loss: 0.13164
+2025-02-19 17:24:35,184,184 root INFO Epoch: 5/10, Steps: 349, Learning Rate 0.0000198, Train Loss: 0.09783
+2025-02-19 17:25:28,816,816 root INFO Epoch: 5/10, Steps: 399, Learning Rate 0.0000197, Train Loss: 0.10446
+2025-02-19 17:26:22,436,436 root INFO Epoch: 5/10, Steps: 449, Learning Rate 0.0000197, Train Loss: 0.10221
+2025-02-19 17:27:16,004,4 root INFO Epoch: 5/10, Steps: 499, Learning Rate 0.0000196, Train Loss: 0.13604
+2025-02-19 17:28:09,605,605 root INFO Epoch: 5/10, Steps: 549, Learning Rate 0.0000195, Train Loss: 0.09798
+2025-02-19 17:29:03,249,249 root INFO Epoch: 5/10, Steps: 599, Learning Rate 0.0000195, Train Loss: 0.10124
+2025-02-19 17:29:56,838,838 root INFO Epoch: 5/10, Steps: 649, Learning Rate 0.0000194, Train Loss: 0.10138
+2025-02-19 17:30:50,467,467 root INFO Epoch: 5/10, Steps: 699, Learning Rate 0.0000194, Train Loss: 0.10608
+2025-02-19 17:31:44,056,56 root INFO Epoch: 5/10, Steps: 749, Learning Rate 0.0000193, Train Loss: 0.14540
+2025-02-19 17:32:37,662,662 root INFO Epoch: 5/10, Steps: 799, Learning Rate 0.0000192, Train Loss: 0.10596
+2025-02-19 17:33:31,245,245 root INFO Epoch: 5/10, Steps: 849, Learning Rate 0.0000192, Train Loss: 0.10186
+2025-02-19 17:34:24,856,856 root INFO Epoch: 5/10, Steps: 899, Learning Rate 0.0000191, Train Loss: 0.09454
+2025-02-19 17:35:18,391,391 root INFO Epoch: 5/10, Steps: 949, Learning Rate 0.0000191, Train Loss: 0.16145
+2025-02-19 17:36:11,937,937 root INFO Epoch: 5/10, Steps: 999, Learning Rate 0.0000190, Train Loss: 0.15278
+2025-02-19 17:37:05,552,552 root INFO Epoch: 5/10, Steps: 1049, Learning Rate 0.0000189, Train Loss: 0.12483
+2025-02-19 17:37:59,129,129 root INFO Epoch: 5/10, Steps: 1099, Learning Rate 0.0000189, Train Loss: 0.14015
+2025-02-19 17:38:52,724,724 root INFO Epoch: 5/10, Steps: 1149, Learning Rate 0.0000188, Train Loss: 0.10019
+2025-02-19 17:39:46,259,259 root INFO Epoch: 5/10, Steps: 1199, Learning Rate 0.0000188, Train Loss: 0.08200
+2025-02-19 17:40:39,816,816 root INFO Epoch: 5/10, Steps: 1249, Learning Rate 0.0000187, Train Loss: 0.11206
+2025-02-19 17:41:33,369,369 root INFO Epoch: 5/10, Steps: 1299, Learning Rate 0.0000186, Train Loss: 0.12217
+2025-02-19 17:42:26,934,934 root INFO Epoch: 5/10, Steps: 1349, Learning Rate 0.0000186, Train Loss: 0.14815
+2025-02-19 17:43:20,514,514 root INFO Epoch: 5/10, Steps: 1399, Learning Rate 0.0000185, Train Loss: 0.13045
+2025-02-19 17:44:14,067,67 root INFO Epoch: 5/10, Steps: 1449, Learning Rate 0.0000185, Train Loss: 0.13871
+2025-02-19 17:45:07,597,597 root INFO Epoch: 5/10, Steps: 1499, Learning Rate 0.0000184, Train Loss: 0.10752
+2025-02-19 17:46:01,165,165 root INFO Epoch: 5/10, Steps: 1549, Learning Rate 0.0000183, Train Loss: 0.11327
+2025-02-19 17:46:54,709,709 root INFO Epoch: 5/10, Steps: 1599, Learning Rate 0.0000183, Train Loss: 0.14672
+2025-02-19 17:47:48,304,304 root INFO Epoch: 5/10, Steps: 1649, Learning Rate 0.0000182, Train Loss: 0.17445
+2025-02-19 17:48:41,804,804 root INFO Epoch: 5/10, Steps: 1699, Learning Rate 0.0000182, Train Loss: 0.09685
+2025-02-19 17:49:35,339,339 root INFO Epoch: 5/10, Steps: 1749, Learning Rate 0.0000181, Train Loss: 0.12213
+2025-02-19 17:50:28,857,857 root INFO Epoch: 5/10, Steps: 1799, Learning Rate 0.0000180, Train Loss: 0.09286
+2025-02-19 17:51:22,424,424 root INFO Epoch: 5/10, Steps: 1849, Learning Rate 0.0000180, Train Loss: 0.11689
+2025-02-19 17:52:15,989,989 root INFO Epoch: 5/10, Steps: 1899, Learning Rate 0.0000179, Train Loss: 0.20719
+2025-02-19 17:53:09,541,541 root INFO Epoch: 5/10, Steps: 1949, Learning Rate 0.0000179, Train Loss: 0.09049
+2025-02-19 17:54:03,050,50 root INFO Epoch: 5/10, Steps: 1999, Learning Rate 0.0000178, Train Loss: 0.06354
+2025-02-19 17:54:56,548,548 root INFO Epoch: 5/10, Steps: 2049, Learning Rate 0.0000178, Train Loss: 0.09178
+2025-02-19 17:55:50,124,124 root INFO Epoch: 5/10, Steps: 2099, Learning Rate 0.0000177, Train Loss: 0.11812
+2025-02-19 17:56:43,652,652 root INFO Epoch: 5/10, Steps: 2149, Learning Rate 0.0000176, Train Loss: 0.14364
+2025-02-19 17:57:37,213,213 root INFO Epoch: 5/10, Steps: 2199, Learning Rate 0.0000176, Train Loss: 0.12688
+2025-02-19 17:58:30,768,768 root INFO Epoch: 5/10, Steps: 2249, Learning Rate 0.0000175, Train Loss: 0.12199
+2025-02-19 17:59:24,306,306 root INFO Epoch: 5/10, Steps: 2299, Learning Rate 0.0000175, Train Loss: 0.08026
+2025-02-19 18:00:17,821,821 root INFO Epoch: 5/10, Steps: 2349, Learning Rate 0.0000174, Train Loss: 0.11222
+2025-02-19 18:01:11,331,331 root INFO Epoch: 5/10, Steps: 2399, Learning Rate 0.0000173, Train Loss: 0.13103
+2025-02-19 18:02:04,855,855 root INFO Epoch: 5/10, Steps: 2449, Learning Rate 0.0000173, Train Loss: 0.11118
+2025-02-19 18:02:58,427,427 root INFO Epoch: 5/10, Steps: 2499, Learning Rate 0.0000172, Train Loss: 0.10324
+2025-02-19 18:03:51,987,987 root INFO Epoch: 5/10, Steps: 2549, Learning Rate 0.0000172, Train Loss: 0.11608
+2025-02-19 18:04:45,513,513 root INFO Epoch: 5/10, Steps: 2599, Learning Rate 0.0000171, Train Loss: 0.10253
+2025-02-19 18:05:39,001,1 root INFO Epoch: 5/10, Steps: 2649, Learning Rate 0.0000170, Train Loss: 0.09960
+2025-02-19 18:06:32,508,508 root INFO Epoch: 5/10, Steps: 2699, Learning Rate 0.0000170, Train Loss: 0.14435
+2025-02-19 18:07:26,056,56 root INFO Epoch: 5/10, Steps: 2749, Learning Rate 0.0000169, Train Loss: 0.12807
+2025-02-19 18:08:19,575,575 root INFO Epoch: 5/10, Steps: 2799, Learning Rate 0.0000169, Train Loss: 0.20716
+2025-02-19 18:09:13,097,97 root INFO Epoch: 5/10, Steps: 2849, Learning Rate 0.0000168, Train Loss: 0.10577
+2025-02-19 18:10:06,626,626 root INFO Epoch: 5/10, Steps: 2899, Learning Rate 0.0000167, Train Loss: 0.09113
+2025-02-19 18:11:00,159,159 root INFO Epoch: 5/10, Steps: 2949, Learning Rate 0.0000167, Train Loss: 0.13793
+2025-02-19 18:11:53,739,739 root INFO Epoch: 5/10, Steps: 2999, Learning Rate 0.0000166, Train Loss: 0.21559
+2025-02-19 18:12:47,275,275 root INFO Epoch: 5/10, Steps: 3049, Learning Rate 0.0000166, Train Loss: 0.10510
+2025-02-19 18:13:40,834,834 root INFO Epoch: 5/10, Steps: 3099, Learning Rate 0.0000165, Train Loss: 0.13935
+2025-02-19 18:14:34,403,403 root INFO Epoch: 5/10, Steps: 3149, Learning Rate 0.0000164, Train Loss: 0.09214
+2025-02-19 18:15:27,961,961 root INFO Epoch: 5/10, Steps: 3199, Learning Rate 0.0000164, Train Loss: 0.12471
+2025-02-19 18:16:21,584,584 root INFO Epoch: 5/10, Steps: 3249, Learning Rate 0.0000163, Train Loss: 0.10603
+2025-02-19 18:17:15,104,104 root INFO Epoch: 5/10, Steps: 3299, Learning Rate 0.0000163, Train Loss: 0.11229
+2025-02-19 18:18:08,653,653 root INFO Epoch: 5/10, Steps: 3349, Learning Rate 0.0000162, Train Loss: 0.18804
+2025-02-19 18:22:30,225,225 root INFO **Validation** , Epoch: 5/10, GlobalSteps: 20268, val_micro_f1: 0.95818, val_micro_f1_seg: 0.00000
+2025-02-19 18:23:32,279,279 root INFO Epoch: 6/10, Steps: 49, Learning Rate 0.0000161, Train Loss: 0.15399
+2025-02-19 18:24:25,856,856 root INFO Epoch: 6/10, Steps: 99, Learning Rate 0.0000160, Train Loss: 0.12434
+2025-02-19 18:25:19,385,385 root INFO Epoch: 6/10, Steps: 149, Learning Rate 0.0000160, Train Loss: 0.09432
+2025-02-19 18:26:12,976,976 root INFO Epoch: 6/10, Steps: 199, Learning Rate 0.0000159, Train Loss: 0.08062
+2025-02-19 18:27:06,588,588 root INFO Epoch: 6/10, Steps: 249, Learning Rate 0.0000159, Train Loss: 0.20080
+2025-02-19 18:28:00,107,107 root INFO Epoch: 6/10, Steps: 299, Learning Rate 0.0000158, Train Loss: 0.16088
+2025-02-19 18:28:53,689,689 root INFO Epoch: 6/10, Steps: 349, Learning Rate 0.0000157, Train Loss: 0.18604
+2025-02-19 18:29:47,326,326 root INFO Epoch: 6/10, Steps: 399, Learning Rate 0.0000157, Train Loss: 0.14219
+2025-02-19 18:30:40,900,900 root INFO Epoch: 6/10, Steps: 449, Learning Rate 0.0000156, Train Loss: 0.17765
+2025-02-19 18:31:34,445,445 root INFO Epoch: 6/10, Steps: 499, Learning Rate 0.0000156, Train Loss: 0.11968
+2025-02-19 18:32:28,045,45 root INFO Epoch: 6/10, Steps: 549, Learning Rate 0.0000155, Train Loss: 0.11647
+2025-02-19 18:33:21,568,568 root INFO Epoch: 6/10, Steps: 599, Learning Rate 0.0000154, Train Loss: 0.10362
+2025-02-19 18:34:15,166,166 root INFO Epoch: 6/10, Steps: 649, Learning Rate 0.0000154, Train Loss: 0.06273
+2025-02-19 18:35:08,783,783 root INFO Epoch: 6/10, Steps: 699, Learning Rate 0.0000153, Train Loss: 0.09464
+2025-02-19 18:36:02,389,389 root INFO Epoch: 6/10, Steps: 749, Learning Rate 0.0000153, Train Loss: 0.23008
+2025-02-19 18:36:56,012,12 root INFO Epoch: 6/10, Steps: 799, Learning Rate 0.0000152, Train Loss: 0.10900
+2025-02-19 18:37:49,575,575 root INFO Epoch: 6/10, Steps: 849, Learning Rate 0.0000151, Train Loss: 0.10147
+2025-02-19 18:38:43,154,154 root INFO Epoch: 6/10, Steps: 899, Learning Rate 0.0000151, Train Loss: 0.13017
+2025-02-19 18:39:36,761,761 root INFO Epoch: 6/10, Steps: 949, Learning Rate 0.0000150, Train Loss: 0.10985
+2025-02-19 18:40:30,377,377 root INFO Epoch: 6/10, Steps: 999, Learning Rate 0.0000150, Train Loss: 0.09725
+2025-02-19 18:41:23,946,946 root INFO Epoch: 6/10, Steps: 1049, Learning Rate 0.0000149, Train Loss: 0.19149
+2025-02-19 18:42:17,520,520 root INFO Epoch: 6/10, Steps: 1099, Learning Rate 0.0000148, Train Loss: 0.06235
+2025-02-19 18:43:11,117,117 root INFO Epoch: 6/10, Steps: 1149, Learning Rate 0.0000148, Train Loss: 0.11467
+2025-02-19 18:44:04,756,756 root INFO Epoch: 6/10, Steps: 1199, Learning Rate 0.0000147, Train Loss: 0.15215
+2025-02-19 18:44:58,339,339 root INFO Epoch: 6/10, Steps: 1249, Learning Rate 0.0000147, Train Loss: 0.09968
+2025-02-19 18:45:51,987,987 root INFO Epoch: 6/10, Steps: 1299, Learning Rate 0.0000146, Train Loss: 0.09155
+2025-02-19 18:46:45,608,608 root INFO Epoch: 6/10, Steps: 1349, Learning Rate 0.0000145, Train Loss: 0.13804
+2025-02-19 18:47:39,234,234 root INFO Epoch: 6/10, Steps: 1399, Learning Rate 0.0000145, Train Loss: 0.07449
+2025-02-19 18:48:32,784,784 root INFO Epoch: 6/10, Steps: 1449, Learning Rate 0.0000144, Train Loss: 0.17725
+2025-02-19 18:49:26,378,378 root INFO Epoch: 6/10, Steps: 1499, Learning Rate 0.0000144, Train Loss: 0.11789
+2025-02-19 18:50:19,974,974 root INFO Epoch: 6/10, Steps: 1549, Learning Rate 0.0000143, Train Loss: 0.10192
+2025-02-19 18:51:13,528,528 root INFO Epoch: 6/10, Steps: 1599, Learning Rate 0.0000142, Train Loss: 0.18546
+2025-02-19 18:52:07,125,125 root INFO Epoch: 6/10, Steps: 1649, Learning Rate 0.0000142, Train Loss: 0.09003
+2025-02-19 18:53:00,694,694 root INFO Epoch: 6/10, Steps: 1699, Learning Rate 0.0000141, Train Loss: 0.13454
+2025-02-19 18:53:54,253,253 root INFO Epoch: 6/10, Steps: 1749, Learning Rate 0.0000141, Train Loss: 0.10559
+2025-02-19 18:54:47,836,836 root INFO Epoch: 6/10, Steps: 1799, Learning Rate 0.0000140, Train Loss: 0.13607
+2025-02-19 18:55:41,369,369 root INFO Epoch: 6/10, Steps: 1849, Learning Rate 0.0000139, Train Loss: 0.18506
+2025-02-19 18:56:34,887,887 root INFO Epoch: 6/10, Steps: 1899, Learning Rate 0.0000139, Train Loss: 0.11722
+2025-02-19 18:57:28,497,497 root INFO Epoch: 6/10, Steps: 1949, Learning Rate 0.0000138, Train Loss: 0.10685
+2025-02-19 18:58:22,068,68 root INFO Epoch: 6/10, Steps: 1999, Learning Rate 0.0000138, Train Loss: 0.12957
+2025-02-19 18:59:15,615,615 root INFO Epoch: 6/10, Steps: 2049, Learning Rate 0.0000137, Train Loss: 0.08021
+2025-02-19 19:00:09,193,193 root INFO Epoch: 6/10, Steps: 2099, Learning Rate 0.0000137, Train Loss: 0.11111
+2025-02-19 19:01:02,748,748 root INFO Epoch: 6/10, Steps: 2149, Learning Rate 0.0000136, Train Loss: 0.09872
+2025-02-19 19:01:56,291,291 root INFO Epoch: 6/10, Steps: 2199, Learning Rate 0.0000135, Train Loss: 0.11260
+2025-02-19 19:02:49,811,811 root INFO Epoch: 6/10, Steps: 2249, Learning Rate 0.0000135, Train Loss: 0.11332
+2025-02-19 19:03:43,338,338 root INFO Epoch: 6/10, Steps: 2299, Learning Rate 0.0000134, Train Loss: 0.11303
+2025-02-19 19:04:36,849,849 root INFO Epoch: 6/10, Steps: 2349, Learning Rate 0.0000134, Train Loss: 0.07661
+2025-02-19 19:05:30,431,431 root INFO Epoch: 6/10, Steps: 2399, Learning Rate 0.0000133, Train Loss: 0.08168
+2025-02-19 19:06:23,957,957 root INFO Epoch: 6/10, Steps: 2449, Learning Rate 0.0000132, Train Loss: 0.19933
+2025-02-19 19:07:17,461,461 root INFO Epoch: 6/10, Steps: 2499, Learning Rate 0.0000132, Train Loss: 0.07108
+2025-02-19 19:08:10,990,990 root INFO Epoch: 6/10, Steps: 2549, Learning Rate 0.0000131, Train Loss: 0.09435
+2025-02-19 19:09:04,512,512 root INFO Epoch: 6/10, Steps: 2599, Learning Rate 0.0000131, Train Loss: 0.12142
+2025-02-19 19:09:58,050,50 root INFO Epoch: 6/10, Steps: 2649, Learning Rate 0.0000130, Train Loss: 0.08454
+2025-02-19 19:10:51,577,577 root INFO Epoch: 6/10, Steps: 2699, Learning Rate 0.0000129, Train Loss: 0.08515
+2025-02-19 19:11:45,132,132 root INFO Epoch: 6/10, Steps: 2749, Learning Rate 0.0000129, Train Loss: 0.11160
+2025-02-19 19:12:38,647,647 root INFO Epoch: 6/10, Steps: 2799, Learning Rate 0.0000128, Train Loss: 0.11138
+2025-02-19 19:13:32,177,177 root INFO Epoch: 6/10, Steps: 2849, Learning Rate 0.0000128, Train Loss: 0.11153
+2025-02-19 19:14:25,690,690 root INFO Epoch: 6/10, Steps: 2899, Learning Rate 0.0000127, Train Loss: 0.10175
+2025-02-19 19:15:19,277,277 root INFO Epoch: 6/10, Steps: 2949, Learning Rate 0.0000126, Train Loss: 0.10032
+2025-02-19 19:16:12,858,858 root INFO Epoch: 6/10, Steps: 2999, Learning Rate 0.0000126, Train Loss: 0.12631
+2025-02-19 19:17:06,379,379 root INFO Epoch: 6/10, Steps: 3049, Learning Rate 0.0000125, Train Loss: 0.16259
+2025-02-19 19:17:59,934,934 root INFO Epoch: 6/10, Steps: 3099, Learning Rate 0.0000125, Train Loss: 0.08700
+2025-02-19 19:18:53,442,442 root INFO Epoch: 6/10, Steps: 3149, Learning Rate 0.0000124, Train Loss: 0.10935
+2025-02-19 19:19:46,984,984 root INFO Epoch: 6/10, Steps: 3199, Learning Rate 0.0000123, Train Loss: 0.25673
+2025-02-19 19:20:40,579,579 root INFO Epoch: 6/10, Steps: 3249, Learning Rate 0.0000123, Train Loss: 0.08258
+2025-02-19 19:21:34,132,132 root INFO Epoch: 6/10, Steps: 3299, Learning Rate 0.0000122, Train Loss: 0.09485
+2025-02-19 19:22:27,680,680 root INFO Epoch: 6/10, Steps: 3349, Learning Rate 0.0000122, Train Loss: 0.12571
+2025-02-19 19:26:49,253,253 root INFO **Validation** , Epoch: 6/10, GlobalSteps: 23646, val_micro_f1: 0.96063, val_micro_f1_seg: 0.00000
+2025-02-19 19:27:51,124,124 root INFO Epoch: 7/10, Steps: 49, Learning Rate 0.0000121, Train Loss: 0.12984
+2025-02-19 19:28:44,713,713 root INFO Epoch: 7/10, Steps: 99, Learning Rate 0.0000120, Train Loss: 0.07863
+2025-02-19 19:29:38,286,286 root INFO Epoch: 7/10, Steps: 149, Learning Rate 0.0000119, Train Loss: 0.12137
+2025-02-19 19:30:31,875,875 root INFO Epoch: 7/10, Steps: 199, Learning Rate 0.0000119, Train Loss: 0.09717
+2025-02-19 19:31:25,473,473 root INFO Epoch: 7/10, Steps: 249, Learning Rate 0.0000118, Train Loss: 0.17671
+2025-02-19 19:32:19,012,12 root INFO Epoch: 7/10, Steps: 299, Learning Rate 0.0000118, Train Loss: 0.08588
+2025-02-19 19:33:12,596,596 root INFO Epoch: 7/10, Steps: 349, Learning Rate 0.0000117, Train Loss: 0.15642
+2025-02-19 19:34:06,126,126 root INFO Epoch: 7/10, Steps: 399, Learning Rate 0.0000116, Train Loss: 0.13066
+2025-02-19 19:34:59,711,711 root INFO Epoch: 7/10, Steps: 449, Learning Rate 0.0000116, Train Loss: 0.19201
+2025-02-19 19:35:53,310,310 root INFO Epoch: 7/10, Steps: 499, Learning Rate 0.0000115, Train Loss: 0.08316
+2025-02-19 19:36:46,963,963 root INFO Epoch: 7/10, Steps: 549, Learning Rate 0.0000115, Train Loss: 0.07982
+2025-02-19 19:37:40,573,573 root INFO Epoch: 7/10, Steps: 599, Learning Rate 0.0000114, Train Loss: 0.09469
+2025-02-19 19:38:34,216,216 root INFO Epoch: 7/10, Steps: 649, Learning Rate 0.0000113, Train Loss: 0.11528
+2025-02-19 19:39:27,841,841 root INFO Epoch: 7/10, Steps: 699, Learning Rate 0.0000113, Train Loss: 0.11928
+2025-02-19 19:40:21,440,440 root INFO Epoch: 7/10, Steps: 749, Learning Rate 0.0000112, Train Loss: 0.07912
+2025-02-19 19:41:15,041,41 root INFO Epoch: 7/10, Steps: 799, Learning Rate 0.0000112, Train Loss: 0.09456
+2025-02-19 19:42:08,646,646 root INFO Epoch: 7/10, Steps: 849, Learning Rate 0.0000111, Train Loss: 0.10939
+2025-02-19 19:43:02,265,265 root INFO Epoch: 7/10, Steps: 899, Learning Rate 0.0000110, Train Loss: 0.08024
+2025-02-19 19:43:55,843,843 root INFO Epoch: 7/10, Steps: 949, Learning Rate 0.0000110, Train Loss: 0.08399
+2025-02-19 19:44:49,487,487 root INFO Epoch: 7/10, Steps: 999, Learning Rate 0.0000109, Train Loss: 0.06997
+2025-02-19 19:45:43,075,75 root INFO Epoch: 7/10, Steps: 1049, Learning Rate 0.0000109, Train Loss: 0.13669
+2025-02-19 19:46:36,698,698 root INFO Epoch: 7/10, Steps: 1099, Learning Rate 0.0000108, Train Loss: 0.15537
+2025-02-19 19:47:30,327,327 root INFO Epoch: 7/10, Steps: 1149, Learning Rate 0.0000107, Train Loss: 0.06495
+2025-02-19 19:48:23,904,904 root INFO Epoch: 7/10, Steps: 1199, Learning Rate 0.0000107, Train Loss: 0.11211
+2025-02-19 19:49:17,479,479 root INFO Epoch: 7/10, Steps: 1249, Learning Rate 0.0000106, Train Loss: 0.08623
+2025-02-19 19:50:11,049,49 root INFO Epoch: 7/10, Steps: 1299, Learning Rate 0.0000106, Train Loss: 0.07848
+2025-02-19 19:51:04,650,650 root INFO Epoch: 7/10, Steps: 1349, Learning Rate 0.0000105, Train Loss: 0.13008
+2025-02-19 19:51:58,244,244 root INFO Epoch: 7/10, Steps: 1399, Learning Rate 0.0000104, Train Loss: 0.10026
+2025-02-19 19:52:51,945,945 root INFO Epoch: 7/10, Steps: 1449, Learning Rate 0.0000104, Train Loss: 0.11487
+2025-02-19 19:53:45,498,498 root INFO Epoch: 7/10, Steps: 1499, Learning Rate 0.0000103, Train Loss: 0.06685
+2025-02-19 19:54:39,089,89 root INFO Epoch: 7/10, Steps: 1549, Learning Rate 0.0000103, Train Loss: 0.09511
+2025-02-19 19:55:32,626,626 root INFO Epoch: 7/10, Steps: 1599, Learning Rate 0.0000102, Train Loss: 0.10079
+2025-02-19 19:56:26,202,202 root INFO Epoch: 7/10, Steps: 1649, Learning Rate 0.0000101, Train Loss: 0.09362
+2025-02-19 19:57:19,818,818 root INFO Epoch: 7/10, Steps: 1699, Learning Rate 0.0000101, Train Loss: 0.17573
+2025-02-19 19:58:13,432,432 root INFO Epoch: 7/10, Steps: 1749, Learning Rate 0.0000100, Train Loss: 0.10785
+2025-02-19 19:59:07,014,14 root INFO Epoch: 7/10, Steps: 1799, Learning Rate 0.0000100, Train Loss: 0.11947
+2025-02-19 20:00:00,572,572 root INFO Epoch: 7/10, Steps: 1849, Learning Rate 0.0000099, Train Loss: 0.13089
+2025-02-19 20:00:54,155,155 root INFO Epoch: 7/10, Steps: 1899, Learning Rate 0.0000098, Train Loss: 0.10288
+2025-02-19 20:01:47,746,746 root INFO Epoch: 7/10, Steps: 1949, Learning Rate 0.0000098, Train Loss: 0.05043
+2025-02-19 20:02:41,269,269 root INFO Epoch: 7/10, Steps: 1999, Learning Rate 0.0000097, Train Loss: 0.08756
+2025-02-19 20:03:34,846,846 root INFO Epoch: 7/10, Steps: 2049, Learning Rate 0.0000097, Train Loss: 0.10787
+2025-02-19 20:04:28,401,401 root INFO Epoch: 7/10, Steps: 2099, Learning Rate 0.0000096, Train Loss: 0.13264
+2025-02-19 20:05:21,923,923 root INFO Epoch: 7/10, Steps: 2149, Learning Rate 0.0000096, Train Loss: 0.11230
+2025-02-19 20:06:15,485,485 root INFO Epoch: 7/10, Steps: 2199, Learning Rate 0.0000095, Train Loss: 0.15842
+2025-02-19 20:07:09,071,71 root INFO Epoch: 7/10, Steps: 2249, Learning Rate 0.0000094, Train Loss: 0.11453
+2025-02-19 20:08:02,618,618 root INFO Epoch: 7/10, Steps: 2299, Learning Rate 0.0000094, Train Loss: 0.09926
+2025-02-19 20:08:56,166,166 root INFO Epoch: 7/10, Steps: 2349, Learning Rate 0.0000093, Train Loss: 0.09149
+2025-02-19 20:09:49,763,763 root INFO Epoch: 7/10, Steps: 2399, Learning Rate 0.0000093, Train Loss: 0.14139
+2025-02-19 20:10:43,331,331 root INFO Epoch: 7/10, Steps: 2449, Learning Rate 0.0000092, Train Loss: 0.08700
+2025-02-19 20:11:36,910,910 root INFO Epoch: 7/10, Steps: 2499, Learning Rate 0.0000091, Train Loss: 0.09065
+2025-02-19 20:12:30,429,429 root INFO Epoch: 7/10, Steps: 2549, Learning Rate 0.0000091, Train Loss: 0.07636
+2025-02-19 20:13:23,991,991 root INFO Epoch: 7/10, Steps: 2599, Learning Rate 0.0000090, Train Loss: 0.15300
+2025-02-19 20:14:17,558,558 root INFO Epoch: 7/10, Steps: 2649, Learning Rate 0.0000090, Train Loss: 0.09659
+2025-02-19 20:15:11,110,110 root INFO Epoch: 7/10, Steps: 2699, Learning Rate 0.0000089, Train Loss: 0.10723
+2025-02-19 20:16:04,644,644 root INFO Epoch: 7/10, Steps: 2749, Learning Rate 0.0000088, Train Loss: 0.15441
+2025-02-19 20:16:58,195,195 root INFO Epoch: 7/10, Steps: 2799, Learning Rate 0.0000088, Train Loss: 0.10258
+2025-02-19 20:17:51,756,756 root INFO Epoch: 7/10, Steps: 2849, Learning Rate 0.0000087, Train Loss: 0.13159
+2025-02-19 20:18:45,290,290 root INFO Epoch: 7/10, Steps: 2899, Learning Rate 0.0000087, Train Loss: 0.09971
+2025-02-19 20:19:38,850,850 root INFO Epoch: 7/10, Steps: 2949, Learning Rate 0.0000086, Train Loss: 0.09987
+2025-02-19 20:20:32,423,423 root INFO Epoch: 7/10, Steps: 2999, Learning Rate 0.0000085, Train Loss: 0.07857
+2025-02-19 20:21:26,025,25 root INFO Epoch: 7/10, Steps: 3049, Learning Rate 0.0000085, Train Loss: 0.16473
+2025-02-19 20:22:19,598,598 root INFO Epoch: 7/10, Steps: 3099, Learning Rate 0.0000084, Train Loss: 0.16122
+2025-02-19 20:23:13,083,83 root INFO Epoch: 7/10, Steps: 3149, Learning Rate 0.0000084, Train Loss: 0.18312
+2025-02-19 20:24:06,626,626 root INFO Epoch: 7/10, Steps: 3199, Learning Rate 0.0000083, Train Loss: 0.09220
+2025-02-19 20:25:00,183,183 root INFO Epoch: 7/10, Steps: 3249, Learning Rate 0.0000082, Train Loss: 0.09560
+2025-02-19 20:25:53,702,702 root INFO Epoch: 7/10, Steps: 3299, Learning Rate 0.0000082, Train Loss: 0.08717
+2025-02-19 20:26:47,268,268 root INFO Epoch: 7/10, Steps: 3349, Learning Rate 0.0000081, Train Loss: 0.07962
+2025-02-19 20:31:08,965,965 root INFO **Validation** , Epoch: 7/10, GlobalSteps: 27024, val_micro_f1: 0.96155, val_micro_f1_seg: 0.00000
+2025-02-19 20:32:10,037,37 root INFO Epoch: 8/10, Steps: 49, Learning Rate 0.0000080, Train Loss: 0.09067
+2025-02-19 20:33:03,659,659 root INFO Epoch: 8/10, Steps: 99, Learning Rate 0.0000080, Train Loss: 0.11483
+2025-02-19 20:33:57,262,262 root INFO Epoch: 8/10, Steps: 149, Learning Rate 0.0000079, Train Loss: 0.08804
+2025-02-19 20:34:50,872,872 root INFO Epoch: 8/10, Steps: 199, Learning Rate 0.0000078, Train Loss: 0.09384
+2025-02-19 20:35:44,445,445 root INFO Epoch: 8/10, Steps: 249, Learning Rate 0.0000078, Train Loss: 0.11043
+2025-02-19 20:36:38,014,14 root INFO Epoch: 8/10, Steps: 299, Learning Rate 0.0000077, Train Loss: 0.12047
+2025-02-19 20:37:31,615,615 root INFO Epoch: 8/10, Steps: 349, Learning Rate 0.0000077, Train Loss: 0.10853
+2025-02-19 20:38:25,187,187 root INFO Epoch: 8/10, Steps: 399, Learning Rate 0.0000076, Train Loss: 0.14582
+2025-02-19 20:39:18,846,846 root INFO Epoch: 8/10, Steps: 449, Learning Rate 0.0000075, Train Loss: 0.15610
+2025-02-19 20:40:12,469,469 root INFO Epoch: 8/10, Steps: 499, Learning Rate 0.0000075, Train Loss: 0.11385
+2025-02-19 20:41:06,053,53 root INFO Epoch: 8/10, Steps: 549, Learning Rate 0.0000074, Train Loss: 0.07136
+2025-02-19 20:41:59,646,646 root INFO Epoch: 8/10, Steps: 599, Learning Rate 0.0000074, Train Loss: 0.08940
+2025-02-19 20:42:53,218,218 root INFO Epoch: 8/10, Steps: 649, Learning Rate 0.0000073, Train Loss: 0.08023
+2025-02-19 20:43:46,834,834 root INFO Epoch: 8/10, Steps: 699, Learning Rate 0.0000072, Train Loss: 0.07502
+2025-02-19 20:44:40,451,451 root INFO Epoch: 8/10, Steps: 749, Learning Rate 0.0000072, Train Loss: 0.07406
+2025-02-19 20:45:34,046,46 root INFO Epoch: 8/10, Steps: 799, Learning Rate 0.0000071, Train Loss: 0.08456
+2025-02-19 20:46:27,684,684 root INFO Epoch: 8/10, Steps: 849, Learning Rate 0.0000071, Train Loss: 0.11923
+2025-02-19 20:47:21,369,369 root INFO Epoch: 8/10, Steps: 899, Learning Rate 0.0000070, Train Loss: 0.08945
+2025-02-19 20:48:15,004,4 root INFO Epoch: 8/10, Steps: 949, Learning Rate 0.0000069, Train Loss: 0.09738
+2025-02-19 20:49:08,652,652 root INFO Epoch: 8/10, Steps: 999, Learning Rate 0.0000069, Train Loss: 0.16391
+2025-02-19 20:50:02,256,256 root INFO Epoch: 8/10, Steps: 1049, Learning Rate 0.0000068, Train Loss: 0.11204
+2025-02-19 20:50:55,882,882 root INFO Epoch: 8/10, Steps: 1099, Learning Rate 0.0000068, Train Loss: 0.08523
+2025-02-19 20:51:49,488,488 root INFO Epoch: 8/10, Steps: 1149, Learning Rate 0.0000067, Train Loss: 0.18923
+2025-02-19 20:52:43,022,22 root INFO Epoch: 8/10, Steps: 1199, Learning Rate 0.0000066, Train Loss: 0.15359
+2025-02-19 20:53:36,589,589 root INFO Epoch: 8/10, Steps: 1249, Learning Rate 0.0000066, Train Loss: 0.08372
+2025-02-19 20:54:30,139,139 root INFO Epoch: 8/10, Steps: 1299, Learning Rate 0.0000065, Train Loss: 0.08407
+2025-02-19 20:55:23,692,692 root INFO Epoch: 8/10, Steps: 1349, Learning Rate 0.0000065, Train Loss: 0.09454
+2025-02-19 20:56:17,246,246 root INFO Epoch: 8/10, Steps: 1399, Learning Rate 0.0000064, Train Loss: 0.09918
+2025-02-19 20:57:10,812,812 root INFO Epoch: 8/10, Steps: 1449, Learning Rate 0.0000063, Train Loss: 0.13058
+2025-02-19 20:58:04,406,406 root INFO Epoch: 8/10, Steps: 1499, Learning Rate 0.0000063, Train Loss: 0.13948
+2025-02-19 20:58:57,960,960 root INFO Epoch: 8/10, Steps: 1549, Learning Rate 0.0000062, Train Loss: 0.15137
+2025-02-19 20:59:51,584,584 root INFO Epoch: 8/10, Steps: 1599, Learning Rate 0.0000062, Train Loss: 0.10103
+2025-02-19 21:00:45,159,159 root INFO Epoch: 8/10, Steps: 1649, Learning Rate 0.0000061, Train Loss: 0.20656
+2025-02-19 21:01:38,707,707 root INFO Epoch: 8/10, Steps: 1699, Learning Rate 0.0000060, Train Loss: 0.08982
+2025-02-19 21:02:32,303,303 root INFO Epoch: 8/10, Steps: 1749, Learning Rate 0.0000060, Train Loss: 0.12446
+2025-02-19 21:03:25,872,872 root INFO Epoch: 8/10, Steps: 1799, Learning Rate 0.0000059, Train Loss: 0.10873
+2025-02-19 21:04:19,457,457 root INFO Epoch: 8/10, Steps: 1849, Learning Rate 0.0000059, Train Loss: 0.07687
+2025-02-19 21:05:13,053,53 root INFO Epoch: 8/10, Steps: 1899, Learning Rate 0.0000058, Train Loss: 0.14362
+2025-02-19 21:06:06,641,641 root INFO Epoch: 8/10, Steps: 1949, Learning Rate 0.0000057, Train Loss: 0.08107
+2025-02-19 21:07:00,182,182 root INFO Epoch: 8/10, Steps: 1999, Learning Rate 0.0000057, Train Loss: 0.16978
+2025-02-19 21:07:53,833,833 root INFO Epoch: 8/10, Steps: 2049, Learning Rate 0.0000056, Train Loss: 0.09478
+2025-02-19 21:08:47,360,360 root INFO Epoch: 8/10, Steps: 2099, Learning Rate 0.0000056, Train Loss: 0.10864
+2025-02-19 21:09:40,896,896 root INFO Epoch: 8/10, Steps: 2149, Learning Rate 0.0000055, Train Loss: 0.08951
+2025-02-19 21:10:34,507,507 root INFO Epoch: 8/10, Steps: 2199, Learning Rate 0.0000055, Train Loss: 0.07937
+2025-02-19 21:11:28,102,102 root INFO Epoch: 8/10, Steps: 2249, Learning Rate 0.0000054, Train Loss: 0.09923
+2025-02-19 21:12:21,666,666 root INFO Epoch: 8/10, Steps: 2299, Learning Rate 0.0000053, Train Loss: 0.14794
+2025-02-19 21:13:15,279,279 root INFO Epoch: 8/10, Steps: 2349, Learning Rate 0.0000053, Train Loss: 0.09188
+2025-02-19 21:14:08,893,893 root INFO Epoch: 8/10, Steps: 2399, Learning Rate 0.0000052, Train Loss: 0.09937
+2025-02-19 21:15:02,460,460 root INFO Epoch: 8/10, Steps: 2449, Learning Rate 0.0000052, Train Loss: 0.15431
+2025-02-19 21:15:56,033,33 root INFO Epoch: 8/10, Steps: 2499, Learning Rate 0.0000051, Train Loss: 0.09498
+2025-02-19 21:16:49,608,608 root INFO Epoch: 8/10, Steps: 2549, Learning Rate 0.0000050, Train Loss: 0.12112
+2025-02-19 21:17:43,191,191 root INFO Epoch: 8/10, Steps: 2599, Learning Rate 0.0000050, Train Loss: 0.13434
+2025-02-19 21:18:36,739,739 root INFO Epoch: 8/10, Steps: 2649, Learning Rate 0.0000049, Train Loss: 0.11774
+2025-02-19 21:19:30,264,264 root INFO Epoch: 8/10, Steps: 2699, Learning Rate 0.0000049, Train Loss: 0.08570
+2025-02-19 21:20:23,825,825 root INFO Epoch: 8/10, Steps: 2749, Learning Rate 0.0000048, Train Loss: 0.14348
+2025-02-19 21:21:17,427,427 root INFO Epoch: 8/10, Steps: 2799, Learning Rate 0.0000047, Train Loss: 0.08338
+2025-02-19 21:22:11,045,45 root INFO Epoch: 8/10, Steps: 2849, Learning Rate 0.0000047, Train Loss: 0.19212
+2025-02-19 21:23:04,698,698 root INFO Epoch: 8/10, Steps: 2899, Learning Rate 0.0000046, Train Loss: 0.07874
+2025-02-19 21:23:58,327,327 root INFO Epoch: 8/10, Steps: 2949, Learning Rate 0.0000046, Train Loss: 0.08793
+2025-02-19 21:24:51,994,994 root INFO Epoch: 8/10, Steps: 2999, Learning Rate 0.0000045, Train Loss: 0.09716
+2025-02-19 21:25:45,629,629 root INFO Epoch: 8/10, Steps: 3049, Learning Rate 0.0000044, Train Loss: 0.11619
+2025-02-19 21:26:39,224,224 root INFO Epoch: 8/10, Steps: 3099, Learning Rate 0.0000044, Train Loss: 0.11397
+2025-02-19 21:27:32,813,813 root INFO Epoch: 8/10, Steps: 3149, Learning Rate 0.0000043, Train Loss: 0.09238
+2025-02-19 21:28:26,409,409 root INFO Epoch: 8/10, Steps: 3199, Learning Rate 0.0000043, Train Loss: 0.11563
+2025-02-19 21:29:20,021,21 root INFO Epoch: 8/10, Steps: 3249, Learning Rate 0.0000042, Train Loss: 0.07116
+2025-02-19 21:30:13,612,612 root INFO Epoch: 8/10, Steps: 3299, Learning Rate 0.0000041, Train Loss: 0.10089
+2025-02-19 21:31:07,194,194 root INFO Epoch: 8/10, Steps: 3349, Learning Rate 0.0000041, Train Loss: 0.07804
+2025-02-19 21:35:28,729,729 root INFO **Validation** , Epoch: 8/10, GlobalSteps: 30402, val_micro_f1: 0.96214, val_micro_f1_seg: 0.00000
+2025-02-19 21:36:29,836,836 root INFO Epoch: 9/10, Steps: 49, Learning Rate 0.0000040, Train Loss: 0.23125
+2025-02-19 21:37:23,424,424 root INFO Epoch: 9/10, Steps: 99, Learning Rate 0.0000039, Train Loss: 0.10166
+2025-02-19 21:38:17,054,54 root INFO Epoch: 9/10, Steps: 149, Learning Rate 0.0000039, Train Loss: 0.09616
+2025-02-19 21:39:10,602,602 root INFO Epoch: 9/10, Steps: 199, Learning Rate 0.0000038, Train Loss: 0.15610
+2025-02-19 21:40:04,179,179 root INFO Epoch: 9/10, Steps: 249, Learning Rate 0.0000037, Train Loss: 0.05933
+2025-02-19 21:40:57,811,811 root INFO Epoch: 9/10, Steps: 299, Learning Rate 0.0000037, Train Loss: 0.09177
+2025-02-19 21:41:51,359,359 root INFO Epoch: 9/10, Steps: 349, Learning Rate 0.0000036, Train Loss: 0.10286
+2025-02-19 21:42:44,887,887 root INFO Epoch: 9/10, Steps: 399, Learning Rate 0.0000036, Train Loss: 0.09009
+2025-02-19 21:43:38,449,449 root INFO Epoch: 9/10, Steps: 449, Learning Rate 0.0000035, Train Loss: 0.15654
+2025-02-19 21:44:32,004,4 root INFO Epoch: 9/10, Steps: 499, Learning Rate 0.0000034, Train Loss: 0.06156
+2025-02-19 21:45:25,590,590 root INFO Epoch: 9/10, Steps: 549, Learning Rate 0.0000034, Train Loss: 0.11453
+2025-02-19 21:46:19,194,194 root INFO Epoch: 9/10, Steps: 599, Learning Rate 0.0000033, Train Loss: 0.09103
+2025-02-19 21:47:12,764,764 root INFO Epoch: 9/10, Steps: 649, Learning Rate 0.0000033, Train Loss: 0.12568
+2025-02-19 21:48:06,358,358 root INFO Epoch: 9/10, Steps: 699, Learning Rate 0.0000032, Train Loss: 0.11644
+2025-02-19 21:48:59,903,903 root INFO Epoch: 9/10, Steps: 749, Learning Rate 0.0000031, Train Loss: 0.12401
+2025-02-19 21:49:53,466,466 root INFO Epoch: 9/10, Steps: 799, Learning Rate 0.0000031, Train Loss: 0.06410
+2025-02-19 21:50:47,038,38 root INFO Epoch: 9/10, Steps: 849, Learning Rate 0.0000030, Train Loss: 0.08787
+2025-02-19 21:51:40,619,619 root INFO Epoch: 9/10, Steps: 899, Learning Rate 0.0000030, Train Loss: 0.18428
+2025-02-19 21:52:34,222,222 root INFO Epoch: 9/10, Steps: 949, Learning Rate 0.0000029, Train Loss: 0.11482
+2025-02-19 21:53:27,776,776 root INFO Epoch: 9/10, Steps: 999, Learning Rate 0.0000028, Train Loss: 0.09444
+2025-02-19 21:54:21,373,373 root INFO Epoch: 9/10, Steps: 1049, Learning Rate 0.0000028, Train Loss: 0.06588
+2025-02-19 21:55:14,983,983 root INFO Epoch: 9/10, Steps: 1099, Learning Rate 0.0000027, Train Loss: 0.09249
+2025-02-19 21:56:08,588,588 root INFO Epoch: 9/10, Steps: 1149, Learning Rate 0.0000027, Train Loss: 0.07039
+2025-02-19 21:57:02,176,176 root INFO Epoch: 9/10, Steps: 1199, Learning Rate 0.0000026, Train Loss: 0.10749
+2025-02-19 21:57:55,815,815 root INFO Epoch: 9/10, Steps: 1249, Learning Rate 0.0000025, Train Loss: 0.09281
+2025-02-19 21:58:49,370,370 root INFO Epoch: 9/10, Steps: 1299, Learning Rate 0.0000025, Train Loss: 0.08870
+2025-02-19 21:59:42,934,934 root INFO Epoch: 9/10, Steps: 1349, Learning Rate 0.0000024, Train Loss: 0.10137
+2025-02-19 22:00:36,480,480 root INFO Epoch: 9/10, Steps: 1399, Learning Rate 0.0000024, Train Loss: 0.07494
+2025-02-19 22:01:30,096,96 root INFO Epoch: 9/10, Steps: 1449, Learning Rate 0.0000023, Train Loss: 0.13425
+2025-02-19 22:02:23,708,708 root INFO Epoch: 9/10, Steps: 1499, Learning Rate 0.0000022, Train Loss: 0.08942
+2025-02-19 22:03:17,365,365 root INFO Epoch: 9/10, Steps: 1549, Learning Rate 0.0000022, Train Loss: 0.11282
+2025-02-19 22:04:10,979,979 root INFO Epoch: 9/10, Steps: 1599, Learning Rate 0.0000021, Train Loss: 0.08874
+2025-02-19 22:05:04,589,589 root INFO Epoch: 9/10, Steps: 1649, Learning Rate 0.0000021, Train Loss: 0.10601
+2025-02-19 22:05:58,193,193 root INFO Epoch: 9/10, Steps: 1699, Learning Rate 0.0000020, Train Loss: 0.09222
+2025-02-19 22:06:51,819,819 root INFO Epoch: 9/10, Steps: 1749, Learning Rate 0.0000019, Train Loss: 0.10853
+2025-02-19 22:07:45,451,451 root INFO Epoch: 9/10, Steps: 1799, Learning Rate 0.0000019, Train Loss: 0.07621
+2025-02-19 22:08:39,072,72 root INFO Epoch: 9/10, Steps: 1849, Learning Rate 0.0000018, Train Loss: 0.08277
+2025-02-19 22:09:32,662,662 root INFO Epoch: 9/10, Steps: 1899, Learning Rate 0.0000018, Train Loss: 0.08077
+2025-02-19 22:10:26,244,244 root INFO Epoch: 9/10, Steps: 1949, Learning Rate 0.0000017, Train Loss: 0.13173
+2025-02-19 22:11:19,838,838 root INFO Epoch: 9/10, Steps: 1999, Learning Rate 0.0000016, Train Loss: 0.11794
+2025-02-19 22:12:13,470,470 root INFO Epoch: 9/10, Steps: 2049, Learning Rate 0.0000016, Train Loss: 0.08052
+2025-02-19 22:13:07,059,59 root INFO Epoch: 9/10, Steps: 2099, Learning Rate 0.0000015, Train Loss: 0.08131
+2025-02-19 22:14:00,674,674 root INFO Epoch: 9/10, Steps: 2149, Learning Rate 0.0000015, Train Loss: 0.19537
+2025-02-19 22:14:54,240,240 root INFO Epoch: 9/10, Steps: 2199, Learning Rate 0.0000014, Train Loss: 0.06618
+2025-02-19 22:15:47,839,839 root INFO Epoch: 9/10, Steps: 2249, Learning Rate 0.0000014, Train Loss: 0.16368
+2025-02-19 22:16:41,382,382 root INFO Epoch: 9/10, Steps: 2299, Learning Rate 0.0000013, Train Loss: 0.10331
+2025-02-19 22:17:34,904,904 root INFO Epoch: 9/10, Steps: 2349, Learning Rate 0.0000012, Train Loss: 0.10230
+2025-02-19 22:18:28,472,472 root INFO Epoch: 9/10, Steps: 2399, Learning Rate 0.0000012, Train Loss: 0.12049
+2025-02-19 22:19:22,012,12 root INFO Epoch: 9/10, Steps: 2449, Learning Rate 0.0000011, Train Loss: 0.10215
+2025-02-19 22:20:15,580,580 root INFO Epoch: 9/10, Steps: 2499, Learning Rate 0.0000011, Train Loss: 0.11481
+2025-02-19 22:21:09,108,108 root INFO Epoch: 9/10, Steps: 2549, Learning Rate 0.0000010, Train Loss: 0.07374
+2025-02-19 22:22:02,651,651 root INFO Epoch: 9/10, Steps: 2599, Learning Rate 0.0000009, Train Loss: 0.11028
+2025-02-19 22:22:56,233,233 root INFO Epoch: 9/10, Steps: 2649, Learning Rate 0.0000009, Train Loss: 0.14068
+2025-02-19 22:23:49,840,840 root INFO Epoch: 9/10, Steps: 2699, Learning Rate 0.0000008, Train Loss: 0.10798
+2025-02-19 22:24:43,428,428 root INFO Epoch: 9/10, Steps: 2749, Learning Rate 0.0000008, Train Loss: 0.09485
+2025-02-19 22:25:37,000,0 root INFO Epoch: 9/10, Steps: 2799, Learning Rate 0.0000007, Train Loss: 0.19571
+2025-02-19 22:26:30,587,587 root INFO Epoch: 9/10, Steps: 2849, Learning Rate 0.0000006, Train Loss: 0.13631
+2025-02-19 22:27:24,196,196 root INFO Epoch: 9/10, Steps: 2899, Learning Rate 0.0000006, Train Loss: 0.16355
+2025-02-19 22:28:17,750,750 root INFO Epoch: 9/10, Steps: 2949, Learning Rate 0.0000005, Train Loss: 0.08873
+2025-02-19 22:29:11,314,314 root INFO Epoch: 9/10, Steps: 2999, Learning Rate 0.0000005, Train Loss: 0.07506
+2025-02-19 22:30:04,893,893 root INFO Epoch: 9/10, Steps: 3049, Learning Rate 0.0000004, Train Loss: 0.12232
+2025-02-19 22:30:58,465,465 root INFO Epoch: 9/10, Steps: 3099, Learning Rate 0.0000003, Train Loss: 0.15756
+2025-02-19 22:31:52,050,50 root INFO Epoch: 9/10, Steps: 3149, Learning Rate 0.0000003, Train Loss: 0.07122
+2025-02-19 22:32:45,606,606 root INFO Epoch: 9/10, Steps: 3199, Learning Rate 0.0000002, Train Loss: 0.08170
+2025-02-19 22:33:39,197,197 root INFO Epoch: 9/10, Steps: 3249, Learning Rate 0.0000002, Train Loss: 0.17442
+2025-02-19 22:34:32,751,751 root INFO Epoch: 9/10, Steps: 3299, Learning Rate 0.0000001, Train Loss: 0.11339
+2025-02-19 22:35:26,309,309 root INFO Epoch: 9/10, Steps: 3349, Learning Rate 0.0000000, Train Loss: 0.07324
+2025-02-19 22:39:47,737,737 root INFO **Validation** , Epoch: 9/10, GlobalSteps: 33780, val_micro_f1: 0.96261, val_micro_f1_seg: 0.00000
+2025-02-19 22:41:42,450,450 root INFO "batch_size":            48
+"box_level":             segment
+"ckpt_path":             lightning_logs_ernie_edit/version_2/checkpoints/codedoc-epoch=9-val_micro_f1=0.96261.ckpt
+"data_dir":              data/rainbow_bank
+"do_predict":            False
+"do_test":               True
+"do_train":              False
+"dropout":               0.1
+"edit_label":            True
+"enable_aug":            False
+"gpus":                  1
+"learning_rate":         4e-05
+"log_every_n_steps":     10
+"max_epochs":            10
+"max_length":            1024
+"max_steps":             40000
+"ner_labels":            ClassLabel(names=['DELETE', 'INSERT_LEFT', 'KEEP', '[DUMMY]'], id=None)
+"norm_bbox_height":      1000
+"norm_bbox_width":       1000
+"num_nodes":             1
+"num_samples":           1
+"patience":              50
+"precision":             16
+"preprocess_workers":    16
+"pretrained_model_path": Norm/ERNIE-Layout-Pytorch
+"save_model_dir":        ./lightning_logs_ernie_edit
+"seed":                  42
+"strategy":              None
+"test_dataset_name":     test.txt
+"train_dataset_name":    train.txt
+"use_image":             True
+"val_test_batch_size":   48
+"valid_dataset_name":    test.txt
+"warmup_ratio":          0.01
+"weight_decay":          1e-05
+2025-02-19 22:45:40,576,576 root INFO **Test** , test_micro_f1_token_level: 0.96261

@@ -10,20 +10,15 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 
 import argparse
 import json
-from multiprocessing import Pool
-from collections import defaultdict
 from pathlib import Path
 from transformers import AutoProcessor, Qwen2VLForConditionalGeneration, LayoutLMv3ImageProcessor, NougatProcessor
-import numpy as np
 import torch
 from tqdm import tqdm
 import time
 
 from edit_trans.edit_trans_olmocr import EditTransOlmOCR, build_prompt
-from nougat.metrics import compute_metrics
 from nougat.utils.device import move_to_device
 from datasets import ClassLabel
-from PIL import Image
 
 from ernie_layout_pytorch.networks import ErnieLayoutTokenizerFast, ErnieLayoutProcessor
 from nougat.dataset.feature_processor.ernie_processor import ErnieProcessor
@@ -70,9 +65,6 @@ def test(args):
     filter_config.pretrained_model_path = 'Norm/ERNIE-Layout-Pytorch'
     set_config_for_extrapolation(filter_config)
 
-    metrics = defaultdict(list)
-    metrics_olmocr = defaultdict(list)
-
     times = {
         'filter': [],
         'edit': [],
@@ -80,6 +72,7 @@ def test(args):
         'build': [],
         'generation': []
     }
+    texts = []
 
     processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct")
     model = Qwen2VLForConditionalGeneration.from_pretrained("allenai/olmOCR-7B-0225-preview", torch_dtype=torch.bfloat16)
@@ -150,20 +143,10 @@ def test(args):
         )
 
         outputs_text_olmocr = nougat_processor.post_process_generation(outputs_text_olmocr, fix_markdown=True)
-
-        with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text, ground_truth_text))
-            for m in _metrics:
-                for key, value in m.items():
-                    metrics[key].append(value)
-            print({key: sum(values) / len(values) for key, values in metrics.items()})
-        
-        with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text_olmocr, ground_truth_text))
-            for m in _metrics:
-                for key, value in m.items():
-                    metrics_olmocr[key].append(value)
-            print({key: sum(values) / len(values) for key, values in metrics_olmocr.items()})
+        texts.append({
+            'edit': outputs_text,
+            'olmocr': outputs_text_olmocr
+        })
 
         steps_edit.append(torch.sum(steps).item())
         steps_olmocr.append(outputs_olmocr.size(0) * (outputs_olmocr.size(1)-prompt_len))
@@ -171,11 +154,6 @@ def test(args):
 
     result_path: Path = Path('results/olmocr')/(args.test_dataset_name.split('.')[0])
     result_path.mkdir(parents=True, exist_ok=True)
-    with open(result_path/'score_edit.json', 'w') as file:
-        json.dump(metrics, file, indent=2)
-    with open(result_path/'score_olmocr.json', 'w') as file:
-        json.dump(metrics_olmocr, file, indent=2)
-
     with open(result_path/'steps.json', 'w') as file:
         json.dump({
             'edit': steps_edit,
@@ -183,23 +161,17 @@ def test(args):
         }, file, indent=2)
     with open(result_path/'times.json', 'w') as file:
         json.dump(times, file, indent=2)
-    scores = {}
-    for metric, vals in metrics.items():
-        scores[f"{metric}_accuracies"] = vals
-        scores[f"{metric}_accuracy"] = np.mean(vals)
-    try:
-        print(
-            f"Total number of samples: {len(vals)}, Edit Distance (ED) based accuracy score: {scores['edit_dist_accuracy']}, BLEU score: {scores['bleu_accuracy']}, METEOR score: {scores['meteor_accuracy']}"
-        )
-    except:
-        pass
+    with open(result_path/'texts.json', 'w') as file:
+        json.dump(texts, file, indent=2)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", type=str, default='data/rainbow_bank/')
-    parser.add_argument("--test_dataset_name", type=str, default='arxiv.txt')
+    parser.add_argument("--test_dataset_name", type=str, default='bad_case.txt')
     parser.add_argument("--batch_size", "-b", type=int, default=1)
     args, left_argv = parser.parse_known_args()
-
-    predictions = test(args)
+    datasets = ['arxiv.txt', 'econ.txt', 'quant_ph.txt']
+    for dataset in datasets:
+        args.test_dataset_name = dataset
+        predictions = test(args)

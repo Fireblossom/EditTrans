@@ -42,7 +42,7 @@ class EditTransOlmOCR(PreTrainedModel):
                 if action is None:
                     tokenized_seq.append(None)
                 else:
-                    ids = torch.LongTensor(self.tokenizer.encode(action)[1:-1]).to(self.device)
+                    ids = torch.LongTensor(self.tokenizer.encode(action)).to(self.device)
                     if ids.size(0) > 5:
                         tokenized_seq.append(ids) # don't insert very short text
                     else:
@@ -118,18 +118,20 @@ class EditTransOlmOCR(PreTrainedModel):
             steps = torch.LongTensor([0]*batch_size).to(self.device)
             start_edit = time.time()
             stop_strings, add_next = self.get_next(edit_seqs)
+            next_stop_strings, next_add_next = self.get_next(edit_seqs)
             input_ids = sync_batch(olmocr_inputs['input_ids'], add_next, [0]*batch_size)
             len_before = input_ids.size(1)
             olmocr_inputs['attention_mask'] = torch.ones([batch_size,len_before]).to(device=input_ids.device, dtype=torch.long)
+            olmocr_inputs['input_ids'] = input_ids
             end_edit = time.time()
             edit_time.append(end_edit - start_edit)
             
             prepared_stopping_criteria = StoppingCriteriaList()
             prepared_stopping_criteria.append(EosTokenCriteria(self.tokenizer.eos_token_id))
             prepared_stopping_criteria.append(NGramMatchStopCriteria(stop_strings))
+            prepared_stopping_criteria.append(NGramMatchStopCriteria(next_stop_strings, ngram_size=5))
             prepared_stopping_criteria.append(MaxLengthCriteria(max_length=2048+prompt_len))
             prepared_logits_processor = LogitsProcessorList() # we don't need NoBadWords and ForcedEosToken ATM
-            olmocr_inputs['input_ids'] = input_ids
 
             start_edit_generation = time.time()
             outputs = self.olmocr_model._sample(
@@ -149,12 +151,23 @@ class EditTransOlmOCR(PreTrainedModel):
 
             while all(outputs.sequences[:,-1]!=self.tokenizer.eos_token_id): # batch not finished generation
                 start_edit = time.time()
-                stop_strings, add_next = self.get_next(edit_seqs)
-                input_ids = sync_batch(outputs.sequences, add_next, prepared_stopping_criteria[1].get_matched_add_position())
+                if prepared_stopping_criteria[1].get_matched_add_position() == -1 and prepared_stopping_criteria[2].get_matched_add_position() > 0: 
+                    # skip match
+                    stop_strings, add_next = self.get_next(edit_seqs)
+                    next_stop_strings, next_add_next = self.get_next(edit_seqs)
+                    input_ids = sync_batch(outputs.sequences, add_next, prepared_stopping_criteria[2].get_matched_add_position())
+                    prepared_stopping_criteria[1] = NGramMatchStopCriteria(stop_strings)
+                    prepared_stopping_criteria[2] = NGramMatchStopCriteria(next_stop_strings, ngram_size=5)
+                else:
+                    stop_strings, add_next = next_stop_strings, next_add_next
+                    next_stop_strings, next_add_next = self.get_next(edit_seqs)
+                    input_ids = sync_batch(outputs.sequences, add_next, prepared_stopping_criteria[1].get_matched_add_position())
+                    prepared_stopping_criteria[1] = NGramMatchStopCriteria(stop_strings)
+                    prepared_stopping_criteria[2] = NGramMatchStopCriteria(next_stop_strings, ngram_size=5)
+                
                 if input_ids.size(1)-prompt_len > 2048:
                     break # early stop
                 len_before = input_ids.size(1)
-                prepared_stopping_criteria[1] = NGramMatchStopCriteria(stop_strings)
                 end_edit = time.time()
                 edit_time.append(end_edit - start_edit)
 

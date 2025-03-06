@@ -4,31 +4,27 @@ Copyright (c) 2022-present NAVER Corp.
 MIT License
 Copyright (c) Meta Platforms, Inc. and affiliates.
 """
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+
 import argparse
 import json
-from multiprocessing import Pool
-from collections import defaultdict
 from pathlib import Path
 from transformers import NougatProcessor, VisionEncoderDecoderModel, LayoutLMv3ImageProcessor
-import numpy as np
 import torch
 from tqdm import tqdm
 import time
 
 from edit_trans.edit_trans_nougat import EditTransNougat
-from nougat.metrics import compute_metrics
 from nougat.utils.device import move_to_device
 from datasets import ClassLabel
 from PIL import Image
-import os
 from ernie_layout_pytorch.networks import ErnieLayoutTokenizerFast, ErnieLayoutProcessor
 from nougat.dataset.feature_processor.ernie_processor import ErnieProcessor
 from nougat.dataset.code_doc_dataset import RainbowBankDataset
 from ernie_layout_pytorch.networks import ErnieLayoutConfig, set_config_for_extrapolation
 
-
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-# os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 
 def test(args):
     tokenizer_config = torch.load('tokenizer_config.pt')
@@ -75,17 +71,14 @@ def test(args):
 
     edit_model.eval()
 
-    metrics = defaultdict(list)
-    metrics_nougat = defaultdict(list)
-
     times = {
         'filter': [],
         'edit': [],
         'nougat': [],
         'build': [],
         'generation': []
-
     }
+    texts = []
 
     processor = NougatProcessor.from_pretrained("facebook/nougat-base")
     model = VisionEncoderDecoderModel.from_pretrained("facebook/nougat-base")
@@ -151,21 +144,10 @@ def test(args):
             outputs_nougat, skip_special_tokens=True
         )
         outputs_text_nougat = edit_model.processor.post_process_generation(outputs_text_nougat, fix_markdown=True)
-        #text_nougat, math_nougat, table_nougat = split_text(outputs_text_nougat)
-
-        with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text, ground_truth_text))
-            for m in _metrics:
-                for key, value in m.items():
-                    metrics[key].append(value)
-            print({key: sum(values) / len(values) for key, values in metrics.items()})
-        
-        with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text_nougat, ground_truth_text))
-            for m in _metrics:
-                for key, value in m.items():
-                    metrics_nougat[key].append(value)
-            print({key: sum(values) / len(values) for key, values in metrics_nougat.items()})
+        texts.append({
+            'edit': outputs_text,
+            'nougat': outputs_text_nougat
+        })
 
         steps_edit.append(torch.sum(steps).item())
         steps_nougat.append(outputs_nougat.size(0) * outputs_nougat.size(1))
@@ -173,10 +155,6 @@ def test(args):
 
     result_path = Path('results/nougat')/(args.test_dataset_name.split('.')[0])
     result_path.mkdir(parents=True, exist_ok=True)
-    with open(result_path/'score_edit.json', 'w') as file:
-        json.dump(metrics, file, indent=2)
-    with open(result_path/'score_nougat.json', 'w') as file:
-        json.dump(metrics_nougat, file, indent=2)
 
     with open(result_path/'steps.json', 'w') as file:
         json.dump({
@@ -185,16 +163,8 @@ def test(args):
         }, file, indent=2)
     with open(result_path/'times.json', 'w') as file:
         json.dump(times, file, indent=2)
-    scores = {}
-    for metric, vals in metrics.items():
-        scores[f"{metric}_accuracies"] = vals
-        scores[f"{metric}_accuracy"] = np.mean(vals)
-    try:
-        print(
-            f"Total number of samples: {len(vals)}, Edit Distance (ED) based accuracy score: {scores['edit_dist_accuracy']}, BLEU score: {scores['bleu_accuracy']}, METEOR score: {scores['meteor_accuracy']}"
-        )
-    except:
-        pass
+    with open(result_path/'texts.json', 'w') as file:
+        json.dump(texts, file, indent=2)
 
 
 if __name__ == "__main__":
@@ -204,4 +174,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", "-b", type=int, default=1)
     args, left_argv = parser.parse_known_args()
 
-    predictions = test(args)
+    datasets = ['arxiv.txt', 'econ.txt', 'quant_ph.txt']
+    for dataset in datasets:
+        args.test_dataset_name = dataset
+        predictions = test(args)

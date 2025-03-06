@@ -4,31 +4,26 @@ Copyright (c) 2022-present NAVER Corp.
 MIT License
 Copyright (c) Meta Platforms, Inc. and affiliates.
 """
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 import argparse
 import json
-from multiprocessing import Pool
-from collections import defaultdict
 from pathlib import Path
 from transformers import Kosmos2_5Processor, Kosmos2_5ForConditionalGeneration, LayoutLMv3ImageProcessor, NougatProcessor
-import numpy as np
 import torch
 from tqdm import tqdm
 import time
 
 from edit_trans.edit_trans_kosmos import EditTransKosmos
-from nougat.metrics import compute_metrics
 from nougat.utils.device import move_to_device
 from datasets import ClassLabel
 from PIL import Image
-import os
 from ernie_layout_pytorch.networks import ErnieLayoutTokenizerFast, ErnieLayoutProcessor
 from nougat.dataset.feature_processor.ernie_processor import ErnieProcessor
 from nougat.dataset.code_doc_dataset import RainbowBankDataset
 from ernie_layout_pytorch.networks import ErnieLayoutConfig, set_config_for_extrapolation
 
-
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-# os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 
 def test(args):
     tokenizer_config = torch.load('tokenizer_config.pt')
@@ -70,17 +65,14 @@ def test(args):
     filter_config.pretrained_model_path = 'Norm/ERNIE-Layout-Pytorch'
     set_config_for_extrapolation(filter_config)
 
-    metrics = defaultdict(list)
-    metrics_kosmos = defaultdict(list)
-
     times = {
         'filter': [],
         'edit': [],
         'kosmos': [],
         'build': [],
         'generation': []
-
     }
+    texts = []
 
     processor = Kosmos2_5Processor.from_pretrained("microsoft/kosmos-2.5")
     model = Kosmos2_5ForConditionalGeneration.from_pretrained("microsoft/kosmos-2.5")
@@ -134,11 +126,9 @@ def test(args):
             outputs[:, prompt_len:], skip_special_tokens=True
         )
         outputs_text = nougat_processor.post_process_generation(outputs_text, fix_markdown=True)
-        #text, math, table = split_text(outputs_text)
 
         ground_truth_text = [ground_truth[i][:len(text)] for i, text in enumerate(outputs_text)] # keep lengths same for too long generation
         ground_truth_text = nougat_processor.post_process_generation(ground_truth_text, fix_markdown=True)
-        #text_gt, math_gt, table_gt = split_text(ground_truth_text)
 
         print('editTrans:',filter_time, build_time, sum(edit_time), sum(generation_time), sum(generation_steps))
         times['filter'].append(filter_time)
@@ -151,20 +141,10 @@ def test(args):
         )
 
         outputs_text_kosmos = nougat_processor.post_process_generation(outputs_text_kosmos, fix_markdown=True)
-
-        with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text, ground_truth_text))
-            for m in _metrics:
-                for key, value in m.items():
-                    metrics[key].append(value)
-            print({key: sum(values) / len(values) for key, values in metrics.items()})
-        
-        with Pool(args.batch_size) as p:
-            _metrics = p.starmap(compute_metrics, iterable=zip(outputs_text_kosmos, ground_truth_text))
-            for m in _metrics:
-                for key, value in m.items():
-                    metrics_kosmos[key].append(value)
-            print({key: sum(values) / len(values) for key, values in metrics_kosmos.items()})
+        texts.append({
+            'edit': outputs_text,
+            'kosmos': outputs_text_kosmos
+        })
 
         steps_edit.append(torch.sum(steps).item())
         steps_kosmos.append(outputs_kosmos.size(0) * (outputs_kosmos.size(1)-prompt_len))
@@ -172,10 +152,6 @@ def test(args):
 
     result_path: Path = Path('results/kosmos')/(args.test_dataset_name.split('.')[0])
     result_path.mkdir(parents=True, exist_ok=True)
-    with open(result_path/'score_edit.json', 'w') as file:
-        json.dump(metrics, file, indent=2)
-    with open(result_path/'score_kosmos.json', 'w') as file:
-        json.dump(metrics_kosmos, file, indent=2)
 
     with open(result_path/'steps.json', 'w') as file:
         json.dump({
@@ -184,16 +160,8 @@ def test(args):
         }, file, indent=2)
     with open(result_path/'times.json', 'w') as file:
         json.dump(times, file, indent=2)
-    scores = {}
-    for metric, vals in metrics.items():
-        scores[f"{metric}_accuracies"] = vals
-        scores[f"{metric}_accuracy"] = np.mean(vals)
-    try:
-        print(
-            f"Total number of samples: {len(vals)}, Edit Distance (ED) based accuracy score: {scores['edit_dist_accuracy']}, BLEU score: {scores['bleu_accuracy']}, METEOR score: {scores['meteor_accuracy']}"
-        )
-    except:
-        pass
+    with open(result_path/'texts.json', 'w') as file:
+        json.dump(texts, file, indent=2)
 
 
 if __name__ == "__main__":
@@ -203,4 +171,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", "-b", type=int, default=1)
     args, left_argv = parser.parse_known_args()
 
-    predictions = test(args)
+    datasets = ['arxiv.txt', 'econ.txt', 'quant_ph.txt']
+    for dataset in datasets:
+        args.test_dataset_name = dataset
+        predictions = test(args)

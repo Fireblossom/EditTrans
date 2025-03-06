@@ -8,7 +8,7 @@ class NGramMatchStopCriteria(StoppingCriteria):
     def __init__(self, stop_string: list[torch.LongTensor], ngram_size: int = 3):
         self.stop_string = stop_string
         self.ngram_size = ngram_size
-        self.match_position = 0
+        self.match_position = False
     
     def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor, **kwargs) -> torch.Tensor:
         # TODO: support batch size > 1
@@ -64,9 +64,9 @@ def build_edit_seq(logits: torch.Tensor, inputs: dict) -> list[list[str]]:
             if label == 1: # INSERT
                 if edit_seq and edit_seq[-1] is not None:
                     edit_seq.append(None)
-                match = segment_text[seg_id][i].rstrip()
+                match = segment_text[seg_id][i].strip()
                 if match and len(match) > 5:
-                    edit_seq.append(match)
+                    edit_seq.append(' ' + match)
             elif label == 0: # DELETE
                 pass
             else: # KEEP
@@ -74,14 +74,14 @@ def build_edit_seq(logits: torch.Tensor, inputs: dict) -> list[list[str]]:
                     if edit_seq and edit_seq[-1] is not None:
                         edit_seq[-1] += ' ' + segment_text[seg_id][i].lstrip()
                     else:
-                        match = segment_text[seg_id][i].rstrip()
+                        match = segment_text[seg_id][i].strip()
                         if match and len(match) > 5:
-                            edit_seq.append(match)
+                            edit_seq.append(' ' + match)
         if not edit_seq: # empty page?
             edit_seq.append(None)
         elif len(segment_text) >= max(vote.keys()) and edit_seq[-1] is not None:
             edit_seq.append(None) # this page longer than filter prediction, do more insert
-        edit_seqs.append(edit_seq)
+        edit_seqs.append([seq.replace('- ', '') if seq else seq for seq in edit_seq])
     return edit_seqs
 
 

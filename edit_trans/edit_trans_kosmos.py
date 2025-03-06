@@ -35,7 +35,7 @@ class EditTransKosmos(PreTrainedModel):
                 if action is None:
                     tokenized_seq.append(None)
                 else:
-                    ids = torch.LongTensor(self.tokenizer.encode(action)[1:-1]).to(self.device)
+                    ids = torch.LongTensor(self.tokenizer.encode(action)).to(self.device)
                     if ids.size(0) > 5:
                         tokenized_seq.append(ids) # don't insert very short text
                     else:
@@ -143,7 +143,7 @@ class EditTransKosmos(PreTrainedModel):
             generation_time.append(end_edit_generation - start_edit_generation)
             generate_steps.append(len_after-len_before)
 
-            while any(outputs.sequences[:,-1]>2): # batch not finished generation
+            while all(outputs.sequences[:,-1]!=self.tokenizer.eos_token_id): # batch not finished generation
                 start_edit = time.time()
                 stop_strings, add_next = self.get_next(edit_seqs)
                 input_ids = sync_batch(outputs.sequences, add_next, prepared_stopping_criteria[1].get_matched_add_position())
