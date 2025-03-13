@@ -205,8 +205,10 @@ def read_and_resize_image(path:str | Path, target_longest_image_dim=1024) -> Ima
         new_width = int(width * target_longest_image_dim / height)
     img = img.resize((new_width, new_height), Image.LANCZOS)
     buffered = BytesIO()
-    img.save(buffered, format="png")
-    image_base64 = base64.b64encode(buffered.getvalue())
+    img.save(buffered, format="JPEG")
+    buffered.seek(0)
+    mg_bytes = buffered.read()
+    image_base64 = base64.b64encode(mg_bytes)
     return img, image_base64
 
 

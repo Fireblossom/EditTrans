@@ -92,5 +92,3 @@ token_list, token_indices = stop.clean_tokenizer_vocab(tokenizer)
 
 # %%
 token_valid_positions, token_end_overlaps = stop._stop_string_get_matching_positions(token_list, token_indices, ['abc'])
-
-

@@ -290,7 +290,6 @@ class LightningRunner:
             trainer.test(model, data_module, ckpt_path='best' if self.args.ckpt_path is None else self.args.ckpt_path)
         
 
-
 def main(args):
     runner = LightningRunner(args)
     runner.run()

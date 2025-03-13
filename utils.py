@@ -1,9 +1,7 @@
-from transformers import AutoTokenizer, LayoutLMTokenizerFast
 import torch
 from PIL import Image
 from io import BytesIO
 from numpy import clip
-from src.modules.utils import distance
 
 import fitz
 FLAGS = fitz.TEXTFLAGS_DICT | fitz.TEXT_DEHYPHENATE & ~fitz.TEXT_PRESERVE_IMAGES
