@@ -16,6 +16,10 @@ root
 └── test_*.py                  >>  get scores for the baseline and EditTrans
 ```
 
+## Examples
+Please see `data/rainbow_bank/images/` for sample images.
+You can find the example of data annotation [here](https://github.com/InsightsNet/texannotate/blob/main/doc/example.ipynb). 
+
 ## Acknowledgments
 Dataset is annotated by [LaTeX Rainbow](https://github.com/InsightsNet/texannotate).
 
