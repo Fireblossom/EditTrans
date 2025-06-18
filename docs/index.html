@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h3 style="color:rgb(165, 35, 28); padding: 2px 0;"> ICDAR 2025 ∙ Long Paper ∙ X </h3>
+            <h2 style="padding: 10px 0;"> Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown </h2>
+            <h4> Author(s): 
+                <a id="paper_link" href="https://fireblossom.github.io/">Changxu Duan</a>
+            </h4>
+            <h4>
+                [<a id="paper_link" href="https://github.com/Fireblossom/EditTrans">Code</a>]
+                [<a id="paper_link">PDF</a> (Coming Soon)] 
+            </h4>
+        </header>
+        
+        <div class="overview">
+            <h3>Overview</h3>
+            <p>
+                Academic PDFs are difficult to convert into structured formats due to their complex layouts: figures, tables, equations, densely packed text, etc. 
+                Existing vision-language models (e.g. Nougat, OlmOCR) typically regenerate the entire content from scratch, even when much of the text could simply be reused. 
+            </p>
+            <p>
+                In this work, we present <span id="p_bold"> EditTrans</span>, a layout-aware editing framework that significantly accelerates the <span id="p_bold"> PDF-to-Markdown </span> conversion process. 
+                By intelligently distinguishing between reusable and generative content, EditTrans reduces redundant computation and directs vision-language models to only generate what’s necessary.
+            </p>
+            <p>
+                Empirically, EditTrans achieves up to <span id="p_bold"> 44% reduction in transformation latency</span> and <span id="p_bold"> saves over 43% of decoding steps</span> across datasets like arXiv and Quantum Physics, without compromising output quality.
+                In most cases, it even slightly improves fidelity, as measured by edit distance, F1 score, and translation metrics. These gains make EditTrans a practical and scalable solution that enabling efficient and accessible scholarly content transformation at scale.
+            </p>
+            <div class="image-container">
+                <img src="img/process.png" alt="Overview of EditTrans" class="overview-image">
+                <p class="image-caption">Overview of EditTrans: A layout-aware editing framework for efficient PDF-to-Markdown conversion.</p>
+            </div>
+
+            <h4>How it works:</h4>
+            <ul>
+                <li> <span id="p_bold"> Document Analysis</span>: Starting with an academic PDF, the system identifies and separates reusable plain text from complex content such as figures, tables, and mathematical formulas. </li>
+                <li> <span id="p_bold"> Placeholder Insertion</span>: The reusable text is preserved as-is, while placeholders ([MARK]) are inserted in locations where transformation is needed. </li>
+                <li> <span id="p_bold"> Context-Aware Generation</span>: Using both the original document (converted to PNG) and the placeholder-annotated text, a vision-language model (VLM) fills in the [MARK] regions with appropriately formatted content, such as LaTeX for formulas or HTML for tables. </li>
+                <li> <span id="p_bold"> Markdown Output</span>: The final output is a clean, well-structured Markdown document that combines directly reused content with high-fidelity generated elements, optimized for both readability and computational efficiency. </li>
+            </ul>
+        </div>
+
+        <div class="citation">
+            <h3>How to Cite</h3>
+            <div class="bibtex-box">
+                <button class="copy-btn" onclick="copyBib()">Copy BibTeX</button>
+                <pre id="bibtex">
+@inproceedings{duan-2025-editrans,
+    author    = {Changxu Duan},
+    title     = {Layout-Aware Text Editing for Efficient Transformation of Academic PDFs to Markdown},
+    booktitle = {Proceedings of the 19th International Conference on Document Analysis and Recognition (ICDAR)},
+    year      = {2025},
+    month     = {September},
+    address   = {Wuhan, China}
+}
+                </pre>
+            </div>
+            <div id="popup" class="popup">BibTeX copied!</div>
+            </div>
+        <script>
+            function copyBib() {
+            const text = document.getElementById("bibtex").innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const popup = document.getElementById("popup");
+                popup.style.display = "block";
+                setTimeout(() => {
+                popup.style.display = "none";
+                }, 500);
+            });
+            }
+        </script>
+    <footer>
+        <p>Copyright &copy; 2025. All rights reserved.</p>
+    </footer>
+    </main>
+</body>
+</html>
