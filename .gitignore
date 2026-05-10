@@ -158,3 +158,5 @@ kosmos_4bit*
 ./rainbow_bank*
 outputs*
 data/copy_outputs.ipynb
+
+.DS_Store
